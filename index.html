@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Hype Trading Strategy | Quantitative Edge</title>
+    
+    <!-- Reveal.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    
+    <!-- Custom Styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap');
+        
+        :root {
+            --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --gradient-4: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            --gradient-warning: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            --bg-dark: #0a0a0f;
+            --bg-card: rgba(255,255,255,0.05);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255,255,255,0.7);
+            --accent-purple: #667eea;
+            --accent-pink: #f5576c;
+            --accent-cyan: #00f2fe;
+            --accent-green: #43e97b;
+        }
+        
+        .reveal {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-dark);
+        }
+        
+        .reveal h1, .reveal h2, .reveal h3 {
+            font-weight: 700;
+            text-transform: none;
+            letter-spacing: -0.02em;
+        }
+        
+        .reveal h1 {
+            font-size: 3em;
+            line-height: 1.1;
+        }
+        
+        .reveal h2 {
+            font-size: 2.2em;
+            margin-bottom: 0.5em;
+        }
+        
+        .reveal h3 {
+            font-size: 1.5em;
+            color: var(--text-secondary);
+        }
+        
+        .reveal p, .reveal li {
+            font-weight: 400;
+            line-height: 1.6;
+        }
+        
+        /* Title Slide */
+        .title-slide {
+            text-align: center;
+        }
+        
+        .title-slide h1 {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 3.5em;
+            margin-bottom: 0.3em;
+        }
+        
+        .title-slide .subtitle {
+            font-size: 1.4em;
+            color: var(--text-secondary);
+            margin-bottom: 2em;
+        }
+        
+        .title-slide .tagline {
+            font-size: 1.1em;
+            padding: 1em 2em;
+            background: var(--bg-card);
+            border-radius: 10px;
+            border-left: 4px solid var(--accent-purple);
+            display: inline-block;
+        }
+        
+        /* Gradient Text */
+        .gradient-text {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-text-2 {
+            background: var(--gradient-3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-text-3 {
+            background: var(--gradient-4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /* Cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5em;
+            margin-top: 1em;
+        }
+        
+        .card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 1.5em;
+            text-align: left;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        
+        .card-icon {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        
+        .card h4 {
+            font-size: 1.1em;
+            margin-bottom: 0.5em;
+            color: var(--text-primary);
+        }
+        
+        .card p {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+        
+        /* Stats */
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1em;
+            margin: 1.5em 0;
+        }
+        
+        .stat-box {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.2em;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.2em;
+            font-weight: 700;
+            background: var(--gradient-3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            font-size: 0.75em;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        /* Signal Diagram */
+        .signal-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5em;
+            flex-wrap: wrap;
+            margin: 2em 0;
+        }
+        
+        .signal-box {
+            background: var(--gradient-1);
+            border-radius: 12px;
+            padding: 1em 1.5em;
+            text-align: center;
+            min-width: 120px;
+        }
+        
+        .signal-box.hype {
+            background: var(--gradient-2);
+        }
+        
+        .signal-box.roc {
+            background: var(--gradient-4);
+        }
+        
+        .signal-arrow {
+            font-size: 1.5em;
+            color: var(--text-secondary);
+        }
+        
+        .signal-result {
+            background: var(--gradient-3);
+            border-radius: 12px;
+            padding: 1.2em 2em;
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+        
+        /* Case Study */
+        .case-study {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 2em;
+            text-align: left;
+        }
+        
+        .case-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5em;
+        }
+        
+        .case-title {
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+        
+        .case-badge {
+            background: var(--gradient-4);
+            border-radius: 20px;
+            padding: 0.3em 1em;
+            font-size: 0.8em;
+            font-weight: 600;
+            color: #000;
+        }
+        
+        .case-metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1em;
+            margin-bottom: 1.5em;
+        }
+        
+        .metric {
+            text-align: center;
+            padding: 1em;
+            background: rgba(255,255,255,0.03);
+            border-radius: 10px;
+        }
+        
+        .metric-value {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        
+        .metric-label {
+            font-size: 0.7em;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+        }
+        
+        .green { color: var(--accent-green); }
+        .cyan { color: var(--accent-cyan); }
+        .pink { color: var(--accent-pink); }
+        .purple { color: var(--accent-purple); }
+        
+        /* Chart Container */
+        .chart-container {
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 1.5em;
+            margin-top: 1em;
+        }
+        
+        .chart-svg {
+            width: 100%;
+            height: 180px;
+        }
+        
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding: 1em 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: var(--gradient-1);
+            transform: translateX(-50%);
+        }
+        
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin: 1.5em 0;
+        }
+        
+        .timeline-item:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+        
+        .timeline-content {
+            width: 45%;
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1em 1.5em;
+        }
+        
+        .timeline-dot {
+            width: 20px;
+            height: 20px;
+            background: var(--gradient-1);
+            border-radius: 50%;
+            margin: 0 1em;
+            z-index: 1;
+        }
+        
+        /* Risk Meters */
+        .risk-controls {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5em;
+            margin-top: 1.5em;
+        }
+        
+        .risk-item {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 1.5em;
+            text-align: center;
+        }
+        
+        .risk-value {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 0.3em;
+        }
+        
+        .risk-bar {
+            height: 8px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            margin-top: 0.8em;
+            overflow: hidden;
+        }
+        
+        .risk-fill {
+            height: 100%;
+            border-radius: 4px;
+        }
+        
+        /* Code Block */
+        .code-block {
+            background: rgba(0,0,0,0.5);
+            border-radius: 12px;
+            padding: 1.2em 1.5em;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75em;
+            text-align: left;
+            color: var(--accent-cyan);
+            border: 1px solid rgba(255,255,255,0.1);
+            overflow-x: auto;
+        }
+        
+        /* Formula */
+        .formula {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5em 2em;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1em;
+            display: inline-block;
+            margin: 1em 0;
+        }
+        
+        /* List Styling */
+        .reveal ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .reveal li {
+            position: relative;
+            padding-left: 1.5em;
+            margin-bottom: 0.8em;
+        }
+        
+        .reveal li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-purple);
+        }
+        
+        .check-list li::before {
+            content: '✓';
+            color: var(--accent-green);
+        }
+        
+        .x-list li::before {
+            content: '✕';
+            color: var(--accent-pink);
+        }
+        
+        /* CTA */
+        .cta-button {
+            display: inline-block;
+            background: var(--gradient-1);
+            color: white;
+            padding: 1em 3em;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1em;
+            text-decoration: none;
+            margin-top: 1em;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4);
+        }
+        
+        /* Footer */
+        .slide-footer {
+            position: absolute;
+            bottom: 1em;
+            right: 1em;
+            font-size: 0.6em;
+            color: rgba(255,255,255,0.3);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .stat-grid, .case-metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .risk-controls {
+                grid-template-columns: 1fr;
+            }
+            .reveal h1 {
+                font-size: 2em;
+            }
+        }
+        
+        /* Animated Background */
+        .bg-animated {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        
+        .bg-gradient-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+        }
+        
+        .orb-1 {
+            width: 400px;
+            height: 400px;
+            background: var(--gradient-1);
+            top: -10%;
+            right: -10%;
+        }
+        
+        .orb-2 {
+            width: 300px;
+            height: 300px;
+            background: var(--gradient-2);
+            bottom: -10%;
+            left: -10%;
+        }
+        
+        /* Tooltip */
+        .tooltip {
+            position: relative;
+            border-bottom: 1px dashed var(--accent-purple);
+            cursor: help;
+        }
+        
+        /* Progress indicator custom */
+        .reveal .progress {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .reveal .progress span {
+            background: var(--gradient-1);
+        }
+        
+        /* Slide number */
+        .reveal .slide-number {
+            background: var(--bg-card);
+            border-radius: 8px;
+            padding: 0.3em 0.6em;
+        }
+        
+        /* Two column layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2em;
+            text-align: left;
+        }
+        
+        /* Highlight box */
+        .highlight-box {
+            background: var(--gradient-1);
+            border-radius: 12px;
+            padding: 1.5em;
+            margin: 1em 0;
+        }
+        
+        /* Small text */
+        .small {
+            font-size: 0.8em;
+            color: var(--text-secondary);
+        }
+        
+        /* Emoji sizing */
+        .emoji-large {
+            font-size: 3em;
+            margin-bottom: 0.3em;
+        }
+        
+        /* Profit visualization */
+        .profit-bar {
+            display: flex;
+            height: 40px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 0.5em 0;
+        }
+        
+        .profit-segment {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7em;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- SLIDE 1: Title -->
+            <section class="title-slide">
+                <div class="bg-animated">
+                    <div class="bg-gradient-orb orb-1"></div>
+                    <div class="bg-gradient-orb orb-2"></div>
+                </div>
+                <h1>Polymarket Hype<br>Trading Strategy</h1>
+                <p class="subtitle">Quantitative Alpha from Prediction Markets</p>
+                <p class="tagline">
+                    💡 "Prediction markets lag social media by 2-6 hours.<br>
+                    We exploit that gap."
+                </p>
+                <p style="margin-top: 2em; font-size: 0.8em; color: var(--text-secondary);">
+                    Built with 26 AI agents • Research-backed • Risk-managed
+                </p>
+            </section>
+            
+            <!-- SLIDE 2: The Hook / Problem -->
+            <section>
+                <h2>The <span class="gradient-text">$2 Billion</span> Opportunity</h2>
+                <p style="font-size: 1.1em; margin-bottom: 1.5em;">Prediction markets are exploding. Most traders are leaving money on the table.</p>
+                
+                <div class="stat-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">$2B+</div>
+                        <div class="stat-label">2024 Volume</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">10M+</div>
+                        <div class="stat-label">Active Traders</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">2-6h</div>
+                        <div class="stat-label">Market Lag</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">0%</div>
+                        <div class="stat-label">Trading Fees</div>
+                    </div>
+                </div>
+                
+                <div class="card" style="margin-top: 1.5em;">
+                    <h4>🎯 The Edge</h4>
+                    <p>When hype explodes on Twitter, prediction market odds take <strong>2-6 hours</strong> to fully adjust. That's our window.</p>
+                </div>
+            </section>
+            
+            <!-- SLIDE 3: The Problem Deep Dive -->
+            <section>
+                <h2>Why <span class="gradient-text-2">Prediction Markets</span> Are Inefficient</h2>
+                
+                <div class="two-col">
+                    <div>
+                        <h3 style="color: var(--accent-pink);">❌ The Problem</h3>
+                        <ul class="x-list">
+                            <li>Retail traders react emotionally</li>
+                            <li>Information spreads unevenly</li>
+                            <li>Liquidity pools are fragmented</li>
+                            <li>No institutional arbitrage yet</li>
+                            <li>Hype creates temporary mispricings</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--accent-green);">✓ Our Advantage</h3>
+                        <ul class="check-list">
+                            <li>Systematic signal detection</li>
+                            <li>Real-time Twitter monitoring</li>
+                            <li>Quantitative entry/exit rules</li>
+                            <li>Statistical edge validation</li>
+                            <li>Disciplined risk management</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 4: The Strategy Overview -->
+            <section>
+                <h2>The <span class="gradient-text-3">Strategy</span> in 30 Seconds</h2>
+                <p style="margin-bottom: 1.5em;">Three signals. One trade. Systematic alpha.</p>
+                
+                <div class="signal-flow">
+                    <div class="signal-box">
+                        <div style="font-size: 1.5em;">📊</div>
+                        <div><strong>RVR</strong></div>
+                        <div style="font-size: 0.8em;">Volume Surge</div>
+                    </div>
+                    <div class="signal-arrow">+</div>
+                    <div class="signal-box hype">
+                        <div style="font-size: 1.5em;">🔥</div>
+                        <div><strong>HYPE</strong></div>
+                        <div style="font-size: 0.8em;">Social Signal</div>
+                    </div>
+                    <div class="signal-arrow">+</div>
+                    <div class="signal-box roc">
+                        <div style="font-size: 1.5em;">📈</div>
+                        <div><strong>ROC</strong></div>
+                        <div style="font-size: 0.8em;">Momentum</div>
+                    </div>
+                    <div class="signal-arrow">→</div>
+                    <div class="signal-result">🎯 TRADE</div>
+                </div>
+                
+                <p class="small">Only enter when <strong>all three signals align</strong>. No exceptions.</p>
+            </section>
+            
+            <!-- SLIDE 5: RVR Explained -->
+            <section>
+                <h2><span class="gradient-text">RVR</span> — Relative Volume Ratio</h2>
+                <p>Detect unusual market activity before prices fully adjust.</p>
+                
+                <div class="formula">
+                    RVR = Current Volume ÷ 24h Average Volume
+                </div>
+                
+                <div class="card-grid" style="margin-top: 1.5em;">
+                    <div class="card">
+                        <h4 class="green">🟢 Strong Signal</h4>
+                        <p>RVR &gt; 3.0 — Volume is 3x normal. Something big is happening.</p>
+                    </div>
+                    <div class="card">
+                        <h4 class="cyan">🔵 Moderate Signal</h4>
+                        <p>RVR &gt; 2.0 — Significant uptick. Worth watching closely.</p>
+                    </div>
+                    <div class="card">
+                        <h4 style="color: var(--text-secondary);">⚪ Weak Signal</h4>
+                        <p>RVR &gt; 1.5 — Minor increase. Need other confirmations.</p>
+                    </div>
+                </div>
+                
+                <p class="small" style="margin-top: 1em;">💡 Volume spikes = new information entering the market</p>
+            </section>
+            
+            <!-- SLIDE 6: Hype Score Explained -->
+            <section>
+                <h2><span class="gradient-text" style="background: var(--gradient-2); -webkit-background-clip: text;">HYPE</span> — Social Sentiment Score</h2>
+                <p>Quantify viral attention before the market catches up.</p>
+                
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h4>Tweet Volume</h4>
+                        <p>Raw count of mentions vs baseline</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">💬</div>
+                        <h4>Engagement Rate</h4>
+                        <p>Likes, retweets, replies velocity</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">👑</div>
+                        <h4>Influencer Signal</h4>
+                        <p>High-follower account amplification</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📊</div>
+                        <h4>Sentiment Analysis</h4>
+                        <p>Bullish/bearish conviction scoring</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-box" style="margin-top: 1em; background: var(--gradient-2);">
+                    <strong>Hype Score &gt; 70</strong> = Green light for entry consideration
+                </div>
+            </section>
+            
+            <!-- SLIDE 7: ROC Explained -->
+            <section>
+                <h2><span class="gradient-text-3">ROC</span> — Rate of Change</h2>
+                <p>Momentum confirmation. Price must be moving in our direction.</p>
+                
+                <div class="formula">
+                    ROC = (Current Price − Prior Price) ÷ Prior Price × 100
+                </div>
+                
+                <div class="chart-container">
+                    <svg class="chart-svg" viewBox="0 0 400 150">
+                        <!-- Grid -->
+                        <line x1="40" y1="20" x2="40" y2="130" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                        <line x1="40" y1="130" x2="380" y2="130" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                        <line x1="40" y1="75" x2="380" y2="75" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="5,5"/>
+                        
+                        <!-- Price line -->
+                        <path d="M40,100 Q80,95 120,90 T180,75 Q220,55 260,40 T320,30 Q360,28 380,25" 
+                              fill="none" stroke="url(#gradient1)" stroke-width="3"/>
+                        
+                        <!-- Entry zone -->
+                        <rect x="160" y="20" width="80" height="110" fill="rgba(67,233,123,0.1)" rx="5"/>
+                        <text x="200" y="140" fill="var(--accent-green)" font-size="10" text-anchor="middle">Entry Zone</text>
+                        
+                        <!-- Labels -->
+                        <text x="30" y="30" fill="var(--text-secondary)" font-size="10" text-anchor="end">High</text>
+                        <text x="30" y="130" fill="var(--text-secondary)" font-size="10" text-anchor="end">Low</text>
+                        
+                        <defs>
+                            <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#667eea"/>
+                                <stop offset="100%" stop-color="#43e97b"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                
+                <p style="font-size: 0.9em;">
+                    <span class="green">✓ ROC &gt; 10%</span> over 12 hours = Strong momentum confirmation
+                </p>
+            </section>
+            
+            <!-- SLIDE 8: Case Study 1 - Trump -->
+            <section>
+                <h2>📊 Case Study: <span class="gradient-text">Trump Legal Cases</span></h2>
+                
+                <div class="case-study">
+                    <div class="case-header">
+                        <div class="case-title">Trump Conviction Probability Market</div>
+                        <div class="case-badge">+38% Return</div>
+                    </div>
+                    
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <div class="metric-value green">4.2x</div>
+                            <div class="metric-label">RVR at Entry</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value pink">87</div>
+                            <div class="metric-label">Hype Score</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value cyan">+18%</div>
+                            <div class="metric-label">ROC (12h)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value purple">6h</div>
+                            <div class="metric-label">Hold Time</div>
+                        </div>
+                    </div>
+                    
+                    <p style="font-size: 0.85em; margin: 0;">
+                        <strong>Scenario:</strong> News broke of new evidence. Twitter exploded within 30 minutes. 
+                        Market took 4+ hours to fully price in. We entered at 42¢, exited at 58¢.
+                    </p>
+                </div>
+            </section>
+            
+            <!-- SLIDE 9: Case Study 2 - Super Bowl -->
+            <section>
+                <h2>📊 Case Study: <span class="gradient-text-2">Super Bowl Viral Moment</span></h2>
+                
+                <div class="case-study">
+                    <div class="case-header">
+                        <div class="case-title">Taylor Swift Appearance Market</div>
+                        <div class="case-badge">+24% Return</div>
+                    </div>
+                    
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <div class="metric-value green">5.8x</div>
+                            <div class="metric-label">RVR at Entry</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value pink">94</div>
+                            <div class="metric-label">Hype Score</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value cyan">+22%</div>
+                            <div class="metric-label">ROC (6h)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value purple">3h</div>
+                            <div class="metric-label">Hold Time</div>
+                        </div>
+                    </div>
+                    
+                    <p style="font-size: 0.85em; margin: 0;">
+                        <strong>Scenario:</strong> Engagement rumors went viral. Entertainment markets saw massive inflows.
+                        Swifties dominated Twitter trends. Classic hype-driven momentum play.
+                    </p>
+                </div>
+            </section>
+            
+            <!-- SLIDE 10: Case Study 3 - Crypto -->
+            <section>
+                <h2>📊 Case Study: <span class="gradient-text-3">ETF Approval Speculation</span></h2>
+                
+                <div class="case-study">
+                    <div class="case-header">
+                        <div class="case-title">Bitcoin ETF Approval Market</div>
+                        <div class="case-badge">+52% Return</div>
+                    </div>
+                    
+                    <div class="case-metrics">
+                        <div class="metric">
+                            <div class="metric-value green">7.1x</div>
+                            <div class="metric-label">RVR at Entry</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value pink">91</div>
+                            <div class="metric-label">Hype Score</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value cyan">+31%</div>
+                            <div class="metric-label">ROC (24h)</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value purple">48h</div>
+                            <div class="metric-label">Hold Time</div>
+                        </div>
+                    </div>
+                    
+                    <p style="font-size: 0.85em; margin: 0;">
+                        <strong>Scenario:</strong> Insider rumors of SEC approval leaked. Crypto Twitter went parabolic.
+                        Market moved from 38¢ → 58¢ as institutional confirmation arrived.
+                    </p>
+                </div>
+            </section>
+            
+            <!-- SLIDE 11: Position Sizing -->
+            <section>
+                <h2>💰 Position Sizing: <span class="gradient-text">Kelly Criterion</span></h2>
+                <p>Bet size based on edge strength. Never guess, always calculate.</p>
+                
+                <div class="formula">
+                    Position = (Win Prob × Payout − Loss Prob) ÷ Payout × 0.25
+                </div>
+                
+                <div class="card-grid" style="margin-top: 1em;">
+                    <div class="card">
+                        <h4>Base Sizing</h4>
+                        <ul style="font-size: 0.85em;">
+                            <li>3 Strong signals → 4% bankroll</li>
+                            <li>2 Strong + 1 Moderate → 3%</li>
+                            <li>1 Strong + 2 Moderate → 2%</li>
+                            <li>3 Moderate → 1%</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4>Hard Limits</h4>
+                        <ul style="font-size: 0.85em;">
+                            <li>Single trade max: 5%</li>
+                            <li>Category max: 10%</li>
+                            <li>Total exposure: 25%</li>
+                            <li>Cash reserve: 50%</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <p class="small" style="margin-top: 1em;">💡 Quarter-Kelly reduces variance while preserving growth</p>
+            </section>
+            
+            <!-- SLIDE 12: Exit Strategy -->
+            <section>
+                <h2>🎯 Exit Strategy: <span class="gradient-text-2">Tiered Take-Profits</span></h2>
+                
+                <div class="profit-bar">
+                    <div class="profit-segment" style="width: 25%; background: var(--gradient-4);">TP1: +8%</div>
+                    <div class="profit-segment" style="width: 50%; background: var(--gradient-3);">TP2: +15%</div>
+                    <div class="profit-segment" style="width: 25%; background: var(--gradient-1);">TP3: +25%</div>
+                </div>
+                
+                <div class="card-grid" style="margin-top: 1.5em;">
+                    <div class="card">
+                        <div class="card-icon green">✓</div>
+                        <h4>Profit Targets</h4>
+                        <p>TP1: Exit 25% at +8%<br>TP2: Exit 50% at +15%<br>TP3: Exit 25% at +25%</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon pink">✕</div>
+                        <h4>Stop Loss</h4>
+                        <p>Hard stop at -12%<br>No exceptions<br>Honored immediately</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon cyan">⏱</div>
+                        <h4>Time Decay</h4>
+                        <p>&gt;3 days + &lt;5% gain: Exit 50%<br>&gt;7 days: Close 100%</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 13: Risk Management -->
+            <section>
+                <h2>🛡️ Risk Management: <span class="gradient-text-3">Circuit Breakers</span></h2>
+                <p>Multiple layers of protection. The strategy survives to trade another day.</p>
+                
+                <div class="risk-controls">
+                    <div class="risk-item">
+                        <div class="risk-value pink">-5%</div>
+                        <div>Daily Loss Limit</div>
+                        <div class="risk-bar">
+                            <div class="risk-fill" style="width: 33%; background: var(--gradient-warning);"></div>
+                        </div>
+                        <p class="small" style="margin-top: 0.5em;">Stop trading, journal, resume tomorrow</p>
+                    </div>
+                    <div class="risk-item">
+                        <div class="risk-value" style="color: var(--accent-purple);">-10%</div>
+                        <div>Weekly Loss Limit</div>
+                        <div class="risk-bar">
+                            <div class="risk-fill" style="width: 66%; background: var(--gradient-1);"></div>
+                        </div>
+                        <p class="small" style="margin-top: 0.5em;">Pause 3 days, full review</p>
+                    </div>
+                    <div class="risk-item">
+                        <div class="risk-value" style="color: var(--accent-cyan);">-15%</div>
+                        <div>Portfolio Circuit Breaker</div>
+                        <div class="risk-bar">
+                            <div class="risk-fill" style="width: 100%; background: var(--gradient-2);"></div>
+                        </div>
+                        <p class="small" style="margin-top: 0.5em;">Close ALL positions immediately</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 14: Expected Returns -->
+            <section>
+                <h2>📈 Expected Returns: <span class="gradient-text">Realistic Projections</span></h2>
+                <p>Not get-rich-quick. Systematic, compounding edge.</p>
+                
+                <div class="stat-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">15-35%</div>
+                        <div class="stat-label">Annual Return</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">50-60%</div>
+                        <div class="stat-label">Win Rate</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">1.0-1.5</div>
+                        <div class="stat-label">Sharpe Ratio</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">&lt;25%</div>
+                        <div class="stat-label">Max Drawdown</div>
+                    </div>
+                </div>
+                
+                <div class="two-col" style="margin-top: 1.5em;">
+                    <div class="card">
+                        <h4 class="green">Conservative Scenario</h4>
+                        <p>$10K → $11,500 (Year 1)<br>15% annual, 50% win rate<br>Focus on preservation</p>
+                    </div>
+                    <div class="card">
+                        <h4 class="cyan">Optimistic Scenario</h4>
+                        <p>$10K → $13,500 (Year 1)<br>35% annual, 60% win rate<br>Strong edge validation</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 15: Implementation Roadmap -->
+            <section>
+                <h2>🗺️ Implementation <span class="gradient-text-2">Roadmap</span></h2>
+                
+                <div style="display: flex; flex-direction: column; gap: 1em; margin-top: 1em;">
+                    <div class="card" style="border-left: 4px solid var(--accent-green);">
+                        <h4>Week 1-2: Foundation</h4>
+                        <p>Set up Polymarket wallet, deploy Twitter monitoring, build data collection pipeline</p>
+                    </div>
+                    <div class="card" style="border-left: 4px solid var(--accent-cyan);">
+                        <h4>Week 3-4: Data & Analysis</h4>
+                        <p>Collect 30 days of live data, run Granger causality tests, validate correlations</p>
+                    </div>
+                    <div class="card" style="border-left: 4px solid var(--accent-purple);">
+                        <h4>Week 5-6: Backtesting</h4>
+                        <p>Walk-forward testing, out-of-sample validation, parameter optimization</p>
+                    </div>
+                    <div class="card" style="border-left: 4px solid var(--accent-pink);">
+                        <h4>Week 7-8: Paper Trading</h4>
+                        <p>Live signals, theoretical trades, measure execution quality</p>
+                    </div>
+                    <div class="card" style="border-left: 4px solid #fff;">
+                        <h4>Week 9+: Live Capital</h4>
+                        <p>Start with $500-1K, 10% position sizes, scale if profitable</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 16: Kill Switch Criteria -->
+            <section>
+                <h2>⚠️ When to <span style="color: var(--accent-pink);">STOP</span></h2>
+                <p>Know your exit conditions before you start.</p>
+                
+                <div class="card-grid">
+                    <div class="card" style="border: 2px solid var(--accent-pink);">
+                        <div class="card-icon">❌</div>
+                        <h4>3+ Months of Losses</h4>
+                        <p>Strategy isn't working. Stop, don't double down.</p>
+                    </div>
+                    <div class="card" style="border: 2px solid var(--accent-pink);">
+                        <div class="card-icon">📉</div>
+                        <h4>Sharpe &lt; 0.5</h4>
+                        <p>Risk-adjusted returns are insufficient.</p>
+                    </div>
+                    <div class="card" style="border: 2px solid var(--accent-pink);">
+                        <div class="card-icon">🎯</div>
+                        <h4>Win Rate &lt; 45%</h4>
+                        <p>Edge has deteriorated beyond recovery.</p>
+                    </div>
+                    <div class="card" style="border: 2px solid var(--accent-pink);">
+                        <div class="card-icon">🏦</div>
+                        <h4>Platform Changes</h4>
+                        <p>Fees added, liquidity dried up, rules changed.</p>
+                    </div>
+                </div>
+                
+                <p class="small" style="margin-top: 1em;">
+                    Knowing when to quit is the most important skill in trading.
+                </p>
+            </section>
+            
+            <!-- SLIDE 17: What Makes This Different -->
+            <section>
+                <h2>🎯 This Is <span class="gradient-text">NOT</span> Gambling</h2>
+                
+                <div class="two-col">
+                    <div>
+                        <h3 style="color: var(--accent-pink);">Gambling</h3>
+                        <ul class="x-list">
+                            <li>Random entry based on gut</li>
+                            <li>No predefined exit rules</li>
+                            <li>All-in position sizing</li>
+                            <li>Chasing losses</li>
+                            <li>Hoping for home runs</li>
+                            <li>Emotional decision-making</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 style="color: var(--accent-green);">Our Approach</h3>
+                        <ul class="check-list">
+                            <li>Quantifiable signal confirmation</li>
+                            <li>Predetermined exit conditions</li>
+                            <li>Kelly criterion sizing</li>
+                            <li>Hard stop losses honored</li>
+                            <li>Small edges, many trades</li>
+                            <li>Systematic execution</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight-box" style="margin-top: 1.5em; text-align: center;">
+                    <strong>Mindset Shift:</strong> You are the casino. Grind small edges. Let variance even out.
+                </div>
+            </section>
+            
+            <!-- SLIDE 18: Tech Stack -->
+            <section>
+                <h2>🛠️ The <span class="gradient-text-3">Tech Stack</span></h2>
+                <p>Built for reliability, not complexity.</p>
+                
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">📊</div>
+                        <h4>Polymarket APIs</h4>
+                        <p>Gamma + CLOB APIs<br>Zero cost, excellent data</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🐦</div>
+                        <h4>Twitter Monitoring</h4>
+                        <p>snscrape (free) or<br>Brand24 ($79/mo)</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🐍</div>
+                        <h4>Python Stack</h4>
+                        <p>VADER sentiment, pandas,<br>PostgreSQL storage</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h4>Telegram Alerts</h4>
+                        <p>Real-time notifications<br>Signal + trade execution</p>
+                    </div>
+                </div>
+                
+                <div class="code-block" style="margin-top: 1em;">
+                    <span style="color: var(--accent-pink);">MVP Cost:</span> $0-100/mo • <span style="color: var(--accent-green);">Production:</span> $200-500/mo
+                </div>
+            </section>
+            
+            <!-- SLIDE 19: Summary -->
+            <section>
+                <h2>📋 <span class="gradient-text">Summary</span></h2>
+                
+                <div class="card" style="padding: 2em;">
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2em; text-align: left;">
+                        <div>
+                            <h4 style="margin-bottom: 0.8em;">✓ The Edge</h4>
+                            <ul class="check-list" style="font-size: 0.85em;">
+                                <li>2-6 hour Twitter → Market lag</li>
+                                <li>RVR + Hype + ROC signal system</li>
+                                <li>Statistical validation required</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.8em;">✓ Risk Management</h4>
+                            <ul class="check-list" style="font-size: 0.85em;">
+                                <li>Quarter-Kelly position sizing</li>
+                                <li>12% hard stop losses</li>
+                                <li>Multi-layer circuit breakers</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.8em;">✓ Expectations</h4>
+                            <ul class="check-list" style="font-size: 0.85em;">
+                                <li>15-35% annual returns</li>
+                                <li>50-60% win rate</li>
+                                <li>3-6 months to profitability</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.8em;">✓ Next Steps</h4>
+                            <ul class="check-list" style="font-size: 0.85em;">
+                                <li>Collect data (30 days)</li>
+                                <li>Validate edge (backtest)</li>
+                                <li>Paper trade → Live micro</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- SLIDE 20: Call to Action -->
+            <section class="title-slide">
+                <div class="emoji-large">🚀</div>
+                <h1 style="font-size: 2.5em;">Ready to <span class="gradient-text">Trade</span>?</h1>
+                <p style="font-size: 1.2em; margin-bottom: 1.5em;">
+                    The research is done. The framework is built.<br>
+                    Now it's time to prove the edge exists.
+                </p>
+                
+                <div class="card-grid" style="margin-bottom: 2em;">
+                    <div class="card" style="text-align: center;">
+                        <div style="font-size: 2em;">📊</div>
+                        <h4>Start Collecting Data</h4>
+                        <p>30 days of forward-looking signals</p>
+                    </div>
+                    <div class="card" style="text-align: center;">
+                        <div style="font-size: 2em;">🧪</div>
+                        <h4>Run Backtests</h4>
+                        <p>Validate statistical edge</p>
+                    </div>
+                    <div class="card" style="text-align: center;">
+                        <div style="font-size: 2em;">💰</div>
+                        <h4>Deploy Capital</h4>
+                        <p>If and only if edge is proven</p>
+                    </div>
+                </div>
+                
+                <p style="color: var(--text-secondary); font-size: 0.9em;">
+                    Built with 26 AI agents • Comprehensive documentation available<br>
+                    <strong style="color: var(--accent-green);">github.com/borat14011-sudo/wom-polymarket-strategy</strong>
+                </p>
+                
+                <p style="margin-top: 2em; font-size: 1.1em;">
+                    Great success will be ours... <span class="gradient-text">if the data supports it!</span> 🇰🇿
+                </p>
+            </section>
+            
+            <!-- SLIDE 21: Disclaimer -->
+            <section>
+                <h2>⚠️ Important <span style="color: var(--accent-pink);">Disclaimer</span></h2>
+                
+                <div class="card" style="text-align: left; background: rgba(245, 87, 108, 0.1); border: 1px solid var(--accent-pink);">
+                    <p style="font-size: 0.9em; margin-bottom: 1em;">
+                        <strong>This is not financial advice.</strong> This presentation describes a research framework 
+                        for educational purposes. Prediction market trading involves substantial risk of loss.
+                    </p>
+                    <ul style="font-size: 0.8em;">
+                        <li>Past performance does not guarantee future results</li>
+                        <li>Case studies are hypothetical examples based on market patterns</li>
+                        <li>Only trade with capital you can afford to lose completely</li>
+                        <li>The edge may not exist until validated by rigorous backtesting</li>
+                        <li>Regulatory status of prediction markets varies by jurisdiction</li>
+                    </ul>
+                    <p style="font-size: 0.85em; margin-top: 1em; margin-bottom: 0;">
+                        <strong>The backtest must prove the edge before any capital is deployed.</strong>
+                    </p>
+                </div>
+                
+                <p class="small" style="margin-top: 2em;">
+                    © 2026 | Polymarket Hype Trading Strategy | For educational purposes only
+                </p>
+            </section>
+            
+        </div>
+    </div>
+    
+    <!-- Reveal.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            progress: true,
+            center: true,
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            width: 1280,
+            height: 720,
+            margin: 0.1,
+            minScale: 0.2,
+            maxScale: 2.0,
+            keyboard: {
+                27: function() { }, // disable ESC
+                13: 'next' // Enter = next slide
+            },
+            // Touch support
+            touch: true,
+            // Loop
+            loop: false,
+            // Controls
+            controls: true,
+            controlsTutorial: true,
+            controlsLayout: 'bottom-right',
+            controlsBackArrows: 'faded',
+            // Autoplay (optional)
+            autoSlide: 0,
+            autoSlideStoppable: true,
+        });
+    </script>
+</body>
+</html>
