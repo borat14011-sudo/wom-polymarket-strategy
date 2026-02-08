@@ -1,0 +1,44 @@
+# Polymarket Iran Position Monitor - Cron Configuration
+# Uses API-based monitoring (no browser needed)
+# Checks position every 15 minutes during trading hours
+
+# Linux/Unix Cron Job (crontab -e)
+# Add this line to your crontab:
+
+*/15 * * * * cd /path/to/polymarket-monitor && /usr/bin/python3 api_monitor.py >> logs/iran_monitor_cron.log 2>&1
+
+# Breakdown:
+# */15 * * * * = Run every 15 minutes
+# cd /path/to/polymarket-monitor = Change to project directory
+# python3 api_monitor.py = Run the API monitor
+# >> logs/iran_monitor_cron.log 2>&1 = Append output to log file
+
+
+# Alternative: Check more frequently (every 5 minutes)
+# */5 * * * * cd /path/to/polymarket-monitor && python3 api_monitor.py >> logs/iran_monitor_cron.log 2>&1
+
+
+# Alternative: Check only during US trading hours (9 AM - 5 PM EST)
+# */15 9-17 * * * cd /path/to/polymarket-monitor && python3 api_monitor.py >> logs/iran_monitor_cron.log 2>&1
+
+
+# Installation Instructions:
+# 
+# 1. Open crontab editor:
+#    crontab -e
+#
+# 2. Add the line above (replace /path/to/polymarket-monitor with actual path)
+#
+# 3. Save and exit (Ctrl+X, then Y, then Enter in nano)
+#
+# 4. Verify cron job is installed:
+#    crontab -l
+#
+# 5. Check logs to ensure it's running:
+#    tail -f logs/iran_monitor_cron.log
+#
+# 6. Test it manually first:
+#    cd /path/to/polymarket-monitor && python3 api_monitor.py
+
+
+# Windows Task Scheduler (see setup_iran_monitor_task.ps1)

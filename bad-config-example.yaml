@@ -1,0 +1,45 @@
+# Example of a BAD config with multiple validation errors
+
+trading:
+  position_size: 5000.0      # ERROR: Exceeds max_exposure
+  max_exposure: 1000.0
+  stop_loss: 0.5             # ERROR: stop_loss >= take_profit
+  take_profit: 0.3
+  max_positions: "five"      # ERROR: Wrong type (string instead of int)
+  min_probability: 1.5       # ERROR: Out of range (should be 0.5-1.0)
+
+risk:
+  daily_loss_limit: 5000.0   # ERROR: Exceeds weekly limit
+  weekly_loss_limit: 2000.0  # ERROR: Exceeds monthly limit
+  monthly_loss_limit: 1000.0
+  max_drawdown: 2.0          # ERROR: Out of range (should be 0.01-1.0)
+
+signals:
+  rvr_threshold: "high"      # ERROR: Wrong type (string instead of float)
+  volume_min: -500           # ERROR: Negative value
+  enabled_strategies:
+    - momentum
+    - fake_strategy          # ERROR: Not in allowed values
+
+alerts:
+  telegram_enabled: true     # WARNING: No token or chat_id provided
+  telegram_token: ""
+  telegram_chat_id: ""
+  email_enabled: true        # WARNING: No email address provided
+
+execution:
+  dry_run: "yes"             # ERROR: Wrong type (string instead of bool)
+  rate_limit_enabled: true
+  rate_limit_per_minute: 0   # ERROR: Rate limiting enabled but limit is 0
+
+schedule:
+  quiet_hours_start: "25:00" # ERROR: Invalid time format
+  quiet_hours_end: "7am"     # ERROR: Invalid time format
+  trading_days:
+    - monday                 # ERROR: Should be "mon"
+    - fake_day               # ERROR: Not in allowed values
+
+backup:
+  enabled: true
+  path: ""                   # ERROR: Backup enabled but path is empty
+  interval_hours: 200        # ERROR: Out of range (1-168)

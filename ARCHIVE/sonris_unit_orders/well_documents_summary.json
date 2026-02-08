@@ -1,0 +1,67 @@
+{
+  "wells": [
+    {
+      "wellSerial": 237465,
+      "wellName": "HA RA SUA;ROBERT CREWS",
+      "apiNum": "17031243710000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237494,
+      "wellName": "HA RA SUX;MILLER LD COLTD 10 H",
+      "apiNum": "17031243720000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237610,
+      "wellName": "HA RB SUE;SMITHHEIRS 27-15-12H",
+      "apiNum": "17017345010000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237611,
+      "wellName": "HA RA SUU;CARMICHAEL 29-16-14H",
+      "apiNum": "17017345020000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237643,
+      "wellName": "HA RA SUW;WAGES 12",
+      "apiNum": "17017345090000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237650,
+      "wellName": "HA RA SUB;DESOTO OIL&GAS TR 17",
+      "apiNum": "17031243800000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237669,
+      "wellName": "HA RA SU69;HUNT PLYWOOD",
+      "apiNum": "17031243860000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237686,
+      "wellName": "HA RA SUS;BISON 31-16-14 H",
+      "apiNum": "17017345110000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237687,
+      "wellName": "HA RA SUC;HALL 5 H",
+      "apiNum": "17017345120000",
+      "documents": []
+    },
+    {
+      "wellSerial": 237716,
+      "wellName": "HA RA SUG;BLOUNTFARMS 2-14-12H",
+      "apiNum": "17081209120000",
+      "documents": []
+    }
+  ],
+  "totalDocuments": 0,
+  "successful": 0,
+  "failed": 0
+}

@@ -1,0 +1,1193 @@
+Time Bucket,Market,Entry Date,Exit Date,Days Held,Win,P&L,P&L %,Volume
+<3d,Michigan Senate Election Winner,2024-11-04,2024-11-05,1,Yes,9.08,9.1,394971.30
+<3d,Michigan Senate Election Winner,2024-11-03,2024-11-05,2,Yes,8.25,8.3,394971.30
+3-7d,Michigan Senate Election Winner,2024-10-31,2024-11-05,5,No,-8.69,-8.7,394971.30
+7-30d,Michigan Senate Election Winner,2024-10-26,2024-11-05,10,No,-8.89,-8.9,394971.30
+7-30d,Michigan Senate Election Winner,2024-10-16,2024-11-05,20,No,-8.75,-8.8,394971.30
+>30d,Michigan Senate Election Winner,2024-10-06,2024-11-05,30,No,-9.39,-9.4,394971.30
+>30d,Michigan Senate Election Winner,2024-09-06,2024-11-05,60,No,-9.54,-9.5,394971.30
+>30d,Michigan Senate Election Winner,2024-08-07,2024-11-05,90,No,-9.90,-9.9,394971.30
+<3d,Michigan Senate Election Winner,2024-11-04,2024-11-05,1,Yes,8.61,8.6,684107.75
+<3d,Michigan Senate Election Winner,2024-11-03,2024-11-05,2,No,-9.48,-9.5,684107.75
+3-7d,Michigan Senate Election Winner,2024-10-31,2024-11-05,5,Yes,9.62,9.6,684107.75
+7-30d,Michigan Senate Election Winner,2024-10-26,2024-11-05,10,No,-9.66,-9.7,684107.75
+7-30d,Michigan Senate Election Winner,2024-10-16,2024-11-05,20,Yes,8.83,8.8,684107.75
+>30d,Michigan Senate Election Winner,2024-10-06,2024-11-05,30,No,-10.15,-10.2,684107.75
+>30d,Michigan Senate Election Winner,2024-09-06,2024-11-05,60,Yes,7.87,7.9,684107.75
+>30d,Michigan Senate Election Winner,2024-08-07,2024-11-05,90,Yes,9.08,9.1,684107.75
+<3d,Michigan Senate Election Winner,2024-11-04,2024-11-05,1,No,-8.45,-8.4,676897.32
+<3d,Michigan Senate Election Winner,2024-11-03,2024-11-05,2,No,-8.48,-8.5,676897.32
+3-7d,Michigan Senate Election Winner,2024-10-31,2024-11-05,5,No,-8.28,-8.3,676897.32
+7-30d,Michigan Senate Election Winner,2024-10-26,2024-11-05,10,No,-8.04,-8.0,676897.32
+7-30d,Michigan Senate Election Winner,2024-10-16,2024-11-05,20,No,-8.58,-8.6,676897.32
+>30d,Michigan Senate Election Winner,2024-10-06,2024-11-05,30,Yes,8.32,8.3,676897.32
+>30d,Michigan Senate Election Winner,2024-09-06,2024-11-05,60,Yes,9.31,9.3,676897.32
+>30d,Michigan Senate Election Winner,2024-08-07,2024-11-05,90,Yes,7.99,8.0,676897.32
+<3d,Trump's worst state on March 19?,2024-03-18,2024-03-19,1,No,-9.37,-9.4,16201.25
+<3d,Trump's worst state on March 19?,2024-03-17,2024-03-19,2,Yes,9.43,9.4,16201.25
+3-7d,Trump's worst state on March 19?,2024-03-14,2024-03-19,5,Yes,8.49,8.5,16201.25
+7-30d,Trump's worst state on March 19?,2024-03-09,2024-03-19,10,Yes,8.14,8.1,16201.25
+7-30d,Trump's worst state on March 19?,2024-02-28,2024-03-19,20,No,-8.06,-8.1,16201.25
+>30d,Trump's worst state on March 19?,2024-02-18,2024-03-19,30,Yes,8.86,8.9,16201.25
+>30d,Trump's worst state on March 19?,2024-01-19,2024-03-19,60,No,-8.82,-8.8,16201.25
+>30d,Trump's worst state on March 19?,2023-12-20,2024-03-19,90,No,-9.99,-10.0,16201.25
+<3d,Trump's worst state on March 19?,2024-03-18,2024-03-19,1,Yes,8.41,8.4,65403.93
+<3d,Trump's worst state on March 19?,2024-03-17,2024-03-19,2,Yes,9.11,9.1,65403.93
+3-7d,Trump's worst state on March 19?,2024-03-14,2024-03-19,5,Yes,9.50,9.5,65403.93
+7-30d,Trump's worst state on March 19?,2024-03-09,2024-03-19,10,Yes,9.81,9.8,65403.93
+7-30d,Trump's worst state on March 19?,2024-02-28,2024-03-19,20,No,-8.97,-9.0,65403.93
+>30d,Trump's worst state on March 19?,2024-02-18,2024-03-19,30,No,-8.42,-8.4,65403.93
+>30d,Trump's worst state on March 19?,2024-01-19,2024-03-19,60,Yes,8.88,8.9,65403.93
+>30d,Trump's worst state on March 19?,2023-12-20,2024-03-19,90,No,-9.53,-9.5,65403.93
+<3d,Trump's worst state on March 19?,2024-03-18,2024-03-19,1,Yes,10.10,10.1,16049.92
+<3d,Trump's worst state on March 19?,2024-03-17,2024-03-19,2,No,-8.80,-8.8,16049.92
+3-7d,Trump's worst state on March 19?,2024-03-14,2024-03-19,5,Yes,9.72,9.7,16049.92
+7-30d,Trump's worst state on March 19?,2024-03-09,2024-03-19,10,No,-7.97,-8.0,16049.92
+7-30d,Trump's worst state on March 19?,2024-02-28,2024-03-19,20,No,-9.04,-9.0,16049.92
+>30d,Trump's worst state on March 19?,2024-02-18,2024-03-19,30,No,-9.66,-9.7,16049.92
+>30d,Trump's worst state on March 19?,2024-01-19,2024-03-19,60,Yes,8.90,8.9,16049.92
+>30d,Trump's worst state on March 19?,2023-12-20,2024-03-19,90,Yes,8.76,8.8,16049.92
+<3d,Trump's worst state on March 19?,2024-03-18,2024-03-19,1,Yes,8.52,8.5,8374.77
+<3d,Trump's worst state on March 19?,2024-03-17,2024-03-19,2,Yes,9.23,9.2,8374.77
+3-7d,Trump's worst state on March 19?,2024-03-14,2024-03-19,5,No,-9.27,-9.3,8374.77
+7-30d,Trump's worst state on March 19?,2024-03-09,2024-03-19,10,Yes,9.32,9.3,8374.77
+7-30d,Trump's worst state on March 19?,2024-02-28,2024-03-19,20,No,-8.94,-8.9,8374.77
+>30d,Trump's worst state on March 19?,2024-02-18,2024-03-19,30,No,-9.43,-9.4,8374.77
+>30d,Trump's worst state on March 19?,2024-01-19,2024-03-19,60,Yes,8.44,8.4,8374.77
+>30d,Trump's worst state on March 19?,2023-12-20,2024-03-19,90,Yes,8.03,8.0,8374.77
+<3d,Trump's worst state on March 19?,2024-03-18,2024-03-19,1,No,-8.29,-8.3,52342.39
+<3d,Trump's worst state on March 19?,2024-03-17,2024-03-19,2,No,-8.97,-9.0,52342.39
+3-7d,Trump's worst state on March 19?,2024-03-14,2024-03-19,5,Yes,7.92,7.9,52342.39
+7-30d,Trump's worst state on March 19?,2024-03-09,2024-03-19,10,Yes,8.79,8.8,52342.39
+7-30d,Trump's worst state on March 19?,2024-02-28,2024-03-19,20,No,-9.73,-9.7,52342.39
+>30d,Trump's worst state on March 19?,2024-02-18,2024-03-19,30,Yes,10.18,10.2,52342.39
+>30d,Trump's worst state on March 19?,2024-01-19,2024-03-19,60,Yes,8.91,8.9,52342.39
+>30d,Trump's worst state on March 19?,2023-12-20,2024-03-19,90,No,-9.74,-9.7,52342.39
+<3d,Trump's best state on March 19?,2024-03-18,2024-03-19,1,Yes,9.04,9.0,12169.79
+<3d,Trump's best state on March 19?,2024-03-17,2024-03-19,2,Yes,7.85,7.8,12169.79
+3-7d,Trump's best state on March 19?,2024-03-14,2024-03-19,5,Yes,8.49,8.5,12169.79
+7-30d,Trump's best state on March 19?,2024-03-09,2024-03-19,10,No,-8.15,-8.1,12169.79
+7-30d,Trump's best state on March 19?,2024-02-28,2024-03-19,20,No,-9.26,-9.3,12169.79
+>30d,Trump's best state on March 19?,2024-02-18,2024-03-19,30,No,-9.19,-9.2,12169.79
+>30d,Trump's best state on March 19?,2024-01-19,2024-03-19,60,Yes,10.09,10.1,12169.79
+>30d,Trump's best state on March 19?,2023-12-20,2024-03-19,90,No,-7.37,-7.4,12169.79
+<3d,Trump's best state on March 19?,2024-03-18,2024-03-19,1,Yes,8.19,8.2,24965.70
+<3d,Trump's best state on March 19?,2024-03-17,2024-03-19,2,Yes,9.16,9.2,24965.70
+3-7d,Trump's best state on March 19?,2024-03-14,2024-03-19,5,No,-8.44,-8.4,24965.70
+7-30d,Trump's best state on March 19?,2024-03-09,2024-03-19,10,No,-8.74,-8.7,24965.70
+7-30d,Trump's best state on March 19?,2024-02-28,2024-03-19,20,No,-8.63,-8.6,24965.70
+>30d,Trump's best state on March 19?,2024-02-18,2024-03-19,30,Yes,8.45,8.4,24965.70
+>30d,Trump's best state on March 19?,2024-01-19,2024-03-19,60,No,-8.32,-8.3,24965.70
+>30d,Trump's best state on March 19?,2023-12-20,2024-03-19,90,No,-9.50,-9.5,24965.70
+<3d,Trump's best state on March 19?,2024-03-18,2024-03-19,1,No,-8.68,-8.7,42457.00
+<3d,Trump's best state on March 19?,2024-03-17,2024-03-19,2,No,-8.59,-8.6,42457.00
+3-7d,Trump's best state on March 19?,2024-03-14,2024-03-19,5,No,-9.11,-9.1,42457.00
+7-30d,Trump's best state on March 19?,2024-03-09,2024-03-19,10,No,-10.00,-10.0,42457.00
+7-30d,Trump's best state on March 19?,2024-02-28,2024-03-19,20,No,-9.42,-9.4,42457.00
+>30d,Trump's best state on March 19?,2024-02-18,2024-03-19,30,No,-9.76,-9.8,42457.00
+>30d,Trump's best state on March 19?,2024-01-19,2024-03-19,60,Yes,9.60,9.6,42457.00
+>30d,Trump's best state on March 19?,2023-12-20,2024-03-19,90,Yes,10.11,10.1,42457.00
+<3d,Trump's best state on March 19?,2024-03-18,2024-03-19,1,No,-8.56,-8.6,9435.82
+<3d,Trump's best state on March 19?,2024-03-17,2024-03-19,2,Yes,9.68,9.7,9435.82
+3-7d,Trump's best state on March 19?,2024-03-14,2024-03-19,5,No,-8.38,-8.4,9435.82
+7-30d,Trump's best state on March 19?,2024-03-09,2024-03-19,10,No,-8.66,-8.7,9435.82
+7-30d,Trump's best state on March 19?,2024-02-28,2024-03-19,20,Yes,8.49,8.5,9435.82
+>30d,Trump's best state on March 19?,2024-02-18,2024-03-19,30,No,-7.97,-8.0,9435.82
+>30d,Trump's best state on March 19?,2024-01-19,2024-03-19,60,No,-8.56,-8.6,9435.82
+>30d,Trump's best state on March 19?,2023-12-20,2024-03-19,90,No,-8.90,-8.9,9435.82
+<3d,Trump's best state on March 19?,2024-03-18,2024-03-19,1,No,-9.80,-9.8,1564.49
+<3d,Trump's best state on March 19?,2024-03-17,2024-03-19,2,No,-9.84,-9.8,1564.49
+3-7d,Trump's best state on March 19?,2024-03-14,2024-03-19,5,No,-8.08,-8.1,1564.49
+7-30d,Trump's best state on March 19?,2024-03-09,2024-03-19,10,No,-8.60,-8.6,1564.49
+7-30d,Trump's best state on March 19?,2024-02-28,2024-03-19,20,No,-8.43,-8.4,1564.49
+>30d,Trump's best state on March 19?,2024-02-18,2024-03-19,30,Yes,10.29,10.3,1564.49
+>30d,Trump's best state on March 19?,2024-01-19,2024-03-19,60,Yes,8.29,8.3,1564.49
+>30d,Trump's best state on March 19?,2023-12-20,2024-03-19,90,No,-9.28,-9.3,1564.49
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,Yes,9.05,9.0,7140.36
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,No,-8.27,-8.3,7140.36
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,No,-9.52,-9.5,7140.36
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,No,-9.15,-9.2,7140.36
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,Yes,8.61,8.6,7140.36
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,No,-9.36,-9.4,7140.36
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,No,-8.39,-8.4,7140.36
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,Yes,9.13,9.1,7140.36
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,Yes,8.69,8.7,24130.20
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,Yes,7.86,7.9,24130.20
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,Yes,9.48,9.5,24130.20
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,Yes,9.19,9.2,24130.20
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,No,-9.47,-9.5,24130.20
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,No,-10.47,-10.5,24130.20
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,No,-10.23,-10.2,24130.20
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,No,-10.02,-10.0,24130.20
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,No,-8.85,-8.8,7016.84
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,Yes,10.01,10.0,7016.84
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,Yes,8.27,8.3,7016.84
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,No,-9.73,-9.7,7016.84
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,Yes,8.29,8.3,7016.84
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,No,-7.56,-7.6,7016.84
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,No,-9.44,-9.4,7016.84
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,Yes,8.26,8.3,7016.84
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,Yes,8.00,8.0,3953.00
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,No,-8.49,-8.5,3953.00
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,No,-10.20,-10.2,3953.00
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,No,-10.01,-10.0,3953.00
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,Yes,8.39,8.4,3953.00
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,No,-7.45,-7.4,3953.00
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,No,-8.37,-8.4,3953.00
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,Yes,9.76,9.8,3953.00
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,Yes,8.13,8.1,25952.20
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,Yes,8.30,8.3,25952.20
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,No,-8.12,-8.1,25952.20
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,Yes,10.05,10.0,25952.20
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,No,-8.18,-8.2,25952.20
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,No,-9.03,-9.0,25952.20
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,No,-9.30,-9.3,25952.20
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,Yes,8.32,8.3,25952.20
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,No,-8.58,-8.6,0.00
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,No,-9.29,-9.3,0.00
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,Yes,9.40,9.4,0.00
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,Yes,10.20,10.2,0.00
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,No,-9.06,-9.1,0.00
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,Yes,8.66,8.7,0.00
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,Yes,10.10,10.1,0.00
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,No,-8.99,-9.0,0.00
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,Yes,9.82,9.8,9227.00
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,Yes,8.12,8.1,9227.00
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,No,-10.04,-10.0,9227.00
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,No,-7.87,-7.9,9227.00
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,No,-9.30,-9.3,9227.00
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,Yes,9.97,10.0,9227.00
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,Yes,8.74,8.7,9227.00
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,No,-9.74,-9.7,9227.00
+<3d,Senegal Presidential Election Winner,2024-03-23,2024-03-24,1,Yes,7.90,7.9,0.00
+<3d,Senegal Presidential Election Winner,2024-03-22,2024-03-24,2,No,-9.21,-9.2,0.00
+3-7d,Senegal Presidential Election Winner,2024-03-19,2024-03-24,5,No,-8.77,-8.8,0.00
+7-30d,Senegal Presidential Election Winner,2024-03-14,2024-03-24,10,Yes,7.71,7.7,0.00
+7-30d,Senegal Presidential Election Winner,2024-03-04,2024-03-24,20,Yes,9.64,9.6,0.00
+>30d,Senegal Presidential Election Winner,2024-02-23,2024-03-24,30,Yes,9.67,9.7,0.00
+>30d,Senegal Presidential Election Winner,2024-01-24,2024-03-24,60,Yes,8.97,9.0,0.00
+>30d,Senegal Presidential Election Winner,2023-12-25,2024-03-24,90,No,-10.10,-10.1,0.00
+<3d,Mississippi Republican Senate Primary Wi,2024-03-10,2024-03-11,1,No,-8.04,-8.0,2000.00
+<3d,Mississippi Republican Senate Primary Wi,2024-03-09,2024-03-11,2,Yes,8.57,8.6,2000.00
+3-7d,Mississippi Republican Senate Primary Wi,2024-03-06,2024-03-11,5,No,-9.12,-9.1,2000.00
+7-30d,Mississippi Republican Senate Primary Wi,2024-03-01,2024-03-11,10,No,-8.05,-8.1,2000.00
+7-30d,Mississippi Republican Senate Primary Wi,2024-02-20,2024-03-11,20,Yes,10.07,10.1,2000.00
+>30d,Mississippi Republican Senate Primary Wi,2024-02-10,2024-03-11,30,No,-9.56,-9.6,2000.00
+>30d,Mississippi Republican Senate Primary Wi,2024-01-11,2024-03-11,60,Yes,9.47,9.5,2000.00
+>30d,Mississippi Republican Senate Primary Wi,2023-12-12,2024-03-11,90,No,-8.85,-8.9,2000.00
+<3d,Mississippi Republican Senate Primary Wi,2024-03-10,2024-03-11,1,Yes,9.16,9.2,3000.00
+<3d,Mississippi Republican Senate Primary Wi,2024-03-09,2024-03-11,2,No,-7.98,-8.0,3000.00
+3-7d,Mississippi Republican Senate Primary Wi,2024-03-06,2024-03-11,5,Yes,8.88,8.9,3000.00
+7-30d,Mississippi Republican Senate Primary Wi,2024-03-01,2024-03-11,10,Yes,8.54,8.5,3000.00
+7-30d,Mississippi Republican Senate Primary Wi,2024-02-20,2024-03-11,20,Yes,10.46,10.5,3000.00
+>30d,Mississippi Republican Senate Primary Wi,2024-02-10,2024-03-11,30,No,-8.57,-8.6,3000.00
+>30d,Mississippi Republican Senate Primary Wi,2024-01-11,2024-03-11,60,No,-10.62,-10.6,3000.00
+>30d,Mississippi Republican Senate Primary Wi,2023-12-12,2024-03-11,90,No,-9.79,-9.8,3000.00
+<3d,Mississippi Republican Senate Primary Wi,2024-03-10,2024-03-11,1,Yes,8.72,8.7,4560.02
+<3d,Mississippi Republican Senate Primary Wi,2024-03-09,2024-03-11,2,No,-8.42,-8.4,4560.02
+3-7d,Mississippi Republican Senate Primary Wi,2024-03-06,2024-03-11,5,No,-7.62,-7.6,4560.02
+7-30d,Mississippi Republican Senate Primary Wi,2024-03-01,2024-03-11,10,Yes,8.27,8.3,4560.02
+7-30d,Mississippi Republican Senate Primary Wi,2024-02-20,2024-03-11,20,No,-8.88,-8.9,4560.02
+>30d,Mississippi Republican Senate Primary Wi,2024-02-10,2024-03-11,30,No,-9.03,-9.0,4560.02
+>30d,Mississippi Republican Senate Primary Wi,2024-01-11,2024-03-11,60,No,-8.46,-8.5,4560.02
+>30d,Mississippi Republican Senate Primary Wi,2023-12-12,2024-03-11,90,No,-8.39,-8.4,4560.02
+<3d,Mississippi Republican Senate Primary Wi,2024-03-10,2024-03-11,1,No,-9.33,-9.3,0.00
+<3d,Mississippi Republican Senate Primary Wi,2024-03-09,2024-03-11,2,No,-9.98,-10.0,0.00
+3-7d,Mississippi Republican Senate Primary Wi,2024-03-06,2024-03-11,5,No,-8.36,-8.4,0.00
+7-30d,Mississippi Republican Senate Primary Wi,2024-03-01,2024-03-11,10,Yes,9.65,9.7,0.00
+7-30d,Mississippi Republican Senate Primary Wi,2024-02-20,2024-03-11,20,No,-9.15,-9.1,0.00
+>30d,Mississippi Republican Senate Primary Wi,2024-02-10,2024-03-11,30,Yes,9.60,9.6,0.00
+>30d,Mississippi Republican Senate Primary Wi,2024-01-11,2024-03-11,60,No,-10.48,-10.5,0.00
+>30d,Mississippi Republican Senate Primary Wi,2023-12-12,2024-03-11,90,No,-8.22,-8.2,0.00
+<3d,Kirk Cousins Next Team,2024-03-10,2024-03-11,1,No,-8.17,-8.2,13944.30
+<3d,Kirk Cousins Next Team,2024-03-09,2024-03-11,2,Yes,9.70,9.7,13944.30
+3-7d,Kirk Cousins Next Team,2024-03-06,2024-03-11,5,No,-8.57,-8.6,13944.30
+7-30d,Kirk Cousins Next Team,2024-03-01,2024-03-11,10,No,-8.91,-8.9,13944.30
+7-30d,Kirk Cousins Next Team,2024-02-20,2024-03-11,20,Yes,9.61,9.6,13944.30
+>30d,Kirk Cousins Next Team,2024-02-10,2024-03-11,30,Yes,8.68,8.7,13944.30
+>30d,Kirk Cousins Next Team,2024-01-11,2024-03-11,60,No,-9.35,-9.4,13944.30
+>30d,Kirk Cousins Next Team,2023-12-12,2024-03-11,90,No,-10.12,-10.1,13944.30
+<3d,Kirk Cousins Next Team,2024-03-10,2024-03-11,1,No,-8.95,-8.9,200.00
+<3d,Kirk Cousins Next Team,2024-03-09,2024-03-11,2,Yes,8.05,8.0,200.00
+3-7d,Kirk Cousins Next Team,2024-03-06,2024-03-11,5,Yes,8.20,8.2,200.00
+7-30d,Kirk Cousins Next Team,2024-03-01,2024-03-11,10,Yes,7.87,7.9,200.00
+7-30d,Kirk Cousins Next Team,2024-02-20,2024-03-11,20,No,-8.43,-8.4,200.00
+>30d,Kirk Cousins Next Team,2024-02-10,2024-03-11,30,No,-8.66,-8.7,200.00
+>30d,Kirk Cousins Next Team,2024-01-11,2024-03-11,60,Yes,9.29,9.3,200.00
+>30d,Kirk Cousins Next Team,2023-12-12,2024-03-11,90,No,-9.29,-9.3,200.00
+<3d,Kirk Cousins Next Team,2024-03-10,2024-03-11,1,No,-9.86,-9.9,610.00
+<3d,Kirk Cousins Next Team,2024-03-09,2024-03-11,2,Yes,8.94,8.9,610.00
+3-7d,Kirk Cousins Next Team,2024-03-06,2024-03-11,5,Yes,9.94,9.9,610.00
+7-30d,Kirk Cousins Next Team,2024-03-01,2024-03-11,10,No,-9.94,-9.9,610.00
+7-30d,Kirk Cousins Next Team,2024-02-20,2024-03-11,20,No,-8.07,-8.1,610.00
+>30d,Kirk Cousins Next Team,2024-02-10,2024-03-11,30,No,-8.71,-8.7,610.00
+>30d,Kirk Cousins Next Team,2024-01-11,2024-03-11,60,No,-9.75,-9.7,610.00
+>30d,Kirk Cousins Next Team,2023-12-12,2024-03-11,90,Yes,8.46,8.5,610.00
+<3d,Kirk Cousins Next Team,2024-03-10,2024-03-11,1,Yes,8.73,8.7,1435.00
+<3d,Kirk Cousins Next Team,2024-03-09,2024-03-11,2,No,-8.31,-8.3,1435.00
+3-7d,Kirk Cousins Next Team,2024-03-06,2024-03-11,5,No,-9.25,-9.2,1435.00
+7-30d,Kirk Cousins Next Team,2024-03-01,2024-03-11,10,No,-9.17,-9.2,1435.00
+7-30d,Kirk Cousins Next Team,2024-02-20,2024-03-11,20,Yes,8.95,8.9,1435.00
+>30d,Kirk Cousins Next Team,2024-02-10,2024-03-11,30,No,-9.96,-10.0,1435.00
+>30d,Kirk Cousins Next Team,2024-01-11,2024-03-11,60,No,-9.70,-9.7,1435.00
+>30d,Kirk Cousins Next Team,2023-12-12,2024-03-11,90,Yes,10.70,10.7,1435.00
+<3d,Kirk Cousins Next Team,2024-03-10,2024-03-11,1,Yes,9.41,9.4,1625.00
+<3d,Kirk Cousins Next Team,2024-03-09,2024-03-11,2,No,-9.21,-9.2,1625.00
+3-7d,Kirk Cousins Next Team,2024-03-06,2024-03-11,5,No,-8.04,-8.0,1625.00
+7-30d,Kirk Cousins Next Team,2024-03-01,2024-03-11,10,No,-8.59,-8.6,1625.00
+7-30d,Kirk Cousins Next Team,2024-02-20,2024-03-11,20,Yes,9.72,9.7,1625.00
+>30d,Kirk Cousins Next Team,2024-02-10,2024-03-11,30,Yes,9.38,9.4,1625.00
+>30d,Kirk Cousins Next Team,2024-01-11,2024-03-11,60,No,-8.21,-8.2,1625.00
+>30d,Kirk Cousins Next Team,2023-12-12,2024-03-11,90,Yes,8.59,8.6,1625.00
+<3d,Kirk Cousins Next Team,2024-03-10,2024-03-11,1,Yes,9.46,9.5,400.00
+<3d,Kirk Cousins Next Team,2024-03-09,2024-03-11,2,Yes,8.77,8.8,400.00
+3-7d,Kirk Cousins Next Team,2024-03-06,2024-03-11,5,No,-8.83,-8.8,400.00
+7-30d,Kirk Cousins Next Team,2024-03-01,2024-03-11,10,No,-9.10,-9.1,400.00
+7-30d,Kirk Cousins Next Team,2024-02-20,2024-03-11,20,No,-8.04,-8.0,400.00
+>30d,Kirk Cousins Next Team,2024-02-10,2024-03-11,30,No,-9.37,-9.4,400.00
+>30d,Kirk Cousins Next Team,2024-01-11,2024-03-11,60,No,-9.32,-9.3,400.00
+>30d,Kirk Cousins Next Team,2023-12-12,2024-03-11,90,No,-8.06,-8.1,400.00
+<3d,Kirk Cousins Next Team,2024-03-10,2024-03-11,1,Yes,8.78,8.8,610.00
+<3d,Kirk Cousins Next Team,2024-03-09,2024-03-11,2,Yes,8.29,8.3,610.00
+3-7d,Kirk Cousins Next Team,2024-03-06,2024-03-11,5,Yes,9.74,9.7,610.00
+7-30d,Kirk Cousins Next Team,2024-03-01,2024-03-11,10,Yes,10.41,10.4,610.00
+7-30d,Kirk Cousins Next Team,2024-02-20,2024-03-11,20,Yes,9.03,9.0,610.00
+>30d,Kirk Cousins Next Team,2024-02-10,2024-03-11,30,No,-8.74,-8.7,610.00
+>30d,Kirk Cousins Next Team,2024-01-11,2024-03-11,60,Yes,9.33,9.3,610.00
+>30d,Kirk Cousins Next Team,2023-12-12,2024-03-11,90,Yes,9.92,9.9,610.00
+<3d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-14,2024-11-15,1,Yes,9.64,9.6,32399877.16
+<3d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-13,2024-11-15,2,Yes,8.57,8.6,32399877.16
+3-7d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-10,2024-11-15,5,No,-9.09,-9.1,32399877.16
+7-30d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-05,2024-11-15,10,No,-9.92,-9.9,32399877.16
+7-30d,Jake Paul vs. Mike Tyson: Who will win?,2024-10-26,2024-11-15,20,Yes,8.86,8.9,32399877.16
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-10-16,2024-11-15,30,Yes,9.85,9.8,32399877.16
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-09-16,2024-11-15,60,No,-8.89,-8.9,32399877.16
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-08-17,2024-11-15,90,No,-8.86,-8.9,32399877.16
+<3d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-14,2024-11-15,1,Yes,7.82,7.8,14968970.92
+<3d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-13,2024-11-15,2,No,-9.63,-9.6,14968970.92
+3-7d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-10,2024-11-15,5,No,-9.03,-9.0,14968970.92
+7-30d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-05,2024-11-15,10,No,-10.03,-10.0,14968970.92
+7-30d,Jake Paul vs. Mike Tyson: Who will win?,2024-10-26,2024-11-15,20,Yes,9.61,9.6,14968970.92
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-10-16,2024-11-15,30,No,-8.32,-8.3,14968970.92
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-09-16,2024-11-15,60,Yes,9.54,9.5,14968970.92
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-08-17,2024-11-15,90,No,-8.70,-8.7,14968970.92
+<3d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-14,2024-11-15,1,Yes,8.45,8.4,15917754.34
+<3d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-13,2024-11-15,2,Yes,9.33,9.3,15917754.34
+3-7d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-10,2024-11-15,5,Yes,8.63,8.6,15917754.34
+7-30d,Jake Paul vs. Mike Tyson: Who will win?,2024-11-05,2024-11-15,10,No,-7.92,-7.9,15917754.34
+7-30d,Jake Paul vs. Mike Tyson: Who will win?,2024-10-26,2024-11-15,20,No,-8.19,-8.2,15917754.34
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-10-16,2024-11-15,30,Yes,10.90,10.9,15917754.34
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-09-16,2024-11-15,60,No,-9.92,-9.9,15917754.34
+>30d,Jake Paul vs. Mike Tyson: Who will win?,2024-08-17,2024-11-15,90,Yes,9.34,9.3,15917754.34
+<3d,When will GPT-5 be announced?,2024-12-29,2024-12-30,1,Yes,9.14,9.1,82405.06
+<3d,When will GPT-5 be announced?,2024-12-28,2024-12-30,2,Yes,8.90,8.9,82405.06
+3-7d,When will GPT-5 be announced?,2024-12-25,2024-12-30,5,Yes,10.20,10.2,82405.06
+7-30d,When will GPT-5 be announced?,2024-12-20,2024-12-30,10,Yes,7.86,7.9,82405.06
+7-30d,When will GPT-5 be announced?,2024-12-10,2024-12-30,20,No,-9.98,-10.0,82405.06
+>30d,When will GPT-5 be announced?,2024-11-30,2024-12-30,30,No,-9.44,-9.4,82405.06
+>30d,When will GPT-5 be announced?,2024-10-31,2024-12-30,60,No,-8.17,-8.2,82405.06
+>30d,When will GPT-5 be announced?,2024-10-01,2024-12-30,90,No,-9.82,-9.8,82405.06
+<3d,When will GPT-5 be announced?,2024-12-29,2024-12-30,1,Yes,7.86,7.9,354246.43
+<3d,When will GPT-5 be announced?,2024-12-28,2024-12-30,2,Yes,9.22,9.2,354246.43
+3-7d,When will GPT-5 be announced?,2024-12-25,2024-12-30,5,Yes,9.28,9.3,354246.43
+7-30d,When will GPT-5 be announced?,2024-12-20,2024-12-30,10,No,-9.05,-9.0,354246.43
+7-30d,When will GPT-5 be announced?,2024-12-10,2024-12-30,20,No,-9.16,-9.2,354246.43
+>30d,When will GPT-5 be announced?,2024-11-30,2024-12-30,30,Yes,7.91,7.9,354246.43
+>30d,When will GPT-5 be announced?,2024-10-31,2024-12-30,60,No,-7.90,-7.9,354246.43
+>30d,When will GPT-5 be announced?,2024-10-01,2024-12-30,90,No,-8.18,-8.2,354246.43
+<3d,When will GPT-5 be announced?,2024-12-29,2024-12-30,1,Yes,8.65,8.6,417554.33
+<3d,When will GPT-5 be announced?,2024-12-28,2024-12-30,2,Yes,8.58,8.6,417554.33
+3-7d,When will GPT-5 be announced?,2024-12-25,2024-12-30,5,Yes,8.16,8.2,417554.33
+7-30d,When will GPT-5 be announced?,2024-12-20,2024-12-30,10,No,-9.29,-9.3,417554.33
+7-30d,When will GPT-5 be announced?,2024-12-10,2024-12-30,20,No,-10.37,-10.4,417554.33
+>30d,When will GPT-5 be announced?,2024-11-30,2024-12-30,30,Yes,9.96,10.0,417554.33
+>30d,When will GPT-5 be announced?,2024-10-31,2024-12-30,60,Yes,10.04,10.0,417554.33
+>30d,When will GPT-5 be announced?,2024-10-01,2024-12-30,90,No,-8.07,-8.1,417554.33
+<3d,When will GPT-5 be announced?,2024-12-29,2024-12-30,1,Yes,8.62,8.6,571862.41
+<3d,When will GPT-5 be announced?,2024-12-28,2024-12-30,2,No,-8.68,-8.7,571862.41
+3-7d,When will GPT-5 be announced?,2024-12-25,2024-12-30,5,No,-8.44,-8.4,571862.41
+7-30d,When will GPT-5 be announced?,2024-12-20,2024-12-30,10,No,-9.73,-9.7,571862.41
+7-30d,When will GPT-5 be announced?,2024-12-10,2024-12-30,20,No,-10.06,-10.1,571862.41
+>30d,When will GPT-5 be announced?,2024-11-30,2024-12-30,30,No,-8.51,-8.5,571862.41
+>30d,When will GPT-5 be announced?,2024-10-31,2024-12-30,60,No,-8.87,-8.9,571862.41
+>30d,When will GPT-5 be announced?,2024-10-01,2024-12-30,90,No,-8.02,-8.0,571862.41
+<3d,West Virginia Governor Election Winner,2024-11-04,2024-11-05,1,No,-9.59,-9.6,42058.22
+<3d,West Virginia Governor Election Winner,2024-11-03,2024-11-05,2,No,-9.71,-9.7,42058.22
+3-7d,West Virginia Governor Election Winner,2024-10-31,2024-11-05,5,Yes,9.54,9.5,42058.22
+7-30d,West Virginia Governor Election Winner,2024-10-26,2024-11-05,10,No,-9.01,-9.0,42058.22
+7-30d,West Virginia Governor Election Winner,2024-10-16,2024-11-05,20,No,-10.30,-10.3,42058.22
+>30d,West Virginia Governor Election Winner,2024-10-06,2024-11-05,30,No,-7.45,-7.4,42058.22
+>30d,West Virginia Governor Election Winner,2024-09-06,2024-11-05,60,No,-9.84,-9.8,42058.22
+>30d,West Virginia Governor Election Winner,2024-08-07,2024-11-05,90,Yes,9.48,9.5,42058.22
+<3d,West Virginia Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.22,9.2,197831.89
+<3d,West Virginia Governor Election Winner,2024-11-03,2024-11-05,2,Yes,9.74,9.7,197831.89
+3-7d,West Virginia Governor Election Winner,2024-10-31,2024-11-05,5,No,-9.19,-9.2,197831.89
+7-30d,West Virginia Governor Election Winner,2024-10-26,2024-11-05,10,Yes,9.41,9.4,197831.89
+7-30d,West Virginia Governor Election Winner,2024-10-16,2024-11-05,20,Yes,9.27,9.3,197831.89
+>30d,West Virginia Governor Election Winner,2024-10-06,2024-11-05,30,No,-9.07,-9.1,197831.89
+>30d,West Virginia Governor Election Winner,2024-09-06,2024-11-05,60,No,-8.21,-8.2,197831.89
+>30d,West Virginia Governor Election Winner,2024-08-07,2024-11-05,90,No,-8.66,-8.7,197831.89
+<3d,West Virginia Governor Election Winner,2024-11-04,2024-11-05,1,Yes,8.17,8.2,45330.78
+<3d,West Virginia Governor Election Winner,2024-11-03,2024-11-05,2,No,-8.80,-8.8,45330.78
+3-7d,West Virginia Governor Election Winner,2024-10-31,2024-11-05,5,Yes,10.21,10.2,45330.78
+7-30d,West Virginia Governor Election Winner,2024-10-26,2024-11-05,10,Yes,9.25,9.2,45330.78
+7-30d,West Virginia Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.37,-9.4,45330.78
+>30d,West Virginia Governor Election Winner,2024-10-06,2024-11-05,30,Yes,9.70,9.7,45330.78
+>30d,West Virginia Governor Election Winner,2024-09-06,2024-11-05,60,Yes,9.97,10.0,45330.78
+>30d,West Virginia Governor Election Winner,2024-08-07,2024-11-05,90,No,-8.60,-8.6,45330.78
+<3d,Washington Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.77,9.8,75067.69
+<3d,Washington Governor Election Winner,2024-11-03,2024-11-05,2,No,-9.15,-9.1,75067.69
+3-7d,Washington Governor Election Winner,2024-10-31,2024-11-05,5,No,-8.79,-8.8,75067.69
+7-30d,Washington Governor Election Winner,2024-10-26,2024-11-05,10,No,-10.08,-10.1,75067.69
+7-30d,Washington Governor Election Winner,2024-10-16,2024-11-05,20,No,-8.58,-8.6,75067.69
+>30d,Washington Governor Election Winner,2024-10-06,2024-11-05,30,Yes,9.81,9.8,75067.69
+>30d,Washington Governor Election Winner,2024-09-06,2024-11-05,60,No,-9.88,-9.9,75067.69
+>30d,Washington Governor Election Winner,2024-08-07,2024-11-05,90,Yes,8.07,8.1,75067.69
+<3d,Washington Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.14,9.1,32685.52
+<3d,Washington Governor Election Winner,2024-11-03,2024-11-05,2,No,-8.22,-8.2,32685.52
+3-7d,Washington Governor Election Winner,2024-10-31,2024-11-05,5,Yes,8.06,8.1,32685.52
+7-30d,Washington Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.39,-8.4,32685.52
+7-30d,Washington Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.40,-9.4,32685.52
+>30d,Washington Governor Election Winner,2024-10-06,2024-11-05,30,Yes,8.14,8.1,32685.52
+>30d,Washington Governor Election Winner,2024-09-06,2024-11-05,60,No,-9.92,-9.9,32685.52
+>30d,Washington Governor Election Winner,2024-08-07,2024-11-05,90,No,-8.99,-9.0,32685.52
+<3d,Washington Governor Election Winner,2024-11-04,2024-11-05,1,No,-8.56,-8.6,153031.52
+<3d,Washington Governor Election Winner,2024-11-03,2024-11-05,2,No,-9.24,-9.2,153031.52
+3-7d,Washington Governor Election Winner,2024-10-31,2024-11-05,5,No,-7.61,-7.6,153031.52
+7-30d,Washington Governor Election Winner,2024-10-26,2024-11-05,10,No,-9.27,-9.3,153031.52
+7-30d,Washington Governor Election Winner,2024-10-16,2024-11-05,20,No,-10.59,-10.6,153031.52
+>30d,Washington Governor Election Winner,2024-10-06,2024-11-05,30,No,-8.71,-8.7,153031.52
+>30d,Washington Governor Election Winner,2024-09-06,2024-11-05,60,Yes,9.35,9.3,153031.52
+>30d,Washington Governor Election Winner,2024-08-07,2024-11-05,90,Yes,7.73,7.7,153031.52
+<3d,Utah Governor Election Winner,2024-11-04,2024-11-05,1,No,-9.95,-9.9,66744.78
+<3d,Utah Governor Election Winner,2024-11-03,2024-11-05,2,Yes,8.78,8.8,66744.78
+3-7d,Utah Governor Election Winner,2024-10-31,2024-11-05,5,Yes,8.41,8.4,66744.78
+7-30d,Utah Governor Election Winner,2024-10-26,2024-11-05,10,Yes,8.82,8.8,66744.78
+7-30d,Utah Governor Election Winner,2024-10-16,2024-11-05,20,No,-8.46,-8.5,66744.78
+>30d,Utah Governor Election Winner,2024-10-06,2024-11-05,30,Yes,8.64,8.6,66744.78
+>30d,Utah Governor Election Winner,2024-09-06,2024-11-05,60,Yes,9.75,9.7,66744.78
+>30d,Utah Governor Election Winner,2024-08-07,2024-11-05,90,No,-7.89,-7.9,66744.78
+<3d,Utah Governor Election Winner,2024-11-04,2024-11-05,1,Yes,10.12,10.1,81628.35
+<3d,Utah Governor Election Winner,2024-11-03,2024-11-05,2,No,-9.13,-9.1,81628.35
+3-7d,Utah Governor Election Winner,2024-10-31,2024-11-05,5,No,-9.48,-9.5,81628.35
+7-30d,Utah Governor Election Winner,2024-10-26,2024-11-05,10,Yes,8.69,8.7,81628.35
+7-30d,Utah Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.40,-9.4,81628.35
+>30d,Utah Governor Election Winner,2024-10-06,2024-11-05,30,Yes,9.18,9.2,81628.35
+>30d,Utah Governor Election Winner,2024-09-06,2024-11-05,60,Yes,8.53,8.5,81628.35
+>30d,Utah Governor Election Winner,2024-08-07,2024-11-05,90,No,-9.97,-10.0,81628.35
+<3d,Utah Governor Election Winner,2024-11-04,2024-11-05,1,No,-8.13,-8.1,27202.48
+<3d,Utah Governor Election Winner,2024-11-03,2024-11-05,2,Yes,10.17,10.2,27202.48
+3-7d,Utah Governor Election Winner,2024-10-31,2024-11-05,5,No,-8.77,-8.8,27202.48
+7-30d,Utah Governor Election Winner,2024-10-26,2024-11-05,10,Yes,10.10,10.1,27202.48
+7-30d,Utah Governor Election Winner,2024-10-16,2024-11-05,20,No,-7.81,-7.8,27202.48
+>30d,Utah Governor Election Winner,2024-10-06,2024-11-05,30,No,-9.00,-9.0,27202.48
+>30d,Utah Governor Election Winner,2024-09-06,2024-11-05,60,No,-10.18,-10.2,27202.48
+>30d,Utah Governor Election Winner,2024-08-07,2024-11-05,90,No,-7.93,-7.9,27202.48
+<3d,North Dakota Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.69,9.7,35740.55
+<3d,North Dakota Governor Election Winner,2024-11-03,2024-11-05,2,No,-9.63,-9.6,35740.55
+3-7d,North Dakota Governor Election Winner,2024-10-31,2024-11-05,5,Yes,8.47,8.5,35740.55
+7-30d,North Dakota Governor Election Winner,2024-10-26,2024-11-05,10,Yes,8.08,8.1,35740.55
+7-30d,North Dakota Governor Election Winner,2024-10-16,2024-11-05,20,No,-8.89,-8.9,35740.55
+>30d,North Dakota Governor Election Winner,2024-10-06,2024-11-05,30,Yes,7.33,7.3,35740.55
+>30d,North Dakota Governor Election Winner,2024-09-06,2024-11-05,60,Yes,9.07,9.1,35740.55
+>30d,North Dakota Governor Election Winner,2024-08-07,2024-11-05,90,Yes,10.01,10.0,35740.55
+<3d,North Dakota Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.49,9.5,16522.48
+<3d,North Dakota Governor Election Winner,2024-11-03,2024-11-05,2,No,-9.22,-9.2,16522.48
+3-7d,North Dakota Governor Election Winner,2024-10-31,2024-11-05,5,Yes,9.13,9.1,16522.48
+7-30d,North Dakota Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.89,-8.9,16522.48
+7-30d,North Dakota Governor Election Winner,2024-10-16,2024-11-05,20,Yes,8.79,8.8,16522.48
+>30d,North Dakota Governor Election Winner,2024-10-06,2024-11-05,30,No,-7.82,-7.8,16522.48
+>30d,North Dakota Governor Election Winner,2024-09-06,2024-11-05,60,Yes,10.24,10.2,16522.48
+>30d,North Dakota Governor Election Winner,2024-08-07,2024-11-05,90,Yes,8.26,8.3,16522.48
+<3d,North Dakota Governor Election Winner,2024-11-04,2024-11-05,1,Yes,7.98,8.0,55832.21
+<3d,North Dakota Governor Election Winner,2024-11-03,2024-11-05,2,Yes,9.69,9.7,55832.21
+3-7d,North Dakota Governor Election Winner,2024-10-31,2024-11-05,5,Yes,9.74,9.7,55832.21
+7-30d,North Dakota Governor Election Winner,2024-10-26,2024-11-05,10,Yes,8.21,8.2,55832.21
+7-30d,North Dakota Governor Election Winner,2024-10-16,2024-11-05,20,No,-8.36,-8.4,55832.21
+>30d,North Dakota Governor Election Winner,2024-10-06,2024-11-05,30,Yes,9.06,9.1,55832.21
+>30d,North Dakota Governor Election Winner,2024-09-06,2024-11-05,60,No,-7.71,-7.7,55832.21
+>30d,North Dakota Governor Election Winner,2024-08-07,2024-11-05,90,No,-9.34,-9.3,55832.21
+<3d,Montana Governor Election Winner,2024-11-03,2024-11-04,1,No,-8.44,-8.4,63513.23
+<3d,Montana Governor Election Winner,2024-11-02,2024-11-04,2,No,-8.78,-8.8,63513.23
+3-7d,Montana Governor Election Winner,2024-10-30,2024-11-04,5,Yes,9.07,9.1,63513.23
+7-30d,Montana Governor Election Winner,2024-10-25,2024-11-04,10,No,-9.46,-9.5,63513.23
+7-30d,Montana Governor Election Winner,2024-10-15,2024-11-04,20,No,-10.71,-10.7,63513.23
+>30d,Montana Governor Election Winner,2024-10-05,2024-11-04,30,No,-10.48,-10.5,63513.23
+>30d,Montana Governor Election Winner,2024-09-05,2024-11-04,60,No,-8.33,-8.3,63513.23
+>30d,Montana Governor Election Winner,2024-08-06,2024-11-04,90,No,-10.32,-10.3,63513.23
+<3d,Montana Governor Election Winner,2024-11-03,2024-11-04,1,Yes,9.75,9.7,86511.38
+<3d,Montana Governor Election Winner,2024-11-02,2024-11-04,2,Yes,9.95,9.9,86511.38
+3-7d,Montana Governor Election Winner,2024-10-30,2024-11-04,5,No,-9.95,-10.0,86511.38
+7-30d,Montana Governor Election Winner,2024-10-25,2024-11-04,10,Yes,9.12,9.1,86511.38
+7-30d,Montana Governor Election Winner,2024-10-15,2024-11-04,20,Yes,9.83,9.8,86511.38
+>30d,Montana Governor Election Winner,2024-10-05,2024-11-04,30,Yes,9.72,9.7,86511.38
+>30d,Montana Governor Election Winner,2024-09-05,2024-11-04,60,Yes,8.49,8.5,86511.38
+>30d,Montana Governor Election Winner,2024-08-06,2024-11-04,90,No,-8.85,-8.9,86511.38
+<3d,Montana Governor Election Winner,2024-11-03,2024-11-04,1,No,-8.37,-8.4,23888.29
+<3d,Montana Governor Election Winner,2024-11-02,2024-11-04,2,Yes,8.07,8.1,23888.29
+3-7d,Montana Governor Election Winner,2024-10-30,2024-11-04,5,No,-9.18,-9.2,23888.29
+7-30d,Montana Governor Election Winner,2024-10-25,2024-11-04,10,No,-9.32,-9.3,23888.29
+7-30d,Montana Governor Election Winner,2024-10-15,2024-11-04,20,Yes,9.51,9.5,23888.29
+>30d,Montana Governor Election Winner,2024-10-05,2024-11-04,30,No,-7.72,-7.7,23888.29
+>30d,Montana Governor Election Winner,2024-09-05,2024-11-04,60,Yes,7.77,7.8,23888.29
+>30d,Montana Governor Election Winner,2024-08-06,2024-11-04,90,No,-9.81,-9.8,23888.29
+<3d,Missouri Governor Election Winner,2024-11-04,2024-11-05,1,Yes,8.47,8.5,31196.37
+<3d,Missouri Governor Election Winner,2024-11-03,2024-11-05,2,Yes,9.89,9.9,31196.37
+3-7d,Missouri Governor Election Winner,2024-10-31,2024-11-05,5,Yes,8.84,8.8,31196.37
+7-30d,Missouri Governor Election Winner,2024-10-26,2024-11-05,10,Yes,8.36,8.4,31196.37
+7-30d,Missouri Governor Election Winner,2024-10-16,2024-11-05,20,No,-8.05,-8.0,31196.37
+>30d,Missouri Governor Election Winner,2024-10-06,2024-11-05,30,No,-7.70,-7.7,31196.37
+>30d,Missouri Governor Election Winner,2024-09-06,2024-11-05,60,No,-10.83,-10.8,31196.37
+>30d,Missouri Governor Election Winner,2024-08-07,2024-11-05,90,No,-8.31,-8.3,31196.37
+<3d,Missouri Governor Election Winner,2024-11-04,2024-11-05,1,Yes,8.70,8.7,43050.51
+<3d,Missouri Governor Election Winner,2024-11-03,2024-11-05,2,Yes,8.76,8.8,43050.51
+3-7d,Missouri Governor Election Winner,2024-10-31,2024-11-05,5,Yes,9.36,9.4,43050.51
+7-30d,Missouri Governor Election Winner,2024-10-26,2024-11-05,10,Yes,8.01,8.0,43050.51
+7-30d,Missouri Governor Election Winner,2024-10-16,2024-11-05,20,Yes,10.09,10.1,43050.51
+>30d,Missouri Governor Election Winner,2024-10-06,2024-11-05,30,No,-8.26,-8.3,43050.51
+>30d,Missouri Governor Election Winner,2024-09-06,2024-11-05,60,No,-8.02,-8.0,43050.51
+>30d,Missouri Governor Election Winner,2024-08-07,2024-11-05,90,No,-8.32,-8.3,43050.51
+<3d,Missouri Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.01,9.0,44511.85
+<3d,Missouri Governor Election Winner,2024-11-03,2024-11-05,2,Yes,8.31,8.3,44511.85
+3-7d,Missouri Governor Election Winner,2024-10-31,2024-11-05,5,Yes,8.08,8.1,44511.85
+7-30d,Missouri Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.85,-8.9,44511.85
+7-30d,Missouri Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.05,-9.1,44511.85
+>30d,Missouri Governor Election Winner,2024-10-06,2024-11-05,30,No,-9.34,-9.3,44511.85
+>30d,Missouri Governor Election Winner,2024-09-06,2024-11-05,60,Yes,8.25,8.3,44511.85
+>30d,Missouri Governor Election Winner,2024-08-07,2024-11-05,90,No,-9.30,-9.3,44511.85
+<3d,Indiana Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.89,9.9,140745.47
+<3d,Indiana Governor Election Winner,2024-11-03,2024-11-05,2,Yes,9.01,9.0,140745.47
+3-7d,Indiana Governor Election Winner,2024-10-31,2024-11-05,5,Yes,8.62,8.6,140745.47
+7-30d,Indiana Governor Election Winner,2024-10-26,2024-11-05,10,Yes,9.53,9.5,140745.47
+7-30d,Indiana Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.57,-9.6,140745.47
+>30d,Indiana Governor Election Winner,2024-10-06,2024-11-05,30,No,-8.18,-8.2,140745.47
+>30d,Indiana Governor Election Winner,2024-09-06,2024-11-05,60,No,-9.64,-9.6,140745.47
+>30d,Indiana Governor Election Winner,2024-08-07,2024-11-05,90,No,-9.41,-9.4,140745.47
+<3d,Indiana Governor Election Winner,2024-11-04,2024-11-05,1,Yes,8.42,8.4,66448.80
+<3d,Indiana Governor Election Winner,2024-11-03,2024-11-05,2,No,-8.02,-8.0,66448.80
+3-7d,Indiana Governor Election Winner,2024-10-31,2024-11-05,5,Yes,10.17,10.2,66448.80
+7-30d,Indiana Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.76,-8.8,66448.80
+7-30d,Indiana Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.26,-9.3,66448.80
+>30d,Indiana Governor Election Winner,2024-10-06,2024-11-05,30,No,-9.03,-9.0,66448.80
+>30d,Indiana Governor Election Winner,2024-09-06,2024-11-05,60,Yes,9.64,9.6,66448.80
+>30d,Indiana Governor Election Winner,2024-08-07,2024-11-05,90,No,-10.07,-10.1,66448.80
+<3d,Indiana Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.27,9.3,87823.90
+<3d,Indiana Governor Election Winner,2024-11-03,2024-11-05,2,Yes,9.58,9.6,87823.90
+3-7d,Indiana Governor Election Winner,2024-10-31,2024-11-05,5,No,-9.53,-9.5,87823.90
+7-30d,Indiana Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.51,-8.5,87823.90
+7-30d,Indiana Governor Election Winner,2024-10-16,2024-11-05,20,No,-8.19,-8.2,87823.90
+>30d,Indiana Governor Election Winner,2024-10-06,2024-11-05,30,Yes,8.94,8.9,87823.90
+>30d,Indiana Governor Election Winner,2024-09-06,2024-11-05,60,Yes,7.75,7.8,87823.90
+>30d,Indiana Governor Election Winner,2024-08-07,2024-11-05,90,No,-10.05,-10.0,87823.90
+<3d,New Hampshire Governor Election Winner,2024-11-04,2024-11-05,1,Yes,8.17,8.2,64825.25
+<3d,New Hampshire Governor Election Winner,2024-11-03,2024-11-05,2,No,-10.09,-10.1,64825.25
+3-7d,New Hampshire Governor Election Winner,2024-10-31,2024-11-05,5,No,-8.02,-8.0,64825.25
+7-30d,New Hampshire Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.50,-8.5,64825.25
+7-30d,New Hampshire Governor Election Winner,2024-10-16,2024-11-05,20,Yes,8.24,8.2,64825.25
+>30d,New Hampshire Governor Election Winner,2024-10-06,2024-11-05,30,No,-9.64,-9.6,64825.25
+>30d,New Hampshire Governor Election Winner,2024-09-06,2024-11-05,60,Yes,7.51,7.5,64825.25
+>30d,New Hampshire Governor Election Winner,2024-08-07,2024-11-05,90,Yes,10.15,10.1,64825.25
+<3d,New Hampshire Governor Election Winner,2024-11-04,2024-11-05,1,Yes,10.26,10.3,97030.93
+<3d,New Hampshire Governor Election Winner,2024-11-03,2024-11-05,2,Yes,10.34,10.3,97030.93
+3-7d,New Hampshire Governor Election Winner,2024-10-31,2024-11-05,5,No,-9.22,-9.2,97030.93
+7-30d,New Hampshire Governor Election Winner,2024-10-26,2024-11-05,10,No,-10.14,-10.1,97030.93
+7-30d,New Hampshire Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.52,-9.5,97030.93
+>30d,New Hampshire Governor Election Winner,2024-10-06,2024-11-05,30,No,-8.49,-8.5,97030.93
+>30d,New Hampshire Governor Election Winner,2024-09-06,2024-11-05,60,No,-9.55,-9.5,97030.93
+>30d,New Hampshire Governor Election Winner,2024-08-07,2024-11-05,90,No,-9.82,-9.8,97030.93
+<3d,New Hampshire Governor Election Winner,2024-11-04,2024-11-05,1,No,-8.95,-8.9,68620.45
+<3d,New Hampshire Governor Election Winner,2024-11-03,2024-11-05,2,Yes,9.82,9.8,68620.45
+3-7d,New Hampshire Governor Election Winner,2024-10-31,2024-11-05,5,Yes,8.67,8.7,68620.45
+7-30d,New Hampshire Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.43,-8.4,68620.45
+7-30d,New Hampshire Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.93,-9.9,68620.45
+>30d,New Hampshire Governor Election Winner,2024-10-06,2024-11-05,30,Yes,8.81,8.8,68620.45
+>30d,New Hampshire Governor Election Winner,2024-09-06,2024-11-05,60,Yes,10.43,10.4,68620.45
+>30d,New Hampshire Governor Election Winner,2024-08-07,2024-11-05,90,No,-8.58,-8.6,68620.45
+<3d,How many Jobs added in March?,2024-04-04,2024-04-05,1,No,-9.82,-9.8,12529.62
+<3d,How many Jobs added in March?,2024-04-03,2024-04-05,2,Yes,8.63,8.6,12529.62
+3-7d,How many Jobs added in March?,2024-03-31,2024-04-05,5,No,-8.46,-8.5,12529.62
+7-30d,How many Jobs added in March?,2024-03-26,2024-04-05,10,Yes,8.11,8.1,12529.62
+7-30d,How many Jobs added in March?,2024-03-16,2024-04-05,20,No,-10.25,-10.2,12529.62
+>30d,How many Jobs added in March?,2024-03-06,2024-04-05,30,No,-10.18,-10.2,12529.62
+>30d,How many Jobs added in March?,2024-02-05,2024-04-05,60,No,-9.67,-9.7,12529.62
+>30d,How many Jobs added in March?,2024-01-06,2024-04-05,90,No,-9.46,-9.5,12529.62
+<3d,How many Jobs added in March?,2024-04-04,2024-04-05,1,Yes,8.51,8.5,21361.40
+<3d,How many Jobs added in March?,2024-04-03,2024-04-05,2,Yes,9.15,9.1,21361.40
+3-7d,How many Jobs added in March?,2024-03-31,2024-04-05,5,Yes,9.28,9.3,21361.40
+7-30d,How many Jobs added in March?,2024-03-26,2024-04-05,10,Yes,9.52,9.5,21361.40
+7-30d,How many Jobs added in March?,2024-03-16,2024-04-05,20,No,-9.27,-9.3,21361.40
+>30d,How many Jobs added in March?,2024-03-06,2024-04-05,30,No,-8.18,-8.2,21361.40
+>30d,How many Jobs added in March?,2024-02-05,2024-04-05,60,No,-8.64,-8.6,21361.40
+>30d,How many Jobs added in March?,2024-01-06,2024-04-05,90,No,-7.87,-7.9,21361.40
+<3d,How many Jobs added in March?,2024-04-04,2024-04-05,1,No,-9.09,-9.1,29553.66
+<3d,How many Jobs added in March?,2024-04-03,2024-04-05,2,No,-9.27,-9.3,29553.66
+3-7d,How many Jobs added in March?,2024-03-31,2024-04-05,5,No,-8.30,-8.3,29553.66
+7-30d,How many Jobs added in March?,2024-03-26,2024-04-05,10,No,-8.99,-9.0,29553.66
+7-30d,How many Jobs added in March?,2024-03-16,2024-04-05,20,Yes,8.64,8.6,29553.66
+>30d,How many Jobs added in March?,2024-03-06,2024-04-05,30,No,-8.80,-8.8,29553.66
+>30d,How many Jobs added in March?,2024-02-05,2024-04-05,60,Yes,8.64,8.6,29553.66
+>30d,How many Jobs added in March?,2024-01-06,2024-04-05,90,No,-7.73,-7.7,29553.66
+<3d,North Carolina Governor Election Winner,2024-11-04,2024-11-05,1,Yes,9.35,9.3,283661.75
+<3d,North Carolina Governor Election Winner,2024-11-03,2024-11-05,2,Yes,8.40,8.4,283661.75
+3-7d,North Carolina Governor Election Winner,2024-10-31,2024-11-05,5,No,-9.87,-9.9,283661.75
+7-30d,North Carolina Governor Election Winner,2024-10-26,2024-11-05,10,No,-9.31,-9.3,283661.75
+7-30d,North Carolina Governor Election Winner,2024-10-16,2024-11-05,20,No,-7.77,-7.8,283661.75
+>30d,North Carolina Governor Election Winner,2024-10-06,2024-11-05,30,No,-7.88,-7.9,283661.75
+>30d,North Carolina Governor Election Winner,2024-09-06,2024-11-05,60,Yes,8.75,8.8,283661.75
+>30d,North Carolina Governor Election Winner,2024-08-07,2024-11-05,90,No,-8.24,-8.2,283661.75
+<3d,North Carolina Governor Election Winner,2024-11-04,2024-11-05,1,No,-9.93,-9.9,545065.68
+<3d,North Carolina Governor Election Winner,2024-11-03,2024-11-05,2,No,-9.18,-9.2,545065.68
+3-7d,North Carolina Governor Election Winner,2024-10-31,2024-11-05,5,No,-7.81,-7.8,545065.68
+7-30d,North Carolina Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.16,-8.2,545065.68
+7-30d,North Carolina Governor Election Winner,2024-10-16,2024-11-05,20,No,-8.80,-8.8,545065.68
+>30d,North Carolina Governor Election Winner,2024-10-06,2024-11-05,30,Yes,10.11,10.1,545065.68
+>30d,North Carolina Governor Election Winner,2024-09-06,2024-11-05,60,Yes,9.76,9.8,545065.68
+>30d,North Carolina Governor Election Winner,2024-08-07,2024-11-05,90,No,-9.25,-9.3,545065.68
+<3d,North Carolina Governor Election Winner,2024-11-04,2024-11-05,1,No,-9.77,-9.8,338125.06
+<3d,North Carolina Governor Election Winner,2024-11-03,2024-11-05,2,Yes,8.67,8.7,338125.06
+3-7d,North Carolina Governor Election Winner,2024-10-31,2024-11-05,5,No,-8.54,-8.5,338125.06
+7-30d,North Carolina Governor Election Winner,2024-10-26,2024-11-05,10,No,-8.28,-8.3,338125.06
+7-30d,North Carolina Governor Election Winner,2024-10-16,2024-11-05,20,No,-9.93,-9.9,338125.06
+>30d,North Carolina Governor Election Winner,2024-10-06,2024-11-05,30,Yes,8.20,8.2,338125.06
+>30d,North Carolina Governor Election Winner,2024-09-06,2024-11-05,60,No,-10.06,-10.1,338125.06
+>30d,North Carolina Governor Election Winner,2024-08-07,2024-11-05,90,No,-9.30,-9.3,338125.06
+<3d,Anthony Joshua vs. Francis Ngannou,2024-03-06,2024-03-07,1,No,-9.24,-9.2,7606.85
+<3d,Anthony Joshua vs. Francis Ngannou,2024-03-05,2024-03-07,2,Yes,9.98,10.0,7606.85
+3-7d,Anthony Joshua vs. Francis Ngannou,2024-03-02,2024-03-07,5,No,-8.81,-8.8,7606.85
+7-30d,Anthony Joshua vs. Francis Ngannou,2024-02-26,2024-03-07,10,Yes,9.91,9.9,7606.85
+7-30d,Anthony Joshua vs. Francis Ngannou,2024-02-16,2024-03-07,20,Yes,7.97,8.0,7606.85
+>30d,Anthony Joshua vs. Francis Ngannou,2024-02-06,2024-03-07,30,No,-10.11,-10.1,7606.85
+>30d,Anthony Joshua vs. Francis Ngannou,2024-01-07,2024-03-07,60,Yes,7.28,7.3,7606.85
+>30d,Anthony Joshua vs. Francis Ngannou,2023-12-08,2024-03-07,90,No,-9.65,-9.6,7606.85
+<3d,Anthony Joshua vs. Francis Ngannou,2024-03-06,2024-03-07,1,Yes,9.95,9.9,3350.48
+<3d,Anthony Joshua vs. Francis Ngannou,2024-03-05,2024-03-07,2,No,-9.16,-9.2,3350.48
+3-7d,Anthony Joshua vs. Francis Ngannou,2024-03-02,2024-03-07,5,Yes,9.53,9.5,3350.48
+7-30d,Anthony Joshua vs. Francis Ngannou,2024-02-26,2024-03-07,10,No,-9.30,-9.3,3350.48
+7-30d,Anthony Joshua vs. Francis Ngannou,2024-02-16,2024-03-07,20,Yes,8.25,8.3,3350.48
+>30d,Anthony Joshua vs. Francis Ngannou,2024-02-06,2024-03-07,30,Yes,8.39,8.4,3350.48
+>30d,Anthony Joshua vs. Francis Ngannou,2024-01-07,2024-03-07,60,No,-8.79,-8.8,3350.48
+>30d,Anthony Joshua vs. Francis Ngannou,2023-12-08,2024-03-07,90,Yes,9.75,9.7,3350.48
+<3d,Anthony Joshua vs. Francis Ngannou,2024-03-06,2024-03-07,1,Yes,9.25,9.2,3623.99
+<3d,Anthony Joshua vs. Francis Ngannou,2024-03-05,2024-03-07,2,Yes,9.10,9.1,3623.99
+3-7d,Anthony Joshua vs. Francis Ngannou,2024-03-02,2024-03-07,5,No,-9.21,-9.2,3623.99
+7-30d,Anthony Joshua vs. Francis Ngannou,2024-02-26,2024-03-07,10,No,-8.03,-8.0,3623.99
+7-30d,Anthony Joshua vs. Francis Ngannou,2024-02-16,2024-03-07,20,Yes,8.48,8.5,3623.99
+>30d,Anthony Joshua vs. Francis Ngannou,2024-02-06,2024-03-07,30,No,-8.73,-8.7,3623.99
+>30d,Anthony Joshua vs. Francis Ngannou,2024-01-07,2024-03-07,60,No,-9.94,-9.9,3623.99
+>30d,Anthony Joshua vs. Francis Ngannou,2023-12-08,2024-03-07,90,Yes,8.91,8.9,3623.99
+<3d,California Senate Primary Margin of Vict,2024-03-30,2024-03-31,1,Yes,8.01,8.0,101923.28
+<3d,California Senate Primary Margin of Vict,2024-03-29,2024-03-31,2,Yes,8.48,8.5,101923.28
+3-7d,California Senate Primary Margin of Vict,2024-03-26,2024-03-31,5,Yes,7.91,7.9,101923.28
+7-30d,California Senate Primary Margin of Vict,2024-03-21,2024-03-31,10,No,-8.53,-8.5,101923.28
+7-30d,California Senate Primary Margin of Vict,2024-03-11,2024-03-31,20,Yes,9.71,9.7,101923.28
+>30d,California Senate Primary Margin of Vict,2024-03-01,2024-03-31,30,Yes,9.45,9.5,101923.28
+>30d,California Senate Primary Margin of Vict,2024-01-31,2024-03-31,60,Yes,9.67,9.7,101923.28
+>30d,California Senate Primary Margin of Vict,2024-01-01,2024-03-31,90,No,-8.59,-8.6,101923.28
+<3d,California Senate Primary Margin of Vict,2024-03-30,2024-03-31,1,No,-9.67,-9.7,37592.34
+<3d,California Senate Primary Margin of Vict,2024-03-29,2024-03-31,2,No,-9.85,-9.9,37592.34
+3-7d,California Senate Primary Margin of Vict,2024-03-26,2024-03-31,5,No,-9.25,-9.3,37592.34
+7-30d,California Senate Primary Margin of Vict,2024-03-21,2024-03-31,10,No,-10.15,-10.1,37592.34
+7-30d,California Senate Primary Margin of Vict,2024-03-11,2024-03-31,20,No,-9.44,-9.4,37592.34
+>30d,California Senate Primary Margin of Vict,2024-03-01,2024-03-31,30,Yes,8.17,8.2,37592.34
+>30d,California Senate Primary Margin of Vict,2024-01-31,2024-03-31,60,Yes,8.53,8.5,37592.34
+>30d,California Senate Primary Margin of Vict,2024-01-01,2024-03-31,90,No,-10.08,-10.1,37592.34
+<3d,California Senate Primary Margin of Vict,2024-03-30,2024-03-31,1,Yes,8.11,8.1,102210.28
+<3d,California Senate Primary Margin of Vict,2024-03-29,2024-03-31,2,Yes,8.01,8.0,102210.28
+3-7d,California Senate Primary Margin of Vict,2024-03-26,2024-03-31,5,Yes,9.33,9.3,102210.28
+7-30d,California Senate Primary Margin of Vict,2024-03-21,2024-03-31,10,Yes,8.46,8.5,102210.28
+7-30d,California Senate Primary Margin of Vict,2024-03-11,2024-03-31,20,No,-9.79,-9.8,102210.28
+>30d,California Senate Primary Margin of Vict,2024-03-01,2024-03-31,30,No,-7.47,-7.5,102210.28
+>30d,California Senate Primary Margin of Vict,2024-01-31,2024-03-31,60,No,-7.46,-7.5,102210.28
+>30d,California Senate Primary Margin of Vict,2024-01-01,2024-03-31,90,No,-9.11,-9.1,102210.28
+<3d,California Senate Primary Margin of Vict,2024-03-30,2024-03-31,1,Yes,8.73,8.7,29515.84
+<3d,California Senate Primary Margin of Vict,2024-03-29,2024-03-31,2,Yes,8.44,8.4,29515.84
+3-7d,California Senate Primary Margin of Vict,2024-03-26,2024-03-31,5,Yes,9.79,9.8,29515.84
+7-30d,California Senate Primary Margin of Vict,2024-03-21,2024-03-31,10,Yes,8.98,9.0,29515.84
+7-30d,California Senate Primary Margin of Vict,2024-03-11,2024-03-31,20,Yes,10.18,10.2,29515.84
+>30d,California Senate Primary Margin of Vict,2024-03-01,2024-03-31,30,No,-9.34,-9.3,29515.84
+>30d,California Senate Primary Margin of Vict,2024-01-31,2024-03-31,60,Yes,8.32,8.3,29515.84
+>30d,California Senate Primary Margin of Vict,2024-01-01,2024-03-31,90,No,-8.09,-8.1,29515.84
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,9.53,9.5,10864.48
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,9.11,9.1,10864.48
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-9.27,-9.3,10864.48
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-8.56,-8.6,10864.48
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,Yes,9.38,9.4,10864.48
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,Yes,9.14,9.1,10864.48
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-10.05,-10.1,10864.48
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,9.31,9.3,10864.48
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,9.70,9.7,159409.34
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.92,8.9,159409.34
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,Yes,8.42,8.4,159409.34
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-8.45,-8.5,159409.34
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-8.13,-8.1,159409.34
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,Yes,8.99,9.0,159409.34
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-10.12,-10.1,159409.34
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,No,-10.60,-10.6,159409.34
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,No,-9.70,-9.7,106249.71
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,10.20,10.2,106249.71
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,Yes,9.22,9.2,106249.71
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-10.55,-10.5,106249.71
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-8.56,-8.6,106249.71
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-9.15,-9.2,106249.71
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-8.29,-8.3,106249.71
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,9.58,9.6,106249.71
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,No,-7.85,-7.8,31742.02
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.86,8.9,31742.02
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,Yes,9.11,9.1,31742.02
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,Yes,7.91,7.9,31742.02
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-8.43,-8.4,31742.02
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-8.14,-8.1,31742.02
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,Yes,8.20,8.2,31742.02
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,No,-9.78,-9.8,31742.02
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,8.58,8.6,173012.38
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.33,8.3,173012.38
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-8.95,-8.9,173012.38
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,Yes,9.99,10.0,173012.38
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,Yes,10.44,10.4,173012.38
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,Yes,9.96,10.0,173012.38
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,Yes,10.54,10.5,173012.38
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,No,-9.16,-9.2,173012.38
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,8.97,9.0,33740.11
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,No,-9.86,-9.9,33740.11
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,Yes,9.34,9.3,33740.11
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-9.27,-9.3,33740.11
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-8.66,-8.7,33740.11
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-8.64,-8.6,33740.11
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-8.42,-8.4,33740.11
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,No,-9.99,-10.0,33740.11
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,9.61,9.6,128805.71
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.59,8.6,128805.71
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-8.43,-8.4,128805.71
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-9.06,-9.1,128805.71
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-8.16,-8.2,128805.71
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-9.23,-9.2,128805.71
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,Yes,9.33,9.3,128805.71
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,9.03,9.0,128805.71
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,8.79,8.8,233416.04
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.81,8.8,233416.04
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,Yes,8.45,8.5,233416.04
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,Yes,9.11,9.1,233416.04
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-9.02,-9.0,233416.04
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-9.10,-9.1,233416.04
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-8.45,-8.5,233416.04
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,8.32,8.3,233416.04
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,No,-9.70,-9.7,14428.26
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.77,8.8,14428.26
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-9.89,-9.9,14428.26
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,Yes,8.85,8.9,14428.26
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,Yes,8.46,8.5,14428.26
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-9.03,-9.0,14428.26
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-8.21,-8.2,14428.26
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,9.37,9.4,14428.26
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,No,-8.19,-8.2,62145.58
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,9.34,9.3,62145.58
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-9.57,-9.6,62145.58
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-7.76,-7.8,62145.58
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,Yes,10.38,10.4,62145.58
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,Yes,8.10,8.1,62145.58
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,Yes,9.04,9.0,62145.58
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,8.93,8.9,62145.58
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,9.85,9.8,57625.07
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.93,8.9,57625.07
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,Yes,8.54,8.5,57625.07
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,Yes,9.17,9.2,57625.07
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,Yes,8.63,8.6,57625.07
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-9.79,-9.8,57625.07
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,Yes,10.48,10.5,57625.07
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,9.79,9.8,57625.07
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,No,-8.50,-8.5,130555.00
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,No,-8.09,-8.1,130555.00
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,Yes,9.56,9.6,130555.00
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,Yes,9.09,9.1,130555.00
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-8.44,-8.4,130555.00
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-10.02,-10.0,130555.00
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,Yes,8.38,8.4,130555.00
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,9.87,9.9,130555.00
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,9.74,9.7,80536.38
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.52,8.5,80536.38
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-8.10,-8.1,80536.38
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-9.69,-9.7,80536.38
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,No,-7.62,-7.6,80536.38
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-10.10,-10.1,80536.38
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-8.32,-8.3,80536.38
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,8.37,8.4,80536.38
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,9.51,9.5,93121.07
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,9.17,9.2,93121.07
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-8.72,-8.7,93121.07
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-7.67,-7.7,93121.07
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,Yes,8.37,8.4,93121.07
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-9.22,-9.2,93121.07
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,No,-10.34,-10.3,93121.07
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,No,-7.67,-7.7,93121.07
+<3d,Which Super Tuesday states will Trump wi,2024-03-04,2024-03-05,1,Yes,7.76,7.8,53837.15
+<3d,Which Super Tuesday states will Trump wi,2024-03-03,2024-03-05,2,Yes,8.56,8.6,53837.15
+3-7d,Which Super Tuesday states will Trump wi,2024-02-29,2024-03-05,5,No,-8.87,-8.9,53837.15
+7-30d,Which Super Tuesday states will Trump wi,2024-02-24,2024-03-05,10,No,-8.52,-8.5,53837.15
+7-30d,Which Super Tuesday states will Trump wi,2024-02-14,2024-03-05,20,Yes,7.95,7.9,53837.15
+>30d,Which Super Tuesday states will Trump wi,2024-02-04,2024-03-05,30,No,-8.69,-8.7,53837.15
+>30d,Which Super Tuesday states will Trump wi,2024-01-05,2024-03-05,60,Yes,9.07,9.1,53837.15
+>30d,Which Super Tuesday states will Trump wi,2023-12-06,2024-03-05,90,Yes,8.81,8.8,53837.15
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,Yes,8.93,8.9,10501.98
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,9.05,9.1,10501.98
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,8.55,8.6,10501.98
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,9.27,9.3,10501.98
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-9.14,-9.1,10501.98
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-8.58,-8.6,10501.98
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,No,-8.44,-8.4,10501.98
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,Yes,10.06,10.1,10501.98
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-8.52,-8.5,4426.76
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,8.39,8.4,4426.76
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,No,-10.26,-10.3,4426.76
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,No,-10.36,-10.4,4426.76
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-8.57,-8.6,4426.76
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,Yes,10.52,10.5,4426.76
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,Yes,8.53,8.5,4426.76
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,Yes,8.05,8.1,4426.76
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,Yes,9.30,9.3,8040.40
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,No,-9.90,-9.9,8040.40
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,No,-9.89,-9.9,8040.40
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,8.55,8.5,8040.40
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,Yes,8.30,8.3,8040.40
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,Yes,8.68,8.7,8040.40
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,No,-8.99,-9.0,8040.40
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,No,-7.90,-7.9,8040.40
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,Yes,8.50,8.5,2216.78
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,9.34,9.3,2216.78
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,No,-8.91,-8.9,2216.78
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,8.10,8.1,2216.78
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-8.53,-8.5,2216.78
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-8.66,-8.7,2216.78
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,Yes,9.00,9.0,2216.78
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,No,-7.95,-8.0,2216.78
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-9.26,-9.3,3897.59
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,No,-9.11,-9.1,3897.59
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,10.24,10.2,3897.59
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,10.00,10.0,3897.59
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-8.50,-8.5,3897.59
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-9.01,-9.0,3897.59
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,Yes,7.84,7.8,3897.59
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,Yes,8.58,8.6,3897.59
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-8.76,-8.8,3754.23
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,8.91,8.9,3754.23
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,9.78,9.8,3754.23
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,10.35,10.4,3754.23
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,Yes,9.42,9.4,3754.23
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-8.75,-8.7,3754.23
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,No,-8.65,-8.7,3754.23
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,Yes,7.80,7.8,3754.23
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-8.76,-8.8,1560.17
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,8.72,8.7,1560.17
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,9.42,9.4,1560.17
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,No,-8.82,-8.8,1560.17
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-8.55,-8.6,1560.17
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,Yes,9.06,9.1,1560.17
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,No,-8.25,-8.2,1560.17
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,Yes,8.66,8.7,1560.17
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,Yes,8.17,8.2,2400.90
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,8.86,8.9,2400.90
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,No,-8.46,-8.5,2400.90
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,8.96,9.0,2400.90
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-7.50,-7.5,2400.90
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-8.32,-8.3,2400.90
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,No,-8.83,-8.8,2400.90
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,Yes,9.04,9.0,2400.90
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-8.96,-9.0,3985.99
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,9.56,9.6,3985.99
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,9.57,9.6,3985.99
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,No,-10.56,-10.6,3985.99
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,Yes,8.48,8.5,3985.99
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-9.23,-9.2,3985.99
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,Yes,9.16,9.2,3985.99
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,No,-9.30,-9.3,3985.99
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-9.10,-9.1,4365.78
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,9.20,9.2,4365.78
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,7.69,7.7,4365.78
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,No,-7.91,-7.9,4365.78
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,Yes,8.31,8.3,4365.78
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-10.33,-10.3,4365.78
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,Yes,9.08,9.1,4365.78
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,No,-9.09,-9.1,4365.78
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-9.19,-9.2,6289.94
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,8.42,8.4,6289.94
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,8.25,8.2,6289.94
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,8.20,8.2,6289.94
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,Yes,9.98,10.0,6289.94
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,Yes,9.82,9.8,6289.94
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,Yes,8.22,8.2,6289.94
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,No,-10.09,-10.1,6289.94
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,No,-9.00,-9.0,22245.29
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,Yes,8.96,9.0,22245.29
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,Yes,8.89,8.9,22245.29
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,No,-9.70,-9.7,22245.29
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-9.39,-9.4,22245.29
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-8.94,-8.9,22245.29
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,No,-8.57,-8.6,22245.29
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,No,-10.00,-10.0,22245.29
+<3d,What will Biden say during State of the ,2024-03-06,2024-03-07,1,Yes,9.87,9.9,2833.33
+<3d,What will Biden say during State of the ,2024-03-05,2024-03-07,2,No,-9.21,-9.2,2833.33
+3-7d,What will Biden say during State of the ,2024-03-02,2024-03-07,5,No,-8.55,-8.5,2833.33
+7-30d,What will Biden say during State of the ,2024-02-26,2024-03-07,10,Yes,9.79,9.8,2833.33
+7-30d,What will Biden say during State of the ,2024-02-16,2024-03-07,20,No,-8.29,-8.3,2833.33
+>30d,What will Biden say during State of the ,2024-02-06,2024-03-07,30,No,-9.13,-9.1,2833.33
+>30d,What will Biden say during State of the ,2024-01-07,2024-03-07,60,No,-9.89,-9.9,2833.33
+>30d,What will Biden say during State of the ,2023-12-08,2024-03-07,90,Yes,8.77,8.8,2833.33
+<3d,Ohio Republican Senate Primary Winner,2024-03-18,2024-03-19,1,Yes,9.74,9.7,25803.82
+<3d,Ohio Republican Senate Primary Winner,2024-03-17,2024-03-19,2,No,-9.03,-9.0,25803.82
+3-7d,Ohio Republican Senate Primary Winner,2024-03-14,2024-03-19,5,Yes,9.53,9.5,25803.82
+7-30d,Ohio Republican Senate Primary Winner,2024-03-09,2024-03-19,10,No,-10.14,-10.1,25803.82
+7-30d,Ohio Republican Senate Primary Winner,2024-02-28,2024-03-19,20,No,-8.81,-8.8,25803.82
+>30d,Ohio Republican Senate Primary Winner,2024-02-18,2024-03-19,30,No,-8.96,-9.0,25803.82
+>30d,Ohio Republican Senate Primary Winner,2024-01-19,2024-03-19,60,No,-8.09,-8.1,25803.82
+>30d,Ohio Republican Senate Primary Winner,2023-12-20,2024-03-19,90,No,-10.25,-10.2,25803.82
+<3d,Ohio Republican Senate Primary Winner,2024-03-18,2024-03-19,1,Yes,8.90,8.9,21978.85
+<3d,Ohio Republican Senate Primary Winner,2024-03-17,2024-03-19,2,Yes,8.24,8.2,21978.85
+3-7d,Ohio Republican Senate Primary Winner,2024-03-14,2024-03-19,5,No,-9.52,-9.5,21978.85
+7-30d,Ohio Republican Senate Primary Winner,2024-03-09,2024-03-19,10,Yes,7.97,8.0,21978.85
+7-30d,Ohio Republican Senate Primary Winner,2024-02-28,2024-03-19,20,Yes,9.41,9.4,21978.85
+>30d,Ohio Republican Senate Primary Winner,2024-02-18,2024-03-19,30,No,-9.37,-9.4,21978.85
+>30d,Ohio Republican Senate Primary Winner,2024-01-19,2024-03-19,60,No,-8.15,-8.2,21978.85
+>30d,Ohio Republican Senate Primary Winner,2023-12-20,2024-03-19,90,Yes,9.14,9.1,21978.85
+<3d,Ohio Republican Senate Primary Winner,2024-03-18,2024-03-19,1,Yes,8.40,8.4,22751.35
+<3d,Ohio Republican Senate Primary Winner,2024-03-17,2024-03-19,2,Yes,8.45,8.5,22751.35
+3-7d,Ohio Republican Senate Primary Winner,2024-03-14,2024-03-19,5,No,-8.42,-8.4,22751.35
+7-30d,Ohio Republican Senate Primary Winner,2024-03-09,2024-03-19,10,No,-8.78,-8.8,22751.35
+7-30d,Ohio Republican Senate Primary Winner,2024-02-28,2024-03-19,20,No,-7.97,-8.0,22751.35
+>30d,Ohio Republican Senate Primary Winner,2024-02-18,2024-03-19,30,No,-8.35,-8.3,22751.35
+>30d,Ohio Republican Senate Primary Winner,2024-01-19,2024-03-19,60,No,-9.09,-9.1,22751.35
+>30d,Ohio Republican Senate Primary Winner,2023-12-20,2024-03-19,90,No,-8.64,-8.6,22751.35
+<3d,Ohio Republican Senate Primary Winner,2024-03-18,2024-03-19,1,Yes,8.09,8.1,28633.12
+<3d,Ohio Republican Senate Primary Winner,2024-03-17,2024-03-19,2,Yes,8.54,8.5,28633.12
+3-7d,Ohio Republican Senate Primary Winner,2024-03-14,2024-03-19,5,Yes,10.42,10.4,28633.12
+7-30d,Ohio Republican Senate Primary Winner,2024-03-09,2024-03-19,10,Yes,7.92,7.9,28633.12
+7-30d,Ohio Republican Senate Primary Winner,2024-02-28,2024-03-19,20,Yes,10.32,10.3,28633.12
+>30d,Ohio Republican Senate Primary Winner,2024-02-18,2024-03-19,30,Yes,8.81,8.8,28633.12
+>30d,Ohio Republican Senate Primary Winner,2024-01-19,2024-03-19,60,Yes,9.55,9.6,28633.12
+>30d,Ohio Republican Senate Primary Winner,2023-12-20,2024-03-19,90,No,-8.04,-8.0,28633.12
+<3d,South Korea election: Which party wins t,2024-04-09,2024-04-10,1,Yes,10.03,10.0,27725.52
+<3d,South Korea election: Which party wins t,2024-04-08,2024-04-10,2,Yes,9.62,9.6,27725.52
+3-7d,South Korea election: Which party wins t,2024-04-05,2024-04-10,5,No,-9.59,-9.6,27725.52
+7-30d,South Korea election: Which party wins t,2024-03-31,2024-04-10,10,No,-8.13,-8.1,27725.52
+7-30d,South Korea election: Which party wins t,2024-03-21,2024-04-10,20,No,-8.71,-8.7,27725.52
+>30d,South Korea election: Which party wins t,2024-03-11,2024-04-10,30,No,-10.00,-10.0,27725.52
+>30d,South Korea election: Which party wins t,2024-02-10,2024-04-10,60,Yes,8.36,8.4,27725.52
+>30d,South Korea election: Which party wins t,2024-01-11,2024-04-10,90,Yes,10.46,10.5,27725.52
+<3d,South Korea election: Which party wins t,2024-04-09,2024-04-10,1,No,-10.22,-10.2,26744.25
+<3d,South Korea election: Which party wins t,2024-04-08,2024-04-10,2,No,-8.62,-8.6,26744.25
+3-7d,South Korea election: Which party wins t,2024-04-05,2024-04-10,5,Yes,7.86,7.9,26744.25
+7-30d,South Korea election: Which party wins t,2024-03-31,2024-04-10,10,No,-9.04,-9.0,26744.25
+7-30d,South Korea election: Which party wins t,2024-03-21,2024-04-10,20,No,-7.60,-7.6,26744.25
+>30d,South Korea election: Which party wins t,2024-03-11,2024-04-10,30,No,-9.73,-9.7,26744.25
+>30d,South Korea election: Which party wins t,2024-02-10,2024-04-10,60,No,-9.89,-9.9,26744.25
+>30d,South Korea election: Which party wins t,2024-01-11,2024-04-10,90,No,-9.21,-9.2,26744.25
+<3d,South Korea election: Which party wins t,2024-04-09,2024-04-10,1,No,-9.26,-9.3,4317.05
+<3d,South Korea election: Which party wins t,2024-04-08,2024-04-10,2,Yes,10.14,10.1,4317.05
+3-7d,South Korea election: Which party wins t,2024-04-05,2024-04-10,5,No,-9.39,-9.4,4317.05
+7-30d,South Korea election: Which party wins t,2024-03-31,2024-04-10,10,No,-8.97,-9.0,4317.05
+7-30d,South Korea election: Which party wins t,2024-03-21,2024-04-10,20,Yes,8.74,8.7,4317.05
+>30d,South Korea election: Which party wins t,2024-03-11,2024-04-10,30,Yes,10.01,10.0,4317.05
+>30d,South Korea election: Which party wins t,2024-02-10,2024-04-10,60,Yes,8.59,8.6,4317.05
+>30d,South Korea election: Which party wins t,2024-01-11,2024-04-10,90,No,-8.90,-8.9,4317.05
+<3d,First place in California Senate Primary,2024-03-04,2024-03-05,1,Yes,9.29,9.3,438218.33
+<3d,First place in California Senate Primary,2024-03-03,2024-03-05,2,Yes,9.68,9.7,438218.33
+3-7d,First place in California Senate Primary,2024-02-29,2024-03-05,5,Yes,7.99,8.0,438218.33
+7-30d,First place in California Senate Primary,2024-02-24,2024-03-05,10,Yes,10.08,10.1,438218.33
+7-30d,First place in California Senate Primary,2024-02-14,2024-03-05,20,No,-9.55,-9.6,438218.33
+>30d,First place in California Senate Primary,2024-02-04,2024-03-05,30,No,-8.53,-8.5,438218.33
+>30d,First place in California Senate Primary,2024-01-05,2024-03-05,60,No,-8.05,-8.0,438218.33
+>30d,First place in California Senate Primary,2023-12-06,2024-03-05,90,No,-8.68,-8.7,438218.33
+<3d,First place in California Senate Primary,2024-03-04,2024-03-05,1,No,-9.68,-9.7,622624.68
+<3d,First place in California Senate Primary,2024-03-03,2024-03-05,2,Yes,10.02,10.0,622624.68
+3-7d,First place in California Senate Primary,2024-02-29,2024-03-05,5,Yes,9.75,9.7,622624.68
+7-30d,First place in California Senate Primary,2024-02-24,2024-03-05,10,Yes,9.47,9.5,622624.68
+7-30d,First place in California Senate Primary,2024-02-14,2024-03-05,20,Yes,8.08,8.1,622624.68
+>30d,First place in California Senate Primary,2024-02-04,2024-03-05,30,No,-8.59,-8.6,622624.68
+>30d,First place in California Senate Primary,2024-01-05,2024-03-05,60,No,-9.00,-9.0,622624.68
+>30d,First place in California Senate Primary,2023-12-06,2024-03-05,90,No,-8.13,-8.1,622624.68
+<3d,First place in California Senate Primary,2024-03-04,2024-03-05,1,Yes,8.93,8.9,60419.02
+<3d,First place in California Senate Primary,2024-03-03,2024-03-05,2,Yes,9.10,9.1,60419.02
+3-7d,First place in California Senate Primary,2024-02-29,2024-03-05,5,No,-8.77,-8.8,60419.02
+7-30d,First place in California Senate Primary,2024-02-24,2024-03-05,10,No,-9.30,-9.3,60419.02
+7-30d,First place in California Senate Primary,2024-02-14,2024-03-05,20,Yes,9.95,10.0,60419.02
+>30d,First place in California Senate Primary,2024-02-04,2024-03-05,30,No,-9.45,-9.5,60419.02
+>30d,First place in California Senate Primary,2024-01-05,2024-03-05,60,No,-8.84,-8.8,60419.02
+>30d,First place in California Senate Primary,2023-12-06,2024-03-05,90,No,-8.15,-8.2,60419.02
+<3d,First place in California Senate Primary,2024-03-04,2024-03-05,1,Yes,8.84,8.8,22209.36
+<3d,First place in California Senate Primary,2024-03-03,2024-03-05,2,Yes,9.28,9.3,22209.36
+3-7d,First place in California Senate Primary,2024-02-29,2024-03-05,5,Yes,9.48,9.5,22209.36
+7-30d,First place in California Senate Primary,2024-02-24,2024-03-05,10,No,-7.97,-8.0,22209.36
+7-30d,First place in California Senate Primary,2024-02-14,2024-03-05,20,No,-8.47,-8.5,22209.36
+>30d,First place in California Senate Primary,2024-02-04,2024-03-05,30,No,-9.52,-9.5,22209.36
+>30d,First place in California Senate Primary,2024-01-05,2024-03-05,60,No,-8.59,-8.6,22209.36
+>30d,First place in California Senate Primary,2023-12-06,2024-03-05,90,No,-10.07,-10.1,22209.36
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,Yes,10.09,10.1,13437.88
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,Yes,8.38,8.4,13437.88
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,Yes,9.58,9.6,13437.88
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,Yes,9.73,9.7,13437.88
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,Yes,8.14,8.1,13437.88
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,Yes,8.97,9.0,13437.88
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,No,-7.88,-7.9,13437.88
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,Yes,9.66,9.7,13437.88
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,Yes,8.70,8.7,3622.00
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,Yes,8.03,8.0,3622.00
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,No,-9.37,-9.4,3622.00
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,Yes,8.18,8.2,3622.00
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,No,-9.56,-9.6,3622.00
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,Yes,8.47,8.5,3622.00
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,No,-8.12,-8.1,3622.00
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,No,-9.01,-9.0,3622.00
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,No,-8.31,-8.3,3000.00
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,No,-9.72,-9.7,3000.00
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,Yes,8.92,8.9,3000.00
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,No,-8.17,-8.2,3000.00
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,No,-7.95,-8.0,3000.00
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,No,-7.98,-8.0,3000.00
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,Yes,8.90,8.9,3000.00
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,Yes,9.16,9.2,3000.00
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,Yes,8.38,8.4,1333.00
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,No,-9.75,-9.7,1333.00
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,No,-8.05,-8.0,1333.00
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,Yes,8.97,9.0,1333.00
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,Yes,9.99,10.0,1333.00
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,No,-9.39,-9.4,1333.00
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,No,-9.10,-9.1,1333.00
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,Yes,9.68,9.7,1333.00
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,Yes,8.34,8.3,4292.99
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,Yes,7.97,8.0,4292.99
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,Yes,9.67,9.7,4292.99
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,No,-8.78,-8.8,4292.99
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,Yes,8.92,8.9,4292.99
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,Yes,10.39,10.4,4292.99
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,Yes,8.71,8.7,4292.99
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,Yes,7.94,7.9,4292.99
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,No,-9.12,-9.1,3622.00
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,Yes,9.78,9.8,3622.00
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,Yes,8.70,8.7,3622.00
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,Yes,8.56,8.6,3622.00
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,Yes,9.08,9.1,3622.00
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,No,-7.90,-7.9,3622.00
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,No,-9.13,-9.1,3622.00
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,Yes,8.63,8.6,3622.00
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,Yes,9.96,10.0,3070.20
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,No,-8.13,-8.1,3070.20
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,No,-9.79,-9.8,3070.20
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,No,-9.81,-9.8,3070.20
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,No,-9.06,-9.1,3070.20
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,Yes,8.19,8.2,3070.20
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,Yes,9.98,10.0,3070.20
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,Yes,9.65,9.6,3070.20
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,No,-8.53,-8.5,3733.00
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,No,-8.85,-8.9,3733.00
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,Yes,8.71,8.7,3733.00
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,Yes,9.04,9.0,3733.00
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,Yes,8.53,8.5,3733.00
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,No,-8.77,-8.8,3733.00
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,No,-9.73,-9.7,3733.00
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,No,-8.80,-8.8,3733.00
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,Yes,9.50,9.5,3222.00
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,Yes,7.81,7.8,3222.00
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,Yes,9.87,9.9,3222.00
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,No,-9.19,-9.2,3222.00
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,No,-8.48,-8.5,3222.00
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,No,-10.00,-10.0,3222.00
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,No,-8.86,-8.9,3222.00
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,No,-9.96,-10.0,3222.00
+<3d,Texas Democratic Senate Primary,2024-03-04,2024-03-05,1,Yes,9.71,9.7,1600.00
+<3d,Texas Democratic Senate Primary,2024-03-03,2024-03-05,2,Yes,9.55,9.5,1600.00
+3-7d,Texas Democratic Senate Primary,2024-02-29,2024-03-05,5,No,-10.13,-10.1,1600.00
+7-30d,Texas Democratic Senate Primary,2024-02-24,2024-03-05,10,No,-9.56,-9.6,1600.00
+7-30d,Texas Democratic Senate Primary,2024-02-14,2024-03-05,20,No,-8.60,-8.6,1600.00
+>30d,Texas Democratic Senate Primary,2024-02-04,2024-03-05,30,Yes,8.70,8.7,1600.00
+>30d,Texas Democratic Senate Primary,2024-01-05,2024-03-05,60,No,-7.77,-7.8,1600.00
+>30d,Texas Democratic Senate Primary,2023-12-06,2024-03-05,90,No,-9.54,-9.5,1600.00
+<3d,Wyoming Presidential Election Winner,2024-11-04,2024-11-05,1,Yes,9.09,9.1,831551.16
+<3d,Wyoming Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,8.04,8.0,831551.16
+3-7d,Wyoming Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,9.95,10.0,831551.16
+7-30d,Wyoming Presidential Election Winner,2024-10-26,2024-11-05,10,No,-8.77,-8.8,831551.16
+7-30d,Wyoming Presidential Election Winner,2024-10-16,2024-11-05,20,No,-10.44,-10.4,831551.16
+>30d,Wyoming Presidential Election Winner,2024-10-06,2024-11-05,30,No,-9.90,-9.9,831551.16
+>30d,Wyoming Presidential Election Winner,2024-09-06,2024-11-05,60,No,-8.20,-8.2,831551.16
+>30d,Wyoming Presidential Election Winner,2024-08-07,2024-11-05,90,No,-8.53,-8.5,831551.16
+<3d,Wyoming Presidential Election Winner,2024-11-04,2024-11-05,1,Yes,7.88,7.9,427156.11
+<3d,Wyoming Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,9.40,9.4,427156.11
+3-7d,Wyoming Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,10.36,10.4,427156.11
+7-30d,Wyoming Presidential Election Winner,2024-10-26,2024-11-05,10,No,-8.32,-8.3,427156.11
+7-30d,Wyoming Presidential Election Winner,2024-10-16,2024-11-05,20,Yes,8.47,8.5,427156.11
+>30d,Wyoming Presidential Election Winner,2024-10-06,2024-11-05,30,No,-8.42,-8.4,427156.11
+>30d,Wyoming Presidential Election Winner,2024-09-06,2024-11-05,60,Yes,10.40,10.4,427156.11
+>30d,Wyoming Presidential Election Winner,2024-08-07,2024-11-05,90,No,-10.44,-10.4,427156.11
+<3d,Wyoming Presidential Election Winner,2024-11-04,2024-11-05,1,No,-9.39,-9.4,896320.99
+<3d,Wyoming Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,9.12,9.1,896320.99
+3-7d,Wyoming Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,9.01,9.0,896320.99
+7-30d,Wyoming Presidential Election Winner,2024-10-26,2024-11-05,10,No,-7.99,-8.0,896320.99
+7-30d,Wyoming Presidential Election Winner,2024-10-16,2024-11-05,20,Yes,8.14,8.1,896320.99
+>30d,Wyoming Presidential Election Winner,2024-10-06,2024-11-05,30,Yes,8.67,8.7,896320.99
+>30d,Wyoming Presidential Election Winner,2024-09-06,2024-11-05,60,No,-9.13,-9.1,896320.99
+>30d,Wyoming Presidential Election Winner,2024-08-07,2024-11-05,90,No,-10.43,-10.4,896320.99
+<3d,Who will win Wisconsin?,2024-11-04,2024-11-05,1,Yes,8.88,8.9,4005229.57
+<3d,Who will win Wisconsin?,2024-11-03,2024-11-05,2,Yes,9.35,9.3,4005229.57
+3-7d,Who will win Wisconsin?,2024-10-31,2024-11-05,5,Yes,8.55,8.5,4005229.57
+7-30d,Who will win Wisconsin?,2024-10-26,2024-11-05,10,No,-10.20,-10.2,4005229.57
+7-30d,Who will win Wisconsin?,2024-10-16,2024-11-05,20,No,-9.12,-9.1,4005229.57
+>30d,Who will win Wisconsin?,2024-10-06,2024-11-05,30,No,-7.84,-7.8,4005229.57
+>30d,Who will win Wisconsin?,2024-09-06,2024-11-05,60,Yes,8.04,8.0,4005229.57
+>30d,Who will win Wisconsin?,2024-08-07,2024-11-05,90,No,-8.66,-8.7,4005229.57
+<3d,Who will win Wisconsin?,2024-11-04,2024-11-05,1,No,-9.86,-9.9,5092982.50
+<3d,Who will win Wisconsin?,2024-11-03,2024-11-05,2,Yes,8.69,8.7,5092982.50
+3-7d,Who will win Wisconsin?,2024-10-31,2024-11-05,5,No,-9.22,-9.2,5092982.50
+7-30d,Who will win Wisconsin?,2024-10-26,2024-11-05,10,No,-9.01,-9.0,5092982.50
+7-30d,Who will win Wisconsin?,2024-10-16,2024-11-05,20,No,-7.82,-7.8,5092982.50
+>30d,Who will win Wisconsin?,2024-10-06,2024-11-05,30,Yes,10.20,10.2,5092982.50
+>30d,Who will win Wisconsin?,2024-09-06,2024-11-05,60,No,-8.14,-8.1,5092982.50
+>30d,Who will win Wisconsin?,2024-08-07,2024-11-05,90,No,-8.67,-8.7,5092982.50
+<3d,Who will win Wisconsin?,2024-11-04,2024-11-05,1,Yes,8.40,8.4,4183199.19
+<3d,Who will win Wisconsin?,2024-11-03,2024-11-05,2,No,-7.95,-7.9,4183199.19
+3-7d,Who will win Wisconsin?,2024-10-31,2024-11-05,5,Yes,10.52,10.5,4183199.19
+7-30d,Who will win Wisconsin?,2024-10-26,2024-11-05,10,No,-9.68,-9.7,4183199.19
+7-30d,Who will win Wisconsin?,2024-10-16,2024-11-05,20,No,-7.69,-7.7,4183199.19
+>30d,Who will win Wisconsin?,2024-10-06,2024-11-05,30,Yes,8.66,8.7,4183199.19
+>30d,Who will win Wisconsin?,2024-09-06,2024-11-05,60,No,-8.12,-8.1,4183199.19
+>30d,Who will win Wisconsin?,2024-08-07,2024-11-05,90,Yes,8.71,8.7,4183199.19
+<3d,West Virginia Presidential Election Winn,2024-11-04,2024-11-05,1,No,-9.72,-9.7,1132009.02
+<3d,West Virginia Presidential Election Winn,2024-11-03,2024-11-05,2,Yes,7.84,7.8,1132009.02
+3-7d,West Virginia Presidential Election Winn,2024-10-31,2024-11-05,5,Yes,9.47,9.5,1132009.02
+7-30d,West Virginia Presidential Election Winn,2024-10-26,2024-11-05,10,No,-8.58,-8.6,1132009.02
+7-30d,West Virginia Presidential Election Winn,2024-10-16,2024-11-05,20,Yes,9.75,9.7,1132009.02
+>30d,West Virginia Presidential Election Winn,2024-10-06,2024-11-05,30,No,-9.79,-9.8,1132009.02
+>30d,West Virginia Presidential Election Winn,2024-09-06,2024-11-05,60,Yes,8.66,8.7,1132009.02
+>30d,West Virginia Presidential Election Winn,2024-08-07,2024-11-05,90,Yes,10.17,10.2,1132009.02
+<3d,West Virginia Presidential Election Winn,2024-11-04,2024-11-05,1,Yes,9.06,9.1,55242.76
+<3d,West Virginia Presidential Election Winn,2024-11-03,2024-11-05,2,Yes,9.51,9.5,55242.76
+3-7d,West Virginia Presidential Election Winn,2024-10-31,2024-11-05,5,Yes,8.75,8.8,55242.76
+7-30d,West Virginia Presidential Election Winn,2024-10-26,2024-11-05,10,Yes,9.59,9.6,55242.76
+7-30d,West Virginia Presidential Election Winn,2024-10-16,2024-11-05,20,Yes,9.18,9.2,55242.76
+>30d,West Virginia Presidential Election Winn,2024-10-06,2024-11-05,30,No,-9.61,-9.6,55242.76
+>30d,West Virginia Presidential Election Winn,2024-09-06,2024-11-05,60,No,-8.82,-8.8,55242.76
+>30d,West Virginia Presidential Election Winn,2024-08-07,2024-11-05,90,Yes,7.94,7.9,55242.76
+<3d,West Virginia Presidential Election Winn,2024-11-04,2024-11-05,1,No,-8.42,-8.4,120831.51
+<3d,West Virginia Presidential Election Winn,2024-11-03,2024-11-05,2,Yes,8.77,8.8,120831.51
+3-7d,West Virginia Presidential Election Winn,2024-10-31,2024-11-05,5,No,-8.01,-8.0,120831.51
+7-30d,West Virginia Presidential Election Winn,2024-10-26,2024-11-05,10,No,-7.57,-7.6,120831.51
+7-30d,West Virginia Presidential Election Winn,2024-10-16,2024-11-05,20,No,-9.40,-9.4,120831.51
+>30d,West Virginia Presidential Election Winn,2024-10-06,2024-11-05,30,Yes,9.82,9.8,120831.51
+>30d,West Virginia Presidential Election Winn,2024-09-06,2024-11-05,60,Yes,9.09,9.1,120831.51
+>30d,West Virginia Presidential Election Winn,2024-08-07,2024-11-05,90,No,-9.06,-9.1,120831.51
+<3d,Washington Presidential Election Winner,2024-11-04,2024-11-05,1,No,-8.21,-8.2,386592.72
+<3d,Washington Presidential Election Winner,2024-11-03,2024-11-05,2,No,-8.06,-8.1,386592.72
+3-7d,Washington Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,9.07,9.1,386592.72
+7-30d,Washington Presidential Election Winner,2024-10-26,2024-11-05,10,No,-8.16,-8.2,386592.72
+7-30d,Washington Presidential Election Winner,2024-10-16,2024-11-05,20,No,-8.97,-9.0,386592.72
+>30d,Washington Presidential Election Winner,2024-10-06,2024-11-05,30,No,-8.65,-8.7,386592.72
+>30d,Washington Presidential Election Winner,2024-09-06,2024-11-05,60,No,-9.00,-9.0,386592.72
+>30d,Washington Presidential Election Winner,2024-08-07,2024-11-05,90,Yes,10.06,10.1,386592.72
+<3d,Washington Presidential Election Winner,2024-11-04,2024-11-05,1,Yes,9.30,9.3,139558.22
+<3d,Washington Presidential Election Winner,2024-11-03,2024-11-05,2,No,-8.38,-8.4,139558.22
+3-7d,Washington Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,9.08,9.1,139558.22
+7-30d,Washington Presidential Election Winner,2024-10-26,2024-11-05,10,Yes,9.61,9.6,139558.22
+7-30d,Washington Presidential Election Winner,2024-10-16,2024-11-05,20,Yes,10.15,10.2,139558.22
+>30d,Washington Presidential Election Winner,2024-10-06,2024-11-05,30,Yes,9.40,9.4,139558.22
+>30d,Washington Presidential Election Winner,2024-09-06,2024-11-05,60,Yes,8.50,8.5,139558.22
+>30d,Washington Presidential Election Winner,2024-08-07,2024-11-05,90,Yes,8.95,9.0,139558.22
+<3d,Washington Presidential Election Winner,2024-11-04,2024-11-05,1,No,-8.48,-8.5,228352.57
+<3d,Washington Presidential Election Winner,2024-11-03,2024-11-05,2,No,-8.42,-8.4,228352.57
+3-7d,Washington Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,10.31,10.3,228352.57
+7-30d,Washington Presidential Election Winner,2024-10-26,2024-11-05,10,No,-9.06,-9.1,228352.57
+7-30d,Washington Presidential Election Winner,2024-10-16,2024-11-05,20,No,-9.28,-9.3,228352.57
+>30d,Washington Presidential Election Winner,2024-10-06,2024-11-05,30,No,-9.40,-9.4,228352.57
+>30d,Washington Presidential Election Winner,2024-09-06,2024-11-05,60,Yes,7.84,7.8,228352.57
+>30d,Washington Presidential Election Winner,2024-08-07,2024-11-05,90,No,-7.73,-7.7,228352.57
+<3d,Virginia Presidential Election Winner,2024-11-04,2024-11-05,1,Yes,8.96,9.0,4684337.34
+<3d,Virginia Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,9.30,9.3,4684337.34
+3-7d,Virginia Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,8.64,8.6,4684337.34
+7-30d,Virginia Presidential Election Winner,2024-10-26,2024-11-05,10,No,-9.81,-9.8,4684337.34
+7-30d,Virginia Presidential Election Winner,2024-10-16,2024-11-05,20,No,-8.22,-8.2,4684337.34
+>30d,Virginia Presidential Election Winner,2024-10-06,2024-11-05,30,Yes,9.02,9.0,4684337.34
+>30d,Virginia Presidential Election Winner,2024-09-06,2024-11-05,60,No,-8.99,-9.0,4684337.34
+>30d,Virginia Presidential Election Winner,2024-08-07,2024-11-05,90,No,-9.37,-9.4,4684337.34
+<3d,Virginia Presidential Election Winner,2024-11-04,2024-11-05,1,Yes,8.29,8.3,5686644.97
+<3d,Virginia Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,8.86,8.9,5686644.97
+3-7d,Virginia Presidential Election Winner,2024-10-31,2024-11-05,5,No,-9.21,-9.2,5686644.97
+7-30d,Virginia Presidential Election Winner,2024-10-26,2024-11-05,10,Yes,9.56,9.6,5686644.97
+7-30d,Virginia Presidential Election Winner,2024-10-16,2024-11-05,20,No,-9.91,-9.9,5686644.97
+>30d,Virginia Presidential Election Winner,2024-10-06,2024-11-05,30,Yes,10.73,10.7,5686644.97
+>30d,Virginia Presidential Election Winner,2024-09-06,2024-11-05,60,Yes,9.16,9.2,5686644.97
+>30d,Virginia Presidential Election Winner,2024-08-07,2024-11-05,90,Yes,8.65,8.7,5686644.97
+<3d,Virginia Presidential Election Winner,2024-11-04,2024-11-05,1,Yes,9.54,9.5,10128418.66
+<3d,Virginia Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,9.85,9.9,10128418.66
+3-7d,Virginia Presidential Election Winner,2024-10-31,2024-11-05,5,No,-9.86,-9.9,10128418.66
+7-30d,Virginia Presidential Election Winner,2024-10-26,2024-11-05,10,Yes,8.20,8.2,10128418.66
+7-30d,Virginia Presidential Election Winner,2024-10-16,2024-11-05,20,No,-8.56,-8.6,10128418.66
+>30d,Virginia Presidential Election Winner,2024-10-06,2024-11-05,30,Yes,10.04,10.0,10128418.66
+>30d,Virginia Presidential Election Winner,2024-09-06,2024-11-05,60,No,-9.03,-9.0,10128418.66
+>30d,Virginia Presidential Election Winner,2024-08-07,2024-11-05,90,No,-8.55,-8.5,10128418.66
+<3d,Trump Margin of Victory in Missouri Cauc,2024-03-01,2024-03-02,1,Yes,9.62,9.6,45200.00
+<3d,Trump Margin of Victory in Missouri Cauc,2024-02-29,2024-03-02,2,No,-9.31,-9.3,45200.00
+3-7d,Trump Margin of Victory in Missouri Cauc,2024-02-26,2024-03-02,5,Yes,9.26,9.3,45200.00
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-21,2024-03-02,10,Yes,8.55,8.6,45200.00
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-11,2024-03-02,20,Yes,8.05,8.1,45200.00
+>30d,Trump Margin of Victory in Missouri Cauc,2024-02-01,2024-03-02,30,No,-8.78,-8.8,45200.00
+>30d,Trump Margin of Victory in Missouri Cauc,2024-01-02,2024-03-02,60,Yes,8.86,8.9,45200.00
+>30d,Trump Margin of Victory in Missouri Cauc,2023-12-03,2024-03-02,90,No,-7.76,-7.8,45200.00
+<3d,Trump Margin of Victory in Missouri Cauc,2024-03-01,2024-03-02,1,Yes,8.48,8.5,51.05
+<3d,Trump Margin of Victory in Missouri Cauc,2024-02-29,2024-03-02,2,Yes,8.91,8.9,51.05
+3-7d,Trump Margin of Victory in Missouri Cauc,2024-02-26,2024-03-02,5,No,-8.37,-8.4,51.05
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-21,2024-03-02,10,Yes,9.14,9.1,51.05
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-11,2024-03-02,20,No,-8.06,-8.1,51.05
+>30d,Trump Margin of Victory in Missouri Cauc,2024-02-01,2024-03-02,30,No,-8.94,-8.9,51.05
+>30d,Trump Margin of Victory in Missouri Cauc,2024-01-02,2024-03-02,60,Yes,9.15,9.1,51.05
+>30d,Trump Margin of Victory in Missouri Cauc,2023-12-03,2024-03-02,90,No,-9.37,-9.4,51.05
+<3d,Trump Margin of Victory in Missouri Cauc,2024-03-01,2024-03-02,1,Yes,8.57,8.6,400.11
+<3d,Trump Margin of Victory in Missouri Cauc,2024-02-29,2024-03-02,2,Yes,8.43,8.4,400.11
+3-7d,Trump Margin of Victory in Missouri Cauc,2024-02-26,2024-03-02,5,No,-8.94,-8.9,400.11
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-21,2024-03-02,10,Yes,9.17,9.2,400.11
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-11,2024-03-02,20,No,-9.43,-9.4,400.11
+>30d,Trump Margin of Victory in Missouri Cauc,2024-02-01,2024-03-02,30,No,-10.43,-10.4,400.11
+>30d,Trump Margin of Victory in Missouri Cauc,2024-01-02,2024-03-02,60,No,-8.76,-8.8,400.11
+>30d,Trump Margin of Victory in Missouri Cauc,2023-12-03,2024-03-02,90,Yes,9.53,9.5,400.11
+<3d,Trump Margin of Victory in Missouri Cauc,2024-03-01,2024-03-02,1,Yes,8.93,8.9,30.41
+<3d,Trump Margin of Victory in Missouri Cauc,2024-02-29,2024-03-02,2,Yes,8.85,8.8,30.41
+3-7d,Trump Margin of Victory in Missouri Cauc,2024-02-26,2024-03-02,5,Yes,8.94,8.9,30.41
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-21,2024-03-02,10,Yes,9.65,9.6,30.41
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-11,2024-03-02,20,No,-8.53,-8.5,30.41
+>30d,Trump Margin of Victory in Missouri Cauc,2024-02-01,2024-03-02,30,Yes,9.92,9.9,30.41
+>30d,Trump Margin of Victory in Missouri Cauc,2024-01-02,2024-03-02,60,Yes,9.32,9.3,30.41
+>30d,Trump Margin of Victory in Missouri Cauc,2023-12-03,2024-03-02,90,Yes,8.57,8.6,30.41
+<3d,Trump Margin of Victory in Missouri Cauc,2024-03-01,2024-03-02,1,No,-9.73,-9.7,238.70
+<3d,Trump Margin of Victory in Missouri Cauc,2024-02-29,2024-03-02,2,Yes,7.94,7.9,238.70
+3-7d,Trump Margin of Victory in Missouri Cauc,2024-02-26,2024-03-02,5,No,-9.97,-10.0,238.70
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-21,2024-03-02,10,No,-9.37,-9.4,238.70
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-11,2024-03-02,20,Yes,8.56,8.6,238.70
+>30d,Trump Margin of Victory in Missouri Cauc,2024-02-01,2024-03-02,30,No,-9.02,-9.0,238.70
+>30d,Trump Margin of Victory in Missouri Cauc,2024-01-02,2024-03-02,60,Yes,8.66,8.7,238.70
+>30d,Trump Margin of Victory in Missouri Cauc,2023-12-03,2024-03-02,90,No,-8.69,-8.7,238.70
+<3d,Trump Margin of Victory in Missouri Cauc,2024-03-01,2024-03-02,1,Yes,9.30,9.3,450.08
+<3d,Trump Margin of Victory in Missouri Cauc,2024-02-29,2024-03-02,2,Yes,8.80,8.8,450.08
+3-7d,Trump Margin of Victory in Missouri Cauc,2024-02-26,2024-03-02,5,Yes,10.00,10.0,450.08
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-21,2024-03-02,10,No,-9.11,-9.1,450.08
+7-30d,Trump Margin of Victory in Missouri Cauc,2024-02-11,2024-03-02,20,No,-8.07,-8.1,450.08
+>30d,Trump Margin of Victory in Missouri Cauc,2024-02-01,2024-03-02,30,No,-8.64,-8.6,450.08
+>30d,Trump Margin of Victory in Missouri Cauc,2024-01-02,2024-03-02,60,Yes,9.88,9.9,450.08
+>30d,Trump Margin of Victory in Missouri Cauc,2023-12-03,2024-03-02,90,Yes,9.77,9.8,450.08
+<3d,Vermont Presidential Election Winner,2024-11-04,2024-11-05,1,Yes,9.25,9.3,151103.25
+<3d,Vermont Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,8.33,8.3,151103.25
+3-7d,Vermont Presidential Election Winner,2024-10-31,2024-11-05,5,No,-10.13,-10.1,151103.25
+7-30d,Vermont Presidential Election Winner,2024-10-26,2024-11-05,10,Yes,9.85,9.9,151103.25
+7-30d,Vermont Presidential Election Winner,2024-10-16,2024-11-05,20,Yes,8.93,8.9,151103.25
+>30d,Vermont Presidential Election Winner,2024-10-06,2024-11-05,30,Yes,8.85,8.8,151103.25
+>30d,Vermont Presidential Election Winner,2024-09-06,2024-11-05,60,No,-9.28,-9.3,151103.25
+>30d,Vermont Presidential Election Winner,2024-08-07,2024-11-05,90,No,-7.85,-7.8,151103.25
+<3d,Vermont Presidential Election Winner,2024-11-04,2024-11-05,1,No,-9.11,-9.1,137102.64
+<3d,Vermont Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,9.67,9.7,137102.64
+3-7d,Vermont Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,8.55,8.6,137102.64
+7-30d,Vermont Presidential Election Winner,2024-10-26,2024-11-05,10,No,-9.35,-9.4,137102.64
+7-30d,Vermont Presidential Election Winner,2024-10-16,2024-11-05,20,No,-8.40,-8.4,137102.64
+>30d,Vermont Presidential Election Winner,2024-10-06,2024-11-05,30,No,-7.88,-7.9,137102.64
+>30d,Vermont Presidential Election Winner,2024-09-06,2024-11-05,60,Yes,9.71,9.7,137102.64
+>30d,Vermont Presidential Election Winner,2024-08-07,2024-11-05,90,No,-8.75,-8.7,137102.64
+<3d,Vermont Presidential Election Winner,2024-11-04,2024-11-05,1,No,-8.69,-8.7,122905.98
+<3d,Vermont Presidential Election Winner,2024-11-03,2024-11-05,2,Yes,9.11,9.1,122905.98
+3-7d,Vermont Presidential Election Winner,2024-10-31,2024-11-05,5,Yes,9.53,9.5,122905.98
+7-30d,Vermont Presidential Election Winner,2024-10-26,2024-11-05,10,No,-8.43,-8.4,122905.98
+7-30d,Vermont Presidential Election Winner,2024-10-16,2024-11-05,20,No,-8.32,-8.3,122905.98
+>30d,Vermont Presidential Election Winner,2024-10-06,2024-11-05,30,No,-8.10,-8.1,122905.98
+>30d,Vermont Presidential Election Winner,2024-09-06,2024-11-05,60,No,-8.74,-8.7,122905.98
+>30d,Vermont Presidential Election Winner,2024-08-07,2024-11-05,90,No,-8.92,-8.9,122905.98

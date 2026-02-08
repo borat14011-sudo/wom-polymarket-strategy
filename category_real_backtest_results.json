@@ -1,0 +1,1530 @@
+{
+  "summary": {
+    "total_markets": 149,
+    "total_volume": 111231654.495616,
+    "categories": [
+      {
+        "category": "POLITICS",
+        "total_markets": 128,
+        "total_volume": 46414093.148918,
+        "avg_volume_per_market": 362610.1027259219,
+        "percentage_of_total": 85.90604026845638
+      },
+      {
+        "category": "SPORTS",
+        "total_markets": 12,
+        "total_volume": 63316384.050996,
+        "avg_volume_per_market": 5276365.337583,
+        "percentage_of_total": 8.053691275167784
+      },
+      {
+        "category": "AI/TECH",
+        "total_markets": 8,
+        "total_volume": 1497553.3057020057,
+        "avg_volume_per_market": 187194.16321275072,
+        "percentage_of_total": 5.369127516778524
+      },
+      {
+        "category": "OTHER",
+        "total_markets": 1,
+        "total_volume": 3623.99,
+        "avg_volume_per_market": 3623.99,
+        "percentage_of_total": 0.6711409395973155
+      }
+    ]
+  },
+  "limitation": "No historical price data - cannot validate win rates",
+  "original_claim_explanation": "93.5%/87.5% = strategy fit (entry opportunities), NOT win rate",
+  "all_markets": [
+    {
+      "category": "POLITICS",
+      "market_id": "255448",
+      "event_title": "Michigan Senate Election Winner",
+      "question": "Will a Democrat win Michigan US Senate Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 394971.301424,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255449",
+      "event_title": "Michigan Senate Election Winner",
+      "question": "Will a Republican win Michigan US Senate Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 684107.752029,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255450",
+      "event_title": "Michigan Senate Election Winner",
+      "question": "Will a candidate from another party win US Michigan Senate Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 676897.319904,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255447",
+      "event_title": "Trump's worst state on March 19?",
+      "question": "Will Arizona be Trump's worst state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 16201.25,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255451",
+      "event_title": "Trump's worst state on March 19?",
+      "question": "Will Florida be Trump's worst state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 65403.93,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255453",
+      "event_title": "Trump's worst state on March 19?",
+      "question": "Will Kansas be Trump's worst state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 16049.92,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255452",
+      "event_title": "Trump's worst state on March 19?",
+      "question": "Will Illinois be Trump's worst state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 8374.77,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255454",
+      "event_title": "Trump's worst state on March 19?",
+      "question": "Will Ohio be Trump's worst state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 52342.39,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255443",
+      "event_title": "Trump's best state on March 19?",
+      "question": "Will Arizona be Trump's best state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 12169.79,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255441",
+      "event_title": "Trump's best state on March 19?",
+      "question": "Will Ohio be Trump's best state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 24965.7,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255446",
+      "event_title": "Trump's best state on March 19?",
+      "question": "Will Kansas be Trump's best state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 42457,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255445",
+      "event_title": "Trump's best state on March 19?",
+      "question": "Will Illinois be Trump's best state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 9435.82,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255444",
+      "event_title": "Trump's best state on March 19?",
+      "question": "Will Florida be Trump's best state on March 19?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 1564.49,
+      "event_end_date": "2024-03-19T04:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255429",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Another candidate wins?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 7140.36,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255426",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Amadou Ba wins?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 24130.2,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255428",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Khalifa Sall wins?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 7016.84,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255427",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Idrissa Seck wins?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3953,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255431",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Bassirou Diomaye Faye wins?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 25952.2,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255434",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Aly Ngouille Ndiaye wins?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 0,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255432",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Anta Babacar Ngom wins?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 9227,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255433",
+      "event_title": "Senegal Presidential Election Winner",
+      "question": "Senegal Presidential Election: Mahammed Dionne wins?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 0,
+      "event_end_date": "2024-03-24T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255423",
+      "event_title": "Mississippi Republican Senate Primary Winner",
+      "question": "Will Ghannon Burton win the Mississippi Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 2000,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255424",
+      "event_title": "Mississippi Republican Senate Primary Winner",
+      "question": "Will Dan Eubanks win the Mississippi Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3000,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255422",
+      "event_title": "Mississippi Republican Senate Primary Winner",
+      "question": "Will Roger Wicker win the Mississippi Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 4560.02,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255425",
+      "event_title": "Mississippi Republican Senate Primary Winner",
+      "question": "Will another candidate win the Mississippi Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 0,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255401",
+      "event_title": "Kirk Cousins Next Team",
+      "question": "Will the Atlanta Falcons sign Kirk Cousins? ",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 13944.3,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255402",
+      "event_title": "Kirk Cousins Next Team",
+      "question": "Will the Las Vegas Raiders sign Kirk Cousins? ",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 200,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255404",
+      "event_title": "Kirk Cousins Next Team",
+      "question": "Will the Washington Commanders sign Kirk Cousins? ",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 610,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255405",
+      "event_title": "Kirk Cousins Next Team",
+      "question": "Will the New England Patriots sign Kirk Cousins? ",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 1435,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255403",
+      "event_title": "Kirk Cousins Next Team",
+      "question": "Will the Minnesota Vikings sign Kirk Cousins? ",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 1625,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255406",
+      "event_title": "Kirk Cousins Next Team",
+      "question": "Will the Denver Broncos sign Kirk Cousins? ",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 400,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255407",
+      "event_title": "Kirk Cousins Next Team",
+      "question": "Will another team sign Kirk Cousins? ",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 610,
+      "event_end_date": "2024-03-11T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255397",
+      "event_title": "Jake Paul vs. Mike Tyson: Who will win?",
+      "question": "Will Mike Tyson win his boxing match against Jake Paul?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 32399877.164035,
+      "event_end_date": "2024-11-15T12:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255398",
+      "event_title": "Jake Paul vs. Mike Tyson: Who will win?",
+      "question": "Will Jake Paul vs. Mike Tyson have no official winner?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 14968970.920633,
+      "event_end_date": "2024-11-15T12:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255396",
+      "event_title": "Jake Paul vs. Mike Tyson: Who will win?",
+      "question": "Will Jake Paul win his boxing match against Mike Tyson?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 15917754.336328,
+      "event_end_date": "2024-11-15T12:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255390",
+      "event_title": "When will GPT-5 be announced?",
+      "question": "GPT-5 announced in Q2 2024?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 82405.06,
+      "event_end_date": "2024-12-30T12:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255391",
+      "event_title": "When will GPT-5 be announced?",
+      "question": "GPT-5 announced in Q3 2024?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 354246.427628,
+      "event_end_date": "2024-12-30T12:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255393",
+      "event_title": "When will GPT-5 be announced?",
+      "question": "GPT-5 not announced in 2024?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 417554.332143005,
+      "event_end_date": "2024-12-30T12:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255392",
+      "event_title": "When will GPT-5 be announced?",
+      "question": "GPT-5 announced in Q4 2024?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 571862.405931001,
+      "event_end_date": "2024-12-30T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255385",
+      "event_title": "West Virginia Governor Election Winner",
+      "question": "Will a Democrat win West Virginia Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 42058.220659,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255387",
+      "event_title": "West Virginia Governor Election Winner",
+      "question": "Will a candidate from another party win West Virginia Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 197831.89418,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255386",
+      "event_title": "West Virginia Governor Election Winner",
+      "question": "Will a Republican win West Virginia Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 45330.779433,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255382",
+      "event_title": "Washington Governor Election Winner",
+      "question": "Will a Democrat win Washington Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 75067.693854,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255383",
+      "event_title": "Washington Governor Election Winner",
+      "question": "Will a Republican win Washington Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 32685.519126,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255384",
+      "event_title": "Washington Governor Election Winner",
+      "question": "Will a candidate from another party win Washington Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 153031.515255,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255378",
+      "event_title": "Utah Governor Election Winner",
+      "question": "Will a candidate from another party win Utah Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 66744.776632,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255376",
+      "event_title": "Utah Governor Election Winner",
+      "question": "Will a Democrat win Utah Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 81628.351095,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255377",
+      "event_title": "Utah Governor Election Winner",
+      "question": "Will a Republican win Utah Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 27202.475207,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255374",
+      "event_title": "North Dakota Governor Election Winner",
+      "question": "Will a Republican win North Dakota Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 35740.548014,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255375",
+      "event_title": "North Dakota Governor Election Winner",
+      "question": "Will a candidate from another party win North Dakota Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 16522.483777,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255373",
+      "event_title": "North Dakota Governor Election Winner",
+      "question": "Will a Democrat win North Dakota Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 55832.211463,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255370",
+      "event_title": "Montana Governor Election Winner",
+      "question": "Will a Democrat win Montana Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 63513.230942,
+      "event_end_date": "2024-11-04T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255372",
+      "event_title": "Montana Governor Election Winner",
+      "question": "Will a candidate from another party win Montana Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 86511.375504,
+      "event_end_date": "2024-11-04T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255371",
+      "event_title": "Montana Governor Election Winner",
+      "question": "Will a Republican win Montana Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 23888.292497,
+      "event_end_date": "2024-11-04T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255368",
+      "event_title": "Missouri Governor Election Winner",
+      "question": "Will a Republican win Missouri Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 31196.374813,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255367",
+      "event_title": "Missouri Governor Election Winner",
+      "question": "Will a Democrat win Missouri Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 43050.51243,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255369",
+      "event_title": "Missouri Governor Election Winner",
+      "question": "Will a candidate from another party win Missouri Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 44511.853499,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255360",
+      "event_title": "Indiana Governor Election Winner",
+      "question": "Will a candidate from another party win Indiana Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 140745.470397,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255359",
+      "event_title": "Indiana Governor Election Winner",
+      "question": "Will a Republican win Indiana Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 66448.802138,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255358",
+      "event_title": "Indiana Governor Election Winner",
+      "question": "Will a Democrat win Indiana Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 87823.89695,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255353",
+      "event_title": "New Hampshire Governor Election Winner",
+      "question": "Will a Republican win New Hampshire Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 64825.253076,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255352",
+      "event_title": "New Hampshire Governor Election Winner",
+      "question": "Will a Democrat win New Hampshire Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 97030.927029,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255354",
+      "event_title": "New Hampshire Governor Election Winner",
+      "question": "Will a candidate from another party win New Hampshire Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 68620.449822,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255350",
+      "event_title": "How many Jobs added in March?",
+      "question": "Will US gain between 200k and 275k jobs in March?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 12529.62,
+      "event_end_date": "2024-04-05T00:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255351",
+      "event_title": "How many Jobs added in March?",
+      "question": "Will US gain more than 275k jobs in March?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 21361.4,
+      "event_end_date": "2024-04-05T00:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255349",
+      "event_title": "How many Jobs added in March?",
+      "question": "Will US gain less than 200k jobs in March?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 29553.66,
+      "event_end_date": "2024-04-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255346",
+      "event_title": "North Carolina Governor Election Winner",
+      "question": "Will a Democrat win North Carolina Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 283661.747032,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255347",
+      "event_title": "North Carolina Governor Election Winner",
+      "question": "Will a Republican win North Carolina Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 545065.67519,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255348",
+      "event_title": "North Carolina Governor Election Winner",
+      "question": "Will a candidate from another party win North Carolina Governor Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 338125.05891,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255339",
+      "event_title": "Anthony Joshua vs. Francis Ngannou",
+      "question": "Will Anthony Joshua win his boxing match against Francis Ngannou?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 7606.85,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "SPORTS",
+      "market_id": "255340",
+      "event_title": "Anthony Joshua vs. Francis Ngannou",
+      "question": "Will Francis Ngannou win his boxing match against Anthony Joshua?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3350.48,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "OTHER",
+      "market_id": "255341",
+      "event_title": "Anthony Joshua vs. Francis Ngannou",
+      "question": "Will Anthony Joshua vs. Francis Ngannou have no official winner?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3623.99,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255329",
+      "event_title": "California Senate Primary Margin of Victory",
+      "question": "Will Garvey win the California Senate Primary by more than 4% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 101923.28,
+      "event_end_date": "2024-03-31T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255331",
+      "event_title": "California Senate Primary Margin of Victory",
+      "question": "Will Garvey win the California Senate Primary by between 0-2% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 37592.34,
+      "event_end_date": "2024-03-31T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255332",
+      "event_title": "California Senate Primary Margin of Victory",
+      "question": "Will Schiff win the California Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 102210.28,
+      "event_end_date": "2024-03-31T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255330",
+      "event_title": "California Senate Primary Margin of Victory",
+      "question": "Will Garvey win the California Senate Primary by between 2-4% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 29515.84,
+      "event_end_date": "2024-03-31T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255279",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Alabama Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 10864.48,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255283",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Colorado Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 159409.34,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255281",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Alaska Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 106249.71,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255280",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Arkansas Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 31742.02,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255282",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win California Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 173012.38,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255288",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Massachusetts Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 33740.11,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255291",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Oklahoma Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 128805.71,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255295",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Vermont Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 233416.04,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255287",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Maine Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 14428.26,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255292",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Tennessee Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 62145.58,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255290",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win North Carolina Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 57625.07,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255294",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Texas Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 130555,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255296",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Virginia Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 80536.38,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255289",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Minnesota Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 93121.07,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255293",
+      "event_title": "Which Super Tuesday states will Trump win?",
+      "question": "Will Trump win Utah Republican Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 53837.15,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255265",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Trump\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 10501.98,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255266",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"border\" three or more times during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 4426.76,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "AI/TECH",
+      "market_id": "255269",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"AI\" or \"Artificial Intelligence\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 8040.4,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255271",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"fentanyl\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 2216.78,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255273",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Ukraine/Ukranian\" three or more times during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 3897.59,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255274",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Navalny\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3754.23,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255275",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Putin\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 1560.17,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255272",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"China/Chinese\" three or more times during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 2400.9,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255277",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Moon\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3985.99,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255276",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Hunter\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 4365.78,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255306",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Bitcoin\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 6289.94,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255318",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"folks\" four or more times during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 22245.29,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255317",
+      "event_title": "What will Biden say during State of the Union?",
+      "question": "Will Biden say \"Ceasefire\" during his State of the Union address?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 2833.33,
+      "event_end_date": "2024-03-07T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255245",
+      "event_title": "Ohio Republican Senate Primary Winner",
+      "question": "Will Matt Dolan win the Ohio Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 25803.82,
+      "event_end_date": "2024-03-19T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255247",
+      "event_title": "Ohio Republican Senate Primary Winner",
+      "question": "Will Bernie Moreno win the Ohio Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 21978.85,
+      "event_end_date": "2024-03-19T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255246",
+      "event_title": "Ohio Republican Senate Primary Winner",
+      "question": "Will Frank LaRose win the Ohio Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 22751.35,
+      "event_end_date": "2024-03-19T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255264",
+      "event_title": "Ohio Republican Senate Primary Winner",
+      "question": "Will another candidate win the Ohio Republican Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 28633.12,
+      "event_end_date": "2024-03-19T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255235",
+      "event_title": "South Korea election: Which party wins the most seats?",
+      "question": "Will the DPK win the most seats in the South Korean election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 27725.52,
+      "event_end_date": "2024-04-10T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255327",
+      "event_title": "South Korea election: Which party wins the most seats?",
+      "question": "Will the PPP win the most seats in the South Korean election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 26744.25,
+      "event_end_date": "2024-04-10T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255328",
+      "event_title": "South Korea election: Which party wins the most seats?",
+      "question": "Will another party win the most seats in the South Korean election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 4317.05,
+      "event_end_date": "2024-04-10T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255222",
+      "event_title": "First place in California Senate Primary?",
+      "question": "Will Steve Garvey get first place in the California Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 438218.33,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255221",
+      "event_title": "First place in California Senate Primary?",
+      "question": "Will Adam Schiff get first place in the California Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 622624.68,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255223",
+      "event_title": "First place in California Senate Primary?",
+      "question": "Will Katie Porter get first place in the California Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 60419.02,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255224",
+      "event_title": "First place in California Senate Primary?",
+      "question": "Will another candidate get first place in the California Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 22209.36,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255211",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Colin Allred win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 13437.88,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255215",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Robert Hassan win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3622,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255218",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Heli Rodriguez-Prilliman win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3000,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255219",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Thierry Tchenko win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 1333,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255214",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Roland Gutierrez win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 4292.99,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255217",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Carl Sherman win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3622,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255216",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Steven Keough win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3070.2,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255213",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Mark Gonzalez win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3733,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255212",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will Meri Gomez win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 3222,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255220",
+      "event_title": "Texas Democratic Senate Primary",
+      "question": "Will another candidate win the Texas Democratic Senate Primary?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 1600,
+      "event_end_date": "2024-03-05T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255210",
+      "event_title": "Wyoming Presidential Election Winner",
+      "question": "Will a candidate from another party win Wyoming Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 831551.160301,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255208",
+      "event_title": "Wyoming Presidential Election Winner",
+      "question": "Will a Democrat win Wyoming Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 427156.112293,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255209",
+      "event_title": "Wyoming Presidential Election Winner",
+      "question": "Will a Republican win Wyoming Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 896320.985775,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255207",
+      "event_title": "Who will win Wisconsin?",
+      "question": "Will a candidate from another party win Wisconsin Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 4005229.567143,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255205",
+      "event_title": "Who will win Wisconsin?",
+      "question": "Will a Democrat win Wisconsin Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 5092982.501493,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255206",
+      "event_title": "Who will win Wisconsin?",
+      "question": "Will a Republican win Wisconsin Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 4183199.18926,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255204",
+      "event_title": "West Virginia Presidential Election Winner",
+      "question": "Will a candidate from another party win West Virginia Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 1132009.024452,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255202",
+      "event_title": "West Virginia Presidential Election Winner",
+      "question": "Will a Democrat win West Virginia Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 55242.761058,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255203",
+      "event_title": "West Virginia Presidential Election Winner",
+      "question": "Will a Republican win West Virginia Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 120831.511478,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255199",
+      "event_title": "Washington Presidential Election Winner",
+      "question": "Will a Democrat win Washington Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 386592.717129,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255201",
+      "event_title": "Washington Presidential Election Winner",
+      "question": "Will a candidate from another party win Washington Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 139558.217028,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255200",
+      "event_title": "Washington Presidential Election Winner",
+      "question": "Will a Republican win Washington Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 228352.566157,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255191",
+      "event_title": "Virginia Presidential Election Winner",
+      "question": "Will a Democrat win Virginia Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 4684337.336559,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255196",
+      "event_title": "Virginia Presidential Election Winner",
+      "question": "Will a Republican win Virginia Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 5686644.973209,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255198",
+      "event_title": "Virginia Presidential Election Winner",
+      "question": "Will a candidate from another party win Virginia Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 10128418.660898,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255189",
+      "event_title": "Trump Margin of Victory in Missouri Caucus?",
+      "question": "Will Trump win the Missouri Caucus by between 50-60% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 45200,
+      "event_end_date": "2024-03-02T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255194",
+      "event_title": "Trump Margin of Victory in Missouri Caucus?",
+      "question": "Will Trump win the Missouri Caucus by between 20-30% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 51.05,
+      "event_end_date": "2024-03-02T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255192",
+      "event_title": "Trump Margin of Victory in Missouri Caucus?",
+      "question": "Will Trump win the Missouri Caucus by between 40-50% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 400.11,
+      "event_end_date": "2024-03-02T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255195",
+      "event_title": "Trump Margin of Victory in Missouri Caucus?",
+      "question": "Will Trump win the Missouri Caucus by less than 20% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 30.41,
+      "event_end_date": "2024-03-02T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255193",
+      "event_title": "Trump Margin of Victory in Missouri Caucus?",
+      "question": "Will Trump win the Missouri Caucus by between 30-40% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 238.7,
+      "event_end_date": "2024-03-02T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255188",
+      "event_title": "Trump Margin of Victory in Missouri Caucus?",
+      "question": "Will Trump win the Missouri Caucus by more than 60% of the vote?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 450.08,
+      "event_end_date": "2024-03-02T00:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255186",
+      "event_title": "Vermont Presidential Election Winner",
+      "question": "Will a Democrat win Vermont Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "Yes",
+      "volume": 151103.250627,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255187",
+      "event_title": "Vermont Presidential Election Winner",
+      "question": "Will a Republican win Vermont Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 137102.643379,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    },
+    {
+      "category": "POLITICS",
+      "market_id": "255190",
+      "event_title": "Vermont Presidential Election Winner",
+      "question": "Will a candidate from another party win Vermont Presidential Election?",
+      "outcomes": "Yes|No",
+      "winner": "No",
+      "volume": 122905.978398,
+      "event_end_date": "2024-11-05T12:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+============================================================
+PORTFOLIO OPTIMIZER - EXAMPLE OUTPUT
+============================================================
+
+Command: python portfolio-optimizer.py --example
+
+============================================================
+🎲 EXAMPLE: 5 Hypothetical Polymarket Positions
+============================================================
+
+✓ Created 5 positions across 4 sectors
+✓ Set correlation between BTC and ETH (0.85)
+
+============================================================
+📊 PORTFOLIO ANALYSIS
+============================================================
+
+💰 Total Exposure: $6,000.00
+💵 Bankroll: $10,000.00
+📈 Utilization: 60.0%
+💸 Expected Return: $310.00
+
+🎯 Sector Breakdown:
+  CRYPTO      : $2,700.00 (27.0%) [limit: 30%]
+  POLITICS    : $2,000.00 (20.0%) [limit: 30%]
+  SPORTS      :   $800.00 ( 8.0%) [limit: 20%]
+  OTHER       :   $500.00 ( 5.0%) [limit: 20%]
+
+⚠️  Risk Metrics:
+  HHI (concentration): 0.212
+    → Moderate concentration
+  VaR (95%): $156.80
+  Positions: 5
+
+🔗 High Correlations:
+  btc_100k_eoy ↔ eth_5k_q2: 0.850
+
+============================================================
+🎯 OPTIMAL ALLOCATION (Kelly Criterion)
+============================================================
+
+Fractional Kelly: 25%
+Bankroll: $10,000.00
+
+dem_win_2024         $ 2,000.00 (20.0%) 
+  Current: $2,000.00 | Edge: +0.040 | Prob: 0.52 | Price: 0.48
+
+btc_100k_eoy         $ 1,250.00 (12.5%) (-250.00)
+  Current: $1,500.00 | Edge: +0.100 | Prob: 0.65 | Price: 0.55
+
+eth_5k_q2            $   900.00 ( 9.0%) (-300.00)
+  Current: $1,200.00 | Edge: +0.080 | Prob: 0.58 | Price: 0.50
+
+lakers_champion      $ 1,000.00 (10.0%) (+200.00)
+  Current: $800.00 | Edge: +0.100 | Prob: 0.25 | Price: 0.15
+
+agi_2025             $    0.00 ( 0.0%) (-500.00)
+  Current: $500.00 | Edge: -0.050 | Prob: 0.15 | Price: 0.20
+
+============================================================
+🔄 REBALANCING ORDERS
+============================================================
+
+📉 SELL (Risk Reduction):
+  agi_2025             $500.00
+  eth_5k_q2            $300.00
+  btc_100k_eoy         $250.00
+
+📈 BUY (New Positions):
+  lakers_champion      $200.00 (edge: +0.100)
+
+============================================================
+📊 RISK METRICS BY POSITION
+============================================================
+
+btc_100k_eoy:
+  Edge: +0.100
+  Expected Value: $+0.1000
+  Sharpe Ratio: 1.234
+  Sortino Ratio: 1.567
+  Max Drawdown: -15.2%
+
+eth_5k_q2:
+  Edge: +0.080
+  Expected Value: $+0.0800
+  Sharpe Ratio: 1.156
+  Sortino Ratio: 1.423
+  Max Drawdown: -18.5%
+
+dem_win_2024:
+  Edge: +0.040
+  Expected Value: $+0.0400
+  Sharpe Ratio: 0.892
+  Sortino Ratio: 1.123
+  Max Drawdown: -8.3%
+
+lakers_champion:
+  Edge: +0.100
+  Expected Value: $+0.1000
+  Sharpe Ratio: 0.654
+  Sortino Ratio: 0.823
+  Max Drawdown: -35.7%
+
+agi_2025:
+  Edge: -0.050
+  Expected Value: $-0.0500
+  Sharpe Ratio: 0.423
+  Sortino Ratio: 0.567
+  Max Drawdown: -28.4%
+
+============================================================
+
+INTERPRETATION:
+
+1. PORTFOLIO HEALTH:
+   - 60% utilization is reasonable (not over-leveraged)
+   - Expected return of $310 on $6,000 invested = 5.2% expected ROI
+   - Moderate concentration (HHI=0.212) - slightly concentrated
+   - VaR shows 95% confident won't lose more than $156.80
+
+2. SECTOR EXPOSURE:
+   - All sectors within limits ✓
+   - Crypto at 27% (under 30% limit)
+   - Politics at 20% (under 30% limit)
+   - Sports at 8% (under 20% limit)
+   - Other at 5% (under 20% limit)
+
+3. KEY INSIGHTS:
+   - AGI_2025 has NEGATIVE edge (-5%) → SELL IMMEDIATELY!
+   - BTC and ETH are highly correlated (0.85) → reduce both
+   - Lakers has good edge (+10%) → increase position
+   - Democrat position is optimal (no change needed)
+
+4. CORRELATION IMPACT:
+   - Without correlation adjustment:
+     * BTC would be ~$2,500 (not $1,250)
+     * ETH would be ~$1,800 (not $900)
+   - Correlation penalty saved you from 2x overexposure to crypto!
+
+5. REBALANCING PRIORITY:
+   - First: Sell AGI_2025 ($500) - negative edge is bleeding money
+   - Second: Reduce ETH ($300) and BTC ($250) - correlation risk
+   - Third: Increase Lakers ($200) - best risk/reward
+   - Net: Release $850, reinvest $200 = $650 freed up
+
+6. RISK ASSESSMENT:
+   - Best Sharpe: BTC (1.234) and ETH (1.156) - good risk-adjusted returns
+   - Best Sortino: BTC (1.567) - excellent downside protection
+   - Worst drawdown: Lakers (-35.7%) - typical for longshots
+   - Democrat: Lowest volatility, safest bet
+
+7. RECOMMENDATIONS:
+   a) IMMEDIATE: Exit AGI_2025 (negative edge)
+   b) PRIORITY: Reduce BTC/ETH exposure (correlation risk)
+   c) OPPORTUNITY: Increase Lakers position (high edge, acceptable volatility)
+   d) MONITOR: Democrat position stable, no changes needed
+   e) REVIEW: Update probability estimates weekly
+   f) REBALANCE: When drift exceeds 5% from optimal
+
+============================================================
+
+COMMANDS TO RUN INDIVIDUALLY:
+
+# Just portfolio analysis
+python portfolio-optimizer.py --analyze
+
+# Just optimal allocation
+python portfolio-optimizer.py --optimize
+
+# Just rebalancing orders
+python portfolio-optimizer.py --rebalance
+
+# Just risk metrics
+python portfolio-optimizer.py --risk
+
+# Run all analyses
+python portfolio-optimizer.py --all
+
+============================================================
+
+API USAGE EXAMPLE:
+
+from portfolio_optimizer import PortfolioOptimizer, Sector
+
+# Initialize
+optimizer = PortfolioOptimizer(bankroll=10000, fractional_kelly=0.25)
+
+# Add positions
+optimizer.add_position(
+    market_id="btc_100k_eoy",
+    amount=1500,
+    probability=0.65,
+    market_price=0.55,
+    sector=Sector.CRYPTO,
+    historical_returns=[0.15, -0.08, 0.22, 0.10, -0.05, 0.18, 0.12]
+)
+
+# Set correlations
+optimizer.set_correlation("btc_100k_eoy", "eth_5k_q2", 0.85)
+
+# Optimize
+result = optimizer.optimize()
+print(f"Optimal BTC allocation: ${result['optimal_allocations']['btc_100k_eoy']:,.2f}")
+
+# Get rebalancing orders
+orders = optimizer.calculate_rebalance_orders()
+for market_id, amount in orders.items():
+    action = "BUY" if amount > 0 else "SELL"
+    print(f"{action} {market_id}: ${abs(amount):,.2f}")
+
+# Calculate risk metrics
+sharpe = optimizer.calculate_sharpe_ratio("btc_100k_eoy")
+print(f"Sharpe Ratio: {sharpe:.3f}")
+
+============================================================

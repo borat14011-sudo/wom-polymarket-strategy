@@ -1,0 +1,444 @@
+{
+  "agent_id": "agent4",
+  "market_range": "60-79",
+  "total_markets": 20,
+  "analysis_timestamp": "2026-02-07T22:45:42.853703Z",
+  "market_patterns": [
+    {
+      "market_index": 60,
+      "market_id": "1251477",
+      "title": "Bitcoin Up or Down - January 24, 2:00PM-2:15PM ET",
+      "category": "crypto",
+      "resolution": "UNKNOWN",
+      "volume": 128151.771376,
+      "price_volatility": 0.51,
+      "price_min": 0.035,
+      "price_max": 0.545,
+      "duration_hours": 22.68,
+      "event_radar_signals": {
+        "high_urgency": true,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": true,
+        "event_type": "micro_timeframe"
+      }
+    },
+    {
+      "market_index": 61,
+      "market_id": "1326035",
+      "title": "Total Kills Over/Under 53.5 in Game 1?",
+      "category": "esports",
+      "resolution": "UNKNOWN",
+      "volume": 108493.806585,
+      "price_volatility": 0.5045,
+      "price_min": 0.0005,
+      "price_max": 0.505,
+      "duration_hours": 173.44,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": true,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "esports"
+      }
+    },
+    {
+      "market_index": 62,
+      "market_id": "1311881",
+      "title": "Immanuel Quickley: Rebounds O/U 4.5",
+      "category": "sports_props",
+      "resolution": "UNKNOWN",
+      "volume": 4522825.513786,
+      "price_volatility": 0.7395,
+      "price_min": 0.26,
+      "price_max": 0.9995,
+      "duration_hours": 151.94,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "sports_prop"
+      }
+    },
+    {
+      "market_index": 63,
+      "market_id": "1317443",
+      "title": "LoL: Vivo Keyd Stars vs paiN Gaming - Game 1 Winner",
+      "category": "esports",
+      "resolution": "UNKNOWN",
+      "volume": 352932.081159,
+      "price_volatility": 0.5945,
+      "price_min": 0.405,
+      "price_max": 0.9995,
+      "duration_hours": 20.89,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": null
+      }
+    },
+    {
+      "market_index": 64,
+      "market_id": "1285862",
+      "title": "Will the price of XRP be between $2.30 and $2.40 on February 4?",
+      "category": "crypto",
+      "resolution": "UNKNOWN",
+      "volume": 244533.925989,
+      "price_volatility": 0.4945,
+      "price_min": 0.0005,
+      "price_max": 0.495,
+      "duration_hours": 160.13,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": null
+      }
+    },
+    {
+      "market_index": 65,
+      "market_id": "1332541",
+      "title": "Total Kills Over/Under 54.5 in Game 1?",
+      "category": "esports",
+      "resolution": "UNKNOWN",
+      "volume": 204518.594926,
+      "price_volatility": 0.0055,
+      "price_min": 0.994,
+      "price_max": 0.9995,
+      "duration_hours": 20.94,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": true,
+        "high_volatility": false,
+        "predictable_outcome": true,
+        "time_sensitive": false,
+        "event_type": "esports"
+      }
+    },
+    {
+      "market_index": 66,
+      "market_id": "1310928",
+      "title": "Anfernee Simons: Rebounds O/U 2.5",
+      "category": "sports_props",
+      "resolution": "UNKNOWN",
+      "volume": 4131703.397303,
+      "price_volatility": 0.6695,
+      "price_min": 0.33,
+      "price_max": 0.9995,
+      "duration_hours": 149.44,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "sports_prop"
+      }
+    },
+    {
+      "market_index": 67,
+      "market_id": "1298883",
+      "title": "Bitcoin Up or Down - January 31, 9:00AM-9:15AM ET",
+      "category": "crypto",
+      "resolution": "UNKNOWN",
+      "volume": 320836.477502,
+      "price_volatility": 0.46,
+      "price_min": 0.065,
+      "price_max": 0.525,
+      "duration_hours": 24.06,
+      "event_radar_signals": {
+        "high_urgency": true,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": true,
+        "event_type": "micro_timeframe"
+      }
+    },
+    {
+      "market_index": 68,
+      "market_id": "1240659",
+      "title": "Casa Pia AC vs. FC Porto: O/U 4.5",
+      "category": "sports_props",
+      "resolution": "UNKNOWN",
+      "volume": 120961.779219,
+      "price_volatility": 0.5195,
+      "price_min": 0.0005,
+      "price_max": 0.52,
+      "duration_hours": 274.67,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "sports_prop"
+      }
+    },
+    {
+      "market_index": 69,
+      "market_id": "1264801",
+      "title": "Will the highest temperature in Buenos Aires be 38°C on January 27?",
+      "category": "weather",
+      "resolution": "UNKNOWN",
+      "volume": 113391.925038,
+      "price_volatility": 0.4895,
+      "price_min": 0.0005,
+      "price_max": 0.49,
+      "duration_hours": 48.71,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": null
+      }
+    },
+    {
+      "market_index": 70,
+      "market_id": "1305125",
+      "title": "LaMelo Ball: Assists O/U 7.5",
+      "category": "sports_props",
+      "resolution": "UNKNOWN",
+      "volume": 4499130.733066,
+      "price_volatility": 0.7545,
+      "price_min": 0.245,
+      "price_max": 0.9995,
+      "duration_hours": 148.92,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "sports_prop"
+      }
+    },
+    {
+      "market_index": 71,
+      "market_id": "1275569",
+      "title": "Collin Gillespie: Points O/U 15.5",
+      "category": "sports_props",
+      "resolution": "UNKNOWN",
+      "volume": 2959778.172311,
+      "price_volatility": 0.5045,
+      "price_min": 0.0005,
+      "price_max": 0.505,
+      "duration_hours": 154.95,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "sports_prop"
+      }
+    },
+    {
+      "market_index": 72,
+      "market_id": "1289932",
+      "title": "Bitcoin Up or Down - January 29, 11:45PM-12:00AM ET",
+      "category": "crypto",
+      "resolution": "UNKNOWN",
+      "volume": 225403.718776,
+      "price_volatility": 0.5,
+      "price_min": 0.485,
+      "price_max": 0.985,
+      "duration_hours": 24.08,
+      "event_radar_signals": {
+        "high_urgency": true,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": true,
+        "event_type": "micro_timeframe"
+      }
+    },
+    {
+      "market_index": 73,
+      "market_id": "1307303",
+      "title": "Total Kills Over/Under 25.5 in Game 2?",
+      "category": "esports",
+      "resolution": "UNKNOWN",
+      "volume": 1755218.210507,
+      "price_volatility": 0.4995,
+      "price_min": 0.5,
+      "price_max": 0.9995,
+      "duration_hours": 135.16,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": true,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "esports"
+      }
+    },
+    {
+      "market_index": 74,
+      "market_id": "1344159",
+      "title": "Kawhi Leonard: Points O/U 28.5",
+      "category": "sports_props",
+      "resolution": "UNKNOWN",
+      "volume": 5957187.917755,
+      "price_volatility": 0.5995,
+      "price_min": 0.4,
+      "price_max": 0.9995,
+      "duration_hours": 155.91,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "sports_prop"
+      }
+    },
+    {
+      "market_index": 75,
+      "market_id": "1257087",
+      "title": "Bitcoin Up or Down - January 25, 4:00AM-4:15AM ET",
+      "category": "crypto",
+      "resolution": "UNKNOWN",
+      "volume": 182452.3941,
+      "price_volatility": 0.36,
+      "price_min": 0.495,
+      "price_max": 0.855,
+      "duration_hours": 24.1,
+      "event_radar_signals": {
+        "high_urgency": true,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": true,
+        "event_type": "micro_timeframe"
+      }
+    },
+    {
+      "market_index": 76,
+      "market_id": "1333599",
+      "title": "Total Kills Over/Under 55.5 in Game 1?",
+      "category": "esports",
+      "resolution": "UNKNOWN",
+      "volume": 165791.221084,
+      "price_volatility": 0.4995,
+      "price_min": 0.0005,
+      "price_max": 0.5,
+      "duration_hours": 25.19,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": true,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": "esports"
+      }
+    },
+    {
+      "market_index": 77,
+      "market_id": "1332532",
+      "title": "Bitcoin Up or Down - February 5, 6:00AM-6:15AM ET",
+      "category": "crypto",
+      "resolution": "UNKNOWN",
+      "volume": 418865.708167,
+      "price_volatility": 0.32,
+      "price_min": 0.495,
+      "price_max": 0.815,
+      "duration_hours": 24.09,
+      "event_radar_signals": {
+        "high_urgency": true,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": true,
+        "event_type": "micro_timeframe"
+      }
+    },
+    {
+      "market_index": 78,
+      "market_id": "1260468",
+      "title": "Bitcoin Up or Down - January 25, 3:00PM-3:15PM ET",
+      "category": "crypto",
+      "resolution": "UNKNOWN",
+      "volume": 170283.832871,
+      "price_volatility": 0.435,
+      "price_min": 0.5,
+      "price_max": 0.935,
+      "duration_hours": 24.06,
+      "event_radar_signals": {
+        "high_urgency": true,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": true,
+        "event_type": "micro_timeframe"
+      }
+    },
+    {
+      "market_index": 79,
+      "market_id": "1301668",
+      "title": "Will Amazon (AMZN) close at $230-$235 on the final day of trading of the week of Feb 2 – Feb 6?",
+      "category": "stocks",
+      "resolution": "UNKNOWN",
+      "volume": 152102.14513,
+      "price_volatility": 0.4995,
+      "price_min": 0.0005,
+      "price_max": 0.5,
+      "duration_hours": 165.54,
+      "event_radar_signals": {
+        "high_urgency": false,
+        "short_duration": false,
+        "high_volatility": false,
+        "predictable_outcome": false,
+        "time_sensitive": false,
+        "event_type": null
+      }
+    }
+  ],
+  "aggregate_insights": {
+    "category_distribution": {
+      "crypto": 7,
+      "esports": 5,
+      "sports_props": 6,
+      "weather": 1,
+      "stocks": 1
+    },
+    "resolution_patterns": {
+      "UNKNOWN": 20
+    },
+    "volatility_insights": {
+      "avg_volatility": 0.498,
+      "max_volatility": 0.7545,
+      "min_volatility": 0.0055,
+      "high_volatility_count": 9
+    },
+    "temporal_patterns": {
+      "avg_duration_hours": 96.44,
+      "max_duration_hours": 274.67,
+      "min_duration_hours": 20.89,
+      "short_duration_count": 3
+    },
+    "volume_insights": {
+      "avg_volume": 1336728.17,
+      "total_volume": 26734563.33,
+      "high_volume_count": 6
+    },
+    "event_signal_summary": {
+      "high_urgency": 6,
+      "short_duration": 4,
+      "high_volatility": 0,
+      "predictable_outcome": 1,
+      "time_sensitive": 6
+    }
+  }
+}

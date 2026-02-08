@@ -1,0 +1,31 @@
+OrderNumber,ContentId,FieldCode,FieldName,Description,DocketNum,Pages,PdfUrl,Status
+1090-B,15375621,7734,ROBELINE,HA RA SUA (CR),25-280,4,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=15375621&showInline=True,FOUND
+109-X,037733,7651,RED RIVER-BULL BAYOU,HA RD SUA THRU SUN,08-858,4,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=037733&showInline=True,found
+109-X-1,037734,,,,,,,found
+109-X-10,038625,,,,,,,found
+109-X-100,3520669,,,,,,,found
+109-X-101,037735,,,,,,,found
+109-X-102,3512327,,,,,,,found
+109-X-105,3570847,,,,,,,found
+1090-B,15375621,,,,,,,found
+109-X-108,3578816,7651,RED RIVER-BULL BAYOU,HA RC SUII,10-753,3,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=3578816&showInline=True,FOUND
+109-X-109,3578817,7651,RED RIVER-BULL BAYOU,HA RA SU66,10-765,4,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=3578817&showInline=True,FOUND
+109-X-110,3578818,7651,RED RIVER-BULL BAYOU,"HA RA SU56, 57, 59, 60, & 62-64",10-766,7,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=3578818&showInline=True,FOUND
+109-X-108,3578816,7651,RED RIVER-BULL BAYOU,,,found
+109-X-109,3578817,7651,RED RIVER-BULL BAYOU,,,found
+109-X-11,038671,7651,RED RIVER-BULL BAYOU,HA RB SUR,09-13,4,found
+109-X-110,3578818,7651,RED RIVER-BULL BAYOU,,,found
+109-X-111,3578825,7651,RED RIVER-BULL BAYOU,HA RB SU85,10-781,4,found
+109-X-112,3578826,,,,,found
+109-X-113,3589701,,,,,found
+109-X-115,3592496,7651,RED RIVER-BULL BAYOU,"HA RA SU65, 67, 69, 70, 72 & 73",10-878,4,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=3592496&showInline=True,FOUND
+109-X-117,3592498,7651,RED RIVER-BULL BAYOU,HA RB SU82,10-820,4,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=3592498&showInline=True,FOUND
+109-X-115,3592496,,,,,found
+109-X-116,3592497,,,,,found
+109-X-117,3592498,,,,,found
+109-X-119,3621758,,,,,found
+109-X-122,3635194,7651,RED RIVER-BULL BAYOU,HA RB SU90,10-1066,4,https://sonlite.dnr.state.la.us/dnrservices/redirectUrl.jsp?dDocname=3635194&showInline=True,FOUND
+109-X-12,038672,,,,,found
+109-X-120,3621759,,,,,found
+109-X-121,3635421,,,,,found
+109-X-122,3635194,,,,,found

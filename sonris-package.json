@@ -1,0 +1,15 @@
+{
+  "name": "sonris-unit-order-extractor",
+  "version": "1.0.0",
+  "description": "Extract unit order PDFs from SONRIS database (legal, manual CAPTCHA solving)",
+  "main": "sonris-unit-order-extractor.js",
+  "scripts": {
+    "start": "node sonris-unit-order-extractor.js",
+    "install-deps": "npm install puppeteer"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "author": "Borat",
+  "license": "MIT"
+}

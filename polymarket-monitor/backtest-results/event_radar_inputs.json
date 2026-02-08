@@ -1,0 +1,2306 @@
+{
+  "markets_sample": [
+    {
+      "id": "1298266",
+      "title": "Total Kills Over/Under 26.5 in Game 3?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T14:00:00Z"
+    },
+    {
+      "id": "1319396",
+      "title": "Bitcoin Up or Down - February 3, 8:45AM-9:00AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-03T14:00:00Z"
+    },
+    {
+      "id": "1337434",
+      "title": "First Blood in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T20:00:00Z"
+    },
+    {
+      "id": "1249720",
+      "title": "Will \"End of Beginning - Djo\" be the #1 song on Spotify this week?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T00:00:00Z"
+    },
+    {
+      "id": "1338236",
+      "title": "Collin Murray-Boyles: Rebounds O/U 6.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T00:30:00Z"
+    },
+    {
+      "id": "1299689",
+      "title": "Will the price of Ethereum be above $3,100 on February 6?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T17:00:00Z"
+    },
+    {
+      "id": "1301851",
+      "title": "Will Netflix (NFLX) close at $90-$100 on the final day of trading of the week of Feb 2 \u2013 Feb 6?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T21:00:00Z"
+    },
+    {
+      "id": "1314118",
+      "title": "Counter-Strike: NRG vs Team Falcons (BO3) - IEM Krakow Group B",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-02T21:30:00Z"
+    },
+    {
+      "id": "1250171",
+      "title": "Will the price of Bitcoin be above $90,000 on January 30?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T17:00:00Z"
+    },
+    {
+      "id": "1322600",
+      "title": "Bitcoin Up or Down - February 3, 5:30PM-5:45PM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-03T22:45:00Z"
+    },
+    {
+      "id": "1297825",
+      "title": "Jamal Murray: Points O/U 24.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T02:00:00Z"
+    },
+    {
+      "id": "1249833",
+      "title": "Bitcoin Up or Down - January 24, 11:00AM-11:15AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-24T16:15:00Z"
+    },
+    {
+      "id": "1316309",
+      "title": "Spread: Pistons (-44.5)",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T23:00:00Z"
+    },
+    {
+      "id": "1325385",
+      "title": "Will the highest temperature in London be 6\u00b0C or below on February 5?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T12:00:00Z"
+    },
+    {
+      "id": "1268123",
+      "title": "Bitcoin Up or Down - January 27, 5PM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-27T23:00:00Z"
+    },
+    {
+      "id": "1289643",
+      "title": "Total Kills Over/Under 44.5 in Game 3?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T15:00:00Z"
+    },
+    {
+      "id": "1336630",
+      "title": "Dota 2: Team Liquid vs Team Yandex (BO1) - BLAST Slam Group Stage",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T16:00:00Z"
+    },
+    {
+      "id": "1339570",
+      "title": "Total Kills Over/Under 57.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T18:20:00Z"
+    },
+    {
+      "id": "1329585",
+      "title": "Total Kills Over/Under 27.5 in Game 3?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T03:00:00Z"
+    },
+    {
+      "id": "1307293",
+      "title": "Total Kills Over/Under 59.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T18:30:00Z"
+    },
+    {
+      "id": "1300892",
+      "title": "Counter-Strike: FURIA vs FUT Esports (BO3) - IEM Krakow Group A",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T21:30:00Z"
+    },
+    {
+      "id": "1310250",
+      "title": "Total Kills Over/Under 18.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T03:00:00Z"
+    },
+    {
+      "id": "1265807",
+      "title": "Robert Morris Colonials vs. Purdue Fort Wayne Mastodons",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T18:00:00Z"
+    },
+    {
+      "id": "1339641",
+      "title": "Total Kills Over/Under 62.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T19:40:00Z"
+    },
+    {
+      "id": "1270419",
+      "title": "Call of Duty: FaZe Vegas vs G2 Minnesota - Game 1 Winner",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T04:50:00Z"
+    },
+    {
+      "id": "1344054",
+      "title": "Yves Missi: Rebounds O/U 5.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-07T01:00:00Z"
+    },
+    {
+      "id": "1255454",
+      "title": "LoL: JD Gaming vs Weibo Gaming - Game 2 Winner",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T17:00:00Z"
+    },
+    {
+      "id": "1291473",
+      "title": "Total Kills Over/Under 41.5 in Game 2?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T14:00:00Z"
+    },
+    {
+      "id": "1257985",
+      "title": "Australian Open Men's: Lorenzo Musetti vs Taylor Fritz",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-09T00:00:00Z"
+    },
+    {
+      "id": "1312121",
+      "title": "1H Spread: Pistons (-8.5)",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T23:00:00Z"
+    },
+    {
+      "id": "1282029",
+      "title": "Will the highest temperature in London be 8\u00b0C on January 30?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T12:00:00Z"
+    },
+    {
+      "id": "1301992",
+      "title": "Transylvania Open: Camila Osorio vs Jaqueline Cristian",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-08T09:00:00Z"
+    },
+    {
+      "id": "1318858",
+      "title": "Timberwolves vs. Grizzlies: O/U 229.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-03T00:30:00Z"
+    },
+    {
+      "id": "1269178",
+      "title": "Bitcoin Up or Down - January 26, 9:00PM-9:15PM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-27T02:15:00Z"
+    },
+    {
+      "id": "1337530",
+      "title": "Isaiah Collier: Assists O/U 11.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T00:30:00Z"
+    },
+    {
+      "id": "1280743",
+      "title": "Knicks vs. Raptors: O/U 225.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T00:30:00Z"
+    },
+    {
+      "id": "1274885",
+      "title": "Bucks vs. 76ers: 1H O/U 113.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-28T01:00:00Z"
+    },
+    {
+      "id": "1345120",
+      "title": "Total Kills Over/Under 48.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T23:00:00Z"
+    },
+    {
+      "id": "1290103",
+      "title": "Naji Marshall: Assists O/U 3.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T01:30:00Z"
+    },
+    {
+      "id": "1281597",
+      "title": "Naji Marshall: Assists O/U 3.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T01:30:00Z"
+    },
+    {
+      "id": "1312646",
+      "title": "Will the highest temperature in Seoul be 0\u00b0C on February 3?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-03T12:00:00Z"
+    },
+    {
+      "id": "1258260",
+      "title": "Set 1 Winner: Mensik vs Djokovic",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-09T00:00:00Z"
+    },
+    {
+      "id": "1289693",
+      "title": "Total Kills Over/Under 43.5 in Game 2?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T15:00:00Z"
+    },
+    {
+      "id": "1331404",
+      "title": "Jaylon Tyson: Rebounds O/U 5.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T03:30:00Z"
+    },
+    {
+      "id": "1337252",
+      "title": "Nickeil Alexander-Walker: Assists O/U 3.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T00:30:00Z"
+    },
+    {
+      "id": "1344578",
+      "title": "Total Kills Over/Under 34.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T14:00:00Z"
+    },
+    {
+      "id": "1303074",
+      "title": "Bitcoin Up or Down - January 31, 8:00PM-8:15PM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T01:15:00Z"
+    },
+    {
+      "id": "1288202",
+      "title": "Bilal Coulibaly: Assists O/U 2.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T00:00:00Z"
+    },
+    {
+      "id": "1293432",
+      "title": "Will Trump say \"TikTok\" during the announcement on Thursday?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T00:00:00Z"
+    },
+    {
+      "id": "1323071",
+      "title": "Hurkacz vs. Damm: Match O/U 23.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-10T13:30:00Z"
+    },
+    {
+      "id": "1325647",
+      "title": "Total Kills Over/Under 32.5 in Game 3?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T03:00:00Z"
+    },
+    {
+      "id": "1285841",
+      "title": "Will the price of Solana be greater than $170 on February 4?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T17:00:00Z"
+    },
+    {
+      "id": "1323599",
+      "title": "Games Total: O/U 2.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T22:00:00Z"
+    },
+    {
+      "id": "1291757",
+      "title": "Will the highest temperature in London be 7\u00b0C on January 31?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T12:00:00Z"
+    },
+    {
+      "id": "1236161",
+      "title": "Will Sport Lisboa e Benfica win on 2026-02-01?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T20:30:00Z"
+    },
+    {
+      "id": "1333898",
+      "title": "Grizzlies vs. Kings: 1H O/U 117.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T03:00:00Z"
+    },
+    {
+      "id": "1308942",
+      "title": "Spread: Central Arkansas Bears (-5.5)",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T21:30:00Z"
+    },
+    {
+      "id": "1339949",
+      "title": "76ers vs. Lakers: 1H O/U 119.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T03:00:00Z"
+    },
+    {
+      "id": "1281312",
+      "title": "Santi Aldama: Points O/U 13.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T01:00:00Z"
+    },
+    {
+      "id": "1333880",
+      "title": "Bitcoin Up or Down - February 6, 11AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T17:00:00Z"
+    },
+    {
+      "id": "1251477",
+      "title": "Bitcoin Up or Down - January 24, 2:00PM-2:15PM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-24T19:15:00Z"
+    },
+    {
+      "id": "1326035",
+      "title": "Total Kills Over/Under 53.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-03T19:00:00Z"
+    },
+    {
+      "id": "1311881",
+      "title": "Immanuel Quickley: Rebounds O/U 4.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T23:00:00Z"
+    },
+    {
+      "id": "1317443",
+      "title": "LoL: Vivo Keyd Stars vs paiN Gaming - Game 1 Winner",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-03T03:00:00Z"
+    },
+    {
+      "id": "1285862",
+      "title": "Will the price of XRP be between $2.30 and $2.40 on February 4?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T17:00:00Z"
+    },
+    {
+      "id": "1332541",
+      "title": "Total Kills Over/Under 54.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T16:00:00Z"
+    },
+    {
+      "id": "1310928",
+      "title": "Anfernee Simons: Rebounds O/U 2.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T20:30:00Z"
+    },
+    {
+      "id": "1298883",
+      "title": "Bitcoin Up or Down - January 31, 9:00AM-9:15AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T14:15:00Z"
+    },
+    {
+      "id": "1240659",
+      "title": "Casa Pia AC vs. FC Porto: O/U 4.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-02T20:45:00Z"
+    },
+    {
+      "id": "1264801",
+      "title": "Will the highest temperature in Buenos Aires be 38\u00b0C on January 27?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-27T12:00:00Z"
+    },
+    {
+      "id": "1305125",
+      "title": "LaMelo Ball: Assists O/U 7.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T20:00:00Z"
+    },
+    {
+      "id": "1275569",
+      "title": "Collin Gillespie: Points O/U 15.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-28T02:00:00Z"
+    },
+    {
+      "id": "1289932",
+      "title": "Bitcoin Up or Down - January 29, 11:45PM-12:00AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-30T05:00:00Z"
+    },
+    {
+      "id": "1307303",
+      "title": "Total Kills Over/Under 25.5 in Game 2?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T18:15:00Z"
+    },
+    {
+      "id": "1344159",
+      "title": "Kawhi Leonard: Points O/U 28.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-07T03:00:00Z"
+    },
+    {
+      "id": "1257087",
+      "title": "Bitcoin Up or Down - January 25, 4:00AM-4:15AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-25T09:15:00Z"
+    },
+    {
+      "id": "1333599",
+      "title": "Total Kills Over/Under 55.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T20:15:00Z"
+    },
+    {
+      "id": "1332532",
+      "title": "Bitcoin Up or Down - February 5, 6:00AM-6:15AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T11:15:00Z"
+    },
+    {
+      "id": "1260468",
+      "title": "Bitcoin Up or Down - January 25, 3:00PM-3:15PM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-25T20:15:00Z"
+    },
+    {
+      "id": "1301668",
+      "title": "Will Amazon (AMZN) close at $230-$235 on the final day of trading of the week of Feb 2 \u2013 Feb 6?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T21:00:00Z"
+    },
+    {
+      "id": "1248584",
+      "title": "Bitcoin Up or Down - January 24, 6:45AM-7:00AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-24T12:00:00Z"
+    },
+    {
+      "id": "1298929",
+      "title": "Game Handicap: AL (-1.5) vs Weibo Gaming (+1.5)",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T17:15:00Z"
+    },
+    {
+      "id": "1332431",
+      "title": "Total Kills Over/Under 35.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T16:00:00Z"
+    },
+    {
+      "id": "1235446",
+      "title": "Will the next government funding bill be passed on January 29, 2026?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T00:00:00Z"
+    },
+    {
+      "id": "1300884",
+      "title": "Counter-Strike: Natus Vincere vs PARIVISION - Map 1 Winner",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T19:00:00Z"
+    },
+    {
+      "id": "1279555",
+      "title": "Spread: Arkansas Razorbacks (-2.5)",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-28T00:00:00Z"
+    },
+    {
+      "id": "1322642",
+      "title": "Counter-Strike: EYEBALLERS vs 1WIN - Map 2 Winner",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-03T15:30:00Z"
+    },
+    {
+      "id": "1285821",
+      "title": "Will the price of Bitcoin be above $86,000 on February 4?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T17:00:00Z"
+    },
+    {
+      "id": "1337254",
+      "title": "CJ McCollum: Assists O/U 3.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T00:30:00Z"
+    },
+    {
+      "id": "1328374",
+      "title": "Total Kills Over/Under 41.5 in Game 1?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-04T01:35:00Z"
+    },
+    {
+      "id": "1306273",
+      "title": "Total Kills Over/Under 39.5 in Game 3?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T14:00:00Z"
+    },
+    {
+      "id": "1239592",
+      "title": "Mensik vs. Quinn: Set 1 Games O/U 9.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T00:00:00Z"
+    },
+    {
+      "id": "1287305",
+      "title": "Bitcoin Up or Down - January 29, 4:15PM-4:30PM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T21:30:00Z"
+    },
+    {
+      "id": "1311765",
+      "title": "Bitcoin Up or Down - February 2, 12:15AM-12:30AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-02T05:30:00Z"
+    },
+    {
+      "id": "1289669",
+      "title": "Total Kills Over/Under 41.5 in Game 2?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-29T22:00:00Z"
+    },
+    {
+      "id": "1331333",
+      "title": "Jamal Murray: Rebounds O/U 3.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-05T00:00:00Z"
+    },
+    {
+      "id": "1306768",
+      "title": "Bitcoin Up or Down - February 1, 6:15AM-6:30AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-01T11:30:00Z"
+    },
+    {
+      "id": "1259162",
+      "title": "Will the price of Ethereum be above $3,300 on January 31?",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-31T17:00:00Z"
+    },
+    {
+      "id": "1338090",
+      "title": "Draymond Green: Assists O/U 4.5",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-02-06T03:00:00Z"
+    },
+    {
+      "id": "1257769",
+      "title": "Bitcoin Up or Down - January 26, 7AM ET",
+      "resolution_criteria_summary": "Market resolved at 0.00",
+      "category": "historical",
+      "close_time_utc": "2026-01-26T13:00:00Z"
+    }
+  ],
+  "signals_batch": [
+    {
+      "signal_id": "M-1298266",
+      "timestamp_utc": "2026-01-30T14:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 26.5 in Game 3?",
+      "short_summary": "Total Kills Over/Under 26.5 in Game 3? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 2584577.263896,
+        "start_date": "2026-01-25T10:07:35.516037Z",
+        "end_date": "2026-01-30T14:00:00Z",
+        "price_range": {
+          "min": 0.5025,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1319396",
+      "timestamp_utc": "2026-02-03T14:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - February 3, 8:45AM-9:00AM ET",
+      "short_summary": "Bitcoin Up or Down - February 3, 8:45AM-9:00AM ET [Resolved: UNCLEAR, Final: 0.69]",
+      "market_metadata": {
+        "volume": 474111.709677,
+        "start_date": "2026-02-02T13:55:20.288407Z",
+        "end_date": "2026-02-03T14:00:00Z",
+        "price_range": {
+          "min": 0.46,
+          "max": 0.69
+        }
+      }
+    },
+    {
+      "signal_id": "M-1337434",
+      "timestamp_utc": "2026-02-05T20:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "First Blood in Game 1?",
+      "short_summary": "First Blood in Game 1? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 178003.142771,
+        "start_date": "2026-02-04T23:33:41.157018Z",
+        "end_date": "2026-02-05T20:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.515
+        }
+      }
+    },
+    {
+      "signal_id": "M-1249720",
+      "timestamp_utc": "2026-01-30T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will \"End of Beginning - Djo\" be the #1 song on Spotify this week?",
+      "short_summary": "Will \"End of Beginning - Djo\" be the #1 song on Spotify this week? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 368371.763128,
+        "start_date": "2026-01-23T21:25:26.248243Z",
+        "end_date": "2026-01-30T00:00:00Z",
+        "price_range": {
+          "min": 0.065,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1338236",
+      "timestamp_utc": "2026-02-06T00:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Collin Murray-Boyles: Rebounds O/U 6.5",
+      "short_summary": "Collin Murray-Boyles: Rebounds O/U 6.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 3880470.208671,
+        "start_date": "2026-01-30T15:05:39.403416Z",
+        "end_date": "2026-02-06T00:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.585
+        }
+      }
+    },
+    {
+      "signal_id": "M-1299689",
+      "timestamp_utc": "2026-02-06T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the price of Ethereum be above $3,100 on February 6?",
+      "short_summary": "Will the price of Ethereum be above $3,100 on February 6? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 1393817.526025,
+        "start_date": "2026-01-30T17:03:34.301579Z",
+        "end_date": "2026-02-06T17:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.495
+        }
+      }
+    },
+    {
+      "signal_id": "M-1301851",
+      "timestamp_utc": "2026-02-06T21:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will Netflix (NFLX) close at $90-$100 on the final day of trading of the week of Feb 2 \u2013 Feb 6?",
+      "short_summary": "Will Netflix (NFLX) close at $90-$100 on the final day of trading of the week of Feb 2 \u2013 Feb 6? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 122265.247435,
+        "start_date": "2026-01-30T23:29:54.388048Z",
+        "end_date": "2026-02-06T21:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "signal_id": "M-1314118",
+      "timestamp_utc": "2026-02-02T21:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Counter-Strike: NRG vs Team Falcons (BO3) - IEM Krakow Group B",
+      "short_summary": "Counter-Strike: NRG vs Team Falcons (BO3) - IEM Krakow Group B [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 1038330.239428,
+        "start_date": "2026-02-01T17:03:53.906953Z",
+        "end_date": "2026-02-02T21:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.5145
+        }
+      }
+    },
+    {
+      "signal_id": "M-1250171",
+      "timestamp_utc": "2026-01-30T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the price of Bitcoin be above $90,000 on January 30?",
+      "short_summary": "Will the price of Bitcoin be above $90,000 on January 30? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 7341745.653212,
+        "start_date": "2026-01-23T17:09:18.08222Z",
+        "end_date": "2026-01-30T17:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.61
+        }
+      }
+    },
+    {
+      "signal_id": "M-1322600",
+      "timestamp_utc": "2026-02-03T22:45:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - February 3, 5:30PM-5:45PM ET",
+      "short_summary": "Bitcoin Up or Down - February 3, 5:30PM-5:45PM ET [Resolved: UNCLEAR, Final: 0.28]",
+      "market_metadata": {
+        "volume": 211486.458213,
+        "start_date": "2026-02-02T22:39:20.798371Z",
+        "end_date": "2026-02-03T22:45:00Z",
+        "price_range": {
+          "min": 0.285,
+          "max": 0.535
+        }
+      }
+    },
+    {
+      "signal_id": "M-1297825",
+      "timestamp_utc": "2026-01-31T02:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Jamal Murray: Points O/U 24.5",
+      "short_summary": "Jamal Murray: Points O/U 24.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 5530224.490698,
+        "start_date": "2026-01-24T15:03:11.692826Z",
+        "end_date": "2026-01-31T02:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.52
+        }
+      }
+    },
+    {
+      "signal_id": "M-1249833",
+      "timestamp_utc": "2026-01-24T16:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 24, 11:00AM-11:15AM ET",
+      "short_summary": "Bitcoin Up or Down - January 24, 11:00AM-11:15AM ET [Resolved: YES, Final: 0.92]",
+      "market_metadata": {
+        "volume": 181900.52401,
+        "start_date": "2026-01-23T16:09:48.988207Z",
+        "end_date": "2026-01-24T16:15:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.915
+        }
+      }
+    },
+    {
+      "signal_id": "M-1316309",
+      "timestamp_utc": "2026-02-01T23:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Spread: Pistons (-44.5)",
+      "short_summary": "Spread: Pistons (-44.5) [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 3432210.606168,
+        "start_date": "2026-01-26T15:03:51.579284Z",
+        "end_date": "2026-02-01T23:00:00Z",
+        "price_range": {
+          "min": 0.505,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1325385",
+      "timestamp_utc": "2026-02-05T12:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the highest temperature in London be 6\u00b0C or below on February 5?",
+      "short_summary": "Will the highest temperature in London be 6\u00b0C or below on February 5? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 230811.3921,
+        "start_date": "2026-02-03T11:06:05.893809Z",
+        "end_date": "2026-02-05T12:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.105
+        }
+      }
+    },
+    {
+      "signal_id": "M-1268123",
+      "timestamp_utc": "2026-01-27T23:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 27, 5PM ET",
+      "short_summary": "Bitcoin Up or Down - January 27, 5PM ET [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 145897.37104,
+        "start_date": "2026-01-25T22:03:08.611606Z",
+        "end_date": "2026-01-27T23:00:00Z",
+        "price_range": {
+          "min": 0.425,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1289643",
+      "timestamp_utc": "2026-01-29T15:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 44.5 in Game 3?",
+      "short_summary": "Total Kills Over/Under 44.5 in Game 3? [Resolved: UNCLEAR, Final: 0.55]",
+      "market_metadata": {
+        "volume": 173697.178499,
+        "start_date": "2026-01-28T09:05:47.262568Z",
+        "end_date": "2026-01-29T15:00:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.55
+        }
+      }
+    },
+    {
+      "signal_id": "M-1336630",
+      "timestamp_utc": "2026-02-05T16:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Dota 2: Team Liquid vs Team Yandex (BO1) - BLAST Slam Group Stage",
+      "short_summary": "Dota 2: Team Liquid vs Team Yandex (BO1) - BLAST Slam Group Stage [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 101705.382556,
+        "start_date": "2026-02-04T23:33:40.523926Z",
+        "end_date": "2026-02-05T16:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.695
+        }
+      }
+    },
+    {
+      "signal_id": "M-1339570",
+      "timestamp_utc": "2026-02-05T18:20:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 57.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 57.5 in Game 1? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 231774.104327,
+        "start_date": "2026-02-04T23:33:40.579391Z",
+        "end_date": "2026-02-05T18:20:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.495
+        }
+      }
+    },
+    {
+      "signal_id": "M-1329585",
+      "timestamp_utc": "2026-02-04T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 27.5 in Game 3?",
+      "short_summary": "Total Kills Over/Under 27.5 in Game 3? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 575315.46379,
+        "start_date": "2026-02-03T08:03:53.750333Z",
+        "end_date": "2026-02-04T03:00:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1307293",
+      "timestamp_utc": "2026-01-31T18:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 59.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 59.5 in Game 1? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 189896.288166,
+        "start_date": "2026-01-31T00:33:35.265968Z",
+        "end_date": "2026-01-31T18:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.505
+        }
+      }
+    },
+    {
+      "signal_id": "M-1300892",
+      "timestamp_utc": "2026-01-31T21:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Counter-Strike: FURIA vs FUT Esports (BO3) - IEM Krakow Group A",
+      "short_summary": "Counter-Strike: FURIA vs FUT Esports (BO3) - IEM Krakow Group A [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 1094751.002151,
+        "start_date": "2026-01-30T21:06:07.895889Z",
+        "end_date": "2026-01-31T21:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.775
+        }
+      }
+    },
+    {
+      "signal_id": "M-1310250",
+      "timestamp_utc": "2026-02-01T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 18.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 18.5 in Game 1? [Resolved: UNCLEAR, Final: 0.55]",
+      "market_metadata": {
+        "volume": 2110668.733765,
+        "start_date": "2026-01-26T18:05:34.555277Z",
+        "end_date": "2026-02-01T03:00:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.55
+        }
+      }
+    },
+    {
+      "signal_id": "M-1265807",
+      "timestamp_utc": "2026-01-31T18:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Robert Morris Colonials vs. Purdue Fort Wayne Mastodons",
+      "short_summary": "Robert Morris Colonials vs. Purdue Fort Wayne Mastodons [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 102171.042271,
+        "start_date": "2026-01-25T15:08:57.430816Z",
+        "end_date": "2026-01-31T18:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.555
+        }
+      }
+    },
+    {
+      "signal_id": "M-1339641",
+      "timestamp_utc": "2026-02-05T19:40:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 62.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 62.5 in Game 1? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 214094.401036,
+        "start_date": "2026-02-04T23:33:41.071865Z",
+        "end_date": "2026-02-05T19:40:00Z",
+        "price_range": {
+          "min": 0.505,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1270419",
+      "timestamp_utc": "2026-01-30T04:50:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Call of Duty: FaZe Vegas vs G2 Minnesota - Game 1 Winner",
+      "short_summary": "Call of Duty: FaZe Vegas vs G2 Minnesota - Game 1 Winner [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 107700.413083,
+        "start_date": "2026-01-26T09:06:06.444552Z",
+        "end_date": "2026-01-30T04:50:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.68
+        }
+      }
+    },
+    {
+      "signal_id": "M-1344054",
+      "timestamp_utc": "2026-02-07T01:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Yves Missi: Rebounds O/U 5.5",
+      "short_summary": "Yves Missi: Rebounds O/U 5.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 3092995.823715,
+        "start_date": "2026-01-31T15:05:35.950383Z",
+        "end_date": "2026-02-07T01:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.555
+        }
+      }
+    },
+    {
+      "signal_id": "M-1255454",
+      "timestamp_utc": "2026-01-29T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "LoL: JD Gaming vs Weibo Gaming - Game 2 Winner",
+      "short_summary": "LoL: JD Gaming vs Weibo Gaming - Game 2 Winner [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 1973512.425404,
+        "start_date": "2026-01-24T03:35:13.340699Z",
+        "end_date": "2026-01-29T17:00:00Z",
+        "price_range": {
+          "min": 0.45,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1291473",
+      "timestamp_utc": "2026-01-29T14:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 41.5 in Game 2?",
+      "short_summary": "Total Kills Over/Under 41.5 in Game 2? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2478829.522013,
+        "start_date": "2026-01-25T10:07:35.395239Z",
+        "end_date": "2026-01-29T14:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "signal_id": "M-1257985",
+      "timestamp_utc": "2026-02-09T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Australian Open Men's: Lorenzo Musetti vs Taylor Fritz",
+      "short_summary": "Australian Open Men's: Lorenzo Musetti vs Taylor Fritz [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 1222509.50741,
+        "start_date": "2026-01-24T13:02:38.84851Z",
+        "end_date": "2026-02-09T00:00:00Z",
+        "price_range": {
+          "min": 0.285,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1312121",
+      "timestamp_utc": "2026-02-01T23:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "1H Spread: Pistons (-8.5)",
+      "short_summary": "1H Spread: Pistons (-8.5) [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 3432210.606168,
+        "start_date": "2026-01-26T15:03:51.579284Z",
+        "end_date": "2026-02-01T23:00:00Z",
+        "price_range": {
+          "min": 0.46,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1282029",
+      "timestamp_utc": "2026-01-30T12:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the highest temperature in London be 8\u00b0C on January 30?",
+      "short_summary": "Will the highest temperature in London be 8\u00b0C on January 30? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 283137.443753,
+        "start_date": "2026-01-28T11:18:59.45242Z",
+        "end_date": "2026-01-30T12:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.495
+        }
+      }
+    },
+    {
+      "signal_id": "M-1301992",
+      "timestamp_utc": "2026-02-08T09:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Transylvania Open: Camila Osorio vs Jaqueline Cristian",
+      "short_summary": "Transylvania Open: Camila Osorio vs Jaqueline Cristian [Resolved: UNCLEAR, Final: 0.49]",
+      "market_metadata": {
+        "volume": 269287.300172,
+        "start_date": "2026-01-30T23:07:38.684561Z",
+        "end_date": "2026-02-08T09:00:00Z",
+        "price_range": {
+          "min": 0.3,
+          "max": 0.7
+        }
+      }
+    },
+    {
+      "signal_id": "M-1318858",
+      "timestamp_utc": "2026-02-03T00:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Timberwolves vs. Grizzlies: O/U 229.5",
+      "short_summary": "Timberwolves vs. Grizzlies: O/U 229.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 5590223.514989,
+        "start_date": "2026-01-27T15:03:19.845655Z",
+        "end_date": "2026-02-03T00:30:00Z",
+        "price_range": {
+          "min": 0.49,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1269178",
+      "timestamp_utc": "2026-01-27T02:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 26, 9:00PM-9:15PM ET",
+      "short_summary": "Bitcoin Up or Down - January 26, 9:00PM-9:15PM ET [Resolved: YES, Final: 0.99]",
+      "market_metadata": {
+        "volume": 193703.76005,
+        "start_date": "2026-01-26T02:09:28.910829Z",
+        "end_date": "2026-01-27T02:15:00Z",
+        "price_range": {
+          "min": 0.485,
+          "max": 0.9935
+        }
+      }
+    },
+    {
+      "signal_id": "M-1337530",
+      "timestamp_utc": "2026-02-06T00:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Isaiah Collier: Assists O/U 11.5",
+      "short_summary": "Isaiah Collier: Assists O/U 11.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2713295.302838,
+        "start_date": "2026-01-30T15:05:47.712836Z",
+        "end_date": "2026-02-06T00:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.515
+        }
+      }
+    },
+    {
+      "signal_id": "M-1280743",
+      "timestamp_utc": "2026-01-29T00:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Knicks vs. Raptors: O/U 225.5",
+      "short_summary": "Knicks vs. Raptors: O/U 225.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 3938559.49358,
+        "start_date": "2026-01-22T15:03:24.08854Z",
+        "end_date": "2026-01-29T00:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.495
+        }
+      }
+    },
+    {
+      "signal_id": "M-1274885",
+      "timestamp_utc": "2026-01-28T01:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bucks vs. 76ers: 1H O/U 113.5",
+      "short_summary": "Bucks vs. 76ers: 1H O/U 113.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 3033097.605036,
+        "start_date": "2026-01-21T15:03:10.005131Z",
+        "end_date": "2026-01-28T01:00:00Z",
+        "price_range": {
+          "min": 0.455,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1345120",
+      "timestamp_utc": "2026-02-06T23:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 48.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 48.5 in Game 1? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 381724.68506,
+        "start_date": "2026-02-06T00:05:29.854432Z",
+        "end_date": "2026-02-06T23:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.52
+        }
+      }
+    },
+    {
+      "signal_id": "M-1290103",
+      "timestamp_utc": "2026-01-30T01:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Naji Marshall: Assists O/U 3.5",
+      "short_summary": "Naji Marshall: Assists O/U 3.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2862419.015507,
+        "start_date": "2026-01-23T15:03:55.657085Z",
+        "end_date": "2026-01-30T01:30:00Z",
+        "price_range": {
+          "min": 0.002,
+          "max": 0.53
+        }
+      }
+    },
+    {
+      "signal_id": "M-1281597",
+      "timestamp_utc": "2026-01-29T01:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Naji Marshall: Assists O/U 3.5",
+      "short_summary": "Naji Marshall: Assists O/U 3.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2465606.127671,
+        "start_date": "2026-01-22T15:03:24.090352Z",
+        "end_date": "2026-01-29T01:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.59
+        }
+      }
+    },
+    {
+      "signal_id": "M-1312646",
+      "timestamp_utc": "2026-02-03T12:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the highest temperature in Seoul be 0\u00b0C on February 3?",
+      "short_summary": "Will the highest temperature in Seoul be 0\u00b0C on February 3? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 122969.153132,
+        "start_date": "2026-02-01T11:09:47.151524Z",
+        "end_date": "2026-02-03T12:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.375
+        }
+      }
+    },
+    {
+      "signal_id": "M-1258260",
+      "timestamp_utc": "2026-02-09T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Set 1 Winner: Mensik vs Djokovic",
+      "short_summary": "Set 1 Winner: Mensik vs Djokovic [Resolved: UNCLEAR, Final: 0.49]",
+      "market_metadata": {
+        "volume": 176449.148352,
+        "start_date": "2026-01-24T13:02:38.842873Z",
+        "end_date": "2026-02-09T00:00:00Z",
+        "price_range": {
+          "min": 0.34,
+          "max": 0.655
+        }
+      }
+    },
+    {
+      "signal_id": "M-1289693",
+      "timestamp_utc": "2026-01-29T15:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 43.5 in Game 2?",
+      "short_summary": "Total Kills Over/Under 43.5 in Game 2? [Resolved: UNCLEAR, Final: 0.25]",
+      "market_metadata": {
+        "volume": 173697.178499,
+        "start_date": "2026-01-28T09:05:47.262568Z",
+        "end_date": "2026-01-29T15:00:00Z",
+        "price_range": {
+          "min": 0.2505,
+          "max": 0.63
+        }
+      }
+    },
+    {
+      "signal_id": "M-1331404",
+      "timestamp_utc": "2026-02-05T03:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Jaylon Tyson: Rebounds O/U 5.5",
+      "short_summary": "Jaylon Tyson: Rebounds O/U 5.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2920705.127583,
+        "start_date": "2026-01-29T15:05:13.077713Z",
+        "end_date": "2026-02-05T03:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.63
+        }
+      }
+    },
+    {
+      "signal_id": "M-1337252",
+      "timestamp_utc": "2026-02-06T00:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Nickeil Alexander-Walker: Assists O/U 3.5",
+      "short_summary": "Nickeil Alexander-Walker: Assists O/U 3.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 2713295.302838,
+        "start_date": "2026-01-30T15:05:47.712836Z",
+        "end_date": "2026-02-06T00:30:00Z",
+        "price_range": {
+          "min": 0.285,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1344578",
+      "timestamp_utc": "2026-02-06T14:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 34.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 34.5 in Game 1? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2417135.506286,
+        "start_date": "2026-02-01T14:03:26.634875Z",
+        "end_date": "2026-02-06T14:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.0065
+        }
+      }
+    },
+    {
+      "signal_id": "M-1303074",
+      "timestamp_utc": "2026-02-01T01:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 31, 8:00PM-8:15PM ET",
+      "short_summary": "Bitcoin Up or Down - January 31, 8:00PM-8:15PM ET [Resolved: NO, Final: 0.04]",
+      "market_metadata": {
+        "volume": 157733.019686,
+        "start_date": "2026-01-31T01:09:30.379126Z",
+        "end_date": "2026-02-01T01:15:00Z",
+        "price_range": {
+          "min": 0.035,
+          "max": 0.515
+        }
+      }
+    },
+    {
+      "signal_id": "M-1288202",
+      "timestamp_utc": "2026-01-30T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bilal Coulibaly: Assists O/U 2.5",
+      "short_summary": "Bilal Coulibaly: Assists O/U 2.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 3306348.062817,
+        "start_date": "2026-01-23T15:01:43.286727Z",
+        "end_date": "2026-01-30T00:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.535
+        }
+      }
+    },
+    {
+      "signal_id": "M-1293432",
+      "timestamp_utc": "2026-01-29T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will Trump say \"TikTok\" during the announcement on Thursday?",
+      "short_summary": "Will Trump say \"TikTok\" during the announcement on Thursday? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 205304.13504,
+        "start_date": "2026-01-29T16:17:25.559519Z",
+        "end_date": "2026-01-29T00:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.49
+        }
+      }
+    },
+    {
+      "signal_id": "M-1323071",
+      "timestamp_utc": "2026-02-10T13:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Hurkacz vs. Damm: Match O/U 23.5",
+      "short_summary": "Hurkacz vs. Damm: Match O/U 23.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 144542.901383,
+        "start_date": "2026-02-02T23:03:01.601765Z",
+        "end_date": "2026-02-10T13:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.71
+        }
+      }
+    },
+    {
+      "signal_id": "M-1325647",
+      "timestamp_utc": "2026-02-04T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 32.5 in Game 3?",
+      "short_summary": "Total Kills Over/Under 32.5 in Game 3? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 575315.46379,
+        "start_date": "2026-02-03T08:03:53.750333Z",
+        "end_date": "2026-02-04T03:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.52
+        }
+      }
+    },
+    {
+      "signal_id": "M-1285841",
+      "timestamp_utc": "2026-02-04T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the price of Solana be greater than $170 on February 4?",
+      "short_summary": "Will the price of Solana be greater than $170 on February 4? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 213123.158376,
+        "start_date": "2026-01-28T22:01:21.898904Z",
+        "end_date": "2026-02-04T17:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "signal_id": "M-1323599",
+      "timestamp_utc": "2026-02-04T22:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Games Total: O/U 2.5",
+      "short_summary": "Games Total: O/U 2.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 249422.020374,
+        "start_date": "2026-02-03T02:07:55.935949Z",
+        "end_date": "2026-02-04T22:00:00Z",
+        "price_range": {
+          "min": 0.36,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1291757",
+      "timestamp_utc": "2026-01-31T12:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the highest temperature in London be 7\u00b0C on January 31?",
+      "short_summary": "Will the highest temperature in London be 7\u00b0C on January 31? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 220914.738178,
+        "start_date": "2026-01-29T11:11:40.833558Z",
+        "end_date": "2026-01-31T12:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.31
+        }
+      }
+    },
+    {
+      "signal_id": "M-1236161",
+      "timestamp_utc": "2026-02-01T20:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will Sport Lisboa e Benfica win on 2026-02-01?",
+      "short_summary": "Will Sport Lisboa e Benfica win on 2026-02-01? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 334422.940932,
+        "start_date": "2026-01-21T18:59:17.864759Z",
+        "end_date": "2026-02-01T20:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.825
+        }
+      }
+    },
+    {
+      "signal_id": "M-1333898",
+      "timestamp_utc": "2026-02-05T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Grizzlies vs. Kings: 1H O/U 117.5",
+      "short_summary": "Grizzlies vs. Kings: 1H O/U 117.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 5030186.804463,
+        "start_date": "2026-01-29T15:03:05.380888Z",
+        "end_date": "2026-02-05T03:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.57
+        }
+      }
+    },
+    {
+      "signal_id": "M-1308942",
+      "timestamp_utc": "2026-01-31T21:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Spread: Central Arkansas Bears (-5.5)",
+      "short_summary": "Spread: Central Arkansas Bears (-5.5) [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 130794.424693,
+        "start_date": "2026-01-25T15:07:11.643631Z",
+        "end_date": "2026-01-31T21:30:00Z",
+        "price_range": {
+          "min": 0.28,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1339949",
+      "timestamp_utc": "2026-02-06T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "76ers vs. Lakers: 1H O/U 119.5",
+      "short_summary": "76ers vs. Lakers: 1H O/U 119.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 5119783.648414,
+        "start_date": "2026-01-30T15:05:39.444872Z",
+        "end_date": "2026-02-06T03:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.58
+        }
+      }
+    },
+    {
+      "signal_id": "M-1281312",
+      "timestamp_utc": "2026-01-29T01:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Santi Aldama: Points O/U 13.5",
+      "short_summary": "Santi Aldama: Points O/U 13.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2650871.730763,
+        "start_date": "2026-01-22T15:03:24.093235Z",
+        "end_date": "2026-01-29T01:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.535
+        }
+      }
+    },
+    {
+      "signal_id": "M-1333880",
+      "timestamp_utc": "2026-02-06T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - February 6, 11AM ET",
+      "short_summary": "Bitcoin Up or Down - February 6, 11AM ET [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 211268.299899,
+        "start_date": "2026-02-04T16:03:29.279305Z",
+        "end_date": "2026-02-06T17:00:00Z",
+        "price_range": {
+          "min": 0.455,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1251477",
+      "timestamp_utc": "2026-01-24T19:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 24, 2:00PM-2:15PM ET",
+      "short_summary": "Bitcoin Up or Down - January 24, 2:00PM-2:15PM ET [Resolved: NO, Final: 0.04]",
+      "market_metadata": {
+        "volume": 128151.771376,
+        "start_date": "2026-01-23T20:34:02.129417Z",
+        "end_date": "2026-01-24T19:15:00Z",
+        "price_range": {
+          "min": 0.035,
+          "max": 0.545
+        }
+      }
+    },
+    {
+      "signal_id": "M-1326035",
+      "timestamp_utc": "2026-02-03T19:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 53.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 53.5 in Game 1? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 108493.806585,
+        "start_date": "2026-01-27T13:33:32.756764Z",
+        "end_date": "2026-02-03T19:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.505
+        }
+      }
+    },
+    {
+      "signal_id": "M-1311881",
+      "timestamp_utc": "2026-02-01T23:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Immanuel Quickley: Rebounds O/U 4.5",
+      "short_summary": "Immanuel Quickley: Rebounds O/U 4.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 4522825.513786,
+        "start_date": "2026-01-26T15:03:51.575865Z",
+        "end_date": "2026-02-01T23:00:00Z",
+        "price_range": {
+          "min": 0.26,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1317443",
+      "timestamp_utc": "2026-02-03T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "LoL: Vivo Keyd Stars vs paiN Gaming - Game 1 Winner",
+      "short_summary": "LoL: Vivo Keyd Stars vs paiN Gaming - Game 1 Winner [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 352932.081159,
+        "start_date": "2026-02-02T06:06:24.585441Z",
+        "end_date": "2026-02-03T03:00:00Z",
+        "price_range": {
+          "min": 0.405,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1285862",
+      "timestamp_utc": "2026-02-04T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the price of XRP be between $2.30 and $2.40 on February 4?",
+      "short_summary": "Will the price of XRP be between $2.30 and $2.40 on February 4? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 244533.925989,
+        "start_date": "2026-01-29T00:51:57.549046Z",
+        "end_date": "2026-02-04T17:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.495
+        }
+      }
+    },
+    {
+      "signal_id": "M-1332541",
+      "timestamp_utc": "2026-02-04T16:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 54.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 54.5 in Game 1? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 204518.594926,
+        "start_date": "2026-02-03T19:03:24.031771Z",
+        "end_date": "2026-02-04T16:00:00Z",
+        "price_range": {
+          "min": 0.994,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1310928",
+      "timestamp_utc": "2026-02-01T20:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Anfernee Simons: Rebounds O/U 2.5",
+      "short_summary": "Anfernee Simons: Rebounds O/U 2.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 4131703.397303,
+        "start_date": "2026-01-26T15:03:51.567296Z",
+        "end_date": "2026-02-01T20:30:00Z",
+        "price_range": {
+          "min": 0.33,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1298883",
+      "timestamp_utc": "2026-01-31T14:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 31, 9:00AM-9:15AM ET",
+      "short_summary": "Bitcoin Up or Down - January 31, 9:00AM-9:15AM ET [Resolved: NO, Final: 0.07]",
+      "market_metadata": {
+        "volume": 320836.477502,
+        "start_date": "2026-01-30T14:11:17.037199Z",
+        "end_date": "2026-01-31T14:15:00Z",
+        "price_range": {
+          "min": 0.065,
+          "max": 0.525
+        }
+      }
+    },
+    {
+      "signal_id": "M-1240659",
+      "timestamp_utc": "2026-02-02T20:45:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Casa Pia AC vs. FC Porto: O/U 4.5",
+      "short_summary": "Casa Pia AC vs. FC Porto: O/U 4.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 120961.779219,
+        "start_date": "2026-01-22T10:05:04.889093Z",
+        "end_date": "2026-02-02T20:45:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.52
+        }
+      }
+    },
+    {
+      "signal_id": "M-1264801",
+      "timestamp_utc": "2026-01-27T12:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the highest temperature in Buenos Aires be 38\u00b0C on January 27?",
+      "short_summary": "Will the highest temperature in Buenos Aires be 38\u00b0C on January 27? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 113391.925038,
+        "start_date": "2026-01-25T11:17:36.050345Z",
+        "end_date": "2026-01-27T12:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.49
+        }
+      }
+    },
+    {
+      "signal_id": "M-1305125",
+      "timestamp_utc": "2026-01-31T20:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "LaMelo Ball: Assists O/U 7.5",
+      "short_summary": "LaMelo Ball: Assists O/U 7.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 4499130.733066,
+        "start_date": "2026-01-25T15:05:05.337216Z",
+        "end_date": "2026-01-31T20:00:00Z",
+        "price_range": {
+          "min": 0.245,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1275569",
+      "timestamp_utc": "2026-01-28T02:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Collin Gillespie: Points O/U 15.5",
+      "short_summary": "Collin Gillespie: Points O/U 15.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2959778.172311,
+        "start_date": "2026-01-21T15:03:10.098338Z",
+        "end_date": "2026-01-28T02:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.505
+        }
+      }
+    },
+    {
+      "signal_id": "M-1289932",
+      "timestamp_utc": "2026-01-30T05:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 29, 11:45PM-12:00AM ET",
+      "short_summary": "Bitcoin Up or Down - January 29, 11:45PM-12:00AM ET [Resolved: YES, Final: 0.98]",
+      "market_metadata": {
+        "volume": 225403.718776,
+        "start_date": "2026-01-29T04:55:13.229911Z",
+        "end_date": "2026-01-30T05:00:00Z",
+        "price_range": {
+          "min": 0.485,
+          "max": 0.985
+        }
+      }
+    },
+    {
+      "signal_id": "M-1307303",
+      "timestamp_utc": "2026-01-31T18:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 25.5 in Game 2?",
+      "short_summary": "Total Kills Over/Under 25.5 in Game 2? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 1755218.210507,
+        "start_date": "2026-01-26T03:05:17.295809Z",
+        "end_date": "2026-01-31T18:15:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1344159",
+      "timestamp_utc": "2026-02-07T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Kawhi Leonard: Points O/U 28.5",
+      "short_summary": "Kawhi Leonard: Points O/U 28.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 5957187.917755,
+        "start_date": "2026-01-31T15:05:35.962079Z",
+        "end_date": "2026-02-07T03:00:00Z",
+        "price_range": {
+          "min": 0.4,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1257087",
+      "timestamp_utc": "2026-01-25T09:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 25, 4:00AM-4:15AM ET",
+      "short_summary": "Bitcoin Up or Down - January 25, 4:00AM-4:15AM ET [Resolved: UNCLEAR, Final: 0.85]",
+      "market_metadata": {
+        "volume": 182452.3941,
+        "start_date": "2026-01-24T09:09:11.583963Z",
+        "end_date": "2026-01-25T09:15:00Z",
+        "price_range": {
+          "min": 0.495,
+          "max": 0.855
+        }
+      }
+    },
+    {
+      "signal_id": "M-1333599",
+      "timestamp_utc": "2026-02-04T20:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 55.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 55.5 in Game 1? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 165791.221084,
+        "start_date": "2026-02-03T19:03:24.042533Z",
+        "end_date": "2026-02-04T20:15:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "signal_id": "M-1332532",
+      "timestamp_utc": "2026-02-05T11:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - February 5, 6:00AM-6:15AM ET",
+      "short_summary": "Bitcoin Up or Down - February 5, 6:00AM-6:15AM ET [Resolved: UNCLEAR, Final: 0.81]",
+      "market_metadata": {
+        "volume": 418865.708167,
+        "start_date": "2026-02-04T11:09:20.75742Z",
+        "end_date": "2026-02-05T11:15:00Z",
+        "price_range": {
+          "min": 0.495,
+          "max": 0.815
+        }
+      }
+    },
+    {
+      "signal_id": "M-1260468",
+      "timestamp_utc": "2026-01-25T20:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 25, 3:00PM-3:15PM ET",
+      "short_summary": "Bitcoin Up or Down - January 25, 3:00PM-3:15PM ET [Resolved: YES, Final: 0.94]",
+      "market_metadata": {
+        "volume": 170283.832871,
+        "start_date": "2026-01-24T20:11:08.084627Z",
+        "end_date": "2026-01-25T20:15:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.935
+        }
+      }
+    },
+    {
+      "signal_id": "M-1301668",
+      "timestamp_utc": "2026-02-06T21:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will Amazon (AMZN) close at $230-$235 on the final day of trading of the week of Feb 2 \u2013 Feb 6?",
+      "short_summary": "Will Amazon (AMZN) close at $230-$235 on the final day of trading of the week of Feb 2 \u2013 Feb 6? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 152102.14513,
+        "start_date": "2026-01-30T23:27:49.820526Z",
+        "end_date": "2026-02-06T21:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "signal_id": "M-1248584",
+      "timestamp_utc": "2026-01-24T12:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 24, 6:45AM-7:00AM ET",
+      "short_summary": "Bitcoin Up or Down - January 24, 6:45AM-7:00AM ET [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 109805.116001,
+        "start_date": "2026-01-23T11:55:24.730997Z",
+        "end_date": "2026-01-24T12:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.515
+        }
+      }
+    },
+    {
+      "signal_id": "M-1298929",
+      "timestamp_utc": "2026-02-04T17:15:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Game Handicap: AL (-1.5) vs Weibo Gaming (+1.5)",
+      "short_summary": "Game Handicap: AL (-1.5) vs Weibo Gaming (+1.5) [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2568314.245846,
+        "start_date": "2026-01-30T14:33:53.821141Z",
+        "end_date": "2026-02-04T17:15:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.595
+        }
+      }
+    },
+    {
+      "signal_id": "M-1332431",
+      "timestamp_utc": "2026-02-04T16:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 35.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 35.5 in Game 1? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 204518.594926,
+        "start_date": "2026-02-03T19:03:24.031771Z",
+        "end_date": "2026-02-04T16:00:00Z",
+        "price_range": {
+          "min": 0.9945,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1235446",
+      "timestamp_utc": "2026-01-31T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the next government funding bill be passed on January 29, 2026?",
+      "short_summary": "Will the next government funding bill be passed on January 29, 2026? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 626928.704105,
+        "start_date": "2026-01-21T23:27:03.047819Z",
+        "end_date": "2026-01-31T00:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.505
+        }
+      }
+    },
+    {
+      "signal_id": "M-1300884",
+      "timestamp_utc": "2026-01-31T19:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Counter-Strike: Natus Vincere vs PARIVISION - Map 1 Winner",
+      "short_summary": "Counter-Strike: Natus Vincere vs PARIVISION - Map 1 Winner [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 2134321.627991,
+        "start_date": "2026-01-30T21:06:07.889296Z",
+        "end_date": "2026-01-31T19:00:00Z",
+        "price_range": {
+          "min": 0.44,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1279555",
+      "timestamp_utc": "2026-01-28T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Spread: Arkansas Razorbacks (-2.5)",
+      "short_summary": "Spread: Arkansas Razorbacks (-2.5) [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 157744.77971,
+        "start_date": "2026-01-21T15:03:09.757309Z",
+        "end_date": "2026-01-28T00:00:00Z",
+        "price_range": {
+          "min": 0.39,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1322642",
+      "timestamp_utc": "2026-02-03T15:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Counter-Strike: EYEBALLERS vs 1WIN - Map 2 Winner",
+      "short_summary": "Counter-Strike: EYEBALLERS vs 1WIN - Map 2 Winner [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 156352.348728,
+        "start_date": "2026-02-02T23:05:24.531354Z",
+        "end_date": "2026-02-03T15:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.545
+        }
+      }
+    },
+    {
+      "signal_id": "M-1285821",
+      "timestamp_utc": "2026-02-04T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the price of Bitcoin be above $86,000 on February 4?",
+      "short_summary": "Will the price of Bitcoin be above $86,000 on February 4? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 7543466.222611,
+        "start_date": "2026-01-29T01:07:21.622168Z",
+        "end_date": "2026-02-04T17:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.97
+        }
+      }
+    },
+    {
+      "signal_id": "M-1337254",
+      "timestamp_utc": "2026-02-06T00:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "CJ McCollum: Assists O/U 3.5",
+      "short_summary": "CJ McCollum: Assists O/U 3.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 2713295.302838,
+        "start_date": "2026-01-30T15:05:47.712836Z",
+        "end_date": "2026-02-06T00:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.58
+        }
+      }
+    },
+    {
+      "signal_id": "M-1328374",
+      "timestamp_utc": "2026-02-04T01:35:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 41.5 in Game 1?",
+      "short_summary": "Total Kills Over/Under 41.5 in Game 1? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 113186.735265,
+        "start_date": "2026-01-27T13:33:32.78204Z",
+        "end_date": "2026-02-04T01:35:00Z",
+        "price_range": {
+          "min": 0.495,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1306273",
+      "timestamp_utc": "2026-01-31T14:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 39.5 in Game 3?",
+      "short_summary": "Total Kills Over/Under 39.5 in Game 3? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 3441481.481606,
+        "start_date": "2026-01-25T10:07:36.344887Z",
+        "end_date": "2026-01-31T14:00:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1239592",
+      "timestamp_utc": "2026-02-06T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Mensik vs. Quinn: Set 1 Games O/U 9.5",
+      "short_summary": "Mensik vs. Quinn: Set 1 Games O/U 9.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 463059.026501,
+        "start_date": "2026-01-22T05:03:09.123772Z",
+        "end_date": "2026-02-06T00:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.53
+        }
+      }
+    },
+    {
+      "signal_id": "M-1287305",
+      "timestamp_utc": "2026-01-29T21:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 29, 4:15PM-4:30PM ET",
+      "short_summary": "Bitcoin Up or Down - January 29, 4:15PM-4:30PM ET [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 262517.405547,
+        "start_date": "2026-01-28T21:49:06.72601Z",
+        "end_date": "2026-01-29T21:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.505
+        }
+      }
+    },
+    {
+      "signal_id": "M-1311765",
+      "timestamp_utc": "2026-02-02T05:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - February 2, 12:15AM-12:30AM ET",
+      "short_summary": "Bitcoin Up or Down - February 2, 12:15AM-12:30AM ET [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 200772.071821,
+        "start_date": "2026-02-01T05:23:44.416322Z",
+        "end_date": "2026-02-02T05:30:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.545
+        }
+      }
+    },
+    {
+      "signal_id": "M-1289669",
+      "timestamp_utc": "2026-01-29T22:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Total Kills Over/Under 41.5 in Game 2?",
+      "short_summary": "Total Kills Over/Under 41.5 in Game 2? [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 131178.216085,
+        "start_date": "2026-01-29T00:41:25.387837Z",
+        "end_date": "2026-01-29T22:00:00Z",
+        "price_range": {
+          "min": 0.5,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1331333",
+      "timestamp_utc": "2026-02-05T00:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Jamal Murray: Rebounds O/U 3.5",
+      "short_summary": "Jamal Murray: Rebounds O/U 3.5 [Resolved: YES, Final: 1.00]",
+      "market_metadata": {
+        "volume": 6143021.596682,
+        "start_date": "2026-01-29T15:05:10.992814Z",
+        "end_date": "2026-02-05T00:00:00Z",
+        "price_range": {
+          "min": 0.25,
+          "max": 0.9995
+        }
+      }
+    },
+    {
+      "signal_id": "M-1306768",
+      "timestamp_utc": "2026-02-01T11:30:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - February 1, 6:15AM-6:30AM ET",
+      "short_summary": "Bitcoin Up or Down - February 1, 6:15AM-6:30AM ET [Resolved: NO, Final: 0.01]",
+      "market_metadata": {
+        "volume": 196741.565202,
+        "start_date": "2026-01-31T11:24:00.179583Z",
+        "end_date": "2026-02-01T11:30:00Z",
+        "price_range": {
+          "min": 0.005,
+          "max": 0.525
+        }
+      }
+    },
+    {
+      "signal_id": "M-1259162",
+      "timestamp_utc": "2026-01-31T17:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Will the price of Ethereum be above $3,300 on January 31?",
+      "short_summary": "Will the price of Ethereum be above $3,300 on January 31? [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 1865378.620423,
+        "start_date": "2026-01-24T17:13:19.25437Z",
+        "end_date": "2026-01-31T17:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.5
+        }
+      }
+    },
+    {
+      "signal_id": "M-1338090",
+      "timestamp_utc": "2026-02-06T03:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Draymond Green: Assists O/U 4.5",
+      "short_summary": "Draymond Green: Assists O/U 4.5 [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 5682464.896953,
+        "start_date": "2026-01-30T15:05:39.455876Z",
+        "end_date": "2026-02-06T03:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.575
+        }
+      }
+    },
+    {
+      "signal_id": "M-1257769",
+      "timestamp_utc": "2026-01-26T13:00:00Z",
+      "source_type": "polymarket_historical",
+      "headline_text": "Bitcoin Up or Down - January 26, 7AM ET",
+      "short_summary": "Bitcoin Up or Down - January 26, 7AM ET [Resolved: NO, Final: 0.00]",
+      "market_metadata": {
+        "volume": 208260.301015,
+        "start_date": "2026-01-24T12:01:30.612379Z",
+        "end_date": "2026-01-26T13:00:00Z",
+        "price_range": {
+          "min": 0.0005,
+          "max": 0.645
+        }
+      }
+    }
+  ]
+}

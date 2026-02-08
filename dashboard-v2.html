@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Trading Dashboard v2 - Real-Time</title>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- Socket.IO Client -->
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bg-primary: #0a0e27;
+            --bg-secondary: #131929;
+            --bg-tertiary: #1a1f3a;
+            --bg-card: #1e2640;
+            --text-primary: #e8eaf6;
+            --text-secondary: #9ca3af;
+            --border-color: #2d3548;
+            --accent-blue: #3b82f6;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-yellow: #f59e0b;
+            --buy-color: #10b981;
+            --sell-color: #ef4444;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+            background: linear-gradient(135deg, var(--bg-primary) 0%, #0f1729 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            box-shadow: var(--shadow);
+        }
+        
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .header-title h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            font-size: 0.875rem;
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        .status-dot.healthy {
+            background: var(--accent-green);
+            box-shadow: 0 0 10px var(--accent-green);
+        }
+        
+        .status-dot.warning {
+            background: var(--accent-yellow);
+            box-shadow: 0 0 10px var(--accent-yellow);
+        }
+        
+        .status-dot.error {
+            background: var(--accent-red);
+            box-shadow: 0 0 10px var(--accent-red);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #2563eb;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--bg-card);
+        }
+        
+        .btn-secondary.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+        
+        /* Main Container */
+        .container {
+            max-width: 1920px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        }
+        
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent-blue);
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .card-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        /* Portfolio Summary */
+        .portfolio-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1rem;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+        }
+        
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        
+        .stat-value.positive {
+            color: var(--accent-green);
+        }
+        
+        .stat-value.negative {
+            color: var(--accent-red);
+        }
+        
+        /* Signals */
+        .signal-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            margin-bottom: 0.75rem;
+            border-left: 3px solid transparent;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .signal-item:hover {
+            background: var(--bg-secondary);
+            transform: translateX(4px);
+        }
+        
+        .signal-item.buy {
+            border-left-color: var(--buy-color);
+        }
+        
+        .signal-item.sell {
+            border-left-color: var(--sell-color);
+        }
+        
+        .signal-type {
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        
+        .signal-type.buy {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--buy-color);
+        }
+        
+        .signal-type.sell {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--sell-color);
+        }
+        
+        .signal-info {
+            flex: 1;
+            margin: 0 1rem;
+        }
+        
+        .signal-market {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        
+        .signal-reason {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .signal-confidence {
+            text-align: right;
+        }
+        
+        .confidence-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-green);
+        }
+        
+        /* Markets */
+        .search-filter {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .search-input {
+            flex: 1;
+            min-width: 200px;
+            padding: 0.75rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+        
+        .filter-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .market-item {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .market-item:hover {
+            background: var(--bg-secondary);
+            transform: scale(1.01);
+        }
+        
+        .market-title {
+            font-weight: 500;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .market-category {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+        
+        .market-price {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+        
+        .market-volume {
+            color: var(--text-secondary);
+        }
+        
+        .hype-score {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        
+        .hype-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--bg-primary);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+        
+        .hype-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-yellow), var(--accent-green));
+            transition: width 0.5s;
+        }
+        
+        /* Trades Log */
+        .trade-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+        
+        .trade-side {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+        }
+        
+        .trade-side.buy {
+            color: var(--buy-color);
+        }
+        
+        .trade-side.sell {
+            color: var(--sell-color);
+        }
+        
+        .trade-pnl {
+            font-weight: 700;
+        }
+        
+        .trade-pnl.positive {
+            color: var(--accent-green);
+        }
+        
+        .trade-pnl.negative {
+            color: var(--accent-red);
+        }
+        
+        /* System Health */
+        .health-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .health-status {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .health-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+        }
+        
+        .health-dot.healthy {
+            background: var(--accent-green);
+        }
+        
+        .health-dot.warning {
+            background: var(--accent-yellow);
+        }
+        
+        .health-dot.error {
+            background: var(--accent-red);
+        }
+        
+        /* Charts */
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin-top: 1rem;
+        }
+        
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+        }
+        
+        .spinner {
+            border: 3px solid var(--bg-tertiary);
+            border-top: 3px solid var(--accent-blue);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                padding: 1rem;
+            }
+            
+            .header-title h1 {
+                font-size: 1.25rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+            
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            
+            .market-item {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+            
+            .portfolio-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        /* View Toggle */
+        .view-content {
+            display: none;
+        }
+        
+        .view-content.active {
+            display: block;
+        }
+        
+        /* New Signal Animation */
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        .signal-item.new {
+            animation: slideIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-title">
+            <h1>⚡ Polymarket Dashboard v2</h1>
+            <div class="status-indicator">
+                <div class="status-dot healthy" id="systemStatusDot"></div>
+                <span id="systemStatusText">System Healthy</span>
+            </div>
+            <div class="status-indicator">
+                <div class="status-dot healthy" id="wsStatusDot"></div>
+                <span id="wsStatusText">Connected</span>
+            </div>
+        </div>
+        <div class="header-actions">
+            <button class="btn btn-secondary active" onclick="switchView('overview')">Overview</button>
+            <button class="btn btn-secondary" onclick="switchView('portfolio')">Portfolio</button>
+            <button class="btn btn-secondary" onclick="switchView('performance')">Performance</button>
+            <button class="btn btn-primary" onclick="refreshData()">🔄 Refresh</button>
+        </div>
+    </div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Overview View -->
+        <div id="overviewView" class="view-content active">
+            <!-- Top Stats Row -->
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">💰 Portfolio Value</h3>
+                    </div>
+                    <div class="stat-value" id="totalValue">$10,000.00</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="stat-label">Total P&L: </span>
+                        <span class="stat-value positive" id="totalPnL">+$234.56</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">📊 Active Positions</h3>
+                    </div>
+                    <div class="stat-value" id="activePositions">0</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="stat-label">Total Size: </span>
+                        <span class="stat-value" id="positionsValue">$0.00</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">🎯 Active Signals</h3>
+                    </div>
+                    <div class="stat-value" id="activeSignals">0</div>
+                    <div style="margin-top: 0.5rem;">
+                        <span class="stat-label">Avg Confidence: </span>
+                        <span class="stat-value" id="avgConfidence">0%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Signals and Markets Row -->
+            <div class="grid grid-2">
+                <!-- Active Signals -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">🔔 Active Signals</h3>
+                        <span class="card-badge" style="background: var(--accent-blue); color: white;">Live</span>
+                    </div>
+                    <div id="signalsList">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            Loading signals...
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Market Watchlist -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">📈 Market Watchlist</h3>
+                    </div>
+                    <div class="search-filter">
+                        <input type="text" class="search-input" id="marketSearch" placeholder="🔍 Search markets..." oninput="filterMarkets()">
+                    </div>
+                    <div class="filter-buttons" id="categoryFilters"></div>
+                    <div id="marketsList" style="max-height: 400px; overflow-y: auto;">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            Loading markets...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Trades and System Health Row -->
+            <div class="grid grid-2">
+                <!-- Recent Trades -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">📝 Recent Trades</h3>
+                    </div>
+                    <div id="tradesList" style="max-height: 300px; overflow-y: auto;">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            Loading trades...
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- System Health -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">🏥 System Health</h3>
+                    </div>
+                    <div id="systemHealth">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            Loading system status...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio View -->
+        <div id="portfolioView" class="view-content">
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">💼 Portfolio Summary</h3>
+                    </div>
+                    <div class="portfolio-stats">
+                        <div class="stat-item">
+                            <div class="stat-label">Total Value</div>
+                            <div class="stat-value" id="pfTotalValue">$0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Cash</div>
+                            <div class="stat-value" id="pfCash">$0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Positions</div>
+                            <div class="stat-value" id="pfPositionsValue">$0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Total P&L</div>
+                            <div class="stat-value positive" id="pfTotalPnL">$0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">📊 Open Positions</h3>
+                </div>
+                <div id="positionsList"></div>
+            </div>
+        </div>
+        
+        <!-- Performance View -->
+        <div id="performanceView" class="view-content">
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">📊 Performance Stats</h3>
+                    </div>
+                    <div class="portfolio-stats">
+                        <div class="stat-item">
+                            <div class="stat-label">Total Trades</div>
+                            <div class="stat-value" id="statTotalTrades">0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Win Rate</div>
+                            <div class="stat-value positive" id="statWinRate">0%</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Avg Win</div>
+                            <div class="stat-value positive" id="statAvgWin">$0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Avg Loss</div>
+                            <div class="stat-value negative" id="statAvgLoss">$0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">📈 Equity Curve</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="equityChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">🥧 Win/Loss Distribution</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="winLossChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">📊 Hype vs Price Correlation</h3>
+                </div>
+                <div class="chart-container">
+                    <canvas id="correlationChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Configuration
+        const API_BASE = 'http://localhost:5000';
+        let socket;
+        let charts = {};
+        let currentView = 'overview';
+        let currentCategory = 'all';
+        let marketsData = [];
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('🚀 Dashboard initializing...');
+            connectWebSocket();
+            loadInitialData();
+        });
+        
+        // WebSocket Connection
+        function connectWebSocket() {
+            socket = io(API_BASE);
+            
+            socket.on('connect', () => {
+                console.log('✅ WebSocket connected');
+                updateWSStatus('connected');
+            });
+            
+            socket.on('disconnect', () => {
+                console.log('❌ WebSocket disconnected');
+                updateWSStatus('disconnected');
+            });
+            
+            socket.on('connection_status', (data) => {
+                console.log('Connection status:', data);
+            });
+            
+            socket.on('market_update', (data) => {
+                console.log('📊 Market update received');
+                updateMarkets(data.markets);
+            });
+            
+            socket.on('portfolio_update', (data) => {
+                console.log('💼 Portfolio update received');
+                updatePortfolio(data.portfolio);
+            });
+            
+            socket.on('new_signal', (signal) => {
+                console.log('🔔 New signal:', signal);
+                addSignal(signal);
+            });
+            
+            socket.on('system_status', (data) => {
+                console.log('🏥 System status update');
+                updateSystemStatus(data.status);
+            });
+        }
+        
+        function updateWSStatus(status) {
+            const dot = document.getElementById('wsStatusDot');
+            const text = document.getElementById('wsStatusText');
+            
+            if (status === 'connected') {
+                dot.className = 'status-dot healthy';
+                text.textContent = 'Connected';
+            } else {
+                dot.className = 'status-dot error';
+                text.textContent = 'Disconnected';
+            }
+        }
+        
+        // Load Initial Data
+        async function loadInitialData() {
+            try {
+                await Promise.all([
+                    loadMarkets(),
+                    loadSignals(),
+                    loadPortfolio(),
+                    loadPerformance(),
+                    loadSystemStatus()
+                ]);
+                console.log('✅ All data loaded');
+            } catch (error) {
+                console.error('❌ Error loading data:', error);
+            }
+        }
+        
+        async function loadMarkets() {
+            try {
+                const response = await fetch(`${API_BASE}/api/markets`);
+                const data = await response.json();
+                marketsData = data.markets;
+                renderMarkets(marketsData);
+                renderCategoryFilters();
+            } catch (error) {
+                console.error('Error loading markets:', error);
+            }
+        }
+        
+        async function loadSignals() {
+            try {
+                const response = await fetch(`${API_BASE}/api/signals`);
+                const data = await response.json();
+                renderSignals(data.signals);
+                
+                // Update stats
+                document.getElementById('activeSignals').textContent = data.signals.length;
+                const avgConf = data.signals.reduce((sum, s) => sum + s.confidence, 0) / data.signals.length;
+                document.getElementById('avgConfidence').textContent = (avgConf * 100).toFixed(0) + '%';
+            } catch (error) {
+                console.error('Error loading signals:', error);
+            }
+        }
+        
+        async function loadPortfolio() {
+            try {
+                const response = await fetch(`${API_BASE}/api/portfolio`);
+                const data = await response.json();
+                updatePortfolio(data.portfolio);
+            } catch (error) {
+                console.error('Error loading portfolio:', error);
+            }
+        }
+        
+        async function loadPerformance() {
+            try {
+                const response = await fetch(`${API_BASE}/api/performance`);
+                const data = await response.json();
+                renderPerformance(data.performance);
+            } catch (error) {
+                console.error('Error loading performance:', error);
+            }
+        }
+        
+        async function loadSystemStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/api/status`);
+                const data = await response.json();
+                updateSystemStatus(data.system);
+            } catch (error) {
+                console.error('Error loading system status:', error);
+            }
+        }
+        
+        // Render Functions
+        function renderSignals(signals) {
+            const container = document.getElementById('signalsList');
+            
+            if (signals.length === 0) {
+                container.innerHTML = '<div class="loading">No active signals</div>';
+                return;
+            }
+            
+            container.innerHTML = signals.map(signal => `
+                <div class="signal-item ${signal.signal_type.toLowerCase()}">
+                    <span class="signal-type ${signal.signal_type.toLowerCase()}">${signal.signal_type}</span>
+                    <div class="signal-info">
+                        <div class="signal-market">${signal.market_title.substring(0, 50)}...</div>
+                        <div class="signal-reason">${signal.reason}</div>
+                        <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">
+                            Price: ${signal.price} • Size: ${signal.size}
+                        </div>
+                    </div>
+                    <div class="signal-confidence">
+                        <div class="confidence-value">${(signal.confidence * 100).toFixed(0)}%</div>
+                        <div style="font-size: 0.75rem; color: var(--text-secondary);">confidence</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function addSignal(signal) {
+            const container = document.getElementById('signalsList');
+            const signalHtml = `
+                <div class="signal-item new ${signal.signal_type.toLowerCase()}">
+                    <span class="signal-type ${signal.signal_type.toLowerCase()}">${signal.signal_type}</span>
+                    <div class="signal-info">
+                        <div class="signal-market">${signal.market_title.substring(0, 50)}...</div>
+                        <div class="signal-reason">${signal.reason}</div>
+                        <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">
+                            Price: ${signal.price} • Size: ${signal.size}
+                        </div>
+                    </div>
+                    <div class="signal-confidence">
+                        <div class="confidence-value">${(signal.confidence * 100).toFixed(0)}%</div>
+                        <div style="font-size: 0.75rem; color: var(--text-secondary);">confidence</div>
+                    </div>
+                </div>
+            `;
+            
+            container.insertAdjacentHTML('afterbegin', signalHtml);
+            
+            // Update count
+            const count = container.querySelectorAll('.signal-item').length;
+            document.getElementById('activeSignals').textContent = count;
+        }
+        
+        function renderMarkets(markets) {
+            const container = document.getElementById('marketsList');
+            
+            if (markets.length === 0) {
+                container.innerHTML = '<div class="loading">No markets found</div>';
+                return;
+            }
+            
+            container.innerHTML = markets.slice(0, 10).map(market => `
+                <div class="market-item" onclick="viewMarketDetail('${market.id}')">
+                    <div class="market-title">
+                        <span>${market.title.substring(0, 50)}...</span>
+                        <span class="market-category">${market.category}</span>
+                    </div>
+                    <div>
+                        <div class="market-price">${market.current_price.toFixed(3)}</div>
+                        <div style="font-size: 0.75rem; color: var(--text-secondary);">Price</div>
+                    </div>
+                    <div>
+                        <div class="market-volume">${formatNumber(market.volume_24h)}</div>
+                        <div style="font-size: 0.75rem; color: var(--text-secondary);">24h Volume</div>
+                    </div>
+                    <div class="hype-score">
+                        <span style="font-size: 0.875rem;">${(market.hype_score * 100).toFixed(0)}% Hype</span>
+                        <div class="hype-bar">
+                            <div class="hype-fill" style="width: ${market.hype_score * 100}%"></div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function updateMarkets(markets) {
+            // Update existing markets data
+            markets.forEach(updatedMarket => {
+                const index = marketsData.findIndex(m => m.id === updatedMarket.id);
+                if (index !== -1) {
+                    marketsData[index] = updatedMarket;
+                }
+            });
+            
+            // Re-render if on overview
+            if (currentView === 'overview') {
+                filterMarkets();
+            }
+        }
+        
+        function renderCategoryFilters() {
+            const categories = ['all', ...new Set(marketsData.map(m => m.category))];
+            const container = document.getElementById('categoryFilters');
+            
+            container.innerHTML = categories.map(cat => `
+                <button class="btn btn-secondary ${cat === 'all' ? 'active' : ''}" 
+                        onclick="filterByCategory('${cat}')">${cat}</button>
+            `).join('');
+        }
+        
+        function updatePortfolio(portfolio) {
+            // Update top stats
+            document.getElementById('totalValue').textContent = '$' + formatNumber(portfolio.total_value);
+            const pnlElement = document.getElementById('totalPnL');
+            pnlElement.textContent = (portfolio.total_pnl >= 0 ? '+$' : '-$') + Math.abs(portfolio.total_pnl).toFixed(2);
+            pnlElement.className = 'stat-value ' + (portfolio.total_pnl >= 0 ? 'positive' : 'negative');
+            
+            document.getElementById('activePositions').textContent = portfolio.positions.length;
+            document.getElementById('positionsValue').textContent = '$' + formatNumber(portfolio.positions_value);
+            
+            // Update portfolio view
+            document.getElementById('pfTotalValue').textContent = '$' + formatNumber(portfolio.total_value);
+            document.getElementById('pfCash').textContent = '$' + formatNumber(portfolio.cash);
+            document.getElementById('pfPositionsValue').textContent = '$' + formatNumber(portfolio.positions_value);
+            
+            const pfPnlElement = document.getElementById('pfTotalPnL');
+            pfPnlElement.textContent = (portfolio.total_pnl >= 0 ? '+$' : '-$') + Math.abs(portfolio.total_pnl).toFixed(2);
+            pfPnlElement.className = 'stat-value ' + (portfolio.total_pnl >= 0 ? 'positive' : 'negative');
+            
+            // Render positions
+            const positionsContainer = document.getElementById('positionsList');
+            if (portfolio.positions.length === 0) {
+                positionsContainer.innerHTML = '<div class="loading">No open positions</div>';
+            } else {
+                positionsContainer.innerHTML = portfolio.positions.map(pos => `
+                    <div class="market-item">
+                        <div class="market-title">
+                            <span>${pos.market_title.substring(0, 50)}...</span>
+                            <span class="market-category">${pos.side} • ${pos.quantity} shares</span>
+                        </div>
+                        <div>
+                            <div style="font-size: 1rem;">Entry: ${pos.entry_price.toFixed(3)}</div>
+                            <div style="font-size: 0.875rem; color: var(--text-secondary);">Current: ${pos.current_price.toFixed(3)}</div>
+                        </div>
+                        <div>
+                            <div class="trade-pnl ${pos.pnl >= 0 ? 'positive' : 'negative'}">
+                                ${pos.pnl >= 0 ? '+' : ''}$${pos.pnl.toFixed(2)}
+                            </div>
+                            <div style="font-size: 0.875rem; color: var(--text-secondary);">
+                                ${pos.pnl_percent >= 0 ? '+' : ''}${pos.pnl_percent.toFixed(1)}%
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+        }
+        
+        function renderPerformance(performance) {
+            // Update stats
+            document.getElementById('statTotalTrades').textContent = performance.stats.total_trades;
+            document.getElementById('statWinRate').textContent = performance.stats.win_rate + '%';
+            document.getElementById('statAvgWin').textContent = '$' + performance.stats.avg_win.toFixed(2);
+            document.getElementById('statAvgLoss').textContent = '$' + Math.abs(performance.stats.avg_loss).toFixed(2);
+            
+            // Render trades log
+            const tradesContainer = document.getElementById('tradesList');
+            if (performance.trades.length === 0) {
+                tradesContainer.innerHTML = '<div class="loading">No trades yet</div>';
+            } else {
+                tradesContainer.innerHTML = performance.trades.slice(0, 10).map(trade => `
+                    <div class="trade-item">
+                        <div>
+                            <span class="trade-side ${trade.side.toLowerCase()}">${trade.side}</span>
+                            <span style="margin-left: 0.5rem;">${trade.market_title}</span>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="trade-pnl ${trade.pnl >= 0 ? 'positive' : 'negative'}">
+                                ${trade.pnl >= 0 ? '+' : ''}$${trade.pnl.toFixed(2)}
+                            </div>
+                            <div style="font-size: 0.75rem; color: var(--text-secondary);">
+                                ${new Date(trade.timestamp).toLocaleString()}
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            // Render charts
+            renderEquityChart(performance.equity_curve);
+            renderWinLossChart(performance.stats);
+            renderCorrelationChart();
+        }
+        
+        function renderEquityChart(equityCurve) {
+            const ctx = document.getElementById('equityChart');
+            if (charts.equity) charts.equity.destroy();
+            
+            charts.equity = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: equityCurve.map(e => e.date),
+                    datasets: [{
+                        label: 'Equity',
+                        data: equityCurve.map(e => e.equity),
+                        borderColor: '#3b82f6',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            grid: { color: '#2d3548' },
+                            ticks: { color: '#9ca3af' }
+                        },
+                        x: {
+                            grid: { color: '#2d3548' },
+                            ticks: { color: '#9ca3af', maxRotation: 45 }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function renderWinLossChart(stats) {
+            const ctx = document.getElementById('winLossChart');
+            if (charts.winLoss) charts.winLoss.destroy();
+            
+            charts.winLoss = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Winning Trades', 'Losing Trades'],
+                    datasets: [{
+                        data: [stats.winning_trades, stats.losing_trades],
+                        backgroundColor: ['#10b981', '#ef4444']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            labels: { color: '#e8eaf6' }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function renderCorrelationChart() {
+            const ctx = document.getElementById('correlationChart');
+            if (charts.correlation) charts.correlation.destroy();
+            
+            // Generate scatter data from markets
+            const scatterData = marketsData.map(m => ({
+                x: m.hype_score,
+                y: m.current_price
+            }));
+            
+            charts.correlation = new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Markets',
+                        data: scatterData,
+                        backgroundColor: 'rgba(59, 130, 246, 0.6)',
+                        borderColor: '#3b82f6',
+                        pointRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            title: { display: true, text: 'Price', color: '#9ca3af' },
+                            grid: { color: '#2d3548' },
+                            ticks: { color: '#9ca3af' }
+                        },
+                        x: {
+                            title: { display: true, text: 'Hype Score', color: '#9ca3af' },
+                            grid: { color: '#2d3548' },
+                            ticks: { color: '#9ca3af' }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function updateSystemStatus(status) {
+            const dot = document.getElementById('systemStatusDot');
+            const text = document.getElementById('systemStatusText');
+            
+            dot.className = `status-dot ${status.overall}`;
+            text.textContent = `System ${status.overall.charAt(0).toUpperCase() + status.overall.slice(1)}`;
+            
+            const container = document.getElementById('systemHealth');
+            container.innerHTML = Object.entries(status.components).map(([name, info]) => `
+                <div class="health-item">
+                    <div class="health-status">
+                        <div class="health-dot ${info.status}"></div>
+                        <span>${name.replace('_', ' ').toUpperCase()}</span>
+                    </div>
+                    <div style="font-size: 0.875rem; color: var(--text-secondary);">
+                        ${info.latency_ms ? info.latency_ms + 'ms' : ''}
+                        ${info.pending_orders !== undefined ? info.pending_orders + ' pending' : ''}
+                        ${info.connections !== undefined ? info.connections + ' connections' : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // View Switching
+        function switchView(view) {
+            currentView = view;
+            
+            // Hide all views
+            document.querySelectorAll('.view-content').forEach(v => v.classList.remove('active'));
+            
+            // Show selected view
+            document.getElementById(view + 'View').classList.add('active');
+            
+            // Update buttons
+            document.querySelectorAll('.header-actions .btn-secondary').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+        
+        // Filtering
+        function filterByCategory(category) {
+            currentCategory = category;
+            
+            // Update button states
+            document.querySelectorAll('#categoryFilters .btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            filterMarkets();
+        }
+        
+        function filterMarkets() {
+            const searchTerm = document.getElementById('marketSearch').value.toLowerCase();
+            
+            let filtered = marketsData;
+            
+            if (currentCategory !== 'all') {
+                filtered = filtered.filter(m => m.category === currentCategory);
+            }
+            
+            if (searchTerm) {
+                filtered = filtered.filter(m => m.title.toLowerCase().includes(searchTerm));
+            }
+            
+            renderMarkets(filtered);
+        }
+        
+        // Market Detail
+        function viewMarketDetail(marketId) {
+            const market = marketsData.find(m => m.id === marketId);
+            if (market) {
+                alert(`Market: ${market.title}\nPrice: ${market.current_price}\nHype Score: ${market.hype_score}\n\n(Full detail view would open here)`);
+            }
+        }
+        
+        // Refresh
+        function refreshData() {
+            console.log('🔄 Refreshing data...');
+            loadInitialData();
+        }
+        
+        // Utility Functions
+        function formatNumber(num) {
+            if (num >= 1000000) {
+                return (num / 1000000).toFixed(1) + 'M';
+            } else if (num >= 1000) {
+                return (num / 1000).toFixed(1) + 'K';
+            }
+            return num.toFixed(2);
+        }
+    </script>
+</body>
+</html>

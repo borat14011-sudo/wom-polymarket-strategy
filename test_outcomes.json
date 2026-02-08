@@ -1,0 +1,2516 @@
+{
+  "metadata": {
+    "scrapedAt": "2026-02-07T20:58:22.916Z",
+    "totalMarkets": 100,
+    "withResolution": 55,
+    "withoutResolution": 45,
+    "coveragePercent": "55.00",
+    "timeElapsedSeconds": 0.9
+  },
+  "markets": [
+    {
+      "marketId": "12",
+      "conditionId": "0xe3b423dfad8c22ff75c9899c4e8176f628cf4ad4caa00481764d320e7415f7a9",
+      "question": "Will Joe Biden get Coronavirus before the election?",
+      "slug": "will-joe-biden-get-coronavirus-before-the-election",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 32257.445115,
+      "closed": true,
+      "closedTime": "2020-11-02 16:31:01+00",
+      "endDate": "2020-11-04T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "17",
+      "conditionId": "0x44f10d1cd5aaed4b7ae0b5edb76790f54f45dc0bcaa86831c83d865c774fbb90",
+      "question": "Will Airbnb begin publicly trading before Jan 1, 2021?",
+      "slug": "will-airbnb-begin-publicly-trading-before-jan-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Tech",
+      "volume": 89665.252158,
+      "closed": true,
+      "closedTime": "2020-12-11 20:53:24+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "18",
+      "conditionId": "0x3e0524de013d9dc359f5eb370773f25de2f03d3200294cfd0fa7dac2f399d101",
+      "question": "Will a new Supreme Court Justice be confirmed before Nov 3rd, 2020?",
+      "slug": "will-a-new-supreme-court-justice-be-confirmed-before-nov-3rd-2020",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 43279.456005,
+      "closed": true,
+      "closedTime": "2020-10-27 00:40:55+00",
+      "endDate": "2020-11-04T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "19",
+      "conditionId": "0x9b946f54f3428aafc308c33aa04a943fe13a011bdac9a9b66e1ba16c416ca256",
+      "question": "Will Kim Kardashian and Kanye West divorce before Jan 1, 2021?",
+      "slug": "will-kim-kardashian-and-kanye-west-divorce-before-jan-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.0000010110820525225415,
+        0.9999989889179475
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999989889179475,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 22067.475119,
+      "closed": true,
+      "closedTime": "2021-01-02 21:35:34+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "20",
+      "conditionId": "0x5d1a1ab716fd06943441fe27cde0089651ce769bec55e191b6953468a0e9f0d0",
+      "question": "Will Coinbase begin publicly trading before Jan 1, 2021?",
+      "slug": "will-coinbase-begin-publicly-trading-before-jan-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.0000010245195095681696,
+        0.9999989754804904
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999989754804904,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 116803.377183,
+      "closed": true,
+      "closedTime": "2021-01-02 21:43:06+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "36",
+      "conditionId": "0xd903891c2b9046cae14615afc4c5245370143503f7b2dfc13919acee07a1696d",
+      "question": "What will the price of Bitcoin be on November 4th, 2020?",
+      "slug": "what-will-the-price-of-bitcoin-be-on-november-4th-2020",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "scalar",
+      "category": "Crypto",
+      "volume": 59755.804763,
+      "closed": true,
+      "closedTime": "2020-11-05 16:21:29+00",
+      "endDate": "2020-11-04T00:00:00Z",
+      "isScalar": true
+    },
+    {
+      "marketId": "40",
+      "conditionId": "0xf2e631ea675c5b09caea0bf65cf7887e25907af2657c8c907f02d9afbff20d05",
+      "question": "Will Trump win the 2020 U.S. presidential election?",
+      "slug": "will-trump-win-the-2020-us-presidential-election",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        4.3643034980462864e-8,
+        0.999999956356965
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.999999956356965,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 10802601.987023,
+      "closed": true,
+      "closedTime": "2020-11-09 17:55:41+00",
+      "endDate": "2020-11-20T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "42",
+      "conditionId": "0xfa8cc293e14872fca0c7e8b240360683e392e1d7a4b5ac7616b1f7e50c454ad2",
+      "question": "Will there be an Emergency Use Authorization (EUA) granted for a COVID-19 vaccine prior to Nov 3 2020?",
+      "slug": "will-there-be-an-emergency-use-authorization-granted-for-a-covid-19-vaccine-prior-to-nov-3",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Coronavirus",
+      "volume": 21881.05833,
+      "closed": true,
+      "closedTime": "2020-11-02 16:33:23+00",
+      "endDate": "2020-11-04T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "43",
+      "conditionId": "0x7333b6e016f7f60d86f15f11ed0b41b69deec0b6d73b86933639b1f39a545d87",
+      "question": "What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?",
+      "slug": "what-will-the-total-value-locked-tvl-in-defi-be-at-the-end-of-2020-according-to-defipulse",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0.5843311669077693,
+        0.4156688330922307
+      ],
+      "winner": null,
+      "winnerIndex": 0,
+      "winnerProbability": 0.5843311669077693,
+      "hasResolutionData": true,
+      "marketType": "scalar",
+      "category": "Crypto",
+      "volume": 46944.579746,
+      "closed": true,
+      "closedTime": "2021-01-02 21:45:52+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": true
+    },
+    {
+      "marketId": "44",
+      "conditionId": "0xb2eecb8d14e871c5b82a3b037fc5f8b703c218e41aa578c8e870244585b9db78",
+      "question": "What will the USD price of Filecoin ($FIL) be on November 17th, 2020?",
+      "slug": "what-will-the-usd-price-of-filecoin-fil-be-on-november-17th-2020",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0.4988929462743077,
+        0.5011070537256923
+      ],
+      "winner": null,
+      "winnerIndex": 1,
+      "winnerProbability": 0.5011070537256923,
+      "hasResolutionData": true,
+      "marketType": "scalar",
+      "category": "Crypto",
+      "volume": 69947.098531,
+      "closed": true,
+      "closedTime": "2020-11-18 22:31:12+00",
+      "endDate": "2020-11-17T00:00:00Z",
+      "isScalar": true
+    },
+    {
+      "marketId": "46",
+      "conditionId": "0x3afe074f2b831c7a4b6817a2a0121e143db78b59f18c1e5ae5957ba53899c1aa",
+      "question": "Will Drake release a new studio album before the end of 2020?",
+      "slug": "will-drake-release-a-new-studio-album-before-the-end-of-2020",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 31841.386373,
+      "closed": true,
+      "closedTime": "2021-01-02 21:14:20+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "47",
+      "conditionId": "0xc64973cf7a20b3b114af9d918960f47cd1a70f2119819f7a434dfedc977560f0",
+      "question": "Which party will win Florida in the 2020 presidential election?",
+      "slug": "which-party-will-win-florida-in-the-2020-presidential-election",
+      "outcomes": [
+        "Dems",
+        "Reps"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 243053.252109,
+      "closed": true,
+      "closedTime": "2020-11-04 15:24:41+00",
+      "endDate": "2020-11-20T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "48",
+      "conditionId": "0x15ab6203f3d170e3db1282986f2bf38f6d17e63ba4ae8393d05ba5902ebb42db",
+      "question": "How many confirmed Coronavirus cases will there be at EOY in the USA?",
+      "slug": "how-many-confirmed-coronavirus-cases-will-there-be-at-eoy-in-the-usa",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0.999968870970368,
+        0.000031129029632008394
+      ],
+      "winner": null,
+      "winnerIndex": 0,
+      "winnerProbability": 0.999968870970368,
+      "hasResolutionData": true,
+      "marketType": "scalar",
+      "category": "Coronavirus",
+      "volume": 72112.484035,
+      "closed": true,
+      "closedTime": "2020-12-08 19:43:08+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": true
+    },
+    {
+      "marketId": "56",
+      "conditionId": "0x49f8ecc29c12ec5ed2a5085bb152b052dc8d5611389f0f2ffe66390404a9b782",
+      "question": "Who will win the 2020 MLB World Series?",
+      "slug": "who-will-win-the-2020-mlb-world-series-1",
+      "outcomes": [
+        "Rays",
+        "Dodgers"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 107601.586423,
+      "closed": true,
+      "closedTime": "2020-10-28 15:34:57+00",
+      "endDate": "2020-10-29T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "57",
+      "conditionId": "0xde12c76b349c3b90ed4855ad22ee2e6f794b5c440de91388d86ace1dd0da358f",
+      "question": "Will Dharma’s Phase 1 Retroactive UNI Distribution proposal pass?",
+      "slug": "will-dharma-s-phase-1-retroactive-uni-distribution-proposal-pass",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 35661.941003,
+      "closed": true,
+      "closedTime": "2020-10-31 00:23:23+00",
+      "endDate": "2020-10-31T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "59",
+      "conditionId": "0x1eb44a4bc1927ce53afd89826def6b5752eaeb384726b4eb4ff31349b1e6523f",
+      "question": "Will there be a federal charge filed against Hunter Biden before 2021?",
+      "slug": "will-there-be-a-federal-charge-filed-against-hunter-biden-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        2.3657601363117614e-7,
+        0.9999997634239863
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999997634239863,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 127476.154269,
+      "closed": true,
+      "closedTime": "2021-01-02 21:32:30+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "63",
+      "conditionId": "0x7b02c10a310f38be83ae0dbbb5caa96722a69ae1488b1ac5c2003bccd70ac021",
+      "question": "Will BTC break $15k before 2021?",
+      "slug": "will-btc-break-15k-before-2021-1",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 224706.488667,
+      "closed": true,
+      "closedTime": "2020-11-05 16:16:17+00",
+      "endDate": "2021-01-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "64",
+      "conditionId": "0x128dd10748d92137d5057bed92b6c187c0a000a9a94f1a75d4a618b09eac629b",
+      "question": "Will Khabib win his UFC 254 Fight?",
+      "slug": "will-khabib-win-his-ufc-254-fight",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 17497.115264,
+      "closed": true,
+      "closedTime": "2020-10-25 20:25:48+00",
+      "endDate": "2020-10-25T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "65",
+      "conditionId": "0xdc9bc87850a00c051c902f6d10355ec6412a08a56aa2e81b59beb3e9b80a11b3",
+      "question": "Will 538 outperform The Economist in forecasting the 2020 Presidential Election?",
+      "slug": "will-538-outperform-the-economist-in-forecasting-the-2020-presidential-election",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 81312.461764,
+      "closed": true,
+      "closedTime": "2020-11-16 17:14:17+00",
+      "endDate": "2020-11-20T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "66",
+      "conditionId": "0x780c0f4d66006c95e346b3fdb296707b234aba1a00e7acba6323d1c2f856b6f9",
+      "question": "Who will win the 2020 League of Legends World Championship?",
+      "slug": "who-will-win-the-2020-league-of-legends-world-championship",
+      "outcomes": [
+        "Damwon",
+        "Suning"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 84205.451739,
+      "closed": true,
+      "closedTime": "2020-11-01 22:20:27+00",
+      "endDate": "2021-11-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "67",
+      "conditionId": "0x080a58fb24fbea95a744adb41c1eb2d321be81cd571d17185ecbe0eda19cf21a",
+      "question": "Which party will win Pennsylvania in the 2020 presidential election?",
+      "slug": "which-party-will-win-pennsylvania-in-the-2020-presidential-election",
+      "outcomes": [
+        "Democratic",
+        "Republican"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 1421876.344845,
+      "closed": true,
+      "closedTime": "2020-11-24 21:09:49+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "69",
+      "conditionId": "0x3a28635bce8cf50695662a828248ed73b01e6c55e9ce54a967451281669aeb78",
+      "question": "Which party will win Texas in the 2020 presidential election?",
+      "slug": "which-party-will-win-texas-in-the-2020-presidential-election",
+      "outcomes": [
+        "Democratic",
+        "Republican"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 194336.890284,
+      "closed": true,
+      "closedTime": "2020-11-04 17:26:11+00",
+      "endDate": "2020-11-20T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "70",
+      "conditionId": "0x8a5b6ae9b967ce2a154bfe07a9db6034bb3bc11f432a57c1ab8ae21c51ff1837",
+      "question": "Which party will win North Carolina in the 2020 presidential election?",
+      "slug": "which-party-will-win-north-carolina-in-the-2020-presidential-election",
+      "outcomes": [
+        "Democratic",
+        "Republican"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 244840.590497,
+      "closed": true,
+      "closedTime": "2020-11-24 21:07:21+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "71",
+      "conditionId": "0x10ee8590fc06e7ce83463337f6bd3b38cee702667bd291712fcda5081e5e2a8d",
+      "question": "Which party will win Georgia in the 2020 presidential election?",
+      "slug": "which-party-will-win-georgia-in-the-2020-presidential-election",
+      "outcomes": [
+        "Democratic",
+        "Republican"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 1253550.166932,
+      "closed": true,
+      "closedTime": "2020-11-20 18:54:48+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "72",
+      "conditionId": "0x1411e65d309cfa0a748328b159ae593a4cbddbb76aecbf0086d24eef06aa6843",
+      "question": "Which party will win Arizona in the 2020 Presidential Election?",
+      "slug": "which-party-will-win-arizona-in-the-2020-presidential-election",
+      "outcomes": [
+        "Democratic",
+        "Republican"
+      ],
+      "outcomePrices": [
+        0.9999928071628366,
+        0.000007192837163404889
+      ],
+      "winner": "Democratic",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999928071628366,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 1506034.746644,
+      "closed": true,
+      "closedTime": "2020-12-01 15:55:07+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "73",
+      "conditionId": "0x47f9555fa286a9cabb9de41d66ae5220a194a49dcc1084ded95af63c809f4c0b",
+      "question": "Will Donald Trump tweet announcing that he won the election before November 5th 2020?",
+      "slug": "will-donald-trump-tweet-announcing-that-he-won-the-election-before-november-5th-2020",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.0000019691261984867876,
+        0.9999980308738015
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999980308738015,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 127490.669491,
+      "closed": true,
+      "closedTime": "2020-11-05 16:12:41+00",
+      "endDate": "2020-11-05T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "74",
+      "conditionId": "0x9129b6cb16ec8f79fd92d0d3377c554bb17fd31589bfef607f5bba1de5218a28",
+      "question": "Will the Associated Press publish a tweet calling the 2020 US presidential election before November 6?",
+      "slug": "will-the-associated-press-publish-a-tweet-calling-the-2020-us-presidential-election-before-november-6",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 261432.197705,
+      "closed": true,
+      "closedTime": "2020-11-06 06:35:51+00",
+      "endDate": "2020-11-06T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "75",
+      "conditionId": "0xa415326794437d158e8e8a4d9db412b09a31e8b585996f1bad817ee3162588b0",
+      "question": "Will the Ethereum 2.0 Genesis Event happen successfully on December 1st, 2020?",
+      "slug": "will-the-ethereum-20-genesis-event-happen-successfully-on-december-1st-2020",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999991353509499,
+        8.646490501333051e-7
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999991353509499,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 560270.423771,
+      "closed": true,
+      "closedTime": "2020-12-01 15:56:33+00",
+      "endDate": "2020-12-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "76",
+      "conditionId": "0xa670159e0a8868ed1ca0013cf026805c1c5ffbf778a1d5030218471620211222",
+      "question": "Will $BTC break $20k before 2021?",
+      "slug": "will-btc-break-20k-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999998888806887,
+        1.1111931131046978e-7
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999998888806887,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 1467610.681134,
+      "closed": true,
+      "closedTime": "2020-12-16 13:56:46+00",
+      "endDate": "2021-01-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "77",
+      "conditionId": "0xa23e60a31b36c537605edf9eebb3e2be252046f1ffb19ade09f97d47429b5470",
+      "question": "Will Donald Trump formally concede the 2020 US Election before December 1st, 2020?",
+      "slug": "will-donald-trump-formally-concede-the-2020-us-election-before-december-1st-2020",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        1.5902607454513276e-7,
+        0.9999998409739255
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999998409739255,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 454342.990794,
+      "closed": true,
+      "closedTime": "2020-12-01 15:52:19+00",
+      "endDate": "2020-12-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "78",
+      "conditionId": "0xaf3282bade49b72710ee874b7975af821cdb64408e965c21700db35e6a207003",
+      "question": "Will LaMelo Ball be the first pick in the 2020 NBA draft?",
+      "slug": "will-lamelo-ball-be-the-first-pick-in-the-2020-nba-draft",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 143938.782615,
+      "closed": true,
+      "closedTime": "2020-11-19 16:03:44+00",
+      "endDate": "2020-11-19T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "86",
+      "conditionId": "0x54e378137aba7b5e2a6629faefb773fe1754b28f0a2282ed748e494545727cee",
+      "question": "Will Kanye West release a new studio album before 2021?",
+      "slug": "will-kanye-west-release-a-new-studio-album-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 54154.420953,
+      "closed": true,
+      "closedTime": "2021-01-02 21:40:56+00",
+      "endDate": "2021-01-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "87",
+      "conditionId": "0xf845fae0304d7c0e02f3928ead5f58936e087286f9eb220221689be292b51d18",
+      "question": "Will Donald Trump attend Joe Biden’s inauguration ceremony in person?",
+      "slug": "will-donald-trump-attend-joe-biden-s-inauguration-ceremony-in-person",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.0000019420774724493336,
+        0.9999980579225276
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999980579225276,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 192840.874875,
+      "closed": true,
+      "closedTime": "2021-01-20 16:21:46+00",
+      "endDate": "2021-02-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "92",
+      "conditionId": "0xa3d1b46ac7ebfaf90925fddf1b8eb5d2e6ac074acbae28b927a96519c19d12a0",
+      "question": "What will Airbnb's market cap be at close on its 1st day publicly trading?",
+      "slug": "what-will-airbnb-s-market-cap-be-at-close-on-its-1st-day-publicly-trading",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "scalar",
+      "category": "Tech",
+      "volume": 114807.198845,
+      "closed": true,
+      "closedTime": "2020-12-11 18:33:32+00",
+      "isScalar": true
+    },
+    {
+      "marketId": "93",
+      "conditionId": "0x4afe273cde9f431f55621c666b7552f11cb8acbc36e06c39ea7e87564a02b34a",
+      "question": "Will Donald Trump be inaugurated for his second term as President of the USA on Inauguration Day, January 20th, 2021?",
+      "slug": "will-donald-trump-be-inaugurated-for-his-second-term-as-president-of-the-usa-on-inauguration-day-january-20th-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        2.0626664460443175e-8,
+        0.9999999793733355
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999999793733355,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 30207577.413504,
+      "closed": true,
+      "closedTime": "2021-01-20 18:11:06+00",
+      "endDate": "2021-02-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "96",
+      "conditionId": "0x26db7bd60779c008fe75ad575d53b4bbab32101ead3fd8e005f057d5547ddc26",
+      "question": "Will Trump win any of Pennsylvania, Arizona or Georgia?",
+      "slug": "will-trump-win-any-of-pennsylvania-arizona-or-georgia",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.000012565989785062253,
+        0.999987434010215
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.999987434010215,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 1376323.081579,
+      "closed": true,
+      "closedTime": "2020-12-15 15:04:26+00",
+      "endDate": "2021-01-23T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "97",
+      "conditionId": "0x466c0923487b199c6d60d533bcabde40fe6ba848d96116fb9465ab55fc50ca5d",
+      "question": "Will any art piece on Superrare sell for more than $100k before 2021?",
+      "slug": "will-any-art-piece-on-superrare-sell-for-more-than-100k-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.000009633486254782601,
+        0.9999903665137452
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999903665137452,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 44204.852746,
+      "closed": true,
+      "closedTime": "2021-01-02 21:20:34+00",
+      "endDate": "2020-01-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "98",
+      "conditionId": "0x42fe32be346eef59ded4a190529dba0e4de3e144b10daabd0da971e11f90dd42",
+      "question": "Will Uniswap v3 launch before 2021?",
+      "slug": "will-uniswap-v3-launch-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 87371.439296,
+      "closed": true,
+      "closedTime": "2021-01-02 21:29:24+00",
+      "endDate": "2021-01-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "99",
+      "conditionId": "0xb000ca27d1dafadf8a24b2db8390129e8cbdc88312fb89e7f3c17d3465063346",
+      "question": "Will the Seahawks or the Rams win their week 10 NFL matchup?",
+      "slug": "will-the-seahawks-or-the-rams-win-their-week-10-nfl-matchup",
+      "outcomes": [
+        "Seahawks",
+        "Rams"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 140094.576395,
+      "closed": true,
+      "closedTime": "2020-11-16 17:06:15+00",
+      "endDate": "2020-11-16T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "100",
+      "conditionId": "0xe5cf4bf60005716b8da1ce87c3d5ab12ffe2eadfbcbac22ab39666514131a908",
+      "question": "Will indoor dining be prohibited in NYC at any point before 2021?",
+      "slug": "will-indoor-dining-be-prohibited-in-nyc-at-any-point-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999989051848532,
+        0.00000109481514672141
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999989051848532,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Coronavirus",
+      "volume": 195834.468106,
+      "closed": true,
+      "closedTime": "2020-12-14 16:18:30+00",
+      "endDate": "2021-01-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "101",
+      "conditionId": "0x797330e1fc7eac7d4b41dea0643f3565325687a3fda1024273fd261de9256876",
+      "question": "Will Pfizer's COVID-19 vaccine be the first to receive FDA approval or Emergency Use Authorization (EUA)?",
+      "slug": "will-pfizer-s-covid-19-vaccine-be-the-first-to-receive-fda-approval-or-emergency-use-authorization-eua",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Coronavirus",
+      "volume": 151822.615733,
+      "closed": true,
+      "closedTime": "2020-12-14 16:22:18+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "102",
+      "conditionId": "0xad0260abe32eefb63e0734f5bca0e7649910a027000ab1a57c0b8ce167ee3763",
+      "question": "Will Sushiswap have more TVL than Uniswap at any time before November 24th, according to DefiPulse?",
+      "slug": "will-sushiswap-have-more-tvl-than-uniswap-at-any-time-before-november-24th-according-to-defipulse",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 139390.060805,
+      "closed": true,
+      "closedTime": "2020-11-24 17:31:03+00",
+      "endDate": "2020-11-24T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "103",
+      "conditionId": "0xb787f500a7b6e105eb6eddcb47df6a6de87ea4f26059e917daea1bbf54c8accb",
+      "question": "Will $BTC break $20k before Thanksgiving?",
+      "slug": "will-btc-break-20k-before-thanksgiving",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 457360.180333,
+      "closed": true,
+      "closedTime": "2020-11-26 06:01:19+00",
+      "endDate": "2020-11-26T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "105",
+      "conditionId": "0x4da97a67cde2c4567fa81229cae80dbf4e286356e0e5dab231846b00f91b0419",
+      "question": "Will Liverpool beat Leicester City in their Matchday 9 game?",
+      "slug": "will-liverpool-win-their-match-against-leicester-this-weekend",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 50163.470657,
+      "closed": true,
+      "closedTime": "2020-11-23 15:53:53+00",
+      "endDate": "2020-11-23T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "107",
+      "conditionId": "0x953456ca4bc5036ba8c2b4a5d096e484095f4ffcac5531ff2bd3b898f44d29eb",
+      "question": "Will Deiveson Figueiredo win his UFC 255 match?",
+      "slug": "will-figueiredo-win-his-ufc-255-match",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 69325.229436,
+      "closed": true,
+      "closedTime": "2020-11-22 20:13:07+00",
+      "endDate": "2020-11-22T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "108",
+      "conditionId": "0x84eb28ffdc52f4d4b89c6721f22b05fb77592d85a9f5d4b587ffe3f47c672a0e",
+      "question": "What will the average sale price of the Jordan 1 Mocha on StockX be on Christmas Day?",
+      "slug": "what-will-the-average-sale-price-of-the-jordan-1-mocha-on-stock-x-be-on-christmas-day",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "scalar",
+      "category": "Pop-Culture ",
+      "volume": 21681.539389,
+      "closed": true,
+      "closedTime": "2020-12-26 04:18:17+00",
+      "endDate": "2020-12-26T00:00:00Z",
+      "isScalar": true
+    },
+    {
+      "marketId": "109",
+      "conditionId": "0xfd2cee9fee9a5d171aa909dd6a17dba52488dda7754f9791d29d14711583f34e",
+      "question": "Will Trump Pardon Himself in His First Term?",
+      "slug": "will-trump-pardon-himself-in-his-first-term",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        1.0310124768476219e-7,
+        0.9999998968987523
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999998968987523,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 566518.152363,
+      "closed": true,
+      "closedTime": "2021-01-20 17:32:04+00",
+      "endDate": "2021-02-16T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "110",
+      "conditionId": "0xea1cd8e9df99aba5bec306a63074175da203509d7e4a749643da6fc8367e57df",
+      "question": "Which party will win the U.S. Senate runoff in Georgia? (Ossoff - D vs. Perdue - R)",
+      "slug": "which-party-will-win-the-u-s-senate-runoff-in-georgia-ossoff-d-vs-perdue-r",
+      "outcomes": [
+        "Dems/Ossoff",
+        "Reps/Perdue"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 206128.535439,
+      "closed": true,
+      "closedTime": "2021-01-08 21:49:44+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "111",
+      "conditionId": "0x829b85b2ad61476ce1a92364f1c1c61ad53487b9476d13397ef346beebda1200",
+      "question": "Which party will win the U.S. Senate special election in Georgia? (Loeffler - R vs Warnock - D)",
+      "slug": "which-party-will-win-the-u-s-senate-special-election-in-georgia-loeffler-r-vs-warnock-d",
+      "outcomes": [
+        "Dems/Warnock",
+        "Reps/Loeffler"
+      ],
+      "outcomePrices": [
+        0.9999989006962045,
+        0.0000010993037955191074
+      ],
+      "winner": "Dems/Warnock",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999989006962045,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 237532.290807,
+      "closed": true,
+      "closedTime": "2021-01-08 17:20:58+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "114",
+      "conditionId": "0xe71f1c8d994dd447eba467c762f54598b0b0845ab5be4cafe9852bdb94720e57",
+      "question": "Will Coinbase reach #1 in the Finance category on the US iOS App Store before 2021?",
+      "slug": "will-coinbase-reach-1-in-i-os-app-store-finance-category-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 195420.953091,
+      "closed": true,
+      "closedTime": "2021-01-02 21:38:00+00",
+      "endDate": "2021-01-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "115",
+      "conditionId": "0x969375bf68d9051086aeccbce277e0cb0f09cb0cf56351c39906ab292c2dd9bb",
+      "question": "Superbowl 55: Kansas City Chiefs vs Tampa Bay Buccaneers",
+      "slug": "will-the-kansas-city-chiefs-win-superbowl-55",
+      "outcomes": [
+        "Chiefs",
+        "Bucs"
+      ],
+      "outcomePrices": [
+        0.0000014502583929193812,
+        0.9999985497416071
+      ],
+      "winner": "Bucs",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999985497416071,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 649402.092029,
+      "closed": true,
+      "closedTime": "2021-02-08 03:15:35+00",
+      "endDate": "2021-02-08T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "119",
+      "conditionId": "0xca22eaf16179c94a6547c71ec9381adaf51f27f1b863e7f43c94155e253fca5e",
+      "question": "Will Jake Paul win his boxing match against Nate Robinson?",
+      "slug": "will-jake-paul-win-his-boxing-match-against-nate-robinson",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 22955.070649,
+      "closed": true,
+      "closedTime": "2020-11-29 19:15:59+00",
+      "endDate": "2020-11-29T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "120",
+      "conditionId": "0x57030aa588d4e7da748f861da54fea976fe8f1fe5440cd8843e305732a682d02",
+      "question": "Will Mike Tyson win his boxing match against Roy Jones Jr?",
+      "slug": "will-mike-tyson-win-his-boxing-match-against-roy-jones",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.0000062927029741444165,
+        0.9999937072970259
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999937072970259,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 39083.392778,
+      "closed": true,
+      "closedTime": "2020-11-29 19:18:49+00",
+      "endDate": "2020-11-29T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "1499",
+      "conditionId": "0xfab8da8106977db4baa3ce621b9e7c3009504898b8f0288e61e214f142b21752",
+      "question": "Will Donald Trump join Parler before Inauguration Day?",
+      "slug": "will-donald-trump-join-parler-before-inauguration-day",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 172744.38442,
+      "closed": true,
+      "closedTime": "2021-01-20 17:45:56+00",
+      "endDate": "2021-01-20T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "1500",
+      "conditionId": "0x857f48d29cca01c923fe79be5dbf9c40358c7f10c698d619999a39c93aee3120",
+      "question": "What will the average sale price of a PS5 be on StockX on Christmas Day?",
+      "slug": "what-will-the-average-sale-price-of-a-ps-5-be-on-stock-x-on-christmas-day",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "scalar",
+      "category": "Pop-Culture ",
+      "volume": 113361.639986,
+      "closed": true,
+      "closedTime": "2020-12-26 06:16:59+00",
+      "endDate": "2020-12-26T00:00:00Z",
+      "isScalar": true
+    },
+    {
+      "marketId": "1547",
+      "conditionId": "0xe5ab12148e77074efb23d7cde07c896c06b67daf0ce9695821f6cb7e22c17ae6",
+      "question": "What rating will theneedledrop give Drake’s \"Certified Lover Boy\"?",
+      "slug": "what-rating-will-theneedledrop-give-drake-s-certified-lover-boy",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0.33282292241195593,
+        0.6671770775880441
+      ],
+      "winner": null,
+      "winnerIndex": 1,
+      "winnerProbability": 0.6671770775880441,
+      "hasResolutionData": true,
+      "marketType": "scalar",
+      "category": "Pop-Culture ",
+      "volume": 7105.380354,
+      "closed": true,
+      "closedTime": "2021-09-10 20:52:50+00",
+      "isScalar": true
+    },
+    {
+      "marketId": "3339",
+      "conditionId": "0xc5c91389c94882189c8f29c371e1f4850818543cf7daed0d4fe482baff5b436d",
+      "question": "Will Floyd Mayweather beat Logan Paul in their boxing exhibition match?",
+      "slug": "will-floyd-mayweather-beat-logan-paul-in-their-boxing-exhibition-match",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.896991319879671,
+        0.103008680120329
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.896991319879671,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 101440.222822,
+      "closed": true,
+      "closedTime": "2021-05-02 16:24:47+00",
+      "endDate": "2021-02-21T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "3971",
+      "conditionId": "0x4d6b8c01606d5631a1edbb24bee3f120d47ce3bd4e906797849cc91c89146452",
+      "question": "Will Donald Trump pardon Julian Assange?",
+      "slug": "will-donald-trump-pardon-julian-assange",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        5.928353636489953e-9,
+        0.9999999940716464
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999999940716464,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 270406.028611,
+      "closed": true,
+      "closedTime": "2021-01-20 17:26:28+00",
+      "endDate": "2021-01-22T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "5790",
+      "conditionId": "0x6854930460bb5bcefa01138a1423a7d5d687babd3fe2cb26178d6cd3bf3b8abe",
+      "question": "Will Playboi Carti release a new album before 2021?",
+      "slug": "will-playboi-carti-release-a-new-album-before-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 56571.134485,
+      "closed": true,
+      "closedTime": "2020-12-25 05:24:07+00",
+      "endDate": "2021-01-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "7715",
+      "conditionId": "0x50f991d1bae967cfd5fc9fc5443bfb0bf9f41d04f101ff4b537a479829c0cbd6",
+      "question": "Will Donald Trump pardon Ross Ulbricht?",
+      "slug": "will-donald-trump-pardon-ross-ulbricht",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 77843.512628,
+      "closed": true,
+      "closedTime": "2021-01-20 17:54:14+00",
+      "endDate": "2021-01-22T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "7716",
+      "conditionId": "0xf31a2f0e144551495f5cbef228b2d5362591f359884ae82000d17698e7bf45e9",
+      "question": "Will Donald Trump pardon Edward Snowden?",
+      "slug": "will-donald-trump-pardon-edward-snowden",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 47949.009134,
+      "closed": true,
+      "closedTime": "2021-01-20 17:37:46+00",
+      "endDate": "2021-01-22T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "7740",
+      "conditionId": "0xe9b05f9f28541aa6e0ef301170590bc55f9d7099378f7c7674a83b42d799f4a4",
+      "question": "Will any Electoral College Certificates of Vote be formally challenged in Congress?",
+      "slug": "will-any-electoral-certificates-be-formally-challenged-in-congress",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 265340.926545,
+      "closed": true,
+      "closedTime": "2021-01-07 17:50:50+00",
+      "endDate": "2021-02-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "7747",
+      "conditionId": "0xe4efc9fa3b52765ddd4fb07523d9ec9be09e453324ebdaafa61f4cb44d8bf289",
+      "question": "Which party will control the senate?",
+      "slug": "which-party-will-control-the-senate",
+      "outcomes": [
+        "Republican",
+        "Democratic"
+      ],
+      "outcomePrices": [
+        7.704004510665058e-7,
+        0.9999992295995489
+      ],
+      "winner": "Democratic",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999992295995489,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 304097.469926,
+      "closed": true,
+      "closedTime": "2021-02-01 16:04:11+00",
+      "endDate": "2021-02-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "8938",
+      "conditionId": "0x8b255158454d4a2afeea47f8f0cdf0cbe1eb4f0f62c60d9abfc91d60515bfecd",
+      "question": "Will ETH be above $1,500 on January 27th?",
+      "slug": "will-eth-be-above-1-500-on-january-27th",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.00000369905732934354,
+        0.9999963009426707
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999963009426707,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 759196.237185,
+      "closed": true,
+      "closedTime": "2021-01-27 18:14:46+00",
+      "endDate": "2021-01-28T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "8939",
+      "conditionId": "0x9cff735d7e2d1c7ed06cdc30f206e66dbf8331c493f0d260f6f777b6a7f72908",
+      "question": "Will $BTC break $25k before March 1st?",
+      "slug": "will-btc-break-25k-before-march-1st",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9996408207837512,
+        0.00035917921624884907
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9996408207837512,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 565291.198531,
+      "closed": true,
+      "closedTime": "2020-12-26 16:32:48+00",
+      "endDate": "2021-03-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "10196",
+      "conditionId": "0xca42b7a053230f908739ddd68a4b89d4f0c56fc104ecfa46e9d0d2c60ba0523e",
+      "question": "What will Coinbase’s market cap be 1 week after it starts publicly trading?",
+      "slug": "what-will-coinbase-s-market-cap-be-1-week-after-it-starts-publicly-trading",
+      "outcomes": [
+        "Long",
+        "Short"
+      ],
+      "outcomePrices": [
+        0.7895377994341086,
+        0.21046220056589138
+      ],
+      "winner": null,
+      "winnerIndex": 0,
+      "winnerProbability": 0.7895377994341086,
+      "hasResolutionData": true,
+      "marketType": "scalar",
+      "category": "Crypto",
+      "volume": 489636.840329,
+      "closed": true,
+      "closedTime": "2021-04-22 01:23:08+00",
+      "endDate": "2021-09-01T00:00:00Z",
+      "isScalar": true
+    },
+    {
+      "marketId": "11987",
+      "conditionId": "0x14e78d6faab38ec2a0897c238bff6e4694666fb7f81e2f496e545a82905909a9",
+      "question": "Will Tesla announce a Bitcoin purchase before March 1, 2021?",
+      "slug": "will-tesla-announce-a-bitcoin-purchase-before-march-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.999998953167256,
+        0.0000010468327440282725
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.999998953167256,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 1278837.735124,
+      "closed": true,
+      "closedTime": "2021-02-08 14:34:13+00",
+      "endDate": "2021-03-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "11988",
+      "conditionId": "0x4fe47d1e4a42e7fe7bfd5614b1814de557251747d048566c6e6c002fd00e3b77",
+      "question": "Will Bitcoin or Tesla have a higher market cap on March 1, 2021?",
+      "slug": "will-bitcoin-or-tesla-have-a-higher-market-cap-on-march-1-2021",
+      "outcomes": [
+        "Bitcoin",
+        "Tesla"
+      ],
+      "outcomePrices": [
+        0.9999990413191829,
+        9.586808171163785e-7
+      ],
+      "winner": "Bitcoin",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999990413191829,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Tech",
+      "volume": 154400.485529,
+      "closed": true,
+      "closedTime": "2021-03-01 14:30:31+00",
+      "endDate": "2021-03-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "11991",
+      "conditionId": "0x27d2c539ab4f349b603d4a47f071f581c06fd13f668d58ed35ae96eada116961",
+      "question": "Will 100 million people have received a dose of an approved COVID-19 vaccine in the US by April 1, 2021?",
+      "slug": "will-100-million-people-have-received-a-dose-of-an-approved-covid-19-vaccine-in-the-us-by-april-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        9.045141609489103e-8,
+        0.9999999095485839
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999999095485839,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Coronavirus",
+      "volume": 7116763.863114,
+      "closed": true,
+      "closedTime": "2021-04-01 17:26:20+00",
+      "endDate": "2021-04-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "12015",
+      "conditionId": "0xa568ae80b6f68331265707522c441eed3b7553eac8ca1178a141e14ea327ef47",
+      "question": "Will President Trump be suspended from Twitter before April 1, 2021?",
+      "slug": "will-president-trump-be-suspended-from-twitter-before-april-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9968831394854412,
+        0.0031168605145588633
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9968831394854412,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 160336.519211,
+      "closed": true,
+      "closedTime": "2021-01-08 23:37:02+00",
+      "endDate": "2021-04-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "12016",
+      "conditionId": "0xf5b392f05bef47906dc0a753def7625069dfd1c2ece454fecf695c048fc118d1",
+      "question": "Will Andrew Yang win the Democratic primary for Mayor of New York City in 2021?",
+      "slug": "will-andrew-yang-win-the-democratic-primary-for-mayor-of-new-york-city-in-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        9.792476954804243e-8,
+        0.9999999020752305
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999999020752305,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 1258244.218619,
+      "closed": true,
+      "closedTime": "2021-06-23 23:42:06+00",
+      "endDate": "2021-06-22T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "12017",
+      "conditionId": "0x357e2d2afdedf5e7e46e2d1231bfe7a4f70f2893fe95c00e46b35d649d47f002",
+      "question": "Will Kim Kardashian or Kanye West file for divorce before March 1, 2021?",
+      "slug": "will-kim-kardashian-or-kanye-west-file-for-divorce-before-march-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999998448945476,
+        1.5510545233269986e-7
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999998448945476,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Pop-Culture ",
+      "volume": 40940.904626,
+      "closed": true,
+      "closedTime": "2021-02-22 16:05:14+00",
+      "endDate": "2021-03-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "12576",
+      "conditionId": "0xc4adc685a5b2016a9dca1d32d2722a79bfd69a9ec39630f59751b16dde2f67eb",
+      "question": "Will Coinbase delist Ripple (XRP) before they begin publicly trading?",
+      "slug": "will-coinbase-delist-ripple-xrp-before-they-begin-publicly-trading",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999997417674064,
+        2.582325936767114e-7
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999997417674064,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 176805.568527,
+      "closed": true,
+      "closedTime": "2021-02-23 20:36:32+00",
+      "endDate": "2021-09-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "13107",
+      "conditionId": "0xf86032dc2a893df839b93c7868e6cb206db8d5f083c2861554e7fd1deab7dd52",
+      "question": "Will Joe Biden be inaugurated as President of the USA on January 20th, 2021?",
+      "slug": "will-joe-biden-be-inaugurated-as-president-of-the-usa-on-january-20th-2021-1",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999999819574147,
+        1.804258530658439e-8
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999999819574147,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 8582604.040652,
+      "closed": true,
+      "closedTime": "2021-01-20 18:04:56+00",
+      "endDate": "2021-01-20T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "18286",
+      "conditionId": "0x83a5e4d3cc2a5347a190304f2c057747fd234aa9c0b721bba468427924a0ed18",
+      "question": "Will Donald Trump pardon a family member before Inauguration Day?",
+      "slug": "will-donald-trump-pardon-a-family-member-before-inauguration-day-2",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 122101.594931,
+      "closed": true,
+      "closedTime": "2021-01-20 17:43:10+00",
+      "endDate": "2021-01-22T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "25367",
+      "conditionId": "0xe97a28fbd11bc755d4dff8a710d64b1a9ffd10324adbdcf391da64da60a96e2e",
+      "question": "Will $BTC break $50k before April 1st, 2021?",
+      "slug": "will-btc-break-50k-before-april-1st-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.999999650107774,
+        3.4989222598985624e-7
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.999999650107774,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 1164000.478137,
+      "closed": true,
+      "closedTime": "2021-02-16 21:29:32+00",
+      "endDate": "2021-04-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "29908",
+      "conditionId": "0x765953d81258da919d339eb84bcafdba4be42c9e37103a3d78e9c0e36ea83444",
+      "question": "Will the Titans or the Ravens win their January 10th NFL Wild Card matchup?",
+      "slug": "will-the-titans-or-the-ravens-win-their-january-10th-nfl-wild-card-matchup",
+      "outcomes": [
+        "Titans",
+        "Ravens"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 20653.74779,
+      "closed": true,
+      "closedTime": "2021-01-10 21:18:45+00",
+      "endDate": "2021-01-11T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "29919",
+      "conditionId": "0x0cbb7ed4ac49acb774cecae3429d05a74e60adb41d44c091df7b95dde5a00ccf",
+      "question": "Will Trump complete his first term?",
+      "slug": "will-trump-complete-his-first-term",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999989280581413,
+        0.0000010719418587670583
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999989280581413,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 692311.018313,
+      "closed": true,
+      "closedTime": "2021-01-20 20:13:12+00",
+      "endDate": "2021-01-20T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "30941",
+      "conditionId": "0x510eac74d6a9b9c2eb2958677d145851e1648a9e020d9b03a1466e500d9c2e5b",
+      "question": "Will Joe Biden be President of the USA on March 1, 2021?",
+      "slug": "will-joe-biden-be-president-of-the-usa-on-march-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999991427648631,
+        8.572351369235186e-7
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999991427648631,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 5603735.590555,
+      "closed": true,
+      "closedTime": "2021-03-01 18:44:56+00",
+      "endDate": "2021-03-02T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "31023",
+      "conditionId": "0x74020daaabdfffc4b1f8648a678ff8610f65cbc2b5005956185920bdfc2711db",
+      "question": "Who will the world's richest person be on February 27, 2021?",
+      "slug": "who-will-the-world-s-richest-person-be-on-february-27-2021",
+      "outcomes": [
+        "Jeff Bezos",
+        "Elon Musk",
+        "Other"
+      ],
+      "outcomePrices": [
+        0.999974873994359,
+        0.000023783930096204203,
+        0.0000013420755448203072
+      ],
+      "winner": "Jeff Bezos",
+      "winnerIndex": 0,
+      "winnerProbability": 0.999974873994359,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Tech",
+      "volume": 182205.347577,
+      "closed": true,
+      "closedTime": "2021-03-01 03:38:38+00",
+      "endDate": "2021-02-27T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "31064",
+      "conditionId": "0xae9d0ce9578b795d446dbba1c6776579219597f74e0bcdc2d4bc11f1dc619e7d",
+      "question": "Will Donald Trump be impeached again before the end of his term?",
+      "slug": "will-donald-trump-be-impeached-again-before-the-end-of-his-term",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9664964542522391,
+        0.03350354574776089
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9664964542522391,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 269766.48903,
+      "closed": true,
+      "closedTime": "2021-01-13 22:10:21+00",
+      "endDate": "2021-01-21T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "34767",
+      "conditionId": "0x60e4236398c327691bfd2f70346aab13bb84a6422c56276c49436e54e57e2688",
+      "question": "Will an official Presidential inauguration take place in-person outside the US Capitol on January 20th, 2021?",
+      "slug": "will-an-official-presidential-inauguration-take-place-in-person-outside-the-us-capitol-on-january-20th-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 41274.849967,
+      "closed": true,
+      "closedTime": "2021-01-20 17:52:52+00",
+      "endDate": "2021-01-21T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "35974",
+      "conditionId": "0x0faf43bffe9cbba6b42ea5272fd96d3a84e5a82832390c5e45a1ab1c80c84d94",
+      "question": "Will the Senate convict Donald Trump on impeachment by April 29, 2021?",
+      "slug": "will-the-senate-convict-donald-trump-on-impeachment-before-june-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        4.042634979071517e-7,
+        0.9999995957365021
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999995957365021,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 449246.109862,
+      "closed": true,
+      "closedTime": "2021-02-15 18:38:20+00",
+      "isScalar": false
+    },
+    {
+      "marketId": "35976",
+      "conditionId": "0x2552743e295cc1c0fcb8d1b1a1207cacd0702d22f6df27ad5b2a87288b0a1654",
+      "question": "Will Joe Biden be officially inaugurated as President in-person outside the US capitol on January 20th, 2021?",
+      "slug": "will-joe-biden-be-officially-inaugurated-as-president-in-person-outside-the-us-capitol-on-january-20th-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9862411831375,
+        0.013758816862500045
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9862411831375,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 874854.208294,
+      "closed": true,
+      "closedTime": "2021-01-20 17:58:14+00",
+      "endDate": "2021-01-21T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "35983",
+      "conditionId": "0x97df378a5b16d48801fb94df0f9cb19985982111c019c0c66ccf269275fa0c27",
+      "question": "Will Donald Trump's Twitter account be active on March 1, 2021?",
+      "slug": "will-donald-trump-s-twitter-account-be-active-on-march-1-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        8.624075428119822e-7,
+        0.9999991375924572
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999991375924572,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 135580.143423,
+      "closed": true,
+      "closedTime": "2021-03-01 14:27:27+00",
+      "endDate": "2021-03-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "35988",
+      "conditionId": "0x1f794487d63963d94abe0b3d99dac24d39620ed45e769f84f0cc66560644bce4",
+      "question": "$2000 stimulus checks by February 28, 2021?",
+      "slug": "2000-stimulus-checks-by-february-28-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        8.760336361258536e-7,
+        0.9999991239663639
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999991239663639,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 488335.604514,
+      "closed": true,
+      "closedTime": "2021-03-01 14:04:45+00",
+      "endDate": "2021-02-28T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "40935",
+      "conditionId": "0xbd3e2bb197d4dcce400db04bfe7e8b43ec8b1d906ca0a9e10e81f4ee0f680166",
+      "question": "Donald Trump federally charged by February 20th?",
+      "slug": "donald-trump-federally-charged-by-february-20th",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        1.5792346954890777e-7,
+        0.9999998420765305
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999998420765305,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 155062.394444,
+      "closed": true,
+      "closedTime": "2021-02-22 16:02:08+00",
+      "endDate": "2021-02-21T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "40936",
+      "conditionId": "0xfe575cc33040b6dfd9254b39ba6bc89cd1c69fadeb04e274503a27892de36875",
+      "question": "Will Conor McGregor win his UFC 257 match on January 23?",
+      "slug": "will-conor-mcgregor-win-his-ufc-257-match-on-january-23",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.000001033488457154569,
+        0.9999989665115429
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999989665115429,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 103855.267262,
+      "closed": true,
+      "closedTime": "2021-01-24 06:02:00+00",
+      "endDate": "2021-01-23T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "42114",
+      "conditionId": "0x6f0fcc08b5867d44dd7237eb6a53d399f7cf422796378acf1f5b4e41421af1d5",
+      "question": "Will the Rams or the Packers win their Jan 16th matchup?",
+      "slug": "will-the-rams-or-the-packers-win-their-jan-16th-matchup",
+      "outcomes": [
+        "Rams",
+        "Packers"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 4747.920188,
+      "closed": true,
+      "closedTime": "2021-01-17 02:21:03+00",
+      "endDate": "2021-01-17T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "42115",
+      "conditionId": "0x8184cf050517b5980bd92ff26818b8de5a78905d1737f10a05afd41551eb6074",
+      "question": "Will the Buccaneers or the Saints win their Jan 17th matchup?",
+      "slug": "will-the-buccaneers-or-the-saints-win-their-jan-17th-matchup",
+      "outcomes": [
+        "Buccaneers",
+        "Saints"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 21200.67645,
+      "closed": true,
+      "closedTime": "2021-01-18 15:45:04+00",
+      "endDate": "2021-01-18T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "42120",
+      "conditionId": "0x8667bf71c111f359d56bace73b5213a8dfb332638ac5b6ff99ea0a70d7ab0b5c",
+      "question": "Will the Browns or the Chiefs win their Jan 17th matchup?",
+      "slug": "will-the-browns-or-the-chiefs-win-their-jan-17th-matchup",
+      "outcomes": [
+        "Browns",
+        "Chiefs"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 89077.426678,
+      "closed": true,
+      "closedTime": "2021-01-18 15:49:00+00",
+      "endDate": "2021-01-18T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "42121",
+      "conditionId": "0xf270803dfab4f5aa7f9e9a4996ce3425f219102f35ac062275fe19842bfd46fe",
+      "question": "Will the Ravens or Bills win their January 16th matchup?",
+      "slug": "will-the-ravens-or-bills-win-their-january-16th-matchup",
+      "outcomes": [
+        "Ravens",
+        "Bills"
+      ],
+      "outcomePrices": [
+        0,
+        0
+      ],
+      "winner": null,
+      "winnerIndex": null,
+      "winnerProbability": null,
+      "hasResolutionData": false,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 9820.220409,
+      "closed": true,
+      "closedTime": "2021-01-17 05:29:56+00",
+      "endDate": "2021-01-17T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "42404",
+      "conditionId": "0x74080a012fd9fd452ec61f12e7a97cff25cfb598dd458acce8cef9220a3205a0",
+      "question": "Will YFI total supply be greater than 30,000 by March 15th?",
+      "slug": "will-yfi-total-supply-be-greater-than-30-000-by-march-15th",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999989500671174,
+        0.0000010499328826691727
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999989500671174,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 56433.345679,
+      "closed": true,
+      "closedTime": "2021-02-06 21:00:44+00",
+      "endDate": "2021-03-16T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "46924",
+      "conditionId": "0x9ebe7361d7eb51a88a4b5b80eddc99ad2f193ed78005c0be899595f8177fb16d",
+      "question": "How many tweets will @DonaldJTrumpJr post from Jan 18th to 25th?",
+      "slug": "how-many-tweets-will-donald-j-trump-jr-post-from-jan-18th-to-25th",
+      "outcomes": [
+        "80 or more",
+        "70-79",
+        "60-69",
+        "50-59",
+        "49 or less"
+      ],
+      "outcomePrices": [
+        3.1013216688148214e-9,
+        1.3383647247235723e-10,
+        2.1223041782557346e-8,
+        2.267531889303535e-8,
+        0.9999999528664811
+      ],
+      "winner": "49 or less",
+      "winnerIndex": 4,
+      "winnerProbability": 0.9999999528664811,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 157817.485837,
+      "closed": true,
+      "closedTime": "2021-01-25 20:35:02+00",
+      "endDate": "2021-01-25T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "46928",
+      "conditionId": "0x1c378cdab51cb29778fecab9340ace6e93029c58a26498e12556f0a35208e44a",
+      "question": "Will the US have fewer than 50,000 new COVID-19 cases on any day before March 15, 2021?",
+      "slug": "will-the-us-have-fewer-than-50-000-new-covid-19-cases-on-any-day-before-march-15-2021-1",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        0.9999979930858255,
+        0.0000020069141744918747
+      ],
+      "winner": "Yes",
+      "winnerIndex": 0,
+      "winnerProbability": 0.9999979930858255,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Coronavirus",
+      "volume": 1283321.582851,
+      "closed": true,
+      "closedTime": "2021-03-11 17:48:35+00",
+      "endDate": "2021-03-15T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "47250",
+      "conditionId": "0x46f4890c7c37a14453d8381426d70596213a4e25dd76d6b7b927a8940b49bf66",
+      "question": "Will Donald Trump be President of the USA on March 31, 2021?",
+      "slug": "will-donald-trump-be-president-of-the-usa-on-march-31-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        9.05368623123752e-8,
+        0.9999999094631377
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999999094631377,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 6253674.443228,
+      "closed": true,
+      "closedTime": "2021-03-31 17:37:46+00",
+      "endDate": "2021-04-01T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "48678",
+      "conditionId": "0xb6efcb062820c882a6a7c4753c1160fe7d00e46608c5b945e7881f091f2316e5",
+      "question": "Will the Green Bay Packers or the Tampa Bay Buccaneers win the NFC Championship?",
+      "slug": "will-the-green-bay-packers-or-the-tampa-bay-buccaneers-win-the-nfc-championship",
+      "outcomes": [
+        "Packers",
+        "Buccaneers"
+      ],
+      "outcomePrices": [
+        0.000026609719350117012,
+        0.9999733902806499
+      ],
+      "winner": "Buccaneers",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999733902806499,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 149008.388504,
+      "closed": true,
+      "closedTime": "2021-01-24 23:41:09+00",
+      "endDate": "2021-01-25T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "48681",
+      "conditionId": "0x5e933fe041011c8f8b2f776998bb76bc254deaea4fb04f796002443029a9d0e0",
+      "question": "Will the Buffalo Bills or the Kansas City Chiefs win the AFC Championship?",
+      "slug": "will-the-buffalo-bills-or-the-kansas-city-chiefs-win-the-afc-championship",
+      "outcomes": [
+        "Bills",
+        "Chiefs"
+      ],
+      "outcomePrices": [
+        9.399133505981278e-7,
+        0.9999990600866494
+      ],
+      "winner": "Chiefs",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999990600866494,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Sports",
+      "volume": 64464.326718,
+      "closed": true,
+      "closedTime": "2021-01-25 03:31:43+00",
+      "endDate": "2021-01-25T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "57333",
+      "conditionId": "0xb555dac3f7803d1257c8e525b3d56c800dd8bbef84c4f4b3b9aa724f1a492ada",
+      "question": "Will DeFi Dominance on CoinGecko be above 10% on March 15, 2021?",
+      "slug": "will-de-fi-dominance-on-coin-gecko-be-above-10-on-march-15-2021",
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "outcomePrices": [
+        1.6560633103806414e-7,
+        0.9999998343936689
+      ],
+      "winner": "No",
+      "winnerIndex": 1,
+      "winnerProbability": 0.9999998343936689,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "Crypto",
+      "volume": 131944.146992,
+      "closed": true,
+      "closedTime": "2021-03-15 17:04:53+00",
+      "endDate": "2021-03-15T00:00:00Z",
+      "isScalar": false
+    },
+    {
+      "marketId": "57337",
+      "conditionId": "0x0f0194c3dfcf5a40939044b3ce41e70041c8d2af2817070c488c271b51df02b5",
+      "question": "How many Senators will vote to convict Donald Trump on incitement by March 1?",
+      "slug": "how-many-senators-will-vote-to-convict-donald-trump-on-incitement-by-march-1",
+      "outcomes": [
+        "52 or fewer",
+        "53-55",
+        "56-58",
+        "59-61",
+        "62 or more"
+      ],
+      "outcomePrices": [
+        0.000008363185334425445,
+        0.000004060164603278694,
+        0.9999249286645058,
+        0.000043166828883172656,
+        0.000019481156673398883
+      ],
+      "winner": "56-58",
+      "winnerIndex": 2,
+      "winnerProbability": 0.9999249286645058,
+      "hasResolutionData": true,
+      "marketType": "normal",
+      "category": "US-current-affairs",
+      "volume": 229323.537104,
+      "closed": true,
+      "closedTime": "2021-02-15 18:31:20+00",
+      "endDate": "2021-03-01T00:00:00Z",
+      "isScalar": false
+    }
+  ]
+}

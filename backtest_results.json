@@ -1,0 +1,27 @@
+{
+  "market": "Will Trump deport less than 250,000?",
+  "token_id": "101676997363687199724245607342877036148401850938023978421879460310389391082353",
+  "data_points": 167,
+  "period": {
+    "start": "2026-01-31T13:00:25.000Z",
+    "end": "2026-02-07T12:42:18.000Z"
+  },
+  "strategy": "Mean Reversion (24h lookback, ±1.5 std)",
+  "results": {
+    "total_trades": 1,
+    "win_rate": 100,
+    "avg_pnl_pct": 173.1707317073171,
+    "total_pnl_pct": 173.1707317073171
+  },
+  "trades": [
+    {
+      "entry": 0.0205,
+      "exit": 0.056,
+      "pnl": 0.035500000000000004,
+      "pnlPct": 173.1707317073171,
+      "holdTime": 152.6988888888889,
+      "win": true,
+      "open": true
+    }
+  ]
+}

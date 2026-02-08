@@ -1,0 +1,197 @@
+{
+  "analysis_metadata": {
+    "agent": "agent5",
+    "market_range": "80-99",
+    "total_markets": 20,
+    "timestamp": "2026-02-07T22:45:37.582557Z"
+  },
+  "category_distribution": {
+    "historical": 20
+  },
+  "resolution_outcomes": {
+    "YES": 7,
+    "NO": 13,
+    "UNCLEAR": 0
+  },
+  "patterns": {
+    "crypto_price_predictions": 1,
+    "esports_totals": 8,
+    "player_props": 0,
+    "bitcoin_timing": 6,
+    "temperature_bets": 0,
+    "other": 5
+  },
+  "pattern_details": {
+    "crypto_price_predictions": [
+      {
+        "id": "1259162",
+        "title": "Will the price of Ethereum be above $3,300 on January 31?",
+        "resolution": "NO",
+        "volume": 1865378.620423
+      }
+    ],
+    "esports_totals": [
+      {
+        "id": "1332431",
+        "title": "Total Kills Over/Under 35.5 in Game 1?",
+        "resolution": "YES",
+        "volume": 204518.594926
+      },
+      {
+        "id": "1337254",
+        "title": "CJ McCollum: Assists O/U 3.5",
+        "resolution": "NO",
+        "volume": 2713295.302838
+      },
+      {
+        "id": "1328374",
+        "title": "Total Kills Over/Under 41.5 in Game 1?",
+        "resolution": "YES",
+        "volume": 113186.735265
+      },
+      {
+        "id": "1306273",
+        "title": "Total Kills Over/Under 39.5 in Game 3?",
+        "resolution": "YES",
+        "volume": 3441481.481606
+      },
+      {
+        "id": "1239592",
+        "title": "Mensik vs. Quinn: Set 1 Games O/U 9.5",
+        "resolution": "NO",
+        "volume": 463059.026501
+      },
+      {
+        "id": "1289669",
+        "title": "Total Kills Over/Under 41.5 in Game 2?",
+        "resolution": "YES",
+        "volume": 131178.216085
+      },
+      {
+        "id": "1331333",
+        "title": "Jamal Murray: Rebounds O/U 3.5",
+        "resolution": "YES",
+        "volume": 6143021.596682
+      },
+      {
+        "id": "1338090",
+        "title": "Draymond Green: Assists O/U 4.5",
+        "resolution": "NO",
+        "volume": 5682464.896953
+      }
+    ],
+    "player_props": [],
+    "bitcoin_timing": [
+      {
+        "id": "1248584",
+        "title": "Bitcoin Up or Down - January 24, 6:45AM-7:00AM ET",
+        "resolution": "NO",
+        "volume": 109805.116001
+      },
+      {
+        "id": "1285821",
+        "title": "Will the price of Bitcoin be above $86,000 on February 4?",
+        "resolution": "NO",
+        "volume": 7543466.222611
+      },
+      {
+        "id": "1287305",
+        "title": "Bitcoin Up or Down - January 29, 4:15PM-4:30PM ET",
+        "resolution": "NO",
+        "volume": 262517.405547
+      },
+      {
+        "id": "1311765",
+        "title": "Bitcoin Up or Down - February 2, 12:15AM-12:30AM ET",
+        "resolution": "NO",
+        "volume": 200772.071821
+      },
+      {
+        "id": "1306768",
+        "title": "Bitcoin Up or Down - February 1, 6:15AM-6:30AM ET",
+        "resolution": "NO",
+        "volume": 196741.565202
+      },
+      {
+        "id": "1257769",
+        "title": "Bitcoin Up or Down - January 26, 7AM ET",
+        "resolution": "NO",
+        "volume": 208260.301015
+      }
+    ],
+    "temperature_bets": [],
+    "other": [
+      {
+        "id": "1298929",
+        "title": "Game Handicap: AL (-1.5) vs Weibo Gaming (+1.5)",
+        "resolution": "NO",
+        "volume": 2568314.245846
+      },
+      {
+        "id": "1235446",
+        "title": "Will the next government funding bill be passed on January 29, 2026?",
+        "resolution": "NO",
+        "volume": 626928.704105
+      },
+      {
+        "id": "1300884",
+        "title": "Counter-Strike: Natus Vincere vs PARIVISION - Map 1 Winner",
+        "resolution": "YES",
+        "volume": 2134321.627991
+      },
+      {
+        "id": "1279555",
+        "title": "Spread: Arkansas Razorbacks (-2.5)",
+        "resolution": "YES",
+        "volume": 157744.77971
+      },
+      {
+        "id": "1322642",
+        "title": "Counter-Strike: EYEBALLERS vs 1WIN - Map 2 Winner",
+        "resolution": "NO",
+        "volume": 156352.348728
+      }
+    ]
+  },
+  "volume_metrics": {
+    "total_volume": 34922808.86,
+    "average_volume": 1746140.44,
+    "top_volume_markets": [
+      {
+        "market_id": "1285821",
+        "volatility": 0.9695,
+        "volume": 7543466.222611
+      },
+      {
+        "market_id": "1331333",
+        "volatility": 0.7495,
+        "volume": 6143021.596682
+      },
+      {
+        "market_id": "1338090",
+        "volatility": 0.5745,
+        "volume": 5682464.896953
+      },
+      {
+        "market_id": "1306273",
+        "volatility": 0.49950000000000006,
+        "volume": 3441481.481606
+      },
+      {
+        "market_id": "1337254",
+        "volatility": 0.5795,
+        "volume": 2713295.302838
+      }
+    ]
+  },
+  "volatility_metrics": {
+    "average_price_volatility": 0.5475,
+    "high_volatility_count": 19
+  },
+  "key_insights": [
+    "Dominant pattern: esports_totals (8 markets)",
+    "Resolution bias: 65.0% NO, 35.0% YES",
+    "Bitcoin timing markets: 6 total, 0 YES / 6 NO",
+    "Average market volume: $1,746,140"
+  ]
+}

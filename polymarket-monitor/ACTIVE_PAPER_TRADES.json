@@ -1,0 +1,42 @@
+{
+  "portfolio": {
+    "starting_capital": 100.00,
+    "deployed_capital": 0.00,
+    "available_capital": 100.00,
+    "active_positions": 0,
+    "expected_profit": 0.00,
+    "expected_roi": 0.0,
+    "started": "2026-02-07T18:05:00-06:00",
+    "updated": "2026-02-07T18:15:00-06:00"
+  },
+  "positions": [
+    {
+      "id": 1,
+      "market": "Bitcoin >$68,000 on Feb 8",
+      "strategy": "CRYPTO_FAVORITE_FADE",
+      "yes_price": 82.5,
+      "no_price": 17.5,
+      "our_bet": "NO",
+      "position_size": 6.00,
+      "entry_time": "2026-02-07T18:05:00-06:00",
+      "exit_time": "2026-02-07T18:15:00-06:00",
+      "status": "CANCELLED",
+      "reason": "Strategy failed validation (53.2% actual win rate vs 61.9% claimed). Unprofitable after fees."
+    },
+    {
+      "id": 2,
+      "market": "Bitcoin >$68,000 on Feb 9",
+      "strategy": "CRYPTO_FAVORITE_FADE",
+      "yes_price": 71.5,
+      "no_price": 28.5,
+      "our_bet": "NO",
+      "position_size": 6.00,
+      "entry_time": "2026-02-07T18:05:00-06:00",
+      "exit_time": "2026-02-07T18:15:00-06:00",
+      "status": "CANCELLED",
+      "reason": "100% correlation with position 1. Strategy failed validation. Risk analysis recommended cancellation."
+    }
+  ],
+  "next_update": null,
+  "notes": "Waiting for validated strategies. Only BTC_TIME_BIAS (58.8%) and WEATHER_FADE (85.1%) are validated. Will deploy when high-confidence opportunities found."
+}

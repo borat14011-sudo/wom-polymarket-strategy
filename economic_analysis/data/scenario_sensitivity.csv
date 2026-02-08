@@ -1,0 +1,5 @@
+Scenario,Cost_Pct,Decay_Pct,Year_1_Return,Year_2_Return,Total_Return,CAGR_Pct,IRR_Pct
+Optimistic,3.0,10,27.5,24.8,59.1,26.13,26.45
+Base_Case,5.0,18,25.1,19.4,49.3,22.10,18.03
+Pessimistic,7.0,25,22.8,15.2,41.5,18.88,13.42
+Worst_Case,8.0,35,20.3,10.5,32.9,15.35,8.72

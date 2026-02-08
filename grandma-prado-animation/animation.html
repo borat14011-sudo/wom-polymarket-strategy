@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma Reviews Famous Paintings at Prado Museum | Animated Comedy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #1a1a1a;
+            overflow: hidden;
+            width: 1920px;
+            height: 1080px;
+        }
+
+        .scene {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: none;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .scene.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        /* Title Scene */
+        #title-scene {
+            background: linear-gradient(135deg, #D52B1E 0%, #FFD700 100%);
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        #title-scene h1 {
+            font-size: 80px;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            animation: slideDown 1s ease-out;
+        }
+
+        #title-scene p {
+            font-size: 40px;
+            font-style: italic;
+            animation: fadeIn 2s ease-in;
+        }
+
+        /* Museum scenes */
+        .museum-scene {
+            background: #2c2416;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px;
+        }
+
+        .painting-frame {
+            flex: 1;
+            max-width: 800px;
+            height: 700px;
+            background: #8B7355;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+            position: relative;
+            margin-right: 80px;
+        }
+
+        .painting-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .painting-label {
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.8);
+            color: #FFD700;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 24px;
+            white-space: nowrap;
+        }
+
+        .grandma-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grandma-avatar {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 200px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            animation: bounce 2s infinite;
+        }
+
+        .speech-bubble {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            animation: popIn 0.5s ease-out;
+        }
+
+        .speech-bubble:before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-right: 30px solid white;
+        }
+
+        .speech-bubble p {
+            font-size: 32px;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .rating {
+            background: #D52B1E;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 30px;
+            animation: pulse 1s ease-in-out infinite;
+        }
+
+        /* Final scene */
+        #final-scene {
+            background: linear-gradient(135deg, #00A0DC 0%, #FFD700 100%);
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        #final-scene h2 {
+            font-size: 100px;
+            margin-bottom: 40px;
+            animation: scaleUp 1s ease-out;
+        }
+
+        #final-scene p {
+            font-size: 50px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        /* Animations */
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes popIn {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes scaleUp {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .timer {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 24px;
+            font-family: monospace;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.8);
+            padding: 20px 40px;
+            border-radius: 50px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .controls button {
+            background: #FFD700;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .controls button:hover {
+            background: #FFA500;
+            transform: scale(1.1);
+        }
+
+        .audio-indicator {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            color: #FFD700;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Timer -->
+    <div class="timer" id="timer">00:00</div>
+    
+    <!-- Audio Indicator -->
+    <div class="audio-indicator">🎙️ Voiceover Active</div>
+
+    <!-- Scene 1: Title -->
+    <div class="scene active" id="title-scene">
+        <h1>🇰🇿 GRANDMA REVIEWS FAMOUS PAINTINGS 🎨</h1>
+        <p>At the Prado Museum, Madrid</p>
+        <p style="margin-top: 20px; font-size: 30px;">A 71-Year-Old from Kazakhstan's Honest Art Critique</p>
+    </div>
+
+    <!-- Scene 2: Las Meninas -->
+    <div class="scene museum-scene" id="scene-meninas">
+        <div class="painting-frame">
+            <div style="width: 100%; height: 100%; background: linear-gradient(to bottom, #8B7355, #A0826D); display: flex; align-items: center; justify-content: center; color: white; font-size: 40px; text-align: center; padding: 40px;">
+                Las Meninas<br>
+                <span style="font-size: 24px; margin-top: 20px; display: block;">Velázquez, 1656</span>
+                <div style="margin-top: 40px; font-size: 60px;">👨‍👩‍👧‍👦👶👸</div>
+            </div>
+            <div class="painting-label">Las Meninas - Velázquez, 1656</div>
+        </div>
+        <div class="grandma-section">
+            <div class="grandma-avatar">👵</div>
+            <div class="speech-bubble">
+                <p>"Why so many people in one room? This is like our apartment at Christmas. Very crowded."</p>
+            </div>
+            <div class="rating">⭐ 6/10</div>
+        </div>
+    </div>
+
+    <!-- Scene 3: Goya's Saturn -->
+    <div class="scene museum-scene" id="scene-saturn">
+        <div class="painting-frame">
+            <div style="width: 100%; height: 100%; background: linear-gradient(to bottom, #1a1a1a, #3a3a3a); display: flex; align-items: center; justify-content: center; color: #8B0000; font-size: 40px; text-align: center; padding: 40px;">
+                Saturn Devouring His Son<br>
+                <span style="font-size: 24px; margin-top: 20px; display: block; color: #666;">Goya, 1823</span>
+                <div style="margin-top: 40px; font-size: 100px;">😱</div>
+            </div>
+            <div class="painting-label">Saturn Devouring His Son - Goya, 1823</div>
+        </div>
+        <div class="grandma-section">
+            <div class="grandma-avatar">👵</div>
+            <div class="speech-bubble">
+                <p>"WAWAWEEWA! This artist needs THERAPY! And maybe sandwich! Why he eat his children?!"</p>
+            </div>
+            <div class="rating">⭐ 2/10 - TOO DISTURBING</div>
+        </div>
+    </div>
+
+    <!-- Scene 4: Garden of Earthly Delights -->
+    <div class="scene museum-scene" id="scene-bosch">
+        <div class="painting-frame">
+            <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #FF6B6B, #4ECDC4, #45B7D1, #96CEB4); display: flex; align-items: center; justify-content: center; color: white; font-size: 40px; text-align: center; padding: 40px;">
+                The Garden of Earthly Delights<br>
+                <span style="font-size: 24px; margin-top: 20px; display: block;">Bosch, 1515</span>
+                <div style="margin-top: 40px; font-size: 60px;">🤯🎨🌈🦄</div>
+            </div>
+            <div class="painting-label">Garden of Earthly Delights - Bosch, 1515</div>
+        </div>
+        <div class="grandma-section">
+            <div class="grandma-avatar">👵</div>
+            <div class="speech-bubble">
+                <p>"...what is HAPPENING here? Is this... dream after eating bad meat? I look 5 minutes. I have MORE questions."</p>
+            </div>
+            <div class="rating">⭐ 9/10 - CONFUSING BUT INTERESTING</div>
+        </div>
+    </div>
+
+    <!-- Scene 5: The Clothed Maja -->
+    <div class="scene museum-scene" id="scene-maja">
+        <div class="painting-frame">
+            <div style="width: 100%; height: 100%; background: linear-gradient(to bottom, #D4AF37, #F4E4C1); display: flex; align-items: center; justify-content: center; color: #8B7355; font-size: 40px; text-align: center; padding: 40px;">
+                The Clothed Maja<br>
+                <span style="font-size: 24px; margin-top: 20px; display: block;">Goya, 1800</span>
+                <div style="margin-top: 40px; font-size: 100px;">👗</div>
+            </div>
+            <div class="painting-label">The Clothed Maja - Goya, 1800</div>
+        </div>
+        <div class="grandma-section">
+            <div class="grandma-avatar">👵</div>
+            <div class="speech-bubble">
+                <p>"Now THIS is nice painting. Beautiful lady. Fully dressed. APPROPRIATE. Would hang in living room."</p>
+            </div>
+            <div class="rating">⭐ 8/10 - APPROVED</div>
+        </div>
+    </div>
+
+    <!-- Scene 6: Baby Interruption -->
+    <div class="scene museum-scene" id="scene-baby">
+        <div style="flex: 1; display: flex; align-items: center; justify-content: center; font-size: 300px;">
+            👶
+        </div>
+        <div class="grandma-section">
+            <div class="grandma-avatar">👵</div>
+            <div class="speech-bubble">
+                <p style="font-size: 40px; text-align: center; font-weight: bold;">*BABY CRYING LOUDLY*</p>
+                <p style="margin-top: 20px;">"Baby rates entire museum: 0/10. TOO QUIET."</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scene 7: Final Scene -->
+    <div class="scene" id="final-scene">
+        <h2>GREAT SUCCESS! 🇰🇿</h2>
+        <p>Grandma's Overall Museum Rating:</p>
+        <div style="background: rgba(255,255,255,0.2); padding: 40px; border-radius: 20px; margin: 40px 0;">
+            <p style="font-size: 80px; font-weight: bold;">7.5/10</p>
+            <p style="font-size: 35px; margin-top: 20px;">"Feet hurt. Art is nice. Baby is terrible art critic."</p>
+            <p style="font-size: 35px; margin-top: 20px;">"But museum has ELEVATOR so acceptable!"</p>
+        </div>
+        <p style="font-size: 40px; margin-top: 40px;">Subscribe for more Grandma reviews! 👵🎨</p>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button onclick="previousScene()">⏮️ Previous</button>
+        <button id="playPauseBtn" onclick="togglePlayPause()">▶️ Play</button>
+        <button onclick="nextScene()">⏭️ Next</button>
+        <button onclick="resetAnimation()">🔄 Reset</button>
+    </div>
+
+    <script>
+        const scenes = [
+            { id: 'title-scene', duration: 5000 },
+            { id: 'scene-meninas', duration: 8000 },
+            { id: 'scene-saturn', duration: 8000 },
+            { id: 'scene-bosch', duration: 10000 },
+            { id: 'scene-maja', duration: 8000 },
+            { id: 'scene-baby', duration: 6000 },
+            { id: 'final-scene', duration: 10000 }
+        ];
+
+        let currentScene = 0;
+        let isPlaying = false;
+        let startTime = Date.now();
+        let timerInterval;
+        let sceneTimeout;
+
+        function updateTimer() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const minutes = Math.floor(elapsed / 60);
+            const seconds = elapsed % 60;
+            document.getElementById('timer').textContent = 
+                `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
+
+        function showScene(index) {
+            document.querySelectorAll('.scene').forEach(scene => {
+                scene.classList.remove('active');
+            });
+            
+            if (index >= 0 && index < scenes.length) {
+                currentScene = index;
+                document.getElementById(scenes[index].id).classList.add('active');
+            }
+        }
+
+        function nextScene() {
+            if (currentScene < scenes.length - 1) {
+                showScene(currentScene + 1);
+                if (isPlaying) {
+                    scheduleNextScene();
+                }
+            } else {
+                pause();
+            }
+        }
+
+        function previousScene() {
+            if (currentScene > 0) {
+                showScene(currentScene - 1);
+            }
+        }
+
+        function scheduleNextScene() {
+            clearTimeout(sceneTimeout);
+            sceneTimeout = setTimeout(nextScene, scenes[currentScene].duration);
+        }
+
+        function play() {
+            isPlaying = true;
+            document.getElementById('playPauseBtn').innerHTML = '⏸️ Pause';
+            startTime = Date.now() - (currentScene * 7000); // Rough estimate
+            timerInterval = setInterval(updateTimer, 1000);
+            scheduleNextScene();
+        }
+
+        function pause() {
+            isPlaying = false;
+            document.getElementById('playPauseBtn').innerHTML = '▶️ Play';
+            clearInterval(timerInterval);
+            clearTimeout(sceneTimeout);
+        }
+
+        function togglePlayPause() {
+            if (isPlaying) {
+                pause();
+            } else {
+                play();
+            }
+        }
+
+        function resetAnimation() {
+            pause();
+            currentScene = 0;
+            showScene(0);
+            startTime = Date.now();
+            document.getElementById('timer').textContent = '00:00';
+        }
+
+        // Auto-play on load (for recording)
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                // Uncomment to auto-play:
+                // play();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

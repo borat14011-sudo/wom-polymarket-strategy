@@ -1,0 +1,14 @@
+{
+  "MUSK_FADE_EXTREMES": [],
+  "CRYPTO_FADE_BULL": [
+    {
+      "market_id": "540844",
+      "question": "Will bitcoin hit $1m before GTA VI?",
+      "volume": "3048126.776706",
+      "note": "Bullish crypto price target detected"
+    }
+  ],
+  "SHUTDOWN_POWER_LAW": [],
+  "SPOTIFY_MOMENTUM": [],
+  "PLAYER_PROPS_UNDER": []
+}

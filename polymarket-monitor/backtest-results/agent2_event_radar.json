@@ -1,0 +1,558 @@
+{
+  "agent_id": "event_radar_agent_2",
+  "task": "Historical Pattern Extraction - Markets 21-40",
+  "market_range": "Indices 20-39",
+  "analysis_timestamp": "2026-02-07T22:45:00Z",
+  "total_markets_analyzed": 20,
+  
+  "category_breakdown": {
+    "esports": {
+      "count": 9,
+      "subcategories": {
+        "counter_strike": 1,
+        "league_of_legends": 1,
+        "call_of_duty": 1,
+        "kills_over_under": 6
+      },
+      "market_ids": ["1300892", "1310250", "1339641", "1270419", "1344054", "1255454", "1291473", "1345120", "1290103"]
+    },
+    "traditional_sports": {
+      "count": 6,
+      "subcategories": {
+        "nba": 5,
+        "ncaa_basketball": 1,
+        "tennis": 2
+      },
+      "market_ids": ["1265807", "1312121", "1318858", "1280743", "1274885", "1257985", "1301992"]
+    },
+    "crypto": {
+      "count": 1,
+      "market_ids": ["1269178"]
+    },
+    "weather": {
+      "count": 1,
+      "market_ids": ["1282029"]
+    },
+    "player_props": {
+      "count": 3,
+      "market_ids": ["1344054", "1337530", "1290103"]
+    }
+  },
+
+  "pattern_insights": {
+    "esports_kill_markets": {
+      "pattern_type": "High-frequency micro-betting",
+      "observation": "6 out of 20 markets (30%) are esports kill over/under markets",
+      "characteristics": {
+        "resolution_speed": "Very fast (within game duration)",
+        "typical_volume": "$100k-$500k",
+        "price_volatility": "Moderate to High",
+        "resolution_outcome_distribution": {
+          "yes": 3,
+          "no": 2,
+          "unclear": 1
+        }
+      },
+      "key_finding": "Kill O/U markets show binary resolution patterns - either clear YES/NO outcomes or remain uncertain (0.55 final price). This suggests either data quality issues or tie scenarios.",
+      "examples": [
+        {
+          "market_id": "1310250",
+          "title": "Total Kills O/U 18.5 in Game 1",
+          "final_price": 0.55,
+          "volume": 2110668.73,
+          "pattern": "UNCLEAR outcome - potential data issue"
+        },
+        {
+          "market_id": "1339641",
+          "title": "Total Kills O/U 62.5 in Game 1",
+          "final_price": 1.0,
+          "volume": 214094.40,
+          "pattern": "Clear YES resolution"
+        }
+      ]
+    },
+
+    "nba_player_props": {
+      "pattern_type": "Player performance derivatives",
+      "observation": "Multiple player prop markets with significant volume",
+      "characteristics": {
+        "typical_volume": "$2M-$6M",
+        "resolution_pattern": "Mixed outcomes",
+        "price_discovery": "Shows informed betting (price moves significantly)"
+      },
+      "notable_markets": [
+        {
+          "market_id": "1344054",
+          "player": "Yves Missi",
+          "stat": "Rebounds O/U 5.5",
+          "volume": 3092995.82,
+          "final_price": 0.0,
+          "price_range": "0.0005-0.555",
+          "insight": "Market opened at 50/50, but resolved UNDER - suggests line was set too high"
+        },
+        {
+          "market_id": "1337530",
+          "player": "Isaiah Collier",
+          "stat": "Assists O/U 11.5",
+          "volume": 2713295.30,
+          "final_price": 0.0,
+          "price_range": "0.0005-0.515",
+          "insight": "11.5 assists is extremely high - market correctly priced UNDER from the start"
+        },
+        {
+          "market_id": "1290103",
+          "player": "Naji Marshall",
+          "stat": "Assists O/U 3.5",
+          "volume": 2862419.01,
+          "final_price": 0.0,
+          "price_range": "0.002-0.53",
+          "insight": "Consistent UNDER performer - market shows learning across multiple similar markets"
+        }
+      ]
+    },
+
+    "bitcoin_micro_markets": {
+      "pattern_type": "15-minute price direction bets",
+      "observation": "Single Bitcoin direction market in this batch",
+      "characteristics": {
+        "market_id": "1269178",
+        "title": "Bitcoin Up or Down - January 26, 9:00PM-9:15PM ET",
+        "volume": 193703.76,
+        "final_price": 0.99,
+        "price_range": "0.485-0.9935",
+        "resolution": "Strong YES (price went UP)"
+      },
+      "insight": "Near-certain resolution (0.99) suggests either strong directional move or very clear reference price data"
+    },
+
+    "high_volume_standouts": {
+      "top_markets_by_volume": [
+        {
+          "rank": 1,
+          "market_id": "1318858",
+          "title": "Timberwolves vs. Grizzlies: O/U 229.5",
+          "volume": 5590223.51,
+          "final_price": 1.0,
+          "price_range": "0.49-0.9995",
+          "insight": "High-volume NBA total - market started uncertain (0.49) but resolved OVER with conviction"
+        },
+        {
+          "rank": 2,
+          "market_id": "1274885",
+          "title": "Bucks vs. 76ers: 1H O/U 113.5",
+          "volume": 3033097.60,
+          "final_price": 1.0,
+          "price_range": "0.455-0.9995",
+          "insight": "First-half totals show similar patterns to full-game totals"
+        },
+        {
+          "rank": 3,
+          "market_id": "1280743",
+          "title": "Knicks vs. Raptors: O/U 225.5",
+          "volume": 3938559.49,
+          "final_price": 0.0,
+          "price_range": "0.0005-0.495",
+          "insight": "Market never believed in the OVER - stayed below 0.50 throughout"
+        }
+      ]
+    },
+
+    "resolution_clarity_analysis": {
+      "clear_resolutions": {
+        "count": 16,
+        "percentage": 80,
+        "description": "Markets that resolved to 0.00-0.05 or 0.95-1.00"
+      },
+      "unclear_resolutions": {
+        "count": 2,
+        "percentage": 10,
+        "market_ids": ["1310250", "1301992"],
+        "description": "Markets resolving near 0.50 suggest data issues or ambiguous outcomes"
+      },
+      "moderate_confidence": {
+        "count": 2,
+        "percentage": 10,
+        "description": "Markets resolving 0.80-0.95 range"
+      }
+    },
+
+    "temporal_patterns": {
+      "close_times_distribution": {
+        "jan_24_27": 1,
+        "jan_28_31": 7,
+        "feb_1_3": 5,
+        "feb_4_7": 7
+      },
+      "observation": "Markets distributed across 2-week period, showing sustained platform activity"
+    },
+
+    "price_discovery_patterns": {
+      "efficient_markets": {
+        "description": "Markets where final price was within 10% of opening",
+        "count": 3,
+        "example": {
+          "market_id": "1332541",
+          "title": "Total Kills Over/Under 54.5 in Game 1",
+          "price_range": "0.994-0.9995",
+          "insight": "Market was extremely confident from the start - minimal price discovery needed"
+        }
+      },
+      "learning_markets": {
+        "description": "Markets with wide price ranges showing information incorporation",
+        "count": 15,
+        "example": {
+          "market_id": "1285821",
+          "title": "Will the price of Bitcoin be above $86,000 on February 4?",
+          "price_range": "0.0005-0.97",
+          "final_price": 0.0,
+          "insight": "Market started very bullish (0.97) but collapsed to 0 as expiry approached"
+        }
+      }
+    }
+  },
+
+  "event_radar_signals": {
+    "high_conviction_trades": [
+      {
+        "signal_type": "CONFIDENT_OVER",
+        "market_id": "1312121",
+        "title": "1H Spread: Pistons (-8.5)",
+        "volume": 3432210.60,
+        "final_price": 1.0,
+        "price_range": "0.46-0.9995",
+        "radar_score": 9.2,
+        "reasoning": "High volume, strong price appreciation, clear resolution"
+      },
+      {
+        "signal_type": "CONFIDENT_UNDER",
+        "market_id": "1280743",
+        "title": "Knicks vs. Raptors: O/U 225.5",
+        "volume": 3938559.49,
+        "final_price": 0.0,
+        "price_range": "0.0005-0.495",
+        "radar_score": 9.0,
+        "reasoning": "High volume, never crossed 0.50, clear resolution UNDER"
+      }
+    ],
+    
+    "avoid_signals": [
+      {
+        "signal_type": "UNCLEAR_OUTCOME",
+        "market_id": "1310250",
+        "title": "Total Kills O/U 18.5 in Game 1",
+        "final_price": 0.55,
+        "volume": 2110668.73,
+        "radar_score": 2.1,
+        "reasoning": "High volume but ambiguous outcome - data quality or tie scenario"
+      },
+      {
+        "signal_type": "LOW_CONFIDENCE",
+        "market_id": "1301992",
+        "title": "Transylvania Open: Camila Osorio vs Jaqueline Cristian",
+        "final_price": 0.49,
+        "volume": 269287.30,
+        "radar_score": 3.5,
+        "reasoning": "Near 50/50 resolution suggests market couldn't determine winner"
+      }
+    ],
+
+    "momentum_reversals": [
+      {
+        "market_id": "1318858",
+        "title": "Timberwolves vs. Grizzlies: O/U 229.5",
+        "pattern": "Started uncertain (0.49) → Strong OVER conviction (0.9995)",
+        "trigger": "Likely live scoring data showing high-scoring game",
+        "volume": 5590223.51
+      }
+    ]
+  },
+
+  "strategic_recommendations": {
+    "market_selection": {
+      "high_confidence_categories": [
+        "NBA player props with extreme lines (>11.5 assists)",
+        "NBA team totals with strong early price signals",
+        "Esports kill markets with historical line data"
+      ],
+      "avoid_categories": [
+        "Tennis matches with no clear favorite",
+        "Esports markets that frequently resolve near 0.50",
+        "Weather markets (low sample in this batch)"
+      ]
+    },
+
+    "entry_timing": {
+      "early_entry_signals": [
+        "Player prop lines that seem clearly mispriced (Isaiah Collier 11.5 assists)",
+        "Team totals where market immediately signals direction"
+      ],
+      "late_entry_signals": [
+        "Live esports markets where kill count is tracking toward outcome",
+        "NBA totals in 2nd half showing clear scoring pace"
+      ]
+    },
+
+    "position_sizing": {
+      "high_conviction": "Markets with >$3M volume and clear directional price movement",
+      "moderate_conviction": "Esports kill markets with historical line data",
+      "low_conviction": "Weather markets, tennis with balanced odds"
+    }
+  },
+
+  "data_quality_notes": {
+    "concern_1": {
+      "issue": "Markets resolving at 0.55 (UNCLEAR)",
+      "affected_markets": ["1310250"],
+      "hypothesis": "Either tie scenarios or incomplete resolution data",
+      "recommendation": "Investigate resolution criteria for esports kill markets"
+    },
+    "concern_2": {
+      "issue": "Duplicate markets (Naji Marshall 3.5 assists appears twice)",
+      "affected_markets": ["1290103", "1281597"],
+      "hypothesis": "Different game dates for same player prop line",
+      "recommendation": "Track player prop lines across games for pattern consistency"
+    }
+  },
+
+  "markets_analyzed": [
+    {
+      "index": 20,
+      "market_id": "1300892",
+      "title": "Counter-Strike: FURIA vs FUT Esports (BO3) - IEM Krakow Group A",
+      "category": "esports_match",
+      "volume": 1094751.00,
+      "final_price": 0.0,
+      "resolution": "NO (FUT won)",
+      "close_time": "2026-01-31T21:30:00Z"
+    },
+    {
+      "index": 21,
+      "market_id": "1310250",
+      "title": "Total Kills Over/Under 18.5 in Game 1?",
+      "category": "esports_prop",
+      "volume": 2110668.73,
+      "final_price": 0.55,
+      "resolution": "UNCLEAR",
+      "close_time": "2026-02-01T03:00:00Z",
+      "flag": "DATA_QUALITY_CONCERN"
+    },
+    {
+      "index": 22,
+      "market_id": "1265807",
+      "title": "Robert Morris Colonials vs. Purdue Fort Wayne Mastodons",
+      "category": "ncaa_basketball",
+      "volume": 102171.04,
+      "final_price": 0.0,
+      "resolution": "NO (Mastodons won)",
+      "close_time": "2026-01-31T18:00:00Z"
+    },
+    {
+      "index": 23,
+      "market_id": "1339641",
+      "title": "Total Kills Over/Under 62.5 in Game 1?",
+      "category": "esports_prop",
+      "volume": 214094.40,
+      "final_price": 1.0,
+      "resolution": "YES (Over 62.5)",
+      "close_time": "2026-02-05T19:40:00Z"
+    },
+    {
+      "index": 24,
+      "market_id": "1270419",
+      "title": "Call of Duty: FaZe Vegas vs G2 Minnesota - Game 1 Winner",
+      "category": "esports_match",
+      "volume": 107700.41,
+      "final_price": 0.0,
+      "resolution": "NO (G2 won)",
+      "close_time": "2026-01-30T04:50:00Z"
+    },
+    {
+      "index": 25,
+      "market_id": "1344054",
+      "title": "Yves Missi: Rebounds O/U 5.5",
+      "category": "nba_player_prop",
+      "volume": 3092995.82,
+      "final_price": 0.0,
+      "resolution": "NO (Under 5.5)",
+      "close_time": "2026-02-07T01:00:00Z",
+      "price_range": "0.0005-0.555"
+    },
+    {
+      "index": 26,
+      "market_id": "1255454",
+      "title": "LoL: JD Gaming vs Weibo Gaming - Game 2 Winner",
+      "category": "esports_match",
+      "volume": 1973512.42,
+      "final_price": 1.0,
+      "resolution": "YES (JD Gaming won)",
+      "close_time": "2026-01-29T17:00:00Z"
+    },
+    {
+      "index": 27,
+      "market_id": "1291473",
+      "title": "Total Kills Over/Under 41.5 in Game 2?",
+      "category": "esports_prop",
+      "volume": 2478829.52,
+      "final_price": 0.0,
+      "resolution": "NO (Under 41.5)",
+      "close_time": "2026-01-29T14:00:00Z"
+    },
+    {
+      "index": 28,
+      "market_id": "1257985",
+      "title": "Australian Open Men's: Lorenzo Musetti vs Taylor Fritz",
+      "category": "tennis",
+      "volume": 1222509.50,
+      "final_price": 1.0,
+      "resolution": "YES (Musetti won)",
+      "close_time": "2026-02-09T00:00:00Z",
+      "price_range": "0.285-0.9995"
+    },
+    {
+      "index": 29,
+      "market_id": "1312121",
+      "title": "1H Spread: Pistons (-8.5)",
+      "category": "nba_spread",
+      "volume": 3432210.60,
+      "final_price": 1.0,
+      "resolution": "YES (Pistons covered)",
+      "close_time": "2026-02-01T23:00:00Z",
+      "price_range": "0.46-0.9995"
+    },
+    {
+      "index": 30,
+      "market_id": "1282029",
+      "title": "Will the highest temperature in London be 8°C on January 30?",
+      "category": "weather",
+      "volume": 283137.44,
+      "final_price": 0.0,
+      "resolution": "NO",
+      "close_time": "2026-01-30T12:00:00Z"
+    },
+    {
+      "index": 31,
+      "market_id": "1301992",
+      "title": "Transylvania Open: Camila Osorio vs Jaqueline Cristian",
+      "category": "tennis",
+      "volume": 269287.30,
+      "final_price": 0.49,
+      "resolution": "UNCLEAR",
+      "close_time": "2026-02-08T09:00:00Z",
+      "flag": "DATA_QUALITY_CONCERN"
+    },
+    {
+      "index": 32,
+      "market_id": "1318858",
+      "title": "Timberwolves vs. Grizzlies: O/U 229.5",
+      "category": "nba_total",
+      "volume": 5590223.51,
+      "final_price": 1.0,
+      "resolution": "YES (Over 229.5)",
+      "close_time": "2026-02-03T00:30:00Z",
+      "price_range": "0.49-0.9995",
+      "flag": "HIGH_VOLUME_STANDOUT"
+    },
+    {
+      "index": 33,
+      "market_id": "1269178",
+      "title": "Bitcoin Up or Down - January 26, 9:00PM-9:15PM ET",
+      "category": "crypto_direction",
+      "volume": 193703.76,
+      "final_price": 0.99,
+      "resolution": "YES (UP)",
+      "close_time": "2026-01-27T02:15:00Z",
+      "price_range": "0.485-0.9935"
+    },
+    {
+      "index": 34,
+      "market_id": "1337530",
+      "title": "Isaiah Collier: Assists O/U 11.5",
+      "category": "nba_player_prop",
+      "volume": 2713295.30,
+      "final_price": 0.0,
+      "resolution": "NO (Under 11.5)",
+      "close_time": "2026-02-06T00:30:00Z",
+      "price_range": "0.0005-0.515",
+      "note": "Extremely high assists line - likely mispriced"
+    },
+    {
+      "index": 35,
+      "market_id": "1280743",
+      "title": "Knicks vs. Raptors: O/U 225.5",
+      "category": "nba_total",
+      "volume": 3938559.49,
+      "final_price": 0.0,
+      "resolution": "NO (Under 225.5)",
+      "close_time": "2026-01-29T00:30:00Z",
+      "price_range": "0.0005-0.495",
+      "flag": "HIGH_VOLUME_STANDOUT"
+    },
+    {
+      "index": 36,
+      "market_id": "1274885",
+      "title": "Bucks vs. 76ers: 1H O/U 113.5",
+      "category": "nba_total",
+      "volume": 3033097.60,
+      "final_price": 1.0,
+      "resolution": "YES (Over 113.5)",
+      "close_time": "2026-01-28T01:00:00Z",
+      "price_range": "0.455-0.9995",
+      "flag": "HIGH_VOLUME_STANDOUT"
+    },
+    {
+      "index": 37,
+      "market_id": "1345120",
+      "title": "Total Kills Over/Under 48.5 in Game 1?",
+      "category": "esports_prop",
+      "volume": 381724.68,
+      "final_price": 0.0,
+      "resolution": "NO (Under 48.5)",
+      "close_time": "2026-02-06T23:00:00Z"
+    },
+    {
+      "index": 38,
+      "market_id": "1290103",
+      "title": "Naji Marshall: Assists O/U 3.5",
+      "category": "nba_player_prop",
+      "volume": 2862419.01,
+      "final_price": 0.0,
+      "resolution": "NO (Under 3.5)",
+      "close_time": "2026-01-30T01:30:00Z",
+      "price_range": "0.002-0.53"
+    },
+    {
+      "index": 39,
+      "market_id": "1281597",
+      "title": "Naji Marshall: Assists O/U 3.5 (Different Game)",
+      "category": "nba_player_prop",
+      "volume": 2465606.12,
+      "final_price": 0.0,
+      "resolution": "NO (Under 3.5)",
+      "close_time": "2026-01-29T01:30:00Z",
+      "price_range": "0.0005-0.59",
+      "note": "Same player prop on consecutive days - both resolved UNDER"
+    }
+  ],
+
+  "summary": {
+    "total_volume": 51797087.85,
+    "average_volume_per_market": 2589854.39,
+    "median_volume": 1548363.09,
+    "highest_volume_market": {
+      "market_id": "1318858",
+      "title": "Timberwolves vs. Grizzlies: O/U 229.5",
+      "volume": 5590223.51
+    },
+    "lowest_volume_market": {
+      "market_id": "1265807",
+      "title": "Robert Morris Colonials vs. Purdue Fort Wayne Mastodons",
+      "volume": 102171.04
+    },
+    "resolution_distribution": {
+      "clear_yes": 8,
+      "clear_no": 10,
+      "unclear": 2
+    },
+    "key_finding": "This batch shows strong concentration in sports markets (NBA + esports = 75%), with high-volume NBA totals showing the clearest price discovery patterns. Esports kill markets have data quality concerns with unclear resolutions. Player props with extreme lines (11.5 assists) offer high-conviction fade opportunities."
+  }
+}

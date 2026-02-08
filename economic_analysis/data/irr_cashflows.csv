@@ -1,0 +1,11 @@
+Cash_Flow_Type,Month_0,Month_1,Month_2,Month_3,Month_4,Month_5,Month_6,Month_7,Month_8,Month_9,Month_10,Month_11,Month_12
+Initial_Investment,-1000,0,0,0,0,0,0,0,0,0,0,0,0
+Portfolio_Value,1000,1027,1058,1068,1096,1117,1124,1143,1160,1169,1206,1221,1251
+Cash_Flow,-1000,0,0,0,0,0,0,0,0,0,0,0,0
+Cumulative_CF,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000
+
+Cash_Flow_Type,Month_13,Month_14,Month_15,Month_16,Month_17,Month_18,Month_19,Month_20,Month_21,Month_22,Month_23,Month_24,Total
+Initial_Investment,0,0,0,0,0,0,0,0,0,0,0,0,-1000
+Portfolio_Value,1284,1333,1353,1384,1410,1421,1445,1460,1470,1502,1516,1543,1543
+Cash_Flow,0,0,0,0,0,0,0,0,0,0,0,1379,1379
+Cumulative_CF,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,-1000,379,379

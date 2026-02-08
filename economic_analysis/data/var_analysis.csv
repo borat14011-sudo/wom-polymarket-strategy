@@ -1,0 +1,5 @@
+Confidence_Level,Z_Score,Daily_VaR_Pct,Weekly_VaR_Pct,Monthly_VaR_Pct,Daily_VaR_Amount,Weekly_VaR_Amount,Monthly_VaR_Amount
+90%,1.282,1.08,2.41,4.94,14.90,33.25,68.14
+95%,1.645,1.38,3.09,6.33,19.03,42.62,87.29
+99%,2.326,1.96,4.37,8.95,27.04,60.38,123.45
+99.5%,2.576,2.16,4.83,9.91,29.80,66.23,135.70

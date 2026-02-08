@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading System Dashboard</title>
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <style>
+        /* ============================================================
+           DARK THEME STYLES
+           ============================================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bg-primary: #0a0e27;
+            --bg-secondary: #131829;
+            --bg-card: #1a1f3a;
+            --bg-hover: #242b4a;
+            --text-primary: #e8eaed;
+            --text-secondary: #9aa0b8;
+            --accent-blue: #4da3ff;
+            --accent-green: #00c851;
+            --accent-red: #ff4444;
+            --accent-yellow: #ffbb33;
+            --border-color: #2a3150;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* ============================================================
+           HEADER
+           ============================================================ */
+        header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow);
+        }
+        
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+        }
+        
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--bg-card);
+            border-radius: 8px;
+            font-size: 0.875rem;
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-green);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .last-update {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+        
+        /* ============================================================
+           NAVIGATION
+           ============================================================ */
+        nav {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 0.5rem 2rem;
+            position: sticky;
+            top: 73px;
+            z-index: 99;
+        }
+        
+        .nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 0.5rem;
+            overflow-x: auto;
+        }
+        
+        .nav-btn {
+            padding: 0.75rem 1.5rem;
+            background: transparent;
+            color: var(--text-secondary);
+            border: none;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-radius: 6px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        
+        .nav-btn:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+        
+        .nav-btn.active {
+            background: var(--accent-blue);
+            color: white;
+        }
+        
+        /* ============================================================
+           MAIN CONTAINER
+           ============================================================ */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .view {
+            display: none;
+        }
+        
+        .view.active {
+            display: block;
+        }
+        
+        /* ============================================================
+           CARDS
+           ============================================================ */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        
+        .stat-change {
+            font-size: 0.875rem;
+            margin-top: 0.5rem;
+        }
+        
+        .positive { color: var(--accent-green); }
+        .negative { color: var(--accent-red); }
+        .neutral { color: var(--text-secondary); }
+        
+        /* ============================================================
+           TABLE
+           ============================================================ */
+        .table-container {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        thead {
+            background: var(--bg-secondary);
+        }
+        
+        th {
+            text-align: left;
+            padding: 1rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        tbody tr {
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        tbody tr:hover {
+            background: var(--bg-hover);
+        }
+        
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .badge-buy { background: rgba(0, 200, 81, 0.2); color: var(--accent-green); }
+        .badge-sell { background: rgba(255, 68, 68, 0.2); color: var(--accent-red); }
+        .badge-neutral { background: rgba(154, 160, 184, 0.2); color: var(--text-secondary); }
+        
+        /* ============================================================
+           CHARTS
+           ============================================================ */
+        .chart-container {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+        }
+        
+        .chart-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        
+        canvas {
+            max-height: 400px;
+        }
+        
+        /* ============================================================
+           LOADING & ERROR
+           ============================================================ */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+        
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border-color);
+            border-top-color: var(--accent-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .error {
+            background: rgba(255, 68, 68, 0.1);
+            border: 1px solid var(--accent-red);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            color: var(--accent-red);
+        }
+        
+        /* ============================================================
+           MODAL (for market details)
+           ============================================================ */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .modal-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+        
+        .modal-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .modal-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        
+        .close-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            line-height: 1;
+        }
+        
+        .close-btn:hover {
+            color: var(--text-primary);
+        }
+        
+        .modal-body {
+            padding: 1.5rem;
+        }
+        
+        /* ============================================================
+           RESPONSIVE
+           ============================================================ */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            header {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 1.25rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            table {
+                font-size: 0.875rem;
+            }
+            
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+            
+            .modal-content {
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>📊 Trading System Dashboard</h1>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span id="connection-status">Connected</span>
+            </div>
+            <div class="last-update" id="last-update">Last update: --</div>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <button class="nav-btn active" onclick="showView('home')">Home</button>
+            <button class="nav-btn" onclick="showView('markets')">Markets</button>
+            <button class="nav-btn" onclick="showView('signals')">Signals</button>
+            <button class="nav-btn" onclick="showView('performance')">Performance</button>
+            <button class="nav-btn" onclick="showView('top-hype')">Top Hype</button>
+        </div>
+    </nav>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- HOME VIEW -->
+        <div id="home-view" class="view active">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Total Markets</div>
+                    <div class="stat-value" id="stat-markets">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total Snapshots</div>
+                    <div class="stat-value" id="stat-snapshots">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total Tweets</div>
+                    <div class="stat-value" id="stat-tweets">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Database Size</div>
+                    <div class="stat-value" id="stat-db-size">--</div>
+                </div>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Last Market Update</div>
+                    <div class="stat-value" style="font-size: 1rem;" id="last-market-update">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Last Twitter Update</div>
+                    <div class="stat-value" style="font-size: 1rem;" id="last-twitter-update">--</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- MARKETS VIEW -->
+        <div id="markets-view" class="view">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Market</th>
+                            <th>Category</th>
+                            <th>Current Price</th>
+                            <th>24h Change</th>
+                            <th>Volume 24h</th>
+                            <th>Hype Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="markets-table">
+                        <tr><td colspan="6" class="loading">Loading markets...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- SIGNALS VIEW -->
+        <div id="signals-view" class="view">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Market</th>
+                            <th>Signal</th>
+                            <th>Price at Signal</th>
+                            <th>Current Price</th>
+                            <th>P&L</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="signals-table">
+                        <tr><td colspan="7" class="loading">Loading signals...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- PERFORMANCE VIEW -->
+        <div id="performance-view" class="view">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Total Trades</div>
+                    <div class="stat-value" id="perf-total-trades">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Win Rate</div>
+                    <div class="stat-value" id="perf-win-rate">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total P&L</div>
+                    <div class="stat-value" id="perf-total-pnl">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Max Drawdown</div>
+                    <div class="stat-value" id="perf-max-drawdown">--</div>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <div class="chart-title">Equity Curve</div>
+                <canvas id="equity-chart"></canvas>
+            </div>
+        </div>
+        
+        <!-- TOP HYPE VIEW -->
+        <div id="top-hype-view" class="view">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Market</th>
+                            <th>Category</th>
+                            <th>Hype Score</th>
+                            <th>Tweet Count</th>
+                            <th>Velocity</th>
+                            <th>Current Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="top-hype-table">
+                        <tr><td colspan="7" class="loading">Loading top hype markets...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Market Details -->
+    <div id="market-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-title">Market Details</div>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading market details...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // ============================================================
+        // CONFIGURATION
+        // ============================================================
+        const API_BASE = 'http://localhost:5000/api';
+        const REFRESH_INTERVAL = 60000; // 60 seconds
+        let refreshTimer = null;
+        let currentView = 'home';
+        
+        // ============================================================
+        // VIEW MANAGEMENT
+        // ============================================================
+        function showView(viewName) {
+            // Hide all views
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            
+            // Show selected view
+            document.getElementById(`${viewName}-view`).classList.add('active');
+            event.target.classList.add('active');
+            
+            currentView = viewName;
+            
+            // Load data for view
+            loadViewData(viewName);
+        }
+        
+        function loadViewData(viewName) {
+            switch(viewName) {
+                case 'home':
+                    loadHomeData();
+                    break;
+                case 'markets':
+                    loadMarkets();
+                    break;
+                case 'signals':
+                    loadSignals();
+                    break;
+                case 'performance':
+                    loadPerformance();
+                    break;
+                case 'top-hype':
+                    loadTopHype();
+                    break;
+            }
+        }
+        
+        // ============================================================
+        // API CALLS
+        // ============================================================
+        async function fetchAPI(endpoint) {
+            try {
+                const response = await fetch(`${API_BASE}${endpoint}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                return await response.json();
+            } catch (error) {
+                console.error(`API Error (${endpoint}):`, error);
+                updateConnectionStatus(false);
+                throw error;
+            }
+        }
+        
+        function updateConnectionStatus(connected) {
+            const statusEl = document.getElementById('connection-status');
+            const dotEl = document.querySelector('.status-dot');
+            
+            if (connected) {
+                statusEl.textContent = 'Connected';
+                dotEl.style.background = 'var(--accent-green)';
+            } else {
+                statusEl.textContent = 'Disconnected';
+                dotEl.style.background = 'var(--accent-red)';
+            }
+        }
+        
+        function updateLastUpdate() {
+            const now = new Date();
+            document.getElementById('last-update').textContent = 
+                `Last update: ${now.toLocaleTimeString()}`;
+        }
+        
+        // ============================================================
+        // HOME VIEW
+        // ============================================================
+        async function loadHomeData() {
+            try {
+                const data = await fetchAPI('/status');
+                updateConnectionStatus(true);
+                
+                document.getElementById('stat-markets').textContent = 
+                    data.database.markets.toLocaleString();
+                document.getElementById('stat-snapshots').textContent = 
+                    data.database.snapshots.toLocaleString();
+                document.getElementById('stat-tweets').textContent = 
+                    data.database.tweets.toLocaleString();
+                document.getElementById('stat-db-size').textContent = 
+                    `${data.database.size_mb} MB`;
+                
+                document.getElementById('last-market-update').textContent = 
+                    formatTimestamp(data.last_collection.market_data);
+                document.getElementById('last-twitter-update').textContent = 
+                    formatTimestamp(data.last_collection.twitter_data);
+                
+                updateLastUpdate();
+            } catch (error) {
+                console.error('Failed to load home data:', error);
+            }
+        }
+        
+        // ============================================================
+        // MARKETS VIEW
+        // ============================================================
+        async function loadMarkets() {
+            try {
+                const data = await fetchAPI('/markets');
+                const tbody = document.getElementById('markets-table');
+                
+                if (data.markets.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="6" class="loading">No markets found</td></tr>';
+                    return;
+                }
+                
+                tbody.innerHTML = data.markets.map(m => `
+                    <tr onclick="showMarketDetail('${m.market_id}')">
+                        <td>${truncate(m.question, 60)}</td>
+                        <td>${m.category || '--'}</td>
+                        <td>${formatPrice(m.current_price)}</td>
+                        <td class="${m.price_change_pct > 0 ? 'positive' : m.price_change_pct < 0 ? 'negative' : 'neutral'}">
+                            ${formatChange(m.price_change_pct)}
+                        </td>
+                        <td>${formatVolume(m.volume_24h)}</td>
+                        <td>${formatHypeScore(m.hype_score)}</td>
+                    </tr>
+                `).join('');
+                
+                updateLastUpdate();
+            } catch (error) {
+                document.getElementById('markets-table').innerHTML = 
+                    '<tr><td colspan="6" class="error">Failed to load markets</td></tr>';
+            }
+        }
+        
+        // ============================================================
+        // SIGNALS VIEW
+        // ============================================================
+        async function loadSignals() {
+            try {
+                const data = await fetchAPI('/signals');
+                const tbody = document.getElementById('signals-table');
+                
+                if (data.signals.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" class="loading">No signals found</td></tr>';
+                    return;
+                }
+                
+                tbody.innerHTML = data.signals.map(s => `
+                    <tr>
+                        <td>${formatTime(s.timestamp)}</td>
+                        <td>${truncate(s.question, 40)}</td>
+                        <td><span class="badge badge-${s.signal_type.toLowerCase()}">${s.signal_type}</span></td>
+                        <td>${formatPrice(s.price_at_signal)}</td>
+                        <td>${formatPrice(s.current_price)}</td>
+                        <td class="${s.pnl_pct > 0 ? 'positive' : s.pnl_pct < 0 ? 'negative' : 'neutral'}">
+                            ${formatChange(s.pnl_pct)}
+                        </td>
+                        <td>${s.correct === true ? '✅' : s.correct === false ? '❌' : '⏳'}</td>
+                    </tr>
+                `).join('');
+                
+                updateLastUpdate();
+            } catch (error) {
+                document.getElementById('signals-table').innerHTML = 
+                    '<tr><td colspan="7" class="error">Failed to load signals</td></tr>';
+            }
+        }
+        
+        // ============================================================
+        // PERFORMANCE VIEW
+        // ============================================================
+        let equityChart = null;
+        
+        async function loadPerformance() {
+            try {
+                const data = await fetchAPI('/performance');
+                
+                // Update metrics
+                document.getElementById('perf-total-trades').textContent = data.metrics.total_trades;
+                document.getElementById('perf-win-rate').textContent = `${data.metrics.win_rate}%`;
+                document.getElementById('perf-total-pnl').textContent = formatPrice(data.metrics.total_pnl);
+                document.getElementById('perf-max-drawdown').textContent = formatPrice(data.metrics.max_drawdown);
+                
+                // Draw equity curve
+                drawEquityCurve(data.equity_curve);
+                
+                updateLastUpdate();
+            } catch (error) {
+                console.error('Failed to load performance:', error);
+            }
+        }
+        
+        function drawEquityCurve(equityCurve) {
+            const ctx = document.getElementById('equity-chart').getContext('2d');
+            
+            // Destroy existing chart
+            if (equityChart) {
+                equityChart.destroy();
+            }
+            
+            equityChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: equityCurve.map(e => formatTime(e.timestamp)),
+                    datasets: [{
+                        label: 'Cumulative P&L',
+                        data: equityCurve.map(e => e.cumulative_pnl),
+                        borderColor: 'rgb(77, 163, 255)',
+                        backgroundColor: 'rgba(77, 163, 255, 0.1)',
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(26, 31, 58, 0.95)',
+                            titleColor: '#e8eaed',
+                            bodyColor: '#e8eaed',
+                            borderColor: '#2a3150',
+                            borderWidth: 1
+                        }
+                    },
+                    scales: {
+                        y: {
+                            grid: {
+                                color: 'rgba(42, 49, 80, 0.5)'
+                            },
+                            ticks: {
+                                color: '#9aa0b8'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                color: 'rgba(42, 49, 80, 0.5)'
+                            },
+                            ticks: {
+                                color: '#9aa0b8',
+                                maxRotation: 45,
+                                minRotation: 45
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        // ============================================================
+        // TOP HYPE VIEW
+        // ============================================================
+        async function loadTopHype() {
+            try {
+                const data = await fetchAPI('/top-hype');
+                const tbody = document.getElementById('top-hype-table');
+                
+                if (data.markets.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" class="loading">No hype data found</td></tr>';
+                    return;
+                }
+                
+                tbody.innerHTML = data.markets.map((m, idx) => `
+                    <tr onclick="showMarketDetail('${m.market_id}')">
+                        <td><strong>#${idx + 1}</strong></td>
+                        <td>${truncate(m.question, 50)}</td>
+                        <td>${m.category || '--'}</td>
+                        <td><strong style="color: var(--accent-yellow)">${m.hype_score.toFixed(1)}</strong></td>
+                        <td>${m.tweet_count || 0}</td>
+                        <td>${formatVelocity(m.velocity)}</td>
+                        <td>${formatPrice(m.current_price)}</td>
+                    </tr>
+                `).join('');
+                
+                updateLastUpdate();
+            } catch (error) {
+                document.getElementById('top-hype-table').innerHTML = 
+                    '<tr><td colspan="7" class="error">Failed to load top hype markets</td></tr>';
+            }
+        }
+        
+        // ============================================================
+        // MARKET DETAIL MODAL
+        // ============================================================
+        async function showMarketDetail(marketId) {
+            const modal = document.getElementById('market-modal');
+            modal.classList.add('active');
+            
+            document.getElementById('modal-body').innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading market details...</p>
+                </div>
+            `;
+            
+            try {
+                const data = await fetchAPI(`/markets/${marketId}`);
+                
+                document.getElementById('modal-title').textContent = data.market.question;
+                
+                // Build modal content
+                let content = `
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-label">Current Price</div>
+                            <div class="stat-value">${formatPrice(data.price_history[data.price_history.length - 1]?.price_yes)}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Category</div>
+                            <div class="stat-value" style="font-size: 1rem;">${data.market.category || 'N/A'}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Total Tweets</div>
+                            <div class="stat-value">${data.top_tweets.length}</div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 2rem;">
+                        <h3 style="margin-bottom: 1rem;">Top Tweets by Engagement</h3>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Author</th>
+                                        <th>Tweet</th>
+                                        <th>Engagement</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${data.top_tweets.map(t => `
+                                        <tr>
+                                            <td>@${t.author_username}</td>
+                                            <td>${truncate(t.text, 80)}</td>
+                                            <td>${t.engagement_score}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+                
+                document.getElementById('modal-body').innerHTML = content;
+            } catch (error) {
+                document.getElementById('modal-body').innerHTML = 
+                    '<div class="error">Failed to load market details</div>';
+            }
+        }
+        
+        function closeModal() {
+            document.getElementById('market-modal').classList.remove('active');
+        }
+        
+        // Close modal on outside click
+        document.getElementById('market-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+        
+        // ============================================================
+        // FORMATTING UTILITIES
+        // ============================================================
+        function formatPrice(price) {
+            if (price === null || price === undefined) return '--';
+            return `$${price.toFixed(3)}`;
+        }
+        
+        function formatChange(pct) {
+            if (pct === null || pct === undefined) return '--';
+            const sign = pct > 0 ? '+' : '';
+            return `${sign}${pct.toFixed(2)}%`;
+        }
+        
+        function formatVolume(volume) {
+            if (volume === null || volume === undefined) return '--';
+            if (volume >= 1000000) return `$${(volume / 1000000).toFixed(2)}M`;
+            if (volume >= 1000) return `$${(volume / 1000).toFixed(1)}K`;
+            return `$${volume.toFixed(0)}`;
+        }
+        
+        function formatHypeScore(score) {
+            if (score === null || score === undefined) return '--';
+            return score.toFixed(1);
+        }
+        
+        function formatVelocity(vel) {
+            if (vel === null || vel === undefined) return '--';
+            return `${vel > 0 ? '+' : ''}${(vel * 100).toFixed(0)}%`;
+        }
+        
+        function formatTimestamp(ts) {
+            if (!ts) return 'Never';
+            const date = new Date(ts);
+            return date.toLocaleString();
+        }
+        
+        function formatTime(ts) {
+            if (!ts) return '--';
+            const date = new Date(ts);
+            return date.toLocaleTimeString();
+        }
+        
+        function truncate(str, len) {
+            if (!str) return '--';
+            return str.length > len ? str.substring(0, len) + '...' : str;
+        }
+        
+        // ============================================================
+        // AUTO-REFRESH
+        // ============================================================
+        function startAutoRefresh() {
+            stopAutoRefresh(); // Clear any existing timer
+            
+            refreshTimer = setInterval(() => {
+                loadViewData(currentView);
+            }, REFRESH_INTERVAL);
+        }
+        
+        function stopAutoRefresh() {
+            if (refreshTimer) {
+                clearInterval(refreshTimer);
+                refreshTimer = null;
+            }
+        }
+        
+        // ============================================================
+        // INITIALIZATION
+        // ============================================================
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Dashboard initialized');
+            loadHomeData();
+            startAutoRefresh();
+        });
+        
+        // Stop refresh when page is hidden
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                stopAutoRefresh();
+            } else {
+                startAutoRefresh();
+            }
+        });
+    </script>
+</body>
+</html>

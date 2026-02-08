@@ -1,0 +1,32 @@
+[
+  {
+    "market_id": "1314120",
+    "question": "Will the price of Bitcoin be above $68,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.825,
+    "volume": "478188.451151",
+    "liquidity": "17855.38554",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9,
+    "yes_price": 82.5,
+    "no_price": 17.500000000000004,
+    "profit_per_dollar": 0.825,
+    "roi_percent": 471.4285714285713,
+    "expected_roi": 253.7142857142856
+  },
+  {
+    "market_id": "1320388",
+    "question": "Will the price of Bitcoin be above $68,000 on February 9?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.7145,
+    "volume": "146444.571675",
+    "liquidity": "13998.966",
+    "end_date": "2026-02-09T17:00:00Z",
+    "expected_win": 61.9,
+    "yes_price": 71.45,
+    "no_price": 28.549999999999997,
+    "profit_per_dollar": 0.7145,
+    "roi_percent": 250.2626970227671,
+    "expected_roi": 116.81260945709285
+  }
+]

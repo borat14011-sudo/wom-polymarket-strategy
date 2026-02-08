@@ -1,0 +1,22 @@
+{
+  "_comment": "Kill Switch Configuration Example",
+  "_comment2": "Copy to kill-switch-config.json and customize",
+  
+  "circuit_breaker_pct": -15.0,
+  "_circuit_breaker_help": "Trigger if balance drops this % from peak (e.g., -15.0 = 15% drop)",
+  
+  "daily_loss_limit_pct": -5.0,
+  "_daily_loss_limit_help": "Trigger if daily loss exceeds this % (e.g., -5.0 = 5% daily loss)",
+  
+  "cooldown_hours": 24,
+  "_cooldown_help": "Hours before reset is allowed after trigger (default: 24)",
+  
+  "state_file": "kill-switch-state.json",
+  "_state_file_help": "File to store kill switch state",
+  
+  "log_file": "kill-switch-audit.log",
+  "_log_file_help": "Audit log file",
+  
+  "emergency_file": "EMERGENCY_STOP",
+  "_emergency_file_help": "Touch this file to trigger emergency stop"
+}

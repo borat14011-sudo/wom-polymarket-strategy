@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-02-07T13:10:47.835874",
+  "method": "walk_forward_no_lookahead",
+  "dataset_size": 17324,
+  "strategies": [
+    {
+      "strategy": "Trend Filter (Fixed)",
+      "trades": 5615,
+      "wins": 5333,
+      "losses": 282,
+      "win_rate": 94.97773820124667,
+      "avg_pnl": 0.35185040071237755,
+      "avg_win": 0.37061447590474406,
+      "avg_loss": -0.003003546099290783
+    },
+    {
+      "strategy": "Time Horizon <3d (Fixed)",
+      "trades": 4267,
+      "wins": 1441,
+      "losses": 2826,
+      "win_rate": 33.77079915631591,
+      "avg_pnl": -0.020302671666276077,
+      "avg_win": 0.1993615544760583,
+      "avg_loss": -0.13231121726822365
+    },
+    {
+      "strategy": "NO-Side Bias (Fixed)",
+      "trades": 2584,
+      "wins": 1887,
+      "losses": 697,
+      "win_rate": 73.02631578947368,
+      "avg_pnl": -0.003323722910216702,
+      "avg_win": 0.03842368839427665,
+      "avg_loss": -0.11634720229555238
+    }
+  ]
+}

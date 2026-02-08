@@ -1,0 +1,68 @@
+[
+  {
+    "name": "MUSK_HYPE_FADE",
+    "status": "VALIDATED",
+    "trades": 1903,
+    "win_rate": 0.8491854965843405,
+    "pvalue": 0.0,
+    "net_pnl": 123385.0,
+    "roi": 0.6483709931686811,
+    "train_wr": 0.8378378378378378,
+    "test_wr": 0.8756567425569177
+  },
+  {
+    "name": "TECH_HYPE_FADE",
+    "status": "VALIDATED",
+    "trades": 447,
+    "win_rate": 0.6733780760626398,
+    "pvalue": 1.1401990462900358e-13,
+    "net_pnl": 13265.0,
+    "roi": 0.2967561521252796,
+    "train_wr": 0.6762820512820513,
+    "test_wr": 0.6666666666666666
+  },
+  {
+    "name": "MICRO_MARKET_FADE",
+    "status": "VALIDATED",
+    "trades": 23324,
+    "win_rate": 0.7140713428228435,
+    "pvalue": 0.0,
+    "net_pnl": 881980.0,
+    "roi": 0.37814268564568687,
+    "train_wr": 0.7545020213156928,
+    "test_wr": 0.6197484995713061
+  },
+  {
+    "name": "WILL_PREDICTION_FADE",
+    "status": "VALIDATED",
+    "trades": 48699,
+    "win_rate": 0.7672026119632847,
+    "pvalue": 0.0,
+    "net_pnl": 2359005.0,
+    "roi": 0.4844052239265693,
+    "train_wr": 0.7848279503652205,
+    "test_wr": 0.7260780287474332
+  },
+  {
+    "name": "CRYPTO_HYPE_FADE",
+    "status": "VALIDATED",
+    "trades": 19171,
+    "win_rate": 0.5845287152469877,
+    "pvalue": 0.0,
+    "net_pnl": 228245.0,
+    "roi": 0.11905743049397527,
+    "train_wr": 0.5709814442208808,
+    "test_wr": 0.6161335187760779
+  },
+  {
+    "name": "CELEBRITY_FADE",
+    "status": "VALIDATED",
+    "trades": 6081,
+    "win_rate": 0.6493997697747081,
+    "pvalue": 0.0,
+    "net_pnl": 151295.0,
+    "roi": 0.24879953954941622,
+    "train_wr": 0.6548402255639098,
+    "test_wr": 0.6367123287671232
+  }
+]

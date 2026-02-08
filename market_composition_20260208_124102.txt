@@ -1,0 +1,50 @@
+================================================================================
+POLYMARKET COMPOSITION ANALYSIS
+Generated: 2026-02-08 12:41:02
+Markets Analyzed: 200
+================================================================================
+
+### MARKET CATEGORIES
+----------------------------------------
+  Other             91 markets ( 45.5%)
+  Sports            65 markets ( 32.5%)
+  Crypto            16 markets (  8.0%)
+  Political         11 markets (  5.5%)
+  Elon/Musk          8 markets (  4.0%)
+  Tech               4 markets (  2.0%)
+  Weather            2 markets (  1.0%)
+  Entertainment      2 markets (  1.0%)
+  Economic           1 markets (  0.5%)
+
+### PRICE DISTRIBUTION (YES)
+----------------------------------------
+  0-10%         0 (  0.0%) 
+  10-25%        0 (  0.0%) 
+  25-40%        0 (  0.0%) 
+  40-60%      200 (100.0%) ##################################################
+  60-75%        0 (  0.0%) 
+  75-90%        0 (  0.0%) 
+  90-100%       0 (  0.0%) 
+
+### VOLUME DISTRIBUTION
+----------------------------------------
+  0-10K        10 markets (  5.0%)
+  10K-100K     30 markets ( 15.0%)
+  100K-1M      68 markets ( 34.0%)
+  1M+          92 markets ( 46.0%)
+
+### HIGH CONFIDENCE MARKETS (>90% YES) - FADE CANDIDATES
+----------------------------------------
+  No markets above 90% confidence
+
+### LOW CONFIDENCE MARKETS (<15% YES) - VALUE CANDIDATES
+----------------------------------------
+  No markets below 15% confidence
+
+### POTENTIAL PATTERN OPPORTUNITIES
+----------------------------------------
+
+  [MEDIUM] Category concentrations detected
+           Other dominates with 91 markets
+
+================================================================================

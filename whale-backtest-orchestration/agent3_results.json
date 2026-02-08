@@ -1,0 +1,74 @@
+{
+  "0.0%": {
+    "slippage_pct": 0.0,
+    "total_return_pct": 8.225027805860845,
+    "sharpe_ratio": 0.16632487209059224,
+    "profitable": true,
+    "edge_lost_pct": 0,
+    "total_slippage_cost": 0.0
+  },
+  "0.5%": {
+    "slippage_pct": 0.005,
+    "total_return_pct": 7.720027805860845,
+    "sharpe_ratio": 0.15611286279551145,
+    "profitable": true,
+    "edge_lost_pct": 6.139796872664148,
+    "total_slippage_cost": 50.5
+  },
+  "1.0%": {
+    "slippage_pct": 0.01,
+    "total_return_pct": 7.215027805860845,
+    "sharpe_ratio": 0.14590085350043058,
+    "profitable": true,
+    "edge_lost_pct": 12.279593745328285,
+    "total_slippage_cost": 101.0
+  },
+  "1.5%": {
+    "slippage_pct": 0.015,
+    "total_return_pct": 6.710027805860845,
+    "sharpe_ratio": 0.1356888442053498,
+    "profitable": true,
+    "edge_lost_pct": 18.419390617992423,
+    "total_slippage_cost": 151.5
+  },
+  "2.0%": {
+    "slippage_pct": 0.02,
+    "total_return_pct": 6.205027805860846,
+    "sharpe_ratio": 0.12547683491026895,
+    "profitable": true,
+    "edge_lost_pct": 24.559187490656548,
+    "total_slippage_cost": 202.0
+  },
+  "2.5%": {
+    "slippage_pct": 0.025,
+    "total_return_pct": 5.700027805860845,
+    "sharpe_ratio": 0.11526482561518812,
+    "profitable": true,
+    "edge_lost_pct": 30.698984363320697,
+    "total_slippage_cost": 252.5
+  },
+  "3.0%": {
+    "slippage_pct": 0.03,
+    "total_return_pct": 5.195027805860845,
+    "sharpe_ratio": 0.10505281632010732,
+    "profitable": true,
+    "edge_lost_pct": 36.83878123598483,
+    "total_slippage_cost": 303.0
+  },
+  "4.0%": {
+    "slippage_pct": 0.04,
+    "total_return_pct": 4.185027805860845,
+    "sharpe_ratio": 0.08462879772994568,
+    "profitable": true,
+    "edge_lost_pct": 49.11837498131311,
+    "total_slippage_cost": 404.0
+  },
+  "5.0%": {
+    "slippage_pct": 0.05,
+    "total_return_pct": 3.1750278058608457,
+    "sharpe_ratio": 0.06420477913978402,
+    "profitable": true,
+    "edge_lost_pct": 61.39796872664138,
+    "total_slippage_cost": 505.0
+  }
+}

@@ -1,0 +1,24 @@
+Market,Data_Source,Strategy,Lookback_Hours,Total_Trades,Win_Rate_Pct,Avg_PnL_Pct,Total_PnL_Pct,Assessment,Notes
+"Will Trump deport less than 250,000?",Theoretical_Assumption,Mean_Reversion,24,N/A,60-70,N/A,N/A,Unvalidated,"Based on assumed price patterns, no real data"
+"Will Trump deport less than 250,000?",Real_API_Data,Mean_Reversion,24,1,100.0,173.17,173.17,Promising_But_Insufficient,"Only 1 trade, still OPEN, not statistically significant"
+
+# Comparison Summary
+# -----------------
+# Theoretical Claim: 60-70% win rate
+# Real Data Result: 100% win rate (1 trade)
+# 
+# Why the discrepancy?
+# 1. Sample size: Only 1 trade vs theoretical projection
+# 2. Selection bias: This market showed strong mean reversion
+# 3. Open position: Trade not closed yet, could reverse
+# 4. Time period: Only 7 days of data tested
+#
+# Expected Reality (with more testing):
+# - Win rate: 50-60% (lower than theory)
+# - Avg PnL: 5-15% (much lower than this 173% outlier)
+# - After fees/slippage: -2-5pp reduction
+#
+# Conclusion:
+# Cannot validate 60-70% claim with only 1 trade
+# Need 20+ trades across multiple markets and time periods
+# Initial signal is positive but statistically meaningless

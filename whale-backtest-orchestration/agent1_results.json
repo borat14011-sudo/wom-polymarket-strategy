@@ -1,0 +1,132 @@
+{
+  "Tier1_Elite": {
+    "label": "GCR/Th\u00e9o-like (72%)",
+    "whale_accuracy": 0.72,
+    "avg_win_rate": 0.6574923547400612,
+    "avg_return_pct": 14.851473181968037,
+    "avg_sharpe": 0.2914138301060882,
+    "avg_max_drawdown": 2.165657018638679,
+    "profitable": true,
+    "individual_runs": [
+      {
+        "win_rate": 0.6422018348623854,
+        "return": 13.858052488636604,
+        "sharpe": 0.26431393948043636
+      },
+      {
+        "win_rate": 0.6238532110091743,
+        "return": 12.03646495232937,
+        "sharpe": 0.22859877828622197
+      },
+      {
+        "win_rate": 0.7064220183486238,
+        "return": 18.659902104938137,
+        "sharpe": 0.3813287725516063
+      }
+    ]
+  },
+  "Tier2_Strong": {
+    "label": "Strong whale (65%)",
+    "whale_accuracy": 0.65,
+    "avg_win_rate": 0.5932721712538226,
+    "avg_return_pct": 7.851473181968037,
+    "avg_sharpe": 0.1492417083629043,
+    "avg_max_drawdown": 2.672129792998868,
+    "profitable": true,
+    "individual_runs": [
+      {
+        "win_rate": 0.5596330275229358,
+        "return": 4.858052488636604,
+        "sharpe": 0.09105535203257992
+      },
+      {
+        "win_rate": 0.5871559633027523,
+        "return": 8.03646495232937,
+        "sharpe": 0.15107846870727343
+      },
+      {
+        "win_rate": 0.6330275229357798,
+        "return": 10.659902104938137,
+        "sharpe": 0.20559130434885953
+      }
+    ]
+  },
+  "Tier3_Moderate": {
+    "label": "Moderate whale (58%)",
+    "whale_accuracy": 0.58,
+    "avg_win_rate": 0.5412844036697247,
+    "avg_return_pct": 2.1848065153013767,
+    "avg_sharpe": 0.04093355793406926,
+    "avg_max_drawdown": 3.977104496456118,
+    "profitable": true,
+    "individual_runs": [
+      {
+        "win_rate": 0.4954128440366973,
+        "return": -2.141947511363396,
+        "sharpe": -0.039348617695757954
+      },
+      {
+        "win_rate": 0.5596330275229358,
+        "return": 5.0364649523293705,
+        "sharpe": 0.09360477054067078
+      },
+      {
+        "win_rate": 0.5688073394495413,
+        "return": 3.6599021049381557,
+        "sharpe": 0.06854452095729496
+      }
+    ]
+  },
+  "Tier4_Weak": {
+    "label": "Weak signal (53%)",
+    "whale_accuracy": 0.53,
+    "avg_win_rate": 0.4923547400611621,
+    "avg_return_pct": -3.1485268180319568,
+    "avg_sharpe": -0.057779928900665745,
+    "avg_max_drawdown": 6.731375329468283,
+    "profitable": false,
+    "individual_runs": [
+      {
+        "win_rate": 0.44036697247706424,
+        "return": -8.141947511363396,
+        "sharpe": -0.14909527387883087
+      },
+      {
+        "win_rate": 0.5137614678899083,
+        "return": 0.03646495232937013,
+        "sharpe": 0.0006743062048442444
+      },
+      {
+        "win_rate": 0.5229357798165137,
+        "return": -1.3400978950618445,
+        "sharpe": -0.024918819028010613
+      }
+    ]
+  },
+  "Noise_Trader": {
+    "label": "No edge (50%)",
+    "whale_accuracy": 0.5,
+    "avg_win_rate": 0.46177370030581044,
+    "avg_return_pct": -6.48186015136529,
+    "avg_sharpe": -0.11978967263095906,
+    "avg_max_drawdown": 8.709488832567144,
+    "profitable": false,
+    "individual_runs": [
+      {
+        "win_rate": 0.41284403669724773,
+        "return": -11.141947511363396,
+        "sharpe": -0.20602188287099701
+      },
+      {
+        "win_rate": 0.48623853211009177,
+        "return": -2.96353504767063,
+        "sharpe": -0.054664711331355205
+      },
+      {
+        "win_rate": 0.48623853211009177,
+        "return": -5.340097895061844,
+        "sharpe": -0.09868242369052498
+      }
+    ]
+  }
+}

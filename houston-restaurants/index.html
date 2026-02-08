@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houston Restaurants 🍜</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0f1a; color: #eee; }
+        
+        .header { 
+            background: linear-gradient(135deg, #1a472a 0%, #2d6a4f 100%);
+            padding: 20px; 
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 5px; }
+        .header p { opacity: 0.9; font-size: 0.9em; }
+        
+        .search-bar {
+            padding: 15px;
+            background: #1a1a2e;
+            position: sticky;
+            top: 70px;
+            z-index: 999;
+        }
+        .search-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 25px;
+            background: #16213e;
+            color: #fff;
+            font-size: 1em;
+        }
+        .search-input::placeholder { color: #666; }
+        
+        .filters {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding: 15px;
+            background: #1a1a2e;
+        }
+        .filter-chip {
+            background: #16213e;
+            border: 1px solid #2d6a4f;
+            color: #95d5b2;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.3s;
+            font-size: 0.9em;
+        }
+        .filter-chip:hover, .filter-chip.active {
+            background: #2d6a4f;
+            color: #fff;
+        }
+        
+        .area-toggle {
+            display: flex;
+            padding: 0 15px 15px;
+            background: #1a1a2e;
+            gap: 10px;
+        }
+        .area-btn {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            background: #16213e;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.85em;
+        }
+        .area-btn.active {
+            background: #2d6a4f;
+        }
+        
+        #map { height: 40vh; width: 100%; }
+        
+        .content { padding: 15px; }
+        
+        .restaurant-card {
+            background: #16213e;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #2d6a4f;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .restaurant-card:hover { transform: translateX(5px); }
+        .restaurant-card h3 { 
+            color: #95d5b2; 
+            margin-bottom: 5px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: space-between;
+        }
+        .restaurant-card .cuisine { color: #aaa; font-size: 0.85em; margin-bottom: 8px; }
+        .restaurant-card .rating { color: #ffd700; font-size: 0.9em; }
+        .restaurant-card .price { color: #f4a261; margin-left: 10px; }
+        .restaurant-card .meta { display: flex; align-items: center; margin-bottom: 8px; }
+        .restaurant-card .desc { color: #888; font-size: 0.85em; line-height: 1.4; margin: 10px 0; }
+        .restaurant-card .address { color: #666; font-size: 0.8em; }
+        .restaurant-card .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+        .tag { 
+            background: #0f0f1a; 
+            padding: 4px 10px; 
+            border-radius: 12px; 
+            font-size: 0.7em;
+        }
+        .tag.fav { background: #9d4edd; color: #e0aaff; }
+        .tag.authentic { background: #d62828; color: #ffccd5; }
+        .tag.date-night { background: #1d3557; color: #a8dadc; }
+        .tag.casual { background: #2d6a4f; color: #95d5b2; }
+        .tag.close { background: #f4a261; color: #1a1a2e; }
+        
+        .phone-link {
+            display: inline-block;
+            background: #2d6a4f;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.85em;
+            margin-top: 10px;
+        }
+        .phone-link:hover { background: #40916c; }
+        
+        .section-title {
+            color: #95d5b2;
+            padding: 15px;
+            font-size: 1.1em;
+            border-bottom: 1px solid #2d6a4f;
+            margin-bottom: 15px;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        
+        .fav-badge {
+            background: #9d4edd;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.7em;
+        }
+
+        @media (min-width: 768px) {
+            .restaurant-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🍜 Houston Eats</h1>
+        <p>Wom's Restaurant Guide • Energy Corridor & Beyond</p>
+    </div>
+    
+    <div class="search-bar">
+        <input type="text" class="search-input" id="search" placeholder="🔍 Search restaurants, cuisine, area...">
+    </div>
+    
+    <div class="filters" id="cuisine-filters">
+        <button class="filter-chip active" data-cuisine="all">All</button>
+        <button class="filter-chip" data-cuisine="japanese">🍣 Japanese</button>
+        <button class="filter-chip" data-cuisine="thai">🍜 Thai</button>
+        <button class="filter-chip" data-cuisine="indian">🍛 Indian</button>
+        <button class="filter-chip" data-cuisine="vietnamese">🍲 Vietnamese</button>
+        <button class="filter-chip" data-cuisine="persian">🥙 Persian</button>
+        <button class="filter-chip" data-cuisine="korean">🥢 Korean</button>
+        <button class="filter-chip" data-cuisine="chinese">🥡 Chinese</button>
+    </div>
+    
+    <div class="area-toggle">
+        <div class="area-btn active" data-area="all">All Areas</div>
+        <div class="area-btn" data-area="west">West Houston</div>
+        <div class="area-btn" data-area="central">Central</div>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div class="content">
+        <div class="section-title">📍 Nearby Favorites</div>
+        <div id="restaurant-list" class="restaurant-grid"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Restaurant data
+        const restaurants = [
+            // West Houston / Energy Corridor / Memorial
+            {
+                name: "Izakaya Wa - Memorial",
+                cuisine: "japanese",
+                type: "Izakaya",
+                rating: 4.5,
+                reviews: 1200,
+                price: "$$",
+                area: "west",
+                lat: 29.7697,
+                lng: -95.5626,
+                address: "12665 Memorial Dr, Houston, TX 77024",
+                phone: "(713) 461-0155",
+                desc: "Authentic Japanese izakaya. Sushi, tapas, skewers. Wonderful consistent service!",
+                tags: ["fav", "authentic", "date-night"],
+                icon: "🍶"
+            },
+            {
+                name: "KUU Restaurant",
+                cuisine: "japanese",
+                type: "Japanese / Sushi",
+                rating: 4.7,
+                reviews: 1196,
+                price: "$$-$$$",
+                area: "west",
+                lat: 29.7838,
+                lng: -95.5447,
+                address: "947 Gessner, Suite A180, Houston, TX 77024",
+                phone: "(713) 461-1688",
+                desc: "Former Nobu London chef! Fish from Tsukiji Market. Excellent sushi and cooked dishes.",
+                tags: ["fav", "authentic", "date-night", "close"],
+                icon: "🍣"
+            },
+            {
+                name: "Zaab Der",
+                cuisine: "thai",
+                type: "Thai",
+                rating: 4.5,
+                reviews: 300,
+                price: "$$",
+                area: "west",
+                lat: 29.7694,
+                lng: -95.5860,
+                address: "14642 Memorial Dr, Houston, TX 77079",
+                phone: "(832) 230-4091",
+                desc: "One of the top 2 favorite Thai restaurants in Houston. Authentic flavors!",
+                tags: ["authentic", "close", "casual"],
+                icon: "🍜"
+            },
+            {
+                name: "Naam Khao Thai Kitchen",
+                cuisine: "thai",
+                type: "Thai",
+                rating: 4.4,
+                reviews: 830,
+                price: "$",
+                area: "west",
+                lat: 29.7746,
+                lng: -95.5871,
+                address: "1420 Eldridge Pkwy, Houston, TX",
+                phone: "(281) 920-9996",
+                desc: "Best pad thai in the Energy Corridor. Casual, delicious, affordable.",
+                tags: ["casual", "close", "authentic"],
+                icon: "🍜"
+            },
+            {
+                name: "Phat Eatery",
+                cuisine: "malaysian",
+                type: "Malaysian",
+                rating: 4.6,
+                reviews: 2100,
+                price: "$$",
+                area: "west",
+                lat: 29.7922,
+                lng: -95.7646,
+                address: "23119 Colonial Pkwy, Katy, TX 77449",
+                phone: "(832) 913-6382",
+                desc: "Authentic Malaysian hawker food. Nasi lemak, roti canai, laksa. Worth the drive!",
+                tags: ["authentic", "casual"],
+                icon: "🍛"
+            },
+            {
+                name: "Resilience Viet Kitchen",
+                cuisine: "vietnamese",
+                type: "Vietnamese",
+                rating: 4.7,
+                reviews: 450,
+                price: "$$",
+                area: "west",
+                lat: 29.7738,
+                lng: -95.5871,
+                address: "Eldridge Pkwy, Houston, TX",
+                phone: "(832) 460-3463",
+                desc: "Modern Vietnamese cuisine. Fresh, flavorful, beautifully presented.",
+                tags: ["authentic", "close", "date-night"],
+                icon: "🍲"
+            },
+            
+            // Central Houston
+            {
+                name: "Kiran's",
+                cuisine: "indian",
+                type: "Indian Fine Dining",
+                rating: 4.6,
+                reviews: 2978,
+                price: "$$$",
+                area: "central",
+                lat: 29.7352,
+                lng: -95.4307,
+                address: "2925 Richmond Ave, Houston, TX 77098",
+                phone: "(713) 960-8472",
+                desc: "James Beard semifinalist! Godmother of Indian fine dining. Incredible flavors.",
+                tags: ["fav", "authentic", "date-night"],
+                icon: "🍛"
+            },
+            {
+                name: "Rumi's Kitchen",
+                cuisine: "persian",
+                type: "Persian",
+                rating: 4.9,
+                reviews: 1460,
+                price: "$$$",
+                area: "central",
+                lat: 29.7407,
+                lng: -95.4641,
+                address: "5615 Kirby Dr, Houston, TX 77005",
+                phone: "(713) 234-7866",
+                desc: "#2 most booked in Houston! Incredible Persian cuisine. Beautiful atmosphere.",
+                tags: ["fav", "authentic", "date-night"],
+                icon: "🥙"
+            },
+            {
+                name: "Ume Sushi Heights",
+                cuisine: "japanese",
+                type: "Sushi",
+                rating: 4.7,
+                reviews: 423,
+                price: "$$$",
+                area: "central",
+                lat: 29.8024,
+                lng: -95.3980,
+                address: "2802 White Oak Dr, Houston, TX 77007",
+                phone: "(832) 767-5872",
+                desc: "Amazing quality fish. Creative cocktails. Stylish Heights location.",
+                tags: ["authentic", "date-night"],
+                icon: "🍣"
+            },
+            {
+                name: "Kata Robata",
+                cuisine: "japanese",
+                type: "Japanese / Sushi",
+                rating: 4.6,
+                reviews: 1800,
+                price: "$$$",
+                area: "central",
+                lat: 29.7352,
+                lng: -95.4142,
+                address: "3600 Kirby Dr, Houston, TX 77098",
+                phone: "(713) 526-8858",
+                desc: "Upscale Japanese. Excellent sushi and robata grill. Great sake selection.",
+                tags: ["authentic", "date-night"],
+                icon: "🍣"
+            },
+            {
+                name: "Mala Sichuan",
+                cuisine: "chinese",
+                type: "Sichuan Chinese",
+                rating: 4.5,
+                reviews: 1500,
+                price: "$$",
+                area: "central",
+                lat: 29.7376,
+                lng: -95.4089,
+                address: "9348 Bellaire Blvd, Houston, TX",
+                phone: "(713) 995-1889",
+                desc: "Authentic Sichuan cuisine. Fiery, numbing, delicious. Not for the spice-averse!",
+                tags: ["authentic", "casual"],
+                icon: "🥡"
+            },
+            {
+                name: "Korea Garden",
+                cuisine: "korean",
+                type: "Korean BBQ",
+                rating: 4.4,
+                reviews: 900,
+                price: "$$",
+                area: "central",
+                lat: 29.7012,
+                lng: -95.5201,
+                address: "9501 Long Point Rd, Houston, TX",
+                phone: "(713) 468-2800",
+                desc: "Classic Korean BBQ. Grill at your table. Great banchan (side dishes).",
+                tags: ["authentic", "casual"],
+                icon: "🥢"
+            },
+            {
+                name: "Pho Saigon",
+                cuisine: "vietnamese",
+                type: "Vietnamese",
+                rating: 4.3,
+                reviews: 1200,
+                price: "$",
+                area: "central",
+                lat: 29.7105,
+                lng: -95.5335,
+                address: "2808 Milam St, Houston, TX",
+                phone: "(713) 524-3734",
+                desc: "Classic Houston pho spot. Rich broth, generous portions, no frills.",
+                tags: ["authentic", "casual"],
+                icon: "🍲"
+            },
+            {
+                name: "Musaafer",
+                cuisine: "indian",
+                type: "Indian Fine Dining",
+                rating: 4.8,
+                reviews: 1511,
+                price: "$$$$",
+                area: "central",
+                lat: 29.7400,
+                lng: -95.4608,
+                address: "5115 Westheimer Rd, Houston, TX 77056",
+                phone: "(713) 242-8087",
+                desc: "Stunning upscale Indian. Journey through regional cuisines. Special occasion spot!",
+                tags: ["date-night", "authentic"],
+                icon: "🍛"
+            }
+        ];
+
+        // State
+        let currentCuisine = 'all';
+        let currentArea = 'all';
+        let searchQuery = '';
+
+        // Initialize map centered on Wom's area
+        const map = L.map('map').setView([29.7697, -95.5626], 11);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // Home marker
+        const homeIcon = L.divIcon({
+            html: '<div style="font-size: 24px;">🏠</div>',
+            className: 'emoji-marker',
+            iconSize: [30, 30],
+            iconAnchor: [15, 15]
+        });
+        L.marker([29.7746, -95.5871], { icon: homeIcon })
+            .bindPopup('<strong>🏠 Home Area</strong><br>Kimberly & Kirkwood')
+            .addTo(map);
+
+        let markers = [];
+
+        function createIcon(emoji) {
+            return L.divIcon({
+                html: `<div style="font-size: 20px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">${emoji}</div>`,
+                className: 'emoji-marker',
+                iconSize: [25, 25],
+                iconAnchor: [12, 12]
+            });
+        }
+
+        function filterRestaurants() {
+            return restaurants.filter(r => {
+                const matchesCuisine = currentCuisine === 'all' || r.cuisine === currentCuisine;
+                const matchesArea = currentArea === 'all' || r.area === currentArea;
+                const matchesSearch = searchQuery === '' || 
+                    r.name.toLowerCase().includes(searchQuery) ||
+                    r.type.toLowerCase().includes(searchQuery) ||
+                    r.desc.toLowerCase().includes(searchQuery);
+                return matchesCuisine && matchesArea && matchesSearch;
+            });
+        }
+
+        function updateMap() {
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+
+            const filtered = filterRestaurants();
+            filtered.forEach(r => {
+                const marker = L.marker([r.lat, r.lng], { icon: createIcon(r.icon) })
+                    .bindPopup(`
+                        <strong>${r.icon} ${r.name}</strong><br>
+                        ${r.type} • ${r.price}<br>
+                        ⭐ ${r.rating} (${r.reviews})<br>
+                        <a href="tel:${r.phone}">${r.phone}</a>
+                    `)
+                    .addTo(map);
+                markers.push(marker);
+            });
+        }
+
+        function updateList() {
+            const list = document.getElementById('restaurant-list');
+            const filtered = filterRestaurants();
+
+            if (filtered.length === 0) {
+                list.innerHTML = '<div class="empty-state">No restaurants found. Try different filters!</div>';
+                return;
+            }
+
+            // Sort by distance from home (approximation)
+            filtered.sort((a, b) => {
+                const distA = Math.sqrt(Math.pow(a.lat - 29.7746, 2) + Math.pow(a.lng + 95.5871, 2));
+                const distB = Math.sqrt(Math.pow(b.lat - 29.7746, 2) + Math.pow(b.lng + 95.5871, 2));
+                return distA - distB;
+            });
+
+            list.innerHTML = filtered.map(r => `
+                <div class="restaurant-card" onclick="map.setView([${r.lat}, ${r.lng}], 15)">
+                    <h3>
+                        <span>${r.icon} ${r.name}</span>
+                        ${r.tags.includes('fav') ? '<span class="fav-badge">⭐ FAV</span>' : ''}
+                    </h3>
+                    <div class="cuisine">${r.type}</div>
+                    <div class="meta">
+                        <span class="rating">⭐ ${r.rating} (${r.reviews})</span>
+                        <span class="price">${r.price}</span>
+                    </div>
+                    <div class="desc">${r.desc}</div>
+                    <div class="address">📍 ${r.address}</div>
+                    <div class="tags">
+                        ${r.tags.map(t => `<span class="tag ${t}">${t.replace('-', ' ')}</span>`).join('')}
+                    </div>
+                    <a href="tel:${r.phone}" class="phone-link">📞 ${r.phone}</a>
+                </div>
+            `).join('');
+        }
+
+        function refresh() {
+            updateMap();
+            updateList();
+        }
+
+        // Cuisine filter
+        document.querySelectorAll('.filter-chip').forEach(chip => {
+            chip.addEventListener('click', () => {
+                document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+                chip.classList.add('active');
+                currentCuisine = chip.dataset.cuisine;
+                refresh();
+            });
+        });
+
+        // Area filter
+        document.querySelectorAll('.area-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.area-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentArea = btn.dataset.area;
+                refresh();
+            });
+        });
+
+        // Search
+        document.getElementById('search').addEventListener('input', (e) => {
+            searchQuery = e.target.value.toLowerCase();
+            refresh();
+        });
+
+        // Initialize
+        refresh();
+    </script>
+</body>
+</html>

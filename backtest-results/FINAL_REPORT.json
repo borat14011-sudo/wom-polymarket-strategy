@@ -1,0 +1,98 @@
+{
+  "report_title": "7-STRATEGY POLYMARKET BACKTEST - FINAL RESULTS",
+  "dataset": {
+    "total_markets": 857,
+    "markets_with_clear_outcomes": 773,
+    "data_source": "backtest_dataset_v1.json"
+  },
+  "strategies": [
+    {
+      "rank": 1,
+      "name": "News Reversion",
+      "grade": "A",
+      "trades": 188,
+      "win_rate": 0.559,
+      "avg_return": 0.429,
+      "sharpe_ratio": 0.28,
+      "max_drawdown": -7.7,
+      "recommendation": "DEPLOY - Best risk-adjusted returns"
+    },
+    {
+      "rank": 2,
+      "name": "Expert Fade",
+      "grade": "A-",
+      "trades": 371,
+      "win_rate": 0.577,
+      "avg_return": 0.193,
+      "sharpe_ratio": 0.18,
+      "max_drawdown": -8.2,
+      "recommendation": "DEPLOY - High volume, consistent"
+    },
+    {
+      "rank": 3,
+      "name": "Trend Filter",
+      "grade": "B+",
+      "trades": 345,
+      "win_rate": 0.586,
+      "avg_return": 0.172,
+      "sharpe_ratio": 0.16,
+      "max_drawdown": -13.1,
+      "recommendation": "DEPLOY with caution - Good win rate but higher drawdowns"
+    },
+    {
+      "rank": 4,
+      "name": "Whale Tracking",
+      "grade": "C+",
+      "trades": 229,
+      "win_rate": 0.559,
+      "avg_return": -0.091,
+      "sharpe_ratio": -0.11,
+      "max_drawdown": -38.2,
+      "recommendation": "NEEDS REFINEMENT - Win rate good but negative returns"
+    },
+    {
+      "rank": 5,
+      "name": "NO-Side Bias",
+      "grade": "C",
+      "trades": 145,
+      "win_rate": 0.331,
+      "avg_return": 0.018,
+      "sharpe_ratio": 0.01,
+      "max_drawdown": -31.9,
+      "recommendation": "AVOID - Low win rate despite positive expectancy"
+    },
+    {
+      "rank": 6,
+      "name": "Time Horizon <3d",
+      "grade": "D",
+      "trades": 456,
+      "win_rate": 0.480,
+      "avg_return": -0.062,
+      "sharpe_ratio": -0.06,
+      "max_drawdown": -53.2,
+      "recommendation": "AVOID - Below breakeven, high volatility"
+    },
+    {
+      "rank": 7,
+      "name": "Pairs Trading",
+      "grade": "D",
+      "trades": 40,
+      "win_rate": 0.225,
+      "avg_return": -0.386,
+      "sharpe_ratio": -0.31,
+      "max_drawdown": -17.9,
+      "recommendation": "AVOID - Insufficient opportunities, poor win rate"
+    }
+  ],
+  "summary": {
+    "top_3_strategies": ["News Reversion", "Expert Fade", "Trend Filter"],
+    "key_insight": "Counter-trend and mean-reversion strategies outperform momentum in prediction markets",
+    "recommended_portfolio": {
+      "news_reversion": "40%",
+      "expert_fade": "35%",
+      "trend_filter": "25%"
+    },
+    "expected_combined_win_rate": "57-58%",
+    "expected_avg_return_per_trade": "20-25%"
+  }
+}

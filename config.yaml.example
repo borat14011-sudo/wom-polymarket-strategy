@@ -1,0 +1,26 @@
+# Telegram Alert Bot Configuration
+# Copy this file to config.yaml and fill in your credentials
+
+telegram:
+  # Get from @BotFather on Telegram
+  bot_token: "YOUR_BOT_TOKEN_HERE"
+  
+  # Your Telegram chat ID (use @userinfobot to find it)
+  chat_id: "YOUR_CHAT_ID_HERE"
+
+quiet_hours:
+  # Enable quiet hours (only critical alerts during this time)
+  enabled: true
+  
+  # Start time (24-hour format)
+  start: "23:00"
+  
+  # End time (24-hour format)
+  end: "08:00"
+
+rate_limit:
+  # Maximum messages per minute
+  max_per_minute: 30
+  
+  # Cooldown between messages (seconds)
+  cooldown_seconds: 2.0

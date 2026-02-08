@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "0x5eed579ff6763914d78a966c83473ba2485ac8910d0a0914eef6d9fcb33085de",
+    "source": "clob",
+    "title": "NCAAB: Arizona State Sun Devils vs. Nevada Wolf Pack 2023-03-15",
+    "description": "In the upcoming NCAAB game, scheduled for March 15 at 9:10 PM ET:\n\nIf the Arizona State Sun Devils win, the market will resolve to \u201cArizona State\u201d.\n\nIf the Nevada Wolf Pack win, the market will resolve to \u201cNevada\u201d.\n\n If the game is not completed by April 10, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "ncaab-arst-nev-2023-03-15",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-15T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Arizona State",
+      "Nevada"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "condition_id": "0x5eed579ff6763914d78a966c83473ba2485ac8910d0a0914eef6d9fcb33085de",
+    "question_id": "0x2d5ddf657e4a090bc22921bf6865bcdb741a7b96ce45eb583be041756fad04a0",
+    "tokens": [
+      {
+        "token_id": "73470541315377973562501025254719659796416871135081220986683321361000395461644",
+        "outcome": "Arizona State",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "56393761733830483601097051857899348522495376869600726893014309766300892311293",
+        "outcome": "Nevada",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x8901bf367fcb32b406b54e8deb1bcb3320fdc4a994bd7f0a7a1fe72956dc1c9a",
+    "source": "clob",
+    "title": "NCAAB: Tennessee Volunteers vs. Duke Blue Devils 2023-03-18",
+    "description": "In the upcoming NCAAB game, scheduled for March 18 at 2:40 PM ET:\n\nIf the Tennessee Volunteers win, the market will resolve to \u201cTennessee\u201d.\n\nIf the Duke Blue Devils win, the market will resolve to \u201cDuke\u201d.\n\n If the game is not completed by April 10, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "ncaab-tenn-duke-2023-03-18",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-18T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Tennessee",
+      "Duke"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "condition_id": "0x8901bf367fcb32b406b54e8deb1bcb3320fdc4a994bd7f0a7a1fe72956dc1c9a",
+    "question_id": "0x0e1188d1faa64914a95b0f9eebd1d11618e99e073ceed6fdf281331048b473e1",
+    "tokens": [
+      {
+        "token_id": "63099584499166723696938912801834245359789884653808158281242893092101276172908",
+        "outcome": "Tennessee",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "30276400766909644348018771740725995990021159099338826772350018698410972351366",
+        "outcome": "Duke",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x8945183c6253e70ec33a9f7c79058de36d3ebd809c245bc4204e9a3d098e0ea8",
+    "source": "clob",
+    "title": "NBA: LA Clippers vs. Orlando Magic 2023-03-18",
+    "description": "In the upcoming NBA game, scheduled for March 18 at 3:00 PM ET:\n\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-lac-orl-2023-03-18",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-18T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Clippers",
+      "Magic"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x8945183c6253e70ec33a9f7c79058de36d3ebd809c245bc4204e9a3d098e0ea8",
+    "question_id": "0x116f9bb4087941c2252e57e3e76dae0b8eb0c2e741e53f6449b02e46fa40172c",
+    "tokens": [
+      {
+        "token_id": "91665588621999524427468584976353845588791967440902820253143695456917338402191",
+        "outcome": "Clippers",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "59154509960431552717654272305662784792584977756047887453219201349347516650502",
+        "outcome": "Magic",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x3648ab7c146a9a85957e07c1d43a82272be71fde767822fd425e10ba0d6c0757",
+    "source": "clob",
+    "title": "[Single Market] Will Glenn Youngkin win the 2024 Republican presidential nomination?",
+    "description": "This market will resolve to \u201cYes\u201d if Glenn Youngkin wins the 2024 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to \u201cNo\u201d. \n\nThe resolution source for this market will be a consensus of official GOP sources, including https://www.gop.com. Any replacement of the nominee before election day will not change the resolution of the market.",
+    "slug": "will-glenn-youngkin-win-the-2024-republican-presidential-nomination",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2024-09-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/glenn+youngkin.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/glenn+youngkin.jpeg",
+    "condition_id": "0x3648ab7c146a9a85957e07c1d43a82272be71fde767822fd425e10ba0d6c0757",
+    "question_id": "0x1fea5ae35e50abf6a074232210ac75c87429c2b78d2ef0d4ce205a5a590bcbbd",
+    "tokens": [
+      {
+        "token_id": "2006684570364241896555682377056547936147873475006821796350135481625081540323",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "38580130314633104723975394735082095016667349014635620492800619699027053776775",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xd1a5513fa75fd1d158f430161adf2e3df88511dc508328e05f520519fe78eb46",
+    "source": "clob",
+    "title": "NBA: Miami Heat vs. Cleveland Cavaliers 2023-03-08",
+    "description": "In the upcoming NBA game, scheduled for March 8 at 7:30\u202fPM:\n\nIf the Miami Heat win, the market will resolve to \u201cHeat\u201d.\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+    "slug": "nba-mia-cle-2023-03-08",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-08T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Heat",
+      "Cavaliers"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xd1a5513fa75fd1d158f430161adf2e3df88511dc508328e05f520519fe78eb46",
+    "question_id": "0x2eccd2475521da4587e7a4149b659c5ba0edd121cf0a7612c8577b90966e03ff",
+    "tokens": [
+      {
+        "token_id": "12663610198416505552579513314148589619584470839434329731081099338954226269140",
+        "outcome": "Heat",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "90284581025936628567636705748268872452902031396923078593214296391990961098946",
+        "outcome": "Cavaliers",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xa0288b41192c5a14a919447eb09436555de5ed02ba9c0a9a99e5c283bc192653",
+    "source": "clob",
+    "title": "NHL: Chicago Blackhawks vs. Boston Bruins 2023-03-14",
+    "description": "In the upcoming NHL game, scheduled for March 14 at 8:30 PM ET:\n\nIf the Chicago Blackhawks win, the market will resolve to \u201cBlackhawks\u201d.\n\nIf the Boston Bruins win, the market will resolve to \u201cBruins\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-chi-bos-2023-03-14",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Blackhawks",
+      "Bruins"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0xa0288b41192c5a14a919447eb09436555de5ed02ba9c0a9a99e5c283bc192653",
+    "question_id": "0x0843cdb666263a47e4f04ea538847fea01d53dc68f4051c89f91cd2f8b8d9782",
+    "tokens": [
+      {
+        "token_id": "28376397455448303656738882535872729294688421611235668028559612504474354004917",
+        "outcome": "Blackhawks",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "28611356696103758665917725928493783058585020980474031366074424688812908456591",
+        "outcome": "Bruins",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xd305baec7b9b2438d05e887dc84dbbb293a670ee443e541cbe888bfc5f1ba8dd",
+    "source": "clob",
+    "title": "Will Brendan Fraser win the Oscar for Best Actor in a Leading Role?",
+    "description": "The Academy Awards are given every year by the Academy of Motion Picture Arts and Scientists (AMPAS) to a variety of films and film industry workers for outstanding displays of artistic and technical merit. In 2023 the 95th Academy Awards are set to be given out in a ceremony scheduled for March 12.\n\nThis market will resolve to \"Yes\" if Brendan Fraser wins the Academy Award for Best Actor in a Leading Role. Otherwise, this market will resolve to \"No\".\n\nIf for any reason no winner is declared by December 31, 2023, 11:59:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Academy Awards and AMPAS, including data from their website (e.g.\u00a0https://www.oscars.org/) and the live broadcast of the award ceremony, however a consensus of credible reporting may also be used.",
+    "slug": "will-brendan-fraser-win-the-oscar-for-best-actor-in-a-leading-role",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-13T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/brendan+fraser+copy.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/brendan+fraser+copy.png",
+    "condition_id": "0xd305baec7b9b2438d05e887dc84dbbb293a670ee443e541cbe888bfc5f1ba8dd",
+    "question_id": "0x3b42cc9f76f727c42b20995e0b3174bafbc67e19d887e58ced36be472198ae93",
+    "tokens": [
+      {
+        "token_id": "80317148485891539958670478226829607361073081528131995578326247003331251222905",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "33695348115320054463196433943582480679912032441776069653471158744634743283132",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x0d2e2da73b35519de3e10de75f2d576475cf19fa5f56f3b7463012277d203c2a",
+    "source": "clob",
+    "title": "NHL: Carolina Hurricanes vs. Winnipeg Jets 2023-03-14",
+    "description": "In the upcoming NHL game, scheduled for March 14 at 7:00 PM ET:\n\nIf the Carolina Hurricanes win, the market will resolve to \u201cHurricanes\u201d.\n\nIf the Winnipeg Jets win, the market will resolve to \u201cJets\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-car-wpg-2023-03-14",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Hurricanes",
+      "Jets"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0x0d2e2da73b35519de3e10de75f2d576475cf19fa5f56f3b7463012277d203c2a",
+    "question_id": "0x33bde3642762985ee10561372fce2906e0b97f07ebb7ad025ee6e8dd7199e3dc",
+    "tokens": [
+      {
+        "token_id": "107164665183437171551379884665247874269822139959100718863769801241104328239324",
+        "outcome": "Hurricanes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "74723706519877609373623799208202568829122196737291324809410942080543598808002",
+        "outcome": "Jets",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x562a1c278fd84b9cd2147253fc9497ca07a616a59f7bc0c99966f321fa4493f4",
+    "source": "clob",
+    "title": "NBA: Nuggets vs. Magic (02/09/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 9:\n\nIf the Denver Nuggets win, the market will resolve to \u201cNuggets\u201d.\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\nIf this game is not completed by April 9, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+    "slug": "nba-nuggets-vs-magic-02092023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-07T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Nuggets",
+      "Magic"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x562a1c278fd84b9cd2147253fc9497ca07a616a59f7bc0c99966f321fa4493f4",
+    "question_id": "0x6634d9a2dd29b9f8f5226b76a8d4b7c62edd6f61ba8c54d2769564066a994cec",
+    "tokens": [
+      {
+        "token_id": "54640934133536830902397330678975503905046193373389601769070372963866091231957",
+        "outcome": "Nuggets",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "73846022821775452420510801414699435002181305341883749007420582766954188197731",
+        "outcome": "Magic",
+        "price": 1,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xca848e711a27bec13d15c4161f2f857d39931f3f06b5635eecf3e41c466455b4",
+    "source": "clob",
+    "title": "NBA: Washington Wizards vs. Atlanta Hawks 2023-03-10",
+    "description": "In the upcoming NBA game, scheduled for March 10 at 7:00\u202fPM ET:\n\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-wsh-atl-2023-03-10",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Wizards",
+      "Hawks"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xca848e711a27bec13d15c4161f2f857d39931f3f06b5635eecf3e41c466455b4",
+    "question_id": "0x7b80476b38b756b33c0aa14166fa0d10faebdd97df8c54fa2249d06e1d2f499d",
+    "tokens": [
+      {
+        "token_id": "50549188506424644173262051524496103236227892187798135743430489132506454944805",
+        "outcome": "Wizards",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "8626844908889918265563045692007059318273126251148788829349561492330420830287",
+        "outcome": "Hawks",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x0caf5c072f5abb4fe484b569949a9e414dc73d0d1af81be5effea1c2a48e4833",
+    "source": "clob",
+    "title": "NFL Sunday: Cowboys vs. Commanders",
+    "description": "In the upcoming NFL game scheduled for January 8, 2023:\n\nIf the Dallas Cowboys win, this market will resolve to \"Cowboys\".\n\nIf the Washington Commanders win, this market will resolve to \"Commanders\".\n\nIf this game ends in a tie, this market will resolve 50-50. If this game is not completed by January 16, 2023, 11:59:59 PM ET, this market will resolve 50-50.",
+    "slug": "nfl-sunday-cowboys-vs-commanders",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-01-08T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Cowboys",
+      "Commanders"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "condition_id": "0x0caf5c072f5abb4fe484b569949a9e414dc73d0d1af81be5effea1c2a48e4833",
+    "question_id": "0x1bdf08dc20298a9464e3b673682669564a3853f9fcdbf38dd027a7cdc5cb154e",
+    "tokens": [
+      {
+        "token_id": "48479984676432677557122491017951160228301130784207804545419686276865000611799",
+        "outcome": "Cowboys",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "2378343026668080329104976767517727241272432729431210934811362920156207029722",
+        "outcome": "Commanders",
+        "price": 1,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x9c4d05a5b1cec55d56626ede111048cb6c43ec8e8c777f794b605d33be0c82ec",
+    "source": "clob",
+    "title": "Will Morocco win the 2022 World Cup?",
+    "description": "In Response to Trader Inquiry: This market may immediately resolve to \u201cNo\u201d if the team is eliminated or otherwise has no path to victory based on the rules of the 2022 World Cup.\n\n---------------------------------------------------------------------------------------------------------------\n\nThis market will resolve to \"Yes\" if Morocco is the Champion of FIFA World Cup Qatar 2022. Otherwise, this market will resolve to \"No\".\n\nIf no Champion of FIFA World Cup Qatar 2022 is declared by December 31, 2022, 11:59:59 PM ET, this market will resolve to 50-50.\n\nThe primary resolution source for this market will be official information from FIFA (e.g. https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022/scores-fixtures), including official footage from the World Cup, however a consensus of credible reporting may also be used.",
+    "slug": "will-morocco-win-the-2022-world-cup",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2022-12-18T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.0003,
+      0.9997
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/flag+morocco.png\n",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/flag+morocco.png\n",
+    "condition_id": "0x9c4d05a5b1cec55d56626ede111048cb6c43ec8e8c777f794b605d33be0c82ec",
+    "question_id": "0xcf1433e753034fdae627356b9dcf18e20709ca67dcf61fb9f01195ae704fae76",
+    "tokens": [
+      {
+        "token_id": "105045584662682185685970556727114212674702864314804848740433640162087194646657",
+        "outcome": "Yes",
+        "price": 0.0003,
+        "winner": false
+      },
+      {
+        "token_id": "68611577922343702457318296073818808816474842546502335416540125778940444670828",
+        "outcome": "No",
+        "price": 0.9997,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x7c97080dfbbe71bfa52ba51c82cb0cdfe47cd7b87842047c58647c8ff1d1fef4",
+    "source": "clob",
+    "title": "Will the FDV of OpenSea's token 1 week after launch be above Blur's FDV?",
+    "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of OpenSea's token 1 week after launch is above Blur's. Otherwise, the market will resolve to \"No.\"\n\n\"1 week after launch\" is defined as 12:00 PM ET, 7 days after it launches. For example, if the OpenSea token launches at 8 PM ET, March 15, then the FDV of OpenSea and Blur at 12:00 PM ET, March 22 will be used.\n\nThe resolution source for this market is CoinGecko, specifically the \"Fully Diluted Valuation\" metric. 1 week after OpenSea's token launch, OpenSea's FDV and Blur's FDV will be memorialized on the Polymarket market description here: https://polymarket.com/market/will-the-fdv-of-openseas-token-1-week-after-launch-be-above-blurs-fdv.\n\nIf OpenSea doesn't launch a token by December 31, 2023, 11:59:59 PM ET, this market will resolve to 50-50.",
+    "slug": "will-the-fdv-of-openseas-token-1-week-after-launch-be-above-blurs-fdv",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-12-30T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.5,
+      0.5
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-fdv-of-openseas-token-1-week-after-launch-be-above-blurs-fdv-e67a38bf-a3bc-4fb9-a2e0-f1b7e11b1662.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-fdv-of-openseas-token-1-week-after-launch-be-above-blurs-fdv-e67a38bf-a3bc-4fb9-a2e0-f1b7e11b1662.png",
+    "condition_id": "0x7c97080dfbbe71bfa52ba51c82cb0cdfe47cd7b87842047c58647c8ff1d1fef4",
+    "question_id": "0x826ba27153a68acc9c15bff95ec527610c82bd00703b1fa8145974b0b1562b20",
+    "tokens": [
+      {
+        "token_id": "36161990524808999529099890841186860907449767867066339846328156147773282747583",
+        "outcome": "Yes",
+        "price": 0.5,
+        "winner": false
+      },
+      {
+        "token_id": "88382165465289170402091181886889254434956734707438989610790870159465989274007",
+        "outcome": "No",
+        "price": 0.5,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x0a4b8b76f33ac54d2c8b8a3be1ff97c10f60e290399f3479511cdbff7e52f109",
+    "source": "clob",
+    "title": "NCAAB: Northwestern Wildcats vs. Boise State Broncos 2023-03-16",
+    "description": "In the upcoming NCAAB game, scheduled for March 16 at 7:35 PM ET:\n\nIf the Northwestern Wildcats win, the market will resolve to \u201cNorthwestern\u201d.\n\nIf the Boise State Broncos win, the market will resolve to \u201cBoise State\u201d.\n\n If the game is not completed by April 10, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "ncaab-nw-boise-2023-03-16",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-16T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Northwestern",
+      "Boise State"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "condition_id": "0x0a4b8b76f33ac54d2c8b8a3be1ff97c10f60e290399f3479511cdbff7e52f109",
+    "question_id": "0x0b13d1218f1949504b86150ceb704140a43f727b63541bd9f4e5ded1fb9ba8f6",
+    "tokens": [
+      {
+        "token_id": "80098328211164717098701569658505380603752881167966999370720535203120049228542",
+        "outcome": "Northwestern",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "6607318331100856615617856356896174360248114215764086093132419913096029579019",
+        "outcome": "Boise State",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x21f17bea7b77e1b8b4ae36dfb734dcf69b375f755d2155462e812adc834eb10f",
+    "source": "clob",
+    "title": "NBA: Orlando Magic vs. Miami Heat 2023-03-11",
+    "description": "In the upcoming NBA game, scheduled for March 11 at 7:00\u202fPM ET:\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\nIf the Miami Heat win, the market will resolve to \u201cHeat\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-orl-mia-2023-03-11",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-11T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Magic",
+      "Heat"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x21f17bea7b77e1b8b4ae36dfb734dcf69b375f755d2155462e812adc834eb10f",
+    "question_id": "0x3e7d178d27db67e25091b556a20e5273904a765a983e7401c6273ed4ed01f905",
+    "tokens": [
+      {
+        "token_id": "77341543221757407093591159792467953552062414205538819512883828232366911684579",
+        "outcome": "Magic",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "69390232836210526036030411926625896428434534497764932073545025471029598441063",
+        "outcome": "Heat",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "will-newcastle-beat-nottingham-forest-03172023",
+    "source": "clob",
+    "title": "Will Newcastle beat Nottingham Forest? (03/17/2023)",
+    "description": "In the upcoming Premier League soccer match scheduled for March 17, 2023:\n\nIf Newcastle wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf the game results in a draw, the market resolves to \"No.\"\n\nIf the game is not completed by March 31, 2023, the market will resolve to 50-50.",
+    "slug": "will-newcastle-beat-nottingham-forest-03172023",
+    "active": false,
+    "closed": false,
+    "archived": true,
+    "end_date": "2023-03-17T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "",
+      ""
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/newcastle.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/newcastle.png",
+    "condition_id": "",
+    "question_id": "",
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xf570dd1484dad512183817748d6507b17e16736ef91df40d05345e8e726f4df9",
+    "source": "clob",
+    "title": "Super Bowl LVII Coin Toss: Heads or Tails?",
+    "description": "This market will resolve to \"Heads\" if the coin comes up heads. This market will resolve to \"Tails\" if the coin comes up tails.\n\nIf this game is not completed by March 12, 2023, 11:59:59 PM ET, this market will resolve 50-50.\n\nThe primary resolution source for this market will be official information from the NFL and live footage from Super Bowl LVII, however a consensus of credible reporting may also be used.",
+    "slug": "super-bowl-lvii-coin-toss-heads-or-tails",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Heads",
+      "Tails"
+    ],
+    "outcome_prices": [
+      0.0009,
+      0.9991
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/coin+toss.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/coin+toss.jpeg",
+    "condition_id": "0xf570dd1484dad512183817748d6507b17e16736ef91df40d05345e8e726f4df9",
+    "question_id": "0xd05f381deeb4a35b0a5fd76798a06143a5a96abc80f22aae0c6897fcef325741",
+    "tokens": [
+      {
+        "token_id": "13109914525314007783369415104821535023801033353474231036967098629785285692162",
+        "outcome": "Heads",
+        "price": 0.0009,
+        "winner": false
+      },
+      {
+        "token_id": "113528814845123801954085407107675128841064143464487037489866258250548055997029",
+        "outcome": "Tails",
+        "price": 0.9991,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x7bb90b216f9686eeec780ca9cc89757080e613c3973ecfb64c7b6348d258ee1d",
+    "source": "clob",
+    "title": "Will Biden be impeached by June 30, 2023?",
+    "description": "This market will resolve to \u201cYes\u201c if the US House of Representatives by simple majority vote to approve or pass one or more articles of impeachment of President Joseph Biden by June 30, 2023, 11:59:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nNeither trial nor conviction by the US Senate, nor removal from office, is necessary to resolve this market to \u201cYes\u201c.\n\nIf President Joseph Biden for any reason ceases to be President of the United States before being impeached by June 30, 2023 11:59:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be information from the federal government of the United States, however a consensus of credible reporting will be used.",
+    "slug": "will-biden-be-impeached-by-june-30-2023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-06-30T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/biden+worried.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/biden+worried.jpeg",
+    "condition_id": "0x7bb90b216f9686eeec780ca9cc89757080e613c3973ecfb64c7b6348d258ee1d",
+    "question_id": "0x3efa1cf47f3393c3fb0cfcb11a22fe34bd15c1980dabcfc4dcd45630e109f480",
+    "tokens": [
+      {
+        "token_id": "83397941921678775177683698896713734782694378595265047324995459758729944336733",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "54376193854027976185359139865055464685675647818930004480778101848362114898677",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x21a48025e4d48ee40040edc5742a98a61343dcc3b66d372c07afe956d8bb41d9",
+    "source": "clob",
+    "title": "NCAAB: Marquette Golden Eagles vs. Vermont Catamounts 2023-03-17",
+    "description": "In the upcoming NCAAB game, scheduled for March 17 at 2:45 PM ET:\n\nIf the Marquette Golden Eagles win, the market will resolve to \u201cMarquette\u201d.\n\nIf the Vermont Catamounts win, the market will resolve to \u201cVermont\u201d.\n\n If the game is not completed by April 10, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "ncaab-marq-uvm-2023-03-17",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-17T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Marquette",
+      "Vermont"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "condition_id": "0x21a48025e4d48ee40040edc5742a98a61343dcc3b66d372c07afe956d8bb41d9",
+    "question_id": "0x323ea74d9972ef61d63ecdb128db8a75d27d7fcc2f3f2ede590458e5a3eb934c",
+    "tokens": [
+      {
+        "token_id": "83356202464627416311403216675016573159474659053039153348201608556304518577047",
+        "outcome": "Marquette",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "102947891703513473416373186793552185631702855908131960282249234951361144139968",
+        "outcome": "Vermont",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x3dd748f11097f1f4fe8c1adb5344360fd3ec2f0492d5eff1f1f2f0a2c15b2bba",
+    "source": "clob",
+    "title": "NBA: Spurs vs. Hawks (02/11/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 11:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\nIf this game is not completed by April 11, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+    "slug": "nba-spurs-vs-hawks-02112023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Spurs",
+      "Hawks"
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x3dd748f11097f1f4fe8c1adb5344360fd3ec2f0492d5eff1f1f2f0a2c15b2bba",
+    "question_id": "0x3c34809d85f42519c77ed82f7b86ddeb67cd124fe129557180956c0ef032ba32",
+    "tokens": [
+      {
+        "token_id": "81983093341191476262286143310663812867867275697167728942955235200118231569217",
+        "outcome": "Spurs",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "18284392647815941035264138827427279305648882581745969633980766749963629113970",
+        "outcome": "Hawks",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xdef4297663a67c326bf3eba80f74eaf6de133e73649eb31fb2f9007b77a6c4db",
+    "source": "clob",
+    "title": "NBA: Wizards vs. Pistons (02/01/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 1:\n\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\n\nIf the Detroit Pistons win, the market will resolve to \u201cPistons\u201d.\n\nIf this game is not completed by February 8, 2023 (11:59:59 PM ET), this market will resolve 50-50.",
+    "slug": "nba-wizards-vs-pistons-02012023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Wizards",
+      "Pistons"
+    ],
+    "outcome_prices": [
+      0.5836,
+      0.4164
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xdef4297663a67c326bf3eba80f74eaf6de133e73649eb31fb2f9007b77a6c4db",
+    "question_id": "0x9087b0f7ecd310679325020f8e20ec60b034939a8614edc64c87b136ba52840e",
+    "tokens": [
+      {
+        "token_id": "99560205050468630605733531253970693390389883242407639061855702452844865650446",
+        "outcome": "Wizards",
+        "price": 0.5836,
+        "winner": false
+      },
+      {
+        "token_id": "107955480110052033110246745496872269905396859894479319446315236006108307643567",
+        "outcome": "Pistons",
+        "price": 0.4164,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x8715043d46e61f2540e5d63288582a21ffe8ed735ac566211683802624de3a05",
+    "source": "clob",
+    "title": "Will Rihanna's first song of the Super Bowl LVII Halftime Show be \"Diamonds\"?",
+    "description": "Super Bowl LVII is the championship game of the 2022-2023 National Football League season. It is scheduled to take place at State Farm Stadium in Glendale, Arizona, USA.\n\nThis market will resolve to \"Yes\" if Rihanna's first song of the Super Bowl LVII Halftime Show is \"Diamonds\". Otherwise, this market will resolve to \"No\".\n\nIf this game's halftime show is not completed by March 12, 2023, 11:59:59 PM ET, this market will resolve 50-50.\n\nThe primary resolution source for this market will be official information from the NFL and live footage from Super Bowl LVII, however a consensus of credible reporting may also be used.",
+    "slug": "will-rihannas-first-song-of-the-super-bowl-lvii-halftime-show-be-diamonds",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.0012,
+      0.9988
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-rihannas-first-song-of-the-super-bowl-lvii-halftime-show-be-diamonds-iCX7bVJ6JGUX.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/rihanna.webp",
+    "condition_id": "0x8715043d46e61f2540e5d63288582a21ffe8ed735ac566211683802624de3a05",
+    "question_id": "0xd53a837cfe01379040b3c459d2265df6075359596aabae617460eab26ee3d1f0",
+    "tokens": [
+      {
+        "token_id": "20665929052353072937598277467925056741715448248602136210995928171550484153000",
+        "outcome": "Yes",
+        "price": 0.0012,
+        "winner": false
+      },
+      {
+        "token_id": "106929547166703607828459627041878197823020003915292162458264870868342231274626",
+        "outcome": "No",
+        "price": 0.9988,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xb6bfd32d4bda09062c8b08ef96303e4eda268d12e3e38167be89cae981aaf10e",
+    "source": "clob",
+    "title": "UFC 285: Will there be at least 4 finishes on the main card?",
+    "description": "UFC 285 is an upcoming mixed martial arts event produced by the Ultimate Fighting Championship that is scheduled to take place on March 4, 2023, at the  at the T-Mobile Arena in Las Vegas, USA.\n\nThis is a market on whether there will be at least 4 wins by finish on the main card of UFC 285. To \"win by finish\" means winning by KO/TKO/disqualification, submission, or any other form of stoppage. Any decision made by the judges will not count as a finish.\n\nThis market will resolve to \u201cYes\u201d if at least 4 bouts on the UFC 285 main card are won by finish. Otherwise, this market will resolve to \"No\".\n\nIf for any reason fewer than 4 main card matches are scored, are postponed until after March 11, 2023 11:59:59 PM ET, or are otherwise cancelled, this market will resolve 50-50.",
+    "slug": "ufc-285-will-there-be-at-least-4-finishes-on-the-main-card",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-04T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/ufclogo.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/ufclogo.png",
+    "condition_id": "0xb6bfd32d4bda09062c8b08ef96303e4eda268d12e3e38167be89cae981aaf10e",
+    "question_id": "0x675475972aa160749bf8b307b45d8a08e1a530f0db939222c03611504bd5fc12",
+    "tokens": [
+      {
+        "token_id": "24806967269961134085817758331029446915784087112300653098344902811527429507155",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "56702292413584266377453564457874233264659011821660766907601705935286811447494",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xec8ac7ee6c07430720d094add42b65f9bb58eee4d50cf871eb283683266f0ce1",
+    "source": "clob",
+    "title": "Will Wesley So win the WR Chess Masters?",
+    "description": "The WR Chess Masters 2023 is scheduled to take place February 15-26 at the Hyatt Regency Dusseldorf in Germany. The tournament brings together 10 of the world's strongest players for a round-robin tournament.\n\nThis market will resolve to \"Yes\" if chess grandmaster Wesley So wins the WR Chess Masters 2023. Otherwise, this market will resolve to \"No\".\n\nIf it can be definitively determined at any point that Wesley So will not be the winner of the WR Chess Masters 2023 based on the rules of the tournament, this market may immediately resolve to \"No\".\n\nIf for any reason the tournament is cancelled or rescheduled to an end date after March 26, 2023, this market will resolve 50-50.\n\nThe primary resolution source for this market will be the official information from the WR Chess Masters including footage from the tournament (which will be streamed here:\u00a0https://wr-chess.com/live/), however a consensus of other credible sources may be used.",
+    "slug": "will-wesley-so-win-the-wr-chess-masters",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-26T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.0012,
+      0.9988
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wesley+so.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wesley+so.jpeg",
+    "condition_id": "0xec8ac7ee6c07430720d094add42b65f9bb58eee4d50cf871eb283683266f0ce1",
+    "question_id": "0x3d0cb592547917d86510458b6f4d0c476ad4fe164d8ab822a8240119ddfb995f",
+    "tokens": [
+      {
+        "token_id": "39289679472414837821583732143216494588121212380555769760833586790049952727976",
+        "outcome": "Yes",
+        "price": 0.0012,
+        "winner": false
+      },
+      {
+        "token_id": "36387808287602434226612007330135789007725538245981525016309108634783203631228",
+        "outcome": "No",
+        "price": 0.9988,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xfe773f8e17ec4e757faf70567f2d85644e3611f2748392f46bb9329877db6025",
+    "source": "clob",
+    "title": "Will Miles Sanders have the most rushing yards of any player in Super Bowl LVII?",
+    "description": "Super Bowl LVII is the championship game of the 2022-2023 National Football League season. It is scheduled to take place at State Farm Stadium in Glendale, Arizona, USA.\n\nThis market will resolve to \"Yes\" if runningback for the Philadelphia Eagles Miles Sanders accrues the most rushing yards of any player in Super Bowl LVII. Otherwise, this market will resolve to \"No\".\n\nIf he ties for most, the market still resolves to \"Yes.\"\n\nIf this game is not completed by March 12, 2023, 11:59:59 PM ET, this market will resolve 50-50.\n\nThe primary resolution source for this market will be official information from the NFL and live footage from Super Bowl LVII, however a consensus of credible reporting may also be used.",
+    "slug": "will-miles-sanders-have-the-most-rushing-yards-of-any-player-in-super-bowl-lvii",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.001,
+      0.999
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/miles+sanders.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/miles+sanders.jpeg",
+    "condition_id": "0xfe773f8e17ec4e757faf70567f2d85644e3611f2748392f46bb9329877db6025",
+    "question_id": "0x19458046ba937c7ed5337506b3be88d870a7e77301d58fd1d1ed107eabe0f322",
+    "tokens": [
+      {
+        "token_id": "14864690048411863509864136642933020552751693168334543712606679003596269883303",
+        "outcome": "Yes",
+        "price": 0.001,
+        "winner": false
+      },
+      {
+        "token_id": "95019595154428293752475899296509768331943601973228932676304797915193188085688",
+        "outcome": "No",
+        "price": 0.999,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "will-a-mugshot-of-donald-trump-be-released-by-a-state-or-federal-law-enforcement-agency-by-june-30",
+    "source": "clob",
+    "title": "Will a mugshot of Donald Trump be released by a state or federal law enforcement agency by June 30?",
+    "description": "This market will resolve to \"Yes\" if any state or federal law enforcement agency in the United States of America releases a mugshot of former President Donald J. Trump by June 30, 2023, 11:59:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from a state or federal agency of the USA, however a consensus of credible reporting will also be used.",
+    "slug": "will-a-mugshot-of-donald-trump-be-released-by-a-state-or-federal-law-enforcement-agency-by-june-30",
+    "active": false,
+    "closed": false,
+    "archived": true,
+    "end_date": null,
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "",
+      ""
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump+mugshot.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump+mugshot.jpeg",
+    "condition_id": "",
+    "question_id": "",
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x857a86fa89e7534937514bfc0eefc6fd8b8afc407a45826c24a6e29a9e8d6d7d",
+    "source": "clob",
+    "title": "NBA: San Antonio Spurs vs. Atlanta Hawks 2023-03-19",
+    "description": "In the upcoming NBA game, scheduled for March 19 at 4:00 PM ET:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-sa-atl-2023-03-19",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-19T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Spurs",
+      "Hawks"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x857a86fa89e7534937514bfc0eefc6fd8b8afc407a45826c24a6e29a9e8d6d7d",
+    "question_id": "0x47b02dadc0d1e50008f778ac82a0d6adb6137ff12d2868deea4617e6459269ab",
+    "tokens": [
+      {
+        "token_id": "14876440562044344867128037009344638697585053779240668460423113113427763727243",
+        "outcome": "Spurs",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "80801530385980668654657009408825191926002707121931789409409023842899491875667",
+        "outcome": "Hawks",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x774f5c5c25f80dc03ad5aada57dd679e79e99ddc27ca1e18440c19b0082da427",
+    "source": "clob",
+    "title": "NBA: Jazz vs. Knicks (02/11/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 11:\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\nIf this game is not completed by April 11, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+    "slug": "nba-jazz-vs-knicks-02112023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Jazz",
+      "Knicks"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x774f5c5c25f80dc03ad5aada57dd679e79e99ddc27ca1e18440c19b0082da427",
+    "question_id": "0xaa7dc294a4a068c5ab37efa2a5b3013243977287c1a958f23154ea2a9f5e1fdf",
+    "tokens": [
+      {
+        "token_id": "43158910816044834978559493505015343723013202703172364548378828046523764499263",
+        "outcome": "Jazz",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "8980012174732927748522461611094437838101992076768855387074494996053317327238",
+        "outcome": "Knicks",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x8f4eb73b94bd4c714314450e4c53e03f9f66728f7575ba8fb5921fc0a1d1c053",
+    "source": "clob",
+    "title": "NCAAB: Marquette Golden Eagles vs. Michigan State Spartans 2023-03-19",
+    "description": "In the upcoming NCAAB game, scheduled for March 19 at 5:15 PM ET:\n\nIf the Marquette Golden Eagles win, the market will resolve to \u201cMarquette\u201d.\n\nIf the Michigan State Spartans win, the market will resolve to \u201cMichigan State\u201d.\n\n If the game is not completed by April 10, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "ncaab-marq-msu-2023-03-19",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-19T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Marquette",
+      "Michigan State"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "condition_id": "0x8f4eb73b94bd4c714314450e4c53e03f9f66728f7575ba8fb5921fc0a1d1c053",
+    "question_id": "0xd61f4b4f1d6cdcfd3671fc2f3463a09c9bd7384bb60b8b70842f1aafad353614",
+    "tokens": [
+      {
+        "token_id": "113777927711772021311258557994435478672283889671925800668963839279745740516257",
+        "outcome": "Marquette",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "101442063541348122720865288473784981817407117531732953514951271616196985509331",
+        "outcome": "Michigan State",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xe9c0537b55cce004669dd212caa8dad9ce5e59b7753d00c67ff037e65f0c6273",
+    "source": "clob",
+    "title": "NHL: Florida Panthers vs. Chicago Blackhawks 2023-03-10",
+    "description": "In the upcoming NHL game, scheduled for March 10 at 7:00\u202fPM ET:\n\nIf the Florida Panthers win, the market will resolve to \u201cPanthers\u201d.\n\nIf the Chicago Blackhawks win, the market will resolve to \u201cBlackhawks\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-fla-chi-2023-03-10",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Panthers",
+      "Blackhawks"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0xe9c0537b55cce004669dd212caa8dad9ce5e59b7753d00c67ff037e65f0c6273",
+    "question_id": "0x6513401f37b1298be9d1d197e94e078d1ea329670013eb87f33ae752c4b0b2d5",
+    "tokens": [
+      {
+        "token_id": "76301161635061165412850252912678585782065095511405426017325067830119541959113",
+        "outcome": "Panthers",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "77137032341232377162964366232668358068814515826311573292660365617503685414067",
+        "outcome": "Blackhawks",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x7a5a8c90d0bfd74e8f6993e1d2a6ccfb2672afded538692c0df1e06b22179abc",
+    "source": "clob",
+    "title": "NBA: Cleveland Cavaliers vs. Washington Wizards 2023-03-17",
+    "description": "In the upcoming NBA game, scheduled for March 17 at 7:30 PM ET:\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-cle-wsh-2023-03-17",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-17T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Cavaliers",
+      "Wizards"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x7a5a8c90d0bfd74e8f6993e1d2a6ccfb2672afded538692c0df1e06b22179abc",
+    "question_id": "0x94f071951576efaf6a11332d67aeac216b19cba7fb1ee01de45c24961ee1f380",
+    "tokens": [
+      {
+        "token_id": "87731910951982138642544281149380513781587650070625633759552560845355638978430",
+        "outcome": "Cavaliers",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "15040822001378987092833720505473612684778851851155288746739450480072429738349",
+        "outcome": "Wizards",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xfc36b53c637f4b0fd405c4438acc213fc161ada056b4b06e4eb1838ac9061075",
+    "source": "clob",
+    "title": "Will Brandon Johnson win the 2023 Chicago Mayoral Election?",
+    "description": "The 2023 Chicago Mayoral Election is scheduled to take place on February 28, 2023. If no candidate receives a majority of votes, a runoff election will be held on April 4, 2023. This is a market asking who will be the ultimate victor.\n\nThis market will resolve to \"Yes\" if Brandon Johnson wins the 2023 Chicago Mayoral Election. Otherwise, this market will resolve to \"No\".\n\nIf a runoff election is triggered and this candidate is no longer in consideration for Mayor of Chicago, this market will resolve immediately to \"No\".\n\nThe primary resolution source for this market will be a consensus of credible reporting, however if there is any ambiguity in the results this market will resolve according to official information from the Chicago Board of Election Commissioners (https://chicagoelections.gov/en/election-results.html).",
+    "slug": "will-brandon-johnson-win-the-2023-chicago-mayoral-election",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-brandon-johnson-win-the-2023-chicago-mayoral-election-59b8085c-6cc6-4262-9da8-f1c08516dca7.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-brandon-johnson-win-the-2023-chicago-mayoral-election-59b8085c-6cc6-4262-9da8-f1c08516dca7.png",
+    "condition_id": "0xfc36b53c637f4b0fd405c4438acc213fc161ada056b4b06e4eb1838ac9061075",
+    "question_id": "0x95e596737f7decef2a96e87d9c343ab91061a05a77c2b445f0d0b19a7fca1667",
+    "tokens": [
+      {
+        "token_id": "32793478390230063237136430928525252055346661055140124899957582880074207482919",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "101336942732063584453297699376420407119098459703680577492163530326457876070492",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xf8fa60fa33aaa7394ff92cf195fcc45b2d5de4bac43fcb537e0323c9b64b4d01",
+    "source": "clob",
+    "title": "NBA: Utah Jazz vs. Oklahoma City Thunder 2023-02-23",
+    "description": "In the upcoming NBA game, scheduled for February 23 at 9:00\u202fPM ET:\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50",
+    "slug": "nba-utah-okc-2023-02-23",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-22T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Jazz",
+      "Thunder"
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xf8fa60fa33aaa7394ff92cf195fcc45b2d5de4bac43fcb537e0323c9b64b4d01",
+    "question_id": "0xf4a73fc7b8399af79c928b109bc155b75bc31be50230128282213dad08047432",
+    "tokens": [
+      {
+        "token_id": "56854778582279152963301831119080686371971576741615690358980536418756036606518",
+        "outcome": "Jazz",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "39819691616627042045010631890768228775204216752451226303365992283746601630955",
+        "outcome": "Thunder",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x8d4d93af5b60101fe62eed34c1bf224772c9eca08e6b20133464a63334d45385",
+    "source": "clob",
+    "title": "NFL Wild Card Round: Seahawks Vs. 49ers",
+    "description": "In the upcoming NFL game scheduled for January 14, 2023:\n\nIf the Seattle Seahawks win, this market will resolve to \"Seahawks\".\n\nIf the San Francisco 49ers win, this market will resolve to \"49ers\".\n\nIf this game ends in a tie, this market will resolve 50-50. If this game is not completed by January 20, 2023, 11:59:59 PM ET, this market will resolve 50-50.",
+    "slug": "nfl-wild-card-round-seahawks-vs-49ers",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-01-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Seahawks",
+      "49ers"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "condition_id": "0x8d4d93af5b60101fe62eed34c1bf224772c9eca08e6b20133464a63334d45385",
+    "question_id": "0xc5bcd9bd6c73c0d5f71ef0488f808b6d8d24e11a41c70f7044787d4981b14ec6",
+    "tokens": [
+      {
+        "token_id": "50704207056736616228968863530974795238122824149643789058133772904215352005018",
+        "outcome": "Seahawks",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "36874459293480338454188062869396010095398028828525149685467715440226955267",
+        "outcome": "49ers",
+        "price": 1,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x8cb5196f9cd554c55abdb18b8c65a2d44b7909f53428a099939f8225e36515ad",
+    "source": "clob",
+    "title": "NBA: Minnesota Timberwolves vs. Brooklyn Nets 2023-03-10",
+    "description": "In the upcoming NBA game, scheduled for March 10 at 8:00\u202fPM ET:\n\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\n\nIf the Brooklyn Nets win, the market will resolve to \u201cNets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-min-bkn-2023-03-10",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Timberwolves",
+      "Nets"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x8cb5196f9cd554c55abdb18b8c65a2d44b7909f53428a099939f8225e36515ad",
+    "question_id": "0x37843efc76cfdc70d1f3f480f11db4a2a4a806c818d67f4aaedc7e36c923acc2",
+    "tokens": [
+      {
+        "token_id": "54077151553614049274464546396359058045766961524396597312739005640283217823785",
+        "outcome": "Timberwolves",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "2743476462668014717624414594866458122202603278579811078181057369796300347091",
+        "outcome": "Nets",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x1e28e73363c1a45a7ea8f4fffeacb82f315afa1a401d344a1b87627296ce28ef",
+    "source": "clob",
+    "title": "Will Lori Lightfoot win the 2023 Chicago Mayoral Election?",
+    "description": "The 2023 Chicago Mayoral Election is scheduled to take place on February 28, 2023. If no candidate receives a majority of votes, a runoff election will be held on April 4, 2023. This is a market asking who will be the ultimate victor.\n\nThis market will resolve to \"Yes\" if Lori Lightfoot wins the 2023 Chicago Mayoral Election. Otherwise, this market will resolve to \"No\".\n\nIf a runoff election is triggered and this candidate is no longer in consideration for Mayor of Chicago, this market will resolve immediately to \"No\".\n\nThe primary resolution source for this market will be a consensus of credible reporting, however if there is any ambiguity in the results this market will resolve according to official information from the Chicago Board of Election Commissioners (https://chicagoelections.gov/en/election-results.html).",
+    "slug": "will-lori-lightfoot-win-the-2023-chicago-mayoral-election",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/lori+lightfoot.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/lori+lightfoot.png",
+    "condition_id": "0x1e28e73363c1a45a7ea8f4fffeacb82f315afa1a401d344a1b87627296ce28ef",
+    "question_id": "0xd4f35860f6828916e81bd3956a700991cd6ad8e35739113d9537c127fa5f262c",
+    "tokens": [
+      {
+        "token_id": "65802362820020567329932154906104722382903008851403603648660735230391455112176",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "98367414598724826729591562519283226336531934089688901170113968404509428380071",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x2fde28e6ad1d8b2aa49b499a1112a313884e53822b0d93860dbc377446ef547f",
+    "source": "clob",
+    "title": "NBA: Los Angeles Lakers vs. New York Knicks 2023-03-12",
+    "description": "In the upcoming NBA game, scheduled for March 12 at 9:00\u202fPM ET:\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-lal-nyk-2023-03-12",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-12T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Lakers",
+      "Knicks"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x2fde28e6ad1d8b2aa49b499a1112a313884e53822b0d93860dbc377446ef547f",
+    "question_id": "0x0a42672d9122a923259067aade1dc3bf67988f083490c175c9f76d7c5e4a094e",
+    "tokens": [
+      {
+        "token_id": "101488230561608691291900143620575270270553548775983028254877200644165474021818",
+        "outcome": "Lakers",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "85754868374835476260716471505480688044835870090501239645234382427726941962155",
+        "outcome": "Knicks",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x5ef7d98e2b55953be12acc6aa5c13129bfef55a0e48b14ac0f479e08981f9bd1",
+    "source": "clob",
+    "title": "Will the Fed increase interest rates by 25 bps after its February meeting?",
+    "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings. \n\nThe resolution source for this market is the FOMC\u2019s statement after its meeting scheduled for January 31 through February 1, 2023 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. \n\nThis market will resolve to \u201cYes\u201d if following the Federal Reserve's January/February 2023 meeting the upper bound of the target federal funds rate is increased exactly 25 basis points over the level it was prior to the meeting. Otherwise, it will resolve to \u201cNo.\u201d \n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm. \n\nThis market may resolve as soon as the FOMC\u2019s statement for their January/February meeting with relevant data is issued. If no statement is released by February 8, 2023, 11:59:59 PM ET, this market will resolve 50-50.\n",
+    "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-its-february-meeting",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/FED.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/FED.jpg",
+    "condition_id": "0x5ef7d98e2b55953be12acc6aa5c13129bfef55a0e48b14ac0f479e08981f9bd1",
+    "question_id": "0x22ef0a02659a76837363f0d9004b315ace028626da4f6e7a242817fba88e1131",
+    "tokens": [
+      {
+        "token_id": "102122366921728883686007723122183182680201356871652918420191682492250640822215",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": false
+      },
+      {
+        "token_id": "1097955942803140332889254003124615337602080239229284846512443678670566232194",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xf20f0a39c8f295a19866251c66504cecc30b0c4d51367b784501fab2779755dd",
+    "source": "clob",
+    "title": "NBA: LA Clippers vs. Minnesota Timberwolves 2023-02-28",
+    "description": "In the upcoming NBA game, scheduled for February 28 at 10:00\u202fPM:\n\nIf the LA Clippers win, the market will resolve to \u201cClippers\u201d.\n\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+    "slug": "nba-lac-min-2023-02-28",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-28T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Clippers",
+      "Timberwolves"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xf20f0a39c8f295a19866251c66504cecc30b0c4d51367b784501fab2779755dd",
+    "question_id": "0xc71c032dd602eda39a0624b6c739425bdf1de77b502d4ee69ea6dfccade4fb3e",
+    "tokens": [
+      {
+        "token_id": "47902773488964876162192075023028514683288334204853603368465039079030145150252",
+        "outcome": "Clippers",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "70084667676852280891721745883295416081615285292688254987811743916978207280121",
+        "outcome": "Timberwolves",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xb01a3f1db2b9150eaa813faee68602887a61efd781ac7fbda2868ab5b8cd9e6a",
+    "source": "clob",
+    "title": "UFC Fight Night: Who will win - Strickland vs. Imavov",
+    "description": "UFC Fight Night is an upcoming mixed martial arts event produced by the Ultimate Fighting Championship that is scheduled to take place on January 14, 2023, at UFC APEX in Las Vegas, Nevada, United States.\n\nThis is a market on whether Sean Strickland or Nassourdine Imavov will win their bout.\n\nIf Sean Strickland is declared the winner of this bout, this market will resolve to \u201cStrickland\u201d. If Nassourdine Imavov is declared the winner of this bout, this market will resolve to \u201cImavov\u201d.\n\nIf this fight is declared a draw, or if for any reason the match is not scored, postponed after January 21, 2023, 11:59:59 PM ET, or cancelled, this market will resolve 50-50.",
+    "slug": "ufc-fight-night-who-will-win-strickland-vs-imavov",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-01-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Strickland",
+      "Imavov"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/ufclogo.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/ufclogo.png",
+    "condition_id": "0xb01a3f1db2b9150eaa813faee68602887a61efd781ac7fbda2868ab5b8cd9e6a",
+    "question_id": "0xa6c0645514cf6a0d359dc10d2d8ef5bb6432089fe4625ccaae136295a948f53d",
+    "tokens": [
+      {
+        "token_id": "65832068603837896051404624033637065024292179881289060451809853775685847177746",
+        "outcome": "Strickland",
+        "price": 1,
+        "winner": false
+      },
+      {
+        "token_id": "104644252217573449054288588500338677752828659947622759505641997528160168805711",
+        "outcome": "Imavov",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x6e22d4fe279894dfe22854258eefea3893502043db541a7b095b85056aa7b6c9",
+    "source": "clob",
+    "title": "NBA: Charlotte Hornets vs. Indiana Pacers 2023-03-20",
+    "description": "In the upcoming NBA game, scheduled for March 20 at 7:00 PM ET:\n\nIf the Charlotte Hornets win, the market will resolve to \u201cHornets\u201d.\n\nIf the Indiana Pacers win, the market will resolve to \u201cPacers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-cha-ind-2023-03-20",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-20T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Hornets",
+      "Pacers"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x6e22d4fe279894dfe22854258eefea3893502043db541a7b095b85056aa7b6c9",
+    "question_id": "0xd3bbe7c29008572bddd96b150837e00de7a2bdfc8ebb35b1126dcc1c7b963d35",
+    "tokens": [
+      {
+        "token_id": "89154665316366281890117736924108376554424352834789254495662230031482843833408",
+        "outcome": "Hornets",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "70274804015339661501543951155665557589537564885656168749620615807083297352074",
+        "outcome": "Pacers",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xbae919b42f4585af8848a3e291dad4c0c2d39145db4fce6618b1b4ca8993923f",
+    "source": "clob",
+    "title": "NHL: Toronto Maple Leafs vs. Carolina Hurricanes 2023-03-17",
+    "description": "In the upcoming NHL game, scheduled for March 17 at 7:00 PM ET:\n\nIf the Toronto Maple Leafs win, the market will resolve to \u201cMaple Leafs\u201d.\n\nIf the Carolina Hurricanes win, the market will resolve to \u201cHurricanes\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-tor-car-2023-03-17",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-17T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Maple Leafs",
+      "Hurricanes"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0xbae919b42f4585af8848a3e291dad4c0c2d39145db4fce6618b1b4ca8993923f",
+    "question_id": "0xda9066a788046f1d460e16c73b4c6048ea401b7e099f457a4e30446bf71b3e9c",
+    "tokens": [
+      {
+        "token_id": "95568188734156807762563461485048445042341676266882988513143762288260395741442",
+        "outcome": "Maple Leafs",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "24071140236404809723663732494650970206744667135357686389051606340803972567735",
+        "outcome": "Hurricanes",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x09776586b8dc3f65cee05adb6e5c1f647dba76992c314a77d80a191cab6bb8c0",
+    "source": "clob",
+    "title": "Premier League: Who will win the Crystal Palace vs. Liverpool game on August 15?",
+    "description": "In the upcoming Premier League soccer game, scheduled for August 15:\n\nIf the Crystal Palace F.C. wins, the market will resolve to \u201cCrystal Palace\u201d. \n\nIf the Liverpool F.C. wins, the market will resolve to \u201cLiverpool\u201d.\n\nIf the game is not completed by August 22, 2022, or there is a tie, the market will resolve 50-50.",
+    "slug": "premier-league-who-will-win-the-crystal-palace-vs-liverpool-game-on-august-15",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2022-08-15T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Crystal Palace",
+      "Liverpool"
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+    "condition_id": "0x09776586b8dc3f65cee05adb6e5c1f647dba76992c314a77d80a191cab6bb8c0",
+    "question_id": "0xe87f4eb99dec34aa5544dced6b543a5ec9f2c391c352d8a87664d79f9e3a296f",
+    "tokens": [
+      {
+        "token_id": "26430229334445961376968322516392779151001660223387778747930666455579577999631",
+        "outcome": "Crystal Palace",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "78560150967493632575566770688124045340054094663229498669036428951932571624356",
+        "outcome": "Liverpool",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x7b76dda87a490fe7fb793ba900c02685aaa193c75277c39f396121f902f9786c",
+    "source": "clob",
+    "title": "archWill Gavin Newsom win the 2024 US Presidential Election?",
+    "description": "The 2024 United States presidential election is scheduled to take place on November 5, 2024.\n\nIf Gavin Newsom wins the 2024 United States presidential election, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nDetermination of the winner of the 2024 Presidential Election will be based on an overwhelming consensus of credible reporting, or if there is ambiguity, final official determination of the election results.",
+    "slug": "archwill-gavin-newsom-win-the-2024-us-presidential-election",
+    "active": false,
+    "closed": false,
+    "archived": true,
+    "end_date": "2024-11-05T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.5,
+      0.5
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gavin+newsom.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gavin+newsom.jpeg",
+    "condition_id": "0x7b76dda87a490fe7fb793ba900c02685aaa193c75277c39f396121f902f9786c",
+    "question_id": "0xc4254f92289b632d9763f69236dcfed181e92f722be43f2f8815d887c0307d46",
+    "tokens": [
+      {
+        "token_id": "36430544462570115479940657234002209450370604907241767679295768862183843744752",
+        "outcome": "Yes",
+        "price": 0.5,
+        "winner": false
+      },
+      {
+        "token_id": "56357009725687097216720222009731054615934909862114516653388699536347194425830",
+        "outcome": "No",
+        "price": 0.5,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xb7e10f4e27c23797fea410d0ea486ff2c310caec82e88cb65eb0326f0b7ff8c5",
+    "source": "clob",
+    "title": "Will Joe Biden be President of the United States on June 1, 2023?",
+    "description": "This is a market on if Joe Biden will be President of the United States on June 1, 2023, 12 PM ET.\n\nThis market will resolve to \u201cYes\u201c if, at the time of this market's resolution, Joe Biden is the President of the United States as officially substantiated by US government sources. Otherwise, this market will resolve to \"No.\"\n\nThe primary resolution source for this market is https://www.whitehouse.gov/; however, other official government sources may be used.",
+    "slug": "will-joe-biden-be-president-of-the-united-states-on-june-1-2023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-06-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Biden+Oct+1.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Biden+Oct+1.png",
+    "condition_id": "0xb7e10f4e27c23797fea410d0ea486ff2c310caec82e88cb65eb0326f0b7ff8c5",
+    "question_id": "0x6e54986ffb0b2f64042d88192bbed4e07274b83da89a93e067feb5acdf406193",
+    "tokens": [
+      {
+        "token_id": "52644003969251968869441622436463110626097607363533001723463307168427841907869",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "40369820145495574054442647452764356421869475278196849464231784556801413164843",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x82942205e81a01e6ebdc0270d883189ac315dd7a7c15b9c954d0274a4df612cc",
+    "source": "clob",
+    "title": "Will U.S. inflation be greater than 0.0% from February to March 2023?",
+    "description": "This is a market on a month-to-month inflation, as measured by the Bureau of Labor Statistics (CPI-U), from January to February 2023. Inflation is measured by a change in Consumer Price Index for All Urban Consumers (CPI-U) on a seasonally adjusted basis, reported by the U.S. Bureau of Labor Statistics.\n\nThis market will resolve to \u201cYes\u201d if the index increased by more than 0.0 percent (on a seasonally adjusted basis) from February to March 2023 and \u201cNo\u201c otherwise.\n\nThe resolution source for this market will be the BLS February 2023 Consumer Price Index report (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on April 12, 2023, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\n----\n\nThe Consumer Price Index (CPI) is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release which reports seasonally-adjusted month-to-month inflation to only one decimal point (e.g. 0.7%). Thus, this is the level of precision that will be used when resolving the market (e.g. if seasonally adjusted month-to-month CPI-U is 0.1%, the market will resolve to \u201cYes\u201d, if it is 0.0%, this market will resolve to \u201cNo\u201d).",
+    "slug": "will-us-inflation-be-greater-than-0pt0-from-february-to-march-2023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-04-11T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Inflation.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Inflation.png",
+    "condition_id": "0x82942205e81a01e6ebdc0270d883189ac315dd7a7c15b9c954d0274a4df612cc",
+    "question_id": "0x30e85c2e17189cf8d2ffd983ec4715a600de64973b5c3186f13362a60449a2ee",
+    "tokens": [
+      {
+        "token_id": "18072345329331065095933078257061839848223176117621615362916499634807604425422",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "34681061019451565749803316927157532757453334445177256373294633533061683689086",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x768603866bc5ce73836ccae47d72ee47cdd605d41320d3894ca41412f784d775",
+    "source": "clob",
+    "title": "[Single Market] Will Nikki Haley win the U.S. 2024 Republican presidential nomination?",
+    "description": "This market will resolve to \u201cYes\u201d if Nimrata Nikki Haley wins the 2024 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be a consensus of official GOP sources, including https://www.gop.com.\n\nAny replacement of the nominee before election day will not change the resolution of the market.",
+    "slug": "will-nikki-haley-win-the-us-2024-republican-presidential-nomination",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2024-09-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/single-market-will-nikki-haley-win-the-us-2024-republican-presidential-nomination-a119dc96-80a7-48c3-9ba1-6d92314e8ec2.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/single-market-will-nikki-haley-win-the-us-2024-republican-presidential-nomination-a119dc96-80a7-48c3-9ba1-6d92314e8ec2.png",
+    "condition_id": "0x768603866bc5ce73836ccae47d72ee47cdd605d41320d3894ca41412f784d775",
+    "question_id": "0x8bb29aaff85327cf495d8b525abf936f512d0756def375839f288e16f18f1f3b",
+    "tokens": [
+      {
+        "token_id": "35557859467763341635362789570856827321272210357501754618844815551576922983291",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "78118529524639173700167934778533202620053845007966912944800512231568696242280",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xc866174e919105ad59a2900e22b29479c63c130d7f54fab992d5f0ded7350f84",
+    "source": "clob",
+    "title": "NHL: Toronto Maple Leafs vs. Edmonton Oilers 2023-03-11",
+    "description": "In the upcoming NHL game, scheduled for March 11 at 7:00\u202fPM ET:\n\nIf the Toronto Maple Leafs win, the market will resolve to \u201cMaple Leafs\u201d.\n\nIf the Edmonton Oilers win, the market will resolve to \u201cOilers\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-tor-edm-2023-03-11",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-11T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Maple Leafs",
+      "Oilers"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0xc866174e919105ad59a2900e22b29479c63c130d7f54fab992d5f0ded7350f84",
+    "question_id": "0x0af436e7f0f2b0c0e71e0b61c57c8ca90b23f99983c27dc05f9df67ead483b07",
+    "tokens": [
+      {
+        "token_id": "98958596956349408521450923505023541567656128875808838147764279177153442948080",
+        "outcome": "Maple Leafs",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "105135591223991847203731309807835394455090511333723764241930994694886233079444",
+        "outcome": "Oilers",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x0490fe6653f28e4bb6a9cf4b1c29dc1eb40b079a7482f5f101b5999f64329e67",
+    "source": "clob",
+    "title": "Will Austin Butler win the Oscar for Best Actor in a Leading Role?",
+    "description": "The Academy Awards are given every year by the Academy of Motion Picture Arts and Scientists (AMPAS) to a variety of films and film industry workers for outstanding displays of artistic and technical merit. In 2023 the 95th Academy Awards are set to be given out in a ceremony scheduled for March 12.\n\nThis market will resolve to \"Yes\" if Austin Butler wins the Academy Award for Best Actor in a Leading Role. Otherwise, this market will resolve to \"No\".\n\nIf for any reason no winner is declared by December 31, 2023, 11:59:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Academy Awards and AMPAS, including data from their website (e.g.\u00a0https://www.oscars.org/) and the live broadcast of the award ceremony, however a consensus of credible reporting may also be used.",
+    "slug": "will-austin-butler-win-the-oscar-for-best-actor-in-a-leading-role",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-13T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/austin+butler.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/austin+butler.png",
+    "condition_id": "0x0490fe6653f28e4bb6a9cf4b1c29dc1eb40b079a7482f5f101b5999f64329e67",
+    "question_id": "0x4b364e25ef3296aa7f1dfefdebb4ead63ab8dd8e6c9a1b523ad328d989bdd140",
+    "tokens": [
+      {
+        "token_id": "103504657933698074185469401655587402623389713255905669605560633199646477626105",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "6146978614047805500835803626741149590191887321431623361909674679472943261475",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x3ce43c563aaedcd8494179822c1ea39c0cfb9bd8b130fb4f6c9ef4e09ededf4f",
+    "source": "clob",
+    "title": "NBA: Orlando Magic vs. Utah Jazz 2023-03-09",
+    "description": "In the upcoming NBA game, scheduled for March 9 at 7:00\u202fPM ET:\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\nIf the Utah Jazz win, the market will resolve to \u201cJazz\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-orl-utah-2023-03-09",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-09T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Magic",
+      "Jazz"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x3ce43c563aaedcd8494179822c1ea39c0cfb9bd8b130fb4f6c9ef4e09ededf4f",
+    "question_id": "0xe9a1c49c7ad7b58b2f4de42c3cb90de4d7a481444f10cd8be6242b010f603bcb",
+    "tokens": [
+      {
+        "token_id": "83372612962184216721546811076817634331096526108716983882226609563865858403466",
+        "outcome": "Magic",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "102720172320780582397615562136949676912162701619096021549616380983583999041975",
+        "outcome": "Jazz",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x79b8f85909b60007ae1b688fcea76096f0396b74d46b518394b1d23cc4aace9c",
+    "source": "clob",
+    "title": "NBA: Knicks vs. Magic (02/07/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 7:\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\nIf this game is not completed by April 7, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+    "slug": "nba-knicks-vs-magic-02072023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-07T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Knicks",
+      "Magic"
+    ],
+    "outcome_prices": [
+      0.9997,
+      0.0003
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x79b8f85909b60007ae1b688fcea76096f0396b74d46b518394b1d23cc4aace9c",
+    "question_id": "0x5c0fa6f15a448cb298c0f01b5357a52a7b727404bcf5fbfb1023e4559dc4fff4",
+    "tokens": [
+      {
+        "token_id": "44625820084319871920084345592053514019425050321031502882375859729394791327594",
+        "outcome": "Knicks",
+        "price": 0.9997,
+        "winner": false
+      },
+      {
+        "token_id": "11126014038311753094198952602797682595277768044953965668214218828071676023299",
+        "outcome": "Magic",
+        "price": 0.0003,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x1d2272ceea6a8f3ab8d3907b446a372a989cb12b0c32fbbd147e130d1e04926a",
+    "source": "clob",
+    "title": "Will Everton beat Brentford? (03/11/2023)",
+    "description": "In the upcoming Premier League soccer match scheduled for March 11, 2023:\n\nIf Everton wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf the game results in a draw, the market resolves to \"No.\"\n\nIf the game is not completed by March 25, 2023, the market will resolve to 50-50.",
+    "slug": "will-everton-beat-brentford-03112023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-everton-beat-brentford-03112023-fPjlOPPA9Hvj.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/everton.png",
+    "condition_id": "0x1d2272ceea6a8f3ab8d3907b446a372a989cb12b0c32fbbd147e130d1e04926a",
+    "question_id": "0xd33b370251c77615f9c0abe468b741c65e524798b709b5cd178ca4eb33ca22ef",
+    "tokens": [
+      {
+        "token_id": "100206423386028457089702093264224311898528567450804649763029554989907077080048",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "102518118769837604209758951986894663161832181776872300409141071397819103096130",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x493931b4a209ac8bc7b129398a78a27a9a8585fa7a6aad104f6cb363a195e8d1",
+    "source": "clob",
+    "title": "NBA: Oklahoma City Thunder vs. Golden State Warriors 2023-03-07",
+    "description": "In the upcoming NBA game, scheduled for March 7 at 8:00\u202fPM:\n\nIf the Oklahoma City Thunder win, the market will resolve to \u201cThunder\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+    "slug": "nba-okc-gs-2023-03-07",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-07T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Thunder",
+      "Warriors"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x493931b4a209ac8bc7b129398a78a27a9a8585fa7a6aad104f6cb363a195e8d1",
+    "question_id": "0x8185a54114a93163fe47deba817a71eb2babd6d1556f80e2101f27ecbfac79e8",
+    "tokens": [
+      {
+        "token_id": "113790031318775645555744673265175567658368177398208000365841692533576372312363",
+        "outcome": "Thunder",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "11101520065215093546932226388080284723723640533391944326819896322041562089982",
+        "outcome": "Warriors",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xab71c618ab4aead75e75357bd9487c10781e50245c63350f33ce20e2a5940138",
+    "source": "clob",
+    "title": "NBA: Phoenix Suns vs. Milwaukee Bucks 2023-03-14",
+    "description": "In the upcoming NBA game, scheduled for March 14 at 10:00 PM ET:\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\nIf the Milwaukee Bucks win, the market will resolve to \u201cBucks\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-phx-mil-2023-03-14",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Suns",
+      "Bucks"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xab71c618ab4aead75e75357bd9487c10781e50245c63350f33ce20e2a5940138",
+    "question_id": "0xbd069c7bd0495d7fff19db3c2beaef377498e5bc519beba0b639b7ed1aa477cd",
+    "tokens": [
+      {
+        "token_id": "63761214868693685289241428942595547768205749622789286787447292604018277675082",
+        "outcome": "Suns",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "88038293579972730096893622194163936422917582285224802395973354174955674907130",
+        "outcome": "Bucks",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x57867706b9da251c0eb72e208bfb77d0b5c457766adcb51b525b1a65b5e9c362",
+    "source": "clob",
+    "title": "Will the Suns be the 2022-23 NBA Champion?",
+    "description": "This market will resolve to \"Yes\" if the Phoenix Suns become the 2022-23 NBA Champion. Otherwise, this market will resolve to \"No\".\n\nIf it is determined at any point that it is impossible for the Suns to be the 2022-23 NBA Champion based on the rules of the NBA (e.g. they're eliminated in the playoffs), this market will immediately resolve to \"No.\"\n\nIf this team is still in contention to become the champion and the champion still isn't determined by October 24, 2023, 11:59:59 PM ET, this market will resolve 50-50.",
+    "slug": "will-the-suns-be-the-2022-23-nba-champion",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-06-17T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/suns1.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/suns1.jpeg",
+    "condition_id": "0x57867706b9da251c0eb72e208bfb77d0b5c457766adcb51b525b1a65b5e9c362",
+    "question_id": "0xb05f06572ad4ce2bb6b68bf786ec16d07013c6690fad9142024dfe075a3334fe",
+    "tokens": [
+      {
+        "token_id": "68201855214234134581281471754953756625866357572771588242023512777154689185134",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "27429531973611746347769649895617325392528984517456459119652456972061879434785",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "will-busd-depeg-by-april-1",
+    "source": "clob",
+    "title": "WILL $BUSD depeg by April 1?",
+    "description": "This market will resolve to \u201cYes\u201d immediately if all Coinbase 1 minute candles for BUSD-USD for any 24 hour period are below 98 cents, for candles between 09 Mar '23 12:00 and 01 Apr '23 23:59 in the ET timezone. Otherwise, this market will resolve to \u201cNo\u201d.\n\nBelow 98 cents means the candles have a final \u201cHigh\u201d price below 0.98000 (i.e. 0.97999 or lower). A 24h period of BUSD below 98 cents that starts on the last day will count (e.g. 01 Apr '23 22:00 to 02 Apr '23 22:00).\n\nThe resolution source for this market is https://www.coinbase.com/, specifically the BUSD-USD \u201cHigh\u201d prices currently available at https://www.coinbase.com/advanced-trade/BUSD-USD with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar. To see the \u201cHigh\u201d prices, mouse over particular candles and look at the value after \u201cH\u201d at the top of the chart.\n\nPlease note that this market is about the price according to Coinbase BUSD-USD. If Coinbase stops having the necessary BUSD information to resolve this market, a consensus of credible sources for whether BUSD was below 98 cents for 24h+ may be used to resolve this market.",
+    "slug": "will-busd-depeg-by-april-1",
+    "active": false,
+    "closed": false,
+    "archived": true,
+    "end_date": "2023-04-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "",
+      ""
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dollarfire.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dollarfire.jpeg",
+    "condition_id": "",
+    "question_id": "",
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x3753d85f9518471f0af3d0b77e85c574ef2ec8505b85c9940b6b5a364dc1b7c0",
+    "source": "clob",
+    "title": "NBA: Bulls vs. Cavaliers (02/11/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 11:\n\nIf the Chicago Bulls win, the market will resolve to \u201cBulls\u201d.\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\nIf this game is not completed by April 11, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+    "slug": "nba-bulls-vs-cavaliers-02112023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Bulls",
+      "Cavaliers"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x3753d85f9518471f0af3d0b77e85c574ef2ec8505b85c9940b6b5a364dc1b7c0",
+    "question_id": "0xfa37e60a48fe5320cec165c3e7e1dc3ff035083a581eebfcf14a0fb404fa8203",
+    "tokens": [
+      {
+        "token_id": "95196047910037192032083955889922659069395562121440270459358091711536943150180",
+        "outcome": "Bulls",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "82881101238664680910128798591146823821472448150517213790974848372891076690518",
+        "outcome": "Cavaliers",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x6680622aca6fd7d645f221c7fb0eea0003e55fb0c5d6950e6601a6572e1c3ba6",
+    "source": "clob",
+    "title": "NBA: Memphis Grizzlies vs. Golden State Warriors 2023-03-09",
+    "description": "In the upcoming NBA game, scheduled for March 9 at 7:30\u202fPM ET:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-mem-gs-2023-03-09",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-09T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Grizzlies",
+      "Warriors"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x6680622aca6fd7d645f221c7fb0eea0003e55fb0c5d6950e6601a6572e1c3ba6",
+    "question_id": "0x329d6b2597756bb52bf757fb63f9461c1bbc92e9e9416120443f8e8eb2621c3a",
+    "tokens": [
+      {
+        "token_id": "50728361431599788253975050052895025554761213405826452843766381034230895896847",
+        "outcome": "Grizzlies",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "80038140093242785773914774052261724281380613111037307058110056398813661861360",
+        "outcome": "Warriors",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x7e2993407cc511025f35b0939ed82e30363e66492cc9164adfb2a2601595e4d3",
+    "source": "clob",
+    "title": "NBA: Cavaliers vs. Pelicans (02/10/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 10:\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\nIf the New Orleans Pelicans win, the market will resolve to \u201cPelicans\u201d.\n\nIf this game is not completed by April 10, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.",
+    "slug": "nba-cavaliers-vs-pelicans-02102023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-06T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Cavaliers",
+      "Pelicans"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x7e2993407cc511025f35b0939ed82e30363e66492cc9164adfb2a2601595e4d3",
+    "question_id": "0x018ac16cec258580785825087ca6ef68bcf2ab79f24c9cf0bdaaeb2dc4f1908e",
+    "tokens": [
+      {
+        "token_id": "25133410881087172940718001885475619856008709600480741631267304443855034740459",
+        "outcome": "Cavaliers",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "13083473019789975624716027427233122582236220002274045935377760987150373276952",
+        "outcome": "Pelicans",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "archnba-heat-vs-knicks-02022023",
+    "source": "clob",
+    "title": "archNBA: Heat vs. Knicks (02/02/2023)",
+    "description": "In the upcoming NBA game, scheduled for February 2:\n\nIf the Miami Heat win, the market will resolve to \u201cHeat\u201d.\n\nIf the New York Knicks win, the market will resolve to \u201cKnicks\u201d.\n\nIf this game is not completed by April 2, 2023 (11:59:59 PM ET), or is definitively cancelled before that date, this market will resolve 50-50.\n",
+    "slug": "archnba-heat-vs-knicks-02022023",
+    "active": false,
+    "closed": false,
+    "archived": true,
+    "end_date": "2023-02-02T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "",
+      ""
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "",
+    "question_id": "",
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x264185ffc9f9521fc80059c789bc258e7b52e6fc53e667a38d993caa969cf9c0",
+    "source": "clob",
+    "title": "NFL Monday: Chargers vs. Colts",
+    "description": "In the upcoming NFL game scheduled for December 26: \n\nIf the Los Angeles Chargers win, this market will resolve to \u201cChargers\u201d. \n\nIf the Indianapolis Colts win, this market will resolve to \u201cColts\u201d. \n\nIf this game ends in a tie, this market will resolve 50-50. \n\nIf the game is not completed by January 2 (11:59:59 PM ET), this market will resolve 50-50.\n",
+    "slug": "nfl-monday-chargers-vs-colts",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2022-12-26T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Chargers",
+      "Colts"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "condition_id": "0x264185ffc9f9521fc80059c789bc258e7b52e6fc53e667a38d993caa969cf9c0",
+    "question_id": "0x88af103882e20beb3ecd97a34a63c00da1f0c78eddab2e9165a685d31bad5a60",
+    "tokens": [
+      {
+        "token_id": "102051647939414695636916479284208418294956531538263944335993021134741577780694",
+        "outcome": "Chargers",
+        "price": 1,
+        "winner": false
+      },
+      {
+        "token_id": "94799941310845175561965796010574939037112535466128246014726820795951042163841",
+        "outcome": "Colts",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x41190eb9336ae73949c04f4900f9865092e69a57cf9c942a6157abf6ae8d16c6",
+    "source": "clob",
+    "title": "[Single Market] Will Donald J. Trump win the U.S. 2024 Republican presidential nomination?",
+    "description": "This market will resolve to \u201cYes\u201d if Donald J. Trump wins the 2024 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to \u201cNo\u201d.\n\nThe resolution source for this market will be a consensus of official GOP sources, including https://www.gop.com.\n\nAny replacement of the nominee before election day will not change the resolution of the market.",
+    "slug": "will-donald-j-trump-win-the-us-2024-republican-presidential-nomination-1",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2024-09-10T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/single-market-will-donald-j-trump-win-the-us-2024-republican-presidential-nomination-0be7f5d6-43f6-4d33-9ae5-fea3d780d6ea.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/single-market-will-donald-j-trump-win-the-us-2024-republican-presidential-nomination-0be7f5d6-43f6-4d33-9ae5-fea3d780d6ea.png",
+    "condition_id": "0x41190eb9336ae73949c04f4900f9865092e69a57cf9c942a6157abf6ae8d16c6",
+    "question_id": "0xb8f7299902480dc5261333eacfcd304b5a6988a36693bed032b36f92676d2c91",
+    "tokens": [
+      {
+        "token_id": "65818619657568813474341868652308942079804919287380422192892211131408793125422",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "7499310772839000939827460818108209122328490677343888452292252718053799772723",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xca1754b4b6b5723f8b0ce0d9dfcce641dfbb6955be44c021abb9e9b9f9a3cfb3",
+    "source": "clob",
+    "title": "NBA: Phoenix Suns vs. Orlando Magic 2023-03-16",
+    "description": "In the upcoming NBA game, scheduled for March 16 at 10:00 PM ET:\n\nIf the Phoenix Suns win, the market will resolve to \u201cSuns\u201d.\n\nIf the Orlando Magic win, the market will resolve to \u201cMagic\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-phx-orl-2023-03-16",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-16T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Suns",
+      "Magic"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xca1754b4b6b5723f8b0ce0d9dfcce641dfbb6955be44c021abb9e9b9f9a3cfb3",
+    "question_id": "0xb96a1780f82892454b145185945a6f598fbae76c2050d30ddb4707dea7a95e13",
+    "tokens": [
+      {
+        "token_id": "70697379395481614131660580814382145429538335033637027422302175767659375756109",
+        "outcome": "Suns",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "54236674435882209985301445557544866856106694650659223276724074797669307410989",
+        "outcome": "Magic",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x1e033c41ceaa50a44e7bd33eb156caa8a66b5ccaaf7544243b940fbb949ccb07",
+    "source": "clob",
+    "title": "Will 'Shazam! Fury of the Gods' gross more than $30 million domestically on its opening weekend?",
+    "description": "'Shazam! Fury of the Gods' (2023) is an upcoming American Superhero film directed by David F. Sandberg. It is the sequel to Shazam! (2019) and the 12th installment in the DC Extended Universe (DCEU). It is scheduled for theatrical release in the USA on March 17, 2023.\n\nThis is a market on how much \u2018Shazam! Fury of the Gods' will gross domestically on its opening weekend. The \u201cDomestic Weekend\u201d tab on https://www.boxofficemojo.com/title/tt10151854/ will be used to resolve this market once the values for the opening weekend (Mar 17 - 19) are final (i.e. not studio estimates).\n\nThis market will resolve to \"Yes\" if \u2018Shazam! Fury of the Gods\u2019 grosses more than $30,000,000 on its opening weekend. Otherwise, this market will resolve to \"No\".\n\nOpening weekend is defined as the first Friday, Saturday, and Sunday of the film's release. Please note, this market will resolve according to the Box Office Mojo number under Domestic Weekend for the 3-day weekend, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is no final data available by April 3, 2023, 11:59:59 PM ET, another credible resolution source will be chosen.",
+    "slug": "will-shazam-fury-of-the-gods-gross-more-than-30-million-domestically-on-its-opening-weekend",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-19T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/shazam.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/shazam.png",
+    "condition_id": "0x1e033c41ceaa50a44e7bd33eb156caa8a66b5ccaaf7544243b940fbb949ccb07",
+    "question_id": "0xdf121777f149aad645d6bf95a2fb9de2655672513b57fe938467b83455960f31",
+    "tokens": [
+      {
+        "token_id": "17530306761026800796687183181361630446222228145595054887433695411045955181379",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "106960537892815868095314610412746288666894565264652136378737026703102907041093",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xd942e714f491918b62c38dde70b24910e679cdfd83e9726e8aa01dbc8962df6b",
+    "source": "clob",
+    "title": "Will @elonmusk have 23,451 or more tweets on March 6?",
+    "description": "Memorialization: At 12:00 PM ET according to the resolution source, the number of tweets that @elonmusk had was 23,366.\n\n-----\n\nIf the number of tweets published by Elon Musk's verified Twitter account, @elonmusk, is 23,451 or greater on March 6, 2023, 12:00:00 PM ET, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nThis market will resolve according to the number of tweets found at 12:00:00 PM ET on March 6, 2023, and CANNOT resolve prior to that time (tweet numbers may decrease according to the source from deletes, etc.)\n\nYou can find Elon Musk's verified twitter account here: https://twitter.com/elonmusk. The resolution source for this market is the figure provided under \"TWEETS\" for @elonmusk on https://tweetdeck.twitter.com/. If tweetdeck ceases to exist by this market's expiration date, this market will resolve 50-50.\n\nPlease note, only the @elonmusk verified Twitter account will be considered toward the resolution of this market, regardless of the URL for this profile. If Elon Musk tweets from another account, it will have no bearing on the resolution of this market.\n\nThe number at 12:00 PM ET will be memorialized on the Polymarket market description after the resolution time passes: https://polymarket.com/event/will-elonmusk-have-23451-or-more-tweets-on-march-6.",
+    "slug": "will-elonmusk-have-23451-or-more-tweets-on-march-6",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-06T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elonmusk.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elonmusk.png",
+    "condition_id": "0xd942e714f491918b62c38dde70b24910e679cdfd83e9726e8aa01dbc8962df6b",
+    "question_id": "0xb12b1018b5435dd78b09e861a41d1c87d70e69d4944d0085f9f351261e541400",
+    "tokens": [
+      {
+        "token_id": "61559187953652696220240876005232013580738036120778320498944371896327539339251",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "64437079188852740926361065464108205049245236062577296598209670549649778742508",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xe7b85305c417b60e159fe843e3848bfb0c8352c248ba7128681507b339a5fce4",
+    "source": "clob",
+    "title": "NBA: Cleveland Cavaliers vs. Philadelphia 76ers 2023-03-15",
+    "description": "In the upcoming NBA game, scheduled for March 15 at 7:30 PM ET:\n\nIf the Cleveland Cavaliers win, the market will resolve to \u201cCavaliers\u201d.\n\nIf the Philadelphia 76ers win, the market will resolve to \u201c76ers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-cle-phi-2023-03-15",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-15T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Cavaliers",
+      "76ers"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xe7b85305c417b60e159fe843e3848bfb0c8352c248ba7128681507b339a5fce4",
+    "question_id": "0xdbccab39fee3dc84aaced6f719d32ec5a085e7e542bfc450f4df14303fdfce5e",
+    "tokens": [
+      {
+        "token_id": "111409641207749025107716084862760722985287025622146770370979523312876310600003",
+        "outcome": "Cavaliers",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "112269317877566491457856561978802815015028086662130813860921671926699659640096",
+        "outcome": "76ers",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x02ba76b36ffb6ec21751d270905a642769d1508c102b1275ca3fa46abd3a2710",
+    "source": "clob",
+    "title": "Will the Fed increase interest rates by 25 bps after its March meeting?",
+    "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThe resolution source for this market is the FOMC\u2019s statement after its meeting scheduled for March 21-22, 2023 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThis market will resolve to \u201cYes\u201d if following the Federal Reserve's March 2023 meeting the upper bound of the target federal funds rate is increased exactly 25 basis points over the level it was prior to the meeting. Otherwise, it will resolve to \u201cNo.\u201d\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC\u2019s statement for their March meeting with relevant data is issued. If no statement is released by April 30, 2023, 11:59:59 PM ET, this market will resolve 50-50.",
+    "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-its-march-meeting",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-22T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seal+federal+reserve.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seal+federal+reserve.png",
+    "condition_id": "0x02ba76b36ffb6ec21751d270905a642769d1508c102b1275ca3fa46abd3a2710",
+    "question_id": "0xe0218aecd9870869ee1a85956c92dc7e9779aac201ce47793653af0d03d64765",
+    "tokens": [
+      {
+        "token_id": "84358536076794190566281282771045821073392632216347910120806230777130420551280",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "72294666140754361869380518337420725455262050422547969407634623121636645463518",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xded6ca666cd3a200828571f13a98499c744f92d36f7069791ac520f3a9436d92",
+    "source": "clob",
+    "title": "Will Manchester City beat Leipzig? (02/22/2023)",
+    "description": "In the upcoming Premier League soccer match scheduled for February 22, 2023:\n\nIf Manchester City wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf the game results in a draw, the market resolves to \"No.\"\n\nIf the game is not completed by March 9, 2023, the market will resolve to 50-50.",
+    "slug": "will-manchester-city-beat-leipzig-02222023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-21T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "condition_id": "0xded6ca666cd3a200828571f13a98499c744f92d36f7069791ac520f3a9436d92",
+    "question_id": "0x0bddd31d4b684ce5c4a0ba35ca6fb23b76abd83039b4ea0b08383616b42b6f1b",
+    "tokens": [
+      {
+        "token_id": "51809482284360564553298883322020771231569888227767691394709253027906421549137",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "4073229123775089440416048314657511062095643596698597906350412940319320470038",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xe8f643087de188c963d04434cfbdf89b867fc0e95823739daad6fbbed4f0f9a0",
+    "source": "clob",
+    "title": "NFL Wild Card Round: Dolphins vs. Bills",
+    "description": "In the upcoming NFL game scheduled for January 15, 2023:\n\nIf the Miami Dolphins win, this market will resolve to \"Dolphins\".\n\nIf the Buffalo Bills win, this market will resolve to \"Bills\".\n\nIf this game ends in a tie, this market will resolve 50-50. If this game is not completed by January 20, 2023, 11:59:59 PM ET, this market will resolve 50-50.",
+    "slug": "nfl-wild-card-round-dolphins-vs-bills",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-01-15T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Dolphins",
+      "Bills"
+    ],
+    "outcome_prices": [
+      0.0001,
+      0.9999
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "condition_id": "0xe8f643087de188c963d04434cfbdf89b867fc0e95823739daad6fbbed4f0f9a0",
+    "question_id": "0x73ed2fef74433ce56373fe3c03b50fea1b905564c6480eac915455355922f268",
+    "tokens": [
+      {
+        "token_id": "11035104291194787268692898561255766721479577900326511577902987823184631768771",
+        "outcome": "Dolphins",
+        "price": 0.0001,
+        "winner": false
+      },
+      {
+        "token_id": "99820846924838884616578335576325765869571861218988590307692063671486634764621",
+        "outcome": "Bills",
+        "price": 0.9999,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x3784ea734e3886a167bf3d8de6b79290e2dcf57e71812f9db5cfe165936d3215",
+    "source": "clob",
+    "title": "Will the FDV of OpenSea's token be above $5b 1 week after launch?",
+    "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of OpenSea's token is above $5,000,000,000 1 week after launch. Otherwise, the market will resolve to \"No.\"\n\n\"1 week after launch\" is defined as 12:00 PM ET, 7 calendar days after it launches. For example, if the token launches at 8 PM ET, March 15, then the FDV at 12:00 PM ET, March 22 will be used.\n\nThe resolution source for this market is CoinGecko, specifically the \"Fully Diluted Valuation\" metric. The FDV 1 week after launch will be memorialized on the Polymarket market description here: https://polymarket.com/market/will-the-fdv-of-openseas-token-be-above-5b-1-week-after-launch.\n\nIf OpenSea doesn't launch a token by December 31, 2023, 11:59:59 PM ET, this market will resolve to 50-50.",
+    "slug": "will-the-fdv-of-openseas-token-be-above-5b-1-week-after-launch",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-12-30T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.5,
+      0.5
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-fdv-of-openseas-token-be-above-5b-1-week-after-launch-8f5ff08a-dea6-4f88-a271-261822e8c38f.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-fdv-of-openseas-token-be-above-5b-1-week-after-launch-8f5ff08a-dea6-4f88-a271-261822e8c38f.png",
+    "condition_id": "0x3784ea734e3886a167bf3d8de6b79290e2dcf57e71812f9db5cfe165936d3215",
+    "question_id": "0x747d2719b47366362a380a3f0453abd484977a71475a3837abc233d796cee876",
+    "tokens": [
+      {
+        "token_id": "100299615833860717861695156210002025817496421474264537699755386813000932190489",
+        "outcome": "Yes",
+        "price": 0.5,
+        "winner": false
+      },
+      {
+        "token_id": "9444964418353784846201878646812530954474648898197532093004406084519216761243",
+        "outcome": "No",
+        "price": 0.5,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x7b12b7ab810ae2dfdab37b5bd5f8d86786eb9f82e8cb5043115c3c49255b2883",
+    "source": "clob",
+    "title": "NHL: Florida Panthers vs. Winnipeg Jets 2023-03-11",
+    "description": "In the upcoming NHL game, scheduled for March 11 at 7:00\u202fPM ET:\n\nIf the Florida Panthers win, the market will resolve to \u201cPanthers\u201d.\n\nIf the Winnipeg Jets win, the market will resolve to \u201cJets\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-fla-wpg-2023-03-11",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-11T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Panthers",
+      "Jets"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0x7b12b7ab810ae2dfdab37b5bd5f8d86786eb9f82e8cb5043115c3c49255b2883",
+    "question_id": "0x463eab4a6d2af8e498f53c98cf4e810ce54adb959bc647e27ffc48e1c48939b5",
+    "tokens": [
+      {
+        "token_id": "45884046783875573149803868169159364728951601959687451147224075389566834544996",
+        "outcome": "Panthers",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "28572010957130212044469111710801967089945270680223045427410731038238985244055",
+        "outcome": "Jets",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xb8ba49435d3cb316e7ec828b50afa81f40df700c5b96f758196dc9f1b668bd31",
+    "source": "clob",
+    "title": "Will @elonmusk have 23,371-23,390 tweets on March 6?",
+    "description": "Memorialization: At 12:00 PM ET according to the resolution source, the number of tweets that @elonmusk had was 23,366.\n\n-----\n\nIf the number of tweets published by Elon Musk's verified Twitter account, @elonmusk, is between 23,371 and 23,390 (inclusive) on March 6, 2023, 12:00:00 PM ET, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nThis market will resolve according to the number of tweets found at 12:00:00 PM ET on March 6, 2023, and CANNOT resolve prior to that time (tweet numbers may decrease according to the source from deletes, etc.)\n\nYou can find Elon Musk's verified twitter account here: https://twitter.com/elonmusk. The resolution source for this market is the figure provided under \"TWEETS\" for @elonmusk on https://tweetdeck.twitter.com/. If tweetdeck ceases to exist by this market's expiration date, this market will resolve 50-50.\n\nPlease note, only the @elonmusk verified Twitter account will be considered toward the resolution of this market, regardless of the URL for this profile. If Elon Musk tweets from another account, it will have no bearing on the resolution of this market.\n\nThe number at 12:00 PM ET will be memorialized on the Polymarket market description after the resolution time passes: https://polymarket.com/event/will-elonmusk-have-23371-23390-tweets-on-march-6.",
+    "slug": "will-elonmusk-have-23371-23390-tweets-on-march-6",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-06T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elonmusk.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elonmusk.png",
+    "condition_id": "0xb8ba49435d3cb316e7ec828b50afa81f40df700c5b96f758196dc9f1b668bd31",
+    "question_id": "0xd333d76900d039e3c0c4e06d4a2d2de0fec1540c368c69491e1210eca2a92932",
+    "tokens": [
+      {
+        "token_id": "28915102517969867397316958713923492841364550131664693282574477038799078525806",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "93990333520465627396290132133928694136105648369802727403006334041134529566276",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xb68bdf18fc616743d02d61b526797be5075d06ce705cb9dafbd7c4bb7ba6524c",
+    "source": "clob",
+    "title": "Will Bank of America fail by March 17?",
+    "description": "This market will resolve to \"Yes\" if Bank of America fails between March 12, 2023 and March 17, 2023, 11:59:59 PM ET (according to FDIC's \"Failed Bank List\"). Otherwise, this market will resolve to \"No.\"\n\nThe primary resolution source for this market will be the Federal Deposit Insurance Corporation (FDIC), specifically the \"Failed Bank List\" available here: https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/ however other official statements from the FDIC and government entities will suffice.",
+    "slug": "will-bank-of-america-fail-by-march-17",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-15T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/boa.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/boa.png",
+    "condition_id": "0xb68bdf18fc616743d02d61b526797be5075d06ce705cb9dafbd7c4bb7ba6524c",
+    "question_id": "0x1136612065fc72ad37404be74f4944e15699bc6fadfa80fc49d9aebc1f535ecf",
+    "tokens": [
+      {
+        "token_id": "40695933410484919725948075699707358879753438404041636295506352857587013150820",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "3004442759641788489811095203658264662208011536686299018854634178749925012421",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xf2a64c791da0f646df3342aecd2e2acc2d2b2420471152de2dd2fea61c8ff859",
+    "source": "clob",
+    "title": "NBA: Miami Heat vs. Atlanta Hawks 2023-03-06",
+    "description": "In the upcoming NBA game, scheduled for March 6 at 7:30\u202fPM:\n\nIf the Miami Heat win, the market will resolve to \u201cHeat\u201d.\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+    "slug": "nba-mia-atl-2023-03-06",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-06T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Heat",
+      "Hawks"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xf2a64c791da0f646df3342aecd2e2acc2d2b2420471152de2dd2fea61c8ff859",
+    "question_id": "0x53c799ad34bab2ea41bd3624ae7f69e8758ee9faa53f3b4ceef6138d3f2b6e7a",
+    "tokens": [
+      {
+        "token_id": "78594187773814205399971421799631427792018877834804888757948156632355841524053",
+        "outcome": "Heat",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "49927087841487582014626540699792818712555977389818662485559062724530730658774",
+        "outcome": "Hawks",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x12f994844d98474041a7a72852a51fcc533da608fc29bc700b946deadfda0060",
+    "source": "clob",
+    "title": "NHL: New York Rangers vs. Washington Capitals 2023-03-14",
+    "description": "In the upcoming NHL game, scheduled for March 14 at 7:00 PM ET:\n\nIf the New York Rangers win, the market will resolve to \u201cRangers\u201d.\n\nIf the Washington Capitals win, the market will resolve to \u201cCapitals\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-nyr-wsh-2023-03-14",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Rangers",
+      "Capitals"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0x12f994844d98474041a7a72852a51fcc533da608fc29bc700b946deadfda0060",
+    "question_id": "0x131ecbb468282eab8f8e4eafde691c31ab23fb368ab8a338dbbd5eb5d6caea0c",
+    "tokens": [
+      {
+        "token_id": "62399136682825325606602813805126092219780663966545957697237480230703773885976",
+        "outcome": "Rangers",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "8757874197374727919312044652936975185113172822307601270968986602570767540849",
+        "outcome": "Capitals",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x0edd67fcb3841fc3193a85bf07db0bf918d2b75fb1a4d33a31ad6f863646b9b6",
+    "source": "clob",
+    "title": "Did Changpeng Zhao (CZ) bail out SBF?",
+    "description": "On January 31, 2023, US District Judge Lewis Kaplan ordered that details pertaining to Samuel Bankman-Fried's bond guarantors be made public. To permit time for an appeal of this decision, the order will not be implemented until February 7, 2023.\n\nThis market will resolve to \"Yes\" if CEO of Binance Changpeng Zhao (CZ) is named as one of the guarantors who helped Sam Bankman-Fried secure bond. Otherwise, this market will resolve to \"No\".\n\nIf the bond guarantors aren't made public by March 31, 2023, 11:59:59 PM ET the market will resolve to \"No.\" If the names are revealed before March 31, 2023, 11:59:59 PM ET and this individual is not named, the market will immediately resolve to \"No.\"\n\nThe primary resolution source for this market will be official information from the US government, however a consensus of credible reporting will also be used.",
+    "slug": "did-changpeng-zhao-cz-bail-out-sbf",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-04-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.0003,
+      0.9997
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cz.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cz.png",
+    "condition_id": "0x0edd67fcb3841fc3193a85bf07db0bf918d2b75fb1a4d33a31ad6f863646b9b6",
+    "question_id": "0x66e15a057946298246a270f666a98b432721ffe50e97361b364574c605add39e",
+    "tokens": [
+      {
+        "token_id": "72840109916708508075306103726330041307624736800034090380222501910470916480629",
+        "outcome": "Yes",
+        "price": 0.0003,
+        "winner": false
+      },
+      {
+        "token_id": "84452755171349638970119329773721975316089188384280978492628342833704112554714",
+        "outcome": "No",
+        "price": 0.9997,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x6d1015430302ff77d46c5fc68e9bb3806f7b8f980a8987bacb2c4260eaca5d4e",
+    "source": "clob",
+    "title": "NCAAB: Mississippi State Bulldogs vs. Pittsburgh Panthers 2023-03-14",
+    "description": "In the upcoming NCAAB game, scheduled for March 14 at 9:10 PM ET:\n\nIf the Mississippi State Bulldogs win, the market will resolve to \u201cMississippi State\u201d.\n\nIf the Pittsburgh Panthers win, the market will resolve to \u201cPittsburgh\u201d.\n\n If the game is not completed by April 10, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "ncaab-msst-pitt-2023-03-14",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Mississippi State",
+      "Pittsburgh"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/marchmadness.jpeg",
+    "condition_id": "0x6d1015430302ff77d46c5fc68e9bb3806f7b8f980a8987bacb2c4260eaca5d4e",
+    "question_id": "0x6b9568a011de42ed552b33deff0c2028c607b834562ba405db3ea241d7ad3d3a",
+    "tokens": [
+      {
+        "token_id": "41596074583261040340187260981365037544797369984115160062501314471409007253275",
+        "outcome": "Mississippi State",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "90127773835921277775404181957211202522309052869442498986372373925632579947299",
+        "outcome": "Pittsburgh",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x4f962e881c8f9c2fef18e8ba5fc142d8f66b0e3f8ed68a6ecbe5eb1da260e947",
+    "source": "clob",
+    "title": "Will Russia use a nuclear weapon by June 30?",
+    "description": "A prediction market on whether Russia will use nuclear weapons has been requested many times recently by esteemed academics and thought leaders from across the world, and it is strongly within the public's interest to have accurate price discovery and realtime forecasts on such a topic. Existing prediction markets on this subject lack functional price discovery mechanisms, and thus are misleading the people; therefore it was deemed necessary to support this market as a public good, in order to provide clarity to society on one of the most pressing issues.\n\nThis market will resolve to \"Yes\" if the Russian Federation detonates a nuclear device in an offensive capacity by June 30, 2023, 11:59:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nTo satisfy a \"Yes\" resolution, the detonation of a nuclear device must be in an offensive capacity (whether deliberate or accidental), must not be a test, and must be either claimed by the Russian Federation or considered by a preponderance of credible reporting and/or information from credible sources to be from the Russian Federation.\n\nFor the purpose of this market's resolution, determination as to whether a detonation was nuclear will be made by a preponderance of credible reporting.",
+    "slug": "will-russia-use-a-nuclear-weapon-by-june-30",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-06-30T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/putin.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/putin.png",
+    "condition_id": "0x4f962e881c8f9c2fef18e8ba5fc142d8f66b0e3f8ed68a6ecbe5eb1da260e947",
+    "question_id": "0x10eb9930f6e5f4b2af4b10926387125498f3dde1606b0603bae5d44e75aa1d34",
+    "tokens": [
+      {
+        "token_id": "11714409342849351387756988183545851496850420798548445789998181252740156582506",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "13521229017299992020054246254114603733263554459568400636237796321315938181474",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x9c7e0960d10072eebb4df4eb6cf33b0dac91d3c1abea2b6b2ee1dd0bb4689f3d",
+    "source": "clob",
+    "title": "NHL: Detroit Red Wings vs. Colorado Avalanche 2023-03-18",
+    "description": "In the upcoming NHL game, scheduled for March 18 at 1:00 PM ET:\n\nIf the Detroit Red Wings win, the market will resolve to \u201cRed Wings\u201d.\n\nIf the Colorado Avalanche win, the market will resolve to \u201cAvalanche\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-det-col-2023-03-18",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-18T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Red Wings",
+      "Avalanche"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0x9c7e0960d10072eebb4df4eb6cf33b0dac91d3c1abea2b6b2ee1dd0bb4689f3d",
+    "question_id": "0x67773723a275af338bd43231ee448bbdb45284d5cd71be170be7960c9272f176",
+    "tokens": [
+      {
+        "token_id": "31869086646319356454847724683559762014949264808417543687479758184720375969934",
+        "outcome": "Red Wings",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "106142072173037228748985225701354072785762650615263686641324747304150434169638",
+        "outcome": "Avalanche",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "archwill-us-inflation-be-greater-than-0pt3-from-january-to-february-2023",
+    "source": "clob",
+    "title": "archWill US inflation be greater than 0.3% from January to February 2023?",
+    "description": "archThis is a market on a month-to-month inflation, as measured by the Bureau of Labor Statistics (CPI-U), from January to February 2023.\n\nInflation is measured by a change in Consumer Price Index for All Urban Consumers (CPI-U) on a seasonally adjusted basis, reported by the U.S. Bureau of Labor Statistics.\n\nThis market will resolve to \u201cYes\u201d if the index increased by more than 0.3 percent (on a seasonally adjusted basis) from January to February 2023 and \u201cNo\u201c otherwise.\n\nThe resolution source for this market will be the BLS February 2023 Consumer Price Index report (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on March 14, 2023, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\n----\n\nThe Consumer Price Index (CPI) is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release which reports seasonally-adjusted month-to-month inflation to only one decimal point (e.g. 0.7%, 0.6%, etc). Thus, this is the level of precision that will be used when resolving the market (e.g. if seasonally adjusted month-to-month CPI-U is 0.4%, the market will resolve to \u201cYes\u201d, if it is 0.3%, this market will resolve to \u201cNo\u201d).",
+    "slug": "archwill-us-inflation-be-greater-than-0pt3-from-january-to-february-2023",
+    "active": false,
+    "closed": false,
+    "archived": true,
+    "end_date": "2023-03-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "",
+      ""
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Inflation.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Inflation.png",
+    "condition_id": "",
+    "question_id": "",
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xba0d63b2c45a3e8e267687ac01cff91445265534b3d719bd96f0ac964cc32f18",
+    "source": "clob",
+    "title": "Will Biden say \"Balloon\" during his SOTU?",
+    "description": "This market will resolve to \"Yes\" if Biden says \"Balloon\" during his State of the Union address, scheduled to take place on February 7, 2023. Otherwise, the market will resolve to \"No.\"\n\nThe resolution source is live video of the SOTU available here https://www.youtube.com/watch?v=gzcBTUvVp7M. In case of ambiguity, the official transcript and other credible sources may also be considered.\n\nPluralization/possessive of the word will count toward the resolution of this market.",
+    "slug": "will-biden-say-balloon-during-his-sotu",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-02T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0.0001,
+      0.9999
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-biden-say-balloon-during-his-sotu-f85c7b96-bcde-4b5f-bf4f-ea6eec4f8a93.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-biden-say-balloon-during-his-sotu-f85c7b96-bcde-4b5f-bf4f-ea6eec4f8a93.png",
+    "condition_id": "0xba0d63b2c45a3e8e267687ac01cff91445265534b3d719bd96f0ac964cc32f18",
+    "question_id": "0xe59ddda4f4c18de5a31fcf4f27af4ff0cbd51f509bd40aa8b949987da5af637c",
+    "tokens": [
+      {
+        "token_id": "105376091957328597532972330635927616641185851592317675369421012588233981469543",
+        "outcome": "Yes",
+        "price": 0.0001,
+        "winner": false
+      },
+      {
+        "token_id": "48701848183536612033726427636361108962920223991845157501042395815400725609568",
+        "outcome": "No",
+        "price": 0.9999,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x9cc8bbc6ae0f356b0c99ef862bd49577f168645da938911549da68f5ba049649",
+    "source": "clob",
+    "title": "zkSync airdrop by June 1?",
+    "description": "This is a market on whether zkSync (https://zksync.io/) will both launch and airdrop a native token by June 1, 2023, 11:59:59 PM ET. Launching a token in this context can be defined as a deployed-to-mainnet, actively transferrable and/or tradable token that is in some way native to the underlying application or protocol, and substantiated by the respective project via website or official social media channels. In the case of a token being announced but not yet transferrable or \u201clive\u201d, that will not satisfy market conditions. If the token is deployed to mainnet, but is not transferrable, that will also not satisfy market conditions. In the case of ERC20 tokens, if the token is deployed, but there is no existing Uniswap pool for the token, it will be considered not \u201clive\u201d and thus will not satisfy market conditions. For clarity, this market is about fungible tokens, and not NFTs related to a platform.\n\nAirdrop in this context means that a nonzero portion of this token\u2019s supply must have been distributed for free to at least one subset of actors relevant to the underlying project, based on their retroactive, past participation in using the product or protocol, participating in the community, or some other non-transactional action that pertains to the underlying project. An airdrop is considered to have taken place if the aforementioned free token distribution occurs, regardless of lockups or restrictions on the ability to sell the airdropped token, as long as the underlying token itself is live as per the earlier definition.\n\nIf this project launches a token and performs an airdrop by June 1, 2023, 11:59:59 PM ET, this market will resolve to \u201cYes\u201d. If one or both of the objectives are not met by the resolution date, the market resolves to \u201cNo\u201d.",
+    "slug": "zksync-airdrop-by-june-1",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-06-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/zksync.jpeg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/zksync.jpeg",
+    "condition_id": "0x9cc8bbc6ae0f356b0c99ef862bd49577f168645da938911549da68f5ba049649",
+    "question_id": "0x9e93022870e76a06cbc12e86902d66f444112eb33fff43010af6af80976f5179",
+    "tokens": [
+      {
+        "token_id": "64530256692770493741616758329004232452735267114796932386033501933292886503388",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "21201129739587299147275727753263534641072025588284106584050292878396252335735",
+        "outcome": "No",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x040b0c89ae3233160493a3f6a96249e5bcc0bb8011f4f57729f7f01f217f3631",
+    "source": "clob",
+    "title": "NBA: Atlanta Hawks vs. Washington Wizards 2023-02-28",
+    "description": "In the upcoming NBA game, scheduled for February 28 at 7:30\u202fPM:\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\nIf the Washington Wizards win, the market will resolve to \u201cWizards\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+    "slug": "nba-atl-wsh-2023-02-28",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-28T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Hawks",
+      "Wizards"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x040b0c89ae3233160493a3f6a96249e5bcc0bb8011f4f57729f7f01f217f3631",
+    "question_id": "0x619ee070361bf0d555ee95154785b4596f400ad053760fe0548e8ca4be3c2536",
+    "tokens": [
+      {
+        "token_id": "2786297590861522432129326216358220186284676395179464344999074300168865950473",
+        "outcome": "Hawks",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "93015733684418000959319303843864509079929709916959498632295225988068590892124",
+        "outcome": "Wizards",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x51799fde52cd258501c042e9b5062de4fe69f53023d27cc8b7a55e549268f9c6",
+    "source": "clob",
+    "title": "NBA: Atlanta Hawks vs. Minnesota Timberwolves 2023-03-13",
+    "description": "In the upcoming NBA game, scheduled for March 13 at 7:30\u202fPM ET:\n\nIf the Atlanta Hawks win, the market will resolve to \u201cHawks\u201d.\n\nIf the Minnesota Timberwolves win, the market will resolve to \u201cTimberwolves\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-atl-min-2023-03-13",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-13T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Hawks",
+      "Timberwolves"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x51799fde52cd258501c042e9b5062de4fe69f53023d27cc8b7a55e549268f9c6",
+    "question_id": "0xf6e050ba7ddc8713675963dfe99bd64bb32dc5c2726200ab5b9740586b280d0f",
+    "tokens": [
+      {
+        "token_id": "76703367220808604501493394248220064446266341835666355441466544166154919725448",
+        "outcome": "Hawks",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "4696245336782910024132214980696866115350498845665231295929689896229989215097",
+        "outcome": "Timberwolves",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x957317f0e45d7eab8b03741f44e3a60afb33c63b314e26f33eb179c747bb15d6",
+    "source": "clob",
+    "title": "NFL Sunday: Buccaneers vs. Cardinals",
+    "description": "In the upcoming NFL game scheduled for December 25: \n\nIf the Tampa Bay Buccaneers win, this market will resolve to \u201cBuccaneers\u201d. \n\nIf the Arizona Cardinals win, this market will resolve to \u201cCardinals\u201d. \n\nIf this game ends in a tie, this market will resolve 50-50. \n\nIf the game is not completed by January 1 (11:59:59 PM ET), this market will resolve 50-50.\n",
+    "slug": "nfl-sunday-buccaneers-vs-cardinals",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2022-12-25T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Buccaneers",
+      "Cardinals"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nfl.png",
+    "condition_id": "0x957317f0e45d7eab8b03741f44e3a60afb33c63b314e26f33eb179c747bb15d6",
+    "question_id": "0xb9faead55f6eefc56ba58036273faeb74d5278c7ba47eb58e23ce9e15535a0f2",
+    "tokens": [
+      {
+        "token_id": "88614733039710120421186909144377177320748536097131524035161784071351495572603",
+        "outcome": "Buccaneers",
+        "price": 1,
+        "winner": false
+      },
+      {
+        "token_id": "32855895092848501404521859851024010752993594514058991522142308509553465599275",
+        "outcome": "Cardinals",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x9412b855478d1dc1ba433a18de8bd082dc22b0c3a30c01f307016c2a07c11572",
+    "source": "clob",
+    "title": "Will the Fed increase interest rates by 0 bps after its February meeting?",
+    "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings. \n\nThe resolution source for this market is the FOMC\u2019s statement after its meeting scheduled for January 31 through February 1, 2023 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm. \n\nThis market will resolve to \u201cYes\u201d if following the Federal Reserve's January/February 2023 meeting the upper bound of the target federal funds rate is exactly the same as the level it was prior to the meeting (namely it increased 0 bps). Otherwise, it will resolve to \u201cNo.\u201d \n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm. \n\nThis market may resolve as soon as the FOMC\u2019s statement for their January/February meeting with relevant data is issued. If no statement is released by February 8, 2023, 11:59:59 PM ET, this market will resolve 50-50.\n",
+    "slug": "will-the-fed-increase-interest-rates-by-0-bps-after-its-february-meeting",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-01T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/FED.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/FED.jpg",
+    "condition_id": "0x9412b855478d1dc1ba433a18de8bd082dc22b0c3a30c01f307016c2a07c11572",
+    "question_id": "0x00fb4f6dea86c446e336a822afdec77a8b685538f1e28da95999a45b3c2b2564",
+    "tokens": [
+      {
+        "token_id": "50840823040491579160844190313425221953810324677596615897772385992533441988174",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "16798240954217468982314816692525171780336564048408465031845768835317554113348",
+        "outcome": "No",
+        "price": 1,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x690e3b7e0946de6cf71cef4973b105d4501019f62656616fbfbf09119d2c916b",
+    "source": "clob",
+    "title": "NHL: Toronto Maple Leafs vs. Buffalo Sabres 2023-03-13",
+    "description": "In the upcoming NHL game, scheduled for March 13 at 7:30\u202fPM ET:\n\nIf the Toronto Maple Leafs win, the market will resolve to \u201cMaple Leafs\u201d.\n\nIf the Buffalo Sabres win, the market will resolve to \u201cSabres\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-tor-buf-2023-03-13",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-13T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Maple Leafs",
+      "Sabres"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0x690e3b7e0946de6cf71cef4973b105d4501019f62656616fbfbf09119d2c916b",
+    "question_id": "0xcf2fc8a4d4547562fa54c0ab8e50f7c5bd5a5af907205f37016afb7c6c40b60c",
+    "tokens": [
+      {
+        "token_id": "57286858905960456753789493152441527791600881285309332711106293833720122935503",
+        "outcome": "Maple Leafs",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "15572311031795652480171772511473772658110606598480755570353888006808181628910",
+        "outcome": "Sabres",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xc33d2bc8d7562a0c9836607badcca05ba9d1bd169ce40acec184df0887f8d39b",
+    "source": "clob",
+    "title": "Will Arsenal beat Leicester City? (02/25/2023)",
+    "description": "In the upcoming Premier League soccer match scheduled for February 25, 2023:\n\nIf Arsenal wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf the game results in a draw, the market resolves to \"No.\"\n\nIf the game is not completed by March 11, 2023, the market will resolve to 50-50.\n",
+    "slug": "will-arsenal-beat-leicester-city-02252023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-24T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/arsenal.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/arsenal.png",
+    "condition_id": "0xc33d2bc8d7562a0c9836607badcca05ba9d1bd169ce40acec184df0887f8d39b",
+    "question_id": "0x49c9dece51e646f25c2f305dad5bdb71b94a9253a349fd3a7030ef3ff83a6ed7",
+    "tokens": [
+      {
+        "token_id": "22381866051219732546925506528369177360815056988075394069653893058719059427469",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "93835762713762717875040333145772812010907523867746596854178264689771140523014",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x23167438e7c854592b9f513657273a12ec123cd270027ade1040e264f1f84cb8",
+    "source": "clob",
+    "title": "NBA: San Antonio Spurs vs. Houston Rockets 2023-03-04",
+    "description": "In the upcoming NBA game, scheduled for March 4 at 8:00\u202fPM:\n\nIf the San Antonio Spurs win, the market will resolve to \u201cSpurs\u201d.\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+    "slug": "nba-sa-hou-2023-03-04",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-04T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Spurs",
+      "Rockets"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x23167438e7c854592b9f513657273a12ec123cd270027ade1040e264f1f84cb8",
+    "question_id": "0x1211cdb064612f875827729f1ea1b853a9efe3380bc5573d9eb90390ea0a6232",
+    "tokens": [
+      {
+        "token_id": "28754765952404464788753866946908573412436780234033538647712438446801349922364",
+        "outcome": "Spurs",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "7999685104033020847475239214902537300866755721247416595564267818922667110586",
+        "outcome": "Rockets",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0xcaf3c9c84568ed53b6ad167116029f40f49123d018c17fa6866f51ba3e875270",
+    "source": "clob",
+    "title": "Will the Jacksonville Jaguars win Super Bowl LVII?",
+    "description": "Super Bowl LVII is the championship event concluding the 2022 NFL Season. It is scheduled to take place on February 12, 2023, at\u00a0State Farm Stadium\u00a0in\u00a0Glendale, Arizona, USA.\n\nThis market will resolve to \"Yes\" if the Jacksonville Jaguars win Super Bowl LVII. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win Super Bowl LVII based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\". \n\nIf Super Bowl LVII is not completed by April 30, 2023 (11:59:59 PM ET), this market will resolve 50-50.",
+    "slug": "will-the-jacksonville-jaguars-win-super-bowl-lvii",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-12T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-jacksonville-jaguars-win-super-bowl-lvii-0ec835c9-7ac3-4c80-8b6f-34953b0a6d75.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-jacksonville-jaguars-win-super-bowl-lvii-0ec835c9-7ac3-4c80-8b6f-34953b0a6d75.png",
+    "condition_id": "0xcaf3c9c84568ed53b6ad167116029f40f49123d018c17fa6866f51ba3e875270",
+    "question_id": "0x96d4bcf62120e1f40d33ca9eb785106f47281792c6f638a197b1a5e0d23ad4a2",
+    "tokens": [
+      {
+        "token_id": "108431706848631459976433292757409048618223424107970521191343833730596246657787",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "54963627550172901163472165929523687604932092150103009184417470828294447193924",
+        "outcome": "No",
+        "price": 1,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xec6402396c09097512cbf9ad9854700e076d8867331bffad45677476f14cdc15",
+    "source": "clob",
+    "title": "Golden Globes: Will Cate Blanchett win Best Actress - Drama?",
+    "description": "This market will resolve to \"Yes\" if Cate Blanchett wins the Golden Globe for Best Performance by an Actress in a Motion Picture - Drama for her role in \"Tar\". Otherwise, this market will resolve to \"No\".\n\nIf for any reason no winner is declared by February 28, 2023, 11:59:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from The Golden Globe Awards and the Hollywood Foreign Press Association, including data from their website (e.g. https://www.goldenglobes.com/awards-database) and the live broadcast of the event, however a consensus of credible reporting may also be used.\n",
+    "slug": "golden-globes-will-cate-blanchett-win-best-actress-drama",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-01-11T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cate+blanchett.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cate+blanchett.png",
+    "condition_id": "0xec6402396c09097512cbf9ad9854700e076d8867331bffad45677476f14cdc15",
+    "question_id": "0x39d6fc0490026f7805570f87ea590153087f72a6edb0470cd8c4eb5004328f69",
+    "tokens": [
+      {
+        "token_id": "4140599426638361332277250610467051568178963594684417690213696583362858550652",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": false
+      },
+      {
+        "token_id": "54789290177014528790102397147674611644215145600998559914850935029465489247034",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x97b05cdacb992d75dd86f346763bcf375b97e1ffffa6460b964240694d85eff9",
+    "source": "clob",
+    "title": "NHL: Colorado Avalanche vs. Los Angeles Kings 2023-03-09",
+    "description": "In the upcoming NHL game, scheduled for March 9 at 9:00\u202fPM ET:\n\nIf the Colorado Avalanche win, the market will resolve to \u201cAvalanche\u201d.\n\nIf the Los Angeles Kings win, the market will resolve to \u201cKings\u201d.\n\n If the game is not completed by April 21, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nhl-col-lak-2023-03-09",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-09T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Avalanche",
+      "Kings"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+    "condition_id": "0x97b05cdacb992d75dd86f346763bcf375b97e1ffffa6460b964240694d85eff9",
+    "question_id": "0x4b61db69dd5d6c5685a607a2f84041f6a8be7d17af13a09b81c3a61406602777",
+    "tokens": [
+      {
+        "token_id": "102939233410857719947011912565280025003449171112297479447086501663051137242756",
+        "outcome": "Avalanche",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "95882620293741667024186062419984240242838891137350490679541641962667148479781",
+        "outcome": "Kings",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "0x944bf7a9166c7ea9d1a2a34452d081a08ed30e7c0328657723f3947a6d0833d5",
+    "source": "clob",
+    "title": "Will Manchester City beat Nottingham Forest? (2/18/2023)",
+    "description": "In the upcoming Premier League soccer match scheduled for February 18, 2023:\n\nIf Manchester City wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf the game results in a draw, the market resolves to \"No.\"\n\nIf the game is not completed by March 5, 2023, the market will resolve to 50-50.",
+    "slug": "will-manchester-city-beat-nottingham-forest-2182023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-17T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "condition_id": "0x944bf7a9166c7ea9d1a2a34452d081a08ed30e7c0328657723f3947a6d0833d5",
+    "question_id": "0xc661822e63a5770ff222379bc7db61550284c3be063c14d7fc65f4fe0baba538",
+    "tokens": [
+      {
+        "token_id": "8041736696567182366989643314932952988295786435478162004317716815644007675622",
+        "outcome": "Yes",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "59597425014025994620800840001432859390629280934896554417082381041993357209628",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xf59fb7ffc7d8db4ccbf3ed33defdcd287c173d0885a5a064aec1beb853700522",
+    "source": "clob",
+    "title": "Will Man City beat Newcastle? (03/04/2023)",
+    "description": "In the upcoming Premier League soccer match scheduled for March 4, 2023:\n\nIf Manchester City wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf the game results in a draw, the market resolves to \"No.\"\n\nIf the game is not completed by March 18, 2023, the market will resolve to 50-50.",
+    "slug": "will-man-city-beat-newcastle-03042023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-04T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "condition_id": "0xf59fb7ffc7d8db4ccbf3ed33defdcd287c173d0885a5a064aec1beb853700522",
+    "question_id": "0xf02da44c6270db5de6ec6ce5c23c7612078a16a6903aa47ecc37b1bd0896e56a",
+    "tokens": [
+      {
+        "token_id": "99209843088265969866509060979118431963733564395664130410835608449394613455732",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "112570239697336766530644267214416685247700135149750607025093035145312528056567",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xb3ff06f30e3a45272aa1fe9d804e38e908d3d9ef42634a048b71b93f84c9cd4f",
+    "source": "clob",
+    "title": "NBA: Memphis Grizzlies vs. Los Angeles Lakers 2023-02-28",
+    "description": "In the upcoming NBA game, scheduled for February 28 at 7:30\u202fPM:\n\nIf the Memphis Grizzlies win, the market will resolve to \u201cGrizzlies\u201d.\n\nIf the Los Angeles Lakers win, the market will resolve to \u201cLakers\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM EST), the market will resolve 50-50.",
+    "slug": "nba-mem-lal-2023-02-28",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-02-28T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Grizzlies",
+      "Lakers"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0xb3ff06f30e3a45272aa1fe9d804e38e908d3d9ef42634a048b71b93f84c9cd4f",
+    "question_id": "0x5918fb7b5a2f20f2723ca2202d581ef38e8469611f609ca4d9f201faf482bdfb",
+    "tokens": [
+      {
+        "token_id": "108279794009205472020418057321066464872492380771857470853187258153831788369370",
+        "outcome": "Grizzlies",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "56230782669554265242356507089257851611310136675985893513708531143232701348277",
+        "outcome": "Lakers",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x4f330bb2efb6767adb7363aceafb25f1b945bb7caffa0728cfe4da2fa856157d",
+    "source": "clob",
+    "title": "NBA: Houston Rockets vs. Golden State Warriors 2023-03-20",
+    "description": "In the upcoming NBA game, scheduled for March 20 at 8:00 PM ET:\n\nIf the Houston Rockets win, the market will resolve to \u201cRockets\u201d.\n\nIf the Golden State Warriors win, the market will resolve to \u201cWarriors\u201d.\n\n If the game is not completed by April 16, 2023 (11:59:59 PM ET), the market will resolve 50-50.",
+    "slug": "nba-hou-gs-2023-03-20",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-20T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Rockets",
+      "Warriors"
+    ],
+    "outcome_prices": [
+      0,
+      1
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba.png",
+    "condition_id": "0x4f330bb2efb6767adb7363aceafb25f1b945bb7caffa0728cfe4da2fa856157d",
+    "question_id": "0x9b0f682ee08407a4d7ed38c28ce4aea27a95839b9dea572974d5e8361379a345",
+    "tokens": [
+      {
+        "token_id": "30954580277748556964729398569834730914653973323050344656019509939449311398873",
+        "outcome": "Rockets",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "70338236097478800210987854990808987243179299434536308710083905242566947506782",
+        "outcome": "Warriors",
+        "price": 1,
+        "winner": true
+      }
+    ]
+  },
+  {
+    "id": "will-gpt-4-have-1t-parameters",
+    "source": "clob",
+    "title": "Will GPT-4 have 1t+ parameters?",
+    "description": "This market will resolve to \"Yes\" if OpenAI's GPT-4 has 1 trillion or more parameters. Otherwise, this market will resolve to \"No\".\n\nIf the number of parameters GPT-4 has is not released by December 31, 2023, 11:59:59 PM ET, this market will resolve 50-50.\n\nThe primary resolution source for this market will be official information from OpenAI, however a consensus of credible reporting (including corroborating statements from employees of OpenAI where available) may also be used.\n",
+    "slug": "will-gpt-4-have-1t-parameters",
+    "active": false,
+    "closed": false,
+    "archived": true,
+    "end_date": null,
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "",
+      ""
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/openai2.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/openai2.png",
+    "condition_id": "",
+    "question_id": "",
+    "tokens": [
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "",
+        "outcome": "",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0x95a9617675b07886da1849618f4151ffc74866ec5ba4c49b01e66a566e027ddd",
+    "source": "clob",
+    "title": "Will Manchester City be the 2022-23 Premier League champions?",
+    "description": "This market will resolve to \"Yes\" if Manchester City F.C. is the 2022-23 Premier League champion. Otherwise, this market will resolve to \"No\".\n\nIf it is a mathematical certainty this team will be the 2022-23 Premier League champion, the market will immediately resolve to \"Yes.\" Likewise, if it becomes mathematically impossible for this team to be the 2022-23 Premier League champion, this market will immediately resolve to \"No.\" Potential retroactive points deductions past these points will have no bearing on this market's resolution.\n\nIf the 2022-23 Premier League champion has not been determined by August 12, 2023, this market will resolve 50-50.",
+    "slug": "will-manchester-city-be-the-2022-23-premier-league-champions",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-05-28T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/manchester+city.png",
+    "condition_id": "0x95a9617675b07886da1849618f4151ffc74866ec5ba4c49b01e66a566e027ddd",
+    "question_id": "0x057b03a01a0949ce1ea233a89e6b5c67b42ae6f47f50b09cd03faab5ce1a2f90",
+    "tokens": [
+      {
+        "token_id": "62602984063332420429875852652214962107848324899315995508638006704694630568437",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "18773000490320134645718733398025780498988909276098635704769130147396774126161",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xdb6ec0db23cc48839cc7912f5253c4d7b57f861f11ae54aea8ff6ed1efb7e935",
+    "source": "clob",
+    "title": "MLB: Who will win New York Yankees v. Boston Red Sox, scheduled for August 14, 7:08 PM ET?",
+    "description": "In the upcoming MLB game scheduled for August 14, 7:08 PM ET:\n\nIf the New York Yankees win, this market will resolve to \u201cYankees\u201d.\n\nIf the Boston Red Sox win, this market will resolve to \u201cRed Sox\u201d.\n\nIf the game is not completed by August 21 (11:59:59 PM ET) this market will resolve 50-50.",
+    "slug": "mlb-who-will-win-new-york-yankees-v-boston-red-sox-scheduled-for-august-14-708-pm-et",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2022-08-14T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yankees",
+      "Red Sox"
+    ],
+    "outcome_prices": [
+      0,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+    "condition_id": "0xdb6ec0db23cc48839cc7912f5253c4d7b57f861f11ae54aea8ff6ed1efb7e935",
+    "question_id": "0x56c1a6f5622f2bb0fc7a15789d3413bd582686e140ea3fd4e07e93b7604ce099",
+    "tokens": [
+      {
+        "token_id": "70276383073891790372982290479083607506460207562821394967086996435890136309777",
+        "outcome": "Yankees",
+        "price": 0,
+        "winner": false
+      },
+      {
+        "token_id": "21033957937283593745063546740758397251924261271291760920846859862730276803303",
+        "outcome": "Red Sox",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  },
+  {
+    "id": "0xc381f7dd9ebaad827ed7de0c0517bbbc8e616f616aee3843115beaa02280bcaa",
+    "source": "clob",
+    "title": "Will Newcastle beat Wolves? (03/12/2023)",
+    "description": "In the upcoming Premier League soccer match scheduled for March 12, 2023:\n\nIf Newcastle wins, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nIf the game results in a draw, the market resolves to \"No.\"\n\nIf the game is not completed by March 26, 2023, the market will resolve to 50-50.",
+    "slug": "will-newcastle-beat-wolves-03122023",
+    "active": true,
+    "closed": true,
+    "archived": false,
+    "end_date": "2023-03-11T00:00:00Z",
+    "category": "",
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "outcomes": [
+      "Yes",
+      "No"
+    ],
+    "outcome_prices": [
+      1,
+      0
+    ],
+    "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/newcastle.png",
+    "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/newcastle.png",
+    "condition_id": "0xc381f7dd9ebaad827ed7de0c0517bbbc8e616f616aee3843115beaa02280bcaa",
+    "question_id": "0xe0354fdb39f90d2889e9d28f54b01b6a39a46b2c94791bb9a291274df47f05b0",
+    "tokens": [
+      {
+        "token_id": "79264933844134965432036330400815583901906277460853083546372238875648926381572",
+        "outcome": "Yes",
+        "price": 1,
+        "winner": true
+      },
+      {
+        "token_id": "67803984706199643519985370491940822403610901127466374265392333984858870462350",
+        "outcome": "No",
+        "price": 0,
+        "winner": false
+      }
+    ]
+  }
+]

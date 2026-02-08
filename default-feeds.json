@@ -1,0 +1,203 @@
+{
+  "feeds": [
+    {
+      "name": "Reuters World News",
+      "url": "https://www.reutersagency.com/feed/?taxonomy=best-topics&post_type=best",
+      "category": "general",
+      "enabled": true
+    },
+    {
+      "name": "Reuters Business",
+      "url": "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "AP News Top Stories",
+      "url": "https://apnews.com/rss",
+      "category": "general",
+      "enabled": true
+    },
+    {
+      "name": "AP News Politics",
+      "url": "https://apnews.com/politics.rss",
+      "category": "politics",
+      "enabled": true
+    },
+    {
+      "name": "AP News Business",
+      "url": "https://apnews.com/business.rss",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "Google News - Top Stories",
+      "url": "https://news.google.com/rss",
+      "category": "general",
+      "enabled": true
+    },
+    {
+      "name": "Google News - Business",
+      "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "Google News - Technology",
+      "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "Google News - Sports",
+      "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "CoinDesk - Bitcoin",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "category": "crypto",
+      "enabled": true
+    },
+    {
+      "name": "CoinTelegraph - Main",
+      "url": "https://cointelegraph.com/rss",
+      "category": "crypto",
+      "enabled": true
+    },
+    {
+      "name": "CryptoSlate",
+      "url": "https://cryptoslate.com/feed/",
+      "category": "crypto",
+      "enabled": true
+    },
+    {
+      "name": "The Block - Crypto",
+      "url": "https://www.theblock.co/rss.xml",
+      "category": "crypto",
+      "enabled": true
+    },
+    {
+      "name": "NPR News",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "category": "general",
+      "enabled": true
+    },
+    {
+      "name": "NPR Politics",
+      "url": "https://feeds.npr.org/1014/rss.xml",
+      "category": "politics",
+      "enabled": true
+    },
+    {
+      "name": "BBC News - World",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "general",
+      "enabled": true
+    },
+    {
+      "name": "BBC News - Business",
+      "url": "http://feeds.bbci.co.uk/news/business/rss.xml",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "BBC News - Technology",
+      "url": "http://feeds.bbci.co.uk/news/technology/rss.xml",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "ESPN - Top Headlines",
+      "url": "https://www.espn.com/espn/rss/news",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "ESPN - NFL",
+      "url": "https://www.espn.com/espn/rss/nfl/news",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "ESPN - NBA",
+      "url": "https://www.espn.com/espn/rss/nba/news",
+      "category": "sports",
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/rss",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "category": "technology",
+      "enabled": true
+    },
+    {
+      "name": "CNBC Top News",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "CNBC - Markets",
+      "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/rssindex",
+      "category": "business",
+      "enabled": true
+    },
+    {
+      "name": "Politico",
+      "url": "https://www.politico.com/rss/politics08.xml",
+      "category": "politics",
+      "enabled": true
+    },
+    {
+      "name": "The Hill - News",
+      "url": "https://thehill.com/news/feed/",
+      "category": "politics",
+      "enabled": true
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-02-06",
+    "description": "Default RSS feeds for news sentiment analysis. All sources are free and publicly accessible.",
+    "categories": [
+      "general",
+      "business",
+      "politics",
+      "crypto",
+      "technology",
+      "sports"
+    ],
+    "notes": [
+      "Reddit integration requires separate API setup (not included in RSS)",
+      "Twitter/X integration uses existing hype monitor",
+      "Some feeds may change URLs over time - verify if feed fails",
+      "Add custom feeds with: python news-sentiment.py --add-feed URL --feed-name 'Name' --feed-category category"
+    ]
+  }
+}

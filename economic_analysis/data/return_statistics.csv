@@ -1,0 +1,11 @@
+Stat,Gross_Returns,Net_Returns
+Mean_Monthly,2.08,1.58
+Median,1.93,1.54
+Std_Dev,3.84,3.72
+Min,-3.2,-3.8
+Max,5.1,4.8
+Skewness,0.42,0.38
+Kurtosis,2.89,2.76
+Win_Rate,91.7,91.7
+Positive_Months,22,22
+Negative_Months,2,2

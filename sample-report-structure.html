@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte Carlo Backtest Report - SAMPLE STRUCTURE</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        .metric-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+        }
+        .metric-label {
+            font-size: 0.9em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .metric-value {
+            font-size: 2em;
+            font-weight: 700;
+            color: #667eea;
+        }
+        .metric-value.positive { color: #10b981; }
+        .metric-value.negative { color: #ef4444; }
+        .section {
+            padding: 40px;
+        }
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #333;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .chart-placeholder {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: 2px dashed #667eea;
+            border-radius: 10px;
+            padding: 60px;
+            text-align: center;
+            color: #667eea;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background: #f8f9fa;
+        }
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎲 Monte Carlo Backtest Report</h1>
+            <div style="opacity: 0.9; margin-top: 10px;">
+                <strong>SAMPLE STRUCTURE</strong> - This shows what the real report looks like
+            </div>
+            <div style="opacity: 0.7; margin-top: 10px; font-size: 0.9em;">
+                Run: python monte-carlo-backtest.py --runs 1000 --report results.html
+            </div>
+        </div>
+
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-label">Average Return</div>
+                <div class="metric-value positive">+12.45%</div>
+                <div style="font-size: 0.85em; color: #888; margin-top: 5px;">
+                    95% CI: [8.23%, 16.78%]
+                </div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Sharpe Ratio</div>
+                <div class="metric-value">1.234</div>
+                <div style="font-size: 0.85em; color: #888; margin-top: 5px;">
+                    95% CI: [0.987, 1.456]
+                </div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Win Rate</div>
+                <div class="metric-value">58.3%</div>
+                <div style="font-size: 0.85em; color: #888; margin-top: 5px;">
+                    95% CI: [55.1%, 61.4%]
+                </div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Avg Trades</div>
+                <div class="metric-value">87</div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Max Drawdown (95th)</div>
+                <div class="metric-value negative">18.45%</div>
+                <div style="font-size: 0.85em; color: #888; margin-top: 5px;">
+                    Worst: 23.12%
+                </div>
+            </div>
+            
+            <div class="metric-card">
+                <div class="metric-label">Probability of Ruin</div>
+                <div class="metric-value positive">2.30%</div>
+                <div style="font-size: 0.85em; color: #888; margin-top: 5px;">
+                    Circuit breaker: 25%
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📊 Distribution Analysis</h2>
+            
+            <div class="note">
+                <strong>📌 Note:</strong> This is a sample structure. Real reports contain 
+                interactive Plotly charts showing histograms of returns, Sharpe ratios, and drawdowns.
+            </div>
+            
+            <div class="chart-placeholder">
+                📊 Returns Distribution Histogram<br>
+                <span style="font-size: 0.8em; opacity: 0.7;">
+                    (Interactive Plotly chart in real report)
+                </span>
+            </div>
+            
+            <div class="chart-placeholder">
+                📈 Sharpe Ratio Distribution<br>
+                <span style="font-size: 0.8em; opacity: 0.7;">
+                    (Interactive Plotly chart in real report)
+                </span>
+            </div>
+            
+            <div class="chart-placeholder">
+                📉 Maximum Drawdown Distribution<br>
+                <span style="font-size: 0.8em; opacity: 0.7;">
+                    (Interactive Plotly chart in real report)
+                </span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">📉 Drawdown Analysis</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Percentile</th>
+                        <th>Max Drawdown</th>
+                        <th>Risk Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>50th (Median)</td>
+                        <td>12.34%</td>
+                        <td><span style="background: #d1fae5; color: #065f46; padding: 5px 12px; border-radius: 20px; font-size: 0.85em;">Low</span></td>
+                    </tr>
+                    <tr>
+                        <td>75th</td>
+                        <td>15.67%</td>
+                        <td><span style="background: #d1fae5; color: #065f46; padding: 5px 12px; border-radius: 20px; font-size: 0.85em;">Moderate</span></td>
+                    </tr>
+                    <tr>
+                        <td>90th</td>
+                        <td>17.89%</td>
+                        <td><span style="background: #fed7aa; color: #92400e; padding: 5px 12px; border-radius: 20px; font-size: 0.85em;">Elevated</span></td>
+                    </tr>
+                    <tr>
+                        <td>95th</td>
+                        <td>18.45%</td>
+                        <td><span style="background: #fed7aa; color: #92400e; padding: 5px 12px; border-radius: 20px; font-size: 0.85em;">High</span></td>
+                    </tr>
+                    <tr>
+                        <td>99th</td>
+                        <td>21.23%</td>
+                        <td><span style="background: #fee2e2; color: #991b1b; padding: 5px 12px; border-radius: 20px; font-size: 0.85em;">Critical</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p style="margin-top: 20px; color: #666;">
+                <strong>Expected Recovery Time:</strong> 12 days
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">🔬 Sensitivity Analysis</h2>
+            
+            <div class="note">
+                <strong>📌 Note:</strong> Sensitivity analysis is included when you run with 
+                <code>--sensitivity</code> flag. Shows heat map of parameter combinations.
+            </div>
+            
+            <div class="chart-placeholder">
+                🔥 Parameter Sensitivity Heat Map<br>
+                <span style="font-size: 0.8em; opacity: 0.7;">
+                    (Shows optimal RVR, Stop Loss, Position Size combinations)
+                </span>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>RVR Threshold</th>
+                        <th>Stop Loss</th>
+                        <th>Position Size</th>
+                        <th>Avg Return</th>
+                        <th>Avg Sharpe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background: #d1fae5;">
+                        <td>2.5</td>
+                        <td>10%</td>
+                        <td>2%</td>
+                        <td style="color: #065f46; font-weight: 600;">+15.67%</td>
+                        <td>1.456</td>
+                    </tr>
+                    <tr>
+                        <td>2.0</td>
+                        <td>12%</td>
+                        <td>3%</td>
+                        <td style="color: #065f46;">+12.45%</td>
+                        <td>1.234</td>
+                    </tr>
+                    <tr>
+                        <td>2.0</td>
+                        <td>15%</td>
+                        <td>3%</td>
+                        <td style="color: #065f46;">+9.23%</td>
+                        <td>0.987</td>
+                    </tr>
+                    <tr style="background: #fee2e2;">
+                        <td>1.5</td>
+                        <td>15%</td>
+                        <td>5%</td>
+                        <td style="color: #991b1b; font-weight: 600;">+3.12%</td>
+                        <td>0.456</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p><strong>Monte Carlo Backtester</strong> for Polymarket Trading System</p>
+            <p style="margin-top: 10px;">
+                ⚠️ This is a SAMPLE showing report structure. Run the actual backtester to generate real data!
+            </p>
+            <p style="margin-top: 15px; font-size: 0.85em; opacity: 0.8;">
+                Command: <code>python monte-carlo-backtest.py --runs 1000 --report results.html</code>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

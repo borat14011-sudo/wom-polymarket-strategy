@@ -1,0 +1,78 @@
+{
+  "generated": "2026-02-07T12:49:02.456Z",
+  "strategy": "Momentum/Hype Trading",
+  "totalMarkets": 149,
+  "totalTrades": 1192,
+  "dateRange": {
+    "start": "2024-03-02",
+    "end": "2024-12-30"
+  },
+  "results": {
+    "<3d": {
+      "name": "<3 days",
+      "trades": 298,
+      "wins": 196,
+      "losses": 102,
+      "winRate": 65.77181208053692,
+      "totalPnl": 838.3152128191555,
+      "avgPnl": 2.8131382980508572,
+      "avgWin": 8.961597080475665,
+      "avgLoss": -9.001547205432088,
+      "winLossRatio": 0.9955618601952879,
+      "expectancy": 2.813138298050864,
+      "avgDays": 1.5
+    },
+    "3-7d": {
+      "name": "3-7 days",
+      "trades": 149,
+      "wins": 79,
+      "losses": 70,
+      "winRate": 53.02013422818792,
+      "totalPnl": 93.8160500447384,
+      "avgPnl": 0.629637919763345,
+      "avgWin": 9.134695625845753,
+      "avgLoss": -8.968927205672518,
+      "winLossRatio": 1.0184825248741447,
+      "expectancy": 0.6296379197633435,
+      "avgDays": 5
+    },
+    "7-30d": {
+      "name": "7-30 days",
+      "trades": 298,
+      "wins": 118,
+      "losses": 180,
+      "winRate": 39.59731543624161,
+      "totalPnl": -540.0182637681452,
+      "avgPnl": -1.8121418247253194,
+      "avgWin": 9.042287567597597,
+      "avgLoss": -8.927823315248123,
+      "winLossRatio": 1.0128210705238732,
+      "expectancy": -1.8121418247253214,
+      "avgDays": 15
+    },
+    ">30d": {
+      "name": ">30 days",
+      "trades": 447,
+      "wins": 180,
+      "losses": 267,
+      "winRate": 40.26845637583892,
+      "totalPnl": -763.6370345179091,
+      "avgPnl": -1.7083602561921905,
+      "avgWin": 9.094131894477893,
+      "avgLoss": -8.990939234172023,
+      "winLossRatio": 1.0114774060438163,
+      "expectancy": -1.7083602561921918,
+      "avgDays": 60
+    }
+  },
+  "edgeDecay": {
+    "winRateDecay": "25.5%",
+    "expectancyDecay": "$4.52",
+    "confirmed": true
+  },
+  "recommendations": {
+    "prioritize": "<3 days",
+    "selective": "3-7 days",
+    "avoid": ">7 days"
+  }
+}

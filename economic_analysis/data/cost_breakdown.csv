@@ -1,0 +1,5 @@
+Cost_Component,Annual_Pct,Calculation_Basis
+Trading_Fees,4.0,0.06% taker × 1500% monthly turnover × 12
+Slippage,1.0,0.03% avg per trade × trade frequency
+Total_Costs,5.0,Sum of all cost components
+Cost_Drag_Effect,-4.76,Impact on CAGR (5% of gross returns)

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-02-07T12:52:04.615673",
+  "dataset_size": 17324,
+  "strategies": [
+    {
+      "strategy": "Trend Filter",
+      "trades": 0,
+      "wins": 0,
+      "win_rate": 0,
+      "avg_pnl": 0,
+      "grade": "F"
+    },
+    {
+      "strategy": "Time Horizon <3d",
+      "trades": 0,
+      "wins": 0,
+      "win_rate": 0,
+      "avg_pnl": 0,
+      "grade": "F"
+    },
+    {
+      "strategy": "NO-Side Bias",
+      "trades": 0,
+      "wins": 0,
+      "win_rate": 0,
+      "avg_pnl": 0,
+      "grade": "F"
+    }
+  ]
+}

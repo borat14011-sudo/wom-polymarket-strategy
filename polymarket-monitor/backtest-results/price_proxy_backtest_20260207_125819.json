@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-07T12:58:19.764474",
+  "method": "price_proxy",
+  "dataset_size": 17324,
+  "strategies": [
+    {
+      "strategy": "Trend Filter",
+      "trades": 9989,
+      "wins": 9829,
+      "win_rate": 98.39823806186806,
+      "avg_pnl": 0.405919961958154,
+      "skipped": 804
+    },
+    {
+      "strategy": "Time Horizon <3d",
+      "trades": 4674,
+      "wins": 4460,
+      "win_rate": 95.42148053059478,
+      "avg_pnl": 0.3594256525459992,
+      "skipped": 554
+    },
+    {
+      "strategy": "NO-Side Bias",
+      "trades": 3380,
+      "wins": 3097,
+      "win_rate": 91.62721893491124,
+      "avg_pnl": -0.1275149408284024,
+      "skipped": 823
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Cost_Component,MUSK_HYPE_FADE,WILL_PREDICTION_FADE,BTC_TIME_BIAS,BLENDED
+Exchange_Fees,1.2,2.8,1.1,2.0
+Slippage,1.8,2.4,1.2,1.8
+Spread_Costs,0.8,1.2,0.6,0.9
+Funding_Rates,0.4,0.4,0.2,0.2
+Total_Costs,4.2,6.8,3.1,4.9
+Gross_ROI,36.7,23.1,13.0,24.3
+Net_ROI,32.5,16.3,9.9,19.4

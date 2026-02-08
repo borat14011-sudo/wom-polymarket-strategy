@@ -1,0 +1,16 @@
+{
+  "events": "80,000+",
+  "eventsNum": 80000,
+  "rate": "~90/sec",
+  "progress": 95,
+  "status": "\u2705 Step 1: Fetching Events",
+  "substatus": "Downloading market metadata...",
+  "eta": "~0 min remaining",
+  "timestamp": "10:19:18 AM",
+  "balance": "$98.25",
+  "iran_position": "\u274c 7\u00a2 (-$1.75 / -41.7%)",
+  "chrome_status": "\u2705 CLOSED",
+  "elapsed": "108 min",
+  "scraper_active": true,
+  "last_update": "2026-02-07T10:19:18.044704"
+}

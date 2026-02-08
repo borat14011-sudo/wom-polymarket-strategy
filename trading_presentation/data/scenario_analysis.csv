@@ -1,0 +1,4 @@
+Scenario,Probability,Year_1,Year_2,Year_3,Cumulative,Annualized
+Base Case,60%,18.5,16.2,14.8,58.2,16.5
+Bull Case,25%,24.0,21.5,19.0,80.1,21.6
+Bear Case,15%,8.0,5.5,4.0,18.2,5.7

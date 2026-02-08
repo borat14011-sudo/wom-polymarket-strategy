@@ -1,0 +1,55 @@
+Entry Date,Market Question,Entry Price,24h Ago Price,24h Change %,Trend Filter,Outcome,P&L %,Exit Reason,Notes
+2025-10-03 14:23,Trump Wins Iowa Caucus,0.63,0.58,8.6%,PASS,Win,22.1%,TP2,Strong momentum on polling data
+2025-10-05 09:15,Fed Rate Cut March,0.68,0.72,-5.6%,FAIL,Loss,-18.3%,Time Decay,Buying fading optimism - AVOIDED
+2025-10-08 16:44,Inflation Beats Estimates,0.41,0.35,17.1%,PASS,Win,19.2%,TP2,Rode the surprise momentum
+2025-10-12 11:30,Tesla Q4 Deliveries Beat,0.41,0.45,-8.9%,FAIL,Loss,-22.1%,Stop Loss,Catching falling expectations - AVOIDED
+2025-10-15 13:22,Netflix Subscriber Surge,0.52,0.47,10.6%,PASS,Win,28.4%,TP3,Earnings hype continuation
+2025-10-18 10:05,Bitcoin $50K by Feb,0.24,0.28,-14.3%,FAIL,Loss,-28.2%,Stop Loss,Buying dip in crash - AVOIDED
+2025-10-21 15:33,Super Bowl Score Over,0.48,0.44,9.1%,PASS,Win,12.3%,TP1,Sharp money following
+2025-10-24 08:17,Apple Event Announcement,0.71,0.65,9.2%,PASS,Win,16.5%,TP2,Rumor to news play
+2025-10-27 14:50,Trump Indictment Timing,0.55,0.61,-9.8%,FAIL,Loss,-15.4%,Time Decay,Dead cat bounce - AVOIDED
+2025-10-29 11:42,SpaceX Launch Success,0.38,0.33,15.2%,PASS,Win,11.8%,TP1,Momentum from countdown hype
+2025-10-31 09:28,Jobs Report Beat,0.55,0.61,-9.8%,FAIL,Win,8.7%,TP1,Lucky reversal - small win
+2025-11-02 16:15,OpenAI GPT-5 Release Date,0.32,0.37,-13.5%,FAIL,Loss,-19.1%,Stop Loss,Speculation collapse - AVOIDED
+2025-11-05 10:33,Meta Revenue Beat,0.44,0.39,12.8%,PASS,Win,24.1%,TP3,Earnings momentum
+2025-11-08 13:44,UK Recession Q4,0.47,0.52,-9.6%,FAIL,Loss,-12.4%,Stop Loss,Pessimism unwinding - AVOIDED
+2025-11-11 15:22,Tesla Cybertruck Delivery,0.59,0.54,9.3%,PASS,Win,14.2%,TP2,Event hype building
+2025-11-14 09:17,Fed Pivot Signal,0.44,0.48,-8.3%,FAIL,Win,7.1%,TP1,Contrarian play worked - lucky
+2025-11-17 11:55,China Invades Taiwan 2026,0.08,0.11,-27.3%,FAIL,Loss,-9.2%,Stop Loss,Fear trade collapse - AVOIDED
+2025-11-20 14:38,AMD Beats Earnings,0.51,0.46,10.9%,PASS,Win,18.9%,TP2,Chip sector rotation
+2025-11-23 10:12,Disney+ Subscriber Growth,0.37,0.33,12.1%,PASS,Win,15.3%,TP2,Streaming wars momentum
+2025-11-26 16:05,Black Friday Sales Record,0.62,0.58,6.9%,PASS,Win,9.4%,TP1,Consumer spending data
+2025-11-29 13:28,Musk Sells Tesla by 2027,0.19,0.24,-20.8%,FAIL,Loss,-16.1%,Time Decay,Rumor spike reversal - AVOIDED
+2025-12-02 09:44,Nvidia Stock Price Target,0.66,0.61,8.2%,PASS,Win,21.7%,TP2,AI hype continuation
+2025-12-05 15:17,Super Bowl Upset,0.38,0.42,-9.5%,FAIL,Loss,-10.8%,Event Result,Late underdog money - AVOIDED
+2025-12-08 11:30,Amazon Holiday Sales,0.54,0.49,10.2%,PASS,Win,13.6%,TP2,Seasonal strength
+2025-12-11 14:22,Oscar Best Picture,0.61,0.66,-7.6%,FAIL,Loss,-13.9%,Event Result,Fading consensus - AVOIDED
+2025-12-14 10:55,Google Gemini Launch,0.43,0.38,13.2%,PASS,Win,19.8%,TP2,AI arms race hype
+2025-12-17 16:33,Apple Vision Pro Sales,0.53,0.58,-8.6%,FAIL,Loss,-16.7%,Time Decay,Hype unwinding - AVOIDED
+2025-12-20 09:18,Elon Twitter Poll Result,0.38,0.42,-9.5%,FAIL,Win,10.6%,TP1,Meme trade worked - lucky
+2025-12-23 13:47,Holiday Box Office Record,0.47,0.43,9.3%,PASS,Win,12.1%,TP1,Opening weekend momentum
+2025-12-27 11:25,Bitcoin ETF Approval,0.69,0.63,9.5%,PASS,Win,26.3%,TP3,Regulatory catalyst
+2025-12-30 15:09,Student Loan Forgiveness,0.29,0.34,-14.7%,FAIL,Loss,-20.8%,Event Result,Hope trade collapse - AVOIDED
+2026-01-03 10:44,CES Tech Announcements,0.56,0.51,9.8%,PASS,Win,15.4%,TP2,Event hype building
+2026-01-06 14:17,Nvidia Stock Split,0.72,0.76,-5.3%,FAIL,Loss,-8.1%,Time Decay,Rumor fade - AVOIDED
+2026-01-09 09:33,Microsoft AI Revenue,0.48,0.43,11.6%,PASS,Win,20.3%,TP2,Enterprise AI adoption
+2026-01-12 16:22,Iran Retaliation Market,0.12,0.13,-7.7%,FAIL,Loss,-33.1%,Stop Loss,CASE STUDY - falling knife - AVOIDED
+2026-01-15 11:55,Tesla Model 2 Announcement,0.39,0.35,11.4%,PASS,Win,17.8%,TP2,Product launch speculation
+2026-01-18 13:28,Ukraine Peace Deal Q1,0.15,0.19,-21.1%,FAIL,Loss,-12.7%,Time Decay,False hope spike - AVOIDED
+2026-01-21 10:15,NFP Jobs Miss,0.49,0.53,-7.5%,FAIL,Win,5.8%,TP1,Bottom fishing worked - small win
+2026-01-24 15:44,Amazon Earnings Beat,0.58,0.53,9.4%,PASS,Win,23.1%,TP3,E-commerce strength
+2026-01-27 09:22,SpaceX Starship Success,0.44,0.49,-10.2%,FAIL,Loss,-9.7%,Event Result,Launch delay - AVOIDED
+2026-01-30 14:05,Meta Layoffs Announcement,0.36,0.31,16.1%,PASS,Win,14.9%,TP2,Cost cutting optimism
+2026-02-02 11:18,Super Bowl Winner,0.67,0.62,8.1%,PASS,Win,18.2%,Event Result,Sharp money consensus
+2026-02-05 16:33,Biden Approval Rating,0.31,0.35,-11.4%,FAIL,Win,9.3%,TP1,Political reversal - lucky
+2026-02-05 09:45,Powell Speech Dovish,0.52,0.47,10.6%,PASS,Win,12.7%,TP1,Fed pivot speculation
+2025-10-10 12:15,GameStop Meme Rally,0.29,0.26,11.5%,PASS,Win,16.4%,TP2,Social media momentum
+2025-10-19 14:33,Presidential Debate Winner,0.54,0.49,10.2%,PASS,Win,11.2%,Event Result,Post-debate polling
+2025-11-01 10:28,Earnings Season Beat Rate,0.61,0.56,8.9%,PASS,Win,13.8%,TP2,Corporate strength theme
+2025-11-16 15:42,Holiday Shipping Crisis,0.41,0.45,-8.9%,FAIL,Loss,-14.2%,Time Decay,Supply chain fears - AVOIDED
+2025-11-28 13:19,Cyber Monday Record,0.58,0.53,9.4%,PASS,Win,10.3%,TP1,E-commerce strength
+2025-12-09 11:07,Federal Budget Deal,0.46,0.42,9.5%,PASS,Win,8.9%,TP1,Political resolution
+2025-12-21 16:44,Year-End Rally Continuation,0.71,0.66,7.6%,PASS,Win,14.6%,TP2,Santa rally momentum
+2026-01-07 09:52,Inflation Data Surprise,0.39,0.35,11.4%,PASS,Win,22.4%,TP2,Economic data beat
+2026-01-20 14:25,China Economic Stimulus,0.44,0.39,12.8%,PASS,Win,19.1%,TP2,Global growth optimism
+2026-01-28 10:38,Tech Sector Rotation,0.49,0.44,11.4%,PASS,Win,15.7%,TP2,Risk-on momentum

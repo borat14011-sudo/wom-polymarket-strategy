@@ -1,0 +1,85 @@
+{
+  "equal_weight": {
+    "Trend Filter": 0.14285714285714285,
+    "Time Horizon": 0.14285714285714285,
+    "NO-Side Bias": 0.14285714285714285,
+    "Expert Fade": 0.14285714285714285,
+    "Pairs Trading": 0.14285714285714285,
+    "News Mean Reversion": 0.14285714285714285,
+    "Whale Copy": 0.14285714285714285
+  },
+  "risk_adjusted": {
+    "Trend Filter": 0.1187354710807951,
+    "Time Horizon": 0.011794688885087765,
+    "NO-Side Bias": 0.010919186170507954,
+    "Expert Fade": 0.019541600274912137,
+    "Pairs Trading": 0.4650211308373312,
+    "News Mean Reversion": 0.23120172888925708,
+    "Whale Copy": 0.1427861938621089
+  },
+  "correlation_matrix": {
+    "Trend Filter": {
+      "Trend Filter": 1.0,
+      "Time Horizon": 0.04141999745382667,
+      "NO-Side Bias": -0.1334255491229546,
+      "Expert Fade": -0.08160396403888191,
+      "Pairs Trading": 0.8622718848460478,
+      "News Mean Reversion": -0.27604644443527193,
+      "Whale Copy": -0.31638072908097287
+    },
+    "Time Horizon": {
+      "Trend Filter": 0.04141999745382667,
+      "Time Horizon": 1.0,
+      "NO-Side Bias": -0.7785659589776696,
+      "Expert Fade": -0.8039367942511836,
+      "Pairs Trading": 0.9995025541518057,
+      "News Mean Reversion": -0.0570168851204548,
+      "Whale Copy": 0.004035852649393035
+    },
+    "NO-Side Bias": {
+      "Trend Filter": -0.1334255491229546,
+      "Time Horizon": -0.7785659589776696,
+      "NO-Side Bias": 1.0,
+      "Expert Fade": 0.7689936295895438,
+      "Pairs Trading": NaN,
+      "News Mean Reversion": 0.010166487126411631,
+      "Whale Copy": -0.11996925830736234
+    },
+    "Expert Fade": {
+      "Trend Filter": -0.08160396403888191,
+      "Time Horizon": -0.8039367942511836,
+      "NO-Side Bias": 0.7689936295895438,
+      "Expert Fade": 1.0,
+      "Pairs Trading": -0.9942890217914527,
+      "News Mean Reversion": -0.017943214415800674,
+      "Whale Copy": -0.0325222749223423
+    },
+    "Pairs Trading": {
+      "Trend Filter": 0.8622718848460478,
+      "Time Horizon": 0.9995025541518057,
+      "NO-Side Bias": NaN,
+      "Expert Fade": -0.9942890217914527,
+      "Pairs Trading": 1.0,
+      "News Mean Reversion": NaN,
+      "Whale Copy": NaN
+    },
+    "News Mean Reversion": {
+      "Trend Filter": -0.27604644443527193,
+      "Time Horizon": -0.0570168851204548,
+      "NO-Side Bias": 0.010166487126411631,
+      "Expert Fade": -0.017943214415800674,
+      "Pairs Trading": NaN,
+      "News Mean Reversion": 1.0,
+      "Whale Copy": 0.03278045958827228
+    },
+    "Whale Copy": {
+      "Trend Filter": -0.31638072908097287,
+      "Time Horizon": 0.004035852649393035,
+      "NO-Side Bias": -0.11996925830736234,
+      "Expert Fade": -0.0325222749223423,
+      "Pairs Trading": NaN,
+      "News Mean Reversion": 0.03278045958827228,
+      "Whale Copy": 1.0
+    }
+  }
+}

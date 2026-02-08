@@ -1,0 +1,28 @@
+# Polymarket Trading System Requirements
+# Python 3.9+
+
+# Core dependencies
+requests>=2.31.0          # HTTP requests for API calls
+aiohttp>=3.9.0            # Async HTTP for real-time data
+asyncio>=3.4.3            # Async operations
+
+# Data handling
+pandas>=2.1.0             # Data analysis (optional, for advanced stats)
+numpy>=1.24.0             # Numerical operations
+
+# Telegram integration (optional but recommended)
+python-telegram-bot>=20.0  # Telegram alerts
+
+# Configuration
+python-dotenv>=1.0.0      # Environment variables
+
+# Logging
+colorlog>=6.7.0           # Colored logging (optional)
+
+# Testing
+pytest>=7.4.0             # Unit tests
+pytest-asyncio>=0.21.0    # Async test support
+
+# Optional: Advanced features
+# scikit-learn>=1.3.0     # Machine learning (future)
+# plotly>=5.17.0          # Visualization (future)

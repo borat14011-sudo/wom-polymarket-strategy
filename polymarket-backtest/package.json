@@ -1,0 +1,19 @@
+{
+  "name": "polymarket-backtest",
+  "version": "1.0.0",
+  "description": "2-year historical backtest of Polymarket strategies with risk-adjusted returns",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "collect": "node src/01-collect-data.js",
+    "backtest": "node src/02-run-backtests.js",
+    "analyze": "node src/03-analyze-portfolio.js",
+    "charts": "node src/04-generate-charts.js",
+    "presentation": "node src/05-build-presentation.js",
+    "all": "npm run collect && npm run backtest && npm run analyze && npm run charts && npm run presentation"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "date-fns": "^3.0.0"
+  }
+}

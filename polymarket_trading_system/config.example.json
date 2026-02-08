@@ -1,0 +1,127 @@
+{
+  "_comment": "Copy this file to config.json and fill in your settings",
+  
+  "trading_mode": {
+    "paper_trading": true,
+    "_comment_paper": "ALWAYS start with paper trading for 30+ days",
+    "initial_capital": 10000.0
+  },
+  
+  "api_credentials": {
+    "polymarket_api_key": "your_polymarket_api_key_here",
+    "_comment_api": "Get API key from Polymarket dashboard",
+    "polymarket_api_url": "https://api.polymarket.com"
+  },
+  
+  "telegram_alerts": {
+    "enabled": true,
+    "bot_token": "your_telegram_bot_token_here",
+    "chat_id": "your_telegram_chat_id_here",
+    "_comment_telegram": "Optional but highly recommended for monitoring"
+  },
+  
+  "risk_management": {
+    "max_position_size": 0.10,
+    "_comment_max_pos": "10% max per position (validated)",
+    
+    "base_position_size": 0.05,
+    "_comment_base": "5% standard position size",
+    
+    "max_concurrent_positions": 5,
+    "_comment_concurrent": "Max 5 positions at once",
+    
+    "max_drawdown_tolerance": 0.22,
+    "_comment_drawdown": "22% max drawdown (from backtests)",
+    
+    "daily_loss_limit": 0.05,
+    "_comment_daily": "5% daily loss circuit breaker",
+    
+    "stop_loss_pct": 0.12,
+    "_comment_stop": "12% stop loss (validated on real trades)"
+  },
+  
+  "strategy_filters": {
+    "max_days_to_resolution": 3,
+    "_comment_time": "Only markets resolving in <3 days (66.7% win rate)",
+    
+    "no_side_prob_threshold": 0.15,
+    "_comment_no_side": "<15% for NO-side bias (82% win rate)",
+    
+    "min_volume_spike": 2.0,
+    "_comment_volume": "2x volume spike required for NO-side",
+    
+    "trend_lookback_hours": 24,
+    "_comment_trend": "24h trend filter (+19pp improvement)",
+    
+    "allowed_categories": ["Politics", "Crypto"],
+    "_comment_categories": "Only validated categories (90.5% fit)",
+    
+    "excluded_categories": ["Sports", "AI", "Tech", "World Events"],
+    "_comment_excluded": "Failed in backtests"
+  },
+  
+  "exit_strategy": {
+    "volatility_exits_enabled": true,
+    "_comment_volatility": "95.5% win rate with volatility exits",
+    
+    "target_profit_low_liquidity": 0.05,
+    "_comment_low_liq": "5% target on <$10k liquidity",
+    
+    "target_profit_medium_liquidity": 0.08,
+    "_comment_med_liq": "8% target on $10k-$50k liquidity",
+    
+    "target_profit_high_liquidity": 0.12,
+    "_comment_high_liq": "12% target on >$50k liquidity",
+    
+    "time_exit_hours_before_resolution": 2,
+    "_comment_time_exit": "Close 2h before market resolves"
+  },
+  
+  "execution": {
+    "check_interval_seconds": 60,
+    "_comment_interval": "Check for signals every 60 seconds",
+    
+    "immediate_entry": true,
+    "_comment_immediate": "+2.87% expectancy with immediate entry",
+    
+    "min_liquidity": 5000,
+    "_comment_min_liq": "Minimum $5k liquidity to trade"
+  },
+  
+  "logging": {
+    "log_level": "INFO",
+    "log_file": "trading_bot.log",
+    "log_trades": true,
+    "log_signals": true
+  },
+  
+  "data_storage": {
+    "save_market_cache": true,
+    "cache_file": "data/market_cache.json",
+    "trade_history_file": "data/trade_history.json",
+    "bot_state_file": "bot_state.json"
+  },
+  
+  "forward_testing": {
+    "min_trades_before_live": 30,
+    "_comment_min_trades": "Minimum 30 trades before going live",
+    
+    "min_test_duration_days": 30,
+    "_comment_min_days": "Minimum 30 days paper trading",
+    
+    "performance_check_interval_days": 7,
+    "_comment_check": "Review performance weekly"
+  },
+  
+  "expected_performance": {
+    "_comment_expectations": "From real backtests (Oct 2025 - Feb 2026)",
+    "win_rate_target": 0.58,
+    "win_rate_range": [0.55, 0.65],
+    "annual_return_target": 0.80,
+    "annual_return_range": [0.60, 1.00],
+    "profit_factor_target": 1.8,
+    "profit_factor_range": [1.6, 2.0],
+    "max_drawdown_expected": -0.20,
+    "trades_per_month_expected": 10
+  }
+}

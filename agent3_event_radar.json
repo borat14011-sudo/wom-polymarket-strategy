@@ -1,0 +1,422 @@
+{
+  "agent_id": 3,
+  "market_range": "40-59",
+  "total_markets": 20,
+  "total_signals": 20,
+  "patterns": [
+    {
+      "pattern_type": "CATEGORY_DOMINANCE",
+      "description": "SPORTS_PROP markets dominate this batch (12/20)",
+      "strength": 0.6
+    },
+    {
+      "pattern_type": "RESOLUTION_BIAS",
+      "description": "Significant bias toward NO outcomes (22.2% YES rate)",
+      "yes_rate": 0.2222222222222222
+    },
+    {
+      "pattern_type": "DECISIVE_RESOLUTIONS",
+      "description": "18 markets resolved decisively (final price <0.1 or >0.9)",
+      "count": 18,
+      "rate": 0.9
+    }
+  ],
+  "category_breakdown": {
+    "WEATHER": 2,
+    "MATCHUP": 1,
+    "SPORTS_PROP": 12,
+    "CRYPTO": 3,
+    "OTHER": 2
+  },
+  "resolution_stats": {
+    "NO": 14,
+    "UNCLEAR": 2,
+    "YES": 4
+  },
+  "volume_analysis": {
+    "total_volume": 27074282.765498,
+    "avg_volume": 1353714.1382749001,
+    "high_volume_markets": [
+      {
+        "id": "1288202",
+        "title": "Bilal Coulibaly: Assists O/U 2.5",
+        "volume": 3306348.062817
+      },
+      {
+        "id": "1333898",
+        "title": "Grizzlies vs. Kings: 1H O/U 117.5",
+        "volume": 5030186.804463
+      },
+      {
+        "id": "1339949",
+        "title": "76ers vs. Lakers: 1H O/U 119.5",
+        "volume": 5119783.648414
+      }
+    ],
+    "low_volume_markets": [
+      {
+        "id": "1312646",
+        "title": "Will the highest temperature in Seoul be 0\u00b0C on February 3?",
+        "volume": 122969.153132
+      },
+      {
+        "id": "1323071",
+        "title": "Hurkacz vs. Damm: Match O/U 23.5",
+        "volume": 144542.901383
+      },
+      {
+        "id": "1308942",
+        "title": "Spread: Central Arkansas Bears (-5.5)",
+        "volume": 130794.424693
+      }
+    ]
+  },
+  "price_patterns": {
+    "tight_range_markets": [
+      {
+        "id": "1344578",
+        "title": "Total Kills Over/Under 34.5 in Game 1?",
+        "range": "0.00-0.01",
+        "volatility": 0.006
+      }
+    ],
+    "wide_swing_markets": [
+      {
+        "id": "1337252",
+        "title": "Nickeil Alexander-Walker: Assists O/U 3.5",
+        "range": "0.28-1.00",
+        "volatility": 0.7145000000000001
+      },
+      {
+        "id": "1323071",
+        "title": "Hurkacz vs. Damm: Match O/U 23.5",
+        "range": "0.00-0.71",
+        "volatility": 0.7095
+      },
+      {
+        "id": "1236161",
+        "title": "Will Sport Lisboa e Benfica win on 2026-02-01?",
+        "range": "0.00-0.82",
+        "volatility": 0.8245
+      },
+      {
+        "id": "1308942",
+        "title": "Spread: Central Arkansas Bears (-5.5)",
+        "range": "0.28-1.00",
+        "volatility": 0.7195
+      }
+    ],
+    "decisive_markets": [
+      {
+        "id": "1312646",
+        "title": "Will the highest temperature in Seoul be 0\u00b0C on February 3?",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1331404",
+        "title": "Jaylon Tyson: Rebounds O/U 5.5",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1337252",
+        "title": "Nickeil Alexander-Walker: Assists O/U 3.5",
+        "final_price": 1.0,
+        "resolution": "YES"
+      },
+      {
+        "id": "1344578",
+        "title": "Total Kills Over/Under 34.5 in Game 1?",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1303074",
+        "title": "Bitcoin Up or Down - January 31, 8:00PM-8:15PM ET",
+        "final_price": 0.04,
+        "resolution": "NO"
+      },
+      {
+        "id": "1288202",
+        "title": "Bilal Coulibaly: Assists O/U 2.5",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1293432",
+        "title": "Will Trump say \"TikTok\" during the announcement on Thursday?",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1323071",
+        "title": "Hurkacz vs. Damm: Match O/U 23.5",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1325647",
+        "title": "Total Kills Over/Under 32.5 in Game 3?",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1285841",
+        "title": "Will the price of Solana be greater than $170 on February 4?",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1323599",
+        "title": "Games Total: O/U 2.5",
+        "final_price": 1.0,
+        "resolution": "YES"
+      },
+      {
+        "id": "1291757",
+        "title": "Will the highest temperature in London be 7\u00b0C on January 31?",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1236161",
+        "title": "Will Sport Lisboa e Benfica win on 2026-02-01?",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1333898",
+        "title": "Grizzlies vs. Kings: 1H O/U 117.5",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1308942",
+        "title": "Spread: Central Arkansas Bears (-5.5)",
+        "final_price": 1.0,
+        "resolution": "YES"
+      },
+      {
+        "id": "1339949",
+        "title": "76ers vs. Lakers: 1H O/U 119.5",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1281312",
+        "title": "Santi Aldama: Points O/U 13.5",
+        "final_price": 0.0,
+        "resolution": "NO"
+      },
+      {
+        "id": "1333880",
+        "title": "Bitcoin Up or Down - February 6, 11AM ET",
+        "final_price": 1.0,
+        "resolution": "YES"
+      }
+    ]
+  },
+  "markets_analyzed": [
+    {
+      "id": "1312646",
+      "title": "Will the highest temperature in Seoul be 0\u00b0C on February 3?",
+      "category": "WEATHER",
+      "resolution": "NO",
+      "volume": 122969.153132,
+      "price_volatility": 0.3745,
+      "final_price": 0.0,
+      "close_time": "2026-02-03T12:00:00Z"
+    },
+    {
+      "id": "1258260",
+      "title": "Set 1 Winner: Mensik vs Djokovic",
+      "category": "MATCHUP",
+      "resolution": "UNCLEAR",
+      "volume": 176449.148352,
+      "price_volatility": 0.315,
+      "final_price": 0.49,
+      "close_time": "2026-02-09T00:00:00Z"
+    },
+    {
+      "id": "1289693",
+      "title": "Total Kills Over/Under 43.5 in Game 2?",
+      "category": "SPORTS_PROP",
+      "resolution": "UNCLEAR",
+      "volume": 173697.178499,
+      "price_volatility": 0.3795,
+      "final_price": 0.25,
+      "close_time": "2026-01-29T15:00:00Z"
+    },
+    {
+      "id": "1331404",
+      "title": "Jaylon Tyson: Rebounds O/U 5.5",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 2920705.127583,
+      "price_volatility": 0.6295000000000001,
+      "final_price": 0.0,
+      "close_time": "2026-02-05T03:30:00Z"
+    },
+    {
+      "id": "1337252",
+      "title": "Nickeil Alexander-Walker: Assists O/U 3.5",
+      "category": "SPORTS_PROP",
+      "resolution": "YES",
+      "volume": 2713295.302838,
+      "price_volatility": 0.7145000000000001,
+      "final_price": 1.0,
+      "close_time": "2026-02-06T00:30:00Z"
+    },
+    {
+      "id": "1344578",
+      "title": "Total Kills Over/Under 34.5 in Game 1?",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 2417135.506286,
+      "price_volatility": 0.006,
+      "final_price": 0.0,
+      "close_time": "2026-02-06T14:00:00Z"
+    },
+    {
+      "id": "1303074",
+      "title": "Bitcoin Up or Down - January 31, 8:00PM-8:15PM ET",
+      "category": "CRYPTO",
+      "resolution": "NO",
+      "volume": 157733.019686,
+      "price_volatility": 0.48,
+      "final_price": 0.04,
+      "close_time": "2026-02-01T01:15:00Z"
+    },
+    {
+      "id": "1288202",
+      "title": "Bilal Coulibaly: Assists O/U 2.5",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 3306348.062817,
+      "price_volatility": 0.5345000000000001,
+      "final_price": 0.0,
+      "close_time": "2026-01-30T00:00:00Z"
+    },
+    {
+      "id": "1293432",
+      "title": "Will Trump say \"TikTok\" during the announcement on Thursday?",
+      "category": "OTHER",
+      "resolution": "NO",
+      "volume": 205304.13504,
+      "price_volatility": 0.4895,
+      "final_price": 0.0,
+      "close_time": "2026-01-29T00:00:00Z"
+    },
+    {
+      "id": "1323071",
+      "title": "Hurkacz vs. Damm: Match O/U 23.5",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 144542.901383,
+      "price_volatility": 0.7095,
+      "final_price": 0.0,
+      "close_time": "2026-02-10T13:30:00Z"
+    },
+    {
+      "id": "1325647",
+      "title": "Total Kills Over/Under 32.5 in Game 3?",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 575315.46379,
+      "price_volatility": 0.5195000000000001,
+      "final_price": 0.0,
+      "close_time": "2026-02-04T03:00:00Z"
+    },
+    {
+      "id": "1285841",
+      "title": "Will the price of Solana be greater than $170 on February 4?",
+      "category": "CRYPTO",
+      "resolution": "NO",
+      "volume": 213123.158376,
+      "price_volatility": 0.4995,
+      "final_price": 0.0,
+      "close_time": "2026-02-04T17:00:00Z"
+    },
+    {
+      "id": "1323599",
+      "title": "Games Total: O/U 2.5",
+      "category": "SPORTS_PROP",
+      "resolution": "YES",
+      "volume": 249422.020374,
+      "price_volatility": 0.6395000000000001,
+      "final_price": 1.0,
+      "close_time": "2026-02-04T22:00:00Z"
+    },
+    {
+      "id": "1291757",
+      "title": "Will the highest temperature in London be 7\u00b0C on January 31?",
+      "category": "WEATHER",
+      "resolution": "NO",
+      "volume": 220914.738178,
+      "price_volatility": 0.3095,
+      "final_price": 0.0,
+      "close_time": "2026-01-31T12:00:00Z"
+    },
+    {
+      "id": "1236161",
+      "title": "Will Sport Lisboa e Benfica win on 2026-02-01?",
+      "category": "OTHER",
+      "resolution": "NO",
+      "volume": 334422.940932,
+      "price_volatility": 0.8245,
+      "final_price": 0.0,
+      "close_time": "2026-02-01T20:30:00Z"
+    },
+    {
+      "id": "1333898",
+      "title": "Grizzlies vs. Kings: 1H O/U 117.5",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 5030186.804463,
+      "price_volatility": 0.5695,
+      "final_price": 0.0,
+      "close_time": "2026-02-05T03:00:00Z"
+    },
+    {
+      "id": "1308942",
+      "title": "Spread: Central Arkansas Bears (-5.5)",
+      "category": "SPORTS_PROP",
+      "resolution": "YES",
+      "volume": 130794.424693,
+      "price_volatility": 0.7195,
+      "final_price": 1.0,
+      "close_time": "2026-01-31T21:30:00Z"
+    },
+    {
+      "id": "1339949",
+      "title": "76ers vs. Lakers: 1H O/U 119.5",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 5119783.648414,
+      "price_volatility": 0.5795,
+      "final_price": 0.0,
+      "close_time": "2026-02-06T03:00:00Z"
+    },
+    {
+      "id": "1281312",
+      "title": "Santi Aldama: Points O/U 13.5",
+      "category": "SPORTS_PROP",
+      "resolution": "NO",
+      "volume": 2650871.730763,
+      "price_volatility": 0.5345000000000001,
+      "final_price": 0.0,
+      "close_time": "2026-01-29T01:00:00Z"
+    },
+    {
+      "id": "1333880",
+      "title": "Bitcoin Up or Down - February 6, 11AM ET",
+      "category": "CRYPTO",
+      "resolution": "YES",
+      "volume": 211268.299899,
+      "price_volatility": 0.5445,
+      "final_price": 1.0,
+      "close_time": "2026-02-06T17:00:00Z"
+    }
+  ]
+}

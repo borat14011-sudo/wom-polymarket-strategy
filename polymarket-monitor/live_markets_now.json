@@ -1,0 +1,592 @@
+[
+  {
+    "market_id": "1349943",
+    "question": "Will Elon Musk post 0-19 tweets from February 10 to February 17, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "63124.284",
+    "liquidity": "45839.384",
+    "end_date": "2026-02-17T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304220",
+    "question": "Will Elon Musk post 340-359 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.005,
+    "volume": "550201.664809",
+    "liquidity": "29091.72141",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304205",
+    "question": "Will Elon Musk post 200-219 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.2885,
+    "volume": "533203.5796",
+    "liquidity": "20422.16494",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304224",
+    "question": "Will Elon Musk post 360-379 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "416257.076563",
+    "liquidity": "39453.46464",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304214",
+    "question": "Will Elon Musk post 260-279 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.063,
+    "volume": "415052.710601",
+    "liquidity": "24502.72349",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304210",
+    "question": "Will Elon Musk post 220-239 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.25,
+    "volume": "392624.491963",
+    "liquidity": "24487.61328",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304213",
+    "question": "Will Elon Musk post 240-259 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.1235,
+    "volume": "374303.742301",
+    "liquidity": "26052.4063",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304216",
+    "question": "Will Elon Musk post 280-299 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0355,
+    "volume": "373159.275315",
+    "liquidity": "26234.98819",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304218",
+    "question": "Will Elon Musk post 300-319 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.016,
+    "volume": "338872.6459",
+    "liquidity": "30615.60862",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304219",
+    "question": "Will Elon Musk post 320-339 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0115,
+    "volume": "328118.65486",
+    "liquidity": "21213.52478",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304245",
+    "question": "Will Elon Musk post 580-599 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "327727.003969",
+    "liquidity": "41598.67917",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304228",
+    "question": "Will Elon Musk post 380-399 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "310153.949733",
+    "liquidity": "52377.54057",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304231",
+    "question": "Will Elon Musk post 400-419 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "285385.56803",
+    "liquidity": "41722.6821",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304243",
+    "question": "Will Elon Musk post 560-579 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "280237.029159",
+    "liquidity": "59673.20488",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304239",
+    "question": "Will Elon Musk post 480-499 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "245083.588472",
+    "liquidity": "50880.35202",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304237",
+    "question": "Will Elon Musk post 460-479 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "242736.345812",
+    "liquidity": "120355.55402",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304232",
+    "question": "Will Elon Musk post 420-439 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "234007.870234",
+    "liquidity": "46792.1089",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304241",
+    "question": "Will Elon Musk post 520-539 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "233933.186179",
+    "liquidity": "59901.81789",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304242",
+    "question": "Will Elon Musk post 540-559 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "230066.34596",
+    "liquidity": "67514.27501",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304234",
+    "question": "Will Elon Musk post 440-459 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "218270.254782",
+    "liquidity": "137783.05998",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304248",
+    "question": "Will Elon Musk post 600-619 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "208175.986264",
+    "liquidity": "54276.52444",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1304240",
+    "question": "Will Elon Musk post 500-519 tweets from February 3 to February 10, 2026?",
+    "strategy": "MUSK_FADE_EXTREMES",
+    "current_price": 0.0005,
+    "volume": "205730.717744",
+    "liquidity": "75953.0909",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 97.1
+  },
+  {
+    "market_id": "1320465",
+    "question": "Will the price of Solana be above $120 on February 9?",
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "current_price": 0.0035,
+    "volume": "46255.667477",
+    "liquidity": "11039.2947",
+    "end_date": "2026-02-09T17:00:00Z",
+    "expected_win": 92.3
+  },
+  {
+    "market_id": "1303671",
+    "question": "Will Solana dip to $90 in February?",
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "current_price": 0.9995,
+    "volume": "2584127.791938",
+    "liquidity": "1382971.64892",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 92.3
+  },
+  {
+    "market_id": "1303678",
+    "question": "Will Solana dip to $20 in February?",
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "current_price": 0.01,
+    "volume": "247056.767764",
+    "liquidity": "66077.85091",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 92.3
+  },
+  {
+    "market_id": "1303369",
+    "question": "Will Bitcoin reach $110,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0105,
+    "volume": "988063.179145",
+    "liquidity": "126215.63743",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303365",
+    "question": "Will Bitcoin reach $115,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0065,
+    "volume": "950664.044511",
+    "liquidity": "106300.07254",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303361",
+    "question": "Will Bitcoin reach $120,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0075,
+    "volume": "782006.882131",
+    "liquidity": "81495.29656",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303372",
+    "question": "Will Bitcoin reach $105,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0145,
+    "volume": "774272.302193",
+    "liquidity": "97217.8298",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314142",
+    "question": "Will the price of Bitcoin be above $78,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0015,
+    "volume": "675647.076349",
+    "liquidity": "80259.30486",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314074",
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.289,
+    "volume": "57887.995782",
+    "liquidity": "8248.64471",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314078",
+    "question": "Will the price of Bitcoin be between $74,000 and $76,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0085,
+    "volume": "52594.545293",
+    "liquidity": "10101.77036",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314120",
+    "question": "Will the price of Bitcoin be above $68,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.8125,
+    "volume": "480393.712905",
+    "liquidity": "18053.05114",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303355",
+    "question": "Will Bitcoin reach $150,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0035,
+    "volume": "4046536.302612",
+    "liquidity": "803479.87934",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1317103",
+    "question": "Will Bitcoin reach $90,000 February 2-8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0005,
+    "volume": "365544.451895",
+    "liquidity": "47999.93876",
+    "end_date": "2026-02-09T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314125",
+    "question": "Will the price of Bitcoin be above $70,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.3315,
+    "volume": "298902.188122",
+    "liquidity": "15760.31928",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303384",
+    "question": "Will Bitcoin reach $85,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.125,
+    "volume": "2842264.851546",
+    "liquidity": "123398.8081",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1057916",
+    "question": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0635,
+    "volume": "2761683.906996",
+    "liquidity": "48418.19216",
+    "end_date": "2027-01-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314130",
+    "question": "Will the price of Bitcoin be above $72,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0455,
+    "volume": "261935.088293",
+    "liquidity": "25279.67885",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1345690",
+    "question": "Will Bitcoin dip to $60,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.38,
+    "volume": "238982.789149",
+    "liquidity": "49725.1897",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1345680",
+    "question": "Will Bitcoin reach $80,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.275,
+    "volume": "231236.778184",
+    "liquidity": "46650.7513",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314139",
+    "question": "Will the price of Bitcoin be above $76,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0015,
+    "volume": "229200.673838",
+    "liquidity": "45644.65681",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314144",
+    "question": "Will the price of Bitcoin be above $80,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0005,
+    "volume": "214346.500388",
+    "liquidity": "163229.50736",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314135",
+    "question": "Will the price of Bitcoin be above $74,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.017,
+    "volume": "212644.473782",
+    "liquidity": "28303.3455",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303381",
+    "question": "Will Bitcoin reach $90,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.054,
+    "volume": "1982018.457178",
+    "liquidity": "122147.99159",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303400",
+    "question": "Will Bitcoin dip to $55,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.2155,
+    "volume": "1914630.898718",
+    "liquidity": "93615.29144",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303403",
+    "question": "Will Bitcoin dip to $50,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0995,
+    "volume": "1786271.685949",
+    "liquidity": "101809.85319",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1345641",
+    "question": "Will Bitcoin reach $75,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.59,
+    "volume": "168365.421548",
+    "liquidity": "41232.3752",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303410",
+    "question": "Will Bitcoin dip to $35,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0235,
+    "volume": "1677460.107916",
+    "liquidity": "139726.24359",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303377",
+    "question": "Will Bitcoin reach $100,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.018,
+    "volume": "1522966.544226",
+    "liquidity": "151185.52173",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1320388",
+    "question": "Will the price of Bitcoin be above $68,000 on February 9?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.7135,
+    "volume": "146495.571675",
+    "liquidity": "14160.56313",
+    "end_date": "2026-02-09T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303406",
+    "question": "Will Bitcoin dip to $45,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0445,
+    "volume": "1341970.742399",
+    "liquidity": "113788.90609",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314071",
+    "question": "Will the price of Bitcoin be less than $68,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.185,
+    "volume": "131585.059673",
+    "liquidity": "3922.68883",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1326835",
+    "question": "Will the price of Bitcoin be above $72,000 on February 10?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.245,
+    "volume": "131253.38465",
+    "liquidity": "15657.4344",
+    "end_date": "2026-02-10T17:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303358",
+    "question": "Will Bitcoin reach $125,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0065,
+    "volume": "1194000.819672",
+    "liquidity": "144868.97799",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1057883",
+    "question": "Will Bitcoin reach $250,000 by December 31, 2026?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.048,
+    "volume": "1132035.367079",
+    "liquidity": "45477.09341",
+    "end_date": "2027-01-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303380",
+    "question": "Will Bitcoin reach $95,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0275,
+    "volume": "1115190.582053",
+    "liquidity": "141031.23058",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1303407",
+    "question": "Will Bitcoin dip to $40,000 in February?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0325,
+    "volume": "1044110.891874",
+    "liquidity": "75345.38593",
+    "end_date": "2026-03-01T05:00:00Z",
+    "expected_win": 61.9
+  },
+  {
+    "market_id": "1314147",
+    "question": "Will the price of Bitcoin be above $82,000 on February 8?",
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "current_price": 0.0005,
+    "volume": "100226.210286",
+    "liquidity": "58331.67953",
+    "end_date": "2026-02-08T17:00:00Z",
+    "expected_win": 61.9
+  }
+]

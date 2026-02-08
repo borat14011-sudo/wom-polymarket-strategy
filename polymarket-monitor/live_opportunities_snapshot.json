@@ -1,0 +1,6491 @@
+[
+  {
+    "market_id": "1275196",
+    "question": "Will Elon Musk post 0-19 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275197",
+    "question": "Will Elon Musk post 20-39 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275207",
+    "question": "Will Elon Musk post 200-219 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275225",
+    "question": "Will Elon Musk post 520-539 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275226",
+    "question": "Will Elon Musk post 540-559 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275208",
+    "question": "Will Elon Musk post 220-239 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275209",
+    "question": "Will Elon Musk post 240-259 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275210",
+    "question": "Will Elon Musk post 260-279 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275211",
+    "question": "Will Elon Musk post 280-299 tweets from January 30 to February 6, 2026?",
+    "price": 0.9995,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275212",
+    "question": "Will Elon Musk post 300-319 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275213",
+    "question": "Will Elon Musk post 320-339 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275214",
+    "question": "Will Elon Musk post 340-359 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275215",
+    "question": "Will Elon Musk post 360-379 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275216",
+    "question": "Will Elon Musk post 380-399 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275217",
+    "question": "Will Elon Musk post 400-419 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275218",
+    "question": "Will Elon Musk post 420-439 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275219",
+    "question": "Will Elon Musk post 440-459 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275220",
+    "question": "Will Elon Musk post 460-479 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275222",
+    "question": "Will Elon Musk post 480-499 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275224",
+    "question": "Will Elon Musk post 500-519 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275227",
+    "question": "Will Elon Musk post 560-579 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275228",
+    "question": "Will Elon Musk post 580-599 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275229",
+    "question": "Will Elon Musk post 600-619 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275230",
+    "question": "Will Elon Musk post 620-639 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275231",
+    "question": "Will Elon Musk post 640-659 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275232",
+    "question": "Will Elon Musk post 660-679 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275234",
+    "question": "Will Elon Musk post 680-699 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275236",
+    "question": "Will Elon Musk post 700-719 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1275239",
+    "question": "Will Elon Musk post 720-739 tweets from January 30 to February 6, 2026?",
+    "price": 0.0005,
+    "volume": 18060344.704532,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255800",
+    "question": "Will Elon Musk post 0-19 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255802",
+    "question": "Will Elon Musk post 20-39 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255822",
+    "question": "Will Elon Musk post 220-239 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255823",
+    "question": "Will Elon Musk post 240-259 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255820",
+    "question": "Will Elon Musk post 200-219 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255825",
+    "question": "Will Elon Musk post 260-279 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255827",
+    "question": "Will Elon Musk post 280-299 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255829",
+    "question": "Will Elon Musk post 300-319 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255831",
+    "question": "Will Elon Musk post 320-339 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255834",
+    "question": "Will Elon Musk post 340-359 tweets from January 27 to February 3, 2026?",
+    "price": 0.9995,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255836",
+    "question": "Will Elon Musk post 360-379 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255838",
+    "question": "Will Elon Musk post 380-399 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255840",
+    "question": "Will Elon Musk post 400-419 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255841",
+    "question": "Will Elon Musk post 420-439 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255843",
+    "question": "Will Elon Musk post 440-459 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255845",
+    "question": "Will Elon Musk post 460-479 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255848",
+    "question": "Will Elon Musk post 480-499 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255849",
+    "question": "Will Elon Musk post 500-519 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255852",
+    "question": "Will Elon Musk post 520-539 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255854",
+    "question": "Will Elon Musk post 540-559 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255857",
+    "question": "Will Elon Musk post 560-579 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255859",
+    "question": "Will Elon Musk post 580-599 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255861",
+    "question": "Will Elon Musk post 600-619 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255863",
+    "question": "Will Elon Musk post 620-639 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255865",
+    "question": "Will Elon Musk post 640-659 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255867",
+    "question": "Will Elon Musk post 660-679 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255868",
+    "question": "Will Elon Musk post 680-699 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255870",
+    "question": "Will Elon Musk post 700-719 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255872",
+    "question": "Will Elon Musk post 720-739 tweets from January 27 to February 3, 2026?",
+    "price": 0.0005,
+    "volume": 17590443.484554,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304184",
+    "question": "Will Elon Musk post 0-19 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304185",
+    "question": "Will Elon Musk post 20-39 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304275",
+    "question": "Will Elon Musk post 720-739 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304210",
+    "question": "Will Elon Musk post 220-239 tweets from February 3 to February 10, 2026?",
+    "price": 0.246,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304213",
+    "question": "Will Elon Musk post 240-259 tweets from February 3 to February 10, 2026?",
+    "price": 0.141,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304219",
+    "question": "Will Elon Musk post 320-339 tweets from February 3 to February 10, 2026?",
+    "price": 0.0185,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304220",
+    "question": "Will Elon Musk post 340-359 tweets from February 3 to February 10, 2026?",
+    "price": 0.0075,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304224",
+    "question": "Will Elon Musk post 360-379 tweets from February 3 to February 10, 2026?",
+    "price": 0.0045,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304228",
+    "question": "Will Elon Musk post 380-399 tweets from February 3 to February 10, 2026?",
+    "price": 0.0025,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304231",
+    "question": "Will Elon Musk post 400-419 tweets from February 3 to February 10, 2026?",
+    "price": 0.0015,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304254",
+    "question": "Will Elon Musk post 620-639 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304268",
+    "question": "Will Elon Musk post 700-719 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304205",
+    "question": "Will Elon Musk post 200-219 tweets from February 3 to February 10, 2026?",
+    "price": 0.23,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304214",
+    "question": "Will Elon Musk post 260-279 tweets from February 3 to February 10, 2026?",
+    "price": 0.101,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304216",
+    "question": "Will Elon Musk post 280-299 tweets from February 3 to February 10, 2026?",
+    "price": 0.0605,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304218",
+    "question": "Will Elon Musk post 300-319 tweets from February 3 to February 10, 2026?",
+    "price": 0.024,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304232",
+    "question": "Will Elon Musk post 420-439 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304237",
+    "question": "Will Elon Musk post 460-479 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304248",
+    "question": "Will Elon Musk post 600-619 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304239",
+    "question": "Will Elon Musk post 480-499 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304240",
+    "question": "Will Elon Musk post 500-519 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304241",
+    "question": "Will Elon Musk post 520-539 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304242",
+    "question": "Will Elon Musk post 540-559 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304243",
+    "question": "Will Elon Musk post 560-579 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304234",
+    "question": "Will Elon Musk post 440-459 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304245",
+    "question": "Will Elon Musk post 580-599 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304260",
+    "question": "Will Elon Musk post 640-659 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304261",
+    "question": "Will Elon Musk post 660-679 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1304262",
+    "question": "Will Elon Musk post 680-699 tweets from February 3 to February 10, 2026?",
+    "price": 0.0005,
+    "volume": 10758946.814136,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1308371",
+    "question": "Will Elon Musk post 190-214 tweets from February 2 to February 4, 2026?",
+    "price": 0.0005,
+    "volume": 5804188.796969,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1308374",
+    "question": "Will Elon Musk post 215-239 tweets from February 2 to February 4, 2026?",
+    "price": 0.0005,
+    "volume": 5804188.796969,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1293975",
+    "question": "Will Elon Musk post 190-214 tweets from January 31 to February 2, 2026?",
+    "price": 0.0005,
+    "volume": 4001711.562345,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1293980",
+    "question": "Will Elon Musk post 215-239 tweets from January 31 to February 2, 2026?",
+    "price": 0.0005,
+    "volume": 4001711.562345,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1320372",
+    "question": "Will Elon Musk post 190-214 tweets from February 5 to February 7, 2026?",
+    "price": 0.0005,
+    "volume": 3946677.674741,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1320375",
+    "question": "Will Elon Musk post 215-239 tweets from February 5 to February 7, 2026?",
+    "price": 0.0005,
+    "volume": 3946677.674741,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1242930",
+    "question": "Will Elon Musk post 190-214 tweets from January 24 to January 26, 2026?",
+    "price": 0.0005,
+    "volume": 3311940.557462,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1242934",
+    "question": "Will Elon Musk post 215-239 tweets from January 24 to January 26, 2026?",
+    "price": 0.0005,
+    "volume": 3311940.557462,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1259153",
+    "question": "Will Elon Musk post 190-214 tweets from January 26 to January 28, 2026?",
+    "price": 0.0005,
+    "volume": 3081134.418648,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1259156",
+    "question": "Will Elon Musk post 215-239 tweets from January 26 to January 28, 2026?",
+    "price": 0.0005,
+    "volume": 3081134.418648,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324190",
+    "question": "Will Elon Musk post 0-19 tweets from February 6 to February 13, 2026?",
+    "price": 0.0005,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324191",
+    "question": "Will Elon Musk post 20-39 tweets from February 6 to February 13, 2026?",
+    "price": 0.0005,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324210",
+    "question": "Will Elon Musk post 340-359 tweets from February 6 to February 13, 2026?",
+    "price": 0.04,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324211",
+    "question": "Will Elon Musk post 360-379 tweets from February 6 to February 13, 2026?",
+    "price": 0.024,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324213",
+    "question": "Will Elon Musk post 380-399 tweets from February 6 to February 13, 2026?",
+    "price": 0.0205,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324215",
+    "question": "Will Elon Musk post 400-419 tweets from February 6 to February 13, 2026?",
+    "price": 0.0145,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324216",
+    "question": "Will Elon Musk post 420-439 tweets from February 6 to February 13, 2026?",
+    "price": 0.009,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324217",
+    "question": "Will Elon Musk post 440-459 tweets from February 6 to February 13, 2026?",
+    "price": 0.0095,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324218",
+    "question": "Will Elon Musk post 460-479 tweets from February 6 to February 13, 2026?",
+    "price": 0.007,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324219",
+    "question": "Will Elon Musk post 480-499 tweets from February 6 to February 13, 2026?",
+    "price": 0.0045,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324206",
+    "question": "Will Elon Musk post 300-319 tweets from February 6 to February 13, 2026?",
+    "price": 0.06,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324223",
+    "question": "Will Elon Musk post 540-559 tweets from February 6 to February 13, 2026?",
+    "price": 0.004,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1324224",
+    "question": "Will Elon Musk post 560-579 tweets from February 6 to February 13, 2026?",
+    "price": 0.0015,
+    "volume": 2956093.464147,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1271904",
+    "question": "Will Elon Musk post 190-214 tweets from January 29 to January 31, 2026?",
+    "price": 0.0005,
+    "volume": 2461958.593796,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1271908",
+    "question": "Will Elon Musk post 215-239 tweets from January 29 to January 31, 2026?",
+    "price": 0.0005,
+    "volume": 2461958.593796,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255799",
+    "question": "Will Elon Musk post 0-19 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255801",
+    "question": "Will Elon Musk post 20-39 tweets in March 2026?",
+    "price": 0.0035,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255821",
+    "question": "Will Elon Musk post 200-219 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255824",
+    "question": "Will Elon Musk post 220-239 tweets in March 2026?",
+    "price": 0.0035,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255826",
+    "question": "Will Elon Musk post 240-259 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255828",
+    "question": "Will Elon Musk post 260-279 tweets in March 2026?",
+    "price": 0.0015,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255830",
+    "question": "Will Elon Musk post 280-299 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255832",
+    "question": "Will Elon Musk post 300-319 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255833",
+    "question": "Will Elon Musk post 320-339 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255835",
+    "question": "Will Elon Musk post 340-359 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255837",
+    "question": "Will Elon Musk post 360-379 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255839",
+    "question": "Will Elon Musk post 380-399 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255842",
+    "question": "Will Elon Musk post 400-419 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255844",
+    "question": "Will Elon Musk post 420-439 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255846",
+    "question": "Will Elon Musk post 440-459 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255847",
+    "question": "Will Elon Musk post 460-479 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255850",
+    "question": "Will Elon Musk post 480-499 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255851",
+    "question": "Will Elon Musk post 500-519 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255853",
+    "question": "Will Elon Musk post 520-539 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255855",
+    "question": "Will Elon Musk post 540-559 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255858",
+    "question": "Will Elon Musk post 560-579 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255860",
+    "question": "Will Elon Musk post 580-599 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255862",
+    "question": "Will Elon Musk post 600-639 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255864",
+    "question": "Will Elon Musk post 640-679 tweets in March 2026?",
+    "price": 0.0015,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255866",
+    "question": "Will Elon Musk post 680-719 tweets in March 2026?",
+    "price": 0.0025,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255869",
+    "question": "Will Elon Musk post 720-759 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255871",
+    "question": "Will Elon Musk post 760-799 tweets in March 2026?",
+    "price": 0.002,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255873",
+    "question": "Will Elon Musk post 800-839 tweets in March 2026?",
+    "price": 0.0025,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255875",
+    "question": "Will Elon Musk post 840-879 tweets in March 2026?",
+    "price": 0.0055,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255876",
+    "question": "Will Elon Musk post 880-919 tweets in March 2026?",
+    "price": 0.005,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255877",
+    "question": "Will Elon Musk post 920-959 tweets in March 2026?",
+    "price": 0.011,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255878",
+    "question": "Will Elon Musk post 960-999 tweets in March 2026?",
+    "price": 0.0485,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255879",
+    "question": "Will Elon Musk post 1000-1039 tweets in March 2026?",
+    "price": 0.0285,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255880",
+    "question": "Will Elon Musk post 1040-1079 tweets in March 2026?",
+    "price": 0.0315,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255881",
+    "question": "Will Elon Musk post 1080-1119 tweets in March 2026?",
+    "price": 0.0555,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255882",
+    "question": "Will Elon Musk post 1120-1159 tweets in March 2026?",
+    "price": 0.033,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255883",
+    "question": "Will Elon Musk post 1160-1199 tweets in March 2026?",
+    "price": 0.047,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255885",
+    "question": "Will Elon Musk post 1200-1239 tweets in March 2026?",
+    "price": 0.0465,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255889",
+    "question": "Will Elon Musk post 1240-1279 tweets in March 2026?",
+    "price": 0.034,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255891",
+    "question": "Will Elon Musk post 1280-1319 tweets in March 2026?",
+    "price": 0.0395,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255893",
+    "question": "Will Elon Musk post 1320-1359 tweets in March 2026?",
+    "price": 0.064,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1255895",
+    "question": "Will Elon Musk post 1360-1399 tweets in March 2026?",
+    "price": 0.071,
+    "volume": 508732.53982,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1340496",
+    "question": "Will Elon Musk post 190-214 tweets from February 7 to February 9, 2026?",
+    "price": 0.006,
+    "volume": 385531.429787,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1340499",
+    "question": "Will Elon Musk post 215-239 tweets from February 7 to February 9, 2026?",
+    "price": 0.003,
+    "volume": 385531.429787,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1349943",
+    "question": "Will Elon Musk post 0-19 tweets from February 10 to February 17, 2026?",
+    "price": 0.0005,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1349945",
+    "question": "Will Elon Musk post 20-39 tweets from February 10 to February 17, 2026?",
+    "price": 0.0005,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1349991",
+    "question": "Will Elon Musk post 200-219 tweets from February 10 to February 17, 2026?",
+    "price": 0.075,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1349992",
+    "question": "Will Elon Musk post 220-239 tweets from February 10 to February 17, 2026?",
+    "price": 0.1,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350000",
+    "question": "Will Elon Musk post 240-259 tweets from February 10 to February 17, 2026?",
+    "price": 0.11,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350007",
+    "question": "Will Elon Musk post 260-279 tweets from February 10 to February 17, 2026?",
+    "price": 0.11,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350010",
+    "question": "Will Elon Musk post 280-299 tweets from February 10 to February 17, 2026?",
+    "price": 0.105,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350013",
+    "question": "Will Elon Musk post 300-319 tweets from February 10 to February 17, 2026?",
+    "price": 0.085,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350015",
+    "question": "Will Elon Musk post 320-339 tweets from February 10 to February 17, 2026?",
+    "price": 0.08,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350017",
+    "question": "Will Elon Musk post 340-359 tweets from February 10 to February 17, 2026?",
+    "price": 0.06,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350024",
+    "question": "Will Elon Musk post 360-379 tweets from February 10 to February 17, 2026?",
+    "price": 0.06,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350029",
+    "question": "Will Elon Musk post 380-399 tweets from February 10 to February 17, 2026?",
+    "price": 0.0405,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350031",
+    "question": "Will Elon Musk post 400-419 tweets from February 10 to February 17, 2026?",
+    "price": 0.0335,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350037",
+    "question": "Will Elon Musk post 420-439 tweets from February 10 to February 17, 2026?",
+    "price": 0.0205,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350045",
+    "question": "Will Elon Musk post 440-459 tweets from February 10 to February 17, 2026?",
+    "price": 0.0185,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350048",
+    "question": "Will Elon Musk post 460-479 tweets from February 10 to February 17, 2026?",
+    "price": 0.011,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350049",
+    "question": "Will Elon Musk post 480-499 tweets from February 10 to February 17, 2026?",
+    "price": 0.008,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350057",
+    "question": "Will Elon Musk post 500-519 tweets from February 10 to February 17, 2026?",
+    "price": 0.0075,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350063",
+    "question": "Will Elon Musk post 520-539 tweets from February 10 to February 17, 2026?",
+    "price": 0.0055,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350066",
+    "question": "Will Elon Musk post 540-559 tweets from February 10 to February 17, 2026?",
+    "price": 0.0055,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1350067",
+    "question": "Will Elon Musk post 560-579 tweets from February 10 to February 17, 2026?",
+    "price": 0.004,
+    "volume": 340146.815595,
+    "strategy": "MUSK_FADE_EXTREMES",
+    "expected_win": 97.1,
+    "edge": 47.1
+  },
+  {
+    "market_id": "1270654",
+    "question": "Will the highest temperature in London be 8\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 608539.816722,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270652",
+    "question": "Will the highest temperature in London be 6\u00b0C or below on January 28?",
+    "price": 0.0005,
+    "volume": 608539.816722,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270653",
+    "question": "Will the highest temperature in London be 7\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 608539.816722,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270655",
+    "question": "Will the highest temperature in London be 9\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 608539.816722,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270657",
+    "question": "Will the highest temperature in London be 11\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 608539.816722,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270658",
+    "question": "Will the highest temperature in London be 12\u00b0C or higher on January 28?",
+    "price": 0.0005,
+    "volume": 608539.816722,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312687",
+    "question": "Will the highest temperature in New York City be 29\u00b0F or below on February 3?",
+    "price": 0.0005,
+    "volume": 321962.401555,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312688",
+    "question": "Will the highest temperature in New York City be between 30-31\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 321962.401555,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312690",
+    "question": "Will the highest temperature in New York City be between 34-35\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 321962.401555,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312691",
+    "question": "Will the highest temperature in New York City be between 36-37\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 321962.401555,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312692",
+    "question": "Will the highest temperature in New York City be between 38-39\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 321962.401555,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312693",
+    "question": "Will the highest temperature in New York City be 40\u00b0F or higher on February 3?",
+    "price": 0.0005,
+    "volume": 321962.401555,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332444",
+    "question": "Will the highest temperature in London be 7\u00b0C or below on February 6?",
+    "price": 0.0005,
+    "volume": 302716.425343,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332445",
+    "question": "Will the highest temperature in London be 8\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 302716.425343,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332446",
+    "question": "Will the highest temperature in London be 9\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 302716.425343,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332447",
+    "question": "Will the highest temperature in London be 10\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 302716.425343,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332448",
+    "question": "Will the highest temperature in London be 11\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 302716.425343,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332450",
+    "question": "Will the highest temperature in London be 13\u00b0C or higher on February 6?",
+    "price": 0.0005,
+    "volume": 302716.425343,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282027",
+    "question": "Will the highest temperature in London be 6\u00b0C or below on January 30?",
+    "price": 0.0005,
+    "volume": 283137.443753,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282028",
+    "question": "Will the highest temperature in London be 7\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 283137.443753,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282029",
+    "question": "Will the highest temperature in London be 8\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 283137.443753,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282030",
+    "question": "Will the highest temperature in London be 9\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 283137.443753,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282031",
+    "question": "Will the highest temperature in London be 10\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 283137.443753,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282033",
+    "question": "Will the highest temperature in London be 12\u00b0C or higher on January 30?",
+    "price": 0.0005,
+    "volume": 283137.443753,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264779",
+    "question": "Will the highest temperature in London be 3\u00b0C or below on January 27?",
+    "price": 0.0005,
+    "volume": 273555.681018,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264780",
+    "question": "Will the highest temperature in London be 4\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 273555.681018,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264781",
+    "question": "Will the highest temperature in London be 5\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 273555.681018,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264782",
+    "question": "Will the highest temperature in London be 6\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 273555.681018,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264784",
+    "question": "Will the highest temperature in London be 7\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 273555.681018,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264785",
+    "question": "Will the highest temperature in London be 8\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 273555.681018,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264841",
+    "question": "Will the highest temperature in New York City be 15\u00b0F or below on January 27?",
+    "price": 0.0005,
+    "volume": 267361.931551,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264842",
+    "question": "Will the highest temperature in New York City be between 16-17\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 267361.931551,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264843",
+    "question": "Will the highest temperature in New York City be between 18-19\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 267361.931551,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264844",
+    "question": "Will the highest temperature in New York City be between 20-21\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 267361.931551,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264846",
+    "question": "Will the highest temperature in New York City be between 24-25\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 267361.931551,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264847",
+    "question": "Will the highest temperature in New York City be 26\u00b0F or higher on January 27?",
+    "price": 0.0005,
+    "volume": 267361.931551,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318572",
+    "question": "Will the highest temperature in London be 8\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 260162.221919,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318573",
+    "question": "Will the highest temperature in London be 9\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 260162.221919,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318571",
+    "question": "Will the highest temperature in London be 7\u00b0C or below on February 4?",
+    "price": 0.0005,
+    "volume": 260162.221919,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318575",
+    "question": "Will the highest temperature in London be 11\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 260162.221919,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318576",
+    "question": "Will the highest temperature in London be 12\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 260162.221919,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318577",
+    "question": "Will the highest temperature in London be 13\u00b0C or higher on February 4?",
+    "price": 0.0005,
+    "volume": 260162.221919,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240902",
+    "question": "Will the highest temperature in London be 5\u00b0C or below on January 24?",
+    "price": 0.0005,
+    "volume": 258446.914525,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240903",
+    "question": "Will the highest temperature in London be 6\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 258446.914525,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240904",
+    "question": "Will the highest temperature in London be 7\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 258446.914525,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240905",
+    "question": "Will the highest temperature in London be 8\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 258446.914525,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240906",
+    "question": "Will the highest temperature in London be 9\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 258446.914525,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240908",
+    "question": "Will the highest temperature in London be 11\u00b0C or higher on January 24?",
+    "price": 0.0005,
+    "volume": 258446.914525,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309571",
+    "question": "Will the highest temperature in London be 5\u00b0C or below on February 2?",
+    "price": 0.0005,
+    "volume": 256014.134407,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309572",
+    "question": "Will the highest temperature in London be 6\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 256014.134407,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309576",
+    "question": "Will the highest temperature in London be 10\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 256014.134407,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309573",
+    "question": "Will the highest temperature in London be 7\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 256014.134407,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309575",
+    "question": "Will the highest temperature in London be 9\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 256014.134407,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309577",
+    "question": "Will the highest temperature in London be 11\u00b0C or higher on February 2?",
+    "price": 0.0005,
+    "volume": 256014.134407,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291793",
+    "question": "Will the highest temperature in New York City be 17\u00b0F or below on January 31?",
+    "price": 0.0005,
+    "volume": 254572.97421,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291794",
+    "question": "Will the highest temperature in New York City be between 18-19\u00b0F on January 31?",
+    "price": 0.0005,
+    "volume": 254572.97421,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291795",
+    "question": "Will the highest temperature in New York City be between 20-21\u00b0F on January 31?",
+    "price": 0.0005,
+    "volume": 254572.97421,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291796",
+    "question": "Will the highest temperature in New York City be between 22-23\u00b0F on January 31?",
+    "price": 0.0005,
+    "volume": 254572.97421,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291798",
+    "question": "Will the highest temperature in New York City be between 26-27\u00b0F on January 31?",
+    "price": 0.0005,
+    "volume": 254572.97421,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291799",
+    "question": "Will the highest temperature in New York City be 28\u00b0F or higher on January 31?",
+    "price": 0.0005,
+    "volume": 254572.97421,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332504",
+    "question": "Will the highest temperature in Miami be 59\u00b0F or below on February 6?",
+    "price": 0.0005,
+    "volume": 247413.528127,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332505",
+    "question": "Will the highest temperature in Miami be between 60-61\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 247413.528127,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332506",
+    "question": "Will the highest temperature in Miami be between 62-63\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 247413.528127,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332507",
+    "question": "Will the highest temperature in Miami be between 64-65\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 247413.528127,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332509",
+    "question": "Will the highest temperature in Miami be between 68-69\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 247413.528127,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332510",
+    "question": "Will the highest temperature in Miami be 70\u00b0F or higher on February 6?",
+    "price": 0.0005,
+    "volume": 247413.528127,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248331",
+    "question": "Will the highest temperature in London be 5\u00b0C or below on January 25?",
+    "price": 0.0005,
+    "volume": 243897.355278,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248332",
+    "question": "Will the highest temperature in London be 6\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 243897.355278,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248333",
+    "question": "Will the highest temperature in London be 7\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 243897.355278,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248336",
+    "question": "Will the highest temperature in London be 9\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 243897.355278,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248337",
+    "question": "Will the highest temperature in London be 10\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 243897.355278,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248338",
+    "question": "Will the highest temperature in London be 11\u00b0C or higher on January 25?",
+    "price": 0.0005,
+    "volume": 243897.355278,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276565",
+    "question": "Will the highest temperature in Seoul be -6\u00b0C or below on January 29?",
+    "price": 0.0005,
+    "volume": 237081.068984,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276566",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 237081.068984,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276567",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 237081.068984,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276568",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 237081.068984,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276569",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 237081.068984,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276571",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C or higher on January 29?",
+    "price": 0.0005,
+    "volume": 237081.068984,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276518",
+    "question": "Will the highest temperature in London be 4\u00b0C or below on January 29?",
+    "price": 0.0005,
+    "volume": 235976.217026,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276519",
+    "question": "Will the highest temperature in London be 5\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 235976.217026,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276520",
+    "question": "Will the highest temperature in London be 6\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 235976.217026,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276523",
+    "question": "Will the highest temperature in London be 8\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 235976.217026,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276525",
+    "question": "Will the highest temperature in London be 9\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 235976.217026,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276527",
+    "question": "Will the highest temperature in London be 10\u00b0C or higher on January 29?",
+    "price": 0.0005,
+    "volume": 235976.217026,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325385",
+    "question": "Will the highest temperature in London be 6\u00b0C or below on February 5?",
+    "price": 0.0005,
+    "volume": 230811.3921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325386",
+    "question": "Will the highest temperature in London be 7\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 230811.3921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325395",
+    "question": "Will the highest temperature in London be 12\u00b0C or higher on February 5?",
+    "price": 0.0005,
+    "volume": 230811.3921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325390",
+    "question": "Will the highest temperature in London be 10\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 230811.3921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325392",
+    "question": "Will the highest temperature in London be 11\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 230811.3921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325389",
+    "question": "Will the highest temperature in London be 9\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 230811.3921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291755",
+    "question": "Will the highest temperature in London be 5\u00b0C or below on January 31?",
+    "price": 0.0005,
+    "volume": 220914.738178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291756",
+    "question": "Will the highest temperature in London be 6\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 220914.738178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291757",
+    "question": "Will the highest temperature in London be 7\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 220914.738178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291758",
+    "question": "Will the highest temperature in London be 8\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 220914.738178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291759",
+    "question": "Will the highest temperature in London be 9\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 220914.738178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291760",
+    "question": "Will the highest temperature in London be 10\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 220914.738178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312592",
+    "question": "Will the highest temperature in London be 4\u00b0C or below on February 3?",
+    "price": 0.0005,
+    "volume": 219487.136603,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312593",
+    "question": "Will the highest temperature in London be 5\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 219487.136603,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312594",
+    "question": "Will the highest temperature in London be 6\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 219487.136603,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312598",
+    "question": "Will the highest temperature in London be 9\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 219487.136603,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312596",
+    "question": "Will the highest temperature in London be 8\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 219487.136603,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312600",
+    "question": "Will the highest temperature in London be 10\u00b0C or higher on February 3?",
+    "price": 0.0005,
+    "volume": 219487.136603,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257538",
+    "question": "Will the highest temperature in New York City be 25\u00b0F or below on January 26?",
+    "price": 0.0005,
+    "volume": 207843.395019,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257540",
+    "question": "Will the highest temperature in New York City be between 28-29\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 207843.395019,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257541",
+    "question": "Will the highest temperature in New York City be between 30-31\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 207843.395019,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257542",
+    "question": "Will the highest temperature in New York City be between 32-33\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 207843.395019,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257543",
+    "question": "Will the highest temperature in New York City be between 34-35\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 207843.395019,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257544",
+    "question": "Will the highest temperature in New York City be 36\u00b0F or higher on January 26?",
+    "price": 0.0005,
+    "volume": 207843.395019,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264820",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C or below on January 27?",
+    "price": 0.0005,
+    "volume": 207129.507186,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264821",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 207129.507186,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264822",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 207129.507186,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264823",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 207129.507186,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264825",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 207129.507186,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264826",
+    "question": "Will the highest temperature in Seoul be 1\u00b0C or higher on January 27?",
+    "price": 0.0005,
+    "volume": 207129.507186,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282065",
+    "question": "Will the highest temperature in New York City be 9\u00b0F or below on January 30?",
+    "price": 0.0005,
+    "volume": 205866.048392,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282066",
+    "question": "Will the highest temperature in New York City be between 10-11\u00b0F on January 30?",
+    "price": 0.0005,
+    "volume": 205866.048392,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282067",
+    "question": "Will the highest temperature in New York City be between 12-13\u00b0F on January 30?",
+    "price": 0.0005,
+    "volume": 205866.048392,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282068",
+    "question": "Will the highest temperature in New York City be between 14-15\u00b0F on January 30?",
+    "price": 0.0005,
+    "volume": 205866.048392,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282069",
+    "question": "Will the highest temperature in New York City be between 16-17\u00b0F on January 30?",
+    "price": 0.0005,
+    "volume": 205866.048392,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282071",
+    "question": "Will the highest temperature in New York City be 20\u00b0F or higher on January 30?",
+    "price": 0.0005,
+    "volume": 205866.048392,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257516",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C or below on January 26?",
+    "price": 0.0005,
+    "volume": 203063.695286,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257517",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 203063.695286,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257518",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 203063.695286,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257519",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 203063.695286,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257521",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 203063.695286,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257522",
+    "question": "Will the highest temperature in Seoul be 1\u00b0C or higher on January 26?",
+    "price": 0.0005,
+    "volume": 203063.695286,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291776",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 199748.768735,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291777",
+    "question": "Will the highest temperature in Seoul be 1\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 199748.768735,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291778",
+    "question": "Will the highest temperature in Seoul be 2\u00b0C or higher on January 31?",
+    "price": 0.0005,
+    "volume": 199748.768735,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291772",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C or below on January 31?",
+    "price": 0.0005,
+    "volume": 199748.768735,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291773",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 199748.768735,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1291774",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C on January 31?",
+    "price": 0.0005,
+    "volume": 199748.768735,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332487",
+    "question": "Will the highest temperature in New York City be between 30-31\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 194128.121649,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332489",
+    "question": "Will the highest temperature in New York City be 34\u00b0F or higher on February 6?",
+    "price": 0.0005,
+    "volume": 194128.121649,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332483",
+    "question": "Will the highest temperature in New York City be 23\u00b0F or below on February 6?",
+    "price": 0.0005,
+    "volume": 194128.121649,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332484",
+    "question": "Will the highest temperature in New York City be between 24-25\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 194128.121649,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332485",
+    "question": "Will the highest temperature in New York City be between 26-27\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 194128.121649,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332486",
+    "question": "Will the highest temperature in New York City be between 28-29\u00b0F on February 6?",
+    "price": 0.0005,
+    "volume": 194128.121649,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257495",
+    "question": "Will the highest temperature in London be 4\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 190488.721568,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257497",
+    "question": "Will the highest temperature in London be 5\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 190488.721568,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257500",
+    "question": "Will the highest temperature in London be 8\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 190488.721568,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257494",
+    "question": "Will the highest temperature in London be 3\u00b0C or below on January 26?",
+    "price": 0.0005,
+    "volume": 190488.721568,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257499",
+    "question": "Will the highest temperature in London be 7\u00b0C on January 26?",
+    "price": 0.0005,
+    "volume": 190488.721568,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257501",
+    "question": "Will the highest temperature in London be 9\u00b0C or higher on January 26?",
+    "price": 0.0005,
+    "volume": 190488.721568,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240919",
+    "question": "Will the highest temperature in Seoul be -6\u00b0C or below on January 24?",
+    "price": 0.0005,
+    "volume": 188727.53326,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240920",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 188727.53326,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240921",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 188727.53326,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240922",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 188727.53326,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240924",
+    "question": "Will the highest temperature in Seoul be -1\u00b0C on January 24?",
+    "price": 0.0005,
+    "volume": 188727.53326,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240925",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C or higher on January 24?",
+    "price": 0.0005,
+    "volume": 188727.53326,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318631",
+    "question": "Will the highest temperature in New York City be 31\u00b0F or below on February 4?",
+    "price": 0.0005,
+    "volume": 188309.108178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318633",
+    "question": "Will the highest temperature in New York City be between 34-35\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 188309.108178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318634",
+    "question": "Will the highest temperature in New York City be between 36-37\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 188309.108178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318635",
+    "question": "Will the highest temperature in New York City be between 38-39\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 188309.108178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318636",
+    "question": "Will the highest temperature in New York City be between 40-41\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 188309.108178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318637",
+    "question": "Will the highest temperature in New York City be 42\u00b0F or higher on February 4?",
+    "price": 0.0005,
+    "volume": 188309.108178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248379",
+    "question": "Will the highest temperature in New York City be 11\u00b0F or below on January 25?",
+    "price": 0.0005,
+    "volume": 185819.286069,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248380",
+    "question": "Will the highest temperature in New York City be between 12-13\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 185819.286069,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248381",
+    "question": "Will the highest temperature in New York City be between 14-15\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 185819.286069,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248382",
+    "question": "Will the highest temperature in New York City be between 16-17\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 185819.286069,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248383",
+    "question": "Will the highest temperature in New York City be between 18-19\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 185819.286069,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248384",
+    "question": "Will the highest temperature in New York City be between 20-21\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 185819.286069,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309751",
+    "question": "Will the highest temperature in New York City be 22-23\u00b0F on February 1?",
+    "price": 0.0005,
+    "volume": 183255.458226,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309749",
+    "question": "Will the highest temperature in New York City be 19\u00b0F or below on February 1?",
+    "price": 0.0005,
+    "volume": 183255.458226,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309754",
+    "question": "Will the highest temperature in New York City be 28-29\u00b0F on February 1?",
+    "price": 0.0005,
+    "volume": 183255.458226,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309750",
+    "question": "Will the highest temperature in New York City be 20-21\u00b0F on February 1?",
+    "price": 0.0005,
+    "volume": 183255.458226,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309753",
+    "question": "Will the highest temperature in New York City be 26-27\u00b0F on February 1?",
+    "price": 0.0005,
+    "volume": 183255.458226,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309755",
+    "question": "Will the highest temperature in New York City be 30\u00b0F or higher on February 1?",
+    "price": 0.0005,
+    "volume": 183255.458226,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338920",
+    "question": "Will the highest temperature in London be 7\u00b0C or below on February 7?",
+    "price": 0.0005,
+    "volume": 181039.132595,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338921",
+    "question": "Will the highest temperature in London be 8\u00b0C on February 7?",
+    "price": 0.0005,
+    "volume": 181039.132595,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338922",
+    "question": "Will the highest temperature in London be 9\u00b0C on February 7?",
+    "price": 0.0005,
+    "volume": 181039.132595,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338923",
+    "question": "Will the highest temperature in London be 10\u00b0C on February 7?",
+    "price": 0.0005,
+    "volume": 181039.132595,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338926",
+    "question": "Will the highest temperature in London be 12\u00b0C on February 7?",
+    "price": 0.0015,
+    "volume": 181039.132595,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338927",
+    "question": "Will the highest temperature in London be 13\u00b0C or higher on February 7?",
+    "price": 0.0005,
+    "volume": 181039.132595,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270722",
+    "question": "Will the highest temperature in Dallas be 29\u00b0F or below on January 28?",
+    "price": 0.0005,
+    "volume": 178436.496544,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270723",
+    "question": "Will the highest temperature in Dallas be between 30-31\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 178436.496544,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270724",
+    "question": "Will the highest temperature in Dallas be between 32-33\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 178436.496544,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270725",
+    "question": "Will the highest temperature in Dallas be between 34-35\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 178436.496544,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270726",
+    "question": "Will the highest temperature in Dallas be between 36-37\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 178436.496544,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270727",
+    "question": "Will the highest temperature in Dallas be between 38-39\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 178436.496544,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332463",
+    "question": "Will the highest temperature in Seoul be -7\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 177865.009497,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332465",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 177865.009497,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332462",
+    "question": "Will the highest temperature in Seoul be -8\u00b0C or below on February 6?",
+    "price": 0.0005,
+    "volume": 177865.009497,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332464",
+    "question": "Will the highest temperature in Seoul be -6\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 177865.009497,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332467",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C on February 6?",
+    "price": 0.0005,
+    "volume": 177865.009497,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1332468",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C or higher on February 6?",
+    "price": 0.0005,
+    "volume": 177865.009497,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309760",
+    "question": "Will the highest temperature in New York City be 28\u00b0F or below on February 2?",
+    "price": 0.0005,
+    "volume": 175433.379942,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309763",
+    "question": "Will the highest temperature in New York City be 33-34\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 175433.379942,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309765",
+    "question": "Will the highest temperature in New York City be 37-38\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 175433.379942,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309761",
+    "question": "Will the highest temperature in New York City be 29-30\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 175433.379942,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309766",
+    "question": "Will the highest temperature in New York City be 39\u00b0F or higher on February 2?",
+    "price": 0.0005,
+    "volume": 175433.379942,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309762",
+    "question": "Will the highest temperature in New York City be 31-32\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 175433.379942,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240941",
+    "question": "Will the highest temperature in New York City be 15\u00b0F or below on January 24?",
+    "price": 0.0005,
+    "volume": 173984.108253,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240942",
+    "question": "Will the highest temperature in New York City be between 16-17\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 173984.108253,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240944",
+    "question": "Will the highest temperature in New York City be between 20-21\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 173984.108253,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240945",
+    "question": "Will the highest temperature in New York City be between 22-23\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 173984.108253,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240946",
+    "question": "Will the highest temperature in New York City be between 24-25\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 173984.108253,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240947",
+    "question": "Will the highest temperature in New York City be 26\u00b0F or higher on January 24?",
+    "price": 0.0005,
+    "volume": 173984.108253,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1298400",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C or below on February 1?",
+    "price": 0.0005,
+    "volume": 166922.144892,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1298404",
+    "question": "Will the highest temperature in Seoul be 2\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 166922.144892,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1298406",
+    "question": "Will the highest temperature in Seoul be 3\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 166922.144892,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1298408",
+    "question": "Will the highest temperature in Seoul be 4\u00b0C or higher on February 1?",
+    "price": 0.0005,
+    "volume": 166922.144892,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1298401",
+    "question": "Will the highest temperature in Seoul be -1\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 166922.144892,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1298403",
+    "question": "Will the highest temperature in Seoul be 1\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 166922.144892,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338969",
+    "question": "Will the highest temperature in New York City be 15\u00b0F or below on February 7?",
+    "price": 0.0005,
+    "volume": 165722.296585,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338971",
+    "question": "Will the highest temperature in New York City be between 18-19\u00b0F on February 7?",
+    "price": 0.0005,
+    "volume": 165722.296585,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338973",
+    "question": "Will the highest temperature in New York City be between 22-23\u00b0F on February 7?",
+    "price": 0.0005,
+    "volume": 165722.296585,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338974",
+    "question": "Will the highest temperature in New York City be between 24-25\u00b0F on February 7?",
+    "price": 0.0005,
+    "volume": 165722.296585,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270736",
+    "question": "Will the highest temperature in Miami be 57\u00b0F or below on January 28?",
+    "price": 0.0005,
+    "volume": 164920.580904,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270737",
+    "question": "Will the highest temperature in Miami be between 58-59\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 164920.580904,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270738",
+    "question": "Will the highest temperature in Miami be between 60-61\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 164920.580904,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270740",
+    "question": "Will the highest temperature in Miami be between 64-65\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 164920.580904,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270741",
+    "question": "Will the highest temperature in Miami be between 66-67\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 164920.580904,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270742",
+    "question": "Will the highest temperature in Miami be 68\u00b0F or higher on January 28?",
+    "price": 0.0005,
+    "volume": 164920.580904,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282044",
+    "question": "Will the highest temperature in Seoul be -7\u00b0C or below on January 30?",
+    "price": 0.0005,
+    "volume": 164835.039394,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282045",
+    "question": "Will the highest temperature in Seoul be -6\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 164835.039394,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282046",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 164835.039394,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282047",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 164835.039394,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282049",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 164835.039394,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282050",
+    "question": "Will the highest temperature in Seoul be -1\u00b0C or higher on January 30?",
+    "price": 0.0005,
+    "volume": 164835.039394,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338949",
+    "question": "Will the highest temperature in Seoul be -7\u00b0C on February 7?",
+    "price": 0.0005,
+    "volume": 159235.858056,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1243556",
+    "question": "Will Ryanair say \"Weather\" during earnings call?",
+    "price": 0.0005,
+    "volume": 150867.775487,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270687",
+    "question": "Will the highest temperature in Seoul be -6\u00b0C or below on January 28?",
+    "price": 0.0005,
+    "volume": 149599.729958,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270689",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 149599.729958,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270691",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 149599.729958,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270692",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 149599.729958,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270694",
+    "question": "Will the highest temperature in Seoul be -1\u00b0C on January 28?",
+    "price": 0.0005,
+    "volume": 149599.729958,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270695",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C or higher on January 28?",
+    "price": 0.0005,
+    "volume": 149599.729958,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276586",
+    "question": "Will the highest temperature in New York City be 17\u00b0F or below on January 29?",
+    "price": 0.0005,
+    "volume": 148602.840363,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276587",
+    "question": "Will the highest temperature in New York City be between 18-19\u00b0F on January 29?",
+    "price": 0.0005,
+    "volume": 148602.840363,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276588",
+    "question": "Will the highest temperature in New York City be between 20-21\u00b0F on January 29?",
+    "price": 0.0005,
+    "volume": 148602.840363,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276589",
+    "question": "Will the highest temperature in New York City be between 22-23\u00b0F on January 29?",
+    "price": 0.0005,
+    "volume": 148602.840363,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276591",
+    "question": "Will the highest temperature in New York City be between 26-27\u00b0F on January 29?",
+    "price": 0.0005,
+    "volume": 148602.840363,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276592",
+    "question": "Will the highest temperature in New York City be 28\u00b0F or higher on January 29?",
+    "price": 0.0005,
+    "volume": 148602.840363,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306515",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 146752.31025,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306519",
+    "question": "Will the highest temperature in Seoul be 1\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 146752.31025,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306514",
+    "question": "Will the highest temperature in Seoul be -3\u00b0C or below on February 2?",
+    "price": 0.0005,
+    "volume": 146752.31025,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306516",
+    "question": "Will the highest temperature in Seoul be -1\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 146752.31025,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306521",
+    "question": "Will the highest temperature in Seoul be 2\u00b0C on February 2?",
+    "price": 0.0005,
+    "volume": 146752.31025,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306522",
+    "question": "Will the highest temperature in Seoul be 3\u00b0C or higher on February 2?",
+    "price": 0.0005,
+    "volume": 146752.31025,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325429",
+    "question": "Will the highest temperature in New York City be 23\u00b0F or below on February 5?",
+    "price": 0.0005,
+    "volume": 145174.069152,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325430",
+    "question": "Will the highest temperature in New York City be between 24-25\u00b0F on February 5?",
+    "price": 0.0005,
+    "volume": 145174.069152,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325431",
+    "question": "Will the highest temperature in New York City be between 26-27\u00b0F on February 5?",
+    "price": 0.0005,
+    "volume": 145174.069152,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325432",
+    "question": "Will the highest temperature in New York City be between 28-29\u00b0F on February 5?",
+    "price": 0.0005,
+    "volume": 145174.069152,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325433",
+    "question": "Will the highest temperature in New York City be between 30-31\u00b0F on February 5?",
+    "price": 0.0005,
+    "volume": 145174.069152,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325435",
+    "question": "Will the highest temperature in New York City be 34\u00b0F or higher on February 5?",
+    "price": 0.0005,
+    "volume": 145174.069152,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248357",
+    "question": "Will the highest temperature in Seoul be -6\u00b0C or below on January 25?",
+    "price": 0.0005,
+    "volume": 136789.666045,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248358",
+    "question": "Will the highest temperature in Seoul be -5\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 136789.666045,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248359",
+    "question": "Will the highest temperature in Seoul be -4\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 136789.666045,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248361",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 136789.666045,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248362",
+    "question": "Will the highest temperature in Seoul be -1\u00b0C on January 25?",
+    "price": 0.0005,
+    "volume": 136789.666045,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248363",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C or higher on January 25?",
+    "price": 0.0005,
+    "volume": 136789.666045,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318603",
+    "question": "Will the highest temperature in Seoul be 1\u00b0C or below on February 4?",
+    "price": 0.0005,
+    "volume": 136721.465261,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318605",
+    "question": "Will the highest temperature in Seoul be 2\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 136721.465261,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318606",
+    "question": "Will the highest temperature in Seoul be 3\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 136721.465261,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318608",
+    "question": "Will the highest temperature in Seoul be 4\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 136721.465261,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318609",
+    "question": "Will the highest temperature in Seoul be 5\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 136721.465261,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318610",
+    "question": "Will the highest temperature in Seoul be 6\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 136721.465261,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338939",
+    "question": "Will the highest temperature in Buenos Aires be 35\u00b0C on February 7?",
+    "price": 0.0535,
+    "volume": 132174.178178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338940",
+    "question": "Will the highest temperature in Buenos Aires be 36\u00b0C on February 7?",
+    "price": 0.003,
+    "volume": 132174.178178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338942",
+    "question": "Will the highest temperature in Buenos Aires be 37\u00b0C on February 7?",
+    "price": 0.0005,
+    "volume": 132174.178178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1338944",
+    "question": "Will the highest temperature in Buenos Aires be 38\u00b0C or higher on February 7?",
+    "price": 0.0005,
+    "volume": 132174.178178,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306552",
+    "question": "Will the highest temperature in Dallas be between 52-53\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 131882.146521,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306554",
+    "question": "Will the highest temperature in Dallas be between 56-57\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 131882.146521,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306551",
+    "question": "Will the highest temperature in Dallas be 51\u00b0F or below on February 2?",
+    "price": 0.0005,
+    "volume": 131882.146521,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306553",
+    "question": "Will the highest temperature in Dallas be between 54-55\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 131882.146521,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306555",
+    "question": "Will the highest temperature in Dallas be between 58-59\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 131882.146521,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1306556",
+    "question": "Will the highest temperature in Dallas be between 60-61\u00b0F on February 2?",
+    "price": 0.0005,
+    "volume": 131882.146521,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248394",
+    "question": "Will the highest temperature in Atlanta be 31\u00b0F or below on January 25?",
+    "price": 0.0005,
+    "volume": 127429.776347,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248395",
+    "question": "Will the highest temperature in Atlanta be between 32-33\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 127429.776347,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248396",
+    "question": "Will the highest temperature in Atlanta be between 34-35\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 127429.776347,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248397",
+    "question": "Will the highest temperature in Atlanta be between 36-37\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 127429.776347,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248399",
+    "question": "Will the highest temperature in Atlanta be between 40-41\u00b0F on January 25?",
+    "price": 0.0005,
+    "volume": 127429.776347,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1248400",
+    "question": "Will the highest temperature in Atlanta be 42\u00b0F or higher on January 25?",
+    "price": 0.0005,
+    "volume": 127429.776347,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325413",
+    "question": "Will the highest temperature in Seoul be 7\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 126592.786149,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325408",
+    "question": "Will the highest temperature in Seoul be 2\u00b0C or below on February 5?",
+    "price": 0.0005,
+    "volume": 126592.786149,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325409",
+    "question": "Will the highest temperature in Seoul be 3\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 126592.786149,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325410",
+    "question": "Will the highest temperature in Seoul be 4\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 126592.786149,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325412",
+    "question": "Will the highest temperature in Seoul be 6\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 126592.786149,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1325411",
+    "question": "Will the highest temperature in Seoul be 5\u00b0C on February 5?",
+    "price": 0.0005,
+    "volume": 126592.786149,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312649",
+    "question": "Will the highest temperature in Seoul be 2\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 122969.153132,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312651",
+    "question": "Will the highest temperature in Seoul be 4\u00b0C or higher on February 3?",
+    "price": 0.0005,
+    "volume": 122969.153132,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312642",
+    "question": "Will the highest temperature in Seoul be -2\u00b0C or below on February 3?",
+    "price": 0.0005,
+    "volume": 122969.153132,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312644",
+    "question": "Will the highest temperature in Seoul be -1\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 122969.153132,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312646",
+    "question": "Will the highest temperature in Seoul be 0\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 122969.153132,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312647",
+    "question": "Will the highest temperature in Seoul be 1\u00b0C on February 3?",
+    "price": 0.0005,
+    "volume": 122969.153132,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309564",
+    "question": "Will the highest temperature in London be 6\u00b0C or below on February 1?",
+    "price": 0.0005,
+    "volume": 122290.062652,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309566",
+    "question": "Will the highest temperature in London be 8\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 122290.062652,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309569",
+    "question": "Will the highest temperature in London be 11\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 122290.062652,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309565",
+    "question": "Will the highest temperature in London be 7\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 122290.062652,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309568",
+    "question": "Will the highest temperature in London be 10\u00b0C on February 1?",
+    "price": 0.0005,
+    "volume": 122290.062652,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1309570",
+    "question": "Will the highest temperature in London be 12\u00b0C or higher on February 1?",
+    "price": 0.0005,
+    "volume": 122290.062652,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1299160",
+    "question": "Will global temperature increase by between 1.15\u00baC and 1.19\u00baC in February 2026?",
+    "price": 0.105,
+    "volume": 118839.195808,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1299158",
+    "question": "Will global temperature increase by between 1.05\u00baC and 1.09\u00baC in February 2026?",
+    "price": 0.0455,
+    "volume": 118839.195808,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1299159",
+    "question": "Will global temperature increase by between 1.10\u00baC and 1.14\u00baC in February 2026?",
+    "price": 0.035,
+    "volume": 118839.195808,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1299157",
+    "question": "Will global temperature increase by less than 1.05\u00baC in February 2026?",
+    "price": 0.0125,
+    "volume": 118839.195808,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1299161",
+    "question": "Will global temperature increase by between 1.20\u00baC and 1.24\u00baC in February 2026?",
+    "price": 0.25,
+    "volume": 118839.195808,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312701",
+    "question": "Will the highest temperature in Atlanta be 45\u00b0F or below on February 3?",
+    "price": 0.0005,
+    "volume": 114784.189782,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312702",
+    "question": "Will the highest temperature in Atlanta be between 46-47\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 114784.189782,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312703",
+    "question": "Will the highest temperature in Atlanta be between 48-49\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 114784.189782,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312704",
+    "question": "Will the highest temperature in Atlanta be between 50-51\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 114784.189782,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312705",
+    "question": "Will the highest temperature in Atlanta be between 52-53\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 114784.189782,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312706",
+    "question": "Will the highest temperature in Atlanta be between 54-55\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 114784.189782,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264799",
+    "question": "Will the highest temperature in Buenos Aires be 36\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 113391.925038,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264800",
+    "question": "Will the highest temperature in Buenos Aires be 37\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 113391.925038,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264801",
+    "question": "Will the highest temperature in Buenos Aires be 38\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 113391.925038,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264802",
+    "question": "Will the highest temperature in Buenos Aires be 39\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 113391.925038,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264803",
+    "question": "Will the highest temperature in Buenos Aires be 40\u00b0C on January 27?",
+    "price": 0.0005,
+    "volume": 113391.925038,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264804",
+    "question": "Will the highest temperature in Buenos Aires be 41\u00b0C or higher on January 27?",
+    "price": 0.0005,
+    "volume": 113391.925038,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318593",
+    "question": "Will the highest temperature in Buenos Aires be 36\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 110676.65873,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318589",
+    "question": "Will the highest temperature in Buenos Aires be 32\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 110676.65873,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318590",
+    "question": "Will the highest temperature in Buenos Aires be 33\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 110676.65873,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318591",
+    "question": "Will the highest temperature in Buenos Aires be 34\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 110676.65873,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318592",
+    "question": "Will the highest temperature in Buenos Aires be 35\u00b0C on February 4?",
+    "price": 0.0005,
+    "volume": 110676.65873,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318595",
+    "question": "Will the highest temperature in Buenos Aires be 37\u00b0C or higher on February 4?",
+    "price": 0.0005,
+    "volume": 110676.65873,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240948",
+    "question": "Will the highest temperature in Dallas be 27\u00b0F or below on January 24?",
+    "price": 0.0005,
+    "volume": 108437.753601,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240949",
+    "question": "Will the highest temperature in Dallas be between 28-29\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 108437.753601,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240950",
+    "question": "Will the highest temperature in Dallas be between 30-31\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 108437.753601,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240952",
+    "question": "Will the highest temperature in Dallas be between 34-35\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 108437.753601,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240953",
+    "question": "Will the highest temperature in Dallas be between 36-37\u00b0F on January 24?",
+    "price": 0.0005,
+    "volume": 108437.753601,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1240954",
+    "question": "Will the highest temperature in Dallas be 38\u00b0F or higher on January 24?",
+    "price": 0.0005,
+    "volume": 108437.753601,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276621",
+    "question": "Will the highest temperature in Ankara be 6\u00b0C or below on January 29?",
+    "price": 0.0005,
+    "volume": 107978.193087,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276622",
+    "question": "Will the highest temperature in Ankara be 7\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 107978.193087,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276624",
+    "question": "Will the highest temperature in Ankara be 9\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 107978.193087,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276625",
+    "question": "Will the highest temperature in Ankara be 10\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 107978.193087,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276626",
+    "question": "Will the highest temperature in Ankara be 11\u00b0C on January 29?",
+    "price": 0.0005,
+    "volume": 107978.193087,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1276627",
+    "question": "Will the highest temperature in Ankara be 12\u00b0C or higher on January 29?",
+    "price": 0.0005,
+    "volume": 107978.193087,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270715",
+    "question": "Will the highest temperature in New York City be 23\u00b0F or below on January 28?",
+    "price": 0.0005,
+    "volume": 106305.279632,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270717",
+    "question": "Will the highest temperature in New York City be between 26-27\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 106305.279632,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270718",
+    "question": "Will the highest temperature in New York City be between 28-29\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 106305.279632,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270719",
+    "question": "Will the highest temperature in New York City be between 30-31\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 106305.279632,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270720",
+    "question": "Will the highest temperature in New York City be between 32-33\u00b0F on January 28?",
+    "price": 0.0005,
+    "volume": 106305.279632,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1270721",
+    "question": "Will the highest temperature in New York City be 34\u00b0F or higher on January 28?",
+    "price": 0.0005,
+    "volume": 106305.279632,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282100",
+    "question": "Will the highest temperature in Ankara be 6\u00b0C or below on January 30?",
+    "price": 0.0005,
+    "volume": 105266.764703,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282101",
+    "question": "Will the highest temperature in Ankara be 7\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 105266.764703,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282102",
+    "question": "Will the highest temperature in Ankara be 8\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 105266.764703,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282103",
+    "question": "Will the highest temperature in Ankara be 9\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 105266.764703,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282104",
+    "question": "Will the highest temperature in Ankara be 10\u00b0C on January 30?",
+    "price": 0.0005,
+    "volume": 105266.764703,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1282106",
+    "question": "Will the highest temperature in Ankara be 12\u00b0C or higher on January 30?",
+    "price": 0.0005,
+    "volume": 105266.764703,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264848",
+    "question": "Will the highest temperature in Dallas be 39\u00b0F or below on January 27?",
+    "price": 0.0005,
+    "volume": 103366.809698,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264850",
+    "question": "Will the highest temperature in Dallas be between 42-43\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 103366.809698,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264851",
+    "question": "Will the highest temperature in Dallas be between 44-45\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 103366.809698,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264852",
+    "question": "Will the highest temperature in Dallas be between 46-47\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 103366.809698,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264853",
+    "question": "Will the highest temperature in Dallas be between 48-49\u00b0F on January 27?",
+    "price": 0.0005,
+    "volume": 103366.809698,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1264854",
+    "question": "Will the highest temperature in Dallas be 50\u00b0F or higher on January 27?",
+    "price": 0.0005,
+    "volume": 103366.809698,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318645",
+    "question": "Will the highest temperature in Atlanta be 45\u00b0F or below on February 4?",
+    "price": 0.0005,
+    "volume": 102479.379021,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318646",
+    "question": "Will the highest temperature in Atlanta be between 46-47\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 102479.379021,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318647",
+    "question": "Will the highest temperature in Atlanta be between 48-49\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 102479.379021,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318648",
+    "question": "Will the highest temperature in Atlanta be between 50-51\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 102479.379021,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318649",
+    "question": "Will the highest temperature in Atlanta be between 52-53\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 102479.379021,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1318650",
+    "question": "Will the highest temperature in Atlanta be between 54-55\u00b0F on February 4?",
+    "price": 0.0005,
+    "volume": 102479.379021,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312694",
+    "question": "Will the highest temperature in Dallas be 51\u00b0F or below on February 3?",
+    "price": 0.0005,
+    "volume": 101830.538302,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312695",
+    "question": "Will the highest temperature in Dallas be between 52-53\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 101830.538302,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312696",
+    "question": "Will the highest temperature in Dallas be between 54-55\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 101830.538302,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312697",
+    "question": "Will the highest temperature in Dallas be between 56-57\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 101830.538302,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312698",
+    "question": "Will the highest temperature in Dallas be between 58-59\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 101830.538302,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1312699",
+    "question": "Will the highest temperature in Dallas be between 60-61\u00b0F on February 3?",
+    "price": 0.0005,
+    "volume": 101830.538302,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257531",
+    "question": "Will the highest temperature in Seattle be 41\u00b0F or below on January 26?",
+    "price": 0.0005,
+    "volume": 101673.582921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257532",
+    "question": "Will the highest temperature in Seattle be between 42-43\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 101673.582921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257533",
+    "question": "Will the highest temperature in Seattle be between 44-45\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 101673.582921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257535",
+    "question": "Will the highest temperature in Seattle be between 48-49\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 101673.582921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257536",
+    "question": "Will the highest temperature in Seattle be between 50-51\u00b0F on January 26?",
+    "price": 0.0005,
+    "volume": 101673.582921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1257537",
+    "question": "Will the highest temperature in Seattle be 52\u00b0F or higher on January 26?",
+    "price": 0.0005,
+    "volume": 101673.582921,
+    "strategy": "WEATHER_FADE_LONGSHOTS",
+    "expected_win": 93.9,
+    "edge": 43.9
+  },
+  {
+    "market_id": "1303673",
+    "question": "Will Solana dip to $70 in February?",
+    "price": 0.9995,
+    "volume": 6839598.236522,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303670",
+    "question": "Will Solana dip to $100 in February?",
+    "price": 0.9995,
+    "volume": 6839598.236522,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303669",
+    "question": "Will Solana dip to $110 in February?",
+    "price": 0.9995,
+    "volume": 6839598.236522,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303671",
+    "question": "Will Solana dip to $90 in February?",
+    "price": 0.9995,
+    "volume": 6839598.236522,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303672",
+    "question": "Will Solana dip to $80 in February?",
+    "price": 0.9995,
+    "volume": 6839598.236522,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303394",
+    "question": "Will XRP dip to $1.40 in February?",
+    "price": 0.9995,
+    "volume": 1289103.742198,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303398",
+    "question": "Will XRP dip to $1.20 in February?",
+    "price": 0.9995,
+    "volume": 1289103.742198,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303391",
+    "question": "Will XRP dip to $1.60 in February?",
+    "price": 0.9995,
+    "volume": 1289103.742198,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1269751",
+    "question": "Will Solana dip to $110 January 26-1?",
+    "price": 0.9995,
+    "volume": 874119.615272,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1269752",
+    "question": "Will Solana dip to $100 January 26-1?",
+    "price": 0.9995,
+    "volume": 874119.615272,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1299736",
+    "question": "Will the price of Solana be above $70 on February 6?",
+    "price": 0.9995,
+    "volume": 715140.402487,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1299738",
+    "question": "Will the price of Solana be above $80 on February 6?",
+    "price": 0.9995,
+    "volume": 715140.402487,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1285842",
+    "question": "Will the price of Solana be above $80 on February 4?",
+    "price": 0.9995,
+    "volume": 676619.75917,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1285843",
+    "question": "Will the price of Solana be above $90 on February 4?",
+    "price": 0.9995,
+    "volume": 676619.75917,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271947",
+    "question": "Will the price of Solana be above $70 on February 2?",
+    "price": 0.9995,
+    "volume": 617963.598734,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271948",
+    "question": "Will the price of Solana be above $80 on February 2?",
+    "price": 0.9995,
+    "volume": 617963.598734,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271949",
+    "question": "Will the price of Solana be above $90 on February 2?",
+    "price": 0.9995,
+    "volume": 617963.598734,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271950",
+    "question": "Will the price of Solana be above $100 on February 2?",
+    "price": 0.9995,
+    "volume": 617963.598734,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1299759",
+    "question": "Will the price of XRP be above $1.30 on February 6?",
+    "price": 0.9995,
+    "volume": 585077.495965,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1299761",
+    "question": "Will the price of XRP be above $1.40 on February 6?",
+    "price": 0.9995,
+    "volume": 585077.495965,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1278481",
+    "question": "Will the price of Solana be above $100 on February 3?",
+    "price": 0.9995,
+    "volume": 518353.308789,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1278479",
+    "question": "Will the price of Solana be above $80 on February 3?",
+    "price": 0.9995,
+    "volume": 518353.308789,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1278480",
+    "question": "Will the price of Solana be above $90 on February 3?",
+    "price": 0.9995,
+    "volume": 518353.308789,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308462",
+    "question": "Will the price of XRP be above $1.30 on February 7?",
+    "price": 0.9995,
+    "volume": 517069.967274,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308464",
+    "question": "Will the price of XRP be above $1.40 on February 7?",
+    "price": 0.9995,
+    "volume": 517069.967274,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308458",
+    "question": "Will the price of XRP be above $1.10 on February 7?",
+    "price": 0.9995,
+    "volume": 517069.967274,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308460",
+    "question": "Will the price of XRP be above $1.20 on February 7?",
+    "price": 0.9995,
+    "volume": 517069.967274,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271957",
+    "question": "Will the price of Solana be between $100 and $110 on February 2?",
+    "price": 0.9995,
+    "volume": 486728.111904,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250188",
+    "question": "Will the price of Solana be above $80 on January 30?",
+    "price": 0.9995,
+    "volume": 483376.220939,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250189",
+    "question": "Will the price of Solana be above $90 on January 30?",
+    "price": 0.9995,
+    "volume": 483376.220939,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250190",
+    "question": "Will the price of Solana be above $100 on January 30?",
+    "price": 0.9995,
+    "volume": 483376.220939,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250191",
+    "question": "Will the price of Solana be above $110 on January 30?",
+    "price": 0.9995,
+    "volume": 483376.220939,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1242971",
+    "question": "Will the price of Solana be between $110 and $120 on January 29?",
+    "price": 0.9995,
+    "volume": 476951.047533,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1294020",
+    "question": "Will the price of Solana be above $70 on February 5?",
+    "price": 0.9995,
+    "volume": 462956.461263,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1294022",
+    "question": "Will the price of Solana be above $80 on February 5?",
+    "price": 0.9995,
+    "volume": 462956.461263,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250210",
+    "question": "Will the price of XRP be above $1.40 on January 30?",
+    "price": 0.9995,
+    "volume": 425443.463508,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250211",
+    "question": "Will the price of XRP be above $1.50 on January 30?",
+    "price": 0.9995,
+    "volume": 425443.463508,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250212",
+    "question": "Will the price of XRP be above $1.60 on January 30?",
+    "price": 0.9995,
+    "volume": 425443.463508,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250213",
+    "question": "Will the price of XRP be above $1.70 on January 30?",
+    "price": 0.9995,
+    "volume": 425443.463508,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266445",
+    "question": "Will the price of Solana be between $100 and $110 on February 1?",
+    "price": 0.9995,
+    "volume": 412742.947045,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1285864",
+    "question": "Will the price of XRP be above $1.40 on February 4?",
+    "price": 0.9995,
+    "volume": 411202.289828,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1285865",
+    "question": "Will the price of XRP be above $1.50 on February 4?",
+    "price": 0.9995,
+    "volume": 411202.289828,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259218",
+    "question": "Will the price of Solana be above $100 on January 31?",
+    "price": 0.997,
+    "volume": 410274.706893,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259216",
+    "question": "Will the price of Solana be above $80 on January 31?",
+    "price": 0.9955,
+    "volume": 410274.706893,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259217",
+    "question": "Will the price of Solana be above $90 on January 31?",
+    "price": 0.9995,
+    "volume": 410274.706893,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1317209",
+    "question": "Will Solana dip to $80 February 2-8?",
+    "price": 0.9995,
+    "volume": 398155.869926,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1317210",
+    "question": "Will Solana dip to $70 February 2-8?",
+    "price": 0.9995,
+    "volume": 398155.869926,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1317208",
+    "question": "Will Solana dip to $90 February 2-8?",
+    "price": 0.9995,
+    "volume": 398155.869926,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259208",
+    "question": "Will the price of Solana be between $100 and $110 on January 31?",
+    "price": 0.9955,
+    "volume": 389750.540834,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235635",
+    "question": "Will the price of Solana be between $120 and $130 on January 28?",
+    "price": 0.9995,
+    "volume": 352371.931559,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259222",
+    "question": "Will the price of XRP be between $1.60 and $1.70 on January 31?",
+    "price": 0.9995,
+    "volume": 350644.526872,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1278471",
+    "question": "Will the price of Solana be between $100 and $110 on February 3?",
+    "price": 0.9995,
+    "volume": 348244.032508,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1242974",
+    "question": "Will the price of Solana be above $80 on January 29?",
+    "price": 0.9995,
+    "volume": 339546.732603,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1242976",
+    "question": "Will the price of Solana be above $90 on January 29?",
+    "price": 0.9995,
+    "volume": 339546.732603,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1242978",
+    "question": "Will the price of Solana be above $100 on January 29?",
+    "price": 0.9995,
+    "volume": 339546.732603,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1242980",
+    "question": "Will the price of Solana be above $110 on January 29?",
+    "price": 0.9995,
+    "volume": 339546.732603,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271970",
+    "question": "Will the price of XRP be above $1.40 on February 2?",
+    "price": 0.9995,
+    "volume": 328634.506881,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271972",
+    "question": "Will the price of XRP be above $1.50 on February 2?",
+    "price": 0.9995,
+    "volume": 328634.506881,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271974",
+    "question": "Will the price of XRP be above $1.60 on February 2?",
+    "price": 0.9995,
+    "volume": 328634.506881,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1294039",
+    "question": "Will the price of XRP be less than $1.40 on February 5?",
+    "price": 0.9995,
+    "volume": 328094.723053,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1294019",
+    "question": "Will the price of Solana be between $80 and $90 on February 5?",
+    "price": 0.9995,
+    "volume": 324407.433519,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1243000",
+    "question": "Will the price of XRP be above $1.40 on January 29?",
+    "price": 0.9995,
+    "volume": 305278.269407,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1243001",
+    "question": "Will the price of XRP be above $1.50 on January 29?",
+    "price": 0.9995,
+    "volume": 305278.269407,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1243002",
+    "question": "Will the price of XRP be above $1.60 on January 29?",
+    "price": 0.9995,
+    "volume": 305278.269407,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1243003",
+    "question": "Will the price of XRP be above $1.70 on January 29?",
+    "price": 0.9995,
+    "volume": 305278.269407,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1243004",
+    "question": "Will the price of XRP be above $1.80 on January 29?",
+    "price": 0.9995,
+    "volume": 305278.269407,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250181",
+    "question": "Will the price of Solana be between $110 and $120 on January 30?",
+    "price": 0.9995,
+    "volume": 290746.270628,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308429",
+    "question": "Will the price of Solana be above $60 on February 7?",
+    "price": 0.9995,
+    "volume": 285799.438162,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308435",
+    "question": "Will the price of Solana be above $80 on February 7?",
+    "price": 0.9995,
+    "volume": 285799.438162,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308432",
+    "question": "Will the price of Solana be above $70 on February 7?",
+    "price": 0.9995,
+    "volume": 285799.438162,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235644",
+    "question": "Will the price of Solana be above $110 on January 28?",
+    "price": 0.9995,
+    "volume": 284580.019888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235645",
+    "question": "Will the price of Solana be above $120 on January 28?",
+    "price": 0.9995,
+    "volume": 284580.019888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235637",
+    "question": "Will the price of Solana be above $80 on January 28?",
+    "price": 0.9995,
+    "volume": 284580.019888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235640",
+    "question": "Will the price of Solana be above $90 on January 28?",
+    "price": 0.9995,
+    "volume": 284580.019888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235642",
+    "question": "Will the price of Solana be above $100 on January 28?",
+    "price": 0.9995,
+    "volume": 284580.019888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1317231",
+    "question": "Will XRP dip to $1.50 February 2-8?",
+    "price": 0.9995,
+    "volume": 277631.009184,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1317233",
+    "question": "Will XRP dip to $1.40 February 2-8?",
+    "price": 0.9995,
+    "volume": 277631.009184,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1317234",
+    "question": "Will XRP dip to $1.30 February 2-8?",
+    "price": 0.9995,
+    "volume": 277631.009184,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1317235",
+    "question": "Will XRP dip to $1.20 February 2-8?",
+    "price": 0.9995,
+    "volume": 277631.009184,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1269782",
+    "question": "Will XRP dip to $1.80 January 26-1?",
+    "price": 0.9995,
+    "volume": 264670.872434,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1269783",
+    "question": "Will XRP dip to $1.70 January 26-1?",
+    "price": 0.9995,
+    "volume": 264670.872434,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1269784",
+    "question": "Will XRP dip to $1.60 January 26-1?",
+    "price": 0.9995,
+    "volume": 264670.872434,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1285854",
+    "question": "Will the price of XRP be between $1.50 and $1.60 on February 4?",
+    "price": 0.9995,
+    "volume": 244533.925989,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1299754",
+    "question": "Will the price of XRP be between $1.40 and $1.50 on February 6?",
+    "price": 0.9995,
+    "volume": 239394.316521,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308461",
+    "question": "Will the price of XRP be between $1.40 and $1.50 on February 7?",
+    "price": 0.9995,
+    "volume": 234567.919159,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259238",
+    "question": "Will the price of XRP be above $1.40 on January 31?",
+    "price": 0.9995,
+    "volume": 228806.552351,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259239",
+    "question": "Will the price of XRP be above $1.50 on January 31?",
+    "price": 0.9995,
+    "volume": 228806.552351,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1259240",
+    "question": "Will the price of XRP be above $1.60 on January 31?",
+    "price": 0.9995,
+    "volume": 228806.552351,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1242993",
+    "question": "Will the price of XRP be between $1.80 and $1.90 on January 29?",
+    "price": 0.9995,
+    "volume": 223164.974933,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1278501",
+    "question": "Will the price of XRP be above $1.40 on February 3?",
+    "price": 0.9995,
+    "volume": 218167.734256,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1278502",
+    "question": "Will the price of XRP be above $1.50 on February 3?",
+    "price": 0.9995,
+    "volume": 218167.734256,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1271973",
+    "question": "Will the price of XRP be between $1.60 and $1.70 on February 2?",
+    "price": 0.9995,
+    "volume": 217620.717234,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1299732",
+    "question": "Will the price of Solana be between $80 and $90 on February 6?",
+    "price": 0.9995,
+    "volume": 217496.305802,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1285833",
+    "question": "Will the price of Solana be between $90 and $100 on February 4?",
+    "price": 0.9995,
+    "volume": 213123.158376,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1250202",
+    "question": "Will the price of XRP be between $1.70 and $1.80 on January 30?",
+    "price": 0.9995,
+    "volume": 208733.34713,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235665",
+    "question": "Will the price of XRP be between $1.90 and $2.00 on January 28?",
+    "price": 0.9995,
+    "volume": 203574.727377,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266456",
+    "question": "Will the price of Solana be above $70 on February 1?",
+    "price": 0.9995,
+    "volume": 191816.19125,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266458",
+    "question": "Will the price of Solana be above $80 on February 1?",
+    "price": 0.9995,
+    "volume": 191816.19125,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266460",
+    "question": "Will the price of Solana be above $90 on February 1?",
+    "price": 0.9995,
+    "volume": 191816.19125,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266461",
+    "question": "Will the price of Solana be above $100 on February 1?",
+    "price": 0.9995,
+    "volume": 191816.19125,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235653",
+    "question": "Will the price of XRP be above $1.40 on January 28?",
+    "price": 0.9995,
+    "volume": 190214.203513,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235654",
+    "question": "Will the price of XRP be above $1.50 on January 28?",
+    "price": 0.9995,
+    "volume": 190214.203513,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235656",
+    "question": "Will the price of XRP be above $1.60 on January 28?",
+    "price": 0.9995,
+    "volume": 190214.203513,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235658",
+    "question": "Will the price of XRP be above $1.70 on January 28?",
+    "price": 0.9995,
+    "volume": 190214.203513,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235660",
+    "question": "Will the price of XRP be above $1.80 on January 28?",
+    "price": 0.9995,
+    "volume": 190214.203513,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1235662",
+    "question": "Will the price of XRP be above $1.90 on January 28?",
+    "price": 0.9995,
+    "volume": 190214.203513,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1344790",
+    "question": "Solana Up or Down - February 7, 5:45AM-6:00AM ET",
+    "price": 0.9995,
+    "volume": 176156.792489,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1314169",
+    "question": "Will the price of Solana be above $50 on February 8?",
+    "price": 0.997,
+    "volume": 176022.046888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1314171",
+    "question": "Will the price of Solana be above $60 on February 8?",
+    "price": 0.9805,
+    "volume": 176022.046888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1314174",
+    "question": "Will the price of Solana be above $70 on February 8?",
+    "price": 0.9585,
+    "volume": 176022.046888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1314178",
+    "question": "Will the price of Solana be above $80 on February 8?",
+    "price": 0.9675,
+    "volume": 176022.046888,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1278491",
+    "question": "Will the price of XRP be between $1.50 and $1.60 on February 3?",
+    "price": 0.9995,
+    "volume": 175494.877334,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1276814",
+    "question": "XRP Up or Down - January 29, 7AM ET",
+    "price": 0.9995,
+    "volume": 162876.684704,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1308433",
+    "question": "Will the price of Solana be between $80 and $90 on February 7?",
+    "price": 0.9995,
+    "volume": 161535.603633,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1320443",
+    "question": "Will the price of Solana be above $50 on February 9?",
+    "price": 0.9865,
+    "volume": 157247.889999,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1320446",
+    "question": "Will the price of Solana be above $60 on February 9?",
+    "price": 0.98,
+    "volume": 157247.889999,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1320449",
+    "question": "Will the price of Solana be above $70 on February 9?",
+    "price": 0.9635,
+    "volume": 157247.889999,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1320452",
+    "question": "Will the price of Solana be above $80 on February 9?",
+    "price": 0.8415,
+    "volume": 157247.889999,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266473",
+    "question": "Will the price of XRP be between $1.50 and $1.60 on February 1?",
+    "price": 0.9995,
+    "volume": 155687.963249,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266484",
+    "question": "Will the price of XRP be above $1.40 on February 1?",
+    "price": 0.9995,
+    "volume": 147177.116752,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1266486",
+    "question": "Will the price of XRP be above $1.50 on February 1?",
+    "price": 0.9995,
+    "volume": 147177.116752,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1263504",
+    "question": "Solana Up or Down - January 27, 2AM ET",
+    "price": 0.9995,
+    "volume": 145611.69014,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1267074",
+    "question": "XRP Up or Down - January 27, 2PM ET",
+    "price": 0.9995,
+    "volume": 113504.447228,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1257502",
+    "question": "Solana Up or Down - January 26, 6AM ET",
+    "price": 0.9995,
+    "volume": 106192.221481,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1328758",
+    "question": "Solana Up or Down - February 5, 4PM ET",
+    "price": 0.9995,
+    "volume": 104995.71125,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1326858",
+    "question": "Will the price of Solana be above $50 on February 10?",
+    "price": 0.9895,
+    "volume": 100583.235127,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1326860",
+    "question": "Will the price of Solana be above $60 on February 10?",
+    "price": 0.971,
+    "volume": 100583.235127,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1326864",
+    "question": "Will the price of Solana be above $80 on February 10?",
+    "price": 0.768,
+    "volume": 100583.235127,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1326862",
+    "question": "Will the price of Solana be above $70 on February 10?",
+    "price": 0.95,
+    "volume": 100583.235127,
+    "strategy": "ALTCOIN_FADE_HIGH",
+    "expected_win": 92.3,
+    "edge": 42.3
+  },
+  {
+    "market_id": "1303397",
+    "question": "Will Bitcoin dip to $60,000 in February?",
+    "price": 0.9995,
+    "volume": 34966816.173707,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1303392",
+    "question": "Will Bitcoin dip to $70,000 in February?",
+    "price": 0.9995,
+    "volume": 34966816.173707,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1303387",
+    "question": "Will Bitcoin dip to $80,000 in February?",
+    "price": 0.9995,
+    "volume": 34966816.173707,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1303389",
+    "question": "Will Bitcoin dip to $75,000 in February?",
+    "price": 0.9995,
+    "volume": 34966816.173707,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1303395",
+    "question": "Will Bitcoin dip to $65,000 in February?",
+    "price": 0.9995,
+    "volume": 34966816.173707,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1259193",
+    "question": "Will the price of Bitcoin be above $80,000 on January 31?",
+    "price": 0.997,
+    "volume": 7630874.512166,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1250166",
+    "question": "Will the price of Bitcoin be above $80,000 on January 30?",
+    "price": 0.9995,
+    "volume": 7341745.653212,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1250167",
+    "question": "Will the price of Bitcoin be above $82,000 on January 30?",
+    "price": 0.9995,
+    "volume": 7341745.653212,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1271920",
+    "question": "Will the price of Bitcoin be above $78,000 on February 2?",
+    "price": 0.9995,
+    "volume": 6197622.940169,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1242955",
+    "question": "Will the price of Bitcoin be above $80,000 on January 29?",
+    "price": 0.9995,
+    "volume": 5708247.828536,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1242956",
+    "question": "Will the price of Bitcoin be above $82,000 on January 29?",
+    "price": 0.9995,
+    "volume": 5708247.828536,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1242958",
+    "question": "Will the price of Bitcoin be above $84,000 on January 29?",
+    "price": 0.9995,
+    "volume": 5708247.828536,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1235606",
+    "question": "Will the price of Bitcoin be above $78,000 on January 28?",
+    "price": 0.9995,
+    "volume": 5473653.325131,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1235609",
+    "question": "Will the price of Bitcoin be above $80,000 on January 28?",
+    "price": 0.9995,
+    "volume": 5473653.325131,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1235611",
+    "question": "Will the price of Bitcoin be above $82,000 on January 28?",
+    "price": 0.9995,
+    "volume": 5473653.325131,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1235613",
+    "question": "Will the price of Bitcoin be above $84,000 on January 28?",
+    "price": 0.9995,
+    "volume": 5473653.325131,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1235615",
+    "question": "Will the price of Bitcoin be above $86,000 on January 28?",
+    "price": 0.9995,
+    "volume": 5473653.325131,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1235617",
+    "question": "Will the price of Bitcoin be above $88,000 on January 28?",
+    "price": 0.9995,
+    "volume": 5473653.325131,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1269646",
+    "question": "Will Bitcoin reach $90,000 January 26-1?",
+    "price": 0.9995,
+    "volume": 4333109.010665,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1269648",
+    "question": "Will Bitcoin dip to $86,000 January 26-1?",
+    "price": 0.9995,
+    "volume": 4333109.010665,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1269649",
+    "question": "Will Bitcoin dip to $84,000 January 26-1?",
+    "price": 0.9995,
+    "volume": 4333109.010665,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1269650",
+    "question": "Will Bitcoin dip to $82,000 January 26-1?",
+    "price": 0.9995,
+    "volume": 4333109.010665,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1269651",
+    "question": "Will Bitcoin dip to $80,000 January 26-1?",
+    "price": 0.9995,
+    "volume": 4333109.010665,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1269652",
+    "question": "Will Bitcoin dip to $78,000 January 26-1?",
+    "price": 0.9995,
+    "volume": 4333109.010665,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1269653",
+    "question": "Will Bitcoin dip to $76,000 January 26-1?",
+    "price": 0.9995,
+    "volume": 4333109.010665,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317109",
+    "question": "Will Bitcoin reach $78,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317110",
+    "question": "Will Bitcoin dip to $74,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317112",
+    "question": "Will Bitcoin dip to $72,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317113",
+    "question": "Will Bitcoin dip to $70,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317114",
+    "question": "Will Bitcoin dip to $68,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317115",
+    "question": "Will Bitcoin dip to $66,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317116",
+    "question": "Will Bitcoin dip to $64,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1317117",
+    "question": "Will Bitcoin dip to $62,000 February 2-8?",
+    "price": 0.9995,
+    "volume": 2974848.65789,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1259135",
+    "question": "Will the price of Bitcoin be between $80,000 and $82,000 on January 31?",
+    "price": 0.9995,
+    "volume": 2575340.850296,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1242910",
+    "question": "Will the price of Bitcoin be between $84,000 and $86,000 on January 29?",
+    "price": 0.9995,
+    "volume": 1666372.491343,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1314120",
+    "question": "Will the price of Bitcoin be above $68,000 on February 8?",
+    "price": 0.7265,
+    "volume": 1573094.932913,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1271880",
+    "question": "Will the price of Bitcoin be between $78,000 and $80,000 on February 2?",
+    "price": 0.9995,
+    "volume": 1512086.307002,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1235594",
+    "question": "Will the price of Bitcoin be between $88,000 and $90,000 on January 28?",
+    "price": 0.9995,
+    "volume": 1475913.995731,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1299663",
+    "question": "Will the price of Bitcoin be less than $74,000 on February 6?",
+    "price": 0.9995,
+    "volume": 1417218.146033,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1293955",
+    "question": "Will the price of Bitcoin be less than $76,000 on February 5?",
+    "price": 0.9995,
+    "volume": 1257032.034845,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1308354",
+    "question": "Will the price of Bitcoin be less than $72,000 on February 7?",
+    "price": 0.9995,
+    "volume": 1253037.813869,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1250130",
+    "question": "Will the price of Bitcoin be between $82,000 and $84,000 on January 30?",
+    "price": 0.9995,
+    "volume": 1248484.785859,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1285781",
+    "question": "Will the price of Bitcoin be less than $80,000 on February 4?",
+    "price": 0.9995,
+    "volume": 1170489.259226,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1266384",
+    "question": "Will the price of Bitcoin be less than $80,000 on February 1?",
+    "price": 0.9995,
+    "volume": 1128817.965692,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1278420",
+    "question": "Will the price of Bitcoin be less than $80,000 on February 3?",
+    "price": 0.9995,
+    "volume": 1032790.171722,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1334232",
+    "question": "Will the price of Bitcoin be above $64,000 on February 11?",
+    "price": 0.8745,
+    "volume": 848750.204277,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1334234",
+    "question": "Will the price of Bitcoin be above $66,000 on February 11?",
+    "price": 0.765,
+    "volume": 848750.204277,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1340517",
+    "question": "Will the price of Bitcoin be above $58,000 on February 12?",
+    "price": 0.959,
+    "volume": 337591.875089,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1340519",
+    "question": "Will the price of Bitcoin be above $60,000 on February 12?",
+    "price": 0.943,
+    "volume": 337591.875089,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1340521",
+    "question": "Will the price of Bitcoin be above $62,000 on February 12?",
+    "price": 0.905,
+    "volume": 337591.875089,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1340525",
+    "question": "Will the price of Bitcoin be above $64,000 on February 12?",
+    "price": 0.85,
+    "volume": 337591.875089,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  },
+  {
+    "market_id": "1340527",
+    "question": "Will the price of Bitcoin be above $66,000 on February 12?",
+    "price": 0.745,
+    "volume": 337591.875089,
+    "strategy": "CRYPTO_FAVORITE_FADE",
+    "expected_win": 61.9,
+    "edge": 11.9
+  }
+]

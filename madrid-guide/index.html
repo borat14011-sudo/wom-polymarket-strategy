@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madrid & Segovia Guide 🇪🇸</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a2e; color: #eee; }
+        
+        .header { 
+            background: linear-gradient(135deg, #e63946 0%, #f4a261 100%);
+            padding: 20px; 
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 5px; }
+        .header p { opacity: 0.9; font-size: 0.95em; }
+        
+        .tabs {
+            display: flex;
+            background: #16213e;
+            overflow-x: auto;
+        }
+        .tab {
+            flex: 1;
+            padding: 15px 10px;
+            text-align: center;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+            min-width: 80px;
+            font-size: 0.85em;
+        }
+        .tab:hover { background: #1f4068; }
+        .tab.active { border-bottom-color: #f4a261; background: #1f4068; }
+        .tab-icon { font-size: 1.5em; display: block; margin-bottom: 5px; }
+        
+        #map { height: 50vh; width: 100%; }
+        
+        .content { padding: 15px; }
+        
+        .filter-bar {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding: 10px 0;
+            margin-bottom: 15px;
+        }
+        .filter-btn {
+            background: #16213e;
+            border: 1px solid #f4a261;
+            color: #f4a261;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #f4a261;
+            color: #1a1a2e;
+        }
+        
+        .card {
+            background: #16213e;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #f4a261;
+        }
+        .card h3 { color: #f4a261; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+        .card p { color: #aaa; font-size: 0.9em; line-height: 1.5; margin-bottom: 8px; }
+        .card .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+        .tag { 
+            background: #1a1a2e; 
+            padding: 4px 10px; 
+            border-radius: 12px; 
+            font-size: 0.75em;
+            color: #f4a261;
+        }
+        .tag.baby { background: #2d6a4f; color: #95d5b2; }
+        .tag.must-see { background: #9d4edd; color: #e0aaff; }
+        .tag.food { background: #d62828; color: #ffccd5; }
+        .tag.christmas { background: #1d3557; color: #a8dadc; }
+        
+        .baby-tip {
+            background: #2d6a4f;
+            border-radius: 8px;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 0.85em;
+        }
+        .baby-tip::before { content: "👶 "; }
+        
+        .day-section {
+            background: #0f0f23;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .day-section h2 {
+            color: #f4a261;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .hidden { display: none; }
+        
+        .restaurant-card {
+            background: #16213e;
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .restaurant-card h3 { color: #f4a261; margin-bottom: 5px; }
+        .restaurant-card .cuisine { color: #aaa; font-size: 0.85em; }
+        .restaurant-card .rating { color: #ffd700; margin: 8px 0; }
+        .restaurant-card .price { color: #95d5b2; }
+        .restaurant-card .address { color: #888; font-size: 0.8em; margin-top: 8px; }
+        
+        .city-toggle {
+            display: flex;
+            background: #0f0f23;
+            border-radius: 25px;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+        .city-btn {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .city-btn.active {
+            background: #f4a261;
+            color: #1a1a2e;
+        }
+
+        @media (min-width: 768px) {
+            .cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🇪🇸 Madrid & Segovia</h1>
+        <p>Christmas Trip Guide • Dec 2026 • 👶 Baby-Friendly</p>
+    </div>
+    
+    <div class="tabs">
+        <div class="tab active" data-tab="map">
+            <span class="tab-icon">🗺️</span>
+            Map
+        </div>
+        <div class="tab" data-tab="itinerary">
+            <span class="tab-icon">📅</span>
+            Itinerary
+        </div>
+        <div class="tab" data-tab="restaurants">
+            <span class="tab-icon">🍽️</span>
+            Food
+        </div>
+        <div class="tab" data-tab="tips">
+            <span class="tab-icon">👶</span>
+            Baby Tips
+        </div>
+    </div>
+    
+    <div id="map-section">
+        <div id="map"></div>
+        <div class="content">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="must-see">Must See</button>
+                <button class="filter-btn" data-filter="food">Restaurants</button>
+                <button class="filter-btn" data-filter="baby">Baby-Friendly</button>
+                <button class="filter-btn" data-filter="christmas">Christmas</button>
+            </div>
+            <div class="city-toggle">
+                <div class="city-btn active" data-city="madrid">Madrid</div>
+                <div class="city-btn" data-city="segovia">Segovia</div>
+            </div>
+            <div id="places-list"></div>
+        </div>
+    </div>
+    
+    <div id="itinerary-section" class="content hidden">
+        <h2 style="color: #f4a261; margin-bottom: 20px;">📅 8-Day Itinerary</h2>
+        
+        <div class="day-section">
+            <h2>Day 1-2: Arrival & Central Madrid</h2>
+            <div class="card">
+                <h3>🛬 Arrive & Settle In</h3>
+                <p>Land at Madrid-Barajas (MAD). Take taxi/Uber to accommodation. Rest and let baby adjust.</p>
+                <div class="baby-tip">Book apartment near Sol/Gran Vía for walkability. Kitchen essential for bottles!</div>
+            </div>
+            <div class="card">
+                <h3>🎄 Plaza Mayor Christmas Market</h3>
+                <p>Magical Christmas market with lights, crafts, and festive atmosphere. Open late!</p>
+                <div class="tags"><span class="tag christmas">Christmas</span><span class="tag baby">Stroller OK</span></div>
+            </div>
+            <div class="card">
+                <h3>✨ Gran Vía Light Walk</h3>
+                <p>Famous shopping street with spectacular Christmas lights. Best at dusk.</p>
+                <div class="tags"><span class="tag christmas">Christmas</span><span class="tag baby">Stroller OK</span></div>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Day 3-4: Culture & Parks</h2>
+            <div class="card">
+                <h3>🎨 Prado Museum</h3>
+                <p>World-class art museum. Stroller-friendly, free last 2 hours daily. Don't miss Velázquez!</p>
+                <div class="tags"><span class="tag must-see">Must See</span><span class="tag baby">Stroller OK</span></div>
+                <div class="baby-tip">Go early morning when baby is fresh. Nursing room available.</div>
+            </div>
+            <div class="card">
+                <h3>🌳 Retiro Park</h3>
+                <p>Beautiful park with Crystal Palace. Great for baby to stretch out on blanket.</p>
+                <div class="tags"><span class="tag baby">Baby-Friendly</span><span class="tag must-see">Must See</span></div>
+            </div>
+            <div class="card">
+                <h3>👑 Royal Palace</h3>
+                <p>Stunning palace, beautiful gardens. Consider exterior only with baby.</p>
+                <div class="tags"><span class="tag must-see">Must See</span></div>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Day 5-6: Segovia Excursion</h2>
+            <div class="card">
+                <h3>🚄 Train to Segovia</h3>
+                <p>30 min high-speed train from Madrid Chamartín. Book in advance on Renfe.</p>
+                <div class="baby-tip">Train has space for strollers. Quiet car available.</div>
+            </div>
+            <div class="card">
+                <h3>🏛️ Roman Aqueduct</h3>
+                <p>2000-year-old engineering marvel. One of best preserved in the world!</p>
+                <div class="tags"><span class="tag must-see">Must See</span><span class="tag baby">Stroller OK</span></div>
+            </div>
+            <div class="card">
+                <h3>🏰 Alcázar of Segovia</h3>
+                <p>Fairy-tale castle that inspired Disney! Amazing views of countryside.</p>
+                <div class="tags"><span class="tag must-see">Must See</span></div>
+                <div class="baby-tip">Elevator available. Skip tower climb with baby.</div>
+            </div>
+            <div class="card">
+                <h3>🐷 Cochinillo Dinner</h3>
+                <p>Famous roast suckling pig at Mesón de Cándido or José María. Book ahead!</p>
+                <div class="tags"><span class="tag food">Food</span><span class="tag must-see">Must Do</span></div>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Day 7-8: Madrid Relaxed & Departure</h2>
+            <div class="card">
+                <h3>🛍️ El Rastro Market (Sunday)</h3>
+                <p>Huge flea market if your trip includes Sunday. Crowded but fun!</p>
+                <div class="baby-tip">Use baby carrier instead of stroller - very crowded!</div>
+            </div>
+            <div class="card">
+                <h3>☕ Churros at San Ginés</h3>
+                <p>Classic churros con chocolate. Open 24 hours! Near Sol.</p>
+                <div class="tags"><span class="tag food">Food</span><span class="tag must-see">Must Do</span></div>
+            </div>
+            <div class="card">
+                <h3>🌆 Temple of Debod Sunset</h3>
+                <p>Ancient Egyptian temple with amazing sunset views over Casa de Campo.</p>
+                <div class="tags"><span class="tag must-see">Must See</span><span class="tag baby">Stroller OK</span></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="restaurants-section" class="content hidden">
+        <h2 style="color: #f4a261; margin-bottom: 20px;">🍽️ Restaurant Guide</h2>
+        
+        <div class="city-toggle">
+            <div class="city-btn active" data-city="madrid-food">Madrid</div>
+            <div class="city-btn" data-city="segovia-food">Segovia</div>
+        </div>
+        
+        <div id="madrid-restaurants">
+            <div class="restaurant-card">
+                <h3>🥇 Sobrino de Botín</h3>
+                <div class="cuisine">Traditional Castilian • Est. 1725</div>
+                <div class="rating">⭐⭐⭐⭐⭐ World's Oldest Restaurant!</div>
+                <div class="price">💰💰💰 €40-60/person</div>
+                <p>Famous for roast lamb and suckling pig. Hemingway's favorite!</p>
+                <div class="baby-tip">Reserve early seating (1pm lunch). High chairs available.</div>
+                <div class="address">📍 Calle Cuchilleros 17, near Plaza Mayor</div>
+            </div>
+            
+            <div class="restaurant-card">
+                <h3>☕ Chocolatería San Ginés</h3>
+                <div class="cuisine">Churros & Chocolate • Est. 1894</div>
+                <div class="rating">⭐⭐⭐⭐⭐ Classic Madrid!</div>
+                <div class="price">💰 €5-10/person</div>
+                <p>Thick hot chocolate with crispy churros. Open 24 hours!</p>
+                <div class="baby-tip">Go off-peak hours with baby. Quick in-and-out.</div>
+                <div class="address">📍 Pasadizo de San Ginés 5</div>
+            </div>
+            
+            <div class="restaurant-card">
+                <h3>🍷 Mercado de San Miguel</h3>
+                <div class="cuisine">Gourmet Market • Tapas</div>
+                <div class="rating">⭐⭐⭐⭐ Foodie Paradise</div>
+                <div class="price">💰💰 €20-40/person</div>
+                <p>Beautiful iron market with tapas stalls. Great for sampling!</p>
+                <div class="baby-tip">Can get crowded. Best mid-afternoon.</div>
+                <div class="address">📍 Plaza de San Miguel</div>
+            </div>
+            
+            <div class="restaurant-card">
+                <h3>🥘 La Barraca</h3>
+                <div class="cuisine">Valencian • Paella</div>
+                <div class="rating">⭐⭐⭐⭐⭐ Best Paella in Madrid</div>
+                <div class="price">💰💰 €25-40/person</div>
+                <p>Authentic paella - seafood, meat, or mixed. Book ahead!</p>
+                <div class="baby-tip">Spacious, baby-friendly. Rice is easy baby food!</div>
+                <div class="address">📍 Calle de la Reina 29</div>
+            </div>
+            
+            <div class="restaurant-card">
+                <h3>🐙 Casa Labra</h3>
+                <div class="cuisine">Tapas Bar • Est. 1860</div>
+                <div class="rating">⭐⭐⭐⭐ Local Gem</div>
+                <div class="price">💰 €10-15/person</div>
+                <p>Famous cod croquettes and fried cod. Standing room mostly.</p>
+                <div class="baby-tip">Quick stop - order, eat, go. Not for lingering with baby.</div>
+                <div class="address">📍 Calle Tetuán 12</div>
+            </div>
+        </div>
+        
+        <div id="segovia-restaurants" class="hidden">
+            <div class="restaurant-card">
+                <h3>🐷 Mesón de Cándido</h3>
+                <div class="cuisine">Castilian • Est. 1786</div>
+                <div class="rating">⭐⭐⭐⭐⭐ THE Cochinillo Spot</div>
+                <div class="price">💰💰💰 €35-50/person</div>
+                <p>Famous roast suckling pig. They cut it with a plate! Right by aqueduct.</p>
+                <div class="baby-tip">High chairs available. Reserve lunch for quieter vibe.</div>
+                <div class="address">📍 Plaza del Azoguejo 5</div>
+            </div>
+            
+            <div class="restaurant-card">
+                <h3>🥩 José María</h3>
+                <div class="cuisine">Castilian • Traditional</div>
+                <div class="rating">⭐⭐⭐⭐⭐ Local Favorite</div>
+                <div class="price">💰💰💰 €35-50/person</div>
+                <p>Some say better than Cándido! Excellent cochinillo and judiones beans.</p>
+                <div class="baby-tip">More spacious than Cándido. Good for families.</div>
+                <div class="address">📍 Calle Cronista Lecea 11</div>
+            </div>
+            
+            <div class="restaurant-card">
+                <h3>🍰 Limón y Menta</h3>
+                <div class="cuisine">Café • Pastries</div>
+                <div class="rating">⭐⭐⭐⭐ Charming Café</div>
+                <div class="price">💰 €8-15/person</div>
+                <p>Lovely café for coffee, pastries, light lunch. Relaxed atmosphere.</p>
+                <div class="baby-tip">Quiet, relaxed. Great for baby break.</div>
+                <div class="address">📍 Calle Isabel la Católica 2</div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="tips-section" class="content hidden">
+        <h2 style="color: #f4a261; margin-bottom: 20px;">👶 Baby Travel Tips</h2>
+        
+        <div class="card">
+            <h3>👶 Spanish Baby Culture</h3>
+            <p>Spaniards LOVE babies! Expect strangers to coo, touch, and adore your little one. It's all affection!</p>
+        </div>
+        
+        <div class="card">
+            <h3>🍼 Feeding & Supplies</h3>
+            <p><strong>Pharmacies (Farmacias):</strong> Green cross signs. Carry formula, diapers, medicine. Staff often speak English.</p>
+            <p><strong>Supermarkets:</strong> Mercadona, Carrefour, El Corte Inglés have full baby sections.</p>
+            <p><strong>Nursing:</strong> Breastfeeding in public totally accepted and common.</p>
+        </div>
+        
+        <div class="card">
+            <h3>😴 Sleep Schedule Magic</h3>
+            <p><strong>Siesta Culture = Perfect for babies!</strong></p>
+            <p>• Spanish lunch: 2-4pm (baby nap time!)<br>
+            • Dinner: 9-11pm (late, but baby may sleep in stroller)<br>
+            • Plan active mornings, rest midday, evening stroll</p>
+        </div>
+        
+        <div class="card">
+            <h3>🚶 Getting Around</h3>
+            <p><strong>Stroller:</strong> Bring lightweight, easy-fold. Most areas walkable and flat.</p>
+            <p><strong>Metro:</strong> Many stations have elevators (marked). Check accessibility on Citymapper app.</p>
+            <p><strong>Baby carrier:</strong> Essential for El Rastro market and cobblestone areas.</p>
+        </div>
+        
+        <div class="card">
+            <h3>🏨 Accommodation Tips</h3>
+            <p><strong>Apartment recommended!</strong> Kitchen for bottles, more space, washing machine.</p>
+            <p><strong>Best neighborhoods:</strong> Sol, Malasaña, Chueca - central, walkable</p>
+            <p><strong>Request:</strong> Crib, blackout curtains, quiet room</p>
+        </div>
+        
+        <div class="card">
+            <h3>🌡️ December Weather</h3>
+            <p><strong>Madrid:</strong> Cold! 35-50°F (2-10°C). Dress baby in layers.</p>
+            <p><strong>Segovia:</strong> Even colder, can snow. Bundle up!</p>
+            <p><strong>Pack:</strong> Warm blanket for stroller, hat, mittens, warm footie pajamas</p>
+        </div>
+        
+        <div class="card">
+            <h3>📱 Useful Apps</h3>
+            <p>• <strong>Citymapper</strong> - Best for metro/bus with accessibility info<br>
+            • <strong>Google Translate</strong> - Offline Spanish download<br>
+            • <strong>Renfe</strong> - Train tickets to Segovia<br>
+            • <strong>TheFork</strong> - Restaurant reservations</p>
+        </div>
+        
+        <div class="card">
+            <h3>🏥 Emergency Info</h3>
+            <p><strong>Emergency:</strong> 112 (like 911)<br>
+            <strong>Pharmacies:</strong> Look for green cross, many 24hr<br>
+            <strong>Hospital:</strong> Hospital Universitario La Paz (good pediatric)</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Initialize map centered on Madrid
+        const map = L.map('map').setView([40.4168, -3.7038], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // Places data
+        const places = {
+            madrid: [
+                { name: "Plaza Mayor", lat: 40.4155, lng: -3.7074, type: ["must-see", "christmas"], icon: "🎄", desc: "Main square with Christmas market" },
+                { name: "Prado Museum", lat: 40.4138, lng: -3.6921, type: ["must-see", "baby"], icon: "🎨", desc: "World-class art, stroller-friendly" },
+                { name: "Retiro Park", lat: 40.4153, lng: -3.6845, type: ["must-see", "baby"], icon: "🌳", desc: "Beautiful park, great for babies" },
+                { name: "Royal Palace", lat: 40.4180, lng: -3.7143, type: ["must-see"], icon: "👑", desc: "Stunning palace and gardens" },
+                { name: "Gran Vía", lat: 40.4203, lng: -3.7059, type: ["christmas", "baby"], icon: "✨", desc: "Christmas lights spectacular" },
+                { name: "Temple of Debod", lat: 40.4239, lng: -3.7178, type: ["must-see", "baby"], icon: "🌅", desc: "Egyptian temple, sunset views" },
+                { name: "Chocolatería San Ginés", lat: 40.4165, lng: -3.7068, type: ["food"], icon: "☕", desc: "Famous churros, open 24h" },
+                { name: "Mercado San Miguel", lat: 40.4154, lng: -3.7090, type: ["food"], icon: "🍷", desc: "Gourmet tapas market" },
+                { name: "Sobrino de Botín", lat: 40.4144, lng: -3.7079, type: ["food"], icon: "🍖", desc: "World's oldest restaurant" },
+                { name: "La Barraca", lat: 40.4213, lng: -3.6977, type: ["food", "baby"], icon: "🥘", desc: "Best paella in Madrid" },
+            ],
+            segovia: [
+                { name: "Roman Aqueduct", lat: 40.9480, lng: -4.1184, type: ["must-see", "baby"], icon: "🏛️", desc: "2000-year-old marvel" },
+                { name: "Alcázar of Segovia", lat: 40.9518, lng: -4.1299, type: ["must-see"], icon: "🏰", desc: "Disney-inspiring castle" },
+                { name: "Segovia Cathedral", lat: 40.9486, lng: -4.1210, type: ["must-see"], icon: "⛪", desc: "Gothic cathedral" },
+                { name: "Mesón de Cándido", lat: 40.9478, lng: -4.1180, type: ["food"], icon: "🐷", desc: "Famous cochinillo" },
+                { name: "José María", lat: 40.9505, lng: -4.1203, type: ["food"], icon: "🥩", desc: "Local favorite" },
+            ]
+        };
+
+        let markers = [];
+        let currentCity = 'madrid';
+        let currentFilter = 'all';
+
+        function createIcon(emoji) {
+            return L.divIcon({
+                html: `<div style="font-size: 24px; text-shadow: 2px 2px 2px rgba(0,0,0,0.5);">${emoji}</div>`,
+                className: 'emoji-marker',
+                iconSize: [30, 30],
+                iconAnchor: [15, 15]
+            });
+        }
+
+        function updateMap() {
+            // Clear existing markers
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+
+            const cityPlaces = places[currentCity];
+            const center = currentCity === 'madrid' ? [40.4168, -3.7038] : [40.9500, -4.1200];
+            map.setView(center, currentCity === 'madrid' ? 14 : 15);
+
+            cityPlaces.forEach(place => {
+                if (currentFilter === 'all' || place.type.includes(currentFilter)) {
+                    const marker = L.marker([place.lat, place.lng], { icon: createIcon(place.icon) })
+                        .bindPopup(`<strong>${place.icon} ${place.name}</strong><br>${place.desc}`)
+                        .addTo(map);
+                    markers.push(marker);
+                }
+            });
+
+            updatePlacesList();
+        }
+
+        function updatePlacesList() {
+            const list = document.getElementById('places-list');
+            const cityPlaces = places[currentCity];
+            
+            let html = '<div class="cards-grid">';
+            cityPlaces.forEach(place => {
+                if (currentFilter === 'all' || place.type.includes(currentFilter)) {
+                    html += `
+                        <div class="card" onclick="map.setView([${place.lat}, ${place.lng}], 16)">
+                            <h3>${place.icon} ${place.name}</h3>
+                            <p>${place.desc}</p>
+                            <div class="tags">
+                                ${place.type.map(t => `<span class="tag ${t}">${t}</span>`).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+            });
+            html += '</div>';
+            list.innerHTML = html;
+        }
+
+        // Tab switching
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                const tabName = tab.dataset.tab;
+                document.getElementById('map-section').classList.toggle('hidden', tabName !== 'map');
+                document.getElementById('itinerary-section').classList.toggle('hidden', tabName !== 'itinerary');
+                document.getElementById('restaurants-section').classList.toggle('hidden', tabName !== 'restaurants');
+                document.getElementById('tips-section').classList.toggle('hidden', tabName !== 'tips');
+                
+                if (tabName === 'map') {
+                    setTimeout(() => map.invalidateSize(), 100);
+                }
+            });
+        });
+
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                updateMap();
+            });
+        });
+
+        // City toggle (map section)
+        document.querySelectorAll('#map-section .city-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#map-section .city-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentCity = btn.dataset.city;
+                updateMap();
+            });
+        });
+
+        // City toggle (restaurants section)
+        document.querySelectorAll('#restaurants-section .city-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#restaurants-section .city-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const city = btn.dataset.city;
+                document.getElementById('madrid-restaurants').classList.toggle('hidden', city !== 'madrid-food');
+                document.getElementById('segovia-restaurants').classList.toggle('hidden', city !== 'segovia-food');
+            });
+        });
+
+        // Initialize
+        updateMap();
+    </script>
+</body>
+</html>

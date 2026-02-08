@@ -1,0 +1,2352 @@
+{
+  "gameWinner": [
+    {
+      "id": "1269423",
+      "question": "Seahawks vs. Patriots",
+      "closed": false,
+      "volume": 6127956.284468,
+      "outcomes": [
+        "Seahawks",
+        "Patriots"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08"
+    },
+    {
+      "id": "1269481",
+      "question": "Seahawks vs. Patriots: 1H Moneyline",
+      "closed": false,
+      "volume": 75547.417117,
+      "outcomes": [
+        "Seahawks",
+        "Patriots"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-1h-moneyline"
+    }
+  ],
+  "mvp": [
+    {
+      "id": "564161",
+      "question": "Will Nikola Jokic win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 1832189.446122,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-nikola-jokic-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564162",
+      "question": "Will Shai Gilgeous-Alexander win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 1461374.438332,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-shai-gilgeous-alexander-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564163",
+      "question": "Will Luka Doncic win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 2158614.664427,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-luka-doncic-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564164",
+      "question": "Will Giannis Antetokounmpo win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 379210.440214,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-giannis-antetokounmpo-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564165",
+      "question": "Will Anthony Edwards win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 724140.866647,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-anthony-edwards-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564166",
+      "question": "Will Victor Wembanyama win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 643039.069331,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-victor-wembanyama-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564167",
+      "question": "Will Jalen Brunson win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 326364.919525,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jalen-brunson-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564168",
+      "question": "Will Cade Cunningham win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 699514.119598,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-cade-cunningham-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564169",
+      "question": "Will Donovan Mitchell win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 231917.432232,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-donovan-mitchell-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564170",
+      "question": "Will Kevin Durant win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 443537.917831,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-kevin-durant-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564171",
+      "question": "Will Paolo Banchero win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 1396237.298463,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-paolo-banchero-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564172",
+      "question": "Will Stephen Curry win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 297934.611005,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-stephen-curry-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564173",
+      "question": "Will Anthony Davis win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 842915.205797,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-anthony-davis-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564174",
+      "question": "Will Joel Embiid win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 1453461.355046,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-joel-embiid-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564175",
+      "question": "Will Jaylen Brown win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 913099.490151,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jaylen-brown-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564176",
+      "question": "Will Trae Young win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 4772457.06776,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-trae-young-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564177",
+      "question": "Will Kawhi Leonard win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 340355.35398,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-kawhi-leonard-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564178",
+      "question": "Will LeBron James win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 284427.895825,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-lebron-james-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564179",
+      "question": "Will Ja Morant win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 2564378.758974,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-ja-morant-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564180",
+      "question": "Will Devin Booker win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 883056.93328,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-devin-booker-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564181",
+      "question": "Will Cooper Flagg win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 524047.86078,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-cooper-flagg-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "564183",
+      "question": "Will Tyrese Maxey win the 2025–2026 NBA MVP?",
+      "closed": false,
+      "volume": 430873.089728,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-tyrese-maxey-win-the-20252026-nba-mvp"
+    },
+    {
+      "id": "1117221",
+      "question": "Will Forsen be the NLC 2026 Winter Split MVP?",
+      "closed": false,
+      "volume": 2811.486093,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-forsen-be-the-nlc-2026-winter-split-mvp"
+    },
+    {
+      "id": "1271564",
+      "question": "Will Sam Darnold win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 190368.774474,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-sam-darnold-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271565",
+      "question": "Will Drake Maye win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 267635.034795,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-drake-maye-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271566",
+      "question": "Will Jaxon Smith-Njigba win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 234237.211899,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jaxon-smith-njigba-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271567",
+      "question": "Will Kenneth Walker III win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 246651.044642,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-kenneth-walker-iii-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271568",
+      "question": "Will Rhamondre Stevenson win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 108789.92437,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-rhamondre-stevenson-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271569",
+      "question": "Will Rashid Shaheed win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 83448.754578,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-rashid-shaheed-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271570",
+      "question": "Will Stefon Diggs win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 97915.43019,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-stefon-diggs-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271571",
+      "question": "Will Nick Emmanwori win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 128085.432474,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-nick-emmanwori-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271572",
+      "question": "Will Jason Myers win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 69861.836109,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jason-myers-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271573",
+      "question": "Will DeMarcus Lawrence win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 99233.114711,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-demarcus-lawrence-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271574",
+      "question": "Will Cooper Kupp win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 111061.942334,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-cooper-kupp-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271575",
+      "question": "Will Leonard Williams win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 75595.49933,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-leonard-williams-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271576",
+      "question": "Will Marcus Jones win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 100420.959756,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-marcus-jones-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271577",
+      "question": "Will Kayshon Boutte win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 139777.989078,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-kayshon-boutte-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271578",
+      "question": "Will Byron Murphy win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 96674.745594,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-byron-murphy-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271579",
+      "question": "Will Devon Witherspoon win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 91450.965763,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-devon-witherspoon-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271580",
+      "question": "Will Hunter Henry win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 83122.974998,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-hunter-henry-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271581",
+      "question": "Will Coby Bryant win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 100667.86991,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-coby-bryant-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271582",
+      "question": "Will Ernest Jones win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 104728.410348,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-ernest-jones-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271583",
+      "question": "Will Mack Hollins win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 58502.095408,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-mack-hollins-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271584",
+      "question": "Will AJ Barner win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 69256.974,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-aj-barner-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271585",
+      "question": "Will TreVeyon Henderson win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 151571.38595,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-treveyon-henderson-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271586",
+      "question": "Will Jake Bobo win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 35306.631,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jake-bobo-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271587",
+      "question": "Will Milton Williams win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 130196.256926,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-milton-williams-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271588",
+      "question": "Will Christian Gonzalez win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 93456.196888,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-christian-gonzalez-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271589",
+      "question": "Will Andres Borregales win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 104636.3238,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-andres-borregales-win-the-super-bowl-lx-mvp"
+    },
+    {
+      "id": "1271590",
+      "question": "Will Uchenna Nwosu win the Super Bowl LX MVP?",
+      "closed": false,
+      "volume": 32188.230133,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-uchenna-nwosu-win-the-super-bowl-lx-mvp"
+    }
+  ],
+  "spread": [
+    {
+      "id": "1269476",
+      "question": "Spread: Seahawks (-5.5)",
+      "closed": false,
+      "volume": 1550975.930591,
+      "outcomes": [
+        "Seahawks",
+        "Patriots"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-spread-away-5pt5"
+    },
+    {
+      "id": "1269572",
+      "question": "1H Spread: Seahawks (-3.5)",
+      "closed": false,
+      "volume": 23434.798752,
+      "outcomes": [
+        "Seahawks",
+        "Patriots"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-1h-spread-away-3pt5"
+    },
+    {
+      "id": "1271400",
+      "question": "Spread: Seahawks (-4.5)",
+      "closed": false,
+      "volume": 5263260.191825,
+      "outcomes": [
+        "Seahawks",
+        "Patriots"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-spread-away-4pt5"
+    },
+    {
+      "id": "1272562",
+      "question": "1H Spread: Seahawks (-2.5)",
+      "closed": false,
+      "volume": 135646.394923,
+      "outcomes": [
+        "Seahawks",
+        "Patriots"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-1h-spread-away-2pt5"
+    },
+    {
+      "id": "1350051",
+      "question": "Spread: George Mason Patriots (-7.5)",
+      "closed": false,
+      "volume": 147.916665,
+      "outcomes": [
+        "George Mason Patriots",
+        "Saint Joseph's Hawks"
+      ],
+      "slug": "cbb-stjoe-gmsn-2026-02-07-spread-home-7pt5"
+    }
+  ],
+  "totals": [
+    {
+      "id": "1269477",
+      "question": "Seahawks vs. Patriots: O/U 46.5",
+      "closed": false,
+      "volume": 246658.881829,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-total-46pt5"
+    },
+    {
+      "id": "1269478",
+      "question": "Seahawks Team Total: O/U 25.5",
+      "closed": false,
+      "volume": 9260.540974,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-25pt5"
+    },
+    {
+      "id": "1269479",
+      "question": "Patriots Team Total: O/U 20.5",
+      "closed": false,
+      "volume": 11298.743503,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-ne-20pt5"
+    },
+    {
+      "id": "1269480",
+      "question": "Seahawks vs. Patriots: 1H O/U 23.5",
+      "closed": false,
+      "volume": 5454.156666,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-1h-total-23pt5"
+    },
+    {
+      "id": "1269570",
+      "question": "Seahawks Team Total: O/U 20.5",
+      "closed": false,
+      "volume": 7895.550938,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-20pt5"
+    },
+    {
+      "id": "1269571",
+      "question": "Patriots Team Total: O/U 15.5",
+      "closed": false,
+      "volume": 11269.072982,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-ne-15pt5"
+    },
+    {
+      "id": "1269573",
+      "question": "Seahawks vs. Patriots: 1H O/U 22.5",
+      "closed": false,
+      "volume": 1192.135093,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-1h-total-22pt5"
+    },
+    {
+      "id": "1270769",
+      "question": "Seahawks Team Total: O/U 16.5",
+      "closed": false,
+      "volume": 107.09427,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-16pt5"
+    },
+    {
+      "id": "1270770",
+      "question": "Patriots Team Total: O/U 29.5",
+      "closed": false,
+      "volume": 24023.317473,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-ne-29pt5"
+    },
+    {
+      "id": "1271085",
+      "question": "Seahawks Team Total: O/U 23.5",
+      "closed": false,
+      "volume": 23513.12844,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-23pt5"
+    },
+    {
+      "id": "1271086",
+      "question": "Patriots Team Total: O/U 16.5",
+      "closed": false,
+      "volume": 22374.129348,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-ne-16pt5"
+    },
+    {
+      "id": "1271202",
+      "question": "Patriots Team Total: O/U 17.5",
+      "closed": false,
+      "volume": 3545.796565,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-ne-17pt5"
+    },
+    {
+      "id": "1272560",
+      "question": "Seahawks Team Total: O/U 15.5",
+      "closed": false,
+      "volume": 110,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-15pt5"
+    },
+    {
+      "id": "1272561",
+      "question": "Patriots Team Total: O/U 21.5",
+      "closed": false,
+      "volume": 445.874973,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-ne-21pt5"
+    },
+    {
+      "id": "1278529",
+      "question": "Seahawks Team Total: O/U 22.5",
+      "closed": false,
+      "volume": 87562.583736,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-22pt5"
+    },
+    {
+      "id": "1286557",
+      "question": "Seahawks Team Total: O/U 24.5",
+      "closed": false,
+      "volume": 615.859778,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-24pt5"
+    },
+    {
+      "id": "1292791",
+      "question": "Seahawks vs. Patriots: O/U 45.5",
+      "closed": false,
+      "volume": 225119.29873,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-total-45pt5"
+    },
+    {
+      "id": "1292792",
+      "question": "Seahawks vs. Patriots: 1H O/U 21.5",
+      "closed": false,
+      "volume": 74187.278562,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-1h-total-21pt5"
+    },
+    {
+      "id": "1310069",
+      "question": "Patriots Team Total: O/U 23.5",
+      "closed": false,
+      "volume": 5158.135498,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-ne-23pt5"
+    },
+    {
+      "id": "1315264",
+      "question": "Seahawks Team Total: O/U 26.5",
+      "closed": false,
+      "volume": 154.615383,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "nfl-sea-ne-2026-02-08-team-total-sea-26pt5"
+    },
+    {
+      "id": "1350056",
+      "question": "Saint Joseph's Hawks vs. George Mason Patriots: O/U 139.5",
+      "closed": false,
+      "volume": 2192.35294,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "cbb-stjoe-gmsn-2026-02-07-total-139pt5"
+    },
+    {
+      "id": "1353007",
+      "question": "Saint Joseph's Hawks vs. George Mason Patriots: O/U 140.5",
+      "closed": false,
+      "volume": 1818.181817,
+      "outcomes": [
+        "Over",
+        "Under"
+      ],
+      "slug": "cbb-stjoe-gmsn-2026-02-07-total-140pt5"
+    }
+  ],
+  "halftime": [
+    {
+      "id": "555781",
+      "question": "Will Miley Cyrus perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 27925.343479,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-miley-cyrus-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555782",
+      "question": "Will Chappell Roan perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 7685.517757,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-chappell-roan-perform-during-the-super-bowl-lx-halftime-show-174"
+    },
+    {
+      "id": "555783",
+      "question": "Will Oasis perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 36026.607272,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-oasis-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555784",
+      "question": "Will Christina Aguilera perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 7197.217273,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-christina-aguilera-perform-during-the-super-bowl-lx-halftime-show-677"
+    },
+    {
+      "id": "555785",
+      "question": "Will Sabrina Carpenter perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 23230.550574,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-sabrina-carpenter-perform-during-the-super-bowl-lx-halftime-show-522"
+    },
+    {
+      "id": "555786",
+      "question": "Will Metallica perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 29337.49823,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-metallica-perform-during-the-super-bowl-lx-halftime-show-383"
+    },
+    {
+      "id": "555787",
+      "question": "Will Dua Lipa perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 56684.089277,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-dua-lipa-perform-during-the-super-bowl-lx-halftime-show-523"
+    },
+    {
+      "id": "555788",
+      "question": "Will Charli XCX perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 4471.305008,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-charli-xcx-perform-during-the-super-bowl-lx-halftime-show-616"
+    },
+    {
+      "id": "555789",
+      "question": "Will Billie Eilish perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 16127.912643,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-billie-eilish-perform-during-the-super-bowl-lx-halftime-show-375"
+    },
+    {
+      "id": "555790",
+      "question": "Will Post Malone perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 36923.018119,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-post-malone-perform-during-the-super-bowl-lx-halftime-show-334"
+    },
+    {
+      "id": "555791",
+      "question": "Will No Doubt perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 55413.416928,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-no-doubt-perform-during-the-super-bowl-lx-halftime-show-739"
+    },
+    {
+      "id": "555792",
+      "question": "Will Taylor Swift perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 104374.831005,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-taylor-swift-perform-during-the-super-bowl-lx-halftime-show-575-927"
+    },
+    {
+      "id": "555793",
+      "question": "Will Cardi B perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 322040.718502,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-cardi-b-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555794",
+      "question": "Will Ed Sheeran perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 25766.972753,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-ed-sheeran-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555795",
+      "question": "Will Doechii perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 5555.60513,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-doechii-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555796",
+      "question": "Will Justin Bieber perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 8180.493216,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-justin-bieber-perform-during-the-super-bowl-lx-halftime-show-731"
+    },
+    {
+      "id": "555797",
+      "question": "Will Teddy Swims perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 6992.891138,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-teddy-swims-perform-during-the-super-bowl-lx-halftime-show-343"
+    },
+    {
+      "id": "555798",
+      "question": "Will Adele perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 10733.370894,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-adele-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555799",
+      "question": "Will Bad Bunny perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 391180.966622,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-bad-bunny-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555800",
+      "question": "Will Drake perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 489689.614842,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-drake-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555801",
+      "question": "Will Green Day perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 38283.690846,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-green-day-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555802",
+      "question": "Will Travis Scott perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 121095.68488,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-travis-scott-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555803",
+      "question": "Will Olivia Rodrigo perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 9137.243783,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-olivia-rodrigo-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555804",
+      "question": "Will Luke Combs perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 3654.829867,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-luke-combs-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555805",
+      "question": "Will Benson Boone perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 5254.269765,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-benson-boone-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555806",
+      "question": "Will The Killers perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 3625.792537,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-killers-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555807",
+      "question": "Will Harry Styles perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 33741.433468,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-harry-styles-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555808",
+      "question": "Will Morgan Wallen perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 16140.493548,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-morgan-wallen-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555809",
+      "question": "Will Gracie Abrams perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 27909.178902,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-gracie-abrams-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555810",
+      "question": "Will Pink perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 3554.624294,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-pink-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555811",
+      "question": "Will Foo Fighters perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 8651.519457,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-foo-fighters-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "555812",
+      "question": "Will Robbie Williams perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 40558.555163,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-robbie-williams-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "556120",
+      "question": "Will Jay-Z perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 17461.7992,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jay-z-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1272563",
+      "question": "Will the 2026 Bad Bunny Super Bowl halftime show video get fewer than 50M views in its first 7 days?",
+      "closed": false,
+      "volume": 8905.78382,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-2026-bad-bunny-super-bowl-halftime-show-video-get-fewer-than-50m-views-in-its-first-7-days"
+    },
+    {
+      "id": "1272564",
+      "question": "Will the 2026 Bad Bunny Super Bowl halftime show video get between 50M and 75M views in its first 7 days?",
+      "closed": false,
+      "volume": 2327.509171,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-2026-bad-bunny-super-bowl-halftime-show-video-get-between-50m-and-75m-views-in-its-first-7-days"
+    },
+    {
+      "id": "1272565",
+      "question": "Will the 2026 Bad Bunny Super Bowl halftime show video get between 75M and 100M views in its first 7 days?",
+      "closed": false,
+      "volume": 1988.007174,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-2026-bad-bunny-super-bowl-halftime-show-video-get-between-75m-and-100m-views-in-its-first-7-days"
+    },
+    {
+      "id": "1272566",
+      "question": "Will the 2026 Bad Bunny Super Bowl halftime show video get between 100M and 125M views in its first 7 days?",
+      "closed": false,
+      "volume": 4656.537373,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-2026-bad-bunny-super-bowl-halftime-show-video-get-between-100m-and-125m-views-in-its-first-7-days"
+    },
+    {
+      "id": "1272567",
+      "question": "Will the 2026 Bad Bunny Super Bowl halftime show video get between 125M and 150M views in its first 7 days?",
+      "closed": false,
+      "volume": 1910.189373,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-2026-bad-bunny-super-bowl-halftime-show-video-get-between-125m-and-150m-views-in-its-first-7-days"
+    },
+    {
+      "id": "1272568",
+      "question": "Will the 2026 Bad Bunny Super Bowl halftime show video get at least 150M views in its first 7 days?",
+      "closed": false,
+      "volume": 3096.573225,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-2026-bad-bunny-super-bowl-halftime-show-video-get-at-least-150m-views-in-its-first-7-days"
+    },
+    {
+      "id": "1272580",
+      "question": "Will the 2026 Bad Bunny Super Bowl halftime show video not be posted?",
+      "closed": false,
+      "volume": 1653.819219,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-2026-bad-bunny-super-bowl-halftime-show-video-not-be-posted"
+    },
+    {
+      "id": "1273606",
+      "question": "Will Elon Musk perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 2482.289971,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-elon-musk-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1273628",
+      "question": "Will Joe Biden perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 1464.234,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-joe-biden-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1273633",
+      "question": "Will Erika Kirk perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 2546.629777,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-erika-kirk-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1273635",
+      "question": "Will Diddy perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 5200.182665,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-diddy-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1286764",
+      "question": "Will Antonio Brown perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 707.86,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-antonio-brown-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1335816",
+      "question": "Will J Balvin perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 10897.287876,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-j-balvin-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1335817",
+      "question": "Will Tainy perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 6109.107836,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-tainy-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1335825",
+      "question": "Will Karol G perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 3973.39866,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-karol-g-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1335826",
+      "question": "Will Rauw Alejandro perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 4814.601127,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-rauw-alejandro-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1346058",
+      "question": "Will Lady Gaga perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 106213.49997,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-lady-gaga-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1349088",
+      "question": "Will Ricky Martin perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 15129.114042,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-ricky-martin-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1349089",
+      "question": "Will Marc Anthony perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 206.85,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-marc-anthony-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1349118",
+      "question": "Will Elvis Crespo perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 272.29695,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-elvis-crespo-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1349133",
+      "question": "Will Grupo Frontera perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 980.29,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-grupo-frontera-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1349135",
+      "question": "Will Santana perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 221.2704,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-santana-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1349136",
+      "question": "Will Rosalia perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 424.715943,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-rosalia-perform-during-the-super-bowl-lx-halftime-show"
+    },
+    {
+      "id": "1349137",
+      "question": "Will Romeo Santos perform during the Super Bowl LX halftime show?",
+      "closed": false,
+      "volume": 352.27831,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-romeo-santos-perform-during-the-super-bowl-lx-halftime-show"
+    }
+  ],
+  "coinToss": [],
+  "gatorade": [
+    {
+      "id": "1279218",
+      "question": "Will the Gatorade shower at Super Bowl LX be blue?",
+      "closed": false,
+      "volume": 38458.929081,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-gatorade-shower-at-super-bowl-lx-be-blue"
+    },
+    {
+      "id": "1279219",
+      "question": "Will the Gatorade shower at Super Bowl LX be orange?",
+      "closed": false,
+      "volume": 26603.034369,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-gatorade-shower-at-super-bowl-lx-be-orange"
+    },
+    {
+      "id": "1279220",
+      "question": "Will the Gatorade shower at Super Bowl LX be green/yellow?",
+      "closed": false,
+      "volume": 46610.960764,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-gatorade-shower-at-super-bowl-lx-be-greenyellow"
+    },
+    {
+      "id": "1279221",
+      "question": "Will the Gatorade shower at Super Bowl LX be red/pink?",
+      "closed": false,
+      "volume": 43395.295791,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-gatorade-shower-at-super-bowl-lx-be-redpink"
+    },
+    {
+      "id": "1279222",
+      "question": "Will the Gatorade shower at Super Bowl LX be purple?",
+      "closed": false,
+      "volume": 23154.952534,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-gatorade-shower-at-super-bowl-lx-be-purple"
+    },
+    {
+      "id": "1279223",
+      "question": "Will the Gatorade shower at Super Bowl LX be clear/water?",
+      "closed": false,
+      "volume": 18267.316067,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-gatorade-shower-at-super-bowl-lx-be-clearwater"
+    },
+    {
+      "id": "1279224",
+      "question": "No Gatorade shower at Super Bowl LX?",
+      "closed": false,
+      "volume": 17106.466298,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "no-gatorade-shower-at-super-bowl-lx"
+    }
+  ],
+  "anthem": [],
+  "props": [
+    {
+      "id": "540227",
+      "question": "Will the New England Patriots win Super Bowl 2026?",
+      "closed": false,
+      "volume": 15947236.355871,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-new-england-patriots-win-super-bowl-2026"
+    },
+    {
+      "id": "540234",
+      "question": "Will the Seattle Seahawks win Super Bowl 2026?",
+      "closed": false,
+      "volume": 12804131.998385,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-seattle-seahawks-win-super-bowl-2026"
+    },
+    {
+      "id": "825471",
+      "question": "Will Ramsey Robinson advance from the 2026 California Governor primary election?",
+      "closed": false,
+      "volume": 478.255812,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-ramsey-robinson-get-the-first-or-second-most-votes-in-the-2026-california-governor-primary-election"
+    },
+    {
+      "id": "988839",
+      "question": "Howard Bison vs. UNCW Seahawks",
+      "closed": false,
+      "volume": 249.483543,
+      "outcomes": [
+        "Howard Bison",
+        "UNCW Seahawks"
+      ],
+      "slug": "cbb-howrd-ncw-2025-12-27"
+    },
+    {
+      "id": "1005923",
+      "question": "Will Bella Ramsey win Best Actress in a Drama Series at the 2026 SAG Awards?",
+      "closed": false,
+      "volume": 266.324433,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-bella-ramsey-win-best-actress-in-a-drama-series-at-the-2026-sag-awards"
+    },
+    {
+      "id": "1057812",
+      "question": "Hofstra Pride vs. UNCW Seahawks (W)",
+      "closed": false,
+      "volume": 130.42,
+      "outcomes": [
+        "Hofstra Pride",
+        "UNCW Seahawks"
+      ],
+      "slug": "cwbb-hofst-ncw-2026-01-04"
+    },
+    {
+      "id": "1057823",
+      "question": "Wagner Seahawks vs. Stonehill Skyhawks (W)",
+      "closed": false,
+      "volume": 135.42,
+      "outcomes": [
+        "Wagner Seahawks",
+        "Stonehill Skyhawks"
+      ],
+      "slug": "cwbb-wag-stnh-2026-01-04"
+    },
+    {
+      "id": "1090116",
+      "question": "Will Coca Cola run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 31199.992932,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-coca-cola-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090117",
+      "question": "Will Coinbase run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 127303.466854,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-coinbase-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090118",
+      "question": "Will Apple run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 18303.866747,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-apple-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090119",
+      "question": "Will Verizon/Visible run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 13589.440556,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-verizonvisible-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090120",
+      "question": "Will Anthropic run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 223800.617409,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-anthropic-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090121",
+      "question": "Will OpenAI run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 50145.33942,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-openai-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090122",
+      "question": "Will Perplexity run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 9631.211322,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-perplexity-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090123",
+      "question": "Will Hyundai run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 16596.33666,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-hyundai-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090124",
+      "question": "Will Toyota run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 20782.968248,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-toyota-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090125",
+      "question": "Will Progressive run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 8510.174143,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-progressive-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090126",
+      "question": "Will State Farm run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 29023.263536,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-state-farm-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090127",
+      "question": "Will Allstate run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 23291.083096,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-allstate-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090128",
+      "question": "Will xAI or X run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 12792.485597,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-xai-or-x-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090129",
+      "question": "Will Nvidia run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 9005.013769,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-nvidia-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090130",
+      "question": "Will Ripple run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 2147.228932,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-ripple-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090131",
+      "question": "Will Robinhood run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 13166.67319,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-robinhood-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090134",
+      "question": "Will Salesforce run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 11638.73585,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-salesforce-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090136",
+      "question": "Will Amazon run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 26334.434393,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-amazon-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090137",
+      "question": "Will Google run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 31600.193966,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-google-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090143",
+      "question": "Will DeepSeek run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 5614.686305,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-deepseek-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090144",
+      "question": "Will Solana run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 1132.216799,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-solana-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090145",
+      "question": "Will Kraken run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 1356.358375,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-kraken-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090146",
+      "question": "Will Gemini run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 4635.592569,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-gemini-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1090149",
+      "question": "Will Crypto.com run an Ad during Super Bowl LX?",
+      "closed": false,
+      "volume": 36602.303568,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-cryptocom-run-an-ad-during-super-bowl-lx"
+    },
+    {
+      "id": "1118203",
+      "question": "Will New England beat Seattle in Super Bowl LX?",
+      "closed": false,
+      "volume": 45620.733234,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-new-england-beat-seattle-in-super-bowl-lx"
+    },
+    {
+      "id": "1118258",
+      "question": "Will Seattle beat New England in Super Bowl LX?",
+      "closed": false,
+      "volume": 52862.752112,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-seattle-beat-new-england-in-super-bowl-lx"
+    },
+    {
+      "id": "1118513",
+      "question": "Will a No. 1 seed win Super Bowl LX",
+      "closed": false,
+      "volume": 2980.059953,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-a-no-1-seed-win-super-bowl-lx"
+    },
+    {
+      "id": "1118514",
+      "question": "Will a No. 2 seed win Super Bowl LX",
+      "closed": false,
+      "volume": 182.32,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-a-no-2-seed-win-super-bowl-lx"
+    },
+    {
+      "id": "1140334",
+      "question": "Will the New England Patriots be eliminated in the Super Bowl?",
+      "closed": false,
+      "volume": 23944.781639,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-new-england-patriots-be-eliminated-in-the-super-bowl"
+    },
+    {
+      "id": "1140335",
+      "question": "Will the New England Patriots win the Super Bowl?",
+      "closed": false,
+      "volume": 25584.527108,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-new-england-patriots-win-the-super-bowl"
+    },
+    {
+      "id": "1140421",
+      "question": "Will the Seattle Seahawks be eliminated in the Super Bowl?",
+      "closed": false,
+      "volume": 31419.489038,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-seattle-seahawks-be-eliminated-in-the-super-bowl"
+    },
+    {
+      "id": "1140422",
+      "question": "Will the Seattle Seahawks win the Super Bowl?",
+      "closed": false,
+      "volume": 21026.17001,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-the-seattle-seahawks-win-the-super-bowl"
+    },
+    {
+      "id": "1160163",
+      "question": "Will Go Ahead Eagles win on 2026-02-08?",
+      "closed": false,
+      "volume": 1832.928108,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "ere-goa-tel-2026-02-08-goa"
+    },
+    {
+      "id": "1190781",
+      "question": "Will Go Ahead Eagles win on 2026-02-11?",
+      "closed": false,
+      "volume": 253.805713,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "ere-goa-her1-2026-02-11-goa"
+    },
+    {
+      "id": "1213784",
+      "question": "Will Go Ahead Eagles win on 2026-02-15?",
+      "closed": false,
+      "volume": 162.873743,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "ere-fey-goa-2026-02-15-goa"
+    },
+    {
+      "id": "1220197",
+      "question": "Wagner Seahawks vs. LIU Sharks",
+      "closed": false,
+      "volume": 4229.101782,
+      "outcomes": [
+        "Wagner Seahawks",
+        "LIU Sharks"
+      ],
+      "slug": "cbb-wag-liub-2026-01-25"
+    },
+    {
+      "id": "1228627",
+      "question": "Will Rams Başakşehir FK win on 2026-02-08?",
+      "closed": false,
+      "volume": 1149.7108,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "tur-eyu-iba-2026-02-08-iba"
+    },
+    {
+      "id": "1251704",
+      "question": "Will Super Bowl LX have less than 116M viewers?",
+      "closed": false,
+      "volume": 8429.314986,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-less-than-116m-viewers"
+    },
+    {
+      "id": "1251705",
+      "question": "Will Super Bowl LX have between 116M and 120M viewers?",
+      "closed": false,
+      "volume": 8769.958782,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-between-116m-and-120m-viewers"
+    },
+    {
+      "id": "1251706",
+      "question": "Will Super Bowl LX have between 120M and 124M viewers?",
+      "closed": false,
+      "volume": 5409.995127,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-between-120m-and-124m-viewers"
+    },
+    {
+      "id": "1251707",
+      "question": "Will Super Bowl LX have between 124M and 128M viewers?",
+      "closed": false,
+      "volume": 3943.14834,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-between-124m-and-128m-viewers"
+    },
+    {
+      "id": "1251708",
+      "question": "Will Super Bowl LX have between 128M and 132M viewers?",
+      "closed": false,
+      "volume": 7411.356074,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-between-128m-and-132m-viewers"
+    },
+    {
+      "id": "1251709",
+      "question": "Will Super Bowl LX have between 132M and 136M viewers?",
+      "closed": false,
+      "volume": 4450.308114,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-between-132m-and-136m-viewers"
+    },
+    {
+      "id": "1251710",
+      "question": "Will Super Bowl LX have between 136M and 140M viewers?",
+      "closed": false,
+      "volume": 9557.823872,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-between-136m-and-140m-viewers"
+    },
+    {
+      "id": "1251711",
+      "question": "Will Super Bowl LX have at least 140M viewers?",
+      "closed": false,
+      "volume": 9780.569935,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-super-bowl-lx-have-at-least-140m-viewers"
+    },
+    {
+      "id": "1313696",
+      "question": "Saint Joseph's Hawks vs. George Mason Patriots",
+      "closed": false,
+      "volume": 12716.264455,
+      "outcomes": [
+        "Saint Joseph's Hawks",
+        "George Mason Patriots"
+      ],
+      "slug": "cbb-stjoe-gmsn-2026-02-07"
+    },
+    {
+      "id": "1322627",
+      "question": "Supá Bowl: 'Seahawks Revenge' Parlay",
+      "closed": false,
+      "volume": 616.767958,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "pro-football-championship-seahawks-revenge-parlay"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1300574",
+      "question": "Will Donald Trump attend Super Bowl LX?",
+      "closed": false,
+      "volume": 98516.259763,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-donald-trump-attend-super-bowl-lx"
+    },
+    {
+      "id": "1300575",
+      "question": "Will Taylor Swift attend Super Bowl LX?",
+      "closed": false,
+      "volume": 3706.451387,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-taylor-swift-attend-super-bowl-lx"
+    },
+    {
+      "id": "1300576",
+      "question": "Will Elon Musk attend Super Bowl LX?",
+      "closed": false,
+      "volume": 3535.252634,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-elon-musk-attend-super-bowl-lx"
+    },
+    {
+      "id": "1300577",
+      "question": "Will Erika Kirk attend Super Bowl LX?",
+      "closed": false,
+      "volume": 36939.280397,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-erika-kirk-attend-super-bowl-lx"
+    },
+    {
+      "id": "1300578",
+      "question": "Will J.D. Vance attend Super Bowl LX?",
+      "closed": false,
+      "volume": 52665.863509,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jd-vance-attend-super-bowl-lx"
+    },
+    {
+      "id": "1300579",
+      "question": "Will Lionel Messi attend Super Bowl LX?",
+      "closed": false,
+      "volume": 6866.670873,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-lionel-messi-attend-super-bowl-lx"
+    },
+    {
+      "id": "1300580",
+      "question": "Will Mark Zuckerberg attend Super Bowl LX?",
+      "closed": false,
+      "volume": 25843.365267,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-mark-zuckerberg-attend-super-bowl-lx"
+    },
+    {
+      "id": "1300581",
+      "question": "Will Jeff Bezos attend Super Bowl LX?",
+      "closed": false,
+      "volume": 6162.256281,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-jeff-bezos-attend-super-bowl-lx"
+    },
+    {
+      "id": "1326322",
+      "question": "Will Tom Brady attend Super Bowl LX?",
+      "closed": false,
+      "volume": 1312.014184,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-tom-brady-attend-super-bowl-lx"
+    },
+    {
+      "id": "1326327",
+      "question": "Will Nicki Minaj attend Super Bowl LX?",
+      "closed": false,
+      "volume": 373.250413,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-nicki-minaj-attend-super-bowl-lx"
+    },
+    {
+      "id": "1326421",
+      "question": "Will Gavin Newsom attend Super Bowl LX?",
+      "closed": false,
+      "volume": 2456.013637,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-gavin-newsom-attend-super-bowl-lx"
+    },
+    {
+      "id": "1326425",
+      "question": "Will Barron Trump attend Super Bowl LX?",
+      "closed": false,
+      "volume": 1202.587595,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-barron-trump-attend-super-bowl-lx"
+    },
+    {
+      "id": "1326429",
+      "question": "Will Livvy Dunne attend Super Bowl LX?",
+      "closed": false,
+      "volume": 418.470044,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-livvy-dunne-attend-super-bowl-lx"
+    },
+    {
+      "id": "1326430",
+      "question": "Will LeBron James attend Super Bowl LX?",
+      "closed": false,
+      "volume": 292.063011,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-lebron-james-attend-super-bowl-lx"
+    },
+    {
+      "id": "1326431",
+      "question": "Will Sam Altman attend Super Bowl LX?",
+      "closed": false,
+      "volume": 1264.117559,
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "slug": "will-sam-altman-attend-super-bowl-lx"
+    }
+  ]
+}

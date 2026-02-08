@@ -1,0 +1,4 @@
+Strategy,Win_Rate,Avg_Win_Pct,Avg_Loss_Pct,Payoff_Ratio,Kelly_Pct,Conservative_Kelly,Applied_Pct,Max_Position_Size
+MUSK_HYPE_FADE,0.849,0.46,0.18,2.56,78.9,39.5,2.0,2.0
+WILL_PREDICTION_FADE,0.767,0.18,0.08,2.25,66.4,33.2,2.0,2.0
+BTC_TIME_BIAS,0.588,0.84,0.52,1.62,33.3,16.7,1.5,1.5

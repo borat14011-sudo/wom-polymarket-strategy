@@ -1,0 +1,12 @@
+entry_timestamp,market_id,market_question,entry_price,position_size,strategy,side,entry_fees,exit_timestamp,exit_price,outcome,gross_pnl,exit_fees,net_pnl,roi_pct,holding_hours,bankroll_balance,notes
+2025-02-08T10:30:00Z,will-bitcoin-hit-100k-in-2025,Will Bitcoin hit $100k in 2025?,0.52,100,1,YES,2.00,,,,,,,,,5000,INITIAL_BANKROLL
+2025-02-08T11:15:00Z,will-team-x-win-championship,Will Team X win the championship?,0.15,50,2,NO,1.00,,,,,,,,,5000,EXAMPLE_LONGSHOT_FADE
+2025-02-08T12:00:00Z,will-candidate-win-election,Will Candidate Y win the election?,0.65,75,3,YES,1.50,,,,,,,,,5000,EXAMPLE_MOMENTUM_TRADE
+2026-02-08T18:16:04.048818Z,will-player-162-win-beast-games-season-2-496,Will Player 162 win Beast Games: Season 2?,0.997,50.0,2,NO,1.0,,,OPEN,,,,,,5000.00,"Signal: Longshot fade: YES at 0.30%, buying NO at 99.70%"
+2026-02-08T18:17:20.313147Z,will-player-162-win-beast-games-season-2-496,Will Player 162 win Beast Games: Season 2?,0.997,50.0,2,NO,1.0,,,OPEN,,,,,,5000.00,"Signal: Longshot fade: YES at 0.30%, buying NO at 99.70%"
+2026-02-08T18:17:20.905083Z,will-alibaba-have-the-best-ai-model-at-the-end-of-march-2026-712,Will Alibaba have the best AI model at the end of March 2026?,0.995,50.0,2,NO,1.0,,,OPEN,,,,,,5000.00,"Signal: Longshot fade: YES at 0.50%, buying NO at 99.50%"
+2026-02-08T18:17:21.489317Z,will-vicky-dvila-win-the-2026-colombian-presidential-election,Will Vicky Dávila win the 2026 Colombian presidential election?,0.994,50.0,2,NO,1.0,,,OPEN,,,,,,5000.00,"Signal: Longshot fade: YES at 0.60%, buying NO at 99.40%"
+2026-02-08T18:17:22.072471Z,will-chelsea-finish-in-2nd-place-in-the-2025-26-english-premier-league,Will Chelsea finish in 2nd place in the 2025-26 English Premier League?,0.97,50.0,2,NO,1.0,,,OPEN,,,,,,5000.00,"Signal: Longshot fade: YES at 3.00%, buying NO at 97.00%"
+2026-02-08T18:17:22.701400Z,will-crystal-palace-win-the-202526-english-premier-league,Will Crystal Palace win the 2025–26 English Premier League?,0.998,50.0,2,NO,1.0,,,OPEN,,,,,,5000.00,"Signal: Longshot fade: YES at 0.20%, buying NO at 99.80%"
+2026-02-08T18:17:23.272426Z,will-kate-hudson-win-best-actress-at-the-98th-academy-awards,Will Kate Hudson win Best Actress at the 98th Academy Awards?,0.976,50.0,2,NO,1.0,,,OPEN,,,,,,5000.00,"Signal: Longshot fade: YES at 2.40%, buying NO at 97.60%"
+2026-02-08T18:17:23.843341Z,edgex-fdv-above-1b-one-day-after-launch,EdgeX FDV above $1B one day after launch?,0.53,100.0,1,YES,2.0,,,OPEN,,,,,,5000.00,Signal: Price 53.00% in fair value range (40%-60%)

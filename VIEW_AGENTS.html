@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 Live Agent Monitor - What Every AI is Thinking</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            font-size: 1.2em;
+        }
+        
+        .summary {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .summary-item {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .summary-item .value {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .summary-item .label {
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+        
+        .agent-card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .agent-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .agent-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 10px;
+        }
+        
+        .agent-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .agent-emoji {
+            font-size: 1.2em;
+        }
+        
+        .agent-status {
+            background: #10b981;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .agent-task {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .agent-thinking {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #fbbf24;
+            font-style: italic;
+        }
+        
+        .agent-details {
+            margin: 15px 0;
+        }
+        
+        .agent-details ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+        
+        .agent-details li {
+            margin: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .agent-details li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #fbbf24;
+        }
+        
+        .agent-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        .progress-bar {
+            background: rgba(255,255,255,0.1);
+            height: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #10b981, #34d399);
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            transition: width 0.5s;
+        }
+        
+        .next-milestone {
+            background: rgba(251, 191, 36, 0.2);
+            border: 2px solid #fbbf24;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .next-milestone h2 {
+            margin-bottom: 10px;
+            color: #fbbf24;
+        }
+        
+        .timestamp {
+            text-align: center;
+            opacity: 0.7;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .subtitle {
+                font-size: 1em;
+            }
+            
+            .summary-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Live Agent Monitor</h1>
+        <p class="subtitle">Real-Time View of Every AI Agent's Thinking & Activity</p>
+        
+        <div class="summary">
+            <h2>📊 System Overview</h2>
+            <div class="summary-grid" id="summaryGrid"></div>
+        </div>
+        
+        <div id="overallThinking" class="agent-thinking"></div>
+        
+        <div id="agentsContainer"></div>
+        
+        <div class="next-milestone">
+            <h2>🎯 Next Major Milestone</h2>
+            <p id="milestone"></p>
+            <p id="eta" style="margin-top: 10px; font-weight: bold;"></p>
+        </div>
+        
+        <div class="timestamp" id="timestamp"></div>
+    </div>
+    
+    <script>
+        function updateDashboard() {
+            fetch('detailed_status.json')
+                .then(response => response.json())
+                .then(data => {
+                    // Update summary
+                    const summaryGrid = document.getElementById('summaryGrid');
+                    summaryGrid.innerHTML = `
+                        <div class="summary-item">
+                            <div class="label">Active Agents</div>
+                            <div class="value">${data.summary.total_agents}</div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="label">Python Processes</div>
+                            <div class="value">${data.summary.active_processes}</div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="label">Workspace Files</div>
+                            <div class="value">${data.summary.workspace_files.toLocaleString()}</div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="label">Scraped Data</div>
+                            <div class="value">${data.summary.scraped_data_mb} MB</div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="label">Paper Balance</div>
+                            <div class="value">${data.summary.paper_balance}</div>
+                        </div>
+                        <div class="summary-item">
+                            <div class="label">Iran Position</div>
+                            <div class="value" style="font-size: 1.5em;">${data.summary.iran_position}</div>
+                        </div>
+                    `;
+                    
+                    // Overall thinking
+                    document.getElementById('overallThinking').innerHTML = `
+                        <strong>🧠 Overall AI Thinking:</strong><br>
+                        ${data.overall_thinking}
+                    `;
+                    
+                    // Agents
+                    const agentsContainer = document.getElementById('agentsContainer');
+                    agentsContainer.innerHTML = data.agents.map(agent => `
+                        <div class="agent-card">
+                            <div class="agent-header">
+                                <div class="agent-name">
+                                    <span class="agent-emoji">${agent.emoji}</span>
+                                    ${agent.name}
+                                </div>
+                                <div class="agent-status">${agent.status}</div>
+                            </div>
+                            
+                            <div class="agent-task">📌 ${agent.task}</div>
+                            
+                            <div class="agent-thinking">
+                                <strong>💭 Thinking:</strong> ${agent.thinking}
+                            </div>
+                            
+                            <div class="agent-details">
+                                <strong>🔍 Details:</strong>
+                                <ul>
+                                    ${agent.details.map(detail => `<li>${detail}</li>`).join('')}
+                                </ul>
+                            </div>
+                            
+                            <div style="margin: 10px 0;">
+                                <strong>📈 Progress:</strong> ${agent.progress}
+                            </div>
+                            
+                            <div style="margin: 10px 0;">
+                                <strong>⏭️ Next:</strong> ${agent.next}
+                            </div>
+                            
+                            <div class="agent-footer">
+                                <span>PID: ${agent.pid} | Uptime: ${agent.uptime}</span>
+                                <span>${agent.resources}</span>
+                            </div>
+                        </div>
+                    `).join('');
+                    
+                    // Milestone
+                    document.getElementById('milestone').textContent = data.next_major_milestone;
+                    document.getElementById('eta').textContent = `⏱️ ${data.eta}`;
+                    
+                    // Timestamp
+                    const ts = new Date(data.timestamp);
+                    document.getElementById('timestamp').textContent = 
+                        `Last updated: ${ts.toLocaleTimeString()} - Auto-refresh every 3 seconds`;
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        }
+        
+        // Initial load
+        updateDashboard();
+        
+        // Auto-refresh every 3 seconds
+        setInterval(updateDashboard, 3000);
+    </script>
+</body>
+</html>

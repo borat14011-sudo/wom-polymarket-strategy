@@ -1,0 +1,62 @@
+trade_id,date,source,trader_address,market_id,market_name,direction,entry_price,entry_odds,position_size_usd,exit_date,exit_price,exit_odds,pnl_usd,pnl_pct,exit_reason,win,notes
+# DATA UNAVAILABLE - HISTORICAL BACKTEST CANNOT BE COMPLETED
+# 
+# This file would contain ~400-800 trades over 2-year period (2024-02-07 to 2026-02-07)
+# 
+# Reason for unavailability:
+# 1. Polysights historical alerts require Twitter API v2 (paid tier $100-500/mo)
+# 2. Polymarket historical trader positions not accessible via public API
+# 3. Goldsky blockchain indexing requires infrastructure setup (4-8 hours)
+# 4. No archived historical odds/position data available
+# 
+# Expected data structure:
+# - trade_id: Unique identifier (e.g., PS_2024_001 for Polysights, WHALE_2024_001 for whale copy)
+# - date: Entry timestamp (YYYY-MM-DD HH:MM:SS)
+# - source: "polysights" or "whale_copy"
+# - trader_address: If whale copy, the trader's wallet address (0x...)
+# - market_id: Polymarket market identifier
+# - market_name: Human-readable market name
+# - direction: "YES" or "NO"
+# - entry_price: Probability at entry (0.0 to 1.0)
+# - entry_odds: Decimal odds at entry
+# - position_size_usd: Normalized position size ($1000 standard for backtest)
+# - exit_date: Exit timestamp
+# - exit_price: Probability at exit
+# - exit_odds: Decimal odds at exit
+# - pnl_usd: Profit/loss in USD
+# - pnl_pct: Profit/loss percentage
+# - exit_reason: "profit_target" (+20%), "whale_exit", "resolution", "max_hold" (30 days)
+# - win: TRUE/FALSE
+# - notes: Additional context (e.g., "Alert had 500 retweets", "Whale position $5M")
+#
+# Expected metrics from 2-year backtest (if data available):
+# - Total trades: ~400-800
+# - Win rate: 70-85% (based on claims)
+# - Avg win: +15%
+# - Avg loss: -8%
+# - Total return: +120% to +180%
+# - Sharpe ratio: 1.5-2.5 (estimated)
+# - Max drawdown: -15% to -25%
+#
+# ALTERNATIVE: Forward testing data collection started 2026-02-07
+# Run this script for 30-90 days to populate with REAL data:
+# 
+# Polysights monitoring:
+#   - Track @polysights Twitter alerts
+#   - Log entry timestamp, market, direction
+#   - Track outcome when market resolves
+#
+# Whale tracking:
+#   - Monitor top 20 leaderboard traders daily
+#   - Detect new positions via position size changes
+#   - Log entry/exit prices from blockchain or API
+#
+# Forward testing recommended timeline:
+#   - Days 1-30: Data collection only (no real money)
+#   - Days 31-60: Paper trading with virtual $100K
+#   - Days 61-90: Small capital test ($1K-5K real)
+#   - Days 91+: Scale if performance validates claims
+#
+# Status: AWAITING DATA - Recommend forward testing approach
+# Generated: 2026-02-07
+# Analyst: OpenClaw Subagent (backtest-insider)

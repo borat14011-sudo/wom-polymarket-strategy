@@ -1,0 +1,78 @@
+{
+  "database": {
+    "path": "polymarket_data.db"
+  },
+  
+  "signal_thresholds": {
+    "rvr_strong": 3.0,
+    "rvr_moderate": 2.0,
+    "rvr_weak": 1.5,
+    "roc_strong": 15.0,
+    "roc_moderate": 10.0,
+    "roc_weak": 5.0,
+    "roc_lookback_hours": 12,
+    "hype_strong": 85,
+    "hype_moderate": 70,
+    "hype_weak": 55,
+    "liquidity_min": 10000,
+    "liquidity_safe": 20000,
+    "spread_max": 5.0
+  },
+  
+  "position_sizing": {
+    "bankroll": 10000,
+    "strong_3_signals": 0.04,
+    "strong_2_moderate_1": 0.03,
+    "strong_1_moderate_2": 0.02,
+    "moderate_3_signals": 0.01,
+    "max_single_position": 0.05,
+    "max_category_exposure": 0.10,
+    "max_total_exposure": 0.25,
+    "min_cash_reserve": 0.50
+  },
+  
+  "risk_management": {
+    "stop_loss_pct": -12.0,
+    "take_profit_1_pct": 8.0,
+    "take_profit_2_pct": 15.0,
+    "take_profit_3_pct": 25.0,
+    "tp1_position_pct": 0.25,
+    "tp2_position_pct": 0.50,
+    "tp3_position_pct": 0.25,
+    "daily_loss_limit_pct": -5.0,
+    "weekly_loss_limit_pct": -10.0,
+    "monthly_loss_limit_pct": -20.0,
+    "correlation_threshold": 0.7,
+    "max_correlated_positions": 2,
+    "max_positions_same_category": 3,
+    "min_time_to_resolution_hours": 48
+  },
+  
+  "telegram": {
+    "enabled": true,
+    "bot_token": "YOUR_BOT_TOKEN_HERE",
+    "chat_id": "YOUR_CHAT_ID_HERE",
+    "api_url": "https://api.telegram.org/bot{token}/sendMessage",
+    "send_buy_signals": true,
+    "send_sell_signals": true,
+    "send_risk_alerts": true,
+    "send_daily_summary": true
+  },
+  
+  "monitoring": {
+    "check_interval_seconds": 60,
+    "lookback_periods": 24,
+    "min_snapshots_for_rvr": 5,
+    "signal_log_path": "signals.jsonl",
+    "position_log_path": "positions.json",
+    "performance_log_path": "performance.json"
+  },
+  
+  "disqualifying_conditions": {
+    "min_liquidity": 5000,
+    "max_spread_pct": 5.0,
+    "check_correlation": true,
+    "check_resolution_time": true,
+    "check_existing_positions": true
+  }
+}

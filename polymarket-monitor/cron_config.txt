@@ -1,0 +1,36 @@
+# Polymarket Historical Price Scraper - Cron Configuration
+# Runs every hour to build historical price database
+
+# Linux/Unix Cron Job (crontab -e)
+# Add this line to your crontab:
+
+0 * * * * cd /path/to/polymarket-monitor && /usr/bin/python3 historical_scraper.py >> logs/scraper_cron.log 2>&1
+
+# Breakdown:
+# 0 * * * * = Run at minute 0 of every hour
+# cd /path/to/polymarket-monitor = Change to project directory
+# python3 historical_scraper.py = Run the scraper
+# >> logs/scraper_cron.log 2>&1 = Append output to log file
+
+# Alternative: Run every 30 minutes for more granular data
+# 0,30 * * * * cd /path/to/polymarket-monitor && python3 historical_scraper.py >> logs/scraper_cron.log 2>&1
+
+
+# Installation Instructions:
+# 
+# 1. Open crontab editor:
+#    crontab -e
+#
+# 2. Add the line above (replace /path/to/polymarket-monitor with actual path)
+#
+# 3. Save and exit (Ctrl+X, then Y, then Enter in nano)
+#
+# 4. Verify cron job is installed:
+#    crontab -l
+#
+# 5. Check logs to ensure it's running:
+#    tail -f logs/scraper_cron.log
+
+
+# macOS (using launchd instead of cron)
+# See: scraper_launchd.plist for macOS configuration

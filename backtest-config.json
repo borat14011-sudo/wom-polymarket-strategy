@@ -1,0 +1,20 @@
+{
+  "trade_config": {
+    "rvr_threshold": 2.0,
+    "stop_loss_pct": 0.12,
+    "position_size_pct": 0.03,
+    "max_positions": 5,
+    "signal_threshold": 0.65,
+    "max_drawdown_circuit_breaker": 0.25,
+    "daily_loss_limit": 0.05
+  },
+  "sim_config": {
+    "num_runs": 1000,
+    "entry_timing_jitter_hours": 1.0,
+    "slippage_range": [0.01, 0.03],
+    "signal_threshold_variance": 0.05,
+    "stress_volatility_multiplier": 2.0,
+    "stress_slippage_multiplier": 2.0,
+    "stress_liquidity_reduction": 0.5
+  }
+}

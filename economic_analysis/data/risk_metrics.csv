@@ -1,0 +1,12 @@
+Metric,Value,Formula_Notes
+Risk_Free_Rate_Pct,4.5,2-Year Treasury yield
+Portfolio_Net_CAGR_Pct,18.03,Compound Annual Growth Rate
+Excess_Return_Pct,13.53,Return minus risk-free rate
+Monthly_Std_Dev_Pct,3.72,Standard deviation of monthly returns
+Annualized_Std_Dev_Pct,12.89,Monthly std dev × sqrt(12)
+Sharpe_Ratio,1.05,Excess return / annualized std dev
+Monthly_Downside_Dev_Pct,2.08,Std dev of negative returns only
+Annualized_Downside_Dev_Pct,7.21,Monthly downside × sqrt(12)
+Sortino_Ratio,1.88,Excess return / downside deviation
+Max_Drawdown_Pct,-8.7,Deepest peak-to-trough decline
+Calmar_Ratio,2.07,CAGR / absolute max drawdown

@@ -1,0 +1,747 @@
+{
+  "analysisDate": "2026-02-08T02:52:48.170Z",
+  "strategies": [
+    {
+      "name": "News Reversion",
+      "overallMetrics": {
+        "trades": 50,
+        "winRate": 0.5585106382978723,
+        "avgReturn": 0.42874866254340055,
+        "sharpeRatio": 0.2834467536157194,
+        "maxDrawdown": -7.702322876764445
+      },
+      "regimeDependency": 0.07896497704895859,
+      "regimePerformance": {
+        "Bull Crypto (BTC >20% YTD)": {
+          "tradeCount": 50,
+          "winRate": 0.42,
+          "avgReturn": 0.14447369261534032,
+          "totalReturn": 7.223684630767016,
+          "sampleSize": 50
+        },
+        "High Volatility (VIX >30 or large price swings)": {
+          "tradeCount": 18,
+          "winRate": 0.4444444444444444,
+          "avgReturn": 0.4973626908938323,
+          "totalReturn": 8.952528436088981,
+          "sampleSize": 18
+        },
+        "Low Volatility (VIX <15 or stable prices)": {
+          "tradeCount": 5,
+          "winRate": 0.6,
+          "avgReturn": 0.19027722540648026,
+          "totalReturn": 0.9513861270324013,
+          "sampleSize": 5
+        },
+        "Off-Year": {
+          "tradeCount": 50,
+          "winRate": 0.42,
+          "avgReturn": 0.14447369261534032,
+          "totalReturn": 7.223684630767016,
+          "sampleSize": 50
+        },
+        "Low Volume (<$100K daily)": {
+          "tradeCount": 49,
+          "winRate": 0.40816326530612246,
+          "avgReturn": 0.1126731005727411,
+          "totalReturn": 5.520981928064314,
+          "sampleSize": 49
+        }
+      },
+      "bestRegimes": [
+        [
+          "High Volatility (VIX >30 or large price swings)",
+          {
+            "tradeCount": 18,
+            "winRate": 0.4444444444444444,
+            "avgReturn": 0.4973626908938323,
+            "totalReturn": 8.952528436088981,
+            "sampleSize": 18
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.42,
+            "avgReturn": 0.14447369261534032,
+            "totalReturn": 7.223684630767016,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.42,
+            "avgReturn": 0.14447369261534032,
+            "totalReturn": 7.223684630767016,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "worstRegimes": [
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 49,
+            "winRate": 0.40816326530612246,
+            "avgReturn": 0.1126731005727411,
+            "totalReturn": 5.520981928064314,
+            "sampleSize": 49
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.42,
+            "avgReturn": 0.14447369261534032,
+            "totalReturn": 7.223684630767016,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.42,
+            "avgReturn": 0.14447369261534032,
+            "totalReturn": 7.223684630767016,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "recommendation": "🚀 DEPLOY ALWAYS - Works in all conditions"
+    },
+    {
+      "name": "Expert Fade",
+      "overallMetrics": {
+        "trades": 50,
+        "winRate": 0.5768194070080862,
+        "avgReturn": 0.19349715594754271,
+        "sharpeRatio": 0.18332609147756257,
+        "maxDrawdown": -8.235294117647058
+      },
+      "regimeDependency": 0.00534615659538062,
+      "regimePerformance": {
+        "Bull Crypto (BTC >20% YTD)": {
+          "tradeCount": 50,
+          "winRate": 0.44,
+          "avgReturn": 0.11140925307237293,
+          "totalReturn": 5.570462653618646,
+          "sampleSize": 50
+        },
+        "Off-Year": {
+          "tradeCount": 50,
+          "winRate": 0.44,
+          "avgReturn": 0.11140925307237293,
+          "totalReturn": 5.570462653618646,
+          "sampleSize": 50
+        },
+        "Low Volume (<$100K daily)": {
+          "tradeCount": 49,
+          "winRate": 0.4489795918367347,
+          "avgReturn": 0.13409107456364586,
+          "totalReturn": 6.570462653618646,
+          "sampleSize": 49
+        }
+      },
+      "bestRegimes": [
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 49,
+            "winRate": 0.4489795918367347,
+            "avgReturn": 0.13409107456364586,
+            "totalReturn": 6.570462653618646,
+            "sampleSize": 49
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": 0.11140925307237293,
+            "totalReturn": 5.570462653618646,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": 0.11140925307237293,
+            "totalReturn": 5.570462653618646,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "worstRegimes": [
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": 0.11140925307237293,
+            "totalReturn": 5.570462653618646,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": 0.11140925307237293,
+            "totalReturn": 5.570462653618646,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 49,
+            "winRate": 0.4489795918367347,
+            "avgReturn": 0.13409107456364586,
+            "totalReturn": 6.570462653618646,
+            "sampleSize": 49
+          }
+        ]
+      ],
+      "recommendation": "🚀 DEPLOY ALWAYS - Works in all conditions"
+    },
+    {
+      "name": "Whale Tracking",
+      "overallMetrics": {
+        "trades": 50,
+        "winRate": 0.5589519650655022,
+        "avgReturn": -0.09148392562411609,
+        "sharpeRatio": -0.10852891666078947,
+        "maxDrawdown": -38.24530059084995
+      },
+      "regimeDependency": 0.07136588416754681,
+      "regimePerformance": {
+        "Bull Crypto (BTC >20% YTD)": {
+          "tradeCount": 50,
+          "winRate": 0.58,
+          "avgReturn": -0.020788470040255688,
+          "totalReturn": -1.0394235020127844,
+          "sampleSize": 50
+        },
+        "High Volatility (VIX >30 or large price swings)": {
+          "tradeCount": 24,
+          "winRate": 0.4583333333333333,
+          "avgReturn": -0.32426889652625135,
+          "totalReturn": -7.782453516630032,
+          "sampleSize": 24
+        },
+        "Low Volatility (VIX <15 or stable prices)": {
+          "tradeCount": 7,
+          "winRate": 0.7142857142857143,
+          "avgReturn": 0.22259775051256053,
+          "totalReturn": 1.5581842535879238,
+          "sampleSize": 7
+        },
+        "Off-Year": {
+          "tradeCount": 50,
+          "winRate": 0.58,
+          "avgReturn": -0.020788470040255688,
+          "totalReturn": -1.0394235020127844,
+          "sampleSize": 50
+        },
+        "High Volume (>$500K daily)": {
+          "tradeCount": 3,
+          "winRate": 0,
+          "avgReturn": -1,
+          "totalReturn": -3,
+          "sampleSize": 3
+        },
+        "Low Volume (<$100K daily)": {
+          "tradeCount": 47,
+          "winRate": 0.6170212765957447,
+          "avgReturn": 0.04171439357419608,
+          "totalReturn": 1.960576497987216,
+          "sampleSize": 47
+        }
+      },
+      "bestRegimes": [
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 47,
+            "winRate": 0.6170212765957447,
+            "avgReturn": 0.04171439357419608,
+            "totalReturn": 1.960576497987216,
+            "sampleSize": 47
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.58,
+            "avgReturn": -0.020788470040255688,
+            "totalReturn": -1.0394235020127844,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.58,
+            "avgReturn": -0.020788470040255688,
+            "totalReturn": -1.0394235020127844,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "worstRegimes": [
+        [
+          "High Volatility (VIX >30 or large price swings)",
+          {
+            "tradeCount": 24,
+            "winRate": 0.4583333333333333,
+            "avgReturn": -0.32426889652625135,
+            "totalReturn": -7.782453516630032,
+            "sampleSize": 24
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.58,
+            "avgReturn": -0.020788470040255688,
+            "totalReturn": -1.0394235020127844,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.58,
+            "avgReturn": -0.020788470040255688,
+            "totalReturn": -1.0394235020127844,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "recommendation": "❌ REJECT - Negative expected value"
+    },
+    {
+      "name": "Trend Filter",
+      "overallMetrics": {
+        "trades": 50,
+        "winRate": 0.5855072463768116,
+        "avgReturn": 0.17220257947376302,
+        "sharpeRatio": 0.16171910710475357,
+        "maxDrawdown": -13.09068620939973
+      },
+      "regimeDependency": 0.001765348231692675,
+      "regimePerformance": {
+        "Bull Crypto (BTC >20% YTD)": {
+          "tradeCount": 50,
+          "winRate": 0.44,
+          "avgReturn": -0.0937487658576461,
+          "totalReturn": -4.687438292882305,
+          "sampleSize": 50
+        },
+        "Off-Year": {
+          "tradeCount": 50,
+          "winRate": 0.44,
+          "avgReturn": -0.0937487658576461,
+          "totalReturn": -4.687438292882305,
+          "sampleSize": 50
+        },
+        "Low Volume (<$100K daily)": {
+          "tradeCount": 49,
+          "winRate": 0.42857142857142855,
+          "avgReturn": -0.10123850409235953,
+          "totalReturn": -4.960686700525617,
+          "sampleSize": 49
+        }
+      },
+      "bestRegimes": [
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": -0.0937487658576461,
+            "totalReturn": -4.687438292882305,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": -0.0937487658576461,
+            "totalReturn": -4.687438292882305,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 49,
+            "winRate": 0.42857142857142855,
+            "avgReturn": -0.10123850409235953,
+            "totalReturn": -4.960686700525617,
+            "sampleSize": 49
+          }
+        ]
+      ],
+      "worstRegimes": [
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 49,
+            "winRate": 0.42857142857142855,
+            "avgReturn": -0.10123850409235953,
+            "totalReturn": -4.960686700525617,
+            "sampleSize": 49
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": -0.0937487658576461,
+            "totalReturn": -4.687438292882305,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.44,
+            "avgReturn": -0.0937487658576461,
+            "totalReturn": -4.687438292882305,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "recommendation": "🚀 DEPLOY ALWAYS - Works in all conditions"
+    },
+    {
+      "name": "NO-Side Bias",
+      "overallMetrics": {
+        "trades": 50,
+        "winRate": 0.3310344827586207,
+        "avgReturn": 0.018170769248166924,
+        "sharpeRatio": 0.012220080929090407,
+        "maxDrawdown": -31.876890613704802
+      },
+      "regimeDependency": 0.007849374331930163,
+      "regimePerformance": {
+        "Bull Crypto (BTC >20% YTD)": {
+          "tradeCount": 50,
+          "winRate": 0.52,
+          "avgReturn": 0.6318016705447603,
+          "totalReturn": 31.590083527238015,
+          "sampleSize": 50
+        },
+        "Off-Year": {
+          "tradeCount": 50,
+          "winRate": 0.52,
+          "avgReturn": 0.6318016705447603,
+          "totalReturn": 31.590083527238015,
+          "sampleSize": 50
+        },
+        "Low Volume (<$100K daily)": {
+          "tradeCount": 49,
+          "winRate": 0.5306122448979592,
+          "avgReturn": 0.665103745453837,
+          "totalReturn": 32.590083527238015,
+          "sampleSize": 49
+        }
+      },
+      "bestRegimes": [
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 49,
+            "winRate": 0.5306122448979592,
+            "avgReturn": 0.665103745453837,
+            "totalReturn": 32.590083527238015,
+            "sampleSize": 49
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.52,
+            "avgReturn": 0.6318016705447603,
+            "totalReturn": 31.590083527238015,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.52,
+            "avgReturn": 0.6318016705447603,
+            "totalReturn": 31.590083527238015,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "worstRegimes": [
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.52,
+            "avgReturn": 0.6318016705447603,
+            "totalReturn": 31.590083527238015,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.52,
+            "avgReturn": 0.6318016705447603,
+            "totalReturn": 31.590083527238015,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 49,
+            "winRate": 0.5306122448979592,
+            "avgReturn": 0.665103745453837,
+            "totalReturn": 32.590083527238015,
+            "sampleSize": 49
+          }
+        ]
+      ],
+      "recommendation": "✅ CONDITIONAL DEPLOY - Favor certain regimes"
+    },
+    {
+      "name": "Time Horizon <3d",
+      "overallMetrics": {
+        "trades": 50,
+        "winRate": 0.48026315789473684,
+        "avgReturn": -0.062240347522088776,
+        "sharpeRatio": -0.0634837233434583,
+        "maxDrawdown": -53.23000653096268
+      },
+      "regimeDependency": 0.02552825212909688,
+      "regimePerformance": {
+        "Bull Crypto (BTC >20% YTD)": {
+          "tradeCount": 50,
+          "winRate": 0.66,
+          "avgReturn": 0.31075965801454275,
+          "totalReturn": 15.537982900727139,
+          "sampleSize": 50
+        },
+        "Off-Year": {
+          "tradeCount": 50,
+          "winRate": 0.66,
+          "avgReturn": 0.31075965801454275,
+          "totalReturn": 15.537982900727139,
+          "sampleSize": 50
+        },
+        "Low Volume (<$100K daily)": {
+          "tradeCount": 23,
+          "winRate": 0.6086956521739131,
+          "avgReturn": 0.20245245686059682,
+          "totalReturn": 4.656406507793727,
+          "sampleSize": 23
+        }
+      },
+      "bestRegimes": [
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.66,
+            "avgReturn": 0.31075965801454275,
+            "totalReturn": 15.537982900727139,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.66,
+            "avgReturn": 0.31075965801454275,
+            "totalReturn": 15.537982900727139,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 23,
+            "winRate": 0.6086956521739131,
+            "avgReturn": 0.20245245686059682,
+            "totalReturn": 4.656406507793727,
+            "sampleSize": 23
+          }
+        ]
+      ],
+      "worstRegimes": [
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 23,
+            "winRate": 0.6086956521739131,
+            "avgReturn": 0.20245245686059682,
+            "totalReturn": 4.656406507793727,
+            "sampleSize": 23
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 50,
+            "winRate": 0.66,
+            "avgReturn": 0.31075965801454275,
+            "totalReturn": 15.537982900727139,
+            "sampleSize": 50
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 50,
+            "winRate": 0.66,
+            "avgReturn": 0.31075965801454275,
+            "totalReturn": 15.537982900727139,
+            "sampleSize": 50
+          }
+        ]
+      ],
+      "recommendation": "❌ REJECT - Negative expected value"
+    },
+    {
+      "name": "Pairs Trading",
+      "overallMetrics": {
+        "trades": 40,
+        "winRate": 0.225,
+        "avgReturn": -0.3863067298879629,
+        "sharpeRatio": -0.30675833826264903,
+        "maxDrawdown": -17.88149535451728
+      },
+      "regimeDependency": 0.14265697477925746,
+      "regimePerformance": {
+        "Bull Crypto (BTC >20% YTD)": {
+          "tradeCount": 36,
+          "winRate": 0.2222222222222222,
+          "avgReturn": -0.3778557452757532,
+          "totalReturn": -13.602806829927117,
+          "sampleSize": 36
+        },
+        "Election Year": {
+          "tradeCount": 4,
+          "winRate": 0.25,
+          "avgReturn": -0.46236559139784944,
+          "totalReturn": -1.8494623655913978,
+          "sampleSize": 4
+        },
+        "Off-Year": {
+          "tradeCount": 36,
+          "winRate": 0.2222222222222222,
+          "avgReturn": -0.3778557452757532,
+          "totalReturn": -13.602806829927117,
+          "sampleSize": 36
+        },
+        "High Volume (>$500K daily)": {
+          "tradeCount": 1,
+          "winRate": 0,
+          "avgReturn": -1,
+          "totalReturn": -1,
+          "sampleSize": 1
+        },
+        "Low Volume (<$100K daily)": {
+          "tradeCount": 20,
+          "winRate": 0.45,
+          "avgReturn": 0.22738654022407423,
+          "totalReturn": 4.547730804481485,
+          "sampleSize": 20
+        }
+      },
+      "bestRegimes": [
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 20,
+            "winRate": 0.45,
+            "avgReturn": 0.22738654022407423,
+            "totalReturn": 4.547730804481485,
+            "sampleSize": 20
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 36,
+            "winRate": 0.2222222222222222,
+            "avgReturn": -0.3778557452757532,
+            "totalReturn": -13.602806829927117,
+            "sampleSize": 36
+          }
+        ],
+        [
+          "Off-Year",
+          {
+            "tradeCount": 36,
+            "winRate": 0.2222222222222222,
+            "avgReturn": -0.3778557452757532,
+            "totalReturn": -13.602806829927117,
+            "sampleSize": 36
+          }
+        ]
+      ],
+      "worstRegimes": [
+        [
+          "Off-Year",
+          {
+            "tradeCount": 36,
+            "winRate": 0.2222222222222222,
+            "avgReturn": -0.3778557452757532,
+            "totalReturn": -13.602806829927117,
+            "sampleSize": 36
+          }
+        ],
+        [
+          "Bull Crypto (BTC >20% YTD)",
+          {
+            "tradeCount": 36,
+            "winRate": 0.2222222222222222,
+            "avgReturn": -0.3778557452757532,
+            "totalReturn": -13.602806829927117,
+            "sampleSize": 36
+          }
+        ],
+        [
+          "Low Volume (<$100K daily)",
+          {
+            "tradeCount": 20,
+            "winRate": 0.45,
+            "avgReturn": 0.22738654022407423,
+            "totalReturn": 4.547730804481485,
+            "sampleSize": 20
+          }
+        ]
+      ],
+      "recommendation": "❌ REJECT - Negative expected value"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Calculation,Formula,Result,Notes
+Gross_CAGR,(Ending_Value/Starting_Value)^(1/Years)-1,(1602.33/1000)^(1/2)-1,26.58%
+Net_CAGR,(Ending_Value_Net/Starting_Value)^(1/Years)-1,(1379.36/1000)^(1/2)-1,17.51%
+Monthly_IRR,Rate that sets NPV to zero,1.31%,From Excel IRR function
+Annual_IRR,(1+Monthly_IRR)^12-1,16.87%,Compounded monthly rate
+MIRR,(FV_Positive/PV_Negative)^(1/Years)-1,(1507.18/1000)^(1/2)-1,22.72%,Assumes 4.5% reinvestment
+Total_Return_Gross,(Ending_Value-Starting_Value)/Starting_Value,(1602.33-1000)/1000,60.23%
+Total_Return_Net,(Ending_Value_Net-Starting_Value)/Starting_Value,(1379.36-1000)/1000,37.94%
+Cost_Impact,Total_Return_Gross-Total_Return_Net,60.23%-37.94%,22.29 percentage points

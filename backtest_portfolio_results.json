@@ -1,0 +1,98 @@
+{
+  "correlation_scenarios": {
+    "high": {
+      "medianReturn": 3.8210908910147223,
+      "meanReturn": 4.309283251966686,
+      "medianDrawdown": 7.642271075940469,
+      "maxDrawdown": 21.77971225228051,
+      "winRate": 0.4773843136238898,
+      "p25Return": -1.7644174113389337,
+      "p75Return": 10.00721975501568
+    },
+    "moderate": {
+      "medianReturn": 2.847569214886525,
+      "meanReturn": 3.305240687445734,
+      "medianDrawdown": 7.693575833528618,
+      "maxDrawdown": 21.937070599195057,
+      "winRate": 0.4696363719838732,
+      "p25Return": -2.561653529598823,
+      "p75Return": 8.71183236741125
+    },
+    "low": {
+      "medianReturn": 3.7342292273148336,
+      "meanReturn": 4.136428000383185,
+      "medianDrawdown": 7.0744886603989805,
+      "maxDrawdown": 22.918107124926635,
+      "winRate": 0.4758890083540002,
+      "p25Return": -1.415881008489528,
+      "p75Return": 8.630261638938652
+    }
+  },
+  "hedge_strategy": {
+    "medianReturn": 0,
+    "medianDrawdown": 0,
+    "maxDrawdown": 0,
+    "winRate": 0,
+    "p25Return": 0,
+    "p75Return": 0
+  },
+  "concentration_vs_diversification": {
+    "concentrated": {
+      "strategy": "CONCENTRATED (One 25% position)",
+      "medianReturn": 0,
+      "medianDrawdown": 0,
+      "maxDrawdown": 0,
+      "winRate": 0,
+      "p25Return": 0,
+      "p75Return": 0
+    },
+    "diversified": {
+      "strategy": "DIVERSIFIED (Five 5% positions)",
+      "medianReturn": 8.734580955443283,
+      "medianDrawdown": 9.767351317049936,
+      "maxDrawdown": 27.39607912293901,
+      "winRate": 0.47643780567839916,
+      "p25Return": 1.084100187999687,
+      "p75Return": 17.685939572291133
+    }
+  },
+  "rebalancing_strategies": {
+    "NO_REBALANCE": {
+      "strategy": "NO_REBALANCE",
+      "medianReturn": 8.934417848435917,
+      "medianDrawdown": 9.839184891036933,
+      "maxDrawdown": 24.27171437415561,
+      "winRate": 0.47562904297007114,
+      "p25Return": 0.8530686993227454,
+      "p75Return": 17.635394038142444
+    },
+    "HALF_REBALANCE": {
+      "strategy": "HALF_REBALANCE",
+      "medianReturn": 9.047309641771317,
+      "medianDrawdown": 9.599783120128524,
+      "maxDrawdown": 27.992027444993134,
+      "winRate": 0.4767199467706712,
+      "p25Return": 0.42749818329581024,
+      "p75Return": 17.440464852271525
+    },
+    "FULL_REBALANCE": {
+      "strategy": "FULL_REBALANCE",
+      "medianReturn": 8.416775917340836,
+      "medianDrawdown": 9.711333188966588,
+      "maxDrawdown": 29.37824727791028,
+      "winRate": 0.4757544663975111,
+      "p25Return": 0.5524481639066825,
+      "p75Return": 17.71158529089403
+    }
+  },
+  "simulation_params": {
+    "starting_capital": 1000,
+    "simulation_days": 180,
+    "num_simulations": 1000,
+    "win_rate": 0.55,
+    "reward_risk_ratio": 1.5,
+    "max_single_position": 0.05,
+    "max_total_exposure": 0.25,
+    "min_cash_reserve": 0.5
+  }
+}

@@ -1,0 +1,157 @@
+# BACKTEST VALIDATION RESULTS
+Generated: 2026-02-07 18:09:31
+
+## Executive Summary
+
+Validated 5 trading strategies against 78,537 resolved Polymarket markets.
+
+## Results Table
+
+| Strategy | Expected | Actual | Difference | Trades | Status |
+|----------|----------|--------|------------|--------|--------|
+| MUSK_FADE_EXTREMES | 97.1% | 87.2% | -9.9% | 39 | PROFITABLE |
+| WEATHER_FADE_LONGSHOTS | 93.9% | 85.1% | -8.8% | 3809 | PROFITABLE |
+| ALTCOIN_FADE_HIGH | 92.3% | 61.1% | -31.2% | 432 | PROFITABLE |
+| CRYPTO_FAVORITE_FADE | 61.9% | 53.2% | -8.7% | 1818 | FAILED |
+| BTC_TIME_BIAS | 58.9% | 58.8% | -0.1% | 7641 | VALIDATED |
+
+## Detailed Results
+
+### MUSK_FADE_EXTREMES
+
+**Description:** Bet NO on Elon Musk tweet count extremes (0-19 OR 200+)
+
+**Performance:**
+- Expected Win Rate: 97.1%
+- Actual Win Rate: 87.2%
+- Difference: -9.9%
+- Total Trades: 39
+- Wins: 34 | Losses: 5
+- Total P/L: $+29.00
+- **Status: PROFITABLE**
+
+**Sample Trades:**
+1. [LOSS] Will Elon tweet 90-104 times?... (Outcome: Yes)
+2. [WIN] Will Elon tweet 90-104 times?... (Outcome: No)
+3. [LOSS] Will Elon tweet 100-109 times?... (Outcome: Yes)
+4. [WIN] Will Elon tweet 100-109 times?... (Outcome: No)
+5. [WIN] Will Elon tweet 100-109 times?... (Outcome: No)
+6. [LOSS] Will Trump tweet 10-19 times this week?... (Outcome: Yes)
+
+---
+
+### WEATHER_FADE_LONGSHOTS
+
+**Description:** Bet NO on weather predictions with <30% probability
+
+**Performance:**
+- Expected Win Rate: 93.9%
+- Actual Win Rate: 85.1%
+- Difference: -8.8%
+- Total Trades: 3809
+- Wins: 3240 | Losses: 569
+- Total P/L: $+2671.00
+- **Status: PROFITABLE**
+
+**Sample Trades:**
+1. [WIN] Meissner effect confirmed near room temperature?... (Outcome: No)
+2. [WIN] Border + Ukraine aid deal by Feb 9?... (Outcome: No)
+3. [WIN] Ukraine aid package in February?... (Outcome: No)
+4. [LOSS] Will NYC have less than 3.5 inches of snowfall on Tuesday?... (Outcome: Yes)
+5. [LOSS] Will Biden say "Ukraine/Ukranian" three or more times during his State of the Un... (Outcome: Yes)
+6. [LOSS] Ukraine aid package in April?... (Outcome: Yes)
+
+---
+
+### ALTCOIN_FADE_HIGH
+
+**Description:** Bet NO when altcoin reach $X markets hit >70%
+
+**Performance:**
+- Expected Win Rate: 92.3%
+- Actual Win Rate: 61.1%
+- Difference: -31.2%
+- Total Trades: 432
+- Wins: 264 | Losses: 168
+- Total P/L: $+96.00
+- **Status: PROFITABLE**
+
+**Sample Trades:**
+1. [LOSS] Will BTC or ETH reach all-time high first?... (Outcome: Yes)
+2. [WIN] Will ETH or SOL reach all-time high first?... (Outcome: No)
+3. [WIN] Will $ETH reach 3.7k in July?... (Outcome: No)
+4. [WIN] Will $ETH reach 3.9k in July?... (Outcome: No)
+5. [LOSS] Will Ethereum reach $2,750 in October?... (Outcome: Yes)
+6. [LOSS] Will Solana reach $160 in October? ... (Outcome: Yes)
+
+---
+
+### CRYPTO_FAVORITE_FADE
+
+**Description:** Bet NO on BTC directional predictions
+
+**Performance:**
+- Expected Win Rate: 61.9%
+- Actual Win Rate: 53.2%
+- Difference: -8.7%
+- Total Trades: 1818
+- Wins: 968 | Losses: 850
+- Total P/L: $+118.00
+- **Status: FAILED**
+
+**Sample Trades:**
+1. [LOSS] Will BTC or ETH reach all-time high first?... (Outcome: Yes)
+2. [LOSS] Will BTC hit $50,000 in February?... (Outcome: Yes)
+3. [LOSS] Will BTC hit $55,000 in February?... (Outcome: Yes)
+4. [WIN] Will BTC hit $80,000 in March?... (Outcome: No)
+5. [WIN] Will BTC hit $90,000 in March?... (Outcome: No)
+6. [WIN] Will BTC hit $100,000 in March?... (Outcome: No)
+
+---
+
+### BTC_TIME_BIAS
+
+**Description:** Bitcoin time-of-day directional betting
+
+**Performance:**
+- Expected Win Rate: 58.9%
+- Actual Win Rate: 58.8%
+- Difference: -0.1%
+- Total Trades: 7641
+- Wins: 4490 | Losses: 3151
+- Total P/L: $+1339.00
+- **Status: VALIDATED**
+
+**Sample Trades:**
+1. [WIN] SEC approves first spot Bitcoin ETF on Jan 8?... (Outcome: No)
+2. [WIN] SEC approves first spot Bitcoin ETF on Jan 9?... (Outcome: No)
+3. [LOSS] SEC approves first spot Bitcoin ETF on Jan 10?... (Outcome: Yes)
+4. [WIN] SEC to NOT approve spot Bitcoin ETF by Jan 10?... (Outcome: No)
+5. [LOSS] $BTC price between $45,000-47,500 1 hour after ETF approval?... (Outcome: Yes)
+6. [LOSS] BTC ETFs first week combined AUM between $10-30 billion?... (Outcome: Yes)
+
+---
+
+## Overall Recommendation
+
+- **Validated Strategies:** 1/5
+- **Profitable Strategies (>55% win rate):** 4/5
+
+**RECOMMENDATION: NEEDS TUNING** - Strategies are profitable but differ from expectations.
+
+## Important Notes
+
+1. **Data Limitations:** Backtests use resolved markets but lack historical price data for precise entry timing
+2. **Transaction Costs:** Not modeled in this validation (typically 2-5%)
+3. **Sample Size:** Some strategies have limited matching markets
+4. **Forward Testing:** Real-world results may vary - paper trading recommended
+
+## Next Steps
+
+1. For validated strategies: Begin paper trading with real-time data
+2. For failed strategies: Refine criteria or abandon
+3. Build historical price database for more accurate backtesting
+4. Monitor win rates in live trading and adjust
+
+---
+*Generated by backtest_validator.py*

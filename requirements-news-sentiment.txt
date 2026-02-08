@@ -1,0 +1,19 @@
+# Requirements for News Sentiment Analyzer
+# Install with: pip install -r requirements-news-sentiment.txt
+
+# RSS Feed Parsing (primary)
+feedparser>=6.0.0
+
+# Sentiment Analysis (NLP)
+textblob>=0.15.0
+
+# HTTP Requests (fallback for RSS parsing)
+requests>=2.28.0
+
+# Optional: Better performance and additional features
+# beautifulsoup4>=4.11.0  # For HTML parsing if needed
+# lxml>=4.9.0  # Faster XML parsing
+# nltk>=3.8.0  # Advanced NLP features
+
+# Note: After installing textblob, run:
+# python -m textblob.download_corpora

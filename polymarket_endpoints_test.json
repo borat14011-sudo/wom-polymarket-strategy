@@ -1,0 +1,71 @@
+{
+  "gamma_/markets": {
+    "status": 200,
+    "has_data": true,
+    "size": 104944,
+    "sample": "[{\"id\":\"12\",\"question\":\"Will Joe Biden get Coronavirus before the election?\",\"conditionId\":\"0xe3b423dfad8c22ff75c9899c4e8176f628cf4ad4caa00481764d320e7415f7a9\",\"slug\":\"will-joe-biden-get-coronavirus-b",
+    "count": 20
+  },
+  "gamma_/markets?limit=50": {
+    "status": 200,
+    "has_data": true,
+    "size": 280092,
+    "sample": "[{\"id\":\"12\",\"question\":\"Will Joe Biden get Coronavirus before the election?\",\"conditionId\":\"0xe3b423dfad8c22ff75c9899c4e8176f628cf4ad4caa00481764d320e7415f7a9\",\"slug\":\"will-joe-biden-get-coronavirus-b",
+    "count": 50
+  },
+  "gamma_/conditional-tokens": {
+    "status": 404,
+    "has_data": true,
+    "size": 19,
+    "sample": "404 page not found\n"
+  },
+  "clob_/markets": {
+    "status": 200,
+    "has_data": true,
+    "size": 1821939,
+    "sample": "{\"data\":[{\"enable_order_book\":false,\"active\":true,\"closed\":true,\"archived\":false,\"accepting_orders\":false,\"accepting_order_timestamp\":null,\"minimum_order_size\":15,\"minimum_tick_size\":0.01,\"condition_i",
+    "keys": [
+      "data",
+      "next_cursor",
+      "limit",
+      "count"
+    ]
+  },
+  "clob_/markets?limit=100": {
+    "status": 200,
+    "has_data": true,
+    "size": 1821939,
+    "sample": "{\"data\":[{\"enable_order_book\":false,\"active\":true,\"closed\":true,\"archived\":false,\"accepting_orders\":false,\"accepting_order_timestamp\":null,\"minimum_order_size\":15,\"minimum_tick_size\":0.01,\"condition_i",
+    "keys": [
+      "data",
+      "next_cursor",
+      "limit",
+      "count"
+    ]
+  },
+  "clob_/orderbook": {
+    "status": 404,
+    "has_data": true,
+    "size": 146,
+    "sample": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n"
+  },
+  "data_/markets": {
+    "status": 404,
+    "has_data": true,
+    "size": 19,
+    "sample": "404 page not found\n"
+  },
+  "data_/trades": {
+    "status": 200,
+    "has_data": true,
+    "size": 75015,
+    "sample": "[{\"proxyWallet\":\"0x76ea64d8c46850d7c8a27f4955bc5161f254d1b9\",\"side\":\"BUY\",\"asset\":\"42450888184916029345373500902408924953692022279326694592573789627645148654459\",\"conditionId\":\"0x3a7faad0f5cf2dca022a1",
+    "count": 100
+  },
+  "data_/prices": {
+    "status": 404,
+    "has_data": true,
+    "size": 19,
+    "sample": "404 page not found\n"
+  }
+}

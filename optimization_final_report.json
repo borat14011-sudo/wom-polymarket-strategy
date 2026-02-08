@@ -1,0 +1,21 @@
+{
+  "session_summary": {
+    "duration_minutes": 20,
+    "checks_completed": 4,
+    "start_time": "2026-02-08T05:37:39.367541",
+    "end_time": "2026-02-08T05:52:42.175685"
+  },
+  "statistics": {
+    "total_opportunities_scanned": 0,
+    "total_price_movements": 0,
+    "unique_2026_markets": 0,
+    "active_positions_monitored": 0
+  },
+  "key_findings": {
+    "top_2026_markets": [],
+    "session_highlights": []
+  },
+  "recommendations": [
+    "Markets stable - no immediate action required"
+  ]
+}

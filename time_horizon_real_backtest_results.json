@@ -1,0 +1,1077 @@
+{
+  "timestamp": "2026-02-07T02:07:07.110Z",
+  "metadata": {
+    "totalProcessed": 149,
+    "skipped": 0,
+    "strategy": "Buy YES at creation, hold to resolution",
+    "dataSource": "polymarket_resolved_markets.json",
+    "caveats": "Time horizons are ESTIMATED based on market type"
+  },
+  "results": {
+    "under3days": {
+      "winRate": 0,
+      "total": 0,
+      "wins": 0,
+      "losses": 0,
+      "markets": []
+    },
+    "3to7days": {
+      "winRate": 0,
+      "total": 0,
+      "wins": 0,
+      "losses": 0,
+      "markets": []
+    },
+    "over7days": {
+      "winRate": "35.6",
+      "total": 149,
+      "wins": 53,
+      "losses": 96,
+      "markets": [
+        {
+          "question": "Will a Democrat win Michigan US Senate Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Republican win Michigan US Senate Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win US Michigan Senate Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Arizona be Trump's worst state on March 19?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Florida be Trump's worst state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Kansas be Trump's worst state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Illinois be Trump's worst state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Ohio be Trump's worst state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Arizona be Trump's best state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Ohio be Trump's best state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Kansas be Trump's best state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Illinois be Trump's best state on March 19?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Florida be Trump's best state on March 19?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Senegal Presidential Election: Another candidate wins?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Senegal Presidential Election: Amadou Ba wins?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Senegal Presidential Election: Khalifa Sall wins?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Senegal Presidential Election: Idrissa Seck wins?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Senegal Presidential Election: Bassirou Diomaye Faye wins?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Senegal Presidential Election: Aly Ngouille Ndiaye wins?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Senegal Presidential Election: Anta Babacar Ngom wins?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Senegal Presidential Election: Mahammed Dionne wins?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Ghannon Burton win the Mississippi Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Dan Eubanks win the Mississippi Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Roger Wicker win the Mississippi Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will another candidate win the Mississippi Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will the Atlanta Falcons sign Kirk Cousins? ",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will the Las Vegas Raiders sign Kirk Cousins? ",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will the Washington Commanders sign Kirk Cousins? ",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will the New England Patriots sign Kirk Cousins? ",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will the Minnesota Vikings sign Kirk Cousins? ",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will the Denver Broncos sign Kirk Cousins? ",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will another team sign Kirk Cousins? ",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Mike Tyson win his boxing match against Jake Paul?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Jake Paul vs. Mike Tyson have no official winner?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Jake Paul win his boxing match against Mike Tyson?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "GPT-5 announced in Q2 2024?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "GPT-5 announced in Q3 2024?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "GPT-5 not announced in 2024?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "GPT-5 announced in Q4 2024?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win West Virginia Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win West Virginia Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win West Virginia Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Democrat win Washington Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Republican win Washington Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Washington Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Utah Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win Utah Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win Utah Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Republican win North Dakota Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a candidate from another party win North Dakota Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win North Dakota Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win Montana Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Montana Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win Montana Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Republican win Missouri Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Democrat win Missouri Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Missouri Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Indiana Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win Indiana Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Democrat win Indiana Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win New Hampshire Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Democrat win New Hampshire Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win New Hampshire Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will US gain between 200k and 275k jobs in March?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will US gain more than 275k jobs in March?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will US gain less than 200k jobs in March?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win North Carolina Governor Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Republican win North Carolina Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win North Carolina Governor Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Anthony Joshua win his boxing match against Francis Ngannou?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Francis Ngannou win his boxing match against Anthony Joshua?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Anthony Joshua vs. Francis Ngannou have no official winner?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Garvey win the California Senate Primary by more than 4% of the vote?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Garvey win the California Senate Primary by between 0-2% of the vote?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Schiff win the California Senate Primary?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Garvey win the California Senate Primary by between 2-4% of the vote?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win Alabama Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Colorado Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Alaska Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Arkansas Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win California Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Massachusetts Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Oklahoma Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Vermont Republican Primary?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win Maine Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Tennessee Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win North Carolina Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Texas Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Virginia Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Minnesota Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Trump win Utah Republican Primary?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"Trump\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Biden say \"border\" three or more times during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"AI\" or \"Artificial Intelligence\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"fentanyl\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"Ukraine/Ukranian\" three or more times during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"Navalny\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Biden say \"Putin\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"China/Chinese\" three or more times during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"Moon\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Biden say \"Hunter\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Biden say \"Bitcoin\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Biden say \"folks\" four or more times during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Biden say \"Ceasefire\" during his State of the Union address?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Matt Dolan win the Ohio Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Bernie Moreno win the Ohio Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Frank LaRose win the Ohio Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will another candidate win the Ohio Republican Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will the DPK win the most seats in the South Korean election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will the PPP win the most seats in the South Korean election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will another party win the most seats in the South Korean election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Steve Garvey get first place in the California Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Adam Schiff get first place in the California Senate Primary?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Katie Porter get first place in the California Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will another candidate get first place in the California Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Colin Allred win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will Robert Hassan win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Heli Rodriguez-Prilliman win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Thierry Tchenko win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Roland Gutierrez win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Carl Sherman win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Steven Keough win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Mark Gonzalez win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Meri Gomez win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will another candidate win the Texas Democratic Senate Primary?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Wyoming Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win Wyoming Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win Wyoming Presidential Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a candidate from another party win Wisconsin Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win Wisconsin Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win Wisconsin Presidential Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a candidate from another party win West Virginia Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win West Virginia Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win West Virginia Presidential Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Democrat win Washington Presidential Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a candidate from another party win Washington Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Republican win Washington Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a Democrat win Virginia Presidential Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Republican win Virginia Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Virginia Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win the Missouri Caucus by between 50-60% of the vote?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win the Missouri Caucus by between 20-30% of the vote?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win the Missouri Caucus by between 40-50% of the vote?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win the Missouri Caucus by less than 20% of the vote?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win the Missouri Caucus by between 30-40% of the vote?",
+          "horizonDays": 14,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will Trump win the Missouri Caucus by more than 60% of the vote?",
+          "horizonDays": 14,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Democrat win Vermont Presidential Election?",
+          "horizonDays": 60,
+          "winner": "Yes",
+          "finalPrices": "1|0",
+          "won": true
+        },
+        {
+          "question": "Will a Republican win Vermont Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        },
+        {
+          "question": "Will a candidate from another party win Vermont Presidential Election?",
+          "horizonDays": 60,
+          "winner": "No",
+          "finalPrices": "0|1",
+          "won": false
+        }
+      ]
+    }
+  }
+}

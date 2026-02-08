@@ -1,0 +1,32 @@
+    <html>
+          <head>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script type="text/javascript">
+          var widget;
+          var setCookie=function (cname, cvalue) {
+             var d = new Date();
+             d.setHours(d.getHours()+1);//d.setMinutes(01);d.setSeconds(01);
+             var expires = "expires="+ d.toUTCString();
+             document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+          }
+          var call_captcha = function() {
+            widget=grecaptcha.render("g-recaptcha",{"sitekey":"6Ld6XH0UAAAAAEatAvym_PY2_h_lpo3G5pt_3xZy","callback":verify});
+          };
+          var verify=function(recaptcha) {
+			$.get( "verify_recaptcha", {"p_remoteip":"10.25.240.6","p_url":"redirectUrl","p_recaptcha":recaptcha}, 
+				function( data ) 
+				{ if (data.substring(0,4) != "FAIL") {
+                 setCookie("SONRIS_CAPTCHA", recaptcha);console.log(recaptcha);
+                 document.location="http://sonlite.dnr.state.la.us:80/dnrservices/redirectUrl.jsp?dDocname=15266878&showInline=True"; }
+             })};
+        </script>
+          </head>
+          <body>
+            <form action="javascript:verify(grecaptcha.getResponse(widget));" method="GET">
+              <div id="g-recaptcha"></div>
+              <br/>
+              <!--input type="submit" value="Submit"-->
+             <script src="https://www.google.com/recaptcha/api.js?onload=call_captcha&render=explicit" async defer></script>
+            </form>
+          </body>
+         </html>

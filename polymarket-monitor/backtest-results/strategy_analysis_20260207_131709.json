@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-02-07T13:17:09.306594",
+  "sample_size": 5000,
+  "trend_continuation_rate": 41.76980198019802,
+  "artifacts": {
+    "avg_exit_proximity": 0.00597772277227723,
+    "entry_timing": {
+      "early": 405,
+      "mid": 296,
+      "late": 915
+    }
+  },
+  "sensitivity": [
+    {
+      "config": "Original (3 rising)",
+      "trades": 1616,
+      "win_rate": 94.80198019801979
+    },
+    {
+      "config": "2 rising points",
+      "trades": 2756,
+      "win_rate": 98.11320754716981
+    },
+    {
+      "config": "4 rising points",
+      "trades": 853,
+      "win_rate": 93.31770222743259
+    },
+    {
+      "config": "Exit 10 before",
+      "trades": 1491,
+      "win_rate": 97.25016767270289
+    },
+    {
+      "config": "Exit 15 before",
+      "trades": 1355,
+      "win_rate": 93.21033210332104
+    },
+    {
+      "config": "Exit 20 before",
+      "trades": 1228,
+      "win_rate": 83.06188925081433
+    }
+  ],
+  "statistical_test": {
+    "p_value": 0.0,
+    "confidence_interval_win_rate": [
+      93.71751237623762,
+      95.85396039603961
+    ],
+    "confidence_interval_mean_pnl": [
+      0.33707602103960393,
+      0.35960532951732677
+    ]
+  },
+  "verdict": "MIXED_OVERFITTING",
+  "concerns": [
+    "Exit timing very close to final price (avg 0.0060)"
+  ]
+}
