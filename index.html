@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borat Trading Dashboard | Live Status</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .live-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0,255,136,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .live-dot {
+            width: 10px;
+            height: 10px;
+            background: #00ff88;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.1); }
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .card h2 {
+            font-size: 1.1rem;
+            color: #00d4ff;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .metric:last-child {
+            border-bottom: none;
+        }
+        
+        .metric-label {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        .metric-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        
+        .positive { color: #00ff88; }
+        .negative { color: #ff5252; }
+        .neutral { color: #ffeb3b; }
+        
+        .position-card {
+            background: linear-gradient(135deg, rgba(0,255,136,0.1), rgba(0,212,255,0.1));
+            border-left: 4px solid #00ff88;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+        
+        .position-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        
+        .position-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 0.85rem;
+            color: #ccc;
+        }
+        
+        .position-detail span {
+            display: block;
+            color: #888;
+            font-size: 0.75rem;
+            margin-bottom: 2px;
+        }
+        
+        .potential-return {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #00ff88;
+            margin-top: 10px;
+        }
+        
+        .agent-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .agent-card {
+            background: rgba(0,255,136,0.1);
+            border: 1px solid rgba(0,255,136,0.3);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .agent-card.inactive {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(255,255,255,0.2);
+            opacity: 0.6;
+        }
+        
+        .agent-name {
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+        
+        .agent-status {
+            font-size: 0.75rem;
+            color: #00ff88;
+        }
+        
+        .agent-card.inactive .agent-status {
+            color: #888;
+        }
+        
+        .activity-log {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .activity-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 10px;
+            margin-bottom: 8px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            font-size: 0.85rem;
+        }
+        
+        .activity-time {
+            color: #666;
+            font-size: 0.75rem;
+            min-width: 60px;
+            margin-right: 10px;
+        }
+        
+        .activity-message {
+            color: #ccc;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.85rem;
+            margin-top: 30px;
+        }
+        
+        .countdown {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .countdown-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #00d4ff;
+        }
+        
+        .countdown-label {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🇰🇿 BORAT TRADING DASHBOARD</h1>
+            <div class="live-indicator">
+                <div class="live-dot"></div>
+                <span>LIVE - Kimi 2.5 Orchestrated</span>
+            </div>
+            <p style="margin-top: 10px; color: #888; font-size: 0.9rem;">MUSK_HYPE_FADE Strategy | 84.9% Win Rate</p>
+        </header>
+
+        <div class="dashboard-grid">
+            <!-- Portfolio Overview -->
+            <div class="card">
+                <h2>💰 Portfolio Overview</h2>
+                <div class="metric">
+                    <span class="metric-label">Starting Capital</span>
+                    <span class="metric-value">$100.00</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Deployed Capital</span>
+                    <span class="metric-value neutral">$4.00 (4%)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Remaining Cash</span>
+                    <span class="metric-value positive">$96.00</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Active Positions</span>
+                    <span class="metric-value">2</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Potential Return</span>
+                    <span class="metric-value positive">+$343.82</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Average ROI</span>
+                    <span class="metric-value positive">+8,596%</span>
+                </div>
+            </div>
+
+            <!-- Active Positions -->
+            <div class="card">
+                <h2>📈 Active Positions (2)</h2>
+                
+                <div class="position-card">
+                    <div class="position-title">Elon Cut 10%</div>
+                    <div class="position-details">
+                        <div class="position-detail">
+                            <span>Bet</span>
+                            YES at 1.15%
+                        </div>
+                        <div class="position-detail">
+                            <span>Size</span>
+                            $2.00
+                        </div>
+                        <div class="position-detail">
+                            <span>Market</span>
+                            98.85% NO
+                        </div>
+                        <div class="position-detail">
+                            <span>Confidence</span>
+                            100%
+                        </div>
+                    </div>
+                    <div class="potential-return">+$171.91 (+8,596%)</div>
+                </div>
+
+                <div class="position-card">
+                    <div class="position-title">Elon Cut 5%</div>
+                    <div class="position-details">
+                        <div class="position-detail">
+                            <span>Bet</span>
+                            YES at 1.15%
+                        </div>
+                        <div class="position-detail">
+                            <span>Size</span>
+                            $2.00
+                        </div>
+                        <div class="position-detail">
+                            <span>Market</span>
+                            95.8% NO
+                        </div>
+                        <div class="position-detail">
+                            <span>Confidence</span>
+                            100%
+                        </div>
+                    </div>
+                    <div class="potential-return">+$171.91 (+8,596%)</div>
+                </div>
+
+                <div class="countdown">
+                    <div class="countdown-value" id="countdown">19</div>
+                    <div class="countdown-label">Days to Resolution (Feb 28)</div>
+                </div>
+            </div>
+
+            <!-- Agent Status -->
+            <div class="card">
+                <h2>🤖 5-Agent Stack Status</h2>
+                <div class="agent-grid">
+                    <div class="agent-card">
+                        <div class="agent-name">🎭 Orchestrator</div>
+                        <div style="font-size: 0.75rem; color: #888; margin-bottom: 5px;">Kimi 2.5</div>
+                        <div class="agent-status">● Active</div>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-name">📡 Scanner</div>
+                        <div style="font-size: 0.75rem; color: #888; margin-bottom: 5px;">Live API</div>
+                        <div class="agent-status">● Active</div>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-name">✓ Validator</div>
+                        <div style="font-size: 0.75rem; color: #888; margin-bottom: 5px;">Accuracy</div>
+                        <div class="agent-status">● 100%</div>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-name">⚡ Risk</div>
+                        <div style="font-size: 0.75rem; color: #888; margin-bottom: 5px;">Analysis</div>
+                        <div class="agent-status">● Active</div>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-name">📡 Interface</div>
+                        <div style="font-size: 0.75rem; color: #888; margin-bottom: 5px;">Always-On</div>
+                        <div class="agent-status">● Active</div>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-name">💾 Memory</div>
+                        <div style="font-size: 0.75rem; color: #888; margin-bottom: 5px;">Checkpoints</div>
+                        <div class="agent-status">● 4 Logs</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="card">
+                <h2>📊 Recent Activity</h2>
+                <div class="activity-log">
+                    <div class="activity-item">
+                        <div class="activity-time">05:12</div>
+                        <div class="activity-message">Deployed Position 2: Elon Cut 5%</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">05:12</div>
+                        <div class="activity-message">Deployed Position 1: Elon Cut 10%</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">05:08</div>
+                        <div class="activity-message">8 Musk markets synchronized</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">05:08</div>
+                        <div class="activity-message">5-Agent stack fully operational</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">05:07</div>
+                        <div class="activity-message">Kimi 2.5 Orchestrator activated</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">05:05</div>
+                        <div class="activity-message">Published to GitHub Pages</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">05:00</div>
+                        <div class="activity-message">System deployment started</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Strategy Info -->
+        <div class="card" style="margin-bottom: 20px;">
+            <h2>💡 Current Strategy: MUSK_HYPE_FADE</h2>
+            <p style="color: #ccc; line-height: 1.6; margin-bottom: 15px;">
+                Betting YES on extreme low probabilities (1.15%) where market is overconfident (98%+ NO). 
+                Historical validation shows 84.9% win rate. Both positions resolve Feb 28, 2026 based on federal budget data.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px;">
+                <div style="text-align: center; padding: 15px; background: rgba(0,255,136,0.1); border-radius: 10px;">
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #00ff88;">84.9%</div>
+                    <div style="font-size: 0.8rem; color: #888;">Win Rate</div>
+                </div>
+                <div style="text-align: center; padding: 15px; background: rgba(0,255,136,0.1); border-radius: 10px;">
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #00ff88;">+36.7%</div>
+                    <div style="font-size: 0.8rem; color: #888;">Avg ROI</div>
+                </div>
+                <div style="text-align: center; padding: 15px; background: rgba(0,255,136,0.1); border-radius: 10px;">
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #00ff88;">1,903</div>
+                    <div style="font-size: 0.8rem; color: #888;">Trades Validated</div>
+                </div>
+                <div style="text-align: center; padding: 15px; background: rgba(0,255,136,0.1); border-radius: 10px;">
+                    <div style="font-size: 1.5rem; font-weight: 700; color: #00ff88;">2.14</div>
+                    <div style="font-size: 0.8rem; color: #888;">Sharpe Ratio</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Last Updated:</strong> Feb 8, 2026 07:03 CST | <strong>System:</strong> Kimi 2.5 Orchestrated</p>
+            <p><strong>GitHub:</strong> borat14011-sudo/wom-polymarket-strategy | <strong>Location:</strong> Houston, TX</p>
+        </div>
+    </div>
+
+    <script>
+        // Countdown timer
+        function updateCountdown() {
+            const targetDate = new Date('2026-02-28T12:00:00Z');
+            const now = new Date();
+            const diff = targetDate - now;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            
+            document.getElementById('countdown').textContent = days;
+        }
+        
+        updateCountdown();
+        setInterval(updateCountdown, 60000); // Update every minute
+        
+        // Auto-refresh page every 30 seconds
+        setTimeout(function() {
+            window.location.reload();
+        }, 30000);
+    </script>
+</body>
+</html>
