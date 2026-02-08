@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <title>Borat Trading Dashboard | Live Status</title>
     <style>
         * {
@@ -273,11 +270,11 @@
                 </div>
                 <div class="metric">
                     <span class="metric-label">Deployed Capital</span>
-                    <span class="metric-value neutral">$4.00 (4%)</span>
+                    <span class="metric-value neutral" id="deployed-capital">$4.00 (4%)</span>
                 </div>
                 <div class="metric">
                     <span class="metric-label">Remaining Cash</span>
-                    <span class="metric-value positive">$96.00</span>
+                    <span class="metric-value positive" id="remaining-capital">$96.00</span>
                 </div>
                 <div class="metric">
                     <span class="metric-label">Active Positions</span>
@@ -285,7 +282,7 @@
                 </div>
                 <div class="metric">
                     <span class="metric-label">Total Potential Return</span>
-                    <span class="metric-value positive">+$343.82</span>
+                    <span class="metric-value positive" id="potential-return">+$343.82</span>
                 </div>
                 <div class="metric">
                     <span class="metric-label">Average ROI</span>
@@ -317,7 +314,7 @@
                             100%
                         </div>
                     </div>
-                    <div class="potential-return">+$171.91 (+8,596%)</div>
+                    <div class="potential-return" id="pos1-potential">+$171.91 (+8,596%)</div>
                 </div>
 
                 <div class="position-card">
@@ -340,11 +337,13 @@
                             100%
                         </div>
                     </div>
-                    <div class="potential-return">+$171.91 (+8,596%)</div>
+                    <div class="potential-return" id="pos2-potential">+$171.91 (+8,596%)</div>
                 </div>
 
                 <div class="countdown">
                     <div class="countdown-value" id="countdown">19</div>
+                    <div class="countdown-label">Days to Resolution (Feb 28)</div>
+                </div>
                     <div class="countdown-label">Days to Resolution (Feb 28)</div>
                 </div>
             </div>
@@ -389,7 +388,7 @@
             <!-- Recent Activity -->
             <div class="card">
                 <h2>📊 Recent Activity</h2>
-                <div class="activity-log">
+                <div class="activity-log" id="activity-feed">
                     <div class="activity-item">
                         <div class="activity-time">05:12</div>
                         <div class="activity-message">Deployed Position 2: Elon Cut 5%</div>
@@ -450,7 +449,7 @@
         </div>
 
         <div class="footer">
-            <p><strong>Last Updated:</strong> Feb 8, 2026 07:03 CST | <strong>System:</strong> Kimi 2.5 Orchestrated</p>
+            <p><strong>Last Updated:</strong> <span id="last-updated">Feb 8, 2026 07:03 CST</span> | <strong>System:</strong> Kimi 2.5 Orchestrated | <strong>Updates:</strong> Live every 10s</p>
             <p><strong>GitHub:</strong> borat14011-sudo/wom-polymarket-strategy | <strong>Location:</strong> Houston, TX</p>
         </div>
     </div>
@@ -475,5 +474,7 @@
             window.location.reload();
         }, 30000);
     </script>
+    
+    <script src="dashboard.js"></script>
 </body>
 </html>
