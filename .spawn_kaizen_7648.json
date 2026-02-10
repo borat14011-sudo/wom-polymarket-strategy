@@ -1,0 +1,8 @@
+{
+  "agent_id": "kaizen_7648",
+  "type": "opportunity_scanner",
+  "spawned_at": "2026-02-08T14:06:14.928334",
+  "trigger": "deliverable:TRADEABLE_MARKETS.json",
+  "status": "active",
+  "workspace": "C:\\Users\\Borat\\.openclaw\\workspace"
+}

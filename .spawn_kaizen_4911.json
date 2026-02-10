@@ -1,0 +1,8 @@
+{
+  "agent_id": "kaizen_4911",
+  "type": "backtest_agent",
+  "spawned_at": "2026-02-08T14:16:13.909553",
+  "trigger": "deliverable:RESOLVED_DATA_FIXED.json",
+  "status": "active",
+  "workspace": "C:\\Users\\Borat\\.openclaw\\workspace"
+}

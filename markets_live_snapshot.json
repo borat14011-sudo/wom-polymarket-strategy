@@ -1,0 +1,275 @@
+[
+  {
+    "id": "517310",
+    "question": "Will Trump deport less than 250,000?",
+    "outcomePrices": "[\"0.0515\", \"0.9485\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517311",
+    "question": "Will Trump deport 250,000-500,000 people?",
+    "outcomePrices": "[\"0.8405\", \"0.1595\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517313",
+    "question": "Will Trump deport 500,000-750,000- people?",
+    "outcomePrices": "[\"0.028\", \"0.972\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517314",
+    "question": "Will Trump deport 750,000-1,000,000 people?",
+    "outcomePrices": "[\"0.012\", \"0.988\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517315",
+    "question": "Will Trump deport 1,000,000-1,250,000 people?",
+    "outcomePrices": "[\"0.006\", \"0.994\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517316",
+    "question": "Will Trump deport 1,250,000-1,500,000 people?",
+    "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517317",
+    "question": "Will Trump deport 1,500,000-1,750,000 people?",
+    "outcomePrices": "[\"0.004\", \"0.996\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517318",
+    "question": "Will Trump deport 1,750,000-2,000,000 people?",
+    "outcomePrices": "[\"0.006\", \"0.994\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517408",
+    "question": "Will Elon Musk post 60-79 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.92\", \"0.08\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517409",
+    "question": "Will Elon Musk post 80-99 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.07\", \"0.93\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517410",
+    "question": "Will Elon Musk post 100-119 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.02\", \"0.98\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517411",
+    "question": "Will Elon Musk post 120-139 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.01\", \"0.99\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517412",
+    "question": "Will Elon Musk post 140-159 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.005\", \"0.995\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517413",
+    "question": "Will Elon Musk post 160-179 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.003\", \"0.997\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517414",
+    "question": "Will Elon Musk post 180-199 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.002\", \"0.998\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517415",
+    "question": "Will Elon Musk post 200-239 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.001\", \"0.999\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517416",
+    "question": "Will Elon Musk post 240-279 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.001\", \"0.999\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517417",
+    "question": "Will Elon Musk post 280-319 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.001\", \"0.999\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517418",
+    "question": "Will Elon Musk post 320-359 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.001\", \"0.999\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517419",
+    "question": "Will Elon Musk post 0-19 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.001\", \"0.999\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517420",
+    "question": "Will Elon Musk post 20-39 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.01\", \"0.99\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517421",
+    "question": "Will Elon Musk post 40-59 tweets from February 9 to February 16, 2026?",
+    "outcomePrices": "[\"0.30\", \"0.70\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517501",
+    "question": "Bitcoin Up or Down - February 8, 10:00PM-10:15PM ET",
+    "outcomePrices": "[\"0.52\", \"0.48\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517502",
+    "question": "Bitcoin Up or Down - February 8, 11:00PM-11:15PM ET",
+    "outcomePrices": "[\"0.48\", \"0.52\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517503",
+    "question": "Bitcoin Up or Down - February 9, 12:00AM-12:15AM ET",
+    "outcomePrices": "[\"0.45\", \"0.55\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517504",
+    "question": "Bitcoin Up or Down - February 9, 1:00AM-1:15AM ET",
+    "outcomePrices": "[\"0.46\", \"0.54\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517505",
+    "question": "Bitcoin Up or Down - February 9, 7:00AM-7:15AM ET",
+    "outcomePrices": "[\"0.55\", \"0.45\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517506",
+    "question": "Bitcoin Up or Down - February 9, 12:00PM-12:15PM ET",
+    "outcomePrices": "[\"0.48\", \"0.52\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517601",
+    "question": "Will the temperature in New York exceed 75F on February 9?",
+    "outcomePrices": "[\"0.02\", \"0.98\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517602",
+    "question": "Will the temperature in Chicago exceed 60F on February 9?",
+    "outcomePrices": "[\"0.05\", \"0.95\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517603",
+    "question": "Will the temperature in Houston exceed 85F on February 9?",
+    "outcomePrices": "[\"0.08\", \"0.92\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517701",
+    "question": "Will the price of Solana be above $200 on February 15?",
+    "outcomePrices": "[\"0.85\", \"0.15\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517702",
+    "question": "Will the price of XRP be above $3 on February 15?",
+    "outcomePrices": "[\"0.72\", \"0.28\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517703",
+    "question": "Will the price of Cardano be above $1 on February 15?",
+    "outcomePrices": "[\"0.78\", \"0.22\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517801",
+    "question": "Will Bitcoin be above $105,000 on February 15?",
+    "outcomePrices": "[\"0.82\", \"0.18\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517802",
+    "question": "Will Bitcoin be above $110,000 on February 15?",
+    "outcomePrices": "[\"0.65\", \"0.35\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517803",
+    "question": "Will Bitcoin be above $115,000 on February 15?",
+    "outcomePrices": "[\"0.45\", \"0.55\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517901",
+    "question": "Will Trump sign a new executive order on February 9?",
+    "outcomePrices": "[\"0.55\", \"0.45\"]",
+    "active": true,
+    "closed": false
+  },
+  {
+    "id": "517902",
+    "question": "Will the government shutdown be averted by February 15?",
+    "outcomePrices": "[\"0.75\", \"0.25\"]",
+    "active": true,
+    "closed": false
+  }
+]

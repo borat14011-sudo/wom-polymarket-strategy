@@ -1,0 +1,16 @@
+{
+  "trader_id": "PAPER_TRADER_2026_02_08",
+  "initial_capital": 100.00,
+  "current_capital": 100.00,
+  "total_pnl": 0.00,
+  "total_pnl_pct": 0.00,
+  "start_date": "2026-02-08",
+  "status": "ACTIVE",
+  "max_exposure_pct": 25,
+  "circuit_breaker_pct": -15,
+  "daily_loss_limit": -5,
+  "strategies": ["BTC_TIME_BIAS", "WEATHER_FADE_LONGSHOTS"],
+  "positions": [],
+  "trades": [],
+  "last_updated": "2026-02-08T16:37:00"
+}

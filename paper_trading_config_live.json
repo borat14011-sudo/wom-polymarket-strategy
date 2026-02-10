@@ -1,0 +1,96 @@
+{
+  "paper_trading_mode": true,
+  "trader_id": "PAPER_TRADER_LIVE",
+  "start_time": "2026-02-08T16:37:00-08:00",
+  "initial_capital": 100.00,
+  "currency": "USDC",
+  "status": "ACTIVE",
+  
+  "portfolio": {
+    "cash": 100.00,
+    "allocated": 0.00,
+    "total_value": 100.00,
+    "total_pnl": 0.00,
+    "total_roi": 0.00
+  },
+  
+  "risk_management": {
+    "max_daily_loss_pct": 5.0,
+    "max_position_size_pct": 10.0,
+    "max_total_exposure_pct": 50.0,
+    "circuit_breaker_pct": 15.0,
+    "min_cash_reserve_pct": 50.0,
+    "enable_kill_switch": true
+  },
+  
+  "position_sizing": {
+    "bet_1_size": 8.00,
+    "bet_2_size": 6.00,
+    "bet_3_size": 6.00,
+    "total_allocated": 20.00,
+    "remaining_cash": 80.00
+  },
+  
+  "prepared_trades": [
+    {
+      "trade_id": "001",
+      "bet_number": 1,
+      "market": "MicroStrategy sells BTC by March 31, 2025",
+      "market_slug": "microstrategy-sells-btc-by-march-31-2025",
+      "position": "NO",
+      "size_usd": 8.00,
+      "implied_prob": 0.0155,
+      "true_prob": 0.003,
+      "edge_pct": 1.25,
+      "expected_value_pct": 6.1,
+      "confidence": 89.5,
+      "status": "READY_TO_EXECUTE",
+      "rationale": "Zero sales history across 4.5+ years. Saylor committed to 100-year hold."
+    },
+    {
+      "trade_id": "002",
+      "bet_number": 2,
+      "market": "MicroStrategy sells BTC by June 30, 2025",
+      "market_slug": "microstrategy-sells-btc-by-june-30-2025",
+      "position": "NO",
+      "size_usd": 6.00,
+      "implied_prob": 0.095,
+      "true_prob": 0.015,
+      "edge_pct": 8.0,
+      "expected_value_pct": 8.8,
+      "confidence": 87.0,
+      "status": "READY_TO_EXECUTE",
+      "rationale": "Extended window adds minimal risk. No 2025 debt maturities."
+    },
+    {
+      "trade_id": "003",
+      "bet_number": 3,
+      "market": "MicroStrategy sells BTC by December 31, 2025",
+      "market_slug": "microstrategy-sells-btc-by-december-31-2025",
+      "position": "NO",
+      "size_usd": 6.00,
+      "implied_prob": 0.20,
+      "true_prob": 0.06,
+      "edge_pct": 14.0,
+      "expected_value_pct": 17.5,
+      "confidence": 86.0,
+      "status": "READY_TO_EXECUTE",
+      "rationale": "12-month window still within historical pattern. BTC is core to corporate identity."
+    }
+  ],
+  
+  "monitoring": {
+    "check_interval_seconds": 300,
+    "alert_on_price_change_pct": 10.0,
+    "pnl_update_interval_minutes": 60,
+    "daily_report_time": "10:00",
+    "timezone": "America/Los_Angeles"
+  },
+  
+  "logging": {
+    "trade_log": "paper_trades.log",
+    "pnl_log": "paper_pnl.log",
+    "audit_log": "paper_audit.log",
+    "alert_log": "paper_alerts.log"
+  }
+}

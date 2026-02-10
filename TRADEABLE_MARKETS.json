@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-02-08T22:05:31.418Z",
+  "criteria": {
+    "min_liquidity": 10000,
+    "min_volume": 1000,
+    "max_spread_pct": 5
+  },
+  "summary": {
+    "total_analyzed": 124,
+    "tradeable_count": 2,
+    "illiquid_count": 122,
+    "tradeable_percentage": 1.6,
+    "illiquid_percentage": 98.4
+  },
+  "tradeable_markets": [
+    {
+      "id": "206797",
+      "question": "What will the price of $DOGE be on June 26?",
+      "category": "Crypto",
+      "liquidity": 75363.26,
+      "volume": 1391596.37,
+      "spread_pct": null,
+      "market_type": "crypto",
+      "resolution_date": "2021-06-26T00:00:00Z",
+      "slug": "what-will-the-price-of-doge-be-on-june-26"
+    },
+    {
+      "id": "132021",
+      "question": "Will $DOGE reach $1 at any point before June 15, 2021?",
+      "category": "Crypto",
+      "liquidity": 63818.76,
+      "volume": 1050066.83,
+      "spread_pct": null,
+      "market_type": "crypto",
+      "resolution_date": "2021-06-15T00:00:00Z",
+      "slug": "will-doge-reach-1-at-any-point-before-june-15-2021"
+    }
+  ]
+}

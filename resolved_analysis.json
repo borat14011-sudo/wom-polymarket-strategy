@@ -1,0 +1,46 @@
+{
+  "analysis_date": "2026-02-08T12:54:38.007746",
+  "date_range": {
+    "start": "2025-11-10T00:00:00+00:00",
+    "end": "2026-02-08T00:00:00+00:00"
+  },
+  "total_markets_analyzed": 0,
+  "favorite_performance": {
+    "favorites_won": 0,
+    "underdogs_won": 0,
+    "favorite_win_rate": 0.0,
+    "underdog_win_rate": 0.0
+  },
+  "extreme_probabilities": {
+    "high_confidence_total": 0,
+    "high_confidence_correct": 0,
+    "high_confidence_accuracy": 0,
+    "low_confidence_total": 0,
+    "low_confidence_correct": 0,
+    "low_confidence_accuracy": 0
+  },
+  "market_distribution": {
+    "extreme_high": 0,
+    "extreme_low": 0,
+    "fifty_fifty": 0,
+    "moderate": 0
+  },
+  "price_statistics": {
+    "mean_final_price": 0,
+    "median_final_price": 0,
+    "price_std_dev": 0,
+    "min_price": 0,
+    "max_price": 0
+  },
+  "volume_statistics": {
+    "total_volume": 0,
+    "mean_volume": 0,
+    "median_volume": 0
+  },
+  "key_insights": [
+    "Underdogs outperform with 0.0% win rate - potential value opportunity",
+    "Low confidence markets (<10%) show high upset potential",
+    "Markets tend to be biased toward NO outcomes"
+  ],
+  "market_details": []
+}

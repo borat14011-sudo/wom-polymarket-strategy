@@ -1,0 +1,49 @@
+{
+  "trader_id": "PAPER_TRADER_1",
+  "model": "Kimi 2.5",
+  "start_time": "2026-02-08T14:05:00-08:00",
+  "initial_capital": 100.00,
+  "status": "ACTIVE",
+  "portfolio": {
+    "cash": 0.00,
+    "allocated": 100.00,
+    "total_value": 100.00,
+    "total_pnl": 0.00,
+    "total_roi": 0.00
+  },
+  "strategies": [
+    {
+      "name": "Whale Copy",
+      "allocation_pct": 40,
+      "allocation_usd": 40.00,
+      "rationale": "Highest total P&L (+33.84) with excellent 82% win rate across 405 trades. Follows whale/smart money movements.",
+      "active_positions": [],
+      "closed_positions": [],
+      "strategy_pnl": 0.00
+    },
+    {
+      "name": "Trend Filter",
+      "allocation_pct": 35,
+      "allocation_usd": 35.00,
+      "rationale": "Strong performance (+23.79) with solid 57.3% win rate. Momentum-based trend following.",
+      "active_positions": [],
+      "closed_positions": [],
+      "strategy_pnl": 0.00
+    },
+    {
+      "name": "Expert Fade",
+      "allocation_pct": 25,
+      "allocation_usd": 25.00,
+      "rationale": "Good total P&L (+17.57) with contrarian approach. Lower win rate (14%) but asymmetric payoffs.",
+      "active_positions": [],
+      "closed_positions": [],
+      "strategy_pnl": 0.00
+    }
+  ],
+  "reporting": {
+    "last_report_time": null,
+    "report_interval_minutes": 10,
+    "total_reports": 0,
+    "trade_count": 0
+  }
+}

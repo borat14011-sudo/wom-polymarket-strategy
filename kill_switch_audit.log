@@ -1,0 +1,3 @@
+timestamp,event_type,level,source,reason,strategy_id,initiator,data
+2026-02-08T16:40:54.400183,TRIGGER,STRATEGY_HALT,automated_monitor,drawdown_limit,strategy_1,SYSTEM,{}
+2026-02-08T16:40:54.408709,TRIGGER,PORTFOLIO_SOFT,automated_monitor,daily_loss_limit,N/A,SYSTEM,{}

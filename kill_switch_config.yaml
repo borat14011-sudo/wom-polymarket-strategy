@@ -1,0 +1,144 @@
+# Kill Switch & Circuit Breaker System Configuration
+
+# Trigger Thresholds
+triggers:
+  # Strategy-level triggers
+  strategy_drawdown: 0.05              # 5% max drawdown per strategy
+  strategy_consecutive_losses: 5       # Halt after 5 consecutive losses
+  strategy_min_win_rate: 0.30          # Minimum 30% win rate
+  strategy_max_position_size: 100000   # Max position size in USD
+  strategy_signal_error_rate: 0.10     # Max 10% signal errors
+  
+  # Portfolio-level triggers
+  portfolio_daily_loss: 0.03           # 3% daily loss limit
+  portfolio_drawdown: 0.10             # 10% max drawdown
+  portfolio_correlation: 0.80          # Halt if avg correlation > 0.8
+  margin_utilization: 0.90             # Halt at 90% margin
+  var_95_limit: 0.05                   # 5% VaR limit
+  
+  # Velocity/rapid change triggers
+  velocity_threshold_1min: 0.01        # Alert at 1% drop in 1 min
+  velocity_threshold_hard: 0.02        # Hard halt at 2% drop in 1 min
+  velocity_threshold_emergency: 0.03   # Emergency at 3% drop in 1 min
+  
+  # System health triggers
+  max_api_latency_ms: 500              # Halt if API latency > 500ms
+  max_stale_data_seconds: 30           # Halt if data stale > 30s
+  max_order_error_rate: 0.05           # Halt at 5% order error rate
+
+# Timing Configuration
+timing:
+  max_shutdown_seconds: 30             # Maximum time for emergency shutdown
+  position_close_timeout: 10           # Max seconds per position close
+  monitor_interval_seconds: 1          # Trigger evaluation interval
+  strategy_resume_cooldown: 900        # 15 min cooldown before strategy can resume
+  portfolio_resume_delay: 3600         # 1 hour delay before portfolio can resume
+
+# Alert Configuration
+alerts:
+  # Slack integration
+  slack_webhook: null                  # Set to your Slack webhook URL
+  slack_channel: "#trading-alerts"
+  
+  # Email configuration
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: null
+    password: null
+    from_address: "alerts@yourtradingfirm.com"
+    to_addresses: []
+    use_tls: true
+  
+  # PagerDuty for critical alerts
+  pagerduty_key: null                  # PagerDuty integration key
+  pagerduty_service_id: null
+  
+  # Alert cooldowns (prevent spam)
+  alert_cooldown_seconds: 300          # 5 min between same alert type
+  
+  # Escalation
+  escalation_delay_minutes: 15         # Escalate if not acknowledged
+
+# Audit Logging
+audit_log: "kill_switch_audit.log"
+state_backup_dir: "./emergency_states"
+retention_days: 365
+
+# Authorization Levels
+authorization:
+  # Who can perform what actions
+  strategy_halt: ["trader", "senior_trader", "risk_manager"]
+  strategy_resume: ["senior_trader", "risk_manager"]
+  portfolio_soft_halt: ["senior_trader", "risk_manager"]
+  portfolio_hard_halt: ["risk_manager"]
+  emergency_stop: ["trader", "senior_trader", "risk_manager", "admin"]
+  system_reset: ["risk_manager", "cto"]
+  
+  # Dual authorization requirements
+  require_dual_auth_for:
+    - portfolio_hard_halt
+    - emergency_stop
+    - system_reset
+
+# Recovery Configuration
+recovery:
+  # Graduated re-entry after halt
+  phases:
+    - name: "paper_trading"
+      duration_hours: 4
+      size_multiplier: 0.0
+    - name: "reduced_size_25"
+      duration_hours: 24
+      size_multiplier: 0.25
+    - name: "reduced_size_50"
+      duration_hours: 48
+      size_multiplier: 0.50
+    - name: "full_size"
+      duration_hours: 0
+      size_multiplier: 1.0
+  
+  # Validation requirements before advancing phases
+  required_metrics:
+    min_trades_per_day: 5
+    max_drawdown_in_phase: 0.02
+    min_sharpe_ratio: 0.5
+
+# System Integration Endpoints
+integrations:
+  # Order management system
+  oms:
+    base_url: "http://localhost:8080"
+    timeout_seconds: 5
+  
+  # Position management
+  position_manager:
+    base_url: "http://localhost:8081"
+    timeout_seconds: 5
+  
+  # Risk engine
+  risk_engine:
+    base_url: "http://localhost:8082"
+    timeout_seconds: 5
+  
+  # Exchange connections
+  exchanges:
+    binance:
+      enabled: true
+      testnet: false
+    coinbase:
+      enabled: true
+      sandbox: false
+
+# Monitoring & Metrics
+monitoring:
+  # Prometheus metrics endpoint
+  prometheus_port: 9090
+  
+  # Health check endpoint
+  health_check_port: 8080
+  
+  # Performance thresholds for self-monitoring
+  max_trigger_latency_ms: 1000
+  max_log_write_latency_ms: 500

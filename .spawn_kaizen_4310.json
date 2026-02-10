@@ -1,0 +1,8 @@
+{
+  "agent_id": "kaizen_4310",
+  "type": "opportunity_scanner",
+  "spawned_at": "2026-02-08T14:06:14.940801",
+  "trigger": "wave2",
+  "status": "active",
+  "workspace": "C:\\Users\\Borat\\.openclaw\\workspace"
+}

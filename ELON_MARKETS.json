@@ -1,0 +1,140 @@
+{
+  "search_metadata": {
+    "search_terms": ["elon", "musk", "twitter", "tweet"],
+    "api_endpoint": "https://gamma-api.polymarket.com",
+    "search_date": "2026-02-09",
+    "api_limitations": "The Gamma API search functionality did not return Elon-specific markets. All search queries returned the same generic market results, suggesting the search parameter may not be functioning correctly or there are no active Elon-related markets currently available."
+  },
+  "elon_related_markets_found": [],
+  "potentially_related_markets": [
+    {
+      "category": "Twitter/X Platform Markets",
+      "note": "No specific Twitter/X markets found in search results",
+      "relevance": "Twitter/X is Elon Musk's primary social media platform - markets about Twitter policies, user counts, or platform changes could be indirectly related"
+    },
+    {
+      "category": "Tesla/SpaceX/Dogecoin Markets",
+      "note": "No specific Tesla, SpaceX, or Dogecoin markets found in current active markets",
+      "relevance": "These are Elon's primary business and crypto interests"
+    }
+  ],
+  "markets_analyzed_from_api": [
+    {
+      "event_id": "16167",
+      "title": "MicroStrategy sells any Bitcoin by ___ ?",
+      "ticker": "microstrategy-sell-any-bitcoin-in-2025",
+      "category": "Crypto/Business",
+      "elon_relevance": "LOW - Michael Saylor/ MicroStrategy related, not Elon",
+      "total_volume": 20233326.32,
+      "liquidity": 220402.43,
+      "markets": [
+        {
+          "question": "MicroStrategy sells any Bitcoin in 2025?",
+          "status": "CLOSED (Resolved)",
+          "outcome_prices": {"yes": 0, "no": 1},
+          "volume": 17976157.53,
+          "spread": 0.001,
+          "end_date": "2025-12-31"
+        },
+        {
+          "question": "MicroStrategy sells any Bitcoin by March 31, 2026?",
+          "status": "OPEN",
+          "outcome_prices": {"yes": 0.0185, "no": 0.9815},
+          "volume": 1478843.37,
+          "liquidity": 124625.17,
+          "spread": 0.003,
+          "end_date": "2026-03-31"
+        },
+        {
+          "question": "MicroStrategy sells any Bitcoin by June 30, 2026?",
+          "status": "OPEN",
+          "outcome_prices": {"yes": 0.085, "no": 0.915},
+          "volume": 546689.10,
+          "liquidity": 58630.20,
+          "spread": 0.01,
+          "end_date": "2026-06-30"
+        },
+        {
+          "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
+          "status": "OPEN",
+          "outcome_prices": {"yes": 0.165, "no": 0.835},
+          "volume": 231636.33,
+          "liquidity": 37147.06,
+          "spread": 0.03,
+          "end_date": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "event_id": "16183",
+      "title": "Kraken IPO by ___ ?",
+      "ticker": "kraken-ipo-in-2025",
+      "category": "Crypto/IPOs",
+      "elon_relevance": "LOW - Crypto exchange IPO, not directly Elon related",
+      "total_volume": 888260.14,
+      "liquidity": 4171.57,
+      "markets": [
+        {
+          "question": "Kraken IPO in 2025?",
+          "status": "CLOSED (Resolved No)",
+          "outcome_prices": {"yes": 0, "no": 1},
+          "volume": 494516.53,
+          "spread": 0.002,
+          "end_date": "2025-12-31"
+        },
+        {
+          "question": "Kraken IPO by March 31, 2026?",
+          "status": "OPEN",
+          "outcome_prices": {"yes": 0.105, "no": 0.895},
+          "volume": 240587.15,
+          "liquidity": 1833.33,
+          "spread": 0.03,
+          "end_date": "2026-03-31"
+        },
+        {
+          "question": "Kraken IPO by December 31, 2026?",
+          "status": "OPEN",
+          "outcome_prices": {"yes": 0.815, "no": 0.185},
+          "volume": 153156.47,
+          "liquidity": 2338.23,
+          "spread": 0.11,
+          "end_date": "2026-12-31"
+        }
+      ]
+    },
+    {
+      "event_id": "16263",
+      "title": "Macron out by...?",
+      "ticker": "macron-out-in-2025",
+      "category": "Politics",
+      "elon_relevance": "NONE - French politics, unrelated to Elon",
+      "total_volume": 1794128.86,
+      "liquidity": 17029.14,
+      "markets": [
+        {
+          "question": "Macron out in 2025?",
+          "status": "CLOSED (Resolved No)",
+          "outcome_prices": {"yes": 0, "no": 1},
+          "volume": 1386219.77,
+          "spread": 0.001,
+          "end_date": "2025-12-31"
+        },
+        {
+          "question": "Macron out by June 30, 2026?",
+          "status": "OPEN",
+          "outcome_prices": {"yes": 0.04, "no": 0.96},
+          "volume": 202284.58,
+          "liquidity": 17029.14,
+          "spread": 0.002,
+          "end_date": "2026-06-30"
+        }
+      ]
+    }
+  ],
+  "conclusion": {
+    "elon_markets_found": 0,
+    "high_volume_elon_markets": 0,
+    "api_search_status": "FAILED - Search parameter not functioning correctly",
+    "recommendation": "Manual search on Polymarket.com website or alternative data sources recommended"
+  }
+}

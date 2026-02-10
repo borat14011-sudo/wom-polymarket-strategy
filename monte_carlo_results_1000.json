@@ -1,0 +1,1356 @@
+{
+  "BASELINE_FIXED": {
+    "strategy_name": "BASELINE_FIXED",
+    "parameters": {
+      "whale_accuracy": 0.58,
+      "slippage_pct": 0.02,
+      "sizing_method": "fixed",
+      "base_position_size": 100,
+      "max_position_pct": 0.1,
+      "min_volume": 10000
+    },
+    "simulation_count": 1000,
+    "return_statistics": {
+      "mean": 3.8806066774703334,
+      "median": 3.917878901182903,
+      "std_dev": 5.291998714984805,
+      "min": -13.837892785756484,
+      "max": 18.79433175413675,
+      "percentiles": {
+        "p5": -4.8909441312757735,
+        "p10": -2.6957250954019036,
+        "p25": 0.1367915375393386,
+        "p50": 3.917878901182903,
+        "p75": 7.470112672928645,
+        "p90": 10.777272743633821,
+        "p95": 12.268692604713197
+      },
+      "prob_profit": 0.755,
+      "prob_loss": 0.245
+    },
+    "drawdown_statistics": {
+      "mean": 4.496324116804167,
+      "median": 4.112115792549713,
+      "max": 15.346232501449231,
+      "min": 1.2822881874697927,
+      "percentiles": {
+        "p50": 4.112115792549713,
+        "p75": 5.5087458557456195,
+        "p90": 7.3414787943939865,
+        "p95": 8.377129882371168,
+        "p99": 10.8219901810978
+      },
+      "prob_severe_dd": 0.0
+    },
+    "risk_adjusted_returns": {
+      "sharpe_mean": 0.07659978243813784,
+      "sharpe_median": 0.07491058416455111,
+      "sharpe_std": 0.10473328751090251,
+      "sharpe_percentiles": {
+        "p5": -0.0947988949583507,
+        "p25": 0.002559641539674158,
+        "p50": 0.07491058416455111,
+        "p75": 0.1462415064505536,
+        "p95": 0.24257616516478933
+      },
+      "sortino_mean": 0.07275161927245766,
+      "calmar_mean": 1.4759968952165312
+    },
+    "ruin_analysis": {
+      "prob_ruin_50pct": 0.0,
+      "prob_blowup_50dd": 0.0,
+      "death_events": 590,
+      "death_rate": 0.59,
+      "survival_rate": 0.41000000000000003
+    },
+    "win_rate_statistics": {
+      "mean": 0.5580297029702971,
+      "min": 0.38613861386138615,
+      "max": 0.7029702970297029
+    },
+    "death_events": [
+      {
+        "simulation": 1,
+        "seed": 1,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 10255.163767493226,
+        "max_drawdown": 4.927517020919953,
+        "total_return": 2.5516376749322625
+      },
+      {
+        "simulation": 3,
+        "seed": 3,
+        "death_reasons": [
+          "LOW_SHARPE(-0.06)"
+        ],
+        "final_capital": 9676.542638571405,
+        "max_drawdown": 6.058914948893677,
+        "total_return": -3.234573614285946
+      },
+      {
+        "simulation": 5,
+        "seed": 5,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10484.191660024171,
+        "max_drawdown": 4.337106324373134,
+        "total_return": 4.841916600241712
+      },
+      {
+        "simulation": 6,
+        "seed": 6,
+        "death_reasons": [
+          "LOW_SHARPE(-0.01)"
+        ],
+        "final_capital": 9954.540665436718,
+        "max_drawdown": 5.4843748340050995,
+        "total_return": -0.4545933456328203
+      },
+      {
+        "simulation": 7,
+        "seed": 7,
+        "death_reasons": [
+          "LOW_SHARPE(0.01)"
+        ],
+        "final_capital": 10075.852096338976,
+        "max_drawdown": 3.4623893912458152,
+        "total_return": 0.7585209633897648
+      },
+      {
+        "simulation": 8,
+        "seed": 8,
+        "death_reasons": [
+          "LOW_SHARPE(-0.09)"
+        ],
+        "final_capital": 9517.438662108128,
+        "max_drawdown": 7.1330087407716265,
+        "total_return": -4.825613378918716
+      },
+      {
+        "simulation": 10,
+        "seed": 10,
+        "death_reasons": [
+          "LOW_SHARPE(-0.11)"
+        ],
+        "final_capital": 9410.318726899108,
+        "max_drawdown": 8.51534642485829,
+        "total_return": -5.8968127310089224
+      },
+      {
+        "simulation": 12,
+        "seed": 12,
+        "death_reasons": [
+          "LOW_SHARPE(0.03)"
+        ],
+        "final_capital": 10176.838033111564,
+        "max_drawdown": 9.05875211181901,
+        "total_return": 1.7683803311156407
+      },
+      {
+        "simulation": 15,
+        "seed": 15,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 10267.804301890212,
+        "max_drawdown": 4.291680497362036,
+        "total_return": 2.678043018902117
+      },
+      {
+        "simulation": 21,
+        "seed": 21,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 10411.836236125353,
+        "max_drawdown": 3.9438591868123254,
+        "total_return": 4.1183623612535305
+      },
+      {
+        "simulation": 22,
+        "seed": 22,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10470.302163410475,
+        "max_drawdown": 3.666335332108278,
+        "total_return": 4.703021634104752
+      },
+      {
+        "simulation": 23,
+        "seed": 23,
+        "death_reasons": [
+          "LOW_SHARPE(-0.18)"
+        ],
+        "final_capital": 9095.32126100593,
+        "max_drawdown": 11.635837381232287,
+        "total_return": -9.046787389940691
+      },
+      {
+        "simulation": 24,
+        "seed": 24,
+        "death_reasons": [
+          "LOW_SHARPE(0.06)"
+        ],
+        "final_capital": 10308.540109452897,
+        "max_drawdown": 3.927900015855515,
+        "total_return": 3.08540109452897
+      },
+      {
+        "simulation": 25,
+        "seed": 25,
+        "death_reasons": [
+          "LOW_SHARPE(0.01)"
+        ],
+        "final_capital": 10070.79615507457,
+        "max_drawdown": 4.086524453956051,
+        "total_return": 0.7079615507456947
+      },
+      {
+        "simulation": 31,
+        "seed": 31,
+        "death_reasons": [
+          "LOW_SHARPE(-0.05)"
+        ],
+        "final_capital": 9718.861395976286,
+        "max_drawdown": 6.476334879058573,
+        "total_return": -2.8113860402371396
+      },
+      {
+        "simulation": 34,
+        "seed": 34,
+        "death_reasons": [
+          "LOW_SHARPE(-0.02)"
+        ],
+        "final_capital": 9887.218329658383,
+        "max_drawdown": 4.043622157507844,
+        "total_return": -1.1278167034161743
+      },
+      {
+        "simulation": 35,
+        "seed": 35,
+        "death_reasons": [
+          "LOW_SHARPE(-0.01)"
+        ],
+        "final_capital": 9966.64538694369,
+        "max_drawdown": 4.946252927255391,
+        "total_return": -0.33354613056309973
+      },
+      {
+        "simulation": 36,
+        "seed": 36,
+        "death_reasons": [
+          "LOW_SHARPE(0.04)"
+        ],
+        "final_capital": 10183.918397551222,
+        "max_drawdown": 6.476904445188645,
+        "total_return": 1.8391839755122237
+      },
+      {
+        "simulation": 38,
+        "seed": 38,
+        "death_reasons": [
+          "LOW_SHARPE(-0.10)"
+        ],
+        "final_capital": 9452.617029108922,
+        "max_drawdown": 7.99364470748941,
+        "total_return": -5.47382970891078
+      },
+      {
+        "simulation": 39,
+        "seed": 39,
+        "death_reasons": [
+          "LOW_SHARPE(0.02)"
+        ],
+        "final_capital": 10125.826816744002,
+        "max_drawdown": 2.6779511655308723,
+        "total_return": 1.2582681674400191
+      }
+    ],
+    "verdict": {
+      "status": "KILL",
+      "confidence": "HIGH",
+      "reasons": [
+        "Median Sharpe 0.07 below minimum 0.1"
+      ],
+      "warnings": [
+        "Weak Sharpe ratio: 0.07"
+      ],
+      "kill_signal": true
+    }
+  },
+  "OPTIMIZED_KIMI25": {
+    "strategy_name": "OPTIMIZED_KIMI25",
+    "parameters": {
+      "whale_accuracy": 0.68,
+      "slippage_pct": 0.015,
+      "sizing_method": "signal_scaled",
+      "base_position_size": 100,
+      "max_position_pct": 0.1,
+      "category_filter": [
+        "politics",
+        "crypto",
+        "economics"
+      ],
+      "signal_threshold": 0.4,
+      "min_volume": 20000
+    },
+    "simulation_count": 1000,
+    "return_statistics": {
+      "mean": 15.493937236946664,
+      "median": 15.560801351196824,
+      "std_dev": 6.037059294416729,
+      "min": -4.387747405384452,
+      "max": 34.295472431272756,
+      "percentiles": {
+        "p5": 5.911772357650171,
+        "p10": 7.710541547399698,
+        "p25": 11.494553492758095,
+        "p50": 15.560801351196824,
+        "p75": 19.680894662919272,
+        "p90": 23.329248045485656,
+        "p95": 25.142416417675285
+      },
+      "prob_profit": 0.991,
+      "prob_loss": 0.009000000000000008
+    },
+    "drawdown_statistics": {
+      "mean": 3.1160763240568907,
+      "median": 2.874771981571502,
+      "max": 9.971817198601455,
+      "min": 0.9501272728738618,
+      "percentiles": {
+        "p50": 2.874771981571502,
+        "p75": 3.7247129235961065,
+        "p90": 4.619984776084986,
+        "p95": 5.503519678614017,
+        "p99": 7.254092451869837
+      },
+      "prob_severe_dd": 0.0
+    },
+    "risk_adjusted_returns": {
+      "sharpe_mean": 0.29354931429081865,
+      "sharpe_median": 0.28957060137890284,
+      "sharpe_std": 0.12575955941959127,
+      "sharpe_percentiles": {
+        "p5": 0.10425585817985705,
+        "p25": 0.20745404028784106,
+        "p50": 0.28957060137890284,
+        "p75": 0.37744934165613697,
+        "p95": 0.5017465407436095
+      },
+      "sortino_mean": 0.26886373874101716,
+      "calmar_mean": 6.246943846170708
+    },
+    "ruin_analysis": {
+      "prob_ruin_50pct": 0.0,
+      "prob_blowup_50dd": 0.0,
+      "death_events": 47,
+      "death_rate": 0.047,
+      "survival_rate": 0.953
+    },
+    "win_rate_statistics": {
+      "mean": 0.655670731707317,
+      "min": 0.4634146341463415,
+      "max": 0.8414634146341463
+    },
+    "death_events": [
+      {
+        "simulation": 8,
+        "seed": 8,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 10465.387688254636,
+        "max_drawdown": 5.144342615262109,
+        "total_return": 4.653876882546356
+      },
+      {
+        "simulation": 23,
+        "seed": 23,
+        "death_reasons": [
+          "LOW_SHARPE(-0.09)"
+        ],
+        "final_capital": 9561.225259461555,
+        "max_drawdown": 8.614934291121394,
+        "total_return": -4.387747405384452
+      },
+      {
+        "simulation": 31,
+        "seed": 31,
+        "death_reasons": [
+          "LOW_SHARPE(0.02)"
+        ],
+        "final_capital": 10157.250581291171,
+        "max_drawdown": 5.850893426222961,
+        "total_return": 1.5725058129117133
+      },
+      {
+        "simulation": 83,
+        "seed": 83,
+        "death_reasons": [
+          "LOW_SHARPE(0.02)"
+        ],
+        "final_capital": 10142.360930623463,
+        "max_drawdown": 5.256100320520832,
+        "total_return": 1.4236093062346298
+      },
+      {
+        "simulation": 94,
+        "seed": 94,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 10550.895486320547,
+        "max_drawdown": 3.7430498678146162,
+        "total_return": 5.508954863205473
+      },
+      {
+        "simulation": 136,
+        "seed": 136,
+        "death_reasons": [
+          "LOW_SHARPE(-0.07)"
+        ],
+        "final_capital": 9656.250609449542,
+        "max_drawdown": 6.569867958159885,
+        "total_return": -3.4374939055045797
+      },
+      {
+        "simulation": 186,
+        "seed": 186,
+        "death_reasons": [
+          "LOW_SHARPE(0.10)"
+        ],
+        "final_capital": 10498.801446307774,
+        "max_drawdown": 2.966137126133646,
+        "total_return": 4.988014463077743
+      },
+      {
+        "simulation": 196,
+        "seed": 196,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 10340.20952327583,
+        "max_drawdown": 3.2579339430709258,
+        "total_return": 3.4020952327582927
+      },
+      {
+        "simulation": 199,
+        "seed": 199,
+        "death_reasons": [
+          "LOW_SHARPE(0.06)"
+        ],
+        "final_capital": 10432.345858625715,
+        "max_drawdown": 3.5277914854078505,
+        "total_return": 4.323458586257148
+      },
+      {
+        "simulation": 255,
+        "seed": 255,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 10308.781124198109,
+        "max_drawdown": 6.140254740788772,
+        "total_return": 3.0878112419810897
+      },
+      {
+        "simulation": 266,
+        "seed": 266,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10518.76632137523,
+        "max_drawdown": 5.822332666301225,
+        "total_return": 5.187663213752294
+      },
+      {
+        "simulation": 277,
+        "seed": 277,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 10364.902005893835,
+        "max_drawdown": 5.50035616140249,
+        "total_return": 3.6490200589383495
+      },
+      {
+        "simulation": 312,
+        "seed": 312,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10511.067095569326,
+        "max_drawdown": 4.475492212389541,
+        "total_return": 5.110670955693259
+      },
+      {
+        "simulation": 350,
+        "seed": 350,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 10394.59202026657,
+        "max_drawdown": 5.4675865307747396,
+        "total_return": 3.945920202665693
+      },
+      {
+        "simulation": 355,
+        "seed": 355,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 10470.236359876024,
+        "max_drawdown": 5.524461600136963,
+        "total_return": 4.702363598760239
+      },
+      {
+        "simulation": 374,
+        "seed": 374,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 10263.765409886397,
+        "max_drawdown": 5.052644555824827,
+        "total_return": 2.637654098863968
+      },
+      {
+        "simulation": 378,
+        "seed": 378,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10498.64709374728,
+        "max_drawdown": 4.267281391675977,
+        "total_return": 4.986470937472805
+      },
+      {
+        "simulation": 391,
+        "seed": 391,
+        "death_reasons": [
+          "LOW_SHARPE(-0.04)"
+        ],
+        "final_capital": 9845.766091330815,
+        "max_drawdown": 8.023147653682747,
+        "total_return": -1.5423390866918452
+      },
+      {
+        "simulation": 402,
+        "seed": 402,
+        "death_reasons": [
+          "LOW_SHARPE(0.01)"
+        ],
+        "final_capital": 10146.32933411434,
+        "max_drawdown": 6.40590439370569,
+        "total_return": 1.4632933411433986
+      },
+      {
+        "simulation": 435,
+        "seed": 435,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10464.42873783039,
+        "max_drawdown": 2.8421355957918997,
+        "total_return": 4.644287378303907
+      }
+    ],
+    "verdict": {
+      "status": "PASS",
+      "confidence": "HIGH",
+      "reasons": [],
+      "warnings": [
+        "Weak Sharpe ratio: 0.29"
+      ],
+      "kill_signal": false
+    }
+  },
+  "AGGRESSIVE_KELLY": {
+    "strategy_name": "AGGRESSIVE_KELLY",
+    "parameters": {
+      "whale_accuracy": 0.7,
+      "slippage_pct": 0.015,
+      "sizing_method": "kelly",
+      "base_position_size": 200,
+      "max_position_pct": 0.2,
+      "min_volume": 50000
+    },
+    "simulation_count": 1000,
+    "return_statistics": {
+      "mean": 62.719507374210906,
+      "median": 63.255162845553805,
+      "std_dev": 23.284467259079722,
+      "min": -10.480271878755829,
+      "max": 134.48618126482802,
+      "percentiles": {
+        "p5": 24.184732182880943,
+        "p10": 33.19659976124545,
+        "p25": 46.889903839173016,
+        "p50": 63.255162845553805,
+        "p75": 79.59545821610983,
+        "p90": 92.10540871037436,
+        "p95": 99.97433131300227
+      },
+      "prob_profit": 0.994,
+      "prob_loss": 0.006000000000000005
+    },
+    "drawdown_statistics": {
+      "mean": 9.739685968107235,
+      "median": 8.95569685327202,
+      "max": 30.70575877765383,
+      "min": 2.7153892538040085,
+      "percentiles": {
+        "p50": 8.95569685327202,
+        "p75": 11.946062716917831,
+        "p90": 15.232024870661009,
+        "p95": 17.440197194097088,
+        "p99": 22.7331115667052
+      },
+      "prob_severe_dd": 0.0
+    },
+    "risk_adjusted_returns": {
+      "sharpe_mean": 0.3538383569190466,
+      "sharpe_median": 0.34890426584881135,
+      "sharpe_std": 0.14917465715655148,
+      "sharpe_percentiles": {
+        "p5": 0.1225640256643381,
+        "p25": 0.24897039232389626,
+        "p50": 0.34890426584881135,
+        "p75": 0.4494000345241106,
+        "p95": 0.6086832401419248
+      },
+      "sortino_mean": 0.3165931124123352,
+      "calmar_mean": 8.421877904249321
+    },
+    "ruin_analysis": {
+      "prob_ruin_50pct": 0.0,
+      "prob_blowup_50dd": 0.0,
+      "death_events": 35,
+      "death_rate": 0.035,
+      "survival_rate": 0.965
+    },
+    "win_rate_statistics": {
+      "mean": 0.6806984126984127,
+      "min": 0.49206349206349204,
+      "max": 0.8571428571428571
+    },
+    "death_events": [
+      {
+        "simulation": 8,
+        "seed": 8,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 11503.273448546195,
+        "max_drawdown": 20.576854929226855,
+        "total_return": 15.032734485461951
+      },
+      {
+        "simulation": 31,
+        "seed": 31,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 11323.575007282003,
+        "max_drawdown": 16.346298111904265,
+        "total_return": 13.235750072820029
+      },
+      {
+        "simulation": 83,
+        "seed": 83,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 11343.236085165378,
+        "max_drawdown": 13.190760379620098,
+        "total_return": 13.432360851653774
+      },
+      {
+        "simulation": 94,
+        "seed": 94,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 11435.083954518454,
+        "max_drawdown": 14.231894960883885,
+        "total_return": 14.350839545184535
+      },
+      {
+        "simulation": 123,
+        "seed": 123,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 11413.769332992744,
+        "max_drawdown": 16.107249460161118,
+        "total_return": 14.137693329927442
+      },
+      {
+        "simulation": 136,
+        "seed": 136,
+        "death_reasons": [
+          "LOW_SHARPE(-0.04)"
+        ],
+        "final_capital": 9170.494133539805,
+        "max_drawdown": 24.412024854711607,
+        "total_return": -8.295058664601948
+      },
+      {
+        "simulation": 167,
+        "seed": 167,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 11615.60079592457,
+        "max_drawdown": 18.5190414113278,
+        "total_return": 16.15600795924571
+      },
+      {
+        "simulation": 199,
+        "seed": 199,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 11004.099024407738,
+        "max_drawdown": 13.13333217519021,
+        "total_return": 10.040990244077385
+      },
+      {
+        "simulation": 266,
+        "seed": 266,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 11281.359361352637,
+        "max_drawdown": 22.613733359127178,
+        "total_return": 12.813593613526372
+      },
+      {
+        "simulation": 378,
+        "seed": 378,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 11717.628824406676,
+        "max_drawdown": 18.002823633973268,
+        "total_return": 17.176288244066765
+      },
+      {
+        "simulation": 391,
+        "seed": 391,
+        "death_reasons": [
+          "LOW_SHARPE(-0.00)"
+        ],
+        "final_capital": 9934.511429147255,
+        "max_drawdown": 21.42662054922903,
+        "total_return": -0.654885708527454
+      },
+      {
+        "simulation": 412,
+        "seed": 412,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 11711.447339260394,
+        "max_drawdown": 17.650097581459082,
+        "total_return": 17.11447339260394
+      },
+      {
+        "simulation": 435,
+        "seed": 435,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 11520.285486127577,
+        "max_drawdown": 12.106510569256757,
+        "total_return": 15.202854861275771
+      },
+      {
+        "simulation": 439,
+        "seed": 439,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 11319.733216043905,
+        "max_drawdown": 16.407994450158963,
+        "total_return": 13.197332160439053
+      },
+      {
+        "simulation": 451,
+        "seed": 451,
+        "death_reasons": [
+          "LOW_SHARPE(-0.05)"
+        ],
+        "final_capital": 8951.972812124417,
+        "max_drawdown": 30.70575877765383,
+        "total_return": -10.480271878755829
+      },
+      {
+        "simulation": 457,
+        "seed": 457,
+        "death_reasons": [
+          "LOW_SHARPE(0.04)"
+        ],
+        "final_capital": 10761.395380802467,
+        "max_drawdown": 14.027205336683203,
+        "total_return": 7.613953808024671
+      },
+      {
+        "simulation": 482,
+        "seed": 482,
+        "death_reasons": [
+          "LOW_SHARPE(-0.05)"
+        ],
+        "final_capital": 9064.389467082878,
+        "max_drawdown": 19.416071709631098,
+        "total_return": -9.356105329171223
+      },
+      {
+        "simulation": 488,
+        "seed": 488,
+        "death_reasons": [
+          "LOW_SHARPE(0.06)"
+        ],
+        "final_capital": 11050.28998876103,
+        "max_drawdown": 20.13662596663252,
+        "total_return": 10.502899887610292
+      },
+      {
+        "simulation": 521,
+        "seed": 521,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 11537.271905917736,
+        "max_drawdown": 10.30895099433667,
+        "total_return": 15.372719059177362
+      },
+      {
+        "simulation": 588,
+        "seed": 588,
+        "death_reasons": [
+          "LOW_SHARPE(-0.01)"
+        ],
+        "final_capital": 9862.757259702714,
+        "max_drawdown": 25.539898640115382,
+        "total_return": -1.3724274029728623
+      }
+    ],
+    "verdict": {
+      "status": "PASS",
+      "confidence": "HIGH",
+      "reasons": [
+        "All risk metrics within acceptable bounds"
+      ],
+      "warnings": [],
+      "kill_signal": false
+    }
+  },
+  "CONSERVATIVE_FIXED": {
+    "strategy_name": "CONSERVATIVE_FIXED",
+    "parameters": {
+      "whale_accuracy": 0.65,
+      "slippage_pct": 0.01,
+      "sizing_method": "fixed",
+      "base_position_size": 50,
+      "max_position_pct": 0.05,
+      "min_volume": 50000
+    },
+    "simulation_count": 1000,
+    "return_statistics": {
+      "mean": 3.8616256145175774,
+      "median": 3.7927185229554015,
+      "std_dev": 2.0039852697582097,
+      "min": -2.2158559898962813,
+      "max": 10.364681772069053,
+      "percentiles": {
+        "p5": 0.6490257128911434,
+        "p10": 1.4032155596460871,
+        "p25": 2.5221482154594743,
+        "p50": 3.7927185229554015,
+        "p75": 5.2701309984516405,
+        "p90": 6.454508435275057,
+        "p95": 7.172333328321912
+      },
+      "prob_profit": 0.975,
+      "prob_loss": 0.025000000000000022
+    },
+    "drawdown_statistics": {
+      "mean": 1.229546839680967,
+      "median": 1.1288732670487553,
+      "max": 3.6887374249713223,
+      "min": 0.33224786355815145,
+      "percentiles": {
+        "p50": 1.1288732670487553,
+        "p75": 1.4752238905312516,
+        "p90": 1.8652325379039676,
+        "p95": 2.2036714087619798,
+        "p99": 2.873369658229332
+      },
+      "prob_severe_dd": 0.0
+    },
+    "risk_adjusted_returns": {
+      "sharpe_mean": 0.2528090733277746,
+      "sharpe_median": 0.23991510200549482,
+      "sharpe_std": 0.14070344803075685,
+      "sharpe_percentiles": {
+        "p5": 0.039528420918995,
+        "p25": 0.1566986624957471,
+        "p50": 0.23991510200549482,
+        "p75": 0.3435396428705254,
+        "p95": 0.49654045086236315
+      },
+      "sortino_mean": 0.23628967418727403,
+      "calmar_mean": 4.1372515758973325
+    },
+    "ruin_analysis": {
+      "prob_ruin_50pct": 0.0,
+      "prob_blowup_50dd": 0.0,
+      "death_events": 124,
+      "death_rate": 0.124,
+      "survival_rate": 0.876
+    },
+    "win_rate_statistics": {
+      "mean": 0.6323650793650794,
+      "min": 0.4444444444444444,
+      "max": 0.8253968253968254
+    },
+    "death_events": [
+      {
+        "simulation": 8,
+        "seed": 8,
+        "death_reasons": [
+          "LOW_SHARPE(0.03)"
+        ],
+        "final_capital": 10041.022787378846,
+        "max_drawdown": 2.2185812877637874,
+        "total_return": 0.4102278737884626
+      },
+      {
+        "simulation": 10,
+        "seed": 10,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 10129.12820040513,
+        "max_drawdown": 1.0794344102686946,
+        "total_return": 1.2912820040512998
+      },
+      {
+        "simulation": 23,
+        "seed": 23,
+        "death_reasons": [
+          "LOW_SHARPE(0.01)"
+        ],
+        "final_capital": 10018.772128462686,
+        "max_drawdown": 1.216133643539591,
+        "total_return": 0.1877212846268594
+      },
+      {
+        "simulation": 31,
+        "seed": 31,
+        "death_reasons": [
+          "LOW_SHARPE(-0.01)"
+        ],
+        "final_capital": 9976.047917273501,
+        "max_drawdown": 2.318489809172785,
+        "total_return": -0.23952082726498702
+      },
+      {
+        "simulation": 34,
+        "seed": 34,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 10145.289557528473,
+        "max_drawdown": 1.8806218717572007,
+        "total_return": 1.4528955752847288
+      },
+      {
+        "simulation": 69,
+        "seed": 69,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10150.018218673958,
+        "max_drawdown": 1.7133927688200385,
+        "total_return": 1.5001821867395846
+      },
+      {
+        "simulation": 83,
+        "seed": 83,
+        "death_reasons": [
+          "LOW_SHARPE(-0.07)"
+        ],
+        "final_capital": 9877.686340430455,
+        "max_drawdown": 2.5059039643428016,
+        "total_return": -1.2231365956954505
+      },
+      {
+        "simulation": 94,
+        "seed": 94,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 10085.3403295432,
+        "max_drawdown": 1.333422952863985,
+        "total_return": 0.8534032954319991
+      },
+      {
+        "simulation": 101,
+        "seed": 101,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10148.334692595236,
+        "max_drawdown": 1.4610809140100287,
+        "total_return": 1.4833469259523553
+      },
+      {
+        "simulation": 123,
+        "seed": 123,
+        "death_reasons": [
+          "LOW_SHARPE(0.02)"
+        ],
+        "final_capital": 10033.564111082738,
+        "max_drawdown": 1.4286564731077762,
+        "total_return": 0.33564111082738235
+      },
+      {
+        "simulation": 136,
+        "seed": 136,
+        "death_reasons": [
+          "LOW_SHARPE(-0.12)"
+        ],
+        "final_capital": 9796.624511128317,
+        "max_drawdown": 2.4840485035849635,
+        "total_return": -2.0337548887168304
+      },
+      {
+        "simulation": 161,
+        "seed": 161,
+        "death_reasons": [
+          "LOW_SHARPE(0.04)"
+        ],
+        "final_capital": 10057.667872089605,
+        "max_drawdown": 1.1894897055674571,
+        "total_return": 0.5766787208960522
+      },
+      {
+        "simulation": 167,
+        "seed": 167,
+        "death_reasons": [
+          "LOW_SHARPE(0.06)"
+        ],
+        "final_capital": 10100.383399660384,
+        "max_drawdown": 1.6950783641769385,
+        "total_return": 1.0038339966038439
+      },
+      {
+        "simulation": 196,
+        "seed": 196,
+        "death_reasons": [
+          "LOW_SHARPE(0.01)"
+        ],
+        "final_capital": 10023.398280312218,
+        "max_drawdown": 1.2385223447623062,
+        "total_return": 0.2339828031221805
+      },
+      {
+        "simulation": 199,
+        "seed": 199,
+        "death_reasons": [
+          "LOW_SHARPE(-0.03)"
+        ],
+        "final_capital": 9949.42491870065,
+        "max_drawdown": 1.815955807496306,
+        "total_return": -0.5057508129935013
+      },
+      {
+        "simulation": 212,
+        "seed": 212,
+        "death_reasons": [
+          "LOW_SHARPE(0.04)"
+        ],
+        "final_capital": 10066.77589341688,
+        "max_drawdown": 1.4752238905312516,
+        "total_return": 0.6677589341687963
+      },
+      {
+        "simulation": 222,
+        "seed": 222,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 10110.924070335303,
+        "max_drawdown": 2.9546264893564085,
+        "total_return": 1.1092407033530254
+      },
+      {
+        "simulation": 226,
+        "seed": 226,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10140.321555964609,
+        "max_drawdown": 1.7823165895532314,
+        "total_return": 1.4032155596460871
+      },
+      {
+        "simulation": 240,
+        "seed": 240,
+        "death_reasons": [
+          "LOW_SHARPE(0.05)"
+        ],
+        "final_capital": 10081.74981013093,
+        "max_drawdown": 2.873369658229332,
+        "total_return": 0.8174981013093019
+      },
+      {
+        "simulation": 242,
+        "seed": 242,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10142.388331343705,
+        "max_drawdown": 1.783193061976589,
+        "total_return": 1.4238833134370543
+      }
+    ],
+    "verdict": {
+      "status": "PASS",
+      "confidence": "HIGH",
+      "reasons": [],
+      "warnings": [
+        "Weak Sharpe ratio: 0.24"
+      ],
+      "kill_signal": false
+    }
+  },
+  "HIGH_ACCURACY_FILTER": {
+    "strategy_name": "HIGH_ACCURACY_FILTER",
+    "parameters": {
+      "whale_accuracy": 0.75,
+      "slippage_pct": 0.02,
+      "sizing_method": "signal_scaled",
+      "base_position_size": 150,
+      "max_position_pct": 0.15,
+      "signal_threshold": 0.6,
+      "min_volume": 100000
+    },
+    "simulation_count": 1000,
+    "return_statistics": {
+      "mean": 19.500489815364762,
+      "median": 19.75287070170094,
+      "std_dev": 6.31699166458836,
+      "min": -1.9893345540091831,
+      "max": 37.15145183981125,
+      "percentiles": {
+        "p5": 8.67935639597852,
+        "p10": 11.533124372792864,
+        "p25": 15.246900326412325,
+        "p50": 19.75287070170094,
+        "p75": 23.955023005718086,
+        "p90": 27.752173842503414,
+        "p95": 29.612564222369166
+      },
+      "prob_profit": 0.999,
+      "prob_loss": 0.0010000000000000009
+    },
+    "drawdown_statistics": {
+      "mean": 2.916764871064417,
+      "median": 2.6385142583187147,
+      "max": 8.659453092776277,
+      "min": 0.7998141798709772,
+      "percentiles": {
+        "p50": 2.6385142583187147,
+        "p75": 3.5484859143887952,
+        "p90": 4.594995728179427,
+        "p95": 5.391024436392471,
+        "p99": 7.110960815039761
+      },
+      "prob_severe_dd": 0.0
+    },
+    "risk_adjusted_returns": {
+      "sharpe_mean": 0.5005612547538058,
+      "sharpe_median": 0.4811821598263998,
+      "sharpe_std": 0.20917122405777694,
+      "sharpe_percentiles": {
+        "p5": 0.19679416837590166,
+        "p25": 0.36309776070032157,
+        "p50": 0.4811821598263998,
+        "p75": 0.624635382749036,
+        "p95": 0.8682532545803419
+      },
+      "sortino_mean": 0.4144949266206971,
+      "calmar_mean": 8.581553694853575
+    },
+    "ruin_analysis": {
+      "prob_ruin_50pct": 0.0,
+      "prob_blowup_50dd": 0.0,
+      "death_events": 14,
+      "death_rate": 0.014,
+      "survival_rate": 0.986
+    },
+    "win_rate_statistics": {
+      "mean": 0.7382857142857143,
+      "min": 0.5238095238095238,
+      "max": 0.9285714285714286
+    },
+    "death_events": [
+      {
+        "simulation": 83,
+        "seed": 83,
+        "death_reasons": [
+          "LOW_SHARPE(-0.04)"
+        ],
+        "final_capital": 9801.066544599082,
+        "max_drawdown": 5.396109130899932,
+        "total_return": -1.9893345540091831
+      },
+      {
+        "simulation": 123,
+        "seed": 123,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 10315.601825120719,
+        "max_drawdown": 5.391024436392471,
+        "total_return": 3.156018251207188
+      },
+      {
+        "simulation": 334,
+        "seed": 334,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10434.744997936541,
+        "max_drawdown": 8.196278578909782,
+        "total_return": 4.34744997936541
+      },
+      {
+        "simulation": 374,
+        "seed": 374,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10385.579886354632,
+        "max_drawdown": 4.747452635405462,
+        "total_return": 3.8557988635463154
+      },
+      {
+        "simulation": 378,
+        "seed": 378,
+        "death_reasons": [
+          "LOW_SHARPE(0.02)"
+        ],
+        "final_capital": 10126.354062571843,
+        "max_drawdown": 6.285544594329302,
+        "total_return": 1.2635406257184332
+      },
+      {
+        "simulation": 449,
+        "seed": 449,
+        "death_reasons": [
+          "LOW_SHARPE(0.02)"
+        ],
+        "final_capital": 10107.316463877007,
+        "max_drawdown": 5.785346063038855,
+        "total_return": 1.0731646387700675
+      },
+      {
+        "simulation": 451,
+        "seed": 451,
+        "death_reasons": [
+          "LOW_SHARPE(0.03)"
+        ],
+        "final_capital": 10088.160923349287,
+        "max_drawdown": 6.661445363577627,
+        "total_return": 0.8816092334928727
+      },
+      {
+        "simulation": 482,
+        "seed": 482,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10382.392311798365,
+        "max_drawdown": 5.886953082904616,
+        "total_return": 3.8239231179836497
+      },
+      {
+        "simulation": 588,
+        "seed": 588,
+        "death_reasons": [
+          "LOW_SHARPE(0.07)"
+        ],
+        "final_capital": 10328.563756771484,
+        "max_drawdown": 5.723476481841123,
+        "total_return": 3.2856375677148386
+      },
+      {
+        "simulation": 631,
+        "seed": 631,
+        "death_reasons": [
+          "LOW_SHARPE(0.04)"
+        ],
+        "final_capital": 10199.759928696338,
+        "max_drawdown": 6.136970740697816,
+        "total_return": 1.9975992869633772
+      },
+      {
+        "simulation": 843,
+        "seed": 843,
+        "death_reasons": [
+          "LOW_SHARPE(0.08)"
+        ],
+        "final_capital": 10405.311066702121,
+        "max_drawdown": 3.2028328270299484,
+        "total_return": 4.053110667021211
+      },
+      {
+        "simulation": 891,
+        "seed": 891,
+        "death_reasons": [
+          "LOW_SHARPE(0.00)"
+        ],
+        "final_capital": 10021.811269692887,
+        "max_drawdown": 8.298900158502216,
+        "total_return": 0.21811269692887436
+      },
+      {
+        "simulation": 973,
+        "seed": 973,
+        "death_reasons": [
+          "LOW_SHARPE(0.09)"
+        ],
+        "final_capital": 10406.971975304534,
+        "max_drawdown": 5.28318245929881,
+        "total_return": 4.069719753045338
+      },
+      {
+        "simulation": 979,
+        "seed": 979,
+        "death_reasons": [
+          "LOW_SHARPE(0.04)"
+        ],
+        "final_capital": 10154.05976921227,
+        "max_drawdown": 5.8382673361322395,
+        "total_return": 1.5405976921227011
+      }
+    ],
+    "verdict": {
+      "status": "PASS",
+      "confidence": "HIGH",
+      "reasons": [
+        "All risk metrics within acceptable bounds"
+      ],
+      "warnings": [],
+      "kill_signal": false
+    }
+  }
+}
