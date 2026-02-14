@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T15:38:25.351022+00:00Z",
+  "last_updated": "2026-02-14T15:39:30.600374+00:00Z",
   "account": {
     "balance": 95.19,
     "portfolio_value": 1.26,
@@ -35,7 +35,32 @@
       "expiry": ""
     }
   ],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "ticker": "KXDJTVOSTARIFFS",
+      "side": "no",
+      "action": "buy",
+      "quantity": 2,
+      "price": 26,
+      "time": "2026-02-14T15:24:43.906688Z"
+    },
+    {
+      "ticker": "KXGREENLAND-29",
+      "side": "no",
+      "action": "buy",
+      "quantity": 2,
+      "price": 31,
+      "time": "2026-02-14T15:24:41.544486Z"
+    },
+    {
+      "ticker": "KXGREENLAND-29-26MAY",
+      "side": "no",
+      "action": "buy",
+      "quantity": 2,
+      "price": 4,
+      "time": "2026-02-14T15:24:38.748315Z"
+    }
+  ],
   "risk": {
     "exposure_pct": 1.3,
     "max_drawdown_pct": -0.7,
@@ -1764,6 +1789,12 @@
   "price_history": [
     {
       "date": "15:38",
+      "KXDJTVOSTARIFFS": 27,
+      "KXGREENLAND-29-26MAY": 4,
+      "KXGREENLAND-29": 32
+    },
+    {
+      "date": "15:39",
       "KXDJTVOSTARIFFS": 27,
       "KXGREENLAND-29-26MAY": 4,
       "KXGREENLAND-29": 32
