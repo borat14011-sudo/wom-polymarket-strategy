@@ -1,555 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>Professional Trading Strategy Presentation | Wom | Feb 8 2026</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --primary: #667eea;
-            --secondary: #764ba2;
-            --success: #10b981;
-            --warning: #f59e0b;
-            --danger: #ef4444;
-            --dark: #1f2937;
-            --light: #f3f4f6;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--dark);
-            background: #f8fafc;
-        }
-        .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-            font-weight: 800;
-        }
-        .hero .subtitle {
-            font-size: 1.5em;
-            opacity: 0.95;
-            margin-bottom: 10px;
-        }
-        .hero .meta {
-            font-size: 1.1em;
-            opacity: 0.8;
-        }
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        .section {
-            background: white;
-            margin: 40px 0;
-            padding: 50px;
-            border-radius: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-        }
-        .section h2 {
-            color: var(--primary);
-            font-size: 2em;
-            margin-bottom: 30px;
-            padding-bottom: 15px;
-            border-bottom: 3px solid var(--primary);
-        }
-        .section h3 {
-            color: var(--secondary);
-            font-size: 1.4em;
-            margin: 30px 0 15px;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 25px;
-            margin: 40px 0;
-        }
-        .stat-card {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 30px;
-            border-radius: 12px;
-            text-align: center;
-        }
-        .stat-card h3 {
-            font-size: 3em;
-            margin: 0;
-            color: white;
-        }
-        .stat-card p {
-            margin: 10px 0 0;
-            opacity: 0.95;
-            font-size: 1.1em;
-        }
-        .badge {
-            display: inline-block;
-            padding: 8px 20px;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 0.9em;
-            margin: 5px;
-        }
-        .badge-success {
-            background: #d1fae5;
-            color: #065f46;
-        }
-        .badge-warning {
-            background: #fef3c7;
-            color: #92400e;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 30px 0;
-            font-size: 0.95em;
-        }
-        th, td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #e5e7eb;
-        }
-        th {
-            background: #f9fafb;
-            font-weight: 700;
-            color: var(--dark);
-        }
-        tr:hover {
-            background: #f9fafb;
-        }
-        .highlight-box {
-            background: linear-gradient(135deg, #fef3c7, #fde68a);
-            border-left: 5px solid var(--warning);
-            padding: 25px;
-            margin: 30px 0;
-            border-radius: 0 12px 12px 0;
-        }
-        .success-box {
-            background: linear-gradient(135deg, #d1fae5, #a7f3d0);
-            border-left: 5px solid var(--success);
-            padding: 25px;
-            margin: 30px 0;
-            border-radius: 0 12px 12px 0;
-        }
-        .btn {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 15px 40px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 1.1em;
-            transition: all 0.3s;
-            margin: 10px;
-        }
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
-        }
-        .btn-outline {
-            background: transparent;
-            border: 2px solid var(--primary);
-            color: var(--primary);
-        }
-        .btn-outline:hover {
-            background: var(--primary);
-            color: white;
-        }
-        .grid-2 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 30px;
-            margin: 30px 0;
-        }
-        .strategy-card {
-            background: #f8fafc;
-            padding: 30px;
-            border-radius: 12px;
-            border: 2px solid #e5e7eb;
-        }
-        .strategy-card h4 {
-            color: var(--primary);
-            font-size: 1.3em;
-            margin-bottom: 15px;
-        }
-        .metric-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 0;
-            border-bottom: 1px solid #e5e7eb;
-        }
-        .footer {
-            background: var(--dark);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-            margin-top: 60px;
-        }
-        .footer p {
-            opacity: 0.8;
-            margin: 10px 0;
-        }
-        .toc {
-            background: #f8fafc;
-            padding: 30px;
-            border-radius: 12px;
-            margin: 30px 0;
-        }
-        .toc ul {
-            list-style: none;
-        }
-        .toc li {
-            padding: 10px 0;
-            border-bottom: 1px solid #e5e7eb;
-        }
-        .toc a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .toc a:hover {
-            text-decoration: underline;
-        }
-        @media print {
-            .hero { background: white !important; color: black !important; }
-            .section { box-shadow: none; page-break-inside: avoid; }
-            .btn { display: none; }
-        }
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 2em; }
-            .section { padding: 30px 20px; }
-            .grid-2 { grid-template-columns: 1fr; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalshi Trading Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0e17;--card:#111827;--border:#1e2a3a;--text:#e2e8f0;--dim:#64748b;--green:#22c55e;--red:#ef4444;--blue:#3b82f6;--yellow:#eab308;--accent:#6366f1}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;line-height:1.5}
+.header{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;border-bottom:1px solid var(--border);background:var(--card)}
+.header h1{font-size:20px;font-weight:700;color:#fff}
+.header .ts{color:var(--dim);font-size:12px}
+.status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:6px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.grid{display:grid;gap:16px;padding:16px 24px;max-width:1600px;margin:0 auto}
+.top-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px}
+.card h3{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--dim);margin-bottom:8px}
+.card .val{font-size:24px;font-weight:700}
+.card .sub{font-size:12px;color:var(--dim);margin-top:4px}
+.pos{color:var(--green)}.neg{color:var(--red)}
+.main-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:900px){.main-grid{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);color:var(--dim);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+td{padding:7px 10px;border-bottom:1px solid #1a2332}
+tr:hover{background:#ffffff06}
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.badge-yes{background:#22c55e22;color:var(--green)}
+.badge-no{background:#ef444422;color:var(--red)}
+.badge-buy{background:#3b82f622;color:var(--blue)}
+.badge-sell{background:#eab30822;color:var(--yellow)}
+.opp-card{padding:10px;border:1px solid var(--border);border-radius:8px;margin-bottom:8px;background:#0d1321}
+.opp-card .ticker{font-weight:700;color:#fff}
+.opp-card .edge{color:var(--green);font-weight:600}
+.news-item{padding:10px;border-left:3px solid var(--accent);margin-bottom:8px;background:#0d1321;border-radius:0 6px 6px 0}
+.news-item .headline{font-weight:600;color:#fff;font-size:13px}
+.news-item .meta{font-size:11px;color:var(--dim);margin-top:4px}
+.chart-wrap{position:relative;height:250px}
+.risk-bar{height:6px;background:#1e2a3a;border-radius:3px;margin-top:6px;overflow:hidden}
+.risk-bar .fill{height:100%;border-radius:3px;transition:width .5s}
+.loading{text-align:center;padding:60px;color:var(--dim);font-size:16px}
+.scroll-table{max-height:350px;overflow-y:auto}
+.scroll-table::-webkit-scrollbar{width:4px}
+.scroll-table::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+</style>
 </head>
 <body>
-    <div class="hero">
-        <h1>📊 Trading Strategy Presentation</h1>
-        <p class="subtitle">Ironclad Validation Results & Live Market Opportunities</p>
-        <p class="meta">Prepared for: <strong>Wom</strong> | February 8, 2026 | CONFIDENTIAL</p>
-        <div style="margin-top: 30px;">
-            <span class="badge badge-success">✅ VALIDATED & READY FOR DEPLOYMENT</span>
-        </div>
-    </div>
+<div class="header">
+  <h1><span class="status-dot"></span>Kalshi Trading Dashboard</h1>
+  <div class="ts" id="lastUpdate">Loading...</div>
+</div>
+<div class="grid">
+  <div class="top-cards" id="topCards"></div>
+  <div id="riskSection"></div>
+  <div class="card"><h3>Price History</h3><div class="chart-wrap"><canvas id="priceChart"></canvas></div></div>
+  <div class="main-grid">
+    <div class="card"><h3>Positions</h3><div class="scroll-table" id="posTable"></div></div>
+    <div class="card"><h3>Recent Trades</h3><div class="scroll-table" id="tradeLog"></div></div>
+  </div>
+  <div class="main-grid">
+    <div class="card"><h3>Top Opportunities</h3><div id="opps"></div></div>
+    <div class="card"><h3>News Signals</h3><div id="news"></div></div>
+  </div>
+</div>
+<script>
+let chart=null;
+function fmt(v,d=2){return v==null?'--':typeof v==='number'?v.toFixed(d):''+v}
+function fmtUSD(v){return v==null?'--':'$'+Number(v).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}
+function pnlClass(v){return v>0?'pos':v<0?'neg':''}
+function esc(s){const d=document.createElement('div');d.textContent=s||'';return d.innerHTML}
 
-    <div class="container">
-        <!-- Executive Summary -->
-        <div class="section">
-            <h2>🎯 Executive Summary</h2>
-            <p style="font-size: 1.2em; margin-bottom: 30px;">
-                Two statistically-validated strategies demonstrate consistent edge in prediction markets through 
-                contrarian positioning: fading extreme Bitcoin time-based predictions and weather longshots. 
-                Combined, these strategies offer asymmetric risk/reward with proven track records across 
-                <strong>11,450+ historical trades</strong>.
-            </p>
+function renderTopCards(d){
+  const a=d.account||{}, r=d.risk||{};
+  const cards=[
+    {label:'Balance',val:fmtUSD(a.balance),sub:'Available cash'},
+    {label:'Portfolio Value',val:fmtUSD(a.portfolio_value),sub:'Total positions value'},
+    {label:'Total P&L',val:fmtUSD(a.total_pnl),cls:pnlClass(a.total_pnl),sub:(a.total_pnl_pct!=null?fmt(a.total_pnl_pct,1)+'%':'')},
+    {label:'Open Positions',val:''+(d.positions||[]).length,sub:'Active markets'},
+  ];
+  document.getElementById('topCards').innerHTML=cards.map(c=>`<div class="card"><h3>${c.label}</h3><div class="val ${c.cls||''}">${c.val}</div><div class="sub">${c.sub}</div></div>`).join('');
+}
 
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <h3>58.8%</h3>
-                    <p>BTC_TIME_BIAS Win Rate<br><small>7,641 trades</small></p>
-                </div>
-                <div class="stat-card">
-                    <h3>85.1%</h3>
-                    <p>WEATHER_FADE Win Rate<br><small>3,809 trades</small></p>
-                </div>
-                <div class="stat-card">
-                    <h3>25-40%</h3>
-                    <p>Target Annual Return<br><small>Risk-adjusted</small></p>
-                </div>
-                <div class="stat-card">
-                    <h3>1.45</h3>
-                    <p>Sharpe Ratio<br><small>Portfolio-level</small></p>
-                </div>
-            </div>
+function renderRisk(d){
+  const r=d.risk||{};
+  const metrics=[
+    {label:'Exposure',val:fmt(r.exposure_pct,1)+'%',pct:r.exposure_pct||0,color:r.exposure_pct>80?'var(--red)':r.exposure_pct>50?'var(--yellow)':'var(--green)'},
+    {label:'Max Drawdown',val:fmt(r.max_drawdown_pct,1)+'%',pct:Math.abs(r.max_drawdown_pct||0),color:'var(--red)'},
+    {label:'Diversification',val:fmt(r.diversification_score,0)+'/100',pct:r.diversification_score||0,color:'var(--blue)'},
+  ];
+  document.getElementById('riskSection').innerHTML=`<div class="card"><h3>Risk Metrics</h3><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px">${metrics.map(m=>`<div><div style="display:flex;justify-content:space-between"><span>${m.label}</span><span style="font-weight:700">${m.val}</span></div><div class="risk-bar"><div class="fill" style="width:${Math.min(m.pct,100)}%;background:${m.color}"></div></div></div>`).join('')}</div></div>`;
+}
 
-            <div class="success-box">
-                <strong>Investment Thesis:</strong> Systematic exploitation of behavioral biases in prediction markets 
-                creates persistent alpha opportunities uncorrelated with traditional asset classes.
-            </div>
-        </div>
+function renderPositions(d){
+  const p=d.positions||[];
+  if(!p.length){document.getElementById('posTable').innerHTML='<p style="color:var(--dim);padding:20px">No open positions</p>';return}
+  let h='<table><thead><tr><th>Ticker</th><th>Side</th><th>Qty</th><th>Entry</th><th>Current</th><th>P&L</th><th>Expiry</th></tr></thead><tbody>';
+  p.forEach(r=>{
+    const side=r.side||'yes';
+    h+=`<tr><td style="font-weight:600">${esc(r.ticker)}</td><td><span class="badge badge-${side}">${side.toUpperCase()}</span></td><td>${r.quantity||0}</td><td>${fmt(r.entry_price)}c</td><td>${fmt(r.current_price)}c</td><td class="${pnlClass(r.pnl)}">${fmtUSD(r.pnl)}</td><td style="color:var(--dim);font-size:12px">${esc(r.expiry||'')}</td></tr>`;
+  });
+  h+='</tbody></table>';
+  document.getElementById('posTable').innerHTML=h;
+}
 
-        <!-- Strategy 1: BTC_TIME_BIAS -->
-        <div class="section">
-            <h2>📈 Strategy 1: BTC_TIME_BIAS</h2>
-            
-            <h3>Strategy Logic</h3>
-            <p>Exploits time-based overreactions in Bitcoin prediction markets. Market participants consistently 
-            overestimate short-term price movement probabilities, creating exploitable edges in 
-            "Will BTC hit $X by [date]" markets.</p>
+function renderTrades(d){
+  const t=d.recent_trades||[];
+  if(!t.length){document.getElementById('tradeLog').innerHTML='<p style="color:var(--dim);padding:20px">No recent trades</p>';return}
+  let h='<table><thead><tr><th>Time</th><th>Ticker</th><th>Side</th><th>Qty</th><th>Price</th></tr></thead><tbody>';
+  t.slice(0,20).forEach(r=>{
+    const action=r.action||r.side||'buy';
+    h+=`<tr><td style="color:var(--dim);font-size:12px">${esc(r.time||r.created_time||'')}</td><td style="font-weight:600">${esc(r.ticker)}</td><td><span class="badge badge-${action}">${action.toUpperCase()}</span></td><td>${r.quantity||r.count||0}</td><td>${fmt(r.price)}c</td></tr>`;
+  });
+  h+='</tbody></table>';
+  document.getElementById('tradeLog').innerHTML=h;
+}
 
-            <h3>Historical Performance (VALIDATED)</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Metric</th>
-                        <th>Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><strong>Win Rate</strong></td><td><strong>58.8%</strong></td></tr>
-                    <tr><td>Total Trades</td><td>7,641</td></tr>
-                    <tr><td>Wins</td><td>4,490</td></tr>
-                    <tr><td>Losses</td><td>3,151</td></tr>
-                    <tr><td><strong>Total P/L</strong></td><td><strong>+$1,339</strong></td></tr>
-                    <tr><td>Expected vs Actual</td><td>58.9% vs 58.8% (-0.1%)</td></tr>
-                    <tr><td>Status</td><td><span class="badge badge-success">✅ VALIDATED</span></td></tr>
-                </tbody>
-            </table>
+function renderOpps(d){
+  const o=d.opportunities||[];
+  if(!o.length){document.getElementById('opps').innerHTML='<p style="color:var(--dim)">No opportunities found</p>';return}
+  document.getElementById('opps').innerHTML=o.slice(0,8).map(r=>`<div class="opp-card"><div style="display:flex;justify-content:space-between"><span class="ticker">${esc(r.ticker||r.market)}</span><span class="edge">Edge: ${fmt(r.edge||r.expected_edge,1)}%</span></div><div style="color:var(--dim);font-size:12px;margin-top:4px">${esc(r.title||r.event||'')} | Price: ${fmt(r.price||r.yes_price)}c | ${esc(r.signal||r.recommendation||'')}</div></div>`).join('');
+}
 
-            <h3>Risk Parameters</h3>
-            <div class="grid-2">
-                <div class="strategy-card">
-                    <h4>Position Management</h4>
-                    <div class="metric-row"><span>Base Position</span><strong>2-4% of bankroll</strong></div>
-                    <div class="metric-row"><span>Max Single</span><strong>5%</strong></div>
-                    <div class="metric-row"><span>Max Exposure</span><strong>25%</strong></div>
-                    <div class="metric-row"><span>Cash Reserve</span><strong>50% minimum</strong></div>
-                </div>
-                <div class="strategy-card">
-                    <h4>Exit Rules</h4>
-                    <div class="metric-row"><span>Stop Loss</span><strong>-12%</strong></div>
-                    <div class="metric-row"><span>TP1 (25%)</span><strong>+8%</strong></div>
-                    <div class="metric-row"><span>TP2 (50%)</span><strong>+15%</strong></div>
-                    <div class="metric-row"><span>TP3 (25%)</span><strong>+25% or trailing</strong></div>
-                </div>
-            </div>
-        </div>
+function renderNews(d){
+  const n=d.news_signals||[];
+  if(!n.length){document.getElementById('news').innerHTML='<p style="color:var(--dim)">No news signals</p>';return}
+  document.getElementById('news').innerHTML=n.slice(0,8).map(r=>`<div class="news-item"><div class="headline">${esc(r.headline||r.title)}</div><div class="meta">${esc(r.source||'')} | Impact: ${esc(r.impact||r.sentiment||'neutral')} | ${esc(r.time||r.date||'')}</div></div>`).join('');
+}
 
-        <!-- Strategy 2: WEATHER_FADE -->
-        <div class="section">
-            <h2>🌤️ Strategy 2: WEATHER_FADE_LONGSHOTS</h2>
-            
-            <h3>Strategy Logic</h3>
-            <p>Bet NO on weather predictions with &lt;30% implied probability. Weather markets exhibit systematic 
-            overpricing of unlikely events due to recency bias and media amplification of extreme forecasts.</p>
+function renderChart(d){
+  const hist=d.price_history||[];
+  if(!hist.length)return;
+  const datasets=[];
+  const labels=hist.map(h=>h.date||h.time||'');
+  // Support either single series or multi-ticker
+  if(hist[0]&&typeof hist[0].price==='number'){
+    datasets.push({label:'Portfolio',data:hist.map(h=>h.price),borderColor:'#6366f1',backgroundColor:'#6366f122',fill:true,tension:.3,pointRadius:0,borderWidth:2});
+  } else {
+    const tickers=Object.keys(hist[0]).filter(k=>k!=='date'&&k!=='time');
+    const colors=['#6366f1','#22c55e','#ef4444','#eab308','#3b82f6','#ec4899'];
+    tickers.forEach((t,i)=>{
+      datasets.push({label:t,data:hist.map(h=>h[t]),borderColor:colors[i%colors.length],tension:.3,pointRadius:0,borderWidth:2,fill:false});
+    });
+  }
+  if(chart)chart.destroy();
+  chart=new Chart(document.getElementById('priceChart'),{type:'line',data:{labels,datasets},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#94a3b8',font:{size:11}}}},scales:{x:{ticks:{color:'#475569',maxTicksLimit:10,font:{size:10}},grid:{color:'#1e2a3a'}},y:{ticks:{color:'#475569',font:{size:10}},grid:{color:'#1e2a3a'}}}}});
+}
 
-            <h3>Historical Performance (VALIDATED)</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Metric</th>
-                        <th>Value</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><strong>Win Rate</strong></td><td><strong>85.1%</strong></td></tr>
-                    <tr><td>Total Trades</td><td>3,809</td></tr>
-                    <tr><td>Wins</td><td>3,240</td></tr>
-                    <tr><td>Losses</td><td>569</td></tr>
-                    <tr><td><strong>Total P/L</strong></td><td><strong>+$2,671</strong></td></tr>
-                    <tr><td>Expected vs Actual</td><td>93.9% vs 85.1% (-8.8%)</td></tr>
-                    <tr><td>Status</td><td><span class="badge badge-success">✅ PROFITABLE</span></td></tr>
-                </tbody>
-            </table>
-
-            <h3>Risk Parameters</h3>
-            <div class="grid-2">
-                <div class="strategy-card">
-                    <h4>Position Management</h4>
-                    <div class="metric-row"><span>Base Position</span><strong>1-3% of bankroll</strong></div>
-                    <div class="metric-row"><span>Max Single</span><strong>4%</strong></div>
-                    <div class="metric-row"><span>Max Concurrent</span><strong>10 positions</strong></div>
-                </div>
-                <div class="strategy-card">
-                    <h4>Entry Criteria</h4>
-                    <div class="metric-row"><span>YES Probability</span><strong>&lt;30%</strong></div>
-                    <div class="metric-row"><span>Resolution</span><strong>&lt;30 days</strong></div>
-                    <div class="metric-row"><span>Liquidity</span><strong>&gt;$5,000</strong></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Top 10 Bets -->
-        <div class="section">
-            <h2>🎲 Top 10 Live Market Opportunities</h2>
-            <p style="margin-bottom: 20px;">Ready to deploy with <strong>$100 bankroll</strong>. Mix of both strategies for diversification.</p>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Market</th>
-                        <th>Strategy</th>
-                        <th>Bet</th>
-                        <th>Size</th>
-                        <th>Edge</th>
-                        <th>Confidence</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>MicroStrategy sells BTC by Mar 31?</td>
-                        <td>BTC_TIME_BIAS</td>
-                        <td>NO</td>
-                        <td>$8</td>
-                        <td>18.4%</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>MicroStrategy sells BTC by Jun 30?</td>
-                        <td>BTC_TIME_BIAS</td>
-                        <td>NO</td>
-                        <td>$6</td>
-                        <td>15.5%</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>MicroStrategy sells BTC by Dec 31?</td>
-                        <td>BTC_TIME_BIAS</td>
-                        <td>NO</td>
-                        <td>$6</td>
-                        <td>12.0%</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Trump deport &lt;250k in 2025?</td>
-                        <td>WEATHER_FADE</td>
-                        <td>NO</td>
-                        <td>$5</td>
-                        <td>5.2%</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Trump deport 500k-750k in 2025?</td>
-                        <td>WEATHER_FADE</td>
-                        <td>NO</td>
-                        <td>$5</td>
-                        <td>7.2%</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Trump deport 750k-1M in 2025?</td>
-                        <td>WEATHER_FADE</td>
-                        <td>NO</td>
-                        <td>$4</td>
-                        <td>4.5%</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Trump deport 1M-1.5M in 2025?</td>
-                        <td>WEATHER_FADE</td>
-                        <td>NO</td>
-                        <td>$4</td>
-                        <td>3.2%</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Trump deport 1.5M-2M in 2025?</td>
-                        <td>WEATHER_FADE</td>
-                        <td>NO</td>
-                        <td>$3</td>
-                        <td>2.1%</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Trump deport 2M-3M in 2025?</td>
-                        <td>WEATHER_FADE</td>
-                        <td>NO</td>
-                        <td>$3</td>
-                        <td>1.5%</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Trump deport &gt;3M in 2025?</td>
-                        <td>WEATHER_FADE</td>
-                        <td>NO</td>
-                        <td>$2</td>
-                        <td>1.2%</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="highlight-box">
-                <strong>Portfolio Summary:</strong> Total Deployed: <strong>$46</strong> | Cash Reserve: <strong>$54</strong> | 
-                Expected 30-Day Return: <strong>+6.2%</strong> (median case)
-            </div>
-        </div>
-
-        <!-- Risk Management -->
-        <div class="section">
-            <h2>🛡️ Risk Management Framework</h2>
-            
-            <h3>Kill Switch System</h3>
-            <div class="grid-2">
-                <div class="strategy-card">
-                    <h4>Trigger Levels</h4>
-                    <div class="metric-row"><span>Strategy Halt</span><strong>5% drawdown</strong></div>
-                    <div class="metric-row"><span>Portfolio Soft</span><strong>3% daily loss</strong></div>
-                    <div class="metric-row"><span>Portfolio Hard</span><strong>10% drawdown</strong></div>
-                    <div class="metric-row"><span>Emergency</span><strong>Manual trigger</strong></div>
-                </div>
-                <div class="strategy-card">
-                    <h4>Portfolio Limits</h4>
-                    <div class="metric-row"><span>Daily Loss</span><strong>-5%</strong></div>
-                    <div class="metric-row"><span>Weekly Loss</span><strong>-10%</strong></div>
-                    <div class="metric-row"><span>Monthly Loss</span><strong>-15%</strong></div>
-                    <div class="metric-row"><span>Correlation</span><strong>&lt;0.7</strong></div>
-                </div>
-            </div>
-
-            <h3>System Status</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Component</th>
-                        <th>Status</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>Kill Switch System</td><td><span class="badge badge-success">✅ READY</span></td><td>All 5 trigger levels operational</td></tr>
-                    <tr><td>Polymarket API</td><td><span class="badge badge-success">✅ READY</span></td><td>Live connection verified</td></tr>
-                    <tr><td>Position Tracking</td><td><span class="badge badge-success">✅ READY</span></td><td>SQLite database active</td></tr>
-                    <tr><td>Risk Framework</td><td><span class="badge badge-success">✅ READY</span></td><td>All limits configured</td></tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Implementation -->
-        <div class="section" style="text-align: center;">
-            <h2>🚀 Ready to Deploy</h2>
-            <p style="margin: 30px 0; font-size: 1.1em;">
-                All systems operational. Kill switch armed. Strategies validated.<br>
-                Ready for paper trading deployment.
-            </p>
-            <div style="margin: 40px 0;">
-                <a href="PROFESSIONAL_STRATEGY_PRESENTATION.md" class="btn">📥 Download Full Presentation</a>
-                <a href="https://github.com/borat14011-sudo/wom-polymarket-strategy" class="btn btn-outline">🐙 View on GitHub</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <p style="font-size: 1.2em; margin-bottom: 20px;">📊 Professional Trading Strategy Presentation</p>
-        <p>© 2026 Wom Trading Systems | All strategies validated on 78,537+ resolved markets</p>
-        <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.7;">
-            This presentation is for informational purposes only. Trading involves risk. 
-            Past performance does not guarantee future results.
-        </p>
-        <p style="margin-top: 30px; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 8px; display: inline-block;">
-            <strong>Last Updated:</strong> February 8, 2026 at 3:09 PM PST
-        </p>
-    </div>
+async function load(){
+  try{
+    const r=await fetch('kalshi_dashboard_data.json?t='+Date.now());
+    if(!r.ok)throw new Error(r.status);
+    const d=await r.json();
+    document.getElementById('lastUpdate').textContent='Last update: '+(d.last_updated||new Date().toISOString());
+    renderTopCards(d);renderRisk(d);renderPositions(d);renderTrades(d);renderOpps(d);renderNews(d);renderChart(d);
+  }catch(e){
+    document.getElementById('lastUpdate').textContent='Error loading data: '+e.message;
+  }
+}
+load();
+setInterval(load,60000);
+</script>
 </body>
 </html>
