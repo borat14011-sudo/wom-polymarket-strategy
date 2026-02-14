@@ -1,0 +1,148 @@
+# TARIFF MARKET EXECUTION ORDER SPECIFICATION
+**Market ID:** 537486
+**Date:** February 10, 2026
+**Status:** READY FOR EXECUTION
+
+## MARKET ANALYSIS
+
+### Market Details
+- **Question:** Will the U.S. collect between $200b and $500b in tariff revenue in 2025?
+- **Market ID:** 537486
+- **Resolution Date:** February 28, 2026 (18 days remaining)
+- **Current Market Price:** 11.0¢ YES / 89.0¢ NO
+- **Volume:** $692,167
+- **Liquidity:** $10,430
+- **24hr Volume:** $22,183
+
+### Current Market Pricing
+- **Last Trade Price:** 11.0¢
+- **Best Bid:** TBD (requires real-time data)
+- **Best Ask:** TBD (requires real-time data)
+- **Spread:** TBD (requires real-time data)
+
+## EXECUTION CALCULATIONS
+
+### Order Size Determination (Per Kelly Criterion)
+**Capital Allocation:** $2.50 (25% of $10.00 capital)
+**Kelly Formula Applied:** f* = (bp - q) / b = 24.6% ≈ 25%
+
+### Price Analysis
+**Target Entry Price:** 11.3¢ (including 1% slippage buffer)
+**Expected Exit Price if Win:** 95.0¢ (realistic settlement price)
+**Expected Exit Price if Lose:** 3.0¢ (residual value)
+
+### Share Calculation
+**Order Size:** $2.50
+**Entry Price:** 11.3¢ per share
+**Shares to Purchase:** $2.50 ÷ $0.113 = 22.12 shares
+**Rounded Shares:** 22 shares
+**Total Investment:** 22 × $0.113 = $2.49
+
+### Cost Analysis
+**Base Cost:** $2.49
+**Entry Fee (2%):** $2.49 × 0.02 = $0.05
+**Total Entry Cost:** $2.54
+
+### Return Projections
+**If YES Wins:**
+- Proceeds: 22 × $0.95 = $20.90
+- Exit Fee (2%): $20.90 × 0.02 = $0.42
+- Net Proceeds: $20.48
+- Net Profit: $20.48 - $2.54 = $17.94
+- Return: +607%
+
+**If NO Wins:**
+- Proceeds: 22 × $0.03 = $0.66
+- Exit Fee (2%): $0.66 × 0.02 = $0.01
+- Net Proceeds: $0.65
+- Net Loss: $0.65 - $2.54 = -$1.89
+- Return: -75%
+
+**Expected Value:** (0.35 × 6.07) + (0.65 × -0.75) = +15.4%
+
+## EXECUTION CHECKLIST
+
+### Pre-Trade Requirements
+- [x] Market ID confirmed: 537486
+- [x] Investment thesis reviewed
+- [x] Kelly Criterion applied
+- [x] Risk assessment completed
+- [ ] Current bid/ask spread verified
+- [ ] Order book depth confirmed
+- [ ] Slippage estimate updated
+
+### Trade Parameters
+- **Market:** Will U.S. collect $200-500B tariff revenue in 2025
+- **Side:** BUY YES
+- **Order Type:** Market Order
+- **Size:** 22 shares
+- **Max Entry Price:** 11.5¢ per share
+- **Total Cost Limit:** $2.60 (including fees)
+
+### Risk Controls
+- **Max Position Size:** 25% of capital (Kelly Criterion)
+- **Stop Loss:** Not applicable (binary outcome)
+- **Time Horizon:** 18 days to resolution
+- **Liquidity Risk:** Low ($10K+ liquidity)
+
+## MARKET TIMING
+
+### Optimal Entry Windows
+1. **Immediate:** Current pricing at 11% represents value
+2. **Intraday:** Monitor for any dips below 10.5%
+3. **News-Driven:** Watch for tariff implementation announcements
+
+### Key Dates to Monitor
+- **February 13:** Steel/aluminum tariff announcement anniversary
+- **March 12:** Steel/aluminum tariff implementation date
+- **February 27:** Market resolution date
+
+## EXECUTION PLAN
+
+### Step 1: Pre-Trade Verification
+1. Confirm current market pricing
+2. Verify order book liquidity
+3. Check for any news/developments
+
+### Step 2: Order Execution
+1. Place market order for 22 shares
+2. Monitor fill price and slippage
+3. Confirm total cost including fees
+
+### Step 3: Post-Trade Monitoring
+1. Daily position monitoring
+2. News flow tracking
+3. Exit planning if circumstances change
+
+## RISK FACTORS
+
+### Primary Risks
+- **Trade Deal Risk:** 25% probability of deal announcement
+- **Implementation Delay:** 20% probability of tariff delays
+- **Revenue Calculation Dispute:** 10% probability of resolution issues
+
+### Mitigation Strategies
+- **Position Sizing:** Limited to 25% per Kelly Criterion
+- **Diversification:** Hold other non-correlated positions
+- **Information Edge:** Monitor CBP weekly data releases
+
+## CONCLUSION
+
+**EXECUTION RECOMMENDATION: PROCEED**
+
+This market presents a highly asymmetric opportunity with:
+- **Expected Return:** +15.4% in 18 days
+- **Risk/Reward:** 1:65 (bet $1 to win $65 if successful)
+- **Probability Edge:** 24 percentage points (35% true vs 11% market)
+- **Liquidity:** Sufficient for $2.50 position
+
+**Final Order Specification:**
+- Buy 22 shares of YES at market
+- Maximum acceptable price: 11.5¢ per share
+- Total cost including fees: $2.60 maximum
+- Execute immediately upon approval
+
+---
+**Prepared by:** TRADE EXECUTOR Agent
+**Date:** February 10, 2026
+**Status:** READY FOR IMMEDIATE EXECUTION

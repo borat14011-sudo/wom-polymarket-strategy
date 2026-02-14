@@ -1,0 +1,22 @@
+{
+  "scan_date": "2026-02-13",
+  "short_term_markets": 0,
+  "sports_markets": 4,
+  "categories": {
+    "World": 6,
+    "Climate and Weather": 9,
+    "Science and Technology": 9,
+    "Politics": 23,
+    "Financials": 4,
+    "Entertainment": 22,
+    "Social": 4,
+    "Elections": 3,
+    "Economics": 7,
+    "Health": 2,
+    "Sports": 6,
+    "Companies": 4,
+    "Transportation": 1,
+    "Other": 1
+  },
+  "opportunities": []
+}

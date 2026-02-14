@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalshi Automation Test Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .market-card { border: 1px solid #ccc; padding: 15px; margin: 10px; border-radius: 5px; }
+        button { margin: 5px; padding: 10px 15px; }
+        input { padding: 8px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Kalshi Automation Test</h1>
+    
+    <div id="login-section">
+        <h2>Login (Simulated)</h2>
+        <input type="email" placeholder="Email" id="email">
+        <input type="password" placeholder="Password" id="password">
+        <button onclick="login()">Log in</button>
+    </div>
+    
+    <div id="markets-section" style="display:none;">
+        <h2>Top Markets</h2>
+        <div class="market-card" data-market-id="market-1">
+            <h3>Market 1: Will BTC hit $100K by March 2025?</h3>
+            <button onclick="trade('market-1', 'yes')">Yes - $1.50</button>
+            <button onclick="trade('market-1', 'no')">No - $0.50</button>
+        </div>
+        <div class="market-card" data-market-id="market-2">
+            <h3>Market 2: Will TSLA close above $200 today?</h3>
+            <button onclick="trade('market-2', 'yes')">Yes - $0.75</button>
+            <button onclick="trade('market-2', 'no')">No - $1.25</button>
+        </div>
+        <div class="market-card" data-market-id="market-3">
+            <h3>Market 3: Will it rain in SF tomorrow?</h3>
+            <button onclick="trade('market-3', 'yes')">Yes - $0.60</button>
+            <button onclick="trade('market-3', 'no')">No - $1.40</button>
+        </div>
+    </div>
+    
+    <div id="trade-modal" style="display:none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 2px solid #333;">
+        <h3>Place Trade</h3>
+        <p id="trade-details"></p>
+        <input type="number" id="trade-amount" placeholder="Amount ($)" min="1" max="2" step="0.01" value="1.50">
+        <button onclick="submitTrade()">Place Trade</button>
+        <button onclick="cancelTrade()">Cancel</button>
+    </div>
+    
+    <div id="confirmation" style="display:none; color: green; font-weight: bold;">
+        Trade confirmed!
+    </div>
+    
+    <script>
+        let currentTrade = null;
+        
+        function login() {
+            document.getElementById('login-section').style.display = 'none';
+            document.getElementById('markets-section').style.display = 'block';
+            console.log('Logged in (simulated)');
+        }
+        
+        function trade(marketId, side) {
+            const market = document.querySelector(`[data-market-id="${marketId}"] h3`).textContent;
+            currentTrade = { marketId, side, market };
+            
+            document.getElementById('trade-details').textContent = `${market} - ${side.toUpperCase()}`;
+            document.getElementById('trade-modal').style.display = 'block';
+            console.log(`Preparing trade: ${marketId} ${side}`);
+        }
+        
+        function submitTrade() {
+            const amount = document.getElementById('trade-amount').value;
+            document.getElementById('trade-modal').style.display = 'none';
+            document.getElementById('confirmation').style.display = 'block';
+            
+            console.log(`Trade executed: ${currentTrade.marketId} ${currentTrade.side} $${amount}`);
+            
+            // Simulate screenshot capture
+            setTimeout(() => {
+                document.getElementById('confirmation').style.display = 'none';
+                console.log('Screenshot captured (simulated)');
+            }, 2000);
+        }
+        
+        function cancelTrade() {
+            document.getElementById('trade-modal').style.display = 'none';
+            currentTrade = null;
+        }
+    </script>
+</body>
+</html>

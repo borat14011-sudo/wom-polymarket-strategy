@@ -1,0 +1,978 @@
+{
+  "timestamp": "2026-02-10T09:52:41.306934",
+  "top_10_opportunities": [
+    {
+      "question": "Will Elon Musk win the 2028 US Presidential Election?",
+      "slug": "will-elon-musk-win-the-2028-us-presidential-election",
+      "condition_id": "0x68e3c4e0dd8f82d010060032006fd157401b0bd8e04bd2953ae293e31eb99bf6",
+      "volume": 15596649.532361,
+      "volume_24h": 166515.42345200002,
+      "yes_price": 0.0105,
+      "no_price": 0.9895,
+      "spread": 0.0009999999999999992,
+      "score": 9,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Elon NO overpriced at 99.0%",
+        "Extreme NO price 99.0%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0105,
+      "potential_profit": 0.9895,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "26641906520532802078452346454133721131611596169940893262820937050881742190686",
+        "59064132013843281708610372809406242099497812053529304284160897825180883604145"
+      ]
+    },
+    {
+      "question": "Will Elon Musk win the 2028 Republican presidential nomination?",
+      "slug": "will-elon-musk-win-the-2028-republican-presidential-nomination",
+      "condition_id": "0xfbb80ea5f8fc02ee7df8bd4f58790e1d04b874078a49a7b7028a74a2075100c9",
+      "volume": 15359067.287874,
+      "volume_24h": 386770.80618499994,
+      "yes_price": 0.0085,
+      "no_price": 0.9915,
+      "spread": 0.0009999999999999992,
+      "score": 9,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Elon NO overpriced at 99.2%",
+        "Extreme NO price 99.2%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0085,
+      "potential_profit": 0.9915,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "97933607699985149274021900377397416175605196663149372937380275158258659161873",
+        "91654279459782700285030880702186010885362170180157997195869175981321159591151"
+      ]
+    },
+    {
+      "question": "Will Cardi B perform during the Super Bowl LX halftime show?",
+      "slug": "will-cardi-b-perform-during-the-super-bowl-lx-halftime-show",
+      "condition_id": "0x891d4a752d5e8e7a7d707b6f40141975f1e469616c4ff74f8cf02869a0159cfa",
+      "volume": 5243583.0188,
+      "volume_24h": 661951.6169999999,
+      "yes_price": 0.9995,
+      "no_price": 0.0005,
+      "spread": 0.0010000000000000009,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Extreme YES price 100.0%",
+        "Hot market - $661,952 24h vol"
+      ],
+      "recommendation": "FADE - BET NO",
+      "bet_side": "NO",
+      "entry_price": 0.0005,
+      "potential_profit": 0.9995,
+      "end_date": "2026-02-09",
+      "token_ids": [
+        "40188011078723717028570277979743079995042968731892406119337197516891041207608",
+        "4212073864083190506828878354207604805345868211589284082520031528510579760587"
+      ]
+    },
+    {
+      "question": "Will Egypt win the 2026 FIFA World Cup?",
+      "slug": "will-egypt-win-the-2026-fifa-world-cup",
+      "condition_id": "0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe",
+      "volume": 3549832.343568,
+      "volume_24h": 715776.544165,
+      "yes_price": 0.0065,
+      "no_price": 0.9935,
+      "spread": 0.001,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Extreme NO price 99.4%",
+        "Hot market - $715,777 24h vol"
+      ],
+      "recommendation": "FADE - BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0065,
+      "potential_profit": 0.9935,
+      "end_date": "2026-07-20",
+      "token_ids": [
+        "30499731947464516579580181356221397335865912996104577000510883912653418218808",
+        "65652065262666433168143828460188123377751865571317729312655170081534213236077"
+      ]
+    },
+    {
+      "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+      "slug": "will-chelsea-clinton-win-the-2028-democratic-presidential-nomination",
+      "condition_id": "0xf2e51acfbb6d0414dc2ace81b7dc2af7c165e443dcb91f6caa7aab6d6ab4f06d",
+      "volume": 34173986.880329,
+      "volume_24h": 880088.051847,
+      "yes_price": 0.0075,
+      "no_price": 0.9925,
+      "spread": 0.001,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Extreme NO price 99.2%",
+        "Hot market - $880,088 24h vol"
+      ],
+      "recommendation": "FADE - BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0075,
+      "potential_profit": 0.9925,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "46211769122513729244602558513001215391004042100934296321661285791281233261657",
+        "76057920052421891902791411567177996435483774677774664174053982044923692373687"
+      ]
+    },
+    {
+      "question": "Will Donald Trump win the 2028 US Presidential Election?",
+      "slug": "will-donald-trump-win-the-2028-us-presidential-election",
+      "condition_id": "0xce9a5fa30fe74e323b4a8f15afbb0b7a41a537aa880779ddf7dee22223b2f34a",
+      "volume": 4061439.340079,
+      "volume_24h": 37459.576927,
+      "yes_price": 0.0285,
+      "no_price": 0.9715,
+      "spread": 0.0010000000000000009,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Trump NO overpriced at 97.2%",
+        "Extreme NO price 97.2%"
+      ],
+      "recommendation": "FADE - BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0285,
+      "potential_profit": 0.9715,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "11807691644868166983390207408868795383945915035851758101409310535538572683733",
+        "72656506786460378316387284276713856836841708169262528054985577978493419440428"
+      ]
+    },
+    {
+      "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
+      "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
+      "condition_id": "0x23481b811978194fa175143ed7cd8d0000878ca59c408fd552e33535f7aa771e",
+      "volume": 4963622.17391,
+      "volume_24h": 42904.417331,
+      "yes_price": 0.0095,
+      "no_price": 0.9905,
+      "spread": 0.0010000000000000009,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Trump NO overpriced at 99.1%",
+        "Extreme NO price 99.1%"
+      ],
+      "recommendation": "FADE - BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0095,
+      "potential_profit": 0.9905,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "77660944053451874285291959901958937238149180369572698706675030657716494119346",
+        "52761630651452310319295064365704431564140478140269624735570317771849185169635"
+      ]
+    },
+    {
+      "question": "Will Greg Abbott win the 2028 US Presidential Election?",
+      "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
+      "condition_id": "0x01dffa7abae7e5d9b7fb44b06d537c5ac932e2ca422ab4b53366672f5e2dc7d6",
+      "volume": 25505104.585553,
+      "volume_24h": 590261.333367,
+      "yes_price": 0.0075,
+      "no_price": 0.9925,
+      "spread": 0.001,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Extreme NO price 99.2%",
+        "Hot market - $590,261 24h vol"
+      ],
+      "recommendation": "FADE - BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0075,
+      "potential_profit": 0.9925,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "58585097107933138034126275600204468509993701936571284309823871593297754181479",
+        "104431860535489654020481219089291817898241901940037260095979653681449084465327"
+      ]
+    },
+    {
+      "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
+      "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
+      "condition_id": "0xc586d15be76278848a26c761c2fcf70f8cebca71815cfab83e656ff5c6ec13a9",
+      "volume": 2350513.430859,
+      "volume_24h": 19451.481387,
+      "yes_price": 0.0125,
+      "no_price": 0.9875,
+      "spread": 0.0009999999999999992,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Trump NO overpriced at 98.8%",
+        "Extreme NO price 98.8%"
+      ],
+      "recommendation": "FADE - BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0125,
+      "potential_profit": 0.9875,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "40932864651005132434669457369564353816786330205469778285035893634458129671101",
+        "56215025902031889702122383201324191240581604266667334383154318117703136383150"
+      ]
+    },
+    {
+      "question": "Will Donald Trump win the 2028 Republican presidential nomination?",
+      "slug": "will-donald-trump-win-the-2028-republican-presidential-nomination",
+      "condition_id": "0x895e01dbf3e6a33cd9a44ca0f8cdb5df1bd2b0b6ebed5300d28f8da7145145e4",
+      "volume": 3334564.991462,
+      "volume_24h": 66866.78036800002,
+      "yes_price": 0.0485,
+      "no_price": 0.9515,
+      "spread": 0.0010000000000000009,
+      "score": 8,
+      "reasons": [
+        "High volume",
+        "Good liquidity",
+        "Tight spread",
+        "Trump NO overpriced at 95.2%",
+        "Extreme NO price 95.2%"
+      ],
+      "recommendation": "FADE - BET YES",
+      "bet_side": "YES",
+      "entry_price": 0.0485,
+      "potential_profit": 0.9515,
+      "end_date": "2028-11-07",
+      "token_ids": [
+        "3039641309958397001906153616677074061284510636204155275446291716739429262374",
+        "27828976648682466778776999076215423777766972981338264154049603024771135223200"
+      ]
+    }
+  ],
+  "all_active_markets": [
+    {
+      "question": "Will Leeds win the 2025\u201326 English Premier League?",
+      "volume": 36448551.490948,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+      "volume": 34173986.880329,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+      "volume": 33025102.652269,
+      "yes": 0.0135,
+      "no": 0.9865,
+      "slug": ""
+    },
+    {
+      "question": "Will the Indiana Pacers win the 2026 NBA Finals?",
+      "volume": 31458188.11217,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
+      "volume": 31184592.591496,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will the Memphis Grizzlies win the 2026 NBA Finals?",
+      "volume": 30402012.666182,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will MrBeast win the 2028 Democratic presidential nomination?",
+      "volume": 29039212.894138,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
+      "volume": 28893698.083826,
+      "yes": 0.0105,
+      "no": 0.9895,
+      "slug": ""
+    },
+    {
+      "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+      "volume": 28398763.898556,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+      "volume": 28363908.458439,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
+      "volume": 28240624.635961,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Tim Walz win the 2028 US Presidential Election?",
+      "volume": 27818950.30171,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
+      "volume": 27607948.942847,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will LeBron James win the 2028 US Presidential Election?",
+      "volume": 27023365.502118,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
+      "volume": 26899734.748659,
+      "yes": 0.0105,
+      "no": 0.9895,
+      "slug": ""
+    },
+    {
+      "question": "Will Greg Abbott win the 2028 US Presidential Election?",
+      "volume": 25505104.585553,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
+      "volume": 24487584.115965,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
+      "volume": 23065142.225967,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Tim Walz win the 2028 Democratic presidential nomination?",
+      "volume": 21984921.034155,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+      "volume": 21739277.136205,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
+      "volume": 21443263.630661,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Mike Pence win the 2028 Republican presidential nomination?",
+      "volume": 20934632.424374,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+      "volume": 20849983.003918,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
+      "volume": 20017724.265702,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Olympiakos win the 2025\u201326 Champions League?",
+      "volume": 19454835.010247,
+      "yes": 0.0025,
+      "no": 0.9975,
+      "slug": ""
+    },
+    {
+      "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+      "volume": 18727906.202588,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will the Chicago Bulls win the 2026 NBA Finals?",
+      "volume": 18426956.750793,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
+      "volume": 17513899.171024,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will John Thune win the 2028 Republican presidential nomination?",
+      "volume": 17474783.649884,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Barack Obama win the 2028 Democratic presidential nomination?",
+      "volume": 17315625.996428,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Tottenham win the 2025\u201326 English Premier League?",
+      "volume": 17254490.617611,
+      "yes": 0.0005,
+      "no": 0.9995,
+      "slug": ""
+    },
+    {
+      "question": "Will Katie Britt win the 2028 Republican presidential nomination?",
+      "volume": 17158410.78437,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
+      "volume": 16978696.283766,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Stephen Smith win the 2028 US Presidential Election?",
+      "volume": 16805510.879387,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+      "volume": 16796571.28523,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Club Brugge win the 2025\u201326 Champions League?",
+      "volume": 16700362.069806,
+      "yes": 0.0035,
+      "no": 0.9965,
+      "slug": ""
+    },
+    {
+      "question": "Will Tom Brady win the 2028 Republican presidential nomination?",
+      "volume": 16480374.231814,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will the Charlotte Hornets win the 2026 NBA Finals?",
+      "volume": 16284433.008671,
+      "yes": 0.0155,
+      "no": 0.9845,
+      "slug": ""
+    },
+    {
+      "question": "Will the Washington Wizards win the 2026 NBA Finals?",
+      "volume": 16015151.936222,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Everton win the 2025\u201326 English Premier League?",
+      "volume": 15876216.803538,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Russia x Ukraine ceasefire by March 31, 2026?",
+      "volume": 15858586.782683,
+      "yes": 0.075,
+      "no": 0.925,
+      "slug": ""
+    },
+    {
+      "question": "Will Elon Musk win the 2028 US Presidential Election?",
+      "volume": 15596649.532361,
+      "yes": 0.0105,
+      "no": 0.9895,
+      "slug": ""
+    },
+    {
+      "question": "Will the Utah Jazz win the 2026 NBA Finals?",
+      "volume": 15582357.999791,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Michelle Obama win the 2028 Democratic presidential nomination?",
+      "volume": 15573350.663621,
+      "yes": 0.0115,
+      "no": 0.9885,
+      "slug": ""
+    },
+    {
+      "question": "Will Elon Musk win the 2028 Republican presidential nomination?",
+      "volume": 15359067.287874,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will the Brooklyn Nets win the 2026 NBA Finals?",
+      "volume": 15352589.13465,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Brighton win the 2025\u201326 English Premier League?",
+      "volume": 14527225.897326,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+      "volume": 14503232.0758,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Kim Kardashian win the 2028 Republican presidential nomination?",
+      "volume": 14315700.274123,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Aston Villa win the 2025\u201326 English Premier League?",
+      "volume": 14161712.638483,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will West Ham win the 2025\u201326 English Premier League?",
+      "volume": 14100753.578273,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Nikki Haley win the 2028 US Presidential Election?",
+      "volume": 13997839.249416,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?",
+      "volume": 13596258.881925,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will the Sacramento Kings win the 2026 NBA Finals?",
+      "volume": 13563366.971641,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will the New Orleans Pelicans win the 2026 NBA Finals?",
+      "volume": 12357341.156637,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Jared Polis win the 2028 Democratic presidential nomination?",
+      "volume": 12343402.230077,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Cory Booker win the 2028 Democratic presidential nomination?",
+      "volume": 12172486.53327,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Nottm Forest win the 2025\u201326 English Premier League?",
+      "volume": 12075200.960474,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Brentford win the 2025\u201326 English Premier League?",
+      "volume": 12060722.988256,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Elise Stefanik win the 2028 Republican presidential nomination?",
+      "volume": 11876735.606068,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Mark Cuban win the 2028 Democratic presidential nomination?",
+      "volume": 11777625.859702,
+      "yes": 0.0105,
+      "no": 0.9895,
+      "slug": ""
+    },
+    {
+      "question": "Will Matt Gaetz win the 2028 Republican presidential nomination?",
+      "volume": 11570773.123456,
+      "yes": 0.0105,
+      "no": 0.9895,
+      "slug": ""
+    },
+    {
+      "question": "Will Byron Donalds win the 2028 Republican presidential nomination?",
+      "volume": 11359393.120698,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Athletic Bilbao win the 2025\u201326 La Liga?",
+      "volume": 10898725.713377,
+      "yes": 0.002,
+      "no": 0.998,
+      "slug": ""
+    },
+    {
+      "question": "Will Josh Hawley win the 2028 Republican presidential nomination?",
+      "volume": 10886665.187161,
+      "yes": 0.0125,
+      "no": 0.9875,
+      "slug": ""
+    },
+    {
+      "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
+      "volume": 10704084.531386,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+      "volume": 10350779.576703,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Greg Abbott win the 2028 Republican presidential nomination?",
+      "volume": 10294464.950221,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Rand Paul win the 2028 Republican presidential nomination?",
+      "volume": 10129732.711044,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Crystal Palace win the 2025\u201326 English Premier League?",
+      "volume": 9988306.587936,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Manchester United win the 2025\u201326 English Premier League?",
+      "volume": 9726357.753554,
+      "yes": 0.017,
+      "no": 0.983,
+      "slug": ""
+    },
+    {
+      "question": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
+      "volume": 9665353.959624,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Fulham win the 2025\u201326 English Premier League?",
+      "volume": 9656932.475265,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Benfica win the 2025\u201326 Champions League?",
+      "volume": 9639689.543796,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Jesus Christ return before GTA VI?",
+      "volume": 9211263.536474,
+      "yes": 0.485,
+      "no": 0.515,
+      "slug": ""
+    },
+    {
+      "question": "Will Bournemouth win the 2025\u201326 English Premier League?",
+      "volume": 9108913.682163,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Bodo Glimt win the 2025\u201326 Champions League?",
+      "volume": 9050170.711448,
+      "yes": 0.0035,
+      "no": 0.9965,
+      "slug": ""
+    },
+    {
+      "question": "Russia x Ukraine ceasefire by end of 2026?",
+      "volume": 8980894.421145,
+      "yes": 0.425,
+      "no": 0.575,
+      "slug": ""
+    },
+    {
+      "question": "Will Michelle Obama win the 2028 US Presidential Election?",
+      "volume": 8885270.186634,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Vivek Ramaswamy win the 2028 Republican presidential nomination?",
+      "volume": 8736278.319371,
+      "yes": 0.0135,
+      "no": 0.9865,
+      "slug": ""
+    },
+    {
+      "question": "Will China invade Taiwan by end of 2026?",
+      "volume": 8385710.040773,
+      "yes": 0.115,
+      "no": 0.885,
+      "slug": ""
+    },
+    {
+      "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
+      "volume": 8336334.879078,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Stephen A. Smith win the 2028 Democratic presidential nomination?",
+      "volume": 8245487.387869,
+      "yes": 0.0095,
+      "no": 0.9905,
+      "slug": ""
+    },
+    {
+      "question": "Will Espanyol win the 2025\u201326 La Liga?",
+      "volume": 8162584.43768,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Sunderland win the 2025\u201326 English Premier League?",
+      "volume": 7923180.80018,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Newcastle win the 2025\u201326 English Premier League?",
+      "volume": 7764773.704427,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Uzbekistan win the 2026 FIFA World Cup?",
+      "volume": 7639614.95702,
+      "yes": 0.0025,
+      "no": 0.9975,
+      "slug": ""
+    },
+    {
+      "question": "Will New Zealand win the 2026 FIFA World Cup?",
+      "volume": 7500496.079008,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Jordan win the 2026 FIFA World Cup?",
+      "volume": 7445465.081993,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Robert F. Kennedy Jr. win the 2028 Republican presidential nomination?",
+      "volume": 7130030.522097,
+      "yes": 0.0075,
+      "no": 0.9925,
+      "slug": ""
+    },
+    {
+      "question": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
+      "volume": 6963813.786804,
+      "yes": 0.275,
+      "no": 0.725,
+      "slug": ""
+    },
+    {
+      "question": "Will Monaco win the 2025\u201326 Champions League?",
+      "volume": 6901674.594373,
+      "yes": 0.0025,
+      "no": 0.9975,
+      "slug": ""
+    },
+    {
+      "question": "Will Chris Murphy win the 2028 Democratic presidential nomination?",
+      "volume": 6815934.899861,
+      "yes": 0.0085,
+      "no": 0.9915,
+      "slug": ""
+    },
+    {
+      "question": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
+      "volume": 6758418.697616,
+      "yes": 0.0215,
+      "no": 0.9785,
+      "slug": ""
+    },
+    {
+      "question": "Will Leverkusen win the 2025\u201326 Champions League?",
+      "volume": 6481911.715369,
+      "yes": 0.0045,
+      "no": 0.9955,
+      "slug": ""
+    },
+    {
+      "question": "Will Cura\u00e7ao win the 2026 FIFA World Cup?",
+      "volume": 6450822.638691,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will the Portland Trail Blazers win the 2026 NBA Finals?",
+      "volume": 6412485.910847,
+      "yes": 0.0025,
+      "no": 0.9975,
+      "slug": ""
+    },
+    {
+      "question": "Will Alaves win the 2025\u201326 La Liga?",
+      "volume": 6183364.509566,
+      "yes": 0.0015,
+      "no": 0.9985,
+      "slug": ""
+    },
+    {
+      "question": "Will Dwayne 'The Rock' Johnson win the 2028 Democratic presidential nomination?",
+      "volume": 6160256.328271,
+      "yes": 0.0135,
+      "no": 0.9865,
+      "slug": ""
+    },
+    {
+      "question": "Will JD Vance win the 2028 US Presidential Election?",
+      "volume": 6095628.683636,
+      "yes": 0.245,
+      "no": 0.755,
+      "slug": ""
+    }
+  ],
+  "total_active": 410
+}

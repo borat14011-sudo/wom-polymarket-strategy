@@ -1,0 +1,35 @@
+{
+  "positions": [
+    {
+      "id": "tariff-yes-1",
+      "market": "Tariff $200-500B YES",
+      "side": "YES",
+      "entry_price": 11,
+      "planned_size": 2.5,
+      "status": "proposed",
+      "timestamp": "2026-02-10T14:13:00-08:00",
+      "risk_metrics": {
+        "kelly_size": 3.430464401931663e-14,
+        "kelly_percentage": 3.430464401931663e-16,
+        "position_risk": 0.025,
+        "stop_loss_price": 9.68,
+        "risk_reward_ratio": 8.090909090909092
+      }
+    }
+  ],
+  "portfolio": {
+    "total_capital": 10000,
+    "peak_capital": 10000,
+    "current_value": 10000,
+    "total_exposure": 0,
+    "available_capacity": 25,
+    "drawdown": 0,
+    "risk_limits": {
+      "max_position_size": 2,
+      "max_total_exposure": 25,
+      "stop_loss": 12,
+      "circuit_breaker": 15
+    }
+  },
+  "last_updated": "2026-02-10T14:13:00-08:00"
+}

@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "total_markets": 548,
+    "active_markets": 383,
+    "analysis_timestamp": "2026-02-13T14:26:45.661983"
+  },
+  "strategy_counts": {
+    "buy_the_dip": 147,
+    "near_certainty": 20,
+    "longshot_fade": 152,
+    "mean_reversion": 39,
+    "high_volume": 49,
+    "low_volume": 176,
+    "high_spread": 266
+  },
+  "expected_values": {
+    "buy_the_dip": 16.175553503347086,
+    "near_certainty": 15.249999999999996
+  }
+}

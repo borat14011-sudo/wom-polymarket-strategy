@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2026-02-14T15:31:16.977711+00:00",
+    "available": 95.19,
+    "total_invested": 0.012199999999999999,
+    "total_exposure": 6.0,
+    "position_count": 3,
+    "diversification": 44.4,
+    "drawdown_pct": 0.0
+  },
+  {
+    "timestamp": "2026-02-14T15:32:06.479785+00:00",
+    "available": 95.19,
+    "total_invested": 4.78,
+    "total_exposure": 6.0,
+    "position_count": 3,
+    "diversification": 44.4,
+    "drawdown_pct": 0.0
+  }
+]

@@ -1,0 +1,36 @@
+
+🎯 RISK MANAGEMENT DASHBOARD
+═══════════════════════════════════════════════════════════
+
+💰 PORTFOLIO OVERVIEW
+   Total Capital: $10,000
+   Current Value: $10,000
+   Peak Capital: $10,000
+   Drawdown: 0.00% ✅
+
+📊 EXPOSURE ANALYSIS
+   Total Exposure: 0% / 25% ✅
+   Available Capacity: 25%
+   
+🛡️ RISK LIMITS
+   Max Position Size: 2% 
+   Max Total Exposure: 25%
+   Stop Loss: 12%
+   Circuit Breaker: 15%
+
+📈 ACTIVE POSITIONS
+
+   Tariff $200-500B YES
+   ├─ Status: PROPOSED
+   ├─ Entry: 11%
+   ├─ Size: $2.5 (Risk: 0.03%) ✅
+   ├─ Kelly Size: $0.00 ⚠️
+   ├─ Stop Loss: 9.7%
+   └─ Win/Loss Ratio: 8.09
+
+⚡ ALERT STATUS
+   ✅ ALL SYSTEMS NOMINAL
+
+═══════════════════════════════════════════════════════════
+Last Updated: 2/10/2026, 2:18:34 PM
+    

@@ -1,0 +1,135 @@
+# EVENT WATCHER LOG
+# Monitoring Polymarket-external events
+# Created: 2026-02-10 15:40 PST
+
+## ACTIVE POSITIONS TO MONITOR
+
+### 1. MICROSTRATEGY BTC POSITIONS (3 Active Trades)
+- MSTR Mar 31, 2026: 500K+ BTC
+- MSTR Jun 30, 2026: 500K+ BTC
+- MSTR Dec 31, 2026: 500K+ BTC
+- **Key Events:** MicroStrategy BTC purchases, Saylor statements, SEC filings
+
+### 2. TRUMP DEPORTATION MARKETS
+- <250k deportations: 5.4¢
+- 250-500k: 87.5¢
+- 500-750k: 5.85¢ (Score 8/10, ~76hr frozen)
+- 750k-1M: 1.1¢
+- **Key Events:** ICE/CBP monthly statistics, policy announcements
+
+### 3. TARIFF REVENUE MARKET
+- U.S. Tariff Revenue <$100B: YES at 85.4%
+- **Resolution:** Feb 28, 2026 (17 days)
+- **Key Events:** Treasury FY2025 report, tariff policy changes
+
+### 4. OTHER TRACKED MARKETS
+- Xi Jinping Out Before 2027: YES at 8.5%
+- Denver Nuggets NBA Champions: YES at 13.5%
+- World Cup 2026 markets
+
+---
+
+## EVENT LOG
+
+### [2026-02-10 15:42 PST] INITIAL SCAN COMPLETE
+
+**Status:** No breaking alerts. Routine monitoring established.
+
+**Sources Checked:**
+- ✅ CBP Newsroom - Operational, no deportation stats updates
+- ✅ CBP Statistics Portal - Data current through December 2025
+- ✅ CNN Politics - Multiple Trump-related headlines
+- ⚠️  Treasury/ICE/Trade.gov - Limited access or no updates
+- ❌ Twitter/X - Access blocked
+
+**Key Findings:**
+
+1. **CBP Encounters Data:** Latest published data is December 2025 (nationwide-encounters-fy23-fy26-dec-aor.csv). January 2026 data not yet released.
+   - **Impact:** Trump deportation markets in ~76hr equilibrium likely awaiting fresh ICE/CBP data
+   - **Confidence:** HIGH - Data typically released monthly, overdue
+
+2. **Trump Immigration News (CNN):**
+   - "Takeaways from a tense House hearing with Trump immigration officials" (Feb 10)
+   - **Impact:** LOW - Routine hearing, no policy changes announced
+   - **Confidence:** MEDIUM
+
+3. **Trade/Tariff News (CNN):**
+   - "Trump threatens to block opening of new US-Canada bridge" (Feb 10)
+   - "Canada built a bridge. Now Trump wants half"
+   - **Impact:** MEDIUM - Escalating trade tensions, could affect tariff revenue market (resolves Feb 28)
+   - **Confidence:** MEDIUM
+
+**Markets Ending Within 7 Days:**
+- U.S. Tariff Revenue <$100B - Resolves Feb 28 (17 days) - NO IMMEDIATE ACTION NEEDED
+
+### [2026-02-10 15:43 PST] NPR: HOUSE IMMIGRATION OVERSIGHT HEARING
+
+**Source:** NPR Politics - https://www.npr.org/2026/02/10/nx-s1-5708757/
+**Title:** "Top 5 takeaways from the House immigration oversight hearing"
+
+**Key Officials Testifying:**
+- Rodney Scott, Commissioner of U.S. Customs and Border Protection (CBP)
+- Joseph Edlow, Director of U.S. Citizenship and Immigration Services (USCIS)  
+- Todd Lyons, Acting Director of U.S. Immigration and Customs Enforcement (ICE)
+
+**Market Impact Assessment:**
+- **Impact on Trump Deportation Markets:** HIGH
+- **Confidence:** HIGH
+- **Analysis:** Senior immigration officials testified before Congress today. This hearing could contain information about deportation numbers, policy changes, or enforcement priorities that would directly affect the Trump deportation markets (250k, 500k, 750k, 1M thresholds).
+- **Action Required:** Need to fetch full hearing details and any statistics mentioned
+
+**Related Markets Affected:**
+- Trump <250k deportations (5.4¢)
+- Trump 250-500k deportations (87.5¢)
+- Trump 500-750k deportations (5.85¢) - Score 8/10
+- Trump 750k-1M deportations (1.1¢)
+
+---
+
+---
+
+## MONITORING SETUP COMPLETE
+
+### Files Created:
+1. **event_log.txt** - This file (ongoing event log)
+2. **event_watcher.py** - Python script for automated monitoring
+
+### How to Continue Monitoring:
+
+**Manual Checks (Recommended until Brave API configured):**
+```bash
+# Run every hour
+python event_watcher.py
+
+# Or manually fetch key sources:
+# CBP News: https://www.cbp.gov/newsroom
+# CNN Politics: https://edition.cnn.com/politics  
+# NPR Politics: https://www.npr.org/sections/politics/
+```
+
+**With Brave API (for automated web_search):**
+```bash
+openclaw configure --section web  # Add BRAVE_API_KEY
+```
+
+### Alert Thresholds:
+- 🚨 **CRITICAL:** New ICE/CBP deportation data released
+- 🚨 **CRITICAL:** Tariff policy changes affecting <$100B market
+- ⚠️  **HIGH:** House/Senate hearings on immigration
+- ⚠️  **HIGH:** MicroStrategy BTC purchase announcements
+- ℹ️  **MEDIUM:** Markets within 3 days of resolution
+
+### Current Status Summary:
+| Market | Price | Status | Risk Level |
+|--------|-------|--------|------------|
+| Trump <250k | 5.4¢ | 76hr freeze | MEDIUM |
+| Trump 250-500k | 87.5¢ | 76hr freeze | LOW |
+| Trump 500-750k | 5.85¢ | 76hr freeze, Score 8/10 | HIGH |
+| Trump 750k-1M | 1.1¢ | 76hr freeze | MEDIUM |
+| Tariff <$100B YES | 85.4¢ | 17 days to resolve | MEDIUM |
+| MSTR positions | Various | Active | MEDIUM |
+
+---
+
+*Monitoring started: 2026-02-10 15:40 PST*
+*Next recommended check: 2026-02-10 16:40 PST*

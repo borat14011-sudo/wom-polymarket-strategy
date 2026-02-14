@@ -1,0 +1,3 @@
+timestamp,trade_id,market,position,entry_price,exit_price,size_usd,size_shares,fees_paid,slippage_pct,resolution,pnl_usd,pnl_pct,time_held_days,notes
+2026-02-11T04:00:54.386519,trade_20260211_040054,Will the U.S. collect less than $100b in revenue in 2025?,BUY NO,0.137,0.0,0.2,1.46,0.004,0.001,open,0.0,0.0,0.0,Manual test trade - API Cloudflare blocked
+2026-02-11T04:02:53.512099,trade_20260211_040253,Will the U.S. collect less than $100b in revenue in 2025?,BUY NO,0.1355,0.0,0.2,0.0,0.008,0.01,open,0.0,0.0,0.0,"Simple longshot test - NO @ 13.6%, Volume: $1,333,581"

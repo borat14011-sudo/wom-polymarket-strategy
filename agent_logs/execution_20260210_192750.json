@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-02-10T19:27:50.961401",
+  "duration_seconds": 12.75765,
+  "agents_successful": 5,
+  "agents_total": 5,
+  "agent_results": {
+    "market_monitor": {
+      "status": "success",
+      "events_scanned": 50,
+      "total_markets": 518,
+      "alerts": 0
+    },
+    "data_validator": {
+      "status": "success",
+      "api_latency": 1.4021105766296387,
+      "data_freshness": "fresh",
+      "consistency_checks": [
+        "4 markets in first event"
+      ]
+    },
+    "opportunity_researcher": {
+      "status": "success",
+      "opportunities_found": 14,
+      "top_opportunities": [
+        {
+          "market_id": "517310",
+          "question": "Will Trump deport less than 250,000?...",
+          "ceup_score": 5,
+          "volume": 0,
+          "condition_id": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214"
+        },
+        {
+          "market_id": "517311",
+          "question": "Will Trump deport 250,000-500,000 people?...",
+          "ceup_score": 5,
+          "volume": 0,
+          "condition_id": "0x49686d26fb712515cd5e12c23f0a1c7e10214c7faa3cb0a730aabe0c33694082"
+        },
+        {
+          "market_id": "517313",
+          "question": "Will Trump deport 500,000-750,000- people?...",
+          "ceup_score": 5,
+          "volume": 0,
+          "condition_id": "0x2393ed0b0fdc450054c7b9071907eca75cf4fc36e385adf4a0a5f99ee62243e8"
+        }
+      ]
+    },
+    "risk_manager": {
+      "status": "success",
+      "risk_state": {
+        "total_capital": 10.0,
+        "max_position_size": 0.02,
+        "total_exposure_limit": 0.25,
+        "current_exposure": 0.0,
+        "open_positions": 0,
+        "available_capital": 10.0
+      },
+      "kelly_size": 0.02,
+      "exposure_percentage": 0.0
+    },
+    "trade_executor": {
+      "status": "success",
+      "ready": true,
+      "readiness_checks": {
+        "wallet": true,
+        "api": true,
+        "risk_checks_passed": true,
+        "opportunities_available": true
+      },
+      "opportunities_count": 3,
+      "next_action": "Awaiting high-conviction opportunity"
+    }
+  },
+  "errors": [],
+  "log": {
+    "Agent Manager": [
+      {
+        "time": "19:27:50",
+        "message": "Wallet initialized: 0xb354e256..."
+      },
+      {
+        "time": "19:27:50",
+        "message": "Starting agent execution cycle"
+      },
+      {
+        "time": "19:27:50",
+        "message": "Start time: 19:27:50"
+      },
+      {
+        "time": "19:28:03",
+        "message": "Execution complete: 5/5 agents successful"
+      },
+      {
+        "time": "19:28:03",
+        "message": "Duration: 12.8 seconds"
+      }
+    ],
+    "Market Monitor": [
+      {
+        "time": "19:27:50",
+        "message": "Starting market scan..."
+      },
+      {
+        "time": "19:27:54",
+        "message": "Scanned 50 events with 518 markets"
+      }
+    ],
+    "Data Validator": [
+      {
+        "time": "19:27:55",
+        "message": "Starting data validation..."
+      },
+      {
+        "time": "19:27:56",
+        "message": "API latency: 1.40s, Data: fresh"
+      }
+    ],
+    "Opportunity Researcher": [
+      {
+        "time": "19:27:57",
+        "message": "Scanning for opportunities..."
+      },
+      {
+        "time": "19:27:59",
+        "message": "Found 14 opportunities (CEUP score >= 5)"
+      }
+    ],
+    "Risk Manager": [
+      {
+        "time": "19:28:00",
+        "message": "Checking risk exposure..."
+      },
+      {
+        "time": "19:28:00",
+        "message": "Exposure: $0.00/$0.25 (0.0%)"
+      },
+      {
+        "time": "19:28:00",
+        "message": "Kelly size for next trade: $0.02"
+      }
+    ],
+    "Trade Executor": [
+      {
+        "time": "19:28:01",
+        "message": "Checking execution readiness..."
+      },
+      {
+        "time": "19:28:03",
+        "message": "API connected (order book not available yet)"
+      },
+      {
+        "time": "19:28:03",
+        "message": "API connected - ready for execution"
+      }
+    ]
+  }
+}

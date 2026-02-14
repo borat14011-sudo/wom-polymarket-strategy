@@ -1,0 +1,39 @@
+{
+  "trades": [
+    {
+      "timestamp": "2026-02-11T04:00:54.386519",
+      "trade_id": "trade_20260211_040054",
+      "market": "Will the U.S. collect less than $100b in revenue in 2025?",
+      "position": "BUY NO",
+      "entry_price": 0.137,
+      "exit_price": 0.0,
+      "size_usd": 0.2,
+      "size_shares": 1.46,
+      "fees_paid": 0.004,
+      "slippage_pct": 0.001,
+      "resolution": "open",
+      "pnl_usd": 0.0,
+      "pnl_pct": 0.0,
+      "time_held_days": 0.0,
+      "notes": "Manual test trade - API Cloudflare blocked"
+    },
+    {
+      "timestamp": "2026-02-11T04:02:53.512099",
+      "trade_id": "trade_20260211_040253",
+      "market": "Will the U.S. collect less than $100b in revenue in 2025?",
+      "position": "BUY NO",
+      "entry_price": 0.1355,
+      "exit_price": 0.0,
+      "size_usd": 0.2,
+      "size_shares": 0.0,
+      "fees_paid": 0.008,
+      "slippage_pct": 0.01,
+      "resolution": "open",
+      "pnl_usd": 0.0,
+      "pnl_pct": 0.0,
+      "time_held_days": 0.0,
+      "notes": "Simple longshot test - NO @ 13.6%, Volume: $1,333,581"
+    }
+  ],
+  "summary": {}
+}

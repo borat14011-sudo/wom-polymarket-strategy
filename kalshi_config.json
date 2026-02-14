@@ -1,0 +1,24 @@
+{
+  "kalshi": {
+    "username": "YOUR_KALSHI_EMAIL",
+    "password": "YOUR_KALSHI_PASSWORD",
+    "note": "Replace with actual credentials before use"
+  },
+  "trading": {
+    "max_markets": 3,
+    "min_amount": 1,
+    "max_amount": 2,
+    "screenshot_dir": "./kalshi_screenshots"
+  },
+  "selectors": {
+    "login_button": "button:has-text('Log in')",
+    "username_input": "input[name='email'], input[name='username']",
+    "password_input": "input[name='password']",
+    "submit_button": "button[type='submit']:has-text('Log in')",
+    "market_card": "[data-testid='market-card'], .market-card",
+    "market_yes": "button:has-text('Yes'), button:has-text('Buy Yes')",
+    "market_no": "button:has-text('No'), button:has-text('Buy No')",
+    "amount_input": "input[name='amount'], input[type='number']",
+    "trade_submit": "button:has-text('Place Trade'), button:has-text('Submit')"
+  }
+}

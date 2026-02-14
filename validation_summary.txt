@@ -1,0 +1,46 @@
+VALIDATION AGENT - KEY FINDINGS SUMMARY
+
+MISSION: Cross-validate patterns against ground truth data
+
+DATA ANALYZED:
+1. RESOLVED_DATA_FIXED.json - Claims 100% favorite win rate (FALSE)
+2. backtest_analysis.csv - 2,015 actual trades with P&L
+3. polymarket_resolved_markets.csv - Additional market data
+
+CRITICAL DISCOVERY:
+The claimed "100% favorite win rate" is COMPLETELY FALSE.
+
+ACTUAL PERFORMANCE:
+- Overall favorite win rate: 54.0%
+- Best strategy favorite win rate: 82.0% (Whale Copy)
+- High probability trades (≥90%): Win only 47.7% of the time
+- Low probability trades (≤10%): Win 31.1% of the time
+
+TOP STRATEGIES (by P&L):
+1. Whale Copy: $33.84 profit, 82.0% win rate
+2. Trend Filter: $23.79 profit, 57.3% win rate
+3. Expert Fade: $17.57 profit, 14.0% win rate (high risk)
+
+STRATEGIES TO AVOID:
+- Time Horizon: Lost $28.32, 45.2% win rate
+
+RISK PROFILE:
+- Maximum Drawdown: -100% (total loss possible)
+- Sharpe Ratio: 0.35 (modest risk-adjusted returns)
+- Average trade ROI: 63.22% but median is -9.15% (skewed by few big wins)
+
+KEY INSIGHTS:
+1. Markets are NOT efficient as claimed
+2. High probability trades are overconfident
+3. Low probability trades have more value than expected
+4. Risk management is CRITICAL (100% loss possible)
+5. Original analysis dangerously misleading
+
+RECOMMENDATIONS:
+- Use Whale Copy and Trend Filter strategies
+- Implement strict position sizing (1-2% max per trade)
+- Never assume 100% win rate for any trade
+- Monitor performance monthly
+- Diversify across multiple strategies
+
+CONCLUSION: The original claims are empirically false. Real trading requires realistic expectations and robust risk management.

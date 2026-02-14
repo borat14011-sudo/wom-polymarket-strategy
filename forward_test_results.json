@@ -1,0 +1,52 @@
+{
+  "created": "2026-02-12T16:10:58.356894",
+  "capital": 100.0,
+  "trades": [
+    {
+      "id": 1,
+      "strategy": "BTC_TIME_BIAS",
+      "market": "MSTR-500K-BTC-Dec31",
+      "side": "NO",
+      "entry_price": 0.835,
+      "entry_time": "2026-02-12T16:10:58.356894",
+      "size_usd": 0.5,
+      "shares": 0.5988023952095809,
+      "status": "OPEN",
+      "exit_price": null,
+      "exit_time": null,
+      "pnl": null,
+      "result": null
+    },
+    {
+      "id": 2,
+      "strategy": "DEPORTATION_MISPRICING",
+      "market": "Trump-Deportations-250k-500k",
+      "side": "YES",
+      "entry_price": 0.8905,
+      "entry_time": "2026-02-12T16:12:25.808969",
+      "size_usd": 0.5,
+      "shares": 0.5614823133071308,
+      "status": "OPEN",
+      "exit_price": null,
+      "exit_time": null,
+      "pnl": null,
+      "result": null
+    },
+    {
+      "id": 3,
+      "strategy": "TARIFF_EVENT_DRIVEN",
+      "market": "Tariff-Revenue-200-500B",
+      "side": "YES",
+      "entry_price": 0.11,
+      "entry_time": "2026-02-12T16:12:26.203215",
+      "size_usd": 0.5,
+      "shares": 4.545454545454546,
+      "status": "OPEN",
+      "exit_price": null,
+      "exit_time": null,
+      "pnl": null,
+      "result": null
+    }
+  ],
+  "strategy_stats": {}
+}

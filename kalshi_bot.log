@@ -1,0 +1,14 @@
+2026-02-12 18:42:05,030 | INFO     | ✅ Connected to Kalshi - Trading ACTIVE
+2026-02-12 18:42:12,523 | ERROR    | API request failed: 400 Client Error: Bad Request for url: https://api.elections.kalshi.com/trade-api/v2/markets?limit=100&status=active
+2026-02-12 18:42:12,523 | ERROR    | Error fetching markets: 400 Client Error: Bad Request for url: https://api.elections.kalshi.com/trade-api/v2/markets?limit=100&status=active
+2026-02-12 18:42:12,523 | INFO     | 📊 Fetched 0 markets
+2026-02-12 18:43:48,184 | INFO     | 📊 Fetched 500 active markets
+2026-02-12 18:43:55,082 | INFO     | ============================================================
+2026-02-12 18:43:55,082 | INFO     | 🔄 Starting bot iteration...
+2026-02-12 18:44:00,951 | INFO     | 📊 Fetched 500 active markets
+2026-02-12 18:44:00,951 | INFO     | 😴 No buy signals this iteration
+2026-02-12 18:44:00,951 | INFO     | ----------------------------------------
+2026-02-12 18:44:00,951 | INFO     | 💰 Balance: $100.00
+2026-02-12 18:44:00,967 | INFO     | 📈 P&L: $0.00
+2026-02-12 18:44:00,967 | INFO     | 📦 Positions: 0
+2026-02-13 13:53:42,821 | INFO     | 📊 Fetched 500 active markets

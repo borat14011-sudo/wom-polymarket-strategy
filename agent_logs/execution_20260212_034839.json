@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-02-12T03:48:39.425853",
+  "duration_seconds": 13.245312,
+  "agents_successful": 4,
+  "agents_total": 5,
+  "agent_results": {
+    "market_monitor": {
+      "status": "success",
+      "events_scanned": 50,
+      "total_markets": 468,
+      "alerts": 0
+    },
+    "data_validator": {
+      "status": "success",
+      "api_latency": 1.7087006568908691,
+      "data_freshness": "fresh",
+      "consistency_checks": [
+        "4 markets in first event"
+      ]
+    },
+    "opportunity_researcher": {
+      "status": "success",
+      "opportunities_found": 14,
+      "top_opportunities": [
+        {
+          "market_id": "517310",
+          "question": "Will Trump deport less than 250,000?...",
+          "ceup_score": 5,
+          "volume": 0
+        },
+        {
+          "market_id": "517311",
+          "question": "Will Trump deport 250,000-500,000 people?...",
+          "ceup_score": 5,
+          "volume": 0
+        },
+        {
+          "market_id": "517313",
+          "question": "Will Trump deport 500,000-750,000- people?...",
+          "ceup_score": 5,
+          "volume": 0
+        }
+      ]
+    },
+    "risk_manager": {
+      "status": "success",
+      "risk_state": {
+        "total_capital": 10.0,
+        "max_position_size": 0.02,
+        "total_exposure_limit": 0.25,
+        "current_exposure": 0.0,
+        "open_positions": 0,
+        "available_capital": 10.0
+      },
+      "kelly_size": 0.02,
+      "exposure_percentage": 0.0
+    },
+    "trade_executor": {
+      "status": "warning",
+      "ready": false,
+      "reason": "API not connected",
+      "next_action": "Check API connectivity"
+    }
+  },
+  "errors": [],
+  "log": {
+    "Agent Manager": [
+      {
+        "time": "03:48:41",
+        "message": "Starting agent execution cycle"
+      },
+      {
+        "time": "03:48:41",
+        "message": "Start time: 03:48:39"
+      },
+      {
+        "time": "03:48:52",
+        "message": "Execution complete: 4/5 agents successful"
+      },
+      {
+        "time": "03:48:52",
+        "message": "Duration: 13.2 seconds"
+      }
+    ],
+    "Market Monitor": [
+      {
+        "time": "03:48:41",
+        "message": "Starting market scan..."
+      },
+      {
+        "time": "03:48:44",
+        "message": "Scanned 50 events with 468 markets"
+      }
+    ],
+    "Data Validator": [
+      {
+        "time": "03:48:45",
+        "message": "Starting data validation..."
+      },
+      {
+        "time": "03:48:46",
+        "message": "API latency: 1.71s, Data: fresh"
+      }
+    ],
+    "Opportunity Researcher": [
+      {
+        "time": "03:48:47",
+        "message": "Scanning for opportunities..."
+      },
+      {
+        "time": "03:48:49",
+        "message": "Found 14 opportunities (CEUP score >= 5)"
+      }
+    ],
+    "Risk Manager": [
+      {
+        "time": "03:48:50",
+        "message": "Checking risk exposure..."
+      },
+      {
+        "time": "03:48:50",
+        "message": "Exposure: $0.00/$0.25 (0.0%)"
+      },
+      {
+        "time": "03:48:50",
+        "message": "Kelly size for next trade: $0.02"
+      }
+    ],
+    "Trade Executor": [
+      {
+        "time": "03:48:51",
+        "message": "Checking execution readiness..."
+      },
+      {
+        "time": "03:48:52",
+        "message": "API not connected - not ready"
+      }
+    ]
+  }
+}

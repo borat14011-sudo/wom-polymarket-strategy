@@ -1,0 +1,426 @@
+{
+  "timestamp": "2026-02-10T19:31:25.413273",
+  "top_markets": [
+    {
+      "question": "Will Jesus Christ return before GTA VI?",
+      "slug": "will-jesus-christ-return-before-gta-vi-665",
+      "condition_id": "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c",
+      "volume": 9260542.327485,
+      "liquidity": 423533.3279,
+      "best_bid": 0.48,
+      "best_ask": 0.49,
+      "spread": 0.010000000000000009,
+      "end_date": "2026-07-31T12:00:00Z",
+      "token_ids": [
+        "90435811253665578014957380826505992530054077692143838383981805324273750424057",
+        "92388629082681805622801622703528982922543286352927708208755887536971583436902"
+      ],
+      "outcome_prices": [
+        0.485,
+        0.515
+      ],
+      "volume_24h": 80465.170416,
+      "last_updated": "2026-02-11T03:25:25.465719Z"
+    },
+    {
+      "question": "Will Trump deport 250,000-500,000 people?",
+      "slug": "will-trump-deport-250000-500000-people",
+      "condition_id": "0x49686d26fb712515cd5e12c23f0a1c7e10214c7faa3cb0a730aabe0c33694082",
+      "volume": 4030810.973282,
+      "liquidity": 5126.09632,
+      "best_bid": 0.938,
+      "best_ask": 0.951,
+      "spread": 0.013000000000000012,
+      "end_date": "2025-12-31T12:00:00Z",
+      "token_ids": [
+        "13244681086321087932946246027856416106585284024824496763706748621681543444582",
+        "30442780799048074404860985387051749017905070253466005720364298335239299761065"
+      ],
+      "outcome_prices": [
+        0.9445,
+        0.0555
+      ],
+      "volume_24h": 557915.7533169999,
+      "last_updated": "2026-02-11T03:25:26.980864Z"
+    },
+    {
+      "question": "Will GTA 6 cost $100+?",
+      "slug": "will-gta-6-cost-100",
+      "condition_id": "0xae5584fbb57f23c1c608d544b656f23d8bf12340cef70811cf31bb0cb4fc2115",
+      "volume": 3404785.355511,
+      "liquidity": 66327.54261,
+      "best_bid": 0.008,
+      "best_ask": 0.01,
+      "spread": 0.002,
+      "end_date": "2026-02-28T12:00:00Z",
+      "token_ids": [
+        "28946595841244317705636126646676849578876740730186646421280828201004700559420",
+        "42278252558046940014991595990628759801692726198478046188873057685686228021663"
+      ],
+      "outcome_prices": [
+        0.009,
+        0.991
+      ],
+      "volume_24h": 46963.749178000005,
+      "last_updated": "2026-02-11T03:25:29.031824Z"
+    },
+    {
+      "question": "Will bitcoin hit $1m before GTA VI?",
+      "slug": "will-bitcoin-hit-1m-before-gta-vi-872",
+      "condition_id": "0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2",
+      "volume": 3079368.082214,
+      "liquidity": 187436.4734,
+      "best_bid": 0.48,
+      "best_ask": 0.49,
+      "spread": 0.010000000000000009,
+      "end_date": "2026-07-31T12:00:00Z",
+      "token_ids": [
+        "105267568073659068217311993901927962476298440625043565106676088842803600775810",
+        "91863162118308663069733924043159186005106558783397508844234610341221325526200"
+      ],
+      "outcome_prices": [
+        0.485,
+        0.515
+      ],
+      "volume_24h": 12450.472065000016,
+      "last_updated": "2026-02-11T03:25:00.887787Z"
+    },
+    {
+      "question": "Will the U.S. collect between $500b and $1t in revenue in 2025?",
+      "slug": "will-the-us-collect-between-500b-and-1t-in-revenue-in-2025",
+      "condition_id": "0x07c96dbd0f70e5a27a0e15c22042abcc57bc6acc7f740f7935e0a08cde5e5138",
+      "volume": 2094014.350495,
+      "liquidity": 50880.06075,
+      "best_bid": 0.001,
+      "best_ask": 0.002,
+      "spread": 0.001,
+      "end_date": "2026-02-28T12:00:00Z",
+      "token_ids": [
+        "14642427631762357507939608294887050551300827907746951519205602696553287464979",
+        "107108677406570769174644732556082858255108204503861334566787299375848455720534"
+      ],
+      "outcome_prices": [
+        0.0015,
+        0.9985
+      ],
+      "volume_24h": 14983.086000000007,
+      "last_updated": "2026-02-11T03:25:27.811467Z"
+    },
+    {
+      "question": "Will Geert Wilders become the next Prime Minister of the Netherlands?",
+      "slug": "will-geert-wilders-become-the-next-prime-minister-of-the-netherlands",
+      "condition_id": "0x914477a1f73a2dfb37122e5fbb2117db8d9656af85f4941e036e2fc3def9ede3",
+      "volume": 1995301.296656,
+      "liquidity": 76326.19103,
+      "best_bid": 0.002,
+      "best_ask": 0.004,
+      "spread": 0.002,
+      "end_date": "2026-12-31T00:00:00Z",
+      "token_ids": [
+        "17341591283976249708265102843145010140177116038289454410633359529240476297211",
+        "87279367353669458109256966035486195882105617131709876367579110385360435838834"
+      ],
+      "outcome_prices": [
+        0.003,
+        0.997
+      ],
+      "volume_24h": 117196.75508699995,
+      "last_updated": "2026-02-11T03:25:21.19973Z"
+    },
+    {
+      "question": "GTA VI released before June 2026?",
+      "slug": "gta-vi-released-before-june-2026",
+      "condition_id": "0xcccb7e7613a087c132b69cbf3a02bece3fdcb824c1da54ae79acc8d4a562d902",
+      "volume": 1606500.101541,
+      "liquidity": 20793.93532,
+      "best_bid": 0.036,
+      "best_ask": 0.038,
+      "spread": 0.0020000000000000018,
+      "end_date": "2026-05-31T12:00:00Z",
+      "token_ids": [
+        "8441400852834915183759801017793514978104486628517653995211751018945988243154",
+        "109289569086508934142323222102974769075074494425163878721602922903101062859033"
+      ],
+      "outcome_prices": [
+        0.037,
+        0.963
+      ],
+      "volume_24h": 761564.3858349998,
+      "last_updated": "2026-02-11T03:25:30.140731Z"
+    },
+    {
+      "question": "Will China invades Taiwan before GTA VI?",
+      "slug": "will-china-invades-taiwan-before-gta-vi-716",
+      "condition_id": "0x7b49b9bacb5f435bc10f3b100ff59e2fdd346f7f92a9001881bc9825a0af0f11",
+      "volume": 1346962.732319,
+      "liquidity": 56994.2833,
+      "best_bid": 0.52,
+      "best_ask": 0.53,
+      "spread": 0.010000000000000009,
+      "end_date": "2026-07-31T12:00:00Z",
+      "token_ids": [
+        "21695138873211375451055566770107682325494206727818897067665810321709249824909",
+        "17516427576383382756368467656206258206490015951115433065318503962238754362428"
+      ],
+      "outcome_prices": [
+        0.525,
+        0.475
+      ],
+      "volume_24h": 46409.57102699995,
+      "last_updated": "2026-02-11T03:24:54.901404Z"
+    },
+    {
+      "question": "Will the U.S. collect less than $100b in revenue in 2025?",
+      "slug": "will-the-us-collect-less-than-100b-in-revenue-in-2025",
+      "condition_id": "0x6acea3596be0a8126e8658d39ecc1ac44bee1246c162e51a8062b380bcf147c2",
+      "volume": 1333580.647398,
+      "liquidity": 26275.56342,
+      "best_bid": 0.859,
+      "best_ask": 0.87,
+      "spread": 0.01100000000000001,
+      "end_date": "2026-02-28T12:00:00Z",
+      "token_ids": [
+        "82901799715930045311809212542225092826839455972178920747166234033810084508110",
+        "2067891916326150127826753884863730268931932594834881748788499812590988545417"
+      ],
+      "outcome_prices": [
+        0.8645,
+        0.1355
+      ],
+      "volume_24h": 44179.786876000006,
+      "last_updated": "2026-02-11T03:25:28.604634Z"
+    },
+    {
+      "question": "Russia-Ukraine Ceasefire before GTA VI?",
+      "slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+      "condition_id": "0x9c1a953fe92c8357f1b646ba25d983aa83e90c525992db14fb726fa895cb5763",
+      "volume": 1327066.3282,
+      "liquidity": 65160.7665,
+      "best_bid": 0.57,
+      "best_ask": 0.59,
+      "spread": 0.020000000000000018,
+      "end_date": "2026-07-31T12:00:00Z",
+      "token_ids": [
+        "8501497159083948713316135768103773293754490207922884688769443031624417212426",
+        "2527312495175492857904889758552137141356236738032676480522356889996545113869"
+      ],
+      "outcome_prices": [
+        0.58,
+        0.42
+      ],
+      "volume_24h": 488.85972999999996,
+      "last_updated": "2026-02-11T03:24:51.019574Z"
+    },
+    {
+      "question": "Will tariffs generate >$250b in 2025?",
+      "slug": "will-tariffs-generate-250b-in-2025",
+      "condition_id": "0x53700c2b2fa65e0a3775c757d0c705be4bee8c265c49d283ef50a0dfb3bf8894",
+      "volume": 1245647.133075,
+      "liquidity": 21082.18914,
+      "best_bid": 0.011,
+      "best_ask": 0.014,
+      "spread": 0.003000000000000001,
+      "end_date": "2026-02-28T12:00:00Z",
+      "token_ids": [
+        "7935869750973568991063634796432742901043529564448603464914559127943627115874",
+        "40635745065483171354210492699079862696789237657248181561502664751201684944045"
+      ],
+      "outcome_prices": [
+        0.0125,
+        0.9875
+      ],
+      "volume_24h": 4412.103299,
+      "last_updated": "2026-02-11T03:25:18.052747Z"
+    },
+    {
+      "question": "Will the U.S. collect between $100b and $200b in revenue in 2025?",
+      "slug": "will-the-us-collect-between-100b-and-200b-in-revenue-in-2025",
+      "condition_id": "0xfd94efe3bbd624fb6577ad51cf5639dcbbcd0eb5a6f03543d98a8e4fe58af27a",
+      "volume": 1199503.123233,
+      "liquidity": 9468.45855,
+      "best_bid": 0.025,
+      "best_ask": 0.033,
+      "spread": 0.008,
+      "end_date": "2026-02-28T12:00:00Z",
+      "token_ids": [
+        "56943889421369223313864561268386407584816988844238380390936659020238520433523",
+        "29795694034265723490033787182308468787841029434655005675103532957362215624118"
+      ],
+      "outcome_prices": [
+        0.029,
+        0.971
+      ],
+      "volume_24h": 16843.921941000008,
+      "last_updated": "2026-02-11T03:25:20.74039Z"
+    },
+    {
+      "question": "Will Trump deport less than 250,000?",
+      "slug": "will-trump-deport-less-than-250000",
+      "condition_id": "0xaf9d0e448129a9f657f851d49495ba4742055d80e0ef1166ba0ee81d4d594214",
+      "volume": 1083116.507176,
+      "liquidity": 13455.93099,
+      "best_bid": 0.027,
+      "best_ask": 0.036,
+      "spread": 0.008999999999999998,
+      "end_date": "2025-12-31T12:00:00Z",
+      "token_ids": [
+        "101676997363687199724245607342877036148401850938023978421879460310389391082353",
+        "4153292802911610701832309484716814274802943278345248636922528170020319407796"
+      ],
+      "outcome_prices": [
+        0.0315,
+        0.9685
+      ],
+      "volume_24h": 9291.001130999997,
+      "last_updated": "2026-02-11T03:25:24.860867Z"
+    },
+    {
+      "question": "Will Trump deport 750,000 or more people in 2025?",
+      "slug": "will-trump-deport-750000-or-more-people-in-2025",
+      "condition_id": "0x22ac5f75af18fdb453497fbf7ac0606a09a6fd55b78b2d08aace6b946ad62038",
+      "volume": 745994.380903,
+      "liquidity": 4150.32524,
+      "best_bid": 0.041,
+      "best_ask": 0.059,
+      "spread": 0.017999999999999995,
+      "end_date": "2025-12-31T12:00:00Z",
+      "token_ids": [
+        "97449340182256366014320155718265676486703217567849039806162053075113517266910",
+        "59259495934562596318644973716893809974860301509869285036503555129962149752635"
+      ],
+      "outcome_prices": [
+        0.05,
+        0.95
+      ],
+      "volume_24h": 1559.260588,
+      "last_updated": "2026-02-11T03:25:10.035342Z"
+    },
+    {
+      "question": "Will Dilan Ye\u015filg\u00f6z-Zegerius become the next Prime Minister of the Netherlands?",
+      "slug": "will-dilan-yeilgz-zegerius-become-the-next-prime-minister-of-the-netherlands",
+      "condition_id": "0x873de31db355aa49fd2d6073d8ec4eb333bddc9bca5547afa7c891fd24b8f611",
+      "volume": 743404.74103,
+      "liquidity": 29845.17011,
+      "best_bid": 0.001,
+      "best_ask": 0.003,
+      "spread": 0.002,
+      "end_date": "2026-12-31T00:00:00Z",
+      "token_ids": [
+        "75675794787726583517922072284175382627586386442761686314701063627501030148170",
+        "82024587445113530836763278541179136536267277433851701705572340424703593880778"
+      ],
+      "outcome_prices": [
+        0.002,
+        0.998
+      ],
+      "volume_24h": 11726.645499999999,
+      "last_updated": "2026-02-11T03:24:56.025872Z"
+    },
+    {
+      "question": "Will Elon and DOGE cut more than $250b in federal spending in 2025?",
+      "slug": "will-elon-and-doge-cut-more-than-250b-in-federal-spending-in-2025",
+      "condition_id": "0x9d24d9f9b5995949cb158d943793dea20bd448e1b3971cb6f7418bb15e719661",
+      "volume": 715970.54154,
+      "liquidity": 9002.69032,
+      "best_bid": 0.002,
+      "best_ask": 0.011,
+      "spread": 0.009,
+      "end_date": "2025-12-31T12:00:00Z",
+      "token_ids": [
+        "70512916946285526357165287373537570327431985324385225788636160168740471920430",
+        "79516121807256184736227920754945730465880754940725759201193439378549308939672"
+      ],
+      "outcome_prices": [
+        0.0065,
+        0.9935
+      ],
+      "volume_24h": 978.348,
+      "last_updated": "2026-02-11T03:25:30.434598Z"
+    },
+    {
+      "question": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
+      "slug": "will-the-us-collect-between-200b-and-500b-in-revenue-in-2025",
+      "condition_id": "0x7130b8d9bb59393ede189911ba57783debc1900dffb8143c3cb0027952e2f7df",
+      "volume": 697247.716772,
+      "liquidity": 10305.6857,
+      "best_bid": 0.1,
+      "best_ask": 0.11,
+      "spread": 0.009999999999999995,
+      "end_date": "2026-02-28T12:00:00Z",
+      "token_ids": [
+        "19180751334892649957685662514970856594118361572000181281162861811532650604260",
+        "50221315964000194764695024582522009520159992363520263771661265416131198909217"
+      ],
+      "outcome_prices": [
+        0.105,
+        0.895
+      ],
+      "volume_24h": 19087.395048,
+      "last_updated": "2026-02-11T03:25:25.857661Z"
+    },
+    {
+      "question": "New Playboi Carti Album before GTA VI?",
+      "slug": "new-playboi-carti-album-before-gta-vi-421",
+      "condition_id": "0x50ddb9cd80d5c271664a2ebb7fcaed1d0a148d82c8e8d314d830f75a944c3dcc",
+      "volume": 672531.144083,
+      "liquidity": 32416.2538,
+      "best_bid": 0.6,
+      "best_ask": 0.61,
+      "spread": 0.010000000000000009,
+      "end_date": "2026-07-31T12:00:00Z",
+      "token_ids": [
+        "88275040060084773376557187972215267513049848642895776801789297917961077894224",
+        "94376205816022955542979635542279932967359915765455578534002478996104754801969"
+      ],
+      "outcome_prices": [
+        0.605,
+        0.395
+      ],
+      "volume_24h": 309.179343,
+      "last_updated": "2026-02-11T03:24:55.915119Z"
+    },
+    {
+      "question": "Will Dick Schoof become the next Prime Minister of the Netherlands?",
+      "slug": "will-dick-schoof-become-the-next-prime-minister-of-the-netherlands",
+      "condition_id": "0x320e3f08cbe47ef77c0897876a10270a472df0bcf1a32b40fd6f532cd007d2eb",
+      "volume": 661784.478334,
+      "liquidity": 78136.5606,
+      "best_bid": 0.0,
+      "best_ask": 0.001,
+      "spread": 1,
+      "end_date": "2026-12-31T00:00:00Z",
+      "token_ids": [
+        "103382059484620802860702793854659423695948785517573356182426643110727271397971",
+        "966605776900512007971259674316059328261790306850594758651788236226532248461"
+      ],
+      "outcome_prices": [
+        0.0005,
+        0.9995
+      ],
+      "volume_24h": 169495.34999999998,
+      "last_updated": "2026-02-11T03:25:34.701434Z"
+    },
+    {
+      "question": "New Rihanna Album before GTA VI?",
+      "slug": "new-rhianna-album-before-gta-vi-926",
+      "condition_id": "0x1fad72fae204143ff1c3035e99e7c0f65ea8d5cd9bd1070987bd1a3316f772be",
+      "volume": 637207.519866,
+      "liquidity": 35186.8527,
+      "best_bid": 0.54,
+      "best_ask": 0.57,
+      "spread": 0.029999999999999916,
+      "end_date": "2026-07-31T12:00:00Z",
+      "token_ids": [
+        "98022490269692409998126496127597032490334070080325855126491859374983463996227",
+        "53831553061883006530739877284105938919721408776239639687877978808906551086026"
+      ],
+      "outcome_prices": [
+        0.555,
+        0.445
+      ],
+      "volume_24h": 472.94744,
+      "last_updated": "2026-02-11T03:25:27.79978Z"
+    }
+  ],
+  "count": 41
+}

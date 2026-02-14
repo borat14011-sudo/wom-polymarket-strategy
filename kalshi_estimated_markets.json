@@ -1,0 +1,130 @@
+[
+  {
+    "ticker": "KXGOVTSHUTDOWN-26FEB14",
+    "title": "Will the government shut down? - Yes",
+    "yes_bid": 99,
+    "yes_ask": 100,
+    "volume": 29068666,
+    "category": "Politics"
+  },
+  {
+    "ticker": "KXPRES-2028-D",
+    "title": "2028 Presidential Election - Democratic Nominee",
+    "yes_bid": 45,
+    "yes_ask": 48,
+    "volume": 1500000,
+    "category": "Politics"
+  },
+  {
+    "ticker": "KXPRES-2028-R",
+    "title": "2028 Presidential Election - Republican Nominee",
+    "yes_bid": 42,
+    "yes_ask": 45,
+    "volume": 1200000,
+    "category": "Politics"
+  },
+  {
+    "ticker": "KXSCOTUS-VACANCY",
+    "title": "Supreme Court Vacancy - This Year",
+    "yes_bid": 25,
+    "yes_ask": 28,
+    "volume": 800000,
+    "category": "Politics"
+  },
+  {
+    "ticker": "KXRECESSION-2025",
+    "title": "US Recession - 2025",
+    "yes_bid": 30,
+    "yes_ask": 33,
+    "volume": 2500000,
+    "category": "Economics"
+  },
+  {
+    "ticker": "KXFEDRATE-DEC",
+    "title": "Fed Rate Decision - December Hike",
+    "yes_bid": 15,
+    "yes_ask": 18,
+    "volume": 1800000,
+    "category": "Economics"
+  },
+  {
+    "ticker": "KXUNEMPLOY-5",
+    "title": "Unemployment Rate - Above 5%",
+    "yes_bid": 20,
+    "yes_ask": 23,
+    "volume": 900000,
+    "category": "Economics"
+  },
+  {
+    "ticker": "KXTEMP-RECORD",
+    "title": "Global Temperature - Record High",
+    "yes_bid": 65,
+    "yes_ask": 68,
+    "volume": 750000,
+    "category": "Climate"
+  },
+  {
+    "ticker": "KXHURRICANE-MAJOR",
+    "title": "Major Hurricane - US Landfall",
+    "yes_bid": 40,
+    "yes_ask": 43,
+    "volume": 500000,
+    "category": "Climate"
+  },
+  {
+    "ticker": "KXWILDFIRE-ACRES",
+    "title": "Wildfire Acres - Above Average",
+    "yes_bid": 55,
+    "yes_ask": 58,
+    "volume": 300000,
+    "category": "Climate"
+  },
+  {
+    "ticker": "KXOSCARS-BESTPIC",
+    "title": "Oscars - Best Picture Winner",
+    "yes_bid": 10,
+    "yes_ask": 15,
+    "volume": 400000,
+    "category": "Entertainment"
+  },
+  {
+    "ticker": "KXEMMYS-DRAMA",
+    "title": "Emmys - Best Drama Series",
+    "yes_bid": 12,
+    "yes_ask": 17,
+    "volume": 250000,
+    "category": "Entertainment"
+  },
+  {
+    "ticker": "KXSPOTIFY-TOP",
+    "title": "Spotify - Most Streamed Artist",
+    "yes_bid": 8,
+    "yes_ask": 13,
+    "volume": 200000,
+    "category": "Entertainment"
+  },
+  {
+    "ticker": "KXAIPO-OPENAI",
+    "title": "AI Company IPO - OpenAI",
+    "yes_bid": 60,
+    "yes_ask": 65,
+    "volume": 1500000,
+    "category": "Technology"
+  },
+  {
+    "ticker": "KXEV-SALES",
+    "title": "EV Sales - Tesla #1",
+    "yes_bid": 70,
+    "yes_ask": 75,
+    "volume": 1200000,
+    "category": "Technology"
+  },
+  {
+    "ticker": "KXCRYPTO-BTC",
+    "title": "Cryptocurrency - Bitcoin $100K",
+    "yes_bid": 35,
+    "yes_ask": 40,
+    "volume": 2000000,
+    "category": "Technology"
+  }
+]

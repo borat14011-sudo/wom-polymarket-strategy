@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "total_markets": 548,
+    "active_markets": 383,
+    "inactive_markets": 165
+  },
+  "strategies": {
+    "buy_the_dip": 0,
+    "near_certainty": 0,
+    "longshots": 0,
+    "mean_reversion": 0,
+    "high_volume": 89,
+    "low_volume": 138
+  }
+}

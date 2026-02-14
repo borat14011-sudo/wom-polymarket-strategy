@@ -1,0 +1,112 @@
+[
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Yoav Gallant be the next Prime Minister of Israel?",
+    "ticker": "KXNEXTISRAELPM-45JAN01-YGAL",
+    "price": 7.5,
+    "previous_price": 81.0,
+    "drop_pct": -90.74074074074075,
+    "volume": 966,
+    "category": "Politics",
+    "ev": 43.370370370370374
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will A New Season of Prison Break be released Worldwide before Jan 1, 2030?",
+    "ticker": "KXMEDIARELEASEPRISONBREAK-30JAN01-26JUL01",
+    "price": 9.0,
+    "previous_price": 90.0,
+    "drop_pct": -90.0,
+    "volume": 123,
+    "category": "Entertainment",
+    "ev": 43.0
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Ramp or Brex IPO first?",
+    "ticker": "KXRAMPBREX-40-BREX",
+    "price": 1.5,
+    "previous_price": 11.0,
+    "drop_pct": -86.36363636363636,
+    "volume": 6661,
+    "category": "Financials",
+    "ev": 41.18181818181818
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Boris Johnson be the next Prime Minister of United Kingdom?",
+    "ticker": "KXNEXTUKPM-30-BJOH",
+    "price": 0.5,
+    "previous_price": 3.0,
+    "drop_pct": -83.33333333333334,
+    "volume": 979,
+    "category": "Politics",
+    "ev": 39.66666666666667
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Scott Rose-Marsh be the next James Bond?",
+    "ticker": "KXBOND-30-SCO",
+    "price": 1.5,
+    "previous_price": 7.0,
+    "drop_pct": -78.57142857142857,
+    "volume": 720,
+    "category": "Entertainment",
+    "ev": 37.285714285714285
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Prime Minister of Japan be the first to leave office?",
+    "ticker": "KXG7LEADEROUT-45JAN01-STAK",
+    "price": 2.0,
+    "previous_price": 9.0,
+    "drop_pct": -77.77777777777779,
+    "volume": 2604,
+    "category": "Politics",
+    "ev": 36.88888888888889
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Bridget Phillipson be the next Prime Minister of United Kingdom?",
+    "ticker": "KXNEXTUKPM-30-BPHI",
+    "price": 0.5,
+    "previous_price": 2.0,
+    "drop_pct": -75.0,
+    "volume": 11,
+    "category": "Politics",
+    "ev": 35.5
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Warren Buffet be the world's first trillionaire?",
+    "ticker": "KXTRILLIONAIRE-30-WB",
+    "price": 0.5,
+    "previous_price": 2.0,
+    "drop_pct": -75.0,
+    "volume": 2430,
+    "category": "Economics",
+    "ev": 35.5
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Ed Davey be the next Prime Minister of United Kingdom?",
+    "ticker": "KXNEXTUKPM-30-ED",
+    "price": 0.5,
+    "previous_price": 2.0,
+    "drop_pct": -75.0,
+    "volume": 353,
+    "category": "Politics",
+    "ev": 35.5
+  },
+  {
+    "strategy": "Buy the Dip",
+    "market": "Will Prime Minister of Canada be the first to leave office?",
+    "ticker": "KXG7LEADEROUT-45JAN01-MCAR",
+    "price": 0.5,
+    "previous_price": 2.0,
+    "drop_pct": -75.0,
+    "volume": 1672,
+    "category": "Politics",
+    "ev": 35.5
+  }
+]

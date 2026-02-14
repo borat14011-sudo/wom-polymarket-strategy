@@ -1,0 +1,154 @@
+POLYMARKET PRICING: HOW CENTS TRANSLATE TO PROBABILITY
+======================================================
+
+THE BASIC RULE
+==============
+
+Polymarket prices ARE implied probabilities:
+
+  Price in cents = Probability percentage
+
+  11 cents = 11% probability
+  50 cents = 50% probability  
+  89 cents = 89% probability
+
+
+BINARY MARKETS (YES/NO)
+=======================
+
+Every market has two outcomes that sum to $1.00:
+
+  YES price + NO price = 100 cents
+
+Example - "Will it rain?"
+  YES: 30 cents (30% chance of rain)
+  NO:  70 cents (70% chance of no rain)
+  Total: 100 cents
+
+
+HOW YOU MAKE MONEY
+==================
+
+Buy shares at current price, get $1.00 if correct.
+
+Example 1 - Buy YES at 30 cents:
+  Cost: 30 cents per share
+  If YES wins: Get $1.00
+  Profit: 70 cents per share
+  Return: 70/30 = 233%
+
+Example 2 - Buy NO at 70 cents:
+  Cost: 70 cents per share
+  If NO wins: Get $1.00
+  Profit: 30 cents per share
+  Return: 30/70 = 43%
+
+
+KEY PRINCIPLE
+=============
+
+Cheap shares (low price) = High risk, HIGH REWARD
+Expensive shares (high price) = Low risk, LOW REWARD
+
+  10 cents = 10% probability = 900% return if right
+  90 cents = 90% probability = 11% return if right
+
+
+THE TRADER'S EDGE
+=================
+
+You profit when you DISAGREE with the market:
+
+  Market says: 11% chance (priced at 11 cents)
+  You believe: 35% chance (true probability)
+  
+  Action: BUY at 11 cents
+  
+  If you're right and price moves to 35 cents:
+  You can sell early at 35 cents
+  Profit: 24 cents per share (218% return)
+  
+  OR hold to resolution for full $1.00
+  Profit: 89 cents per share (809% return)
+
+
+TARIFF MARKET EXAMPLE
+=====================
+
+Market: "Will tariff revenue be $200-500B in 2025?"
+
+Market prices:
+  YES: 11 cents (market thinks 11% chance)
+  NO:  89 cents (market thinks 89% chance)
+
+Market is saying: "Very unlikely to hit $200-500B"
+
+Our thesis: "Actually 35% likely due to March 12 tariffs"
+
+So we BUY YES at 11 cents because:
+  - Market underpricing at 11 cents
+  - True value closer to 35 cents
+  - 24 cents of edge per share
+
+If we're right: 218% to 809% return
+If we're wrong: Lose ~97% of investment
+
+
+COMMON CONFUSION
+================
+
+Question: "If NO is at 89 cents, doesn't that mean 89% chance of NO?"
+
+Answer: YES, exactly!
+
+  NO at 89 cents = 89% chance event does NOT happen
+  YES at 11 cents = 11% chance event DOES happen
+
+  Total: 89% + 11% = 100%
+
+We're betting the 11% side because we think the true chance is higher.
+
+
+WHY NOT BET NO AT 89 CENTS?
+===========================
+
+You could! But:
+  - 89 cents is expensive
+  - After 2% entry fee: 90.8 cents cost
+  - After 2% exit fee: Get 98 cents
+  - Net profit: 7.2 cents per share
+  - Return: 8% (not worth the risk)
+
+Plus slippage at extreme prices makes it even worse.
+
+
+SUMMARY
+=======
+
+1. Price in cents = Implied probability
+2. YES price + NO price = 100 cents
+3. Buy LOW price for HIGH returns (if right)
+4. Buy HIGH price for LOW returns (safer but barely profitable)
+5. Your edge = Your probability estimate - Market's price
+
+In our tariff bet:
+  Market: 11 cents (11% implied)
+  Us:     35 cents (35% estimated)
+  Edge:   24 cents (24 percentage points)
+
+That's why it's a good bet (if our 35% estimate is correct).
+
+
+RISK REMINDER
+=============
+
+If market is RIGHT and we're WRONG:
+  - YES stays cheap or gets cheaper
+  - We lose most/all of our $2.50
+  - NO at 89 cents was the right bet
+
+The entire edge depends on our analysis being better than the market's.
+
+
+Date: February 10, 2026
+Prepared by: Borat

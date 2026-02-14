@@ -1,0 +1,411 @@
+ticker,title,category,category_type,yes_ask,yes_bid,no_ask,no_bid,ev_yes,ev_no,volume,days_to_resolution,daily_change,weekly_change
+KXG7LEADEROUT-45JAN01-MCAR,Will Prime Minister of Canada be the first to leave office?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,33.44,6896,0,-50
+KXTRILLIONAIRE-30-BA,Will Bernard Arnault & family be the world's first trillionaire?,Economics,top_yes,1,0,99,100,9702.0,0.9898989898989901,55.94,1417,0,0
+KXTRILLIONAIRE-30-WB,Will Warren Buffet be the world's first trillionaire?,Economics,top_yes,1,0,99,100,9702.0,0.9898989898989901,48.6,1417,0,-50
+KXTRILLIONAIRE-30-SRB,Will Sergey Brin be the world's first trillionaire?,Economics,top_yes,1,0,99,100,9702.0,0.9898989898989901,6.640000000000001,1417,0,0
+KXTRILLIONAIRE-30-SB,Will Steve Ballmer be the world's first trillionaire?,Economics,top_yes,1,0,99,100,9702.0,0.9898989898989901,23.080000000000002,1417,0,0
+KXTRILLIONAIRE-30-SA,Will Sam Altman be the world's first trillionaire?,Economics,top_yes,1,0,99,100,9702.0,0.9898989898989901,86.32000000000001,1417,0,0
+KXNEXTUKPM-30-AT,Will Andrew Tate be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,132.08,1417,0,0
+KXNEXTUKPM-30-RR,Will Rachel Reeves be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,17.78,1417,0,0
+KXNEXTUKPM-30-ED,Will Ed Davey be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,7.0600000000000005,1417,0,-50
+KXNEXTUKPM-30-BJOH,Will Boris Johnson be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,19.580000000000002,1417,0,-66.67
+KXNEXTUKPM-30-JCLE,Will James Cleverly be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,0.2,1417,0,0
+KXNEXTUKPM-30-RJEN,Will Robert Jenrick be the next United Kingdom of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,6.26,1417,0,0
+KXNEXTUKPM-30-DJON,Will Darren Jones be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,0.2,1417,0,0
+KXNEXTUKPM-30-BPHI,Will Bridget Phillipson be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,0.22,1417,0,-50
+KXNEXTUKPM-30-RLOW,Will Rupert Lowe be the next Prime Minister of United Kingdom?,Politics,top_yes,1,0,99,100,9702.0,0.9898989898989901,34.42,1417,0,-50
+KXTVSEASONRELEASETHELASTOFUS-26-APR,"When will ""The Last of Us"" Season 3 be released?",Entertainment,top_yes,2,1,98,99,4802.0,1.9999999999999998,47.2,45,0,0
+KXPRIMEENGCONSUMPTION-30-BIOMASS,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,2,0,98,100,4802.0,1.9999999999999998,18.26,2511,0,100
+KXPRIMEENGCONSUMPTION-30-BIOFUEL,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,2,1,98,99,4802.0,1.9999999999999998,33.74,2511,0,100
+KXTRILLIONAIRE-30-MZ,Will Mark Zuckerberg be the world's first trillionaire?,Economics,top_yes,2,1,98,99,4802.0,1.9999999999999998,80.36,1417,0,0
+KXTRILLIONAIRE-30-LP,Will Larry Page be the world's first trillionaire?,Economics,top_yes,2,1,98,99,4802.0,1.9999999999999998,83.16,1417,0,100
+KXNEXTIRANLEADER-45JAN01-HBUS,Will Hashem Hosseini Bushehri be the next Supreme Leader of Iran?,Politics,top_yes,3,1,97,99,3168.666666666667,3.0309278350515467,13.58,6896,0,200
+KXG7LEADEROUT-45JAN01-STAK,Will Prime Minister of Japan be the first to leave office?,Politics,top_yes,3,1,97,99,3168.666666666667,3.0309278350515467,52.08,6896,0,-66.67
+KXRAMPBREX-40-BREX,Will Ramp or Brex IPO first?,Financials,top_yes,3,0,97,100,3168.666666666667,3.0309278350515467,133.2,5068,200,-72.73
+KXBRUVSEAT-35,"Will Britain Restoring Underlying Values (""BRUV"") win a seat in the next U.K. general election?",Elections,top_yes,3,0,97,100,3168.666666666667,3.0309278350515467,307.38,3243,0,300
+KXPRIMEENGCONSUMPTION-30-WIND,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,3,0,97,100,3168.666666666667,3.0309278350515467,68.46000000000001,2511,0,-25
+KXPRIMEENGCONSUMPTION-30-RENEWABLE,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,3,1,97,99,3168.666666666667,3.0309278350515467,38.5,2511,0,0
+KXTRILLIONAIRE-30-LE,Will Larry Ellison be the world's first trillionaire?,Economics,top_yes,3,1,97,99,3168.666666666667,3.0309278350515467,151.58,1417,0,-25
+KXNEXTUKPM-30-LPOW,Will Lucy Powell be the next  of United Kingdom?,Politics,top_yes,3,2,97,98,3168.666666666667,3.0309278350515467,4.88,1417,0,50
+KXBOND-30-SCO,Will Scott Rose-Marsh be the next James Bond?,Entertainment,top_yes,3,0,97,100,3168.666666666667,3.0309278350515467,14.4,1417,0,0
+KXNEXTIRANLEADER-45JAN01-AHEJ,Will Ali Asghar Hejazi be the next Supreme Leader of Iran?,Politics,top_yes,4,0,96,100,2352.0,4.083333333333333,0.76,6896,0,0
+KXNEXTIRANLEADER-45JAN01-SLAR,Will Sadeq Amoli Larijani be the next Supreme Leader of Iran?,Politics,top_yes,4,0,96,100,2352.0,4.083333333333333,1.1,6896,0,-20
+KXNEXTIRANLEADER-45JAN01-MARA,Will Mohsen Araki be the next Supreme Leader of Iran?,Politics,top_yes,4,1,96,99,2352.0,4.083333333333333,3.1,6896,0,0
+KXG7LEADEROUT-45JAN01-GMEL,Will Prime Minister of Italy be the first to leave office?,Politics,top_yes,4,1,96,99,2352.0,4.083333333333333,32.32,6896,0,300
+KXPERFORMBONDSONG-35-BEY,Who will perform the next James Bond Song?,Entertainment,top_yes,4,0,96,100,2352.0,4.083333333333333,1.02,3243,0,0
+KXNEWPOPE-35-MZUP,Who will the next Pope be?,World,top_yes,4,1,96,99,2352.0,4.083333333333333,23.82,3243,0,300
+KXNEWPOPE-35-RLEO,Who will the next Pope be?,World,top_yes,4,1,96,99,2352.0,4.083333333333333,12.4,3243,0,300
+KXPRIMEENGCONSUMPTION-30-HYDROPOWER,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,4,1,96,99,2352.0,4.083333333333333,55.72,2511,0,25
+KXTRILLIONAIRE-30-JB,Will Jeff Bezos be the world's first trillionaire?,Economics,top_yes,4,3,96,97,2352.0,4.083333333333333,191.26,1417,0,0
+KXNEXTUKPM-30-DLAM,Will David Lammy be the next Prime Minister of United Kingdom?,Politics,top_yes,4,0,96,100,2352.0,4.083333333333333,26.92,1417,0,400
+KXNEWPOPE-70-FAMB,Who will the next Pope be?,World,top_yes,5,3,95,97,1862.0,5.157894736842105,58.94,16027,0,20
+KXXISUCCESSOR-45JAN01-LGAN,"Will Li Ganjie become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,5,0,95,100,1862.0,5.157894736842105,0.98,6895,0,400
+KXXISUCCESSOR-45JAN01-MXIN,"Will Ma Xingrui become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,5,0,95,100,1862.0,5.157894736842105,0.46,6895,0,400
+KXXISUCCESSOR-45JAN01-CMIN,"Will Chen Min'er become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,5,0,95,100,1862.0,5.157894736842105,0.46,6895,0,400
+KXXISUCCESSOR-45JAN01-YYON,"Will Yin Yong become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,5,0,95,100,1862.0,5.157894736842105,1.06,6895,0,400
+KXNEXTISRAELPM-45JAN01-IKAT,Will Israel Katz be the next Prime Minister of Israel?,Politics,top_yes,5,2,95,98,1862.0,5.157894736842105,5.14,6896,0,400
+KXNEXTISRAELPM-45JAN01-ALIE,Will Avigdor Lieberman be the next Prime Minister of Israel?,Politics,top_yes,5,2,95,98,1862.0,5.157894736842105,3.54,6896,0,400
+KXNEXTISRAELPM-45JAN01-BSMO,Will Bezalel Smotrich be the next Prime Minister of Israel?,Politics,top_yes,5,2,95,98,1862.0,5.157894736842105,4.38,6896,0,66.67
+KXG7LEADEROUT-45JAN01-FMER,Will Chancellor of Germany be the first to leave office?,Politics,top_yes,5,0,95,100,1862.0,5.157894736842105,41.160000000000004,6896,400,400
+KXPERFORMBONDSONG-35-COL,Who will perform the next James Bond Song?,Entertainment,top_yes,5,0,95,100,1862.0,5.157894736842105,0.54,3243,0,0
+KXNEWPOPE-35-PERD,Who will the next Pope be?,World,top_yes,5,1,95,99,1862.0,5.157894736842105,29.98,3243,0,400
+KXAFRICALEADEROUT-35-PK,Will Paul Kagame leave office next in this set?,Politics,top_yes,5,0,95,100,1862.0,5.157894736842105,2.4,3243,0,400
+KXAFRICALEADEROUT-35-TAS,Will Taye Atske Selassie leave office next in this set?,Politics,top_yes,5,1,95,99,1862.0,5.157894736842105,0.98,3243,0,0
+KXTRILLIONAIRE-30-JH,Will Jensen Huang be the world's first trillionaire?,Economics,top_yes,5,3,95,97,1862.0,5.157894736842105,378.1,1417,0,-40
+KXNEWPOPE-70-PERD,Who will the next Pope be?,World,top_yes,6,3,94,97,1535.3333333333333,6.25531914893617,104.58,16027,20,20
+KXNEWPOPE-70-AARB,Who will the next Pope be?,World,recent_dips,6,3,94,97,1535.3333333333333,6.25531914893617,51.84,16027,-50,-40
+KXXISUCCESSOR-45JAN01-WHUN,"Will Wang Huning become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,0.5,6895,0,0
+KXXISUCCESSOR-45JAN01-HLIF,"Will He Lifeng become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,1.3,6895,0,400
+KXNEXTISRAELPM-45JAN01-YLEV,Will Yariv Levin be the next Prime Minister of Israel?,Politics,top_yes,6,2,94,98,1535.3333333333333,6.25531914893617,15.48,6896,0,500
+KXNEXTISRAELPM-45JAN01-IBEN,Will Itamar Ben-Gvir be the next Prime Minister of Israel?,Politics,top_yes,6,2,94,98,1535.3333333333333,6.25531914893617,13.040000000000001,6896,0,-60
+KXG7LEADEROUT-45JAN01-DJT,Will President of the United States be the first to leave office?,Politics,top_yes,6,3,94,97,1535.3333333333333,6.25531914893617,43.76,6896,0,100
+KXPERFORMBONDSONG-35-ARI,Who will perform the next James Bond Song?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,1.2,3243,0,0
+KXPERFORMBONDSONG-35-TAY,Who will perform the next James Bond Song?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,4.0,3243,0,0
+KXPERFORMBONDSONG-35-U2,Who will perform the next James Bond Song?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,0.38,3243,0,0
+KXPERFORMBONDSONG-35-ELT,Who will perform the next James Bond Song?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,0.28,3243,0,0
+KXPERFORMBONDSONG-35-LEW,Who will perform the next James Bond Song?,Entertainment,top_yes,6,1,94,99,1535.3333333333333,6.25531914893617,0.28,3243,0,0
+KXMOONMAN-31-I,Which country will be the next to send humans to the Moon?,Science and Technology,top_yes,6,4,94,96,1535.3333333333333,6.25531914893617,53.14,1782,0,20
+KXMOONMAN-31-E,Which country will be the next to send humans to the Moon?,Science and Technology,top_yes,6,3,94,97,1535.3333333333333,6.25531914893617,47.94,1782,0,0
+USCLIMATE-2025,Will the US meet its climate goals?,Climate and Weather,top_yes,6,4,94,96,1535.3333333333333,6.25531914893617,780.26,1781,0,100
+KXTVSEASONRELEASETHELASTOFUS-26-JUL,"When will ""The Last of Us"" Season 3 be released?",Entertainment,top_yes,6,2,94,98,1535.3333333333333,6.25531914893617,17.64,136,250,75
+KXBOND-30-TOM,Will Tom Hardy be the next James Bond?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,61.88,1417,0,0
+KXBOND-30-HC,Will Henry Cavill be the next James Bond?,Entertainment,top_yes,6,3,94,97,1535.3333333333333,6.25531914893617,352.88,1417,0,-14.29
+KXBOND-30-DI,Will Damson Idris be the next James Bond?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,135.58,1417,0,-33.33
+KXBOND-30-RM,Will Richard Madden be the next James Bond?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,33.08,1417,0,0
+KXBOND-30-REG,Will RegÃ©-Jean Page be the next James Bond?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,11.64,1417,0,0
+KXBOND-30-CIL,Will Cillian Murphy be the next James Bond?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,26.98,1417,0,0
+KXBOND-30-JON,Will Jonathan Bailey be the next James Bond?,Entertainment,top_yes,6,2,94,98,1535.3333333333333,6.25531914893617,72.64,1417,0,-8.33
+KXBOND-30-CHARL,Will Charlie Hunnam be the next James Bond?,Entertainment,top_yes,6,0,94,100,1535.3333333333333,6.25531914893617,11.6,1417,0,0
+KXNEWPOPE-70-PPIZ,Who will the next Pope be?,World,top_yes,7,4,93,96,1302.0000000000002,7.376344086021505,65.3,16027,0,0
+KXPERSONPRESMAM-45,Will  become President of the United States before 2045?,Politics,top_yes,7,5,93,95,1302.0000000000002,7.376344086021505,290.02,6924,0,40
+KXXISUCCESSOR-45JAN01-YLI,"Will Yin Li become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,7,0,93,100,1302.0000000000002,7.376344086021505,1.16,6895,0,500
+KXXISUCCESSOR-45JAN01-ZGUO,"Will Zhang Guoqing become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,7,0,93,100,1302.0000000000002,7.376344086021505,1.34,6895,0,400
+KXNEXTISRAELPM-45JAN01-YGOL,Will Yair Golan be the next Prime Minister of Israel?,Politics,top_yes,7,2,93,98,1302.0000000000002,7.376344086021505,12.06,6896,0,0
+KXNEXTIRANLEADER-45JAN01-AKHA,Will Ahmad Khatami be the next Supreme Leader of Iran?,Politics,top_yes,7,1,93,99,1302.0000000000002,7.376344086021505,8.2,6896,0,500
+KXNEXTIRANLEADER-45JAN01-MMIR,Will Mohammad Mahdi Mirbagheri be the next Supreme Leader of Iran?,Politics,top_yes,7,2,93,98,1302.0000000000002,7.376344086021505,21.34,6896,0,0
+KXPERFORMBONDSONG-35-SAM,Who will perform the next James Bond Song?,Entertainment,top_yes,7,0,93,100,1302.0000000000002,7.376344086021505,1.52,3243,0,0
+KXPERFORMBONDSONG-35-CHA,Who will perform the next James Bond Song?,Entertainment,top_yes,7,0,93,100,1302.0000000000002,7.376344086021505,2.66,3243,0,500
+KXAFRICALEADEROUT-35-JM,Will John Mahama leave office next in this set?,Politics,top_yes,7,2,93,98,1302.0000000000002,7.376344086021505,0.56,3243,0,0
+KXAFRICALEADEROUT-35-AT,Will Abdelmadjid Tebboune leave office next in this set?,Politics,top_yes,7,2,93,98,1302.0000000000002,7.376344086021505,0.5,3243,0,0
+KXMOONMAN-31-R,Which country will be the next to send humans to the Moon?,Science and Technology,top_yes,7,2,93,98,1302.0000000000002,7.376344086021505,70.66,1782,0,250
+KXPRIMEENGCONSUMPTION-30-SOLAR,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,7,6,93,94,1302.0000000000002,7.376344086021505,253.12,2511,16.67,-12.5
+KXNEXTUKPM-30-ABUR,Will Andy Burnham be the next Prime Minister of United Kingdom?,Politics,top_yes,7,4,93,96,1302.0000000000002,7.376344086021505,509.24,1417,0,-44.44
+KXNEXTUKPM-30-ACAR,Will Al Carns be the next Prime Minister of United Kingdom?,Politics,top_yes,7,4,93,96,1302.0000000000002,7.376344086021505,4.14,1417,0,0
+KXEUEXITCOUNTRY-30-GER,Will Germany vote to leave the EU before 2030?,Politics,top_yes,7,0,93,100,1302.0000000000002,7.376344086021505,3.34,1417,0,0
+KXEUEXITCOUNTRY-30-FRA,Will France vote to leave the EU before 2030?,Politics,top_yes,7,0,93,100,1302.0000000000002,7.376344086021505,4.68,1417,0,0
+KXEUEXITCOUNTRY-30-SPA,Will Spain vote to leave the EU before 2030?,Politics,top_yes,7,0,93,100,1302.0000000000002,7.376344086021505,3.12,1417,0,-30
+KXELONMARS-99,"Will Elon Musk visit Mars before Aug 1, 2099?",World,top_yes,8,7,92,93,1127.0,8.521739130434783,885.46,26830,0,14.29
+KXNEWPOPE-70-LANT,Who will the next Pope be?,World,recent_dips,8,5,92,95,1127.0,8.521739130434783,104.62,16027,-44.44,0
+KXNEWPOPE-70-MZUP,Who will the next Pope be?,World,top_yes,8,4,92,96,1127.0,8.521739130434783,70.32000000000001,16027,0,14.29
+KXXISUCCESSOR-45JAN01-CJIN,"Will Chen Jining become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,8,2,92,98,1127.0,8.521739130434783,13.94,6895,0,350
+KXNEXTISRAELPM-45JAN01-GEIS,Will Gadi Eisenkot be the next Prime Minister of Israel?,Politics,top_yes,8,2,92,98,1127.0,8.521739130434783,8.540000000000001,6896,0,700
+KXNEXTIRANLEADER-45JAN01-AARA,Will Alireza Arafi be the next Supreme Leader of Iran?,Politics,top_yes,8,1,92,99,1127.0,8.521739130434783,14.34,6896,0,0
+KXNEXTIRANLEADER-45JAN01-MQOM,Will Mohsen Qomi be the next Supreme Leader of Iran?,Politics,top_yes,8,1,92,99,1127.0,8.521739130434783,21.04,6896,0,-66.67
+KXPERFORMBONDSONG-35-LAD,Who will perform the next James Bond Song?,Entertainment,top_yes,8,1,92,99,1127.0,8.521739130434783,7.140000000000001,3243,0,0
+KXPERFORMBONDSONG-35-SZA,Who will perform the next James Bond Song?,Entertainment,top_yes,8,2,92,98,1127.0,8.521739130434783,2.38,3243,0,0
+KXPERFORMBONDSONG-35-HAR,Who will perform the next James Bond Song?,Entertainment,top_yes,8,1,92,99,1127.0,8.521739130434783,4.48,3243,0,0
+KXPERFORMBONDSONG-35-ED,Who will perform the next James Bond Song?,Entertainment,top_yes,8,0,92,100,1127.0,8.521739130434783,2.86,3243,0,0
+KXPERFORMBONDSONG-35-SAB,Who will perform the next James Bond Song?,Entertainment,top_yes,8,2,92,98,1127.0,8.521739130434783,5.48,3243,0,33.33
+KXPERFORMBONDSONG-35-MIL,Who will perform the next James Bond Song?,Entertainment,top_yes,8,1,92,99,1127.0,8.521739130434783,1.62,3243,0,0
+KXAFRICALEADEROUT-35-CR,Will Cyril Ramaphosa leave office next in this set?,Politics,top_yes,8,2,92,98,1127.0,8.521739130434783,5.5600000000000005,3243,0,0
+KXAFRICALEADEROUT-35-AFES,Will Abdel Fattah el-Sisi leave office next in this set?,Politics,top_yes,8,2,92,98,1127.0,8.521739130434783,0.44,3243,0,0
+KXTVSEASONRELEASETHELASTOFUS-26-OCT,"When will ""The Last of Us"" Season 3 be released?",Entertainment,top_yes,8,2,92,98,1127.0,8.521739130434783,24.92,228,300,0
+KXTAIWANLVL4-26JUL01,"Will the U.S. State Department issue a Level 4 warning for Taiwan before Jul 1, 2026?",Politics,recent_dips,8,6,92,94,1127.0,8.521739130434783,335.86,136,-44.44,-44.44
+KXNEXTUKPM-30-NF,Will Nigel Farage be the next Prime Minister of United Kingdom?,Politics,high_volume,8,7,92,93,1127.0,8.521739130434783,1804.3600000000001,1417,0,-27.27
+KXNEXTUKPM-30-KB,Will Kemi Badenoch be the next Prime Minister of United Kingdom?,Politics,recent_dips,8,1,92,99,1127.0,8.521739130434783,250.02,1417,-25,-25
+KXNEXTUKPM-30-YCOO,Will Yvette Cooper be the next Prime Minister of United Kingdom?,Politics,top_yes,8,2,92,98,1127.0,8.521739130434783,17.48,1417,0,0
+KXEUREF-30-ITA,Will Italy hold a referendum on leaving the EU?,Politics,top_yes,8,3,92,97,1127.0,8.521739130434783,4.0200000000000005,1417,0,-69.23
+KXEUREF-30-FRA,Will France hold a referendum on leaving the EU?,Politics,top_yes,8,2,92,98,1127.0,8.521739130434783,7.0,1417,0,-71.43
+KXEUEXITCOUNTRY-30-POL,Will Poland vote to leave the EU before 2030?,Politics,top_yes,8,0,92,100,1127.0,8.521739130434783,36.62,1417,0,300
+KXBOND-30-JN,Will James Norton be the next James Bond?,Entertainment,top_yes,8,0,92,100,1127.0,8.521739130434783,64.16,1417,0,0
+KXBOND-30-JAC,Will Jack Lowden be the next James Bond?,Entertainment,recent_dips,8,0,92,100,1127.0,8.521739130434783,42.2,1417,-25,-25
+KXNEWPOPE-70-PPAR,Who will the next Pope be?,World,top_yes,9,6,91,94,990.8888888888889,9.692307692307692,182.36,16027,0,-33.33
+KXNEXTISRAELPM-45JAN01-BGAN,Will Benny Gantz be the next Prime Minister of Israel?,Politics,top_yes,9,4,91,96,990.8888888888889,9.692307692307692,9.42,6896,0,250
+KXNEXTIRANLEADER-45JAN01-GMOH,Will Gholam-Hossein Mohseni-Eje'i be the next Supreme Leader of Iran?,Politics,top_yes,9,4,91,96,990.8888888888889,9.692307692307692,9.82,6896,0,33.33
+KXPERFORMBONDSONG-35-LOR,Who will perform the next James Bond Song?,Entertainment,top_yes,9,1,91,99,990.8888888888889,9.692307692307692,6.44,3243,0,0
+KXEUEXITCOUNTRY-30-ITA,Will Italy vote to leave the EU before 2030?,Politics,top_yes,9,0,91,100,990.8888888888889,9.692307692307692,65.52,1417,0,200
+KXCO2LEVEL-30-460,How bad will CO2 atmospheric concentration get before 2030?,World,top_yes,9,5,91,95,990.8888888888889,9.692307692307692,18.62,1416,0,200
+KXBOND-30-THEO,Will Theo James be the next James Bond?,Entertainment,top_yes,9,6,91,94,990.8888888888889,9.692307692307692,160.02,1417,0,80
+KXBOND-30-HAR,Will Harris Dickinson be the next James Bond?,Entertainment,top_yes,9,3,91,97,990.8888888888889,9.692307692307692,195.32,1417,0,0
+KXBOND-30-TOMH,Will Tom Holland be the next James Bond?,Entertainment,top_yes,9,0,91,100,990.8888888888889,9.692307692307692,142.42000000000002,1417,0,225
+KXNEXTISRAELPM-45JAN01-YLAP,Will Yair Lapid be the next Prime Minister of Israel?,Politics,top_yes,10,5,90,95,882.0,10.888888888888888,32.72,6896,0,-54.55
+KXNEXTISRAELPM-45JAN01-YCOH,Will Yossi Cohen be the next Prime Minister of Israel?,Politics,top_yes,10,4,90,96,882.0,10.888888888888888,19.0,6896,0,0
+KXPRIMEENGCONSUMPTION-30-NUCLEAR,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,10,4,90,96,882.0,10.888888888888888,150.1,2511,150,0
+KXTIMEDECADE20S-30-JHUA,Who will Time name as Person of the Decade?,Politics,top_yes,10,6,90,94,882.0,10.888888888888888,21.04,1447,0,0
+KXPERFORMROLEBRITNEY-MIL,Will Millie Bobby Brown perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,10,0,90,100,882.0,10.888888888888888,0.7000000000000001,1782,0,0
+KXPERFORMROLEBRITNEY-SYD,Will Sydney Sweeney perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,10,0,90,100,882.0,10.888888888888888,1.24,1782,0,0
+KXPERFORMROLEBRITNEY-ANY,Will Anya Taylor-Joy perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,10,0,90,100,882.0,10.888888888888888,0.0,1782,0,0
+KXSONICS-30,Will the Portland Trailblazers be bought and become the Seattle SuperSonics?,Sports,top_yes,10,5,90,95,882.0,10.888888888888888,138.92000000000002,1416,0,0
+KXPOLIOELIM-30,Will there be a year with zero wild polio cases before 2030?,Health,recent_dips,10,8,90,92,882.0,10.888888888888888,488.86,1417,-20,33.33
+KXEUREF-30-GRE,Will Greece hold a referendum on leaving the EU?,Politics,top_yes,10,2,90,98,882.0,10.888888888888888,7.58,1417,0,-16.67
+KXEUEXITCOUNTRY-30-HUN,Will Hungary vote to leave the EU before 2030?,Politics,top_yes,10,5,90,95,882.0,10.888888888888888,78.08,1417,0,-50
+KXNEXTISRAELPM-45JAN01-YGAL,Will Yoav Gallant be the next Prime Minister of Israel?,Politics,top_yes,11,4,89,96,792.909090909091,12.112359550561798,19.32,6896,0,-86.42
+KXPERFORMBONDSONG-35-WEE,Who will perform the next James Bond Song?,Entertainment,top_yes,11,3,89,97,792.909090909091,12.112359550561798,12.76,3243,0,-50
+KXAFRICALEADEROUT-35-WR,Will William Ruto leave office next in this set?,Politics,top_yes,11,10,89,90,792.909090909091,12.112359550561798,7.12,3243,0,0
+KXACTORSONNYCROCKETT-35-OSC,Will Oscar Isaac be casted in the next Miami Vice?,Entertainment,top_yes,11,1,89,99,792.909090909091,12.112359550561798,0.22,3243,0,0
+KXACTORSONNYCROCKETT-35-JAK,Will Jake Gyllenhaal be casted in the next Miami Vice?,Entertainment,top_yes,11,1,89,99,792.909090909091,12.112359550561798,1.1,3243,0,0
+KXACTORSONNYCROCKETT-35-MIL,Will Miles Teller be casted in the next Miami Vice?,Entertainment,top_yes,11,1,89,99,792.909090909091,12.112359550561798,0.16,3243,0,0
+KXACTORSONNYCROCKETT-35-TAY,Will Taylor Kitsch be casted in the next Miami Vice?,Entertainment,top_yes,11,1,89,99,792.909090909091,12.112359550561798,4.6000000000000005,3243,0,0
+KXACTORSONNYCROCKETT-35-GAR,Will Garrett Hedlund be casted in the next Miami Vice?,Entertainment,top_yes,11,1,89,99,792.909090909091,12.112359550561798,0.0,3243,0,0
+KXTIMEDECADE20S-30-XJIN,Who will Time name as Person of the Decade?,Politics,top_yes,11,7,89,93,792.909090909091,12.112359550561798,23.1,1447,0,-12.5
+KXPERFORMROLEBRITNEY-MAR,Will Margot Robbie perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,11,0,89,100,792.909090909091,12.112359550561798,1.5,1782,0,0
+KXPERFORMROLEBRITNEY-ADD,Will Addison Rae perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,11,1,89,99,792.909090909091,12.112359550561798,0.0,1782,0,0
+KXPERFORMROLEBRITNEY-FLO,Will Florence Pugh perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,11,1,89,99,792.909090909091,12.112359550561798,2.22,1782,0,0
+KXTRAVISKELCEWEDDING-30JAN01-HAR,Will Harrison Butker be a Groomsman for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,11,1,89,99,792.909090909091,12.112359550561798,3.08,1417,0,100
+KXBOND-30-IDRIS,Will Idris Elba be the next James Bond?,Entertainment,top_yes,11,7,89,93,792.909090909091,12.112359550561798,107.32000000000001,1417,37.5,37.5
+KXACTORSONNYCROCKETT-35-TOM,Will Tom Hardy be casted in the next Miami Vice?,Entertainment,top_yes,12,11,88,89,718.6666666666666,13.363636363636363,6.4,3243,0,1100
+KXACTORSONNYCROCKETT-35-RIC,Will Richard Madden be casted in the next Miami Vice?,Entertainment,top_yes,12,1,88,99,718.6666666666666,13.363636363636363,1.0,3243,0,0
+KXTIMEDECADE20S-30-SALT,Who will Time name as Person of the Decade?,Politics,top_yes,12,8,88,92,718.6666666666666,13.363636363636363,42.58,1447,0,0
+KXPERFORMROLEBRITNEY-CHL,Will ChloÃ« Grace Moretz perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,12,2,88,98,718.6666666666666,13.363636363636363,0.0,1782,0,0
+KXTAYLORSWIFTWEDDING-30JAN01-ICE,Will Ice Spice be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,12,4,88,96,718.6666666666666,13.363636363636363,21.82,1417,0,72.73
+KXSWIFTKELCEWEDDINGLOCATION-30-OHI,Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?,Social,top_yes,12,2,88,98,718.6666666666666,13.363636363636363,10.32,1416,0,0
+KXEUREF-30-HUN,Will Hungary hold a referendum on leaving the EU?,Politics,top_yes,12,3,88,97,718.6666666666666,13.363636363636363,5.7,1417,0,-27.27
+KXBOND-30-AP,Will Aaron Pierre be the next James Bond?,Entertainment,recent_dips,12,0,88,100,718.6666666666666,13.363636363636363,123.16,1417,-80,-80
+KXNEWPOPE-35-LANT,Who will the next Pope be?,World,top_yes,13,7,87,93,655.8461538461539,14.64367816091954,19.28,3243,0,116.67
+KXPERFORMROLE007-Q-TOM,Will Tom Holland perform as Q in the next James Bond film?,Entertainment,top_yes,13,0,87,100,655.8461538461539,14.64367816091954,0.0,1782,0,0
+KXSWIFTKELCEWEDDINGLOCATION-30-PEN,Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?,Social,recent_dips,13,8,87,92,655.8461538461539,14.64367816091954,66.5,1416,-42.86,-42.86
+KXSWIFTKELCEWEDDINGLOCATION-30-TEN,Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?,Social,recent_dips,13,6,87,94,655.8461538461539,14.64367816091954,36.1,1416,-53.85,50
+KXNEXTUKPM-30-SMAH,Will Shabana Mahmood be the next Prime Minister of United Kingdom?,Politics,top_yes,13,7,87,93,655.8461538461539,14.64367816091954,148.24,1417,0,250
+KXMEDIARELEASEPRISONBREAK-30JAN01-26JUL01,"Will A New Season of Prison Break be released Worldwide before Jan 1, 2030?",Entertainment,top_yes,13,5,87,95,655.8461538461539,14.64367816091954,2.46,136,250,-84.44
+KXIPOAIRTABLE-27JAN01,When will Airtable officially announce an IPO?,Economics,recent_dips,13,6,87,94,655.8461538461539,14.64367816091954,0.9400000000000001,320,-53.85,-14.29
+KXXISUCCESSOR-45JAN01-LXI,"Will Li Xi become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,14,8,86,92,602.0,15.953488372093025,4.22,6895,0,50
+KXACTORSONNYCROCKETT-35-PED,Will Pedro Pascal be casted in the next Miami Vice?,Entertainment,top_yes,14,3,86,97,602.0,15.953488372093025,9.92,3243,0,0
+KXNEXTSPEAKER-31-JJOR,Will Jim Jordan be the next Speaker of the House?,Politics,top_yes,14,10,86,90,602.0,15.953488372093025,14.3,1782,0,0
+KXNEXTSPEAKER-31-SSCA,Will Steve Scalise be the next Speaker of the House?,Politics,top_yes,14,11,86,89,602.0,15.953488372093025,7.72,1782,0,0
+KXPERFORMROLEBRITNEY-EMM,Will Emma Roberts perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,14,4,86,96,602.0,15.953488372093025,2.2800000000000002,1782,0,0
+KXPERFORMROLE007-VILLAIN-BAR,Will Barry Keoghan perform as Villain in the next James Bond film?,Entertainment,top_yes,14,0,86,100,602.0,15.953488372093025,0.0,1782,0,0
+KXPERFORMROLE007-MONEYPENNY-MEG,Will Meg Bellamy perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,14,0,86,100,602.0,15.953488372093025,0.0,1782,0,0
+KXPERFORMROLE007-FELIX-WYA,Will Wyatt Russell perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,14,0,86,100,602.0,15.953488372093025,0.24,1782,0,0
+KXPERFORMROLE007-FELIX-ALB,Will Albert Jones perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,14,0,86,100,602.0,15.953488372093025,0.0,1782,0,0
+KXPERFORMROLE007-FELIX-AAR,Will Aaron Staton perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,14,0,86,100,602.0,15.953488372093025,0.0,1782,0,0
+KXPERFORMROLE007-FELIX-SET,Will Seth Numrich perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,14,0,86,100,602.0,15.953488372093025,0.0,1782,0,0
+KXBOND-30-ATJ,Will Aaron Taylor-Johnson be the next James Bond?,Entertainment,high_volume,14,11,86,89,602.0,15.953488372093025,1508.84,1417,9.09,71.43
+KXBOND-30-JACO,Will Jacob Elordi be the next James Bond?,Entertainment,top_yes,14,10,86,90,602.0,15.953488372093025,389.0,1417,27.27,-36.36
+KXXISUCCESSOR-45JAN01-ZLEJ,"Will Zhao Leji become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,15,7,85,93,555.3333333333334,17.294117647058822,7.84,6895,0,100
+KXPERFORMROLE007-MONEYPENNY-EMM,Will Emma Corrin perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,15,0,85,100,555.3333333333334,17.294117647058822,0.0,1782,0,0
+KXSPORTSOWNERLBJ-30,Will LeBron James be a majority owner of a pro men's basketball team before 2030?,Sports,recent_dips,15,10,85,90,555.3333333333334,17.294117647058822,98.38,1416,-28.57,-28.57
+KXGTAPRICE-100,What will the price of GTA VI be?,Entertainment,high_volume,15,13,85,87,555.3333333333334,17.294117647058822,2134.88,1417,0,25
+KXECCOMPACT-30,Will the National Popular Vote Interstate Compact reach 270 electoral votes before 2030?,Elections,top_yes,15,5,85,95,555.3333333333334,17.294117647058822,1.04,1417,0,0
+KXXISUCCESSOR-45JAN01-CQI,"Will Cai Qi become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,16,7,84,93,514.5,18.666666666666664,6.66,6895,0,12.5
+KXNEXTIRANLEADER-45JAN01-HKHO,Will Hassan Khomeini be the next Supreme Leader of Iran?,Politics,top_yes,16,11,84,89,514.5,18.666666666666664,65.6,6896,0,0
+KXNEWPOPE-35-PPAR,Who will the next Pope be?,World,top_yes,16,12,84,88,514.5,18.666666666666664,80.44,3243,0,45.45
+KXTIMEDECADE20S-30-VZEL,Who will Time name as Person of the Decade?,Politics,top_yes,16,11,84,89,514.5,18.666666666666664,92.9,1447,0,25
+KXTIMEDECADE20S-30-TAY,Who will Time name as Person of the Decade?,Politics,top_yes,16,10,84,90,514.5,18.666666666666664,62.0,1447,0,112.5
+KXPERFORMROLEBRITNEY-SAB,Will Sabrina Carpenter perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,16,7,84,93,514.5,18.666666666666664,3.3200000000000003,1782,0,0
+KXPERFORMROLE007-VILLAIN-ADA,Will Adam Driver perform as Villain in the next James Bond film?,Entertainment,top_yes,16,0,84,100,514.5,18.666666666666664,0.62,1782,0,0
+KXPERFORMROLE007-MONEYPENNY-JODI,Will Jodie Comer perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,16,0,84,100,514.5,18.666666666666664,0.0,1782,0,0
+KXPERFORMROLE007-FELIX-JOH,Will John Hoogenakker perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,16,0,84,100,514.5,18.666666666666664,1.48,1782,0,0
+KXJPMCEONEW-30-JP,Will Jennifer Piepszak succeed Jamie Dimon as CEO of JPMorgan?,Companies,top_yes,16,7,84,93,514.5,18.666666666666664,29.52,1417,0,0
+KXAFRICALEADEROUT-35-EM,Will Emmerson Mnangagwa leave office next in this set?,Politics,top_yes,17,12,83,88,478.47058823529414,20.072289156626503,10.22,3243,0,0
+KXU3MAX-30-20,How high will unemployment get before 2030?,Economics,top_yes,17,9,83,91,478.47058823529414,20.072289156626503,5.98,1419,0,11.11
+KXPERFORMROLE007-MONEYPENNY-JUN,Will Juno Temple perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,17,1,83,99,478.47058823529414,20.072289156626503,0.0,1782,0,0
+KXPERFORMROLE007-MONEYPENNY-ALI,Will Alison Oliver perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,17,1,83,99,478.47058823529414,20.072289156626503,1.56,1782,0,0
+KXPERFORMROLE007-FELIX-CHI,Will Chiwetel Ejiofor perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,17,1,83,99,478.47058823529414,20.072289156626503,0.32,1782,0,0
+KXPERFORMROLE007-FELIX-STE,Will Steven Yeun perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,17,1,83,99,478.47058823529414,20.072289156626503,0.0,1782,0,0
+KXNETWORTHKAICENAT-30,Will KaiCenat become a billionaire before 2030?,Economics,top_yes,17,13,83,87,478.47058823529414,20.072289156626503,5.58,1417,0,0
+KXPERSONPRESFUENTES-45,Will  become President of the United States before 2045?,Politics,recent_dips,18,16,82,84,446.4444444444444,21.51219512195122,644.6800000000001,6903,-15.79,-15.79
+KXPOPCHANGESTATE10-35,Will  experience a population decrease of at least 10% between 2025 and 2035?,Social,top_yes,18,12,82,88,446.4444444444444,21.51219512195122,10.540000000000001,3972,0,-8.33
+KXAFRICALEADEROUT-35-FT,Will FÃ©lix Tshisekedi leave office next in this set?,Politics,top_yes,18,13,82,87,446.4444444444444,21.51219512195122,70.36,3243,0,20
+KXTVSEASONRELEASETHELASTOFUS-27-JAN,"When will ""The Last of Us"" Season 3 be released?",Entertainment,recent_dips,18,14,82,86,446.4444444444444,21.51219512195122,12.56,321,-21.05,0
+KXPRIMEENGCONSUMPTION-30-GAS,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,18,12,82,88,446.4444444444444,21.51219512195122,20.18,2511,0,0
+KXPERFORMROLE007-VILLAIN-ROS,Will Rosamund Pike perform as Villain in the next James Bond film?,Entertainment,top_yes,18,2,82,98,446.4444444444444,21.51219512195122,0.22,1782,0,0
+KXPERFORMROLE007-MONEYPENNY-PHO,Will Phoebe Dynevor perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,18,2,82,98,446.4444444444444,21.51219512195122,0.0,1782,0,0
+KXNEXTUKPM-30-EMIL,Will Ed Miliband be the next Prime Minister of United Kingdom?,Politics,top_yes,18,12,82,88,446.4444444444444,21.51219512195122,308.06,1417,8.33,225
+KXCO2LEVEL-30-455,How bad will CO2 atmospheric concentration get before 2030?,World,top_yes,18,16,82,84,446.4444444444444,21.51219512195122,3.62,1416,0,13.33
+KXERUPTSUPER-0-50JAN01,When will a supervolcano next erupt?,Climate and Weather,recent_dips,19,13,81,87,417.7894736842106,22.98765432098765,249.32,8721,-35,-7.14
+KXXISUCCESSOR-45JAN01-LQIA,"Will Li Qiang become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,19,14,81,86,417.7894736842106,22.98765432098765,18.26,6895,-4.55,61.54
+KXPERFORMROLE007-MONEYPENNY-JOD,Will Jodie Turner-Smith perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,19,3,81,97,417.7894736842106,22.98765432098765,3.12,1782,0,0
+KXPERFORMROLE007-FELIX-ANT,Will Anthony Mackie perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,19,3,81,97,417.7894736842106,22.98765432098765,0.46,1782,0,0
+KXBOND-30-JOS,Will Josh O'Connor be the next James Bond?,Entertainment,top_yes,19,14,81,86,417.7894736842106,22.98765432098765,202.24,1417,0,10.53
+KXCOLONIZEMARS-50,Will humans colonize Mars before 2050?,Science and Technology,recent_dips,20,16,80,84,392.0,24.5,215.48000000000002,8721,-20,-5.88
+KXU3MAX-30-17,How high will unemployment get before 2030?,Economics,top_yes,20,12,80,88,392.0,24.5,5.2,1419,0,0
+KXPERFORMROLE007-VILLAIN-OSC,Will Oscar Isaac perform as Villain in the next James Bond film?,Entertainment,top_yes,20,4,80,96,392.0,24.5,0.0,1782,0,0
+KXPERFORMROLE007-Q-RIC,Will Richard Ayoade perform as Q in the next James Bond film?,Entertainment,top_yes,20,7,80,93,392.0,24.5,1.0,1782,0,0
+KXPERFORMROLE007-FELIX-BOY,Will Boyd Holbrook perform as Felix Leiter in the next James Bond film?,Entertainment,top_yes,20,4,80,96,392.0,24.5,0.16,1782,0,0
+KXTAYLORSWIFTWEDDING-30JAN01-LAN,Will Lana Del Rey be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,20,11,80,89,392.0,24.5,21.64,1417,0,60
+KXNEXTIRANLEADER-45JAN01-MKHA,Will Mojtaba Khamenei be the next Supreme Leader of Iran?,Politics,top_yes,21,19,79,81,368.66666666666663,26.050632911392402,100.8,6896,0,-12.5
+KXPERFORMBONDSONG-35-OLI,Who will perform the next James Bond Song?,Entertainment,top_yes,21,15,79,85,368.66666666666663,26.050632911392402,2.32,3243,0,0
+KXPERFORMROLE007-VILLAIN-PET,Will Peter Dinklage perform as Villain in the next James Bond film?,Entertainment,top_yes,21,7,79,93,368.66666666666663,26.050632911392402,7.0200000000000005,1782,0,-4.55
+KXFYREFESTPRICE-30-5000,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_yes,21,9,79,91,368.66666666666663,26.050632911392402,1.08,1416,0,0
+KXACTORSONNYCROCKETT-35-RYA,Will Ryan Gosling be casted in the next Miami Vice?,Entertainment,top_yes,22,14,78,86,347.45454545454544,27.641025641025642,25.18,3243,0,0
+KXTAYLORSWIFTWEDDING-30JAN01-CAR,Will Cara Delevingne be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,22,11,78,89,347.45454545454544,27.641025641025642,7.6000000000000005,1417,0,-50
+KXDEELRIP-40-RIPP,Will Deel or Rippling IPO first?,Financials,top_yes,23,18,77,82,328.0869565217392,29.272727272727273,28.72,5068,0,9.09
+KXPERFORMBONDSONG-35-OAS,Who will perform the next James Bond Song?,Entertainment,top_yes,23,17,77,83,328.0869565217392,29.272727272727273,43.74,3243,0,0
+USCLIMATE-2030,Will the US meet its climate goals?,Climate and Weather,top_yes,23,17,77,83,328.0869565217392,29.272727272727273,97.16,3607,60,14.29
+KXPERFORMROLE007-VILLAIN-IDR,Will Idris Elba perform as Villain in the next James Bond film?,Entertainment,top_yes,23,7,77,93,328.0869565217392,29.272727272727273,0.16,1782,0,0
+KXPERFORMROLE007-Q-DEV,Will Dev Patel perform as Q in the next James Bond film?,Entertainment,top_yes,23,7,77,93,328.0869565217392,29.272727272727273,0.0,1782,0,0
+KXPERFORMROLE007-MONEYPENNY-NAO,Will Naomie Harris perform as Moneypenny in the next James Bond film?,Entertainment,top_yes,23,7,77,93,328.0869565217392,29.272727272727273,0.0,1782,0,0
+KXPERFORMBONDSONG-35-LAN,Who will perform the next James Bond Song?,Entertainment,top_yes,24,17,76,83,310.3333333333333,30.94736842105263,56.44,3243,0,-37.04
+KXU3MAX-30-15,How high will unemployment get before 2030?,Economics,top_yes,24,16,76,84,310.3333333333333,30.94736842105263,6.58,1419,0,43.75
+KXYTUBESUBSISHOWSPEED-27,When will IShowSpeed reach 100 million Youtube subscribers?,Entertainment,recent_dips,24,20,76,80,310.3333333333333,30.94736842105263,9.84,320,-16.67,5.26
+KXTAIWANLVL4-27JAN01,"Will the U.S. State Department issue a Level 4 warning for Taiwan before Jan 1, 2027?",Politics,high_volume,24,23,76,77,310.3333333333333,30.94736842105263,1451.72,320,-4.17,-4.17
+KXEARTHQUAKECALIFORNIA-35,Will there be an at least 8.0 magnitude earthquake in California before 2035?,Climate and Weather,top_yes,25,19,75,81,294.0,32.666666666666664,352.06,3606,0,31.58
+EVSHARE-30JAN-50,EV market share in 2030?,Climate and Weather,recent_dips,25,21,75,79,294.0,32.666666666666664,128.7,1537,-12,-12
+KXTAYLORSWIFTWEDDING-30JAN01-BLA,Will Blake Lively be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,25,16,75,84,294.0,32.666666666666664,138.6,1417,0,30
+KXTAYLORSWIFTWEDDING-30JAN01-SOP,Will Sophie Turner be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,25,15,75,85,294.0,32.666666666666664,22.64,1417,0,63.64
+KXFYREFESTPRICE-30-3000,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_yes,25,15,75,85,294.0,32.666666666666664,0.04,1416,0,0
+KXG7LEADEROUT-45JAN01-EMAC,Will President of France be the first to leave office?,Politics,top_yes,26,25,74,75,278.9230769230769,34.432432432432435,46.42,6896,0,-21.88
+KXNEXTUKPM-30-WS,Will Wes Streeting be the next Prime Minister of United Kingdom?,Politics,top_yes,26,25,74,75,278.9230769230769,34.432432432432435,623.24,1417,0,-10.34
+KXSPACEXMARS-30,Will SpaceX land anything on Mars before 2030?,Science and Technology,top_yes,27,25,73,75,264.962962962963,36.24657534246575,982.0600000000001,1417,0,-22.86
+KXPERFORMROLE007-Q-AND,Will Andrew Scott perform as Q in the next James Bond film?,Entertainment,top_yes,28,12,72,88,252.0,38.111111111111114,0.0,1782,0,0
+KXNEXTUKPM-30-AR,Will Angela Rayner be the next Prime Minister of United Kingdom?,Politics,top_yes,28,24,72,76,252.0,38.111111111111114,699.58,1417,4,23.81
+KXMEDIARELEASEPRISONBREAK-30JAN01-27JAN01,"Will A New Season of Prison Break be released Worldwide before Jan 1, 2030?",Entertainment,top_yes,28,20,72,80,252.0,38.111111111111114,1.6400000000000001,320,52.63,-3.33
+KXJPMCEONEW-30-TR,Will Troy Rohrbaugh succeed Jamie Dimon as CEO of JPMorgan?,Companies,top_yes,28,23,72,77,252.0,38.111111111111114,58.480000000000004,1417,0,0
+KXMARSVRAIL-50,Will a human land on Mars before California starts high-speed rail?,Science and Technology,top_yes,29,23,71,77,239.93103448275858,40.02816901408451,122.24000000000001,8721,-3.33,7.41
+KXXISUCCESSOR-45JAN01-DXUE,"Will Ding Xuexiang become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",Politics,top_yes,29,28,71,72,239.93103448275858,40.02816901408451,25.22,6895,0,20.83
+KXINDIANAPOWELL-30-GLE,Will Glen Powell be cast in the next Indiana Jones movie?,Entertainment,top_yes,29,25,71,75,239.93103448275858,40.02816901408451,19.52,1689,0,0
+KXU3MAX-30-12,How high will unemployment get before 2030?,Economics,top_yes,29,21,71,79,239.93103448275858,40.02816901408451,7.42,1419,0,31.82
+KXPERFORMROLEBRITNEY-OLI,Will Olivia Holt perform as Britney Spears in Britney Spears Biopic directed by Jon M. Chu?,Entertainment,top_yes,29,20,71,80,239.93103448275858,40.02816901408451,6.1000000000000005,1782,0,5.56
+KXPERFORMROLE007-VILLAIN-CIL,Will Cillian Murphy perform as Villain in the next James Bond film?,Entertainment,top_yes,29,16,71,84,239.93103448275858,40.02816901408451,1.94,1782,0,7.14
+KXJPMCEONEW-30-DP,Will Doug Petno succeed Jamie Dimon as CEO of JPMorgan?,Companies,top_yes,29,21,71,79,239.93103448275858,40.02816901408451,33.78,1417,0,-24.14
+KXTAYLORSWIFTWEDDING-30JAN01-ALA,Will Alana Haim be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,30,20,70,80,228.66666666666666,42.0,3.96,1417,0,0
+KXGTAPRICE-90,What will the price of GTA VI be?,Entertainment,high_volume,30,29,70,71,228.66666666666666,42.0,1401.0,1417,3.45,15.38
+KXFYREFESTPRICE-30-2000,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_yes,30,19,70,81,228.66666666666666,42.0,0.72,1416,0,0
+KXCASECESSION-30,Will a ballot initiative on California secession qualify for a vote before 2030?,World,top_yes,30,29,70,71,228.66666666666666,42.0,25.2,1407,0,31.82
+KXPERFORMBONDSONG-35-DUA,Who will perform the next James Bond Song?,Entertainment,top_yes,31,29,69,71,218.1290322580645,44.028985507246375,126.24000000000001,3243,0,0
+KXTAYLORSWIFTWEDDING-30JAN01-DAN,Will Danielle Haim be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,31,20,69,80,218.1290322580645,44.028985507246375,1.6,1417,0,0
+KXSWIFTKELCEWEDDINGLOCATION-30-NEW,Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?,Social,top_yes,31,25,69,75,218.1290322580645,44.028985507246375,296.1,1416,0,-31.82
+KXAFRICALEADEROUT-35-BT,Will Bola Tinubu leave office next in this set?,Politics,top_yes,32,27,68,73,208.25,46.11764705882353,4.34,3243,0,0
+KXTAYLORSWIFTWEDDING-30JAN01-BRI,Will Brittany Mahomes be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,32,20,68,80,208.25,46.11764705882353,61.28,1417,0,30.43
+KXGTA6SONGS-30-ASI,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,32,24,68,76,208.25,46.11764705882353,1.24,1417,0,-5.26
+KXCO2LEVEL-30-450,How bad will CO2 atmospheric concentration get before 2030?,World,top_yes,32,29,68,71,208.25,46.11764705882353,3.2600000000000002,1416,0,20.69
+KXTVSEASONRELEASETHELASTOFUS-27-APR,"When will ""The Last of Us"" Season 3 be released?",Entertainment,top_yes,33,26,67,74,198.96969696969697,48.26865671641791,27.72,410,0,-21.21
+KXPRIMEENGCONSUMPTION-30-COAL,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,33,28,67,72,198.96969696969697,48.26865671641791,37.480000000000004,2511,0,0
+KXMOONMAN-31-PRC,Which country will be the next to send humans to the Moon?,Science and Technology,top_yes,34,29,66,71,190.23529411764707,50.484848484848484,522.44,1782,17.24,13.33
+KXIPOAIRTABLE-28JAN01,When will Airtable officially announce an IPO?,Economics,top_yes,34,27,66,73,190.23529411764707,50.484848484848484,17.64,685,0,0
+KXTIMEDECADE20S-30-EMUS,Who will Time name as Person of the Decade?,Politics,top_yes,35,32,65,68,182.0,52.76923076923077,240.1,1447,0,-14.29
+KXTAIWANLVL4-28JAN01,"Will the U.S. State Department issue a Level 4 warning for Taiwan before Jan 1, 2028?",Politics,top_yes,35,29,65,71,182.0,52.76923076923077,109.66,685,0,36
+KXGTA6SONGS-30-MAS,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,35,27,65,73,182.0,52.76923076923077,8.540000000000001,1417,0,22.22
+KXUSTAKEOVER-30,Will the US government take control of any AI company or project before 2030?,Politics,recent_dips,36,32,64,68,174.2222222222222,55.125,79.42,1416,-11.11,-13.51
+KXACTORSONNYCROCKETT-35-GLE,Will Glen Powell be casted in the next Miami Vice?,Entertainment,top_yes,37,28,63,72,166.86486486486484,57.55555555555556,57.120000000000005,3243,0,-2.63
+KXGTAPRICE-80,What will the price of GTA VI be?,Entertainment,high_volume,37,34,63,66,166.86486486486484,57.55555555555556,1329.02,1417,-2.63,23.33
+KXGTA6SONGS-30-STA,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,37,29,63,71,166.86486486486484,57.55555555555556,1.6600000000000001,1417,0,-42.5
+KXPERFORMROLE007-Q-BEN,Will Ben Whishaw perform as Q in the next James Bond film?,Entertainment,top_yes,38,22,62,78,159.89473684210526,60.064516129032256,0.0,1782,0,0
+KXTAIWANLVL4-29JAN01,"Will the U.S. State Department issue a Level 4 warning for Taiwan before Jan 1, 2029?",Politics,top_yes,38,34,62,66,159.89473684210526,60.064516129032256,155.38,1051,0,18.18
+KXGTA6SONGS-30-XOT,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,38,30,62,70,159.89473684210526,60.064516129032256,5.6000000000000005,1417,0,2.7
+KXGTA6SONGS-30-LOO,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,38,32,62,68,159.89473684210526,60.064516129032256,6.68,1417,18.18,0
+KXIPOAIRTABLE-29JAN01,When will Airtable officially announce an IPO?,Economics,top_yes,39,32,61,68,153.28205128205127,62.65573770491804,0.04,1051,0,0
+KXFDATYPE1DIABETES-33,Will the FDA approve a cure for Type 1 Diabetes before 2033?,Health,recent_dips,40,33,60,67,147.0,65.33333333333333,103.9,2512,-17.07,-17.07
+KXU3MAX-30-10,How high will unemployment get before 2030?,Economics,top_yes,40,34,60,66,147.0,65.33333333333333,48.18,1419,0,17.65
+KXFYREFESTPRICE-30-1750,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_yes,40,29,60,71,147.0,65.33333333333333,1.08,1416,0,0
+KXTAYLORSWIFTWEDDING-30JAN01-ZOE,Will ZoÃ« Kravitz be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,41,32,59,68,141.02439024390242,68.10169491525424,12.700000000000001,1417,0,0
+KXGTA6SONGS-30-GOD,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,41,33,59,67,141.02439024390242,68.10169491525424,7.5200000000000005,1417,0,-34
+KXTAYLORSWIFTWEDDING-30JAN01-EST,Will Este Haim be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,42,35,58,65,135.33333333333331,70.9655172413793,22.78,1417,26.47,2.38
+KXGTA6SONGS-30-BAD,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,42,34,58,66,135.33333333333331,70.9655172413793,2.54,1417,0,0
+KXBOND-30-CAL,Will Callum Turner be the next James Bond?,Entertainment,high_volume,42,37,58,63,135.33333333333331,70.9655172413793,1421.0,1417,2.63,-13.33
+KXOAIANTH-40-OAI,Will OpenAI or Anthropic IPO first?,Financials,top_yes,43,41,57,59,129.90697674418604,73.9298245614035,421.66,5068,7.32,7.32
+KXPRIMEENGCONSUMPTION-30-OIL,What will be the largest source of global primary energy consumption in 2030?,Climate and Weather,top_yes,43,38,57,62,129.90697674418604,73.9298245614035,508.64,2511,15.79,4.76
+KXACTORTOMCRUZ-30-TOM,Will Tom Cruise be cast in a Film With Ana de Armas?,Entertainment,top_yes,44,38,56,62,124.72727272727273,77.0,7.16,1781,0,-13.64
+KXGTA6SONGS-30-SIC,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,44,35,56,65,124.72727272727273,77.0,5.08,1417,0,-24.49
+KXNEXTISRAELPM-45JAN01-NBEN,Will Naftali Bennett be the next Prime Minister of Israel?,Politics,top_yes,45,40,55,60,119.77777777777779,80.18181818181819,162.34,6896,7.89,-12.77
+KXNEXTIRANLEADER-45JAN01-ABO,Will Position abolished be the next Supreme Leader of Iran?,Politics,top_yes,45,40,55,60,119.77777777777779,80.18181818181819,307.14,6896,5.26,11.11
+KXFUSION-30-JAN01,When will nuclear fusion be achieved?,Science and Technology,top_yes,45,43,55,57,119.77777777777779,80.18181818181819,267.44,1416,0,0
+KXTAIWANLVL4-30JAN01,"Will the U.S. State Department issue a Level 4 warning for Taiwan before Jan 1, 2030?",Politics,top_yes,45,39,55,61,119.77777777777779,80.18181818181819,109.9,1416,0,25.71
+KXTAYLORSWIFTWEDDING-30JAN01-EMM,Will Emma Stone be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_yes,46,35,54,65,115.04347826086958,83.48148148148148,9.32,1417,0,0
+KXIPOAIRTABLE-30JAN01,When will Airtable officially announce an IPO?,Economics,top_yes,46,39,54,61,115.04347826086958,83.48148148148148,0.16,1416,17.95,-2.13
+KXGTA6SONGS-30-PEP,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,46,38,54,62,115.04347826086958,83.48148148148148,1.08,1417,0,0
+KXGTA6SONGS-30-MOB,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,46,34,54,66,115.04347826086958,83.48148148148148,1.22,1417,13.89,-12.77
+KXJPMCEONEW-30-ML,Will Marianne Lake succeed Jamie Dimon as CEO of JPMorgan?,Companies,top_yes,47,41,53,59,110.51063829787233,86.9056603773585,117.68,1417,0,-14.58
+KXGTA6SONGS-30-ROC,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,47,39,53,61,110.51063829787233,86.9056603773585,3.86,1417,0,3.12
+KXGTA6SONGS-30-BLI,What songs will be on the GTA 6 radio at launch?,Entertainment,top_yes,48,42,52,58,106.16666666666666,90.46153846153845,14.86,1417,0,-9.43
+KXFUSION-35-JAN01,When will nuclear fusion be achieved?,Science and Technology,top_yes,49,46,51,54,102.0,94.15686274509804,56.18,3242,0,-4.17
+KXROBOTMARS-35,Will a humanoid robot walk on Mars before a human does?,Science and Technology,top_yes,49,46,51,54,102.0,94.15686274509804,656.42,3243,0,2.08
+KXRAMPBREX-40-RAMP,Will Ramp or Brex IPO first?,Financials,top_no,98,91,2,9,1.9999999999999998,4802.0,87.16,5068,0,3.23
+KXU3MAX-30-5,How high will unemployment get before 2030?,Economics,top_no,96,95,4,5,4.083333333333333,2352.0,10.200000000000001,1419,2.15,7.95
+KXGTAPRICE-60,What will the price of GTA VI be?,Entertainment,top_no,96,94,4,6,4.083333333333333,2352.0,162.64000000000001,1417,2.13,-1.03
+EVSHARE-30JAN-10,EV market share in 2030?,Climate and Weather,top_no,95,88,5,12,5.157894736842105,1862.0,21.82,1537,7.95,1.06
+KXTRAVISKELCEWEDDING-30JAN01-JAS,Will Jason Kelce be a Groomsman for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,95,91,5,9,5.157894736842105,1862.0,36.7,1417,0,5.56
+KXNBATEAM-30,Will the NBA approve a new franchise before 2030?,Sports,top_no,93,87,7,13,7.376344086021505,1302.0000000000002,92.10000000000001,1417,8.14,-3.12
+KXMUSKTRILLION-30,Will Elon Musk be a trillionaire before 2030?,Economics,top_no,92,91,8,9,8.521739130434783,1127.0,653.26,1417,0,6.98
+KXMUSKTRILLION-29,Will Elon Musk be a trillionaire before 2029?,Economics,top_no,91,90,9,10,9.692307692307692,990.8888888888889,621.84,1052,-1.1,5.88
+KXCO2LEVEL-30-440,How bad will CO2 atmospheric concentration get before 2030?,World,top_no,91,89,9,11,9.692307692307692,990.8888888888889,10.78,1416,0,0
+KXBUSHBY-30,"When will Karl Bushby reach his home of Hull, England from his walk around the world before 2030?",Transportation,top_no,91,84,9,16,9.692307692307692,990.8888888888889,92.02,1416,0,8.43
+KXTAYLORSWIFTWEDDING-30JAN01-ABI,Will Abigail Anderson (Berard) be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,90,84,10,16,10.888888888888888,882.0,32.02,1417,0,-6.74
+KXTRAVISKELCEWEDDING-30JAN01-PAT,Will Patrick Mahomes be a Groomsman for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,89,85,11,15,12.112359550561798,792.909090909091,122.08,1417,5.95,1.14
+KXTRILLIONAIRE-30-EM,Will Elon Musk be the world's first trillionaire?,Economics,high_volume,88,85,12,15,13.363636363636363,718.6666666666666,1701.78,1417,-7.78,1.22
+KXU3MAX-30-6,How high will unemployment get before 2030?,Economics,top_no,87,81,13,19,14.64367816091954,655.8461538461539,7.68,1419,8.75,7.41
+KXTRAVISKELCEWEDDING-30JAN01-ARI,Will Aric Jones be a Groomsman for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,87,79,13,21,14.64367816091954,655.8461538461539,64.44,1417,0,7.5
+KXTRAVISKELCEWEDDING-30JAN01-KUM,Will Kumar Ferguson be a Groomsman for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,87,77,13,23,14.64367816091954,655.8461538461539,7.66,1417,0,-1.28
+KXMUSKTRILLION-28,Will Elon Musk be a trillionaire before 2028?,Economics,top_no,87,85,13,15,14.64367816091954,655.8461538461539,835.64,686,1.18,1.18
+KXFYREFESTPRICE-30-100,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_no,85,68,15,32,17.294117647058822,555.3333333333334,22.66,1416,0,0
+KXDEELRIP-40-DEEL,Will Deel or Rippling IPO first?,Financials,top_no,82,76,18,24,21.51219512195122,446.4444444444444,50.82,5068,0,-7.32
+KXWARMING-50,Will the world pass 2 degrees Celsius over pre-industrial levels before 2050?,Climate and Weather,top_no,81,78,19,22,22.98765432098765,417.7894736842106,126.58,8721,0,-3.7
+KXTVSEASONRELEASETHELASTOFUS-28-JAN,"When will ""The Last of Us"" Season 3 be released?",Entertainment,top_no,81,74,19,26,22.98765432098765,417.7894736842106,4.3,686,0,1.23
+KXTAYLORSWIFTWEDDING-30JAN01-SEL,Will Selena Gomez be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,80,74,20,26,24.5,392.0,153.54,1417,0,2.53
+KXMUSKTRILLION-27,Will Elon Musk be a trillionaire before 2027?,Economics,high_volume,79,75,21,25,26.050632911392402,368.66666666666663,3100.64,321,-1.32,-2.6
+KXTRAVISKELCEWEDDING-30JAN01-AUS,Will Austin Swift be a Groomsman for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,78,71,22,29,27.641025641025642,347.45454545454544,66.9,1417,0,8.82
+KXFYREFESTPRICE-30-500,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_no,77,67,23,33,29.272727272727273,328.0869565217392,0.56,1416,0,-2.94
+KXFYREFESTPRICE-30-750,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_no,76,65,24,35,30.94736842105263,310.3333333333333,1.0,1416,0,-7.59
+INDIACLIMATE-30,Will India meet its climate goals?,Climate and Weather,top_no,75,72,25,28,32.666666666666664,294.0,113.16,2146,2.63,5.41
+KXNEXTSPEAKER-31-HJEF,Will Hakeem Jeffries be the next Speaker of the House?,Politics,top_no,75,73,25,27,32.666666666666664,294.0,128.0,1782,0,2.63
+KXU3MAX-30-7,How high will unemployment get before 2030?,Economics,top_no,75,67,25,33,32.666666666666664,294.0,4.8,1419,0,10.45
+KXYTUBESUBSISHOWSPEED-30,When will IShowSpeed reach 100 million Youtube subscribers?,Entertainment,top_no,73,63,27,37,36.24657534246575,264.962962962963,0.0,1416,0,0
+KXTAYLORSWIFTWEDDING-30JAN01-GIG,Will Gigi Hadid be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,73,66,27,34,36.24657534246575,264.962962962963,253.04,1417,0,-5.63
+KXGTAPRICE-70,What will the price of GTA VI be?,Entertainment,high_volume,73,71,27,29,36.24657534246575,264.962962962963,1506.68,1417,7.14,7.14
+EVSHARE-30JAN-20,EV market share in 2030?,Climate and Weather,top_no,72,66,28,34,38.111111111111114,252.0,114.74000000000001,1537,0,-1.49
+KXMEDIARELEASEPRISONBREAK-30JAN01-29JAN01,"Will A New Season of Prison Break be released Worldwide before Jan 1, 2030?",Entertainment,top_no,72,62,28,38,38.111111111111114,252.0,0.04,1051,0,0
+KXDATACENTER-30,Will the US start the process of building a nuclear-powered data center on a military base before 2030?,Science and Technology,recent_dips,71,65,29,35,40.02816901408451,239.93103448275858,60.0,1416,-11.11,-4.48
+KXNBASEATTLE-30,Will a Seattle NBA team play a game before 2030?,Sports,top_no,70,65,30,35,42.0,228.66666666666666,253.86,1417,0,-18.75
+KXFYREFESTPRICE-30-1000,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_no,70,60,30,40,42.0,228.66666666666666,0.04,1416,0,0
+KXBLUESPACEX-30,Will Blue Origin land an uncrewed Blue Moon MK1 lander on the moon before SpaceX lands an uncrewed Starship?,Science and Technology,top_no,70,64,30,36,42.0,228.66666666666666,660.32,1417,11.11,20.69
+KXG7LEADEROUT-45JAN01-KSTA,Will Prime Minister of the United Kingdom be the first to leave office?,Politics,top_no,69,66,31,34,44.028985507246375,218.1290322580645,166.04,6896,0,10.17
+KXOAIANTH-40-ANTH,Will Open AI or Anthropic IPO first?,Financials,top_no,69,65,31,35,44.028985507246375,218.1290322580645,445.52,5068,0,12.07
+KXCANADACUP-30,Will a Canadian team win the pro hockey championship by the end of the 2030 season?,Sports,top_no,69,66,31,34,44.028985507246375,218.1290322580645,26.080000000000002,1596,0,-7.35
+KXMEDIARELEASEPRISONBREAK-30JAN01-28JUL01,"Will A New Season of Prison Break be released Worldwide before Jan 1, 2030?",Entertainment,top_no,69,59,31,41,44.028985507246375,218.1290322580645,0.0,867,0,0
+KXYTUBESUBSISHOWSPEED-29,When will IShowSpeed reach 100 million Youtube subscribers?,Entertainment,top_no,68,58,32,42,46.11764705882353,208.25,0.0,1051,0,0
+KXMOONMAN-31-USA,Which country will be the next to send humans to the Moon?,Science and Technology,recent_dips,66,61,34,39,50.484848484848484,190.23529411764707,926.12,1782,-13.04,-16.67
+KXMEDIARELEASEPRISONBREAK-30JAN01-28JAN01,"Will A New Season of Prison Break be released Worldwide before Jan 1, 2030?",Entertainment,top_no,66,56,34,44,50.484848484848484,190.23529411764707,0.0,685,0,0
+KXFYREFESTPRICE-30-1250,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_no,66,54,34,46,50.484848484848484,190.23529411764707,1.68,1416,0,0
+KXSHOWENDSIMPSONS-30,Will there be an announcement that The Simpsons is ending?,Entertainment,top_no,65,57,35,43,52.76923076923077,182.0,29.78,1416,20,1.54
+KXSWIFTKELCEWEDDINGLOCATION-30-RHO,Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?,Social,top_no,63,61,37,39,57.55555555555556,166.86486486486484,901.38,1416,-5.97,-3.08
+KXLIVENATIONUS-30-JAN01,"Will the DOJ win their antitrust lawsuit against Live Nation before Jan 1, 2030?",Companies,top_no,63,59,37,41,57.55555555555556,166.86486486486484,175.34,1417,-3.12,-6.06
+KXTAYLORSWIFTWEDDING-30JAN01-SAB,Will Sabrina Carpenter be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,62,51,38,49,60.064516129032256,159.89473684210526,24.86,1417,0,-8.7
+KXU3MAX-30-8,How high will unemployment get before 2030?,Economics,top_no,60,56,40,44,65.33333333333333,147.0,11.52,1419,0,-1.75
+KXGTA6SONGS-30-DES,What songs will be on the GTA 6 radio at launch?,Entertainment,top_no,57,52,43,48,73.9298245614035,129.90697674418604,14.24,1417,17.31,5.17
+KXFYREFESTPRICE-30-1400,How much will a Fyre Festival 2 General Admission Ticket cost?,Companies,top_no,57,52,43,48,73.9298245614035,129.90697674418604,11.9,1416,0,11.54
+KXCO2LEVEL-30-445,How bad will CO2 atmospheric concentration get before 2030?,World,recent_dips,57,53,43,47,73.9298245614035,129.90697674418604,18.740000000000002,1416,-11.67,-5.36
+KXFUSION-40-JAN01,When will nuclear fusion be achieved?,Science and Technology,top_no,56,53,44,47,77.0,124.72727272727273,105.08,5068,0,0
+KXTVSEASONRELEASEACOURTOFTHORNSANDROSES-30-JAN,When will A Court Of Thorns and Roses be released?,Entertainment,recent_dips,55,54,45,46,80.18181818181819,119.77777777777779,14.08,1417,-12.9,-1.82
+KXSHOWENDFAMILYGUY-30,Will there be an announcement that Family Guy is ending?,Entertainment,top_no,55,46,45,54,80.18181818181819,119.77777777777779,17.26,1416,0,0
+EUCLIMATE-2030,Will the EU meet its climate goals?,Climate and Weather,recent_dips,53,46,47,54,86.9056603773585,110.51063829787233,48.94,2512,-16.67,-15.09
+KXYTUBESUBSISHOWSPEED-28,When will IShowSpeed reach 100 million Youtube subscribers?,Entertainment,top_no,53,44,47,56,86.9056603773585,110.51063829787233,6.72,685,0,-10
+KXTVSEASONRELEASETHELASTOFUS-27-JUL,"When will ""The Last of Us"" Season 3 be released?",Entertainment,top_no,52,47,48,53,90.46153846153845,106.16666666666666,78.66,501,0,-1.96
+KXU3MAX-30-9,How high will unemployment get before 2030?,Economics,top_no,52,51,48,49,90.46153846153845,106.16666666666666,46.94,1419,0,0
+KXMEDIARELEASEPRISONBREAK-30JAN01-27JUL01,"Will A New Season of Prison Break be released Worldwide before Jan 1, 2030?",Entertainment,top_no,52,41,48,59,90.46153846153845,106.16666666666666,2.42,501,0,-19.23
+KXTAYLORSWIFTWEDDING-30JAN01-KYL,Will Kylie Kelce be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?,Social,top_no,51,48,49,52,94.15686274509804,102.0,122.46000000000001,1417,0,76.47
+KXGTA6SONGS-30-SHA,What songs will be on the GTA 6 radio at launch?,Entertainment,top_no,51,48,49,52,94.15686274509804,102.0,2.12,1417,0,9.09
+KXMUSKTRILLION-27,Will Elon Musk be a trillionaire before 2027?,Economics,high_volume,79,75,21,25,26.050632911392402,368.66666666666663,3100.64,321,-1.32,-2.6
+KXGTAPRICE-100,What will the price of GTA VI be?,Entertainment,high_volume,15,13,85,87,555.3333333333334,17.294117647058822,2134.88,1417,0,25
+KXNEXTUKPM-30-NF,Will Nigel Farage be the next Prime Minister of United Kingdom?,Politics,high_volume,8,7,92,93,1127.0,8.521739130434783,1804.3600000000001,1417,0,-27.27
+KXTRILLIONAIRE-30-EM,Will Elon Musk be the world's first trillionaire?,Economics,high_volume,88,85,12,15,13.363636363636363,718.6666666666666,1701.78,1417,-7.78,1.22
+KXBOND-30-ATJ,Will Aaron Taylor-Johnson be the next James Bond?,Entertainment,high_volume,14,11,86,89,602.0,15.953488372093025,1508.84,1417,9.09,71.43
+KXGTAPRICE-70,What will the price of GTA VI be?,Entertainment,high_volume,73,71,27,29,36.24657534246575,264.962962962963,1506.68,1417,7.14,7.14
+KXTAIWANLVL4-27JAN01,"Will the U.S. State Department issue a Level 4 warning for Taiwan before Jan 1, 2027?",Politics,high_volume,24,23,76,77,310.3333333333333,30.94736842105263,1451.72,320,-4.17,-4.17
+KXBOND-30-CAL,Will Callum Turner be the next James Bond?,Entertainment,high_volume,42,37,58,63,135.33333333333331,70.9655172413793,1421.0,1417,2.63,-13.33
+KXGTAPRICE-90,What will the price of GTA VI be?,Entertainment,high_volume,30,29,70,71,228.66666666666666,42.0,1401.0,1417,3.45,15.38
+KXGTAPRICE-80,What will the price of GTA VI be?,Entertainment,high_volume,37,34,63,66,166.86486486486484,57.55555555555556,1329.02,1417,-2.63,23.33
+KXBOND-30-AP,Will Aaron Pierre be the next James Bond?,Entertainment,recent_dips,12,0,88,100,718.6666666666666,13.363636363636363,123.16,1417,-80,-80
+KXSWIFTKELCEWEDDINGLOCATION-30-TEN,Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?,Social,recent_dips,13,6,87,94,655.8461538461539,14.64367816091954,36.1,1416,-53.85,50
+KXIPOAIRTABLE-27JAN01,When will Airtable officially announce an IPO?,Economics,recent_dips,13,6,87,94,655.8461538461539,14.64367816091954,0.9400000000000001,320,-53.85,-14.29
+KXNEWPOPE-70-AARB,Who will the next Pope be?,World,recent_dips,6,3,94,97,1535.3333333333333,6.25531914893617,51.84,16027,-50,-40
+KXNEWPOPE-70-LANT,Who will the next Pope be?,World,recent_dips,8,5,92,95,1127.0,8.521739130434783,104.62,16027,-44.44,0
+KXTAIWANLVL4-26JUL01,"Will the U.S. State Department issue a Level 4 warning for Taiwan before Jul 1, 2026?",Politics,recent_dips,8,6,92,94,1127.0,8.521739130434783,335.86,136,-44.44,-44.44
+KXSWIFTKELCEWEDDINGLOCATION-30-PEN,Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?,Social,recent_dips,13,8,87,92,655.8461538461539,14.64367816091954,66.5,1416,-42.86,-42.86
+KXERUPTSUPER-0-50JAN01,When will a supervolcano next erupt?,Climate and Weather,recent_dips,19,13,81,87,417.7894736842106,22.98765432098765,249.32,8721,-35,-7.14
+KXSPORTSOWNERLBJ-30,Will LeBron James be a majority owner of a pro men's basketball team before 2030?,Sports,recent_dips,15,10,85,90,555.3333333333334,17.294117647058822,98.38,1416,-28.57,-28.57
+KXNEXTUKPM-30-KB,Will Kemi Badenoch be the next Prime Minister of United Kingdom?,Politics,recent_dips,8,1,92,99,1127.0,8.521739130434783,250.02,1417,-25,-25
+KXBOND-30-JAC,Will Jack Lowden be the next James Bond?,Entertainment,recent_dips,8,0,92,100,1127.0,8.521739130434783,42.2,1417,-25,-25
+KXTVSEASONRELEASETHELASTOFUS-27-JAN,"When will ""The Last of Us"" Season 3 be released?",Entertainment,recent_dips,18,14,82,86,446.4444444444444,21.51219512195122,12.56,321,-21.05,0
+KXCOLONIZEMARS-50,Will humans colonize Mars before 2050?,Science and Technology,recent_dips,20,16,80,84,392.0,24.5,215.48000000000002,8721,-20,-5.88
+KXPOLIOELIM-30,Will there be a year with zero wild polio cases before 2030?,Health,recent_dips,10,8,90,92,882.0,10.888888888888888,488.86,1417,-20,33.33
+KXFDATYPE1DIABETES-33,Will the FDA approve a cure for Type 1 Diabetes before 2033?,Health,recent_dips,40,33,60,67,147.0,65.33333333333333,103.9,2512,-17.07,-17.07
+EUCLIMATE-2030,Will the EU meet its climate goals?,Climate and Weather,recent_dips,53,46,47,54,86.9056603773585,110.51063829787233,48.94,2512,-16.67,-15.09
+KXYTUBESUBSISHOWSPEED-27,When will IShowSpeed reach 100 million Youtube subscribers?,Entertainment,recent_dips,24,20,76,80,310.3333333333333,30.94736842105263,9.84,320,-16.67,5.26
+KXPERSONPRESFUENTES-45,Will  become President of the United States before 2045?,Politics,recent_dips,18,16,82,84,446.4444444444444,21.51219512195122,644.6800000000001,6903,-15.79,-15.79
+KXMOONMAN-31-USA,Which country will be the next to send humans to the Moon?,Science and Technology,recent_dips,66,61,34,39,50.484848484848484,190.23529411764707,926.12,1782,-13.04,-16.67
+KXTVSEASONRELEASEACOURTOFTHORNSANDROSES-30-JAN,When will A Court Of Thorns and Roses be released?,Entertainment,recent_dips,55,54,45,46,80.18181818181819,119.77777777777779,14.08,1417,-12.9,-1.82
+EVSHARE-30JAN-50,EV market share in 2030?,Climate and Weather,recent_dips,25,21,75,79,294.0,32.666666666666664,128.7,1537,-12,-12
+KXEARTHQUAKEJAPAN-30,Will there be an at least 8.0 magnitude earthquake in Japan before 2030?,Climate and Weather,recent_dips,50,45,50,55,98.0,98.0,332.94,1416,-11.76,-30.77
+KXCO2LEVEL-30-445,How bad will CO2 atmospheric concentration get before 2030?,World,recent_dips,57,53,43,47,73.9298245614035,129.90697674418604,18.740000000000002,1416,-11.67,-5.36
+KXUSTAKEOVER-30,Will the US government take control of any AI company or project before 2030?,Politics,recent_dips,36,32,64,68,174.2222222222222,55.125,79.42,1416,-11.11,-13.51
+KXDATACENTER-30,Will the US start the process of building a nuclear-powered data center on a military base before 2030?,Science and Technology,recent_dips,71,65,29,35,40.02816901408451,239.93103448275858,60.0,1416,-11.11,-4.48

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tariff Investment Thesis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 16px;
+            line-height: 1.6;
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 100%;
+            background: white;
+            border-radius: 16px;
+            padding: 24px 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            font-size: 24px;
+            color: #1a1a1a;
+            text-align: center;
+            margin-bottom: 4px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .stats-box {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 24px;
+        }
+        
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+        
+        .stat-label {
+            font-weight: 600;
+            color: #555;
+            font-size: 13px;
+        }
+        
+        .stat-value {
+            font-weight: 700;
+            color: #2c5aa0;
+            font-size: 14px;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .highlight-text {
+            color: #856404;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        
+        h2 {
+            font-size: 18px;
+            color: #2c5aa0;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+        
+        h3 {
+            font-size: 15px;
+            color: #444;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        p {
+            font-size: 15px;
+            color: #444;
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+        
+        li {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        
+        .risk-item {
+            background: #fee;
+            border-left: 4px solid #dc3545;
+            padding: 12px 16px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        
+        .risk-title {
+            font-weight: 700;
+            color: #721c24;
+            font-size: 14px;
+        }
+        
+        .risk-prob {
+            display: inline-block;
+            background: #dc3545;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            margin-left: 8px;
+        }
+        
+        .risk-desc {
+            font-size: 13px;
+            color: #856404;
+            margin-top: 4px;
+        }
+        
+        .math-box {
+            background: #e3f2fd;
+            border-radius: 12px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        
+        .math-line {
+            font-size: 14px;
+            color: #1565c0;
+            margin-bottom: 8px;
+        }
+        
+        .math-result {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d47a1;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 2px solid #90caf9;
+        }
+        
+        .conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 28px;
+        }
+        
+        .conclusion h2 {
+            color: white;
+            margin-top: 0;
+        }
+        
+        .conclusion p {
+            color: rgba(255,255,255,0.95);
+            font-size: 15px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 24px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .check-icon {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tariff Revenue</h1>
+        <p class="subtitle">$200-500B Investment Thesis</p>
+        
+        <div class="stats-box">
+            <div class="stat-row">
+                <span class="stat-label">BET</span>
+                <span class="stat-value">YES at 11%</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">INVESTMENT</span>
+                <span class="stat-value">$2.50</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">EXPECTED RETURN</span>
+                <span class="stat-value">15.4% (17 days)</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">ANNUALIZED</span>
+                <span class="stat-value">2,051%</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">RESOLUTION</span>
+                <span class="stat-value">Feb 27, 2026</span>
+            </div>
+        </div>
+        
+        <div class="highlight">
+            <p class="highlight-text">
+                Market prices 11% chance. True probability is ~35% due to already-announced tariffs effective March 12. This creates a 24 percentage point edge.
+            </p>
+        </div>
+        
+        <h2>The Bet</h2>
+        <p>
+            The market is using linear extrapolation from January data ($100B annualized). 
+            It ignores the March 12 tariff implementation that was already announced.
+        </p>
+        
+        <h3>Why 35% is realistic:</h3>
+        <ul>
+            <li>Current: $100B/year run rate</li>
+            <li>+ Steel/aluminum tariffs: +$35B</li>
+            <li>+ Reciprocal tariffs: +$80B</li>
+            <li>+ China escalation: +$50B</li>
+            <li><strong>= $265B potential revenue</strong></li>
+        </ul>
+        
+        <p>
+            Only need $200B to win. Market gives 11% chance. Reality: 35% chance = +EV opportunity.
+        </p>
+        
+        <h2>The Math</h2>
+        <h3>Expected Value Calculation:</h3>
+        <div class="math-box">
+            <div class="math-line"><strong>If Win (35% prob):</strong> +624% return</div>
+            <div class="math-line"><strong>If Lose (65% prob):</strong> -97% return</div>
+            <div class="math-result">Expected Value: +15.4%</div>
+        </div>
+        
+        <h2>Key Risks</h2>
+        
+        <div class="risk-item">
+            <span class="risk-title">Trade Deal Announced</span>
+            <span class="risk-prob">25%</span>
+            <div class="risk-desc">Trump announces deal before Feb 27, tariffs suspended</div>
+        </div>
+        
+        <div class="risk-item">
+            <span class="risk-title">Implementation Delay</span>
+            <span class="risk-prob">20%</span>
+            <div class="risk-desc">March 12 date slips due to legal/admin delays</div>
+        </div>
+        
+        <div class="risk-item">
+            <span class="risk-title">Revenue Dispute</span>
+            <span class="risk-prob">10%</span>
+            <div class="risk-desc">Calculation methodology disagreement</div>
+        </div>
+        
+        <h2>Why This Works</h2>
+        <p>
+            <span class="check-icon">✓</span> <strong>Pre-announced policy:</strong> March 12 tariffs already scheduled<br><br>
+            <span class="check-icon">✓</span> <strong>Administrative implementation:</strong> No Congressional approval needed<br><br>
+            <span class="check-icon">✓</span> <strong>Resolution timing:</strong> Feb 27 captures March announcements<br><br>
+            <span class="check-icon">✓</span> <strong>Market myopia:</strong> Linear extrapolation misses policy shift
+        </p>
+        
+        <div class="conclusion">
+            <h2>Bottom Line</h2>
+            <p>
+                This is a highly asymmetric opportunity. Market sees 11% chance, 
+                but policy trajectory suggests 35%+. Rapid 17-day resolution means 
+                fast capital turnover. Best risk-adjusted opportunity in current market.
+            </p>
+        </div>
+        
+        <div class="footer">
+            <p>Analysis Date: February 10, 2026</p>
+            <p>Full thesis available in OneDrive/Trading/</p>
+        </div>
+    </div>
+</body>
+</html>

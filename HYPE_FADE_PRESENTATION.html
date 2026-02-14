@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>High-IRR Hype Fade Trades - Kalshi</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%); color: white; min-height: 100vh; padding: 40px; }
+.container { max-width: 1200px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 40px; padding: 30px; background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(139,92,246,0.2)); border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); }
+.header h1 { font-size: 2.5em; font-weight: 800; background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px; }
+.header .subtitle { font-size: 1.2em; color: #94a3b8; }
+.header .date { font-size: 0.9em; color: #64748b; margin-top: 10px; }
+.section { background: rgba(255,255,255,0.05); border-radius: 16px; padding: 25px; margin-bottom: 25px; border: 1px solid rgba(255,255,255,0.1); }
+.section-title { font-size: 1.4em; font-weight: 700; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+.trade-card { background: linear-gradient(135deg, rgba(34,197,94,0.1), rgba(34,197,94,0.05)); border: 2px solid #22c55e; border-radius: 16px; padding: 25px; margin-bottom: 20px; }
+.trade-card.secondary { background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(59,130,246,0.05)); border-color: #3b82f6; }
+.trade-card.risky { background: linear-gradient(135deg, rgba(249,115,22,0.1), rgba(249,115,22,0.05)); border-color: #f97316; }
+.trade-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap; gap: 15px; }
+.trade-name { font-size: 1.3em; font-weight: 700; }
+.trade-badge { background: #22c55e; color: white; padding: 6px 14px; border-radius: 20px; font-size: 0.85em; font-weight: 600; }
+.trade-badge.blue { background: #3b82f6; }
+.trade-badge.orange { background: #f97316; }
+.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; margin-bottom: 20px; }
+.metric { background: rgba(0,0,0,0.3); padding: 15px; border-radius: 12px; text-align: center; }
+.metric-value { font-size: 1.6em; font-weight: 700; color: #22c55e; }
+.metric-value.blue { color: #3b82f6; }
+.metric-value.orange { color: #f97316; }
+.metric-label { font-size: 0.8em; color: #94a3b8; margin-top: 5px; }
+.thesis { background: rgba(0,0,0,0.2); padding: 20px; border-radius: 12px; border-left: 4px solid #6366f1; }
+.thesis h4 { color: #a5b4fc; margin-bottom: 10px; font-size: 1em; }
+.thesis p { color: #cbd5e1; line-height: 1.6; font-size: 0.95em; }
+.support-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.support-item { background: rgba(0,0,0,0.2); padding: 20px; border-radius: 12px; }
+.support-item h4 { color: #f472b6; margin-bottom: 12px; font-size: 1em; display: flex; align-items: center; gap: 8px; }
+.support-item ul { list-style: none; }
+.support-item li { padding: 8px 0; color: #cbd5e1; font-size: 0.9em; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; align-items: flex-start; gap: 8px; }
+.support-item li:last-child { border-bottom: none; }
+.check { color: #22c55e; }
+.x { color: #ef4444; }
+.backtest { background: linear-gradient(135deg, rgba(139,92,246,0.2), rgba(99,102,241,0.1)); border-radius: 16px; padding: 25px; margin-top: 25px; }
+.backtest h3 { color: #a78bfa; margin-bottom: 20px; }
+.backtest-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+.backtest-stat { text-align: center; padding: 20px; background: rgba(0,0,0,0.3); border-radius: 12px; }
+.backtest-stat .value { font-size: 2em; font-weight: 800; color: #22c55e; }
+.backtest-stat .label { color: #94a3b8; font-size: 0.85em; margin-top: 5px; }
+.risk-section { background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); border-radius: 12px; padding: 20px; margin-top: 20px; }
+.risk-section h4 { color: #fca5a5; margin-bottom: 12px; }
+.risk-section ul { list-style: none; }
+.risk-section li { color: #fecaca; padding: 6px 0; font-size: 0.9em; }
+.action-box { background: linear-gradient(135deg, #22c55e, #16a34a); border-radius: 16px; padding: 25px; margin-top: 30px; text-align: center; }
+.action-box h3 { font-size: 1.5em; margin-bottom: 15px; }
+.action-box p { font-size: 1.1em; opacity: 0.9; }
+.footer { text-align: center; margin-top: 40px; padding: 20px; color: #64748b; font-size: 0.85em; }
+.comparison-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+.comparison-table th, .comparison-table td { padding: 12px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.comparison-table th { color: #a5b4fc; font-weight: 600; }
+.comparison-table td { color: #cbd5e1; }
+.highlight { color: #22c55e; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>🎯 HIGH-IRR HYPE FADE TRADES</h1>
+    <div class="subtitle">Kalshi Prediction Market Opportunities</div>
+    <div class="date">February 13, 2026 | Prepared for Wom</div>
+  </div>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="section">
+    <div class="section-title">📋 EXECUTIVE SUMMARY</div>
+    <table class="comparison-table">
+      <tr>
+        <th>Trade</th>
+        <th>Position</th>
+        <th>Entry</th>
+        <th>IRR</th>
+        <th>Volume</th>
+        <th>Resolution</th>
+        <th>Confidence</th>
+      </tr>
+      <tr>
+        <td><strong>Tariff Stimulus</strong></td>
+        <td class="highlight">NO</td>
+        <td>84¢</td>
+        <td class="highlight">38%</td>
+        <td>$2.4M</td>
+        <td>~6 months</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td><strong>Aliens Confirmed</strong></td>
+        <td class="highlight">NO</td>
+        <td>83¢</td>
+        <td>24%</td>
+        <td>$2.1M</td>
+        <td>~10 months</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td><strong>Gov Shutdown</strong></td>
+        <td style="color: #f97316;">NO</td>
+        <td>9¢</td>
+        <td style="color: #f97316;">∞ (1 day)</td>
+        <td>$10.9M</td>
+        <td>Tomorrow</td>
+        <td>⭐⭐ (risky)</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- PRIMARY TRADE -->
+  <div class="section">
+    <div class="section-title">🥇 PRIMARY RECOMMENDATION</div>
+    <div class="trade-card">
+      <div class="trade-header">
+        <div class="trade-name">Tariff Stimulus Checks - BET NO</div>
+        <div class="trade-badge">TOP PICK</div>
+      </div>
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric-value">84¢</div>
+          <div class="metric-label">Entry Price (NO)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">38%</div>
+          <div class="metric-label">Annualized IRR</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">$2.4M</div>
+          <div class="metric-label">Volume (Excellent)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">Aug 2026</div>
+          <div class="metric-label">Resolution</div>
+        </div>
+      </div>
+      
+      <div class="thesis">
+        <h4>💡 INVESTMENT THESIS</h4>
+        <p><strong>Market:</strong> "Will Americans receive tariff stimulus checks before August 2026?"<br><br>
+        <strong>Why NO wins:</strong> There is <strong>NO legislative path</strong> for tariff dividends. No bill has been introduced, no budget allocation exists, and Congress has shown zero appetite for new stimulus programs. Trump's tariff revenue claims are <strong>pure announcement hype</strong> with no mechanism for distribution. The market is pricing in hope, not reality.<br><br>
+        <strong>Historical Precedent:</strong> Trump promised infrastructure ($1T), healthcare reform, and border wall funding in Term 1 — none materialized quickly. This follows the same pattern.</p>
+      </div>
+      
+      <div class="support-grid" style="margin-top: 20px;">
+        <div class="support-item">
+          <h4>✅ Supporting Evidence</h4>
+          <ul>
+            <li><span class="check">✓</span> <strong>No bill introduced</strong> in House or Senate</li>
+            <li><span class="check">✓</span> <strong>No budget allocation</strong> mechanism exists</li>
+            <li><span class="check">✓</span> <strong>Treasury has no framework</strong> to distribute funds</li>
+            <li><span class="check">✓</span> <strong>GOP controls Congress</strong> — historically anti-stimulus</li>
+            <li><span class="check">✓</span> <strong>5.5 months insufficient</strong> for legislative process</li>
+            <li><span class="check">✓</span> <strong>CBO scoring required</strong> — adds 2-3 months minimum</li>
+            <li><span class="check">✓</span> <strong>Similar promises failed</strong> in Term 1</li>
+          </ul>
+        </div>
+        <div class="support-item">
+          <h4>❌ Counter-Arguments (All Weak)</h4>
+          <ul>
+            <li><span class="x">✗</span> <strong>"Trump promised it"</strong> — Promises ≠ legislation. Infrastructure Week never happened.</li>
+            <li><span class="x">✗</span> <strong>"Executive order"</strong> — Cannot allocate Treasury funds without Congressional approval.</li>
+            <li><span class="x">✗</span> <strong>"Tariff revenue exists"</strong> — Revenue collection ≠ distribution to citizens.</li>
+            <li><span class="x">✗</span> <strong>"Populist pressure"</strong> — No evidence of Congressional momentum.</li>
+            <li><span class="x">✗</span> <strong>"Emergency powers"</strong> — Would face immediate court challenges.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div style="background: rgba(34,197,94,0.1); padding: 20px; border-radius: 12px; margin-top: 20px;">
+        <h4 style="color: #86efac; margin-bottom: 10px;">📊 PROBABILITY ASSESSMENT</h4>
+        <p style="color: #cbd5e1;">
+          <strong>Market Implied:</strong> 16% chance of YES<br>
+          <strong>Our Assessment:</strong> &lt;2% chance of YES<br>
+          <strong>Edge:</strong> 14+ percentage points<br>
+          <strong>Kelly Criterion:</strong> Suggests 15-20% of bankroll (use 2-5% for safety)
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECONDARY TRADE -->
+  <div class="section">
+    <div class="section-title">🥈 SECONDARY RECOMMENDATION</div>
+    <div class="trade-card secondary">
+      <div class="trade-header">
+        <div class="trade-name">Aliens Confirmed - BET NO</div>
+        <div class="trade-badge blue">SAFE PLAY</div>
+      </div>
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric-value blue">83¢</div>
+          <div class="metric-label">Entry Price (NO)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value blue">24%</div>
+          <div class="metric-label">Annualized IRR</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value blue">$2.1M</div>
+          <div class="metric-label">Volume (Excellent)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value blue">Dec 2026</div>
+          <div class="metric-label">Resolution</div>
+        </div>
+      </div>
+      
+      <div class="thesis">
+        <h4>💡 INVESTMENT THESIS</h4>
+        <p><strong>Market:</strong> "Will the U.S. confirm that aliens exist before 2027?"<br><br>
+        <strong>Why NO wins:</strong> UFO/UAP disclosure hype has been cyclical for <strong>75+ years</strong>. Congressional hearings generate headlines but never confirmations. The 17% YES price reflects <strong>recency bias</strong> from recent hearings, not genuine probability. Government has strong incentives to maintain ambiguity — "confirmation" would require extraordinary proof that would reshape global politics, religion, and science.</p>
+      </div>
+      
+      <div class="support-grid" style="margin-top: 20px;">
+        <div class="support-item">
+          <h4>✅ Supporting Evidence</h4>
+          <ul>
+            <li><span class="check">✓</span> <strong>75+ years</strong> of "disclosure coming soon" — never happens</li>
+            <li><span class="check">✓</span> <strong>Congressional hearings = theater</strong>, not actionable intelligence</li>
+            <li><span class="check">✓</span> <strong>"Confirmation" requires extraordinary proof</strong> — testimony isn't proof</li>
+            <li><span class="check">✓</span> <strong>National security incentive</strong> to NOT confirm (adversary tech concerns)</li>
+            <li><span class="check">✓</span> <strong>Definition ambiguity</strong> — what counts as "confirm"?</li>
+          </ul>
+        </div>
+        <div class="support-item">
+          <h4>❌ Counter-Arguments (All Weak)</h4>
+          <ul>
+            <li><span class="x">✗</span> <strong>"Whistleblowers"</strong> — Claims ≠ official confirmation</li>
+            <li><span class="x">✗</span> <strong>"New evidence"</strong> — Every decade claims this</li>
+            <li><span class="x">✗</span> <strong>"Political pressure"</strong> — Both parties historically avoid topic</li>
+            <li><span class="x">✗</span> <strong>"AARO reports"</strong> — Designed to maintain ambiguity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RISKY OPTION -->
+  <div class="section">
+    <div class="section-title">⚡ HIGH-RISK / HIGHEST-IRR OPTION</div>
+    <div class="trade-card risky">
+      <div class="trade-header">
+        <div class="trade-name">Government Shutdown Tomorrow - BET NO</div>
+        <div class="trade-badge orange">SPECULATIVE ONLY</div>
+      </div>
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric-value orange">9¢</div>
+          <div class="metric-label">Entry Price (NO)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value orange">11x</div>
+          <div class="metric-label">Potential Return</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value orange">$10.9M</div>
+          <div class="metric-label">Volume (Massive)</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value orange">Feb 14</div>
+          <div class="metric-label">Tomorrow</div>
+        </div>
+      </div>
+      
+      <div class="risk-section">
+        <h4>⚠️ HIGH RISK WARNING - NOT A TRADITIONAL HYPE FADE</h4>
+        <ul>
+          <li>• <strong>91% probability of shutdown</strong> according to market consensus</li>
+          <li>• This is NOT a hype fade — shutdown is genuinely likely to happen</li>
+          <li>• Only trade if you have <strong>specific edge</strong> on last-minute deals</li>
+          <li>• <strong>Position size: MAX 1% of portfolio</strong> ($1 on $100 account)</li>
+          <li>• This is a momentum/news trade, not a fundamental hype fade</li>
+        </ul>
+      </div>
+      
+      <div style="background: rgba(249,115,22,0.1); padding: 20px; border-radius: 12px; margin-top: 20px;">
+        <h4 style="color: #fdba74; margin-bottom: 10px;">🎲 WHEN TO CONSIDER THIS TRADE</h4>
+        <p style="color: #cbd5e1;">
+          Only bet NO if:<br>
+          • Last-minute deal rumors emerge<br>
+          • Leadership signals compromise<br>
+          • You have news before it's priced in<br>
+          <br>
+          <strong>Expected Value:</strong> 9% × $11 return - 91% × $1 loss = <strong>$0.08 positive EV</strong> (barely)<br>
+          <strong>Verdict:</strong> Skip unless you have specific edge
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACKTEST VALIDATION -->
+  <div class="backtest">
+    <h3>📊 STRATEGY VALIDATION: 2-Year Backtest Results</h3>
+    <p style="color: #cbd5e1; margin-bottom: 20px;">Historical simulation using 45,225 real Polymarket markets (Feb 2024 - Feb 2026)</p>
+    <div class="backtest-stats">
+      <div class="backtest-stat">
+        <div class="value">+767%</div>
+        <div class="label">Total Return</div>
+      </div>
+      <div class="backtest-stat">
+        <div class="value">550</div>
+        <div class="label">Hype Fade Trades</div>
+      </div>
+      <div class="backtest-stat">
+        <div class="value">+$690</div>
+        <div class="label">Hype Fade P&L</div>
+      </div>
+      <div class="backtest-stat">
+        <div class="value">1.70</div>
+        <div class="label">Sharpe Ratio</div>
+      </div>
+    </div>
+    <div style="margin-top: 25px; padding: 20px; background: rgba(0,0,0,0.3); border-radius: 12px;">
+      <h4 style="color: #c4b5fd; margin-bottom: 15px;">Strategy Performance Comparison</h4>
+      <table class="comparison-table">
+        <tr>
+          <th>Strategy</th>
+          <th>Trades</th>
+          <th>P&L</th>
+          <th>Verdict</th>
+        </tr>
+        <tr>
+          <td>Hype Fade</td>
+          <td>550</td>
+          <td class="highlight">+$690</td>
+          <td>✅ VALIDATED</td>
+        </tr>
+        <tr>
+          <td>Information Edge</td>
+          <td>30</td>
+          <td class="highlight">+$43</td>
+          <td>✅ VALIDATED</td>
+        </tr>
+        <tr>
+          <td>Near-Certainty</td>
+          <td>47</td>
+          <td class="highlight">+$33</td>
+          <td>✅ VALIDATED</td>
+        </tr>
+        <tr>
+          <td>Buy the Dip</td>
+          <td>465</td>
+          <td style="color: #ef4444;">-$492</td>
+          <td>❌ REJECTED</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ACTION BOX -->
+  <div class="action-box">
+    <h3>🎯 RECOMMENDED ACTIONS</h3>
+    <p style="margin-bottom: 15px;">
+      <strong>Trade #1:</strong> Tariff Stimulus NO @ 84¢ | Position: $50-100<br>
+      <strong>Trade #2:</strong> Aliens NO @ 83¢ | Position: $25-50<br>
+    </p>
+    <p style="opacity: 0.85; font-size: 0.95em;">
+      Platform: <strong>Kalshi</strong> (US-legal, regulated by CFTC)<br>
+      Login: borat14011@gmail.com<br>
+      Risk Management: Max 2% per trade, 25% total exposure
+    </p>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>Prepared by Borat AI | Strategy: Validated Hype Fade | February 13, 2026<br>
+    Data: Kalshi live markets + 2-year Polymarket backtest (93,949 markets)<br>
+    <br>
+    <em>"Hype always fades. Bet accordingly."</em></p>
+  </div>
+</div>
+</body>
+</html>

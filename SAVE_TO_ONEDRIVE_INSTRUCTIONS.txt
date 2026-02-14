@@ -1,0 +1,39 @@
+# INSTRUCTIONS TO SAVE AS PDF
+
+## Presentation File:
+- **HTML File:** Polymarket_Investment_Presentation.html
+- **Source:** Polymarket_Investment_Presentation.md
+- **Generated:** 2026-02-13 11:35:41
+
+## Steps to Save as PDF:
+
+### Method 1: Browser Print to PDF
+1. Open `Polymarket_Investment_Presentation.html` in Chrome/Edge/Firefox
+2. Press `Ctrl+P` (Windows) or `Cmd+P` (Mac)
+3. Select "Save as PDF" as destination
+4. Click "Save"
+5. Save to: `OneDrive/Trading/Polymarket_Investment_Presentation.pdf`
+
+### Method 2: Use Print Button
+1. Open `Polymarket_Investment_Presentation.html` in browser
+2. Click the "🖨️ Print/Save as PDF" button (top-right)
+3. Select "Save as PDF"
+4. Save to OneDrive
+
+## OneDrive Path Recommendation:
+```
+OneDrive/Trading/Polymarket_Investment_Presentation.pdf
+```
+
+## Presentation Contents:
+- Executive Summary & Investment Thesis
+- Market Analysis & Fee Structure
+- 6 Novel Trading Strategies
+- Risk Management & Position Sizing
+- Expected Returns & Monte Carlo Simulations
+- Implementation Plan
+
+## Notes:
+- This is the "hardcore presentation" requested on Feb 13, 2026
+- Contains quantitative analysis of Polymarket trading strategies
+- Includes fee-aware edge calculations and risk management

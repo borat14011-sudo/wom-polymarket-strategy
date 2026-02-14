@@ -1,0 +1,288 @@
+{
+  "timestamp": "2026-02-10T09:57:57.374058",
+  "slippage": 0.03,
+  "profitable_bets": [
+    {
+      "question": "Will Cardi B perform during the Super Bowl LX halftime show?",
+      "slug": "will-cardi-b-perform-during-the-super-bowl-lx-halftime-show",
+      "condition_id": "0x891d4a752d5e8e7a7d707b6f40141975f1e469616c4ff74f8cf02869a0159cfa",
+      "volume": 5243583.0188,
+      "volume_24h": 661951.6169999999,
+      "yes_price": 0.9995,
+      "no_price": 0.0005,
+      "yes_cost": 1.0295,
+      "no_cost": 0.0305,
+      "spread": 0.0010000000000000009,
+      "score": 5,
+      "reasons": [
+        "High volume $5,243,583",
+        "Tight spread",
+        "Extreme YES 100.0%",
+        "Hot $661,952 24h"
+      ],
+      "recommendation": "FADE - BET NO",
+      "bet_side": "NO",
+      "entry_cost": 0.0305,
+      "net_profit": 0.9695,
+      "net_roi": 31.78688524590164,
+      "end_date": "2026-02-09",
+      "token_ids": [
+        "40188011078723717028570277979743079995042968731892406119337197516891041207608",
+        "4212073864083190506828878354207604805345868211589284082520031528510579760587"
+      ]
+    },
+    {
+      "question": "Will Elon and DOGE cut between $150-200b in federal spending in 2025?",
+      "slug": "will-elon-and-doge-cut-between-150-200b-in-federal-spending-in-2025",
+      "condition_id": "0xe68594f1350f5535532b24979b5b5c1948432cbfc0c363802c32a8f9ab4e6509",
+      "volume": 331934.357504,
+      "volume_24h": 1816.209622,
+      "yes_price": 0.0015,
+      "no_price": 0.9985,
+      "yes_cost": 0.0315,
+      "no_cost": 1.0285,
+      "spread": 0.001,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Elon NO 99.9% - possible YES value",
+        "Extreme NO 99.9%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.0315,
+      "net_profit": 0.9685,
+      "net_roi": 30.746031746031747,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "47459180813047899567328389455747872955901265556145057896316155826890276004242",
+        "3074032031589250926591186368301243337494992039402397918135503567058257050088"
+      ]
+    },
+    {
+      "question": "Will Elon cut the budget by at least 10% in 2025?",
+      "slug": "will-elon-cut-the-budget-by-at-least-10-in-2025",
+      "condition_id": "0xe9c127a8c35f045d37b5344b0a36711084fa20c2fc1618bf178a5386f90610be",
+      "volume": 173106.371354,
+      "volume_24h": 3149.2310999999995,
+      "yes_price": 0.0015,
+      "no_price": 0.9985,
+      "yes_cost": 0.0315,
+      "no_cost": 1.0285,
+      "spread": 0.001,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Elon NO 99.9% - possible YES value",
+        "Extreme NO 99.9%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.0315,
+      "net_profit": 0.9685,
+      "net_roi": 30.746031746031747,
+      "end_date": "2026-02-28",
+      "token_ids": [
+        "80230236018433940569996058935444651347308266584430516013229815570706872276819",
+        "107000426448217931795450451304515386602910396776318075817601265223856116134349"
+      ]
+    },
+    {
+      "question": "Will Elon and DOGE cut between $100-150b in federal spending in 2025?",
+      "slug": "will-elon-and-doge-cut-between-100-150b-in-federal-spending-in-2025",
+      "condition_id": "0xea644975be7b2ad32b536a94ae21b707ecb2f84290225b24e60ca46dd77903dd",
+      "volume": 297261.373024,
+      "volume_24h": 1742.1933999999999,
+      "yes_price": 0.0025,
+      "no_price": 0.9975,
+      "yes_cost": 0.0325,
+      "no_cost": 1.0275,
+      "spread": 0.003,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Elon NO 99.8% - possible YES value",
+        "Extreme NO 99.8%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.0325,
+      "net_profit": 0.9675,
+      "net_roi": 29.76923076923077,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "110044455628775971785618539427229099821815416148768008176051068105157446559241",
+        "19255594762111702415265750364124818677094538461124581923455280001407159960455"
+      ]
+    },
+    {
+      "question": "Will Trump deport 1,250,000-1,500,000 people?",
+      "slug": "will-trump-deport-1250000-1500000-people",
+      "condition_id": "0x9472be65457510b7fc3477b20ba90910e99d92eac8421a14bf4b7b7a08ef31dc",
+      "volume": 384098.292955,
+      "volume_24h": 3133.4407499999998,
+      "yes_price": 0.0035,
+      "no_price": 0.9965,
+      "yes_cost": 0.0335,
+      "no_cost": 1.0265,
+      "spread": 0.003,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Trump NO overpriced",
+        "Extreme NO 99.7%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.0335,
+      "net_profit": 0.9665,
+      "net_roi": 28.850746268656714,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "73414222381656326204771753454630063673548497164758947581648273905027617570612",
+        "43311793366960417907757893276427136943959788721376762326430771171648759300146"
+      ]
+    },
+    {
+      "question": "Will Trump deport 1,500,000-1,750,000 people?",
+      "slug": "will-trump-deport-1500000-1750000-people",
+      "condition_id": "0xc55db914f0fd1fee18997706712c0dfd8d0369cdbef93a9fef12bd001914ca77",
+      "volume": 404169.39976,
+      "volume_24h": 3177.58875,
+      "yes_price": 0.0035,
+      "no_price": 0.9965,
+      "yes_cost": 0.0335,
+      "no_cost": 1.0265,
+      "spread": 0.003,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Trump NO overpriced",
+        "Extreme NO 99.7%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.0335,
+      "net_profit": 0.9665,
+      "net_roi": 28.850746268656714,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "72354723612769247426741660426331235762851940382312402276325808095604519806766",
+        "114600293444080540179603459515770723592661967180480327891296353898330242622833"
+      ]
+    },
+    {
+      "question": "Will Trump deport 1,750,000-2,000,000 people?",
+      "slug": "will-trump-deport-1750000-2000000-people",
+      "condition_id": "0x50c669f178da4e5bbea7f1be25041fd278914712fa87a6a6f8e57d5923d88dee",
+      "volume": 338344.157571,
+      "volume_24h": 2954.92825,
+      "yes_price": 0.0045,
+      "no_price": 0.9955,
+      "yes_cost": 0.034499999999999996,
+      "no_cost": 1.0255,
+      "spread": 0.005,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Trump NO overpriced",
+        "Extreme NO 99.6%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.034499999999999996,
+      "net_profit": 0.9655,
+      "net_roi": 27.985507246376816,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "24682525479474221428144937281315825971983904267399062415430320764754931667953",
+        "74040420326294854165772767082819937451857852955603897473157746262672057685461"
+      ]
+    },
+    {
+      "question": "Will Trump deport 2,000,000 or more people?",
+      "slug": "will-trump-deport-2000000-or-more-people",
+      "condition_id": "0xb9bbdd34304344dcc45803780a34c97d73a00133a5ecf70f63e1008b8abb2fca",
+      "volume": 354878.43054,
+      "volume_24h": 4265.593,
+      "yes_price": 0.0045,
+      "no_price": 0.9955,
+      "yes_cost": 0.034499999999999996,
+      "no_cost": 1.0255,
+      "spread": 0.005,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Trump NO overpriced",
+        "Extreme NO 99.6%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.034499999999999996,
+      "net_profit": 0.9655,
+      "net_roi": 27.985507246376816,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "72012724360700510767037780555710363830014634797787940282136454146828040926557",
+        "8682484153073832526711485265636767086525069344085206423986003504588877767339"
+      ]
+    },
+    {
+      "question": "Will Trump deport 1,000,000-1,250,000 people?",
+      "slug": "will-trump-deport-1000000-1250000-people",
+      "condition_id": "0x49a20c7523c271099008f3ef9a31521263b24d637959852a391e6b4697b1a437",
+      "volume": 472251.377721,
+      "volume_24h": 3928.8622689999997,
+      "yes_price": 0.005,
+      "no_price": 0.995,
+      "yes_cost": 0.034999999999999996,
+      "no_cost": 1.025,
+      "spread": 0.004,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Trump NO overpriced",
+        "Extreme NO 99.5%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.034999999999999996,
+      "net_profit": 0.965,
+      "net_roi": 27.571428571428573,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "13018971792603393862521629014128024641178044618205296260525674415067194037856",
+        "55881023621710858558280545117465775643848233756850602339827152783696837905531"
+      ]
+    },
+    {
+      "question": "Will Elon and DOGE cut between $50-100b in federal spending in 2025?",
+      "slug": "will-elon-and-doge-cut-between-50-100b-in-federal-spending-in-2025",
+      "condition_id": "0x5533fb9ab797777a243c75b1bf3882c54b1ee91f794730c090bf701598993529",
+      "volume": 372547.288265,
+      "volume_24h": 1618.6163999999999,
+      "yes_price": 0.006,
+      "no_price": 0.994,
+      "yes_cost": 0.036,
+      "no_cost": 1.024,
+      "spread": 0.009999999999999998,
+      "score": 5,
+      "reasons": [
+        "Tight spread",
+        "Elon NO 99.4% - possible YES value",
+        "Extreme NO 99.4%"
+      ],
+      "recommendation": "BET YES",
+      "bet_side": "YES",
+      "entry_cost": 0.036,
+      "net_profit": 0.964,
+      "net_roi": 26.77777777777778,
+      "end_date": "2025-12-31",
+      "token_ids": [
+        "22532055631814907447535815649879981046415248231878961745474659705989546420934",
+        "99478074208094578615268494931219682040135218828258512927013036335093067688695"
+      ]
+    }
+  ],
+  "excluded_count": 0
+}

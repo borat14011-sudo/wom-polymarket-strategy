@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-02-10T22:21:33.660756+00:00",
+  "issues_count": 0,
+  "file_age_minutes": 0.14395006666666665,
+  "issues": [],
+  "log": [
+    "[2026-02-10 22:21:29 UTC] INFO: Starting comprehensive Polymarket data validation...",
+    "[2026-02-10 22:21:29 UTC] INFO: Testing Gamma API connectivity...",
+    "[2026-02-10 22:21:30 UTC] INFO: Gamma API: Retrieved 5 markets",
+    "[2026-02-10 22:21:30 UTC] INFO: Latest Gamma update: 2026-02-10T22:21:24.748503Z",
+    "[2026-02-10 22:21:30 UTC] INFO: Testing CLOB API connectivity...",
+    "[2026-02-10 22:21:33 UTC] INFO: CLOB API: Retrieved 1000 markets",
+    "[2026-02-10 22:21:33 UTC] INFO: Cross-validating prices between Gamma and CLOB APIs...",
+    "[2026-02-10 22:21:33 UTC] INFO: Price cross-validation: PASSED - No significant discrepancies found",
+    "[2026-02-10 22:21:33 UTC] INFO: Checking local file freshness...",
+    "[2026-02-10 22:21:33 UTC] INFO: Local file age: 0.1 minutes",
+    "[2026-02-10 22:21:33 UTC] INFO: Local file freshness: PASSED",
+    "[2026-02-10 22:21:33 UTC] INFO: Checking for duplicate markets...",
+    "[2026-02-10 22:21:33 UTC] INFO: Duplicate check: PASSED - 50 unique markets",
+    "[2026-02-10 22:21:33 UTC] INFO: ============================================================",
+    "[2026-02-10 22:21:33 UTC] INFO: VALIDATION SUMMARY",
+    "[2026-02-10 22:21:33 UTC] INFO: ============================================================",
+    "[2026-02-10 22:21:33 UTC] INFO: ALL CHECKS PASSED - No issues detected"
+  ]
+}

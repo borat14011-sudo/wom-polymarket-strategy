@@ -1,0 +1,82 @@
+================================================================================
+KALSHI REAL-TIME MARKET MONITOR
+Last Update: 2026-02-14 06:34:36
+================================================================================
+
+>>> TOP 5 YES OPPORTUNITIES (Highest Expected Value)
+1. KXG7LEADEROUT-45JAN01-MCAR
+   Will Prime Minister of Canada be the first to leave office?...
+   YES: 1c -> EV: 9702% | NO: 99c
+   Vol: $33 | Days: 6896
+2. KXTRILLIONAIRE-30-BA
+   Will Bernard Arnault & family be the world's first trillionaire?...
+   YES: 1c -> EV: 9702% | NO: 99c
+   Vol: $56 | Days: 1417
+3. KXTRILLIONAIRE-30-WB
+   Will Warren Buffet be the world's first trillionaire?...
+   YES: 1c -> EV: 9702% | NO: 99c
+   Vol: $49 | Days: 1417
+4. KXTRILLIONAIRE-30-SRB
+   Will Sergey Brin be the world's first trillionaire?...
+   YES: 1c -> EV: 9702% | NO: 99c
+   Vol: $7 | Days: 1417
+5. KXTRILLIONAIRE-30-SB
+   Will Steve Ballmer be the world's first trillionaire?...
+   YES: 1c -> EV: 9702% | NO: 99c
+   Vol: $23 | Days: 1417
+
+>>> TOP 5 NO OPPORTUNITIES (Highest Expected Value)
+1. KXRAMPBREX-40-RAMP
+   Will Ramp or Brex IPO first?...
+   NO: 2c -> EV: 4802% | YES: 98c
+   Vol: $87 | Days: 5068
+2. KXU3MAX-30-5
+   How high will unemployment get before 2030?...
+   NO: 4c -> EV: 2352% | YES: 96c
+   Vol: $10 | Days: 1419
+3. KXGTAPRICE-60
+   What will the price of GTA VI be?...
+   NO: 4c -> EV: 2352% | YES: 96c
+   Vol: $163 | Days: 1417
+4. EVSHARE-30JAN-10
+   EV market share in 2030?...
+   NO: 5c -> EV: 1862% | YES: 95c
+   Vol: $22 | Days: 1537
+5. KXTRAVISKELCEWEDDING-30JAN01-JAS
+   Will Jason Kelce be a Groomsman for the wedding of Travis Kelce and Ta...
+   NO: 5c -> EV: 1862% | YES: 95c
+   Vol: $37 | Days: 1417
+
+>>> TOP 5 HIGH VOLUME MARKETS
+1. KXMUSKTRILLION-27: $3101
+   Will Elon Musk be a trillionaire before 2027?...
+2. KXGTAPRICE-100: $2135
+   What will the price of GTA VI be?...
+3. KXNEXTUKPM-30-NF: $1804
+   Will Nigel Farage be the next Prime Minister of United Kingdom?...
+4. KXTRILLIONAIRE-30-EM: $1702
+   Will Elon Musk be the world's first trillionaire?...
+5. KXBOND-30-ATJ: $1509
+   Will Aaron Taylor-Johnson be the next James Bond?...
+
+>>> RECENT PRICE DIPS (>10% Daily Drop)
+1. KXBOND-30-AP: -80.0% drop
+   Will Aaron Pierre be the next James Bond?...
+2. KXSWIFTKELCEWEDDINGLOCATION-30-TEN: -53.9% drop
+   Where will Taylor Swift and Travis Kelceâ€™s Wedding occur?...
+3. KXIPOAIRTABLE-27JAN01: -53.9% drop
+   When will Airtable officially announce an IPO?...
+4. KXNEWPOPE-70-AARB: -50.0% drop
+   Who will the next Pope be?...
+5. KXNEWPOPE-70-LANT: -44.4% drop
+   Who will the next Pope be?...
+
+================================================================================
+SUMMARY STATISTICS
+Total Active Markets: 384
+Top YES Opportunities: 311
+Top NO Opportunities: 64
+High Volume Markets: 10
+Recent Dips: 25
+Near-Term Markets: 0
+================================================================================

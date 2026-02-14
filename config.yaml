@@ -1,0 +1,280 @@
+# ⚙️  Polymarket Hype Trading System - Configuration
+#
+# This is the master configuration file for the entire system.
+# All scripts read from this file (no more hardcoded values!).
+#
+# Last Updated: 2026-02-06
+
+# ============================================================================
+# DATA COLLECTION
+# ============================================================================
+data_collection:
+  # How often to collect data (in minutes)
+  frequency_minutes: 15
+  
+  # Polymarket API endpoints
+  polymarket_api: "https://gamma-api.polymarket.com"
+  clob_api: "https://clob.polymarket.com"
+  
+  # Market filters
+  min_volume_24h: 50000      # Minimum $50K volume to track market
+  max_markets: 50            # Maximum markets to track simultaneously
+  active_only: true          # Only track active markets
+  
+  # Categories to focus on (empty = all categories)
+  categories:
+    - "Crypto"
+    - "Politics"
+    - "Sports"
+    - "Pop Culture"
+  
+  # Liquidity thresholds
+  min_liquidity: 10000       # Minimum $10K liquidity
+
+# ============================================================================
+# TWITTER / X MONITORING
+# ============================================================================
+twitter:
+  # Search keywords (combines with OR logic)
+  keywords:
+    - "polymarket.com"
+    - "#Polymarket"
+    - "prediction market bet"
+    - "betting on"
+  
+  # Collection parameters
+  max_tweets_per_query: 100
+  min_retweets: 5            # Minimum retweets to consider
+  min_likes: 10              # Minimum likes to consider
+  
+  # Bot detection
+  bot_detection: true
+  bot_threshold: 0.7         # 0-1 score (higher = more likely bot)
+  
+  # Hype score weights (must sum to 1.0)
+  hype_weights:
+    volume: 0.25             # Tweet volume weight
+    engagement: 0.30         # Retweets + likes weight
+    velocity: 0.25           # Rate of change weight
+    influencer: 0.10         # Influencer presence weight
+    sentiment: 0.10          # Sentiment score weight
+  
+  # API configuration (if using paid Twitter API)
+  api_enabled: false
+  api_key: ""
+  api_secret: ""
+  bearer_token: ""
+
+# ============================================================================
+# DATABASE
+# ============================================================================
+database:
+  # Database file path (SQLite)
+  path: "polymarket_data.db"
+  
+  # Backup configuration
+  backup_enabled: true
+  backup_interval_hours: 24
+  backup_keep_days: 7
+  backup_compress: true
+  
+  # Size limits (will alert when approaching)
+  max_size_gb: 5
+  warning_size_gb: 4
+  
+  # Maintenance
+  vacuum_enabled: true       # Optimize database weekly
+  vacuum_day: "Sunday"
+
+# ============================================================================
+# SIGNAL GENERATION
+# ============================================================================
+signals:
+  # Entry thresholds (3-signal confirmation)
+  rvr_threshold: 2.0         # Relative Volume Ratio (current / 24h avg)
+  roc_threshold: 0.10        # Rate of Change (10% over 12h)
+  hype_threshold: 70         # Hype score (0-100)
+  
+  # Confirmation requirements
+  min_signals: 3             # All 3 must trigger
+  confirmation_window_hours: 1  # All must trigger within 1 hour
+  
+  # Position sizing
+  base_position_pct: 2.0     # Base position size (% of bankroll)
+  max_position_pct: 5.0      # Maximum single position
+  max_exposure_pct: 25.0     # Maximum total exposure
+  cash_reserve_pct: 50.0     # Minimum cash reserve
+  
+  # Kelly criterion
+  kelly_enabled: true
+  kelly_fraction: 0.25       # Fractional Kelly (conservative)
+  
+  # Liquidity filters
+  min_market_liquidity: 10000
+  max_spread_pct: 5.0        # Maximum bid-ask spread
+  
+  # Exit strategy
+  take_profit:
+    tp1_pct: 8               # First take profit (+8%)
+    tp1_amount: 25           # Sell 25% of position
+    tp2_pct: 15              # Second take profit (+15%)
+    tp2_amount: 50           # Sell 50% of remaining
+    tp3_pct: 25              # Third take profit (+25%)
+    tp3_amount: 25           # Sell remaining
+  
+  stop_loss_pct: 12          # Hard stop loss (-12%)
+  trailing_stop_pct: 5       # Trailing stop after TP2
+
+# ============================================================================
+# RISK MANAGEMENT
+# ============================================================================
+risk:
+  # Loss limits (circuit breakers)
+  daily_loss_limit: 0.05     # Max -5% per day
+  weekly_loss_limit: 0.10    # Max -10% per week
+  monthly_loss_limit: 0.20   # Max -20% per month
+  
+  # Emergency stop
+  circuit_breaker: 0.15      # Close ALL positions at -15% from peak
+  
+  # Exposure limits
+  max_correlated_exposure: 0.40  # Max 40% in correlated markets
+  sector_limits:
+    crypto: 0.30             # Max 30% in crypto markets
+    politics: 0.30           # Max 30% in politics
+    sports: 0.20             # Max 20% in sports
+    other: 0.20              # Max 20% in other
+  
+  # Trading restrictions
+  max_trades_per_day: 10
+  cooldown_after_loss_minutes: 60
+  no_revenge_trading: true   # Enforce cooldown after losses
+
+# ============================================================================
+# CORRELATION ANALYSIS
+# ============================================================================
+correlation:
+  # Statistical thresholds
+  min_samples: 30            # Minimum data points for analysis
+  significance_level: 0.01   # p-value threshold (99% confidence)
+  min_correlation: 0.30      # Minimum correlation coefficient
+  
+  # Lag analysis
+  max_lag_hours: 48          # Test lags up to 48 hours
+  optimal_lag_hours: 6       # Expected optimal lag (2-6 hours)
+  
+  # Granger causality
+  granger_enabled: true
+  granger_max_lag: 12        # Test up to 12 lags
+
+# ============================================================================
+# BACKTESTING
+# ============================================================================
+backtest:
+  # Trading costs (realistic assumptions)
+  slippage_pct: 0.015        # 1.5% slippage
+  fee_pct: 0.02              # 2% fees
+  
+  # Walk-forward validation
+  train_days: 60             # 60-day training window
+  test_days: 30              # 30-day test window
+  step_days: 15              # Roll forward 15 days each iteration
+  
+  # Performance targets
+  target_sharpe: 1.0         # Minimum Sharpe ratio to proceed
+  target_win_rate: 0.50      # Minimum 50% win rate
+  target_profit_factor: 1.5  # Minimum 1.5 profit factor
+  max_drawdown: 0.25         # Maximum 25% drawdown
+
+# ============================================================================
+# ALERTS & NOTIFICATIONS
+# ============================================================================
+alerts:
+  # Telegram bot configuration
+  telegram_enabled: false    # Set to true after setup
+  telegram_token: ""         # Get from @BotFather
+  telegram_chat_id: ""       # Your chat ID
+  
+  # Alert levels
+  send_signal_alerts: true       # BUY/SELL signals
+  send_position_alerts: true     # Position opened/closed
+  send_risk_alerts: true         # Risk limits hit
+  send_system_alerts: true       # System health issues
+  send_daily_summary: true       # Daily performance summary
+  
+  # Alert timing
+  quiet_hours_start: "23:00"     # No alerts after 11 PM
+  quiet_hours_end: "08:00"       # Resume alerts at 8 AM
+  quiet_hours_critical_only: true  # Allow critical alerts during quiet hours
+
+# ============================================================================
+# LOGGING
+# ============================================================================
+logging:
+  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  level: "INFO"
+  
+  # Log rotation
+  rotation: "daily"          # daily, weekly, size-based
+  max_files: 30              # Keep last 30 log files
+  max_size_mb: 100           # Rotate when file reaches 100MB
+  
+  # Log format
+  format: "[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+  
+  # Performance logging
+  log_api_calls: false       # Log every API call (verbose)
+  log_trades: true           # Log all trade signals
+  log_performance: true      # Log daily performance metrics
+
+# ============================================================================
+# DASHBOARD
+# ============================================================================
+dashboard:
+  # Web server
+  host: "127.0.0.1"          # localhost only (secure)
+  port: 5000
+  debug: false
+  
+  # Refresh rates (seconds)
+  refresh_market_data: 60
+  refresh_signals: 30
+  refresh_performance: 300   # 5 minutes
+  
+  # Features
+  show_orderbook: true
+  show_historical_charts: true
+  show_signal_history: true
+  show_performance_metrics: true
+
+# ============================================================================
+# ADVANCED
+# ============================================================================
+advanced:
+  # Portfolio optimization
+  portfolio_optimization: false  # Enable ML-based optimization
+  rebalance_frequency_hours: 24
+  
+  # Adaptive parameters
+  adaptive_thresholds: false     # Auto-tune signal thresholds
+  learning_rate: 0.01
+  
+  # Market microstructure
+  analyze_orderbook: false       # Deep orderbook analysis
+  detect_whales: false           # Large position tracking
+  
+  # Performance
+  cache_enabled: true
+  cache_ttl_seconds: 300
+  batch_insert_size: 100
+  connection_pool_size: 5
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# - Edit this file to customize system behavior
+# - Restart system after changes: python run-system.py restart
+# - All percentage values are decimals (0.05 = 5%)
+# - Timestamps use ISO 8601 format
+# - For help, see: QUICKSTART.md or README.md

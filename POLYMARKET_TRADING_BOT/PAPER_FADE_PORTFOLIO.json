@@ -1,0 +1,89 @@
+{
+  "portfolio_name": "PAPER_FADE_PORTFOLIO",
+  "start_date": "2026-02-09",
+  "initial_capital": 95.00,
+  "current_capital": 95.00,
+  "total_pnl": 0.00,
+  "total_pnl_pct": 0.00,
+  "strategy": "FADE_HYPE_SYSTEM",
+  "positions": [
+    {
+      "id": 1,
+      "market": "Trump Deportations <250K",
+      "slug": "will-trump-deport-less-than-250000",
+      "position": "BUY_YES",
+      "entry_price": 0.97,
+      "size": 10.00,
+      "contracts": 10.31,
+      "strategy": "POLITICAL_HYPE_FADE",
+      "expected_return": 1.18,
+      "expected_profit": 1.03,
+      "entry_date": "2026-02-09",
+      "expiration": "2025-12-31",
+      "status": "OPEN",
+      "rationale": "97% YES overpriced. Historical deportations max 433K. Infrastructure limits at 300K/year."
+    },
+    {
+      "id": 2,
+      "market": "Elon DOGE Cuts <$50B",
+      "slug": "will-elon-and-doge-cut-less-than-50b",
+      "position": "BUY_YES", 
+      "entry_price": 0.97,
+      "size": 10.00,
+      "contracts": 10.31,
+      "strategy": "MUSK_HYPE_FADE",
+      "expected_return": 1.15,
+      "expected_profit": 0.97,
+      "entry_date": "2026-02-09",
+      "expiration": "2025-12-31",
+      "status": "OPEN",
+      "rationale": "97% YES overpriced. Bureaucratic constraints limit cuts. 5x infrastructure needed for $50B+."
+    },
+    {
+      "id": 3,
+      "market": "MSTR 500K BTC Dec 31",
+      "slug": "microstrategy-500k-btc-dec-31",
+      "position": "BUY_NO",
+      "entry_price": 0.835,
+      "size": 15.00,
+      "contracts": 17.96,
+      "strategy": "BTC_TIME_BIAS",
+      "expected_return": 1.20,
+      "expected_profit": 2.48,
+      "entry_date": "2026-02-09",
+      "expiration": "2025-12-31",
+      "status": "OPEN",
+      "rationale": "83.5¢ NO undervalued. MSTR needs 100K+ BTC in 10 months. Historical pace 10K/quarter."
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-02-09T03:12:00",
+      "action": "BUY_YES",
+      "market": "Trump Deportations <250K",
+      "price": 0.97,
+      "size": 10.00,
+      "fees": 0.15,
+      "net_cost": 9.85
+    },
+    {
+      "date": "2026-02-09T03:12:00",
+      "action": "BUY_YES",
+      "market": "Elon DOGE Cuts <$50B",
+      "price": 0.97,
+      "size": 10.00,
+      "fees": 0.15,
+      "net_cost": 9.85
+    },
+    {
+      "date": "2026-02-09T03:12:00",
+      "action": "BUY_NO",
+      "market": "MSTR 500K BTC Dec 31",
+      "price": 0.835,
+      "size": 15.00,
+      "fees": 0.23,
+      "net_cost": 14.77
+    }
+  ],
+  "last_updated": "2026-02-09T03:12:00"
+}

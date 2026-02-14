@@ -1,0 +1,4 @@
+# Wallet A Configuration (if we get private key)
+WALLET_ADDRESS = "0x9e24439aC551E757E8d578614336b4e482aC9EEF"
+PRIVATE_KEY = "REPLACE_IF_WE_GET_IT"
+BALANCE = 10.41

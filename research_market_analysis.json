@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-02-12T19:40:33.212194",
+  "pm_count": 100,
+  "kalshi_count": 200,
+  "top_movers": [
+    "GTA VI released before June 2026?",
+    "Will Trump deport 250,000-500,000 people?",
+    "Will the Minnesota Wild win the 2026 NHL Stanley Cup?",
+    "Will the New York Islanders win the 2026 NHL Stanley Cup?",
+    "Will the Los Angeles Kings win the 2026 NHL Stanley Cup?"
+  ],
+  "dips": [
+    {
+      "q": "Will the Minnesota Wild win the 2026 NHL Stanley Cup?",
+      "price": 0.0565,
+      "volume": 5277804.08891
+    },
+    {
+      "q": "Will the Boston Celtics win the 2026 NBA Finals?",
+      "price": 0.0605,
+      "volume": 3668998.18704
+    },
+    {
+      "q": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+      "price": 0.0645,
+      "volume": 2686000.067545
+    },
+    {
+      "q": "Will the New York Knicks win the 2026 NBA Finals?",
+      "price": 0.055,
+      "volume": 2244526.519645
+    },
+    {
+      "q": "Will Trump deport less than 250,000?",
+      "price": 0.058,
+      "volume": 1100779.902896
+    }
+  ]
+}

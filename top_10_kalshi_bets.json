@@ -1,0 +1,122 @@
+[
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Tom Hardy be casted in the next Miami Vice?",
+    "ticker": "KXACTORSONNYCROCKETT-35-TOM",
+    "price": 11.5,
+    "previous_price": 1.0,
+    "spike_pct": 1050.0,
+    "volume": 320,
+    "category": "Entertainment",
+    "expected_value": 523.0,
+    "reasoning": "Price spiked 1050.0% from 1.0\u00a2. Expected 50% fade (525.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Taylor Kitsch be casted in the next Miami Vice?",
+    "ticker": "KXACTORSONNYCROCKETT-35-TAY",
+    "price": 6.0,
+    "previous_price": 1.0,
+    "spike_pct": 500.0,
+    "volume": 230,
+    "category": "Entertainment",
+    "expected_value": 248.0,
+    "reasoning": "Price spiked 500.0% from 1.0\u00a2. Expected 50% fade (250.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Gadi Eisenkot be the next Prime Minister of Israel?",
+    "ticker": "KXNEXTISRAELPM-45JAN01-GEIS",
+    "price": 5.0,
+    "previous_price": 1.0,
+    "spike_pct": 400.0,
+    "volume": 427,
+    "category": "Politics",
+    "expected_value": 198.0,
+    "reasoning": "Price spiked 400.0% from 1.0\u00a2. Expected 50% fade (200.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Who will perform the next James Bond Song?",
+    "ticker": "KXPERFORMBONDSONG-35-LOR",
+    "price": 5.0,
+    "previous_price": 1.0,
+    "spike_pct": 400.0,
+    "volume": 324,
+    "category": "Entertainment",
+    "expected_value": 198.0,
+    "reasoning": "Price spiked 400.0% from 1.0\u00a2. Expected 50% fade (200.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Yair Golan be the next Prime Minister of Israel?",
+    "ticker": "KXNEXTISRAELPM-45JAN01-YGOL",
+    "price": 4.5,
+    "previous_price": 1.0,
+    "spike_pct": 350.0,
+    "volume": 603,
+    "category": "Politics",
+    "expected_value": 173.0,
+    "reasoning": "Price spiked 350.0% from 1.0\u00a2. Expected 50% fade (175.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Yariv Levin be the next Prime Minister of Israel?",
+    "ticker": "KXNEXTISRAELPM-45JAN01-YLEV",
+    "price": 4.0,
+    "previous_price": 1.0,
+    "spike_pct": 300.0,
+    "volume": 774,
+    "category": "Politics",
+    "expected_value": 148.0,
+    "reasoning": "Price spiked 300.0% from 1.0\u00a2. Expected 50% fade (150.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Ahmad Khatami be the next Supreme Leader of Iran?",
+    "ticker": "KXNEXTIRANLEADER-45JAN01-AKHA",
+    "price": 4.0,
+    "previous_price": 1.0,
+    "spike_pct": 300.0,
+    "volume": 412,
+    "category": "Politics",
+    "expected_value": 148.0,
+    "reasoning": "Price spiked 300.0% from 1.0\u00a2. Expected 50% fade (150.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Yin Li become the next leader of the Chinese Communist Party (CCP) before Jan 1, 2045?",
+    "ticker": "KXXISUCCESSOR-45JAN01-YLI",
+    "price": 3.5,
+    "previous_price": 1.0,
+    "spike_pct": 250.0,
+    "volume": 58,
+    "category": "Politics",
+    "expected_value": 123.0,
+    "reasoning": "Price spiked 250.0% from 1.0\u00a2. Expected 50% fade (125.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Israel Katz be the next Prime Minister of Israel?",
+    "ticker": "KXNEXTISRAELPM-45JAN01-IKAT",
+    "price": 3.5,
+    "previous_price": 1.0,
+    "spike_pct": 250.0,
+    "volume": 257,
+    "category": "Politics",
+    "expected_value": 123.0,
+    "reasoning": "Price spiked 250.0% from 1.0\u00a2. Expected 50% fade (125.0%) minus 2.0% fees. Bet NO."
+  },
+  {
+    "strategy": "Hype Fade",
+    "market": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
+    "ticker": "KXNEXTISRAELPM-45JAN01-ALIE",
+    "price": 3.5,
+    "previous_price": 1.0,
+    "spike_pct": 250.0,
+    "volume": 177,
+    "category": "Politics",
+    "expected_value": 123.0,
+    "reasoning": "Price spiked 250.0% from 1.0\u00a2. Expected 50% fade (125.0%) minus 2.0% fees. Bet NO."
+  }
+]

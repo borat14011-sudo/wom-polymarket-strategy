@@ -1,0 +1,131 @@
+{
+  "analysis_timestamp": "2026-02-10T14:14:03.851189",
+  "total_markets": 200,
+  "opportunities_found": 4,
+  "top_opportunities": [
+    {
+      "rank": 1,
+      "score": 95,
+      "market_id": "556062",
+      "question": "MegaETH market cap (FDV) >$2B one day after launch?",
+      "slug": "megaeth-market-cap-fdv-2b-one-day-after-launch-738-867",
+      "target_outcome": "Yes",
+      "target_price": 0.175,
+      "volume": 5094590.970448,
+      "liquidity": 74190.4599,
+      "days_to_resolution": -42,
+      "ev_analysis": {
+        "Yes": {
+          "market_price": 0.175,
+          "execution_price": 0.17587499999999998,
+          "potential_win": 0.8076424999999999,
+          "potential_loss": 0.17587499999999998,
+          "edge": 3.7142857142857144,
+          "ev_percent": 371.42857142857144
+        },
+        "No": {
+          "market_price": 0.825,
+          "execution_price": 0.8208749999999999,
+          "potential_win": 0.17554250000000007,
+          "potential_loss": 0.8208749999999999,
+          "edge": 3.7142857142857126,
+          "ev_percent": 371.4285714285713
+        }
+      },
+      "slippage": 0.005
+    },
+    {
+      "rank": 2,
+      "score": 80,
+      "market_id": "517311",
+      "question": "Will Trump deport 250,000-500,000 people?",
+      "slug": "will-trump-deport-250000-500000-people",
+      "target_outcome": "Yes",
+      "target_price": 0.875,
+      "volume": 3885934.592974,
+      "liquidity": 5955.76783,
+      "days_to_resolution": -42,
+      "ev_analysis": {
+        "Yes": {
+          "market_price": 0.875,
+          "execution_price": 0.84875,
+          "potential_win": 0.148225,
+          "potential_loss": 0.84875,
+          "edge": 6.0,
+          "ev_percent": 600.0
+        },
+        "No": {
+          "market_price": 0.125,
+          "execution_price": 0.12875,
+          "potential_win": 0.853825,
+          "potential_loss": 0.12875,
+          "edge": 6.0,
+          "ev_percent": 600.0
+        }
+      },
+      "slippage": 0.03
+    },
+    {
+      "rank": 3,
+      "score": 80,
+      "market_id": "537484",
+      "question": "Will the U.S. collect less than $100b in revenue in 2025?",
+      "slug": "will-the-us-collect-less-than-100b-in-revenue-in-2025",
+      "target_outcome": "Yes",
+      "target_price": 0.854,
+      "volume": 1313954.187334,
+      "liquidity": 26577.60193,
+      "days_to_resolution": 17,
+      "ev_analysis": {
+        "Yes": {
+          "market_price": 0.854,
+          "execution_price": 0.84119,
+          "potential_win": 0.15563380000000002,
+          "potential_loss": 0.84119,
+          "edge": 4.84931506849315,
+          "ev_percent": 484.931506849315
+        },
+        "No": {
+          "market_price": 0.146,
+          "execution_price": 0.14819,
+          "potential_win": 0.8347737999999999,
+          "potential_loss": 0.14819,
+          "edge": 4.8493150684931505,
+          "ev_percent": 484.93150684931504
+        }
+      },
+      "slippage": 0.015
+    },
+    {
+      "rank": 4,
+      "score": 75,
+      "market_id": "537486",
+      "question": "Will the U.S. collect between $200b and $500b in revenue in 2025?",
+      "slug": "will-the-us-collect-between-200b-and-500b-in-revenue-in-2025",
+      "target_outcome": "Yes",
+      "target_price": 0.11,
+      "volume": 692167.107412,
+      "liquidity": 10429.9804,
+      "days_to_resolution": 17,
+      "ev_analysis": {
+        "Yes": {
+          "market_price": 0.11,
+          "execution_price": 0.1133,
+          "potential_win": 0.868966,
+          "potential_loss": 0.1133,
+          "edge": 7.090909090909092,
+          "ev_percent": 709.0909090909091
+        },
+        "No": {
+          "market_price": 0.89,
+          "execution_price": 0.8633,
+          "potential_win": 0.13396600000000003,
+          "potential_loss": 0.8633,
+          "edge": 7.090909090909092,
+          "ev_percent": 709.0909090909091
+        }
+      },
+      "slippage": 0.03
+    }
+  ]
+}
