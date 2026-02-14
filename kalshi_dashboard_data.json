@@ -1,17 +1,45 @@
 {
-  "last_updated": "2026-02-14T15:37:16.668153+00:00Z",
+  "last_updated": "2026-02-14T15:38:25.351022+00:00Z",
   "account": {
-    "balance": 0.0,
-    "portfolio_value": 0,
-    "total_pnl": 0,
-    "total_pnl_pct": 0.0
+    "balance": 95.19,
+    "portfolio_value": 1.26,
+    "total_pnl": -1.26,
+    "total_pnl_pct": -1.3
   },
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "KXDJTVOSTARIFFS",
+      "side": "no",
+      "quantity": 2,
+      "entry_price": 0,
+      "current_price": 27,
+      "pnl": -0.54,
+      "expiry": ""
+    },
+    {
+      "ticker": "KXGREENLAND-29-26MAY",
+      "side": "no",
+      "quantity": 2,
+      "entry_price": 0,
+      "current_price": 4,
+      "pnl": -0.08,
+      "expiry": ""
+    },
+    {
+      "ticker": "KXGREENLAND-29",
+      "side": "no",
+      "quantity": 2,
+      "entry_price": 0,
+      "current_price": 32,
+      "pnl": -0.64,
+      "expiry": ""
+    }
+  ],
   "recent_trades": [],
   "risk": {
-    "exposure_pct": 0,
-    "max_drawdown_pct": 0,
-    "diversification_score": 0
+    "exposure_pct": 1.3,
+    "max_drawdown_pct": -0.7,
+    "diversification_score": 40
   },
   "opportunities": [],
   "news_signals": [
@@ -1733,5 +1761,12 @@
       "crawled_at": "2026-02-14T15:32:57.271648+00:00"
     }
   ],
-  "price_history": []
+  "price_history": [
+    {
+      "date": "15:38",
+      "KXDJTVOSTARIFFS": 27,
+      "KXGREENLAND-29-26MAY": 4,
+      "KXGREENLAND-29": 32
+    }
+  ]
 }
